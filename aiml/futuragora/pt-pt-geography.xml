@@ -1,0 +1,3381 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
+<category>
+	<pattern>ONDE ESTÁ O EQUADOR</pattern>
+	<template>América do Sul Ocidental, beirando o Oceano Pacífico Equatorial, entre a Colômbia e o Peru.<think><set name="it"><set name="topic">Equador</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A TUSCALOOSA</pattern>
+	<template><set name="it"><set name="topic">TUSCALOOSA</set></set>é no Alabama, última ouvi.</template>
+</category>
+<category>
+	<pattern>ONDE É STONEWALL</pattern>
+	<template><set name="it"><set name="topic">STONEWALL</set></set>é uma cidade no Mississippi.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A NAIROBI</pattern>
+	<template><set name="it"><set name="topic">NAIROBI</set></set>é uma cidade do Quénia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A PENSILVÂNIA</pattern>
+	<template><set name="it">Pensilvânia</set>está localizado no nordeste dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SURINAME</pattern>
+	<template>Norte da América do Sul, na fronteira com o Oceano Atlântico Norte, entre a Guiana e Guiana francesa.<think><set name="it"><set name="topic">Suriname</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA JARVIS</pattern>
+	<template>Oceania, ilha no sul do Oceano Pacífico, cerca de metade do caminho do Havaí, as Ilhas Cook.<think><set name="it"><set name="topic">Ilha Jarvis</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ PARIS</pattern>
+	<template><set name="it">Paris</set>é uma cidade na França.</template>
+</category>
+<category>
+	<pattern>ONDE FICA BRUXELAS</pattern>
+	<template><set name="it">Bruxelas</set>é uma cidade na Bélgica.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ÁSIA</pattern>
+	<template><set name="it">Ásia</set>é um continente maior.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ALBUQUERQUE</pattern>
+	<template><set name="it"><set name="topic">ALBUQUERQUE</set></set>é uma cidade no Novo México.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A AMSTERDAM</pattern>
+	<template><set name="it">Amsterdam</set>é uma cidade dos Países Baixos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ÍNDIA</pattern>
+	<template><set name="it">Índia</set>é um país gigante no sul da Ásia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHAS VIRGENS BRITÂNICAS</pattern>
+	<template>Caribe, entre o mar das Caraíbas e o Oceano Atlântico Norte, a leste de Porto Rico.<think><set name="it"><set name="topic">Ilhas Virgens Britânicas</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O VIETNÃ</pattern>
+	<template><set name="it"><set name="topic">VIETNAME</set></set>é no Sudeste Asiático.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A UCRÂNIA</pattern>
+	<template>Europa Oriental, na fronteira com o mar Negro, entre a Polônia e a Rússia.<think><set name="it"><set name="topic">Ucrânia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ PLUTÃO</pattern>
+	<template><set name="it"><set name="topic">PLUTÃO</set></set>é o nono planeta do sol.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A SUÍÇA</pattern>
+	<template><set name="it">Suíça</set>é um país da Europa de metrô, faz fronteira com Itália, Áustria e França.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TERRITÓRIO BRITÂNICO DO OCEANO ÍNDICO</pattern>
+	<template>Sul da Ásia, arquipélago no Oceano Índico, sobre a metade o caminho da África à Indonésia.<think><set name="it"><set name="topic">território britânico do Oceano Índico</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ SERRA LEOA</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte, entre a Guiné e a Libéria.<think><set name="it"><set name="topic">Serra Leoa</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BETHLEHEM</pattern>
+	<template>Bethlehem, Pensilvânia está localizada na zona Nordeste do Estado, cerca de 90 km de Philadelphia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CABO VERDE</pattern>
+	<template>Na África Ocidental, grupo de ilhas no Oceano Atlântico Norte, oeste de Senegal.<think><set name="it"><set name="topic">cabo verde</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A LETÓNIA</pattern>
+	<template>Europa Oriental, na fronteira com o mar Báltico, entre a Estónia e a Lituânia.<think><set name="it"><set name="topic">Letônia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OCEANO ATLÂNTICO</pattern>
+	<template>corpo de água entre África, Europa, Antártica e do hemisfério ocidental.<think><set name="it"><set name="topic">Oceano Atlântico</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A VENEZUELA</pattern>
+	<template>Norte da América do Sul, na fronteira com o mar do Caribe e o Oceano Atlântico Norte, entre a Colômbia e Guiana.<think><set name="it"><set name="topic">Venezuela</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O KRAFTWERK</pattern>
+	<template>Eles são de Dusseldorf, Alemanha.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ JÚPITER</pattern>
+	<template><set name="it"><set name="topic">JÚPITER</set></set>é o quinto planeta do sol.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A SAMOA OCIDENTAL</pattern>
+	<template>Oceania, grupo de ilhas no Oceano Pacífico Sul, cerca de metade do caminho do Havaí à Nova Zelândia.<think><set name="it"><set name="topic">samoa ocidental</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SAARA OCIDENTAL</pattern>
+	<template>Norte da África, na fronteira com o Oceano Atlântico Norte, entre a Mauritânia e Marrocos.<think><set name="it"><set name="topic">Saara Ocidental</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O AZERBAIJÃO</pattern>
+	<template>Sudoeste asiático, fazendo fronteira com o mar Cáspio, entre o Irão e a Rússia.<think><set name="it"><set name="topic">Azerbaijão</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CONNECTICUT</pattern>
+	<template><set name="it"><set name="topic">CONNECTICUT</set></set>é um estado de Nova Inglaterra entre Nova Iorque, Massaschusetts e Rhode Island.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ÁUSTRIA</pattern>
+	<template>Europa Central, norte da Itália.<think><set name="it"><set name="topic">Áustria</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A INDONÉSIA</pattern>
+	<template><set name="it"><set name="topic">Indonésia</set></set>é uma ilha-nação do Sudeste Asiático.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MIT</pattern>
+	<template><set name="it"><set name="topic">MIT</set></set>é uma escola de comércio em Cambridge, Massachusetts</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O EINSTEIN</pattern>
+	<template><set name="he">Einstein</set>faleceu há algum tempo.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SASKATOON</pattern>
+	<template><set name="it"><set name="topic">SASKATOON</set></set>é uma cidade em Saskatchewan.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MISSISSIPPI</pattern>
+	<template><set name="it">Mississippi</set>é o sul dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ AS ILHAS DO MAR DE CORAL</pattern>
+	<template>Oceania, Ilhas do mar de Coral, nordeste da Austrália.<think><set name="it"><set name="topic">Ilhas do mar de coral</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BULGÁRIA</pattern>
+	<template><set name="it">Bulgária</set>é um país dos Balcãs.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O YAKIMA</pattern>
+	<template><set name="it"><set name="topic">YAKIMA</set></set>é uma cidade e um rio, em Washington.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O DENVER</pattern>
+	<template><set name="it">Denver</set>é uma cidade localizada no Colorado.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ANTÍGUA E BARBUDA</pattern>
+	<template>Caribe, ilhas entre o mar das Caraíbas e o Oceano Atlântico Norte, a leste-sudeste de Porto Rico.<think><set name="it"><set name="topic">Antígua e barbuda</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O IOWA</pattern>
+	<template><set name="it"><set name="topic">IOWA</set></set>é o centro-oeste, entre os rios Mississipi e Missouri.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SRI</pattern>
+	<template><set name="it"><set name="topic">SRI</set></set>é um equipamento de pesquisa no Vale do silício.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SRI LANKA</pattern>
+	<template>Ásia do Sul, ilha no Oceano Índico, sul da Índia.<think><set name="it"><set name="topic">Sri lanka</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É ISSO</pattern>
+	<template>O que \"que\" faz referência a?</template>
+</category>
+<category>
+	<pattern>SÃO FRANCISCO, ONDE É</pattern>
+	<template>Califórnia.</template>
+</category>
+<category>
+	<pattern>CADÊ SAN MARINO</pattern>
+	<template>Sul da Europa, um enclave na Itália central.<think><set name="it"><set name="topic">San marino</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A HUNGRIA</pattern>
+	<template><set name="it">Hungria</set>é um país da Europa central.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TUVALU</pattern>
+	<template>Oceania, grupo constituído por nove atóis de coral no Oceano Pacífico Sul, cerca de metade do caminho do Havaí para a Austrália.<think><set name="it"><set name="topic">Tuvalu</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É SAN JOSE</pattern>
+	<template><set name="it">San Jose</set>é uma cidade na Califórnia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SAN DIEGO</pattern>
+	<template><set name="it">San Diego</set>é uma cidade na Califórnia.</template>
+</category>
+<category>
+	<pattern>ONDE É ESTOCOLMO</pattern>
+	<template><set name="it"><set name="topic">STOCKHOLM</set></set>é uma grande cidade na Suécia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SANTA LÚCIA</pattern>
+	<template>Ilha do Caribe, no mar do Caribe, ao norte de Trinidad e Tobago.<think><set name="it"><set name="topic">Santa Lúcia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SANTA HELENA</pattern>
+	<template>África do Sul, ilha no Oceano Atlântico Sul, oeste de Angola, cerca de dois terços do caminho da América do Sul para a África.<think><set name="it"><set name="topic">Santa helena</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A DINAMARCA</pattern>
+	<template><set name="it">Dinamarca</set>é um país da Europa Ocidental, entre a Alemanha e Noruega.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SÃO VICENTE E GRANADINAS</pattern>
+	<template>Caribe, ilhas no mar do Caribe, ao norte de Trinidad e Tobago.<think><set name="it"><set name="topic">São Vicente e Granadinas</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SAINT PIERRE AND MIQUELON</pattern>
+	<template>Norte da América do Norte, ilhas no Oceano Atlântico Norte, ao sul de terra nova {Canadá}.<think><set name="it"><set name="topic">São Pedro e miquelon</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SÃO CRISTÓVÃO E NEVIS</pattern>
+	<template>Caribe, ilhas no mar do Caribe, cerca de um terço do caminho de Porto Rico para Trinidad e Tobago.<think><set name="it"><set name="topic">São Cristóvão e nevis</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ILHAS PITCAIRN</pattern>
+	<template>Oceania, ilhas no sul do Oceano Pacífico, cerca de metade do caminho do Peru para a Nova Zelândia.<think><set name="it"><set name="topic">Ilhas Pitcairn</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CHIPRE</pattern>
+	<template>Oriente Médio, Ilha do mar Mediterrâneo, ao sul da Turquia.<think><set name="it"><set name="topic">Chipre</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OMAHA</pattern>
+	<template><set name="it"><set name="topic">OMAHA</set></set>é uma cidade localizada no estado americano de Nebraska.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MAURITÂNIA</pattern>
+	<template>Norte da África, na fronteira com o Oceano Atlântico Norte, entre o Senegal e o Saara Ocidental.<think><set name="it"><set name="topic">Mauritânia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A SUÉCIA</pattern>
+	<template><set name="it">Suécia</set>é um país no norte da Europa, fazendo fronteira com a Finlândia e a Noruega.</template>
+</category>
+<category>
+	<pattern>ONDE É A POLÓNIA</pattern>
+	<template>A Polónia é um grande país na Europa central.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ILHAS COCOS</pattern>
+	<template>Sudeste da Ásia, grupo de ilhas no Oceano Índico, ao sul da Indonésia, cerca de metade do caminho da Austrália para o Sri Lanka.<think><set name="it"><set name="topic">Ilhas Cocos {keeling}</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A DOMINICA</pattern>
+	<template>Caribe, ilha, entre o mar das Caraíbas e o Oceano Atlântico Norte, a cerca de metade do caminho de Porto Rico para Trinidad e Tobago.<think><set name="it"><set name="topic">Dominica</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ARÁBIA SAUDITA</pattern>
+	<template>Médio Oriente, na fronteira com o Golfo Pérsico e o mar vermelho, ao norte do Iémen.<think><set name="it"><set name="topic">Arábia Saudita</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ANCARA</pattern>
+	<template><set name="it"><set name="topic">ANCARA</set></set>é uma cidade da Turquia.</template>
+</category>
+<category>
+	<pattern>ONDE É GRANADA</pattern>
+	<template>Ilha do Caribe, no mar do Caribe, ao norte de Trinidad e Tobago.<think><set name="it"><set name="topic">Granada</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A LUA</pattern>
+	<template><set name="it"><set name="topic">LUA</set></set>é um satélite da terra.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SUEZ</pattern>
+	<template><set name="it"><set name="topic">SUEZ</set></set>é um canal entre o Mediterrâneo e o mar vermelho.</template>
+</category>
+<category>
+	<pattern>ONDE FICA ANGOLA</pattern>
+	<template>África do Sul, na fronteira com o Oceano Atlântico Sul, entre a Namíbia e no Zaire.<think><set name="it"><set name="topic">Angola</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ITÁLIA</pattern>
+	<template><set name="it">Itália</set>é na parte sul da Europa.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O LÍBANO</pattern>
+	<template>Médio Oriente, na fronteira com o mar Mediterrâneo, entre Israel e a Síria.<think><set name="it"><set name="topic">Líbano</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PALAU</pattern>
+	<template>Oceania, grupo de ilhas no Oceano Pacífico Norte, a sudeste das Filipinas.<think><set name="it"><set name="topic">Palau</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MAYOTTE</pattern>
+	<template>África do Sul, ilha no canal de Moçambique, cerca de metade do caminho de Madagáscar do Norte ao norte de Moçambique.<think><set name="it"><set name="topic">Mayotte</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ ELE</pattern>
+	<template>Eu acho que ele está na Califórnia agora.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ ELE PARTIR</pattern>
+	<template><get name="he"/>?  Eu acho que ele é do planeta terra.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O UZBEQUISTÃO</pattern>
+	<template>Ásia Central, ao norte do Afeganistão.<think><set name="it"><set name="topic">Uzbequistão</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O KASHMIR</pattern>
+	<template><set name="it"><set name="topic">KASHMIR</set></set>é uma área disputada entre Índia e Paquistão.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BELIZE</pattern>
+	<template>América do meio, na fronteira com o mar do Caribe, entre Guatemala e México.<think><set name="it"><set name="topic">Belize</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ATOL DE JOHNSTON</pattern>
+	<template>Oceania, atol no norte do Oceano Pacífico, cerca de um terço do caminho do Havaí, as Ilhas Marshall.<think><set name="it"><set name="topic">Atol de Johnston</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PAQUISTÃO</pattern>
+	<template>Sudeste da Ásia, grupo de pequenas ilhas e recifes no mar da China Meridional, cerca de um terço do caminho da região central do Vietnã do norte das Filipinas.<think><set name="it"><set name="topic">Ilhas Paracel</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TOLEDO</pattern>
+	<template><set name="it"><set name="topic">TOLEDO</set></set>é uma cidade localizada no estado norte-americano de Ohio.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O HAMBURGO</pattern>
+	<template><set name="it"><set name="topic">HAMBURGO</set></set>é uma grande cidade no oeste da Alemanha.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PORTSMOUTH</pattern>
+	<template>Portsmouth, New Hampshire e Portsmouth, Inglaterra.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A HONDURAS</pattern>
+	<template>América do meio, na fronteira com o mar do Caribe, entre Guatemala e Nicarágua e na fronteira com o norte do Oceano Pacífico, entre El Salvador e Nicarágua.<think><set name="it"><set name="topic">Honduras</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA O EGITO</pattern>
+	<template><set name="it"><set name="topic">Egito</set></set>é um país no norte da África.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ÁFRICA DO SUL</pattern>
+	<template>África do Sul, no extremo sul do continente africano.<think><set name="it"><set name="topic">África do Sul</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A COREIA DO SUL</pattern>
+	<template>Leste da Ásia, metade sul da península coreana, na fronteira com o mar do Japão e do mar amarelo, ao sul da Coreia do Norte.<think><set name="it"><set name="topic">Coreia do Sul</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GUIANA</pattern>
+	<template>Norte da América do Sul, na fronteira com o Oceano Atlântico Norte, entre o Suriname e Venezuela.<think><set name="it"><set name="topic">Guiana</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A CARTAGO</pattern>
+	<template><set name="it"><set name="topic">CARTAGO</set></set>é o nome antigo para a Tunísia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O JERSEY</pattern>
+	<template>Europa Ocidental, ilha no canal da mancha, noroeste da França.<think><set name="it"><set name="topic">Jersey</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O COMORES</pattern>
+	<template>África do Sul, grupo de ilhas no canal de Moçambique, cerca de dois terços do caminho entre Madagascar norte e norte de Moçambique.<think><set name="it"><set name="topic">Comores</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SEYCHELLES</pattern>
+	<template>África Oriental, grupo de ilhas no Oceano Índico, a nordeste de Madagáscar.<think><set name="it"><set name="topic">Seychelles</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ARMÉNIA</pattern>
+	<template>Sudoeste Ásia, leste da Turquia.<think><set name="it"><set name="topic">Armênia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ILHAS COOK</pattern>
+	<template>Oceania, grupo de ilhas no Oceano Pacífico Sul, cerca de metade do caminho do Havaí à Nova Zelândia.<think><set name="it"><set name="topic">Ilhas Cook</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É A ARGENTINA</pattern>
+	<template><set name="it">Argentina</set>é um país da América do Sul.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GUINÉ EQUATORIAL</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte, entre Camarões e Gabão.<think><set name="it"><set name="topic">Guiné Equatorial</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ALBÂNIA</pattern>
+	<template><set name="it"><set name="topic">Albânia</set></set>é no mar Adriático, na fronteira com a Grécia e a antiga Jugoslávia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ILHAS MIDWAY</pattern>
+	<template>Oceania, atol no norte do Oceano Pacífico, cerca de um terço do caminho de Honolulu para Tóquio.<think><set name="it"><set name="topic">ilhas Midway</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TAJIQUISTÃO</pattern>
+	<template>Ásia Central, oeste da China.<think><set name="it"><set name="topic">Tajiquistão</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O DJIBOUTI</pattern>
+	<template>África Oriental, na fronteira com o Golfo de Aden e o mar vermelho, entre a Eritreia e a Somália.<think><set name="it"><set name="topic">Djibuti</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MAINE</pattern>
+	<template><set name="it">Maine</set>está no canto nordeste dos Estados Unidos, na fronteira com o Canadá.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O HOUSTON</pattern>
+	<template><set name="it">Houston</set>é uma cidade no Texas.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MANILA</pattern>
+	<template><set name="it">Manila</set>é uma cidade nas Filipinas.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O NAURU</pattern>
+	<template>Oceania, ilha no sul do Oceano Pacífico, ao sul das Ilhas Marshall.<think><set name="it"><set name="topic">Nauru</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OCEANO ÍNDICO</pattern>
+	<template>corpo de água entre África, Antártica, Ásia e Austrália.<think><set name="it"><set name="topic">Oceano Índico</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BRASIL</pattern>
+	<template>Sudeste da Ásia, arquipélago entre o mar das Filipinas e mar da China Meridional, leste do Vietnã.<think><set name="it"><set name="topic">Filipinas</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA ISRAEL</pattern>
+	<template><set name="it">Israel</set>situa-se no mar Mediterrâneo, no Oriente Médio.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA DE NATAL</pattern>
+	<template>Sudeste da Ásia, ilha no Oceano Índico, ao sul da Indonésia.<think><set name="it"><set name="topic">Ilha Christmas</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ UNIDO REINO</pattern>
+	<template>Europa Ocidental, Ilhas, incluindo o norte de um sexto da ilha da Irlanda, entre o Oceano Atlântico Norte e mar do Norte, noroeste da França.<think><set name="it"><set name="topic">Reino Unido</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ UNIDO DOS ESTADOS</pattern>
+	<template>América do Norte, na fronteira com o Oceano Atlântico Norte e norte do Oceano Pacífico, entre o Canadá e México.<think><set name="it"><set name="topic">Estados Unidos</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O EMIRADOS ÁRABES UNIDOS</pattern>
+	<template>Médio Oriente, na fronteira com o Golfo de Omã e o Golfo Pérsico, entre Omã e a Arábia Saudita.<think><set name="it"><set name="topic">Emirados Árabes Unidos</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PANAMÁ</pattern>
+	<template><set name="it"><set name="topic">Panamá</set></set>é no istmo entre o norte e América do Sul.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ EL SALVADOR</pattern>
+	<template>América do meio, na fronteira com o norte do Oceano Pacífico, entre Guatemala e Honduras.<think><set name="it"><set name="topic">El Salvador</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A CHECOSLOVÁQUIA</pattern>
+	<template>No passado.  Que país já não existe.</template>
+</category>
+<category>
+	<pattern>ONDE FICA A MOLDÁVIA</pattern>
+	<template>Europa Oriental, nordeste da Romênia.<think><set name="it"><set name="topic">Moldávia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CUPERTINO</pattern>
+	<template><set name="it"><set name="topic">CUPERTINO</set></set>é no Vale do silício.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BAHREIN</pattern>
+	<template>Oriente Médio, arquipélago no Golfo Pérsico, a leste da Arábia Saudita.<think><set name="it"><set name="topic">Bahrein</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A FINLÂNDIA</pattern>
+	<template><set name="it">Finlândia</set>é um país da Europa Oriental, na fronteira com a Suécia e a Rússia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHAS VIRGENS</pattern>
+	<template>Caribe, ilhas entre o mar das Caraíbas e o Oceano Atlântico Norte, a leste de Porto Rico.<think><set name="it"><set name="topic">Ilhas Virgens</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MACAU</pattern>
+	<template>Ásia Oriental, na fronteira com o mar do Sul da China e da China.<think><set name="it"><set name="topic">Macau</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CHILE</pattern>
+	<template>Sul da América do Sul, na fronteira com o Oceano Atlântico Sul e sul do Oceano Pacífico, entre a Argentina e Peru.<think><set name="it"><set name="topic">Chile</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PAÍS DAS MARAVILHAS</pattern>
+	<template><set name="it"><set name="topic">PAÍS DAS MARAVILHAS</set></set>é no futuro.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CORONA</pattern>
+	<template><set name="it"><set name="topic">CORONA</set></set>é um subúrbio de Los Angeles.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA WAKE</pattern>
+	<template>Oceania, ilha no Oceano Pacífico Norte, cerca de dois terços do caminho do Havaí, Marianas Setentrionais.<think><set name="it"><set name="topic">Ilha Wake</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA VANUATU</pattern>
+	<template>Oceania, grupo de ilhas no sul do Oceano Pacífico, a cerca de três quartos do caminho do Havaí para a Austrália.<think><set name="it"><set name="topic">Vanuatu</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ILLINOIS</pattern>
+	<template><set name="it">Illinos</set>é o meio-oeste dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A COREIA</pattern>
+	<template><set name="it"><set name="topic">Coréia</set></set>é uma península na margem oriental do continente asiático.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ELVIS</pattern>
+	<template><set name="he">Elvis</set>faleceu há algum tempo.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O WYOMING</pattern>
+	<template><set name="it"><set name="topic">WYOMING</set></set>é um estado dos Estados Unidos ocidental entre Montana e Colorado.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ONTÁRIO</pattern>
+	<template><set name="it"><set name="topic">ONTÁRIO</set></set>é uma província do Canadá.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TORONTO</pattern>
+	<template><set name="it">Toronto</set>é uma cidade no Canadá.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ESPANHA</pattern>
+	<template><set name="it"><set name="topic">Espanha</set></set>é na Península Ibérica, na Europa do sudoeste.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OXNARD</pattern>
+	<template><set name="it"><set name="topic">OXNARD</set></set>é uma cidade na Califórnia.</template>
+</category>
+<category>
+	<pattern>ONDE FICA A SINGAPURA</pattern>
+	<template><set name="it"><set name="topic">Cingapura</set></set>é um Estado-nação ilha na ponta da Península Malaia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ZURIQUE</pattern>
+	<template><set name="it">Zurique</set>é uma cidade na Suíça.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OMÃ</pattern>
+	<template>Médio Oriente, na fronteira com o Mar Arábico, o Golfo de Omã e o Golfo Pérsico, entre o Yemen e os Emirados Árabes Unidos.<think><set name="it"><set name="topic">Omã</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ NETUNO</pattern>
+	<template><set name="it"><set name="topic">NETUNO</set></set>é o oitavo planeta do sol, o planeta de \"gás última\".</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SEATTLE</pattern>
+	<template><set name="it"><set name="topic">SEATTLE</set></set>é uma grande cidade no estado de Washington, perto de Vancover Canadá.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BENIN</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte, entre Nigéria e Togo.<think><set name="it"><set name="topic">Benin</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MANCHESTER</pattern>
+	<template>Machester é uma cidade na Inglaterra ocidental.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ JUAN DE NOVA ISLAND</pattern>
+	<template>África do Sul, ilha no canal de Moçambique, cerca de um terço do caminho entre Madagascar e Moçambique.<think><set name="it"><set name="topic">Ilha de Juan de nova</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É A NOVA ZELÂNDIA</pattern>
+	<template>Oceania, ilhas no Oceano Pacífico Sul, sudeste da Austrália.<think><set name="it"><set name="topic">Nova Zelândia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É NOVA IORQUE</pattern>
+	<template><set name="it">Nova Iorque</set>está localizado no nordeste dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O VERMONT</pattern>
+	<template><set name="it"><set name="topic">VERMONT</set></set>é na Nova Inglaterra, entre Nova York e de New Hampshire, na margem ocidental do rio Connecticut.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CAZAQUISTÃO</pattern>
+	<template>Ásia Central, noroeste da China.<think><set name="it"><set name="topic">Kazakstan</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MELBOURNE</pattern>
+	<template><set name="it"><set name="topic">MELBOURNE</set></set>é uma cidade na Austrália e também na Flórida.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A CIDADE DE NOVA YORK</pattern>
+	<template><set name="it">Nova Iorque</set>está localizado no nordeste dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O UTAH</pattern>
+	<template><set name="it">Utah</set>é o oeste dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ATOL PALMYRA</pattern>
+	<template>Oceania, atol no norte do Oceano Pacífico, cerca de metade do caminho do Havaí a Samoa americana.<think><set name="it"><set name="topic">Palmyra atoll</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BARCELONA</pattern>
+	<template><set name="it">Barcelona</set>é uma cidade na Espanha.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A NOVA ORLEANS</pattern>
+	<template><set name="it">Nova Orleans</set>é uma cidade localizada no Louisiana.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A NOVA CALEDÓNIA</pattern>
+	<template>Oceania, ilhas no sul do Oceano Pacífico, ao leste da Austrália.<think><set name="it"><set name="topic">Nova Caledônia</set></set></think></template>
+</category>
+<category>
+	<pattern>TENNESSEE ONDE É</pattern>
+	<template><set name="it">Tennessee</set>é no sul dos Estados Unidos...</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O RIO</pattern>
+	<template><set name="it"><set name="topic">RIO</set></set>é uma grande cidade no Brasil</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MÓNACO</pattern>
+	<template>Europa Ocidental, na fronteira com o mar Mediterrâneo, na costa sul da França, perto da fronteira com a Itália.<think><set name="it"><set name="topic">Monaco</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É A HOLANDA</pattern>
+	<template><set name="it">Holanda</set>é um país da Europa Ocidental, ao lado de Alemanha e Bélgica.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O KUWAIT</pattern>
+	<template><set name="it"><set name="topic">Kuaite</set></set>é um pequeno país no Golfo Pérsico.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MINNESOTA</pattern>
+	<template><set name="it"><set name="topic">MINNESOTA</set></set>é na fronteira norte dos Estados Unidos, entre o Wisconsin e Dakota do Norte.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA TROMELIN</pattern>
+	<template>África do Sul, ilha no Oceano Índico, a leste de Madagascar.<think><set name="it"><set name="topic">Tromelin island</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TURKS AND CAICOS ISLANDS</pattern>
+	<template>Caribe, dois ilha grupos no norte do Oceano Atlântico, a sudeste de Bahamas.<think><set name="it"><set name="topic">Ilhas Turks e caicos</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MOSCOU</pattern>
+	<template><set name="it">Moscovo</set>é uma cidade da Rússia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ AS ILHAS FAROÉ</pattern>
+	<template>Norte da Europa, grupo de ilhas entre o mar da Noruega e do norte do Oceano Atlântico, cerca de metade do caminho da Islândia, a Noruega.<think><set name="it"><set name="topic">Ilhas Faroés</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A COLÔMBIA</pattern>
+	<template><set name="it"><set name="topic">Colômbia</set></set>é um país da América do Sul.</template>
+</category>
+<category>
+	<pattern>ONDE FICA GUAM</pattern>
+	<template>Oceania, ilha no Oceano Pacífico Norte, cerca de três quartos do caminho do Havaí para as Filipinas.<think><set name="it"><set name="topic">Guam</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A HONG KONG</pattern>
+	<template><set name="it">Hong Kong</set>é uma cidade na China.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O AFEGANISTÃO</pattern>
+	<template>Sul da Ásia, ao norte do Paquistão.<think><set name="it"><set name="topic">Afeganistão</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O COTE D IVOIRE</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte, entre Gana e Libéria.<think><set name="it"><set name="topic">Costa do Marfim</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TOGO</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte, entre Benin e Gana.<think><set name="it"><set name="topic">Togo</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ AS ILHAS CAYMAN</pattern>
+	<template>Caribe, grupo de ilhas no mar do Caribe, quase a metade do caminho de Cuba para Honduras.<think><set name="it"><set name="topic">Ilhas Cayman</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O UGANDA</pattern>
+	<template>África Oriental, ao oeste do Quênia.<think><set name="it"><set name="topic">Uganda</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A REPÚBLICA CENTRO-AFRICANA</pattern>
+	<template>África Central, ao norte do Zaire.<think><set name="it"><set name="topic">República Centro-Africana</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O GANA</pattern>
+	<template><set name="it"><set name="topic">GANA</set></set>é um país da África Ocidental.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TROY</pattern>
+	<template><set name="it"><set name="topic">TROY</set></set>é uma cidade em Nova York.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O GUADALUPE</pattern>
+	<template>Caribe, ilhas no mar do Caribe Oriental, sudeste de Porto Rico.<think><set name="it"><set name="topic">Guadalupe</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A SAMOA AMERICANA</pattern>
+	<template>Oceania, grupo de ilhas no Oceano Pacífico Sul, cerca de metade do caminho do Havaí à Nova Zelândia.<think><set name="it"><set name="topic">samoa americana</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É * CALIFÓRNIA</pattern>
+	<template>Em algum lugar na Califórnia, eu presumo?</template>
+</category>
+<category>
+	<pattern>ONDE É * VIRGINIA</pattern>
+	<template>Hum, na Virgina, em algum lugar?</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MANHATTAN</pattern>
+	<template><set name="it">Manhattan</set>é o centro de ilha de New York City.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ SEUL</pattern>
+	<template>É a capital da Coreia do Sul.<think><set name="it"><set name="topic">Seul</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ATLANTA</pattern>
+	<template>É a capital da Geórgia.<think><set name="it"><set name="topic">Atlanta</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MÉXICO</pattern>
+	<template>México: tão longe de Deus, tão perto dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PORTO RICO</pattern>
+	<template>Caribe, ilha, entre o mar das Caraíbas e o Oceano Atlântico Norte, leste da República Dominicana.<think><set name="it"><set name="topic">Porto Rico</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CÉU</pattern>
+	<template>Ao redor de nós.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA DA EUROPA</pattern>
+	<template>África do Sul, ilha no canal de Moçambique, cerca de metade do caminho de Madagáscar Sul ao sul de Moçambique.<think><set name="it"><set name="topic">Ilha Europa</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MALDIVAS</pattern>
+	<template>Sul da Ásia, grupo de atóis no Oceano Índico, ao sul-sudoeste da Índia.<think><set name="it"><set name="topic">Maldivas</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA DE CLIPPERTON</pattern>
+	<template>América do meio, atol no Oceano Pacífico Norte, 1.120 km a sudoeste do México.<think><set name="it"><set name="topic">Ilha de Clipperton</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PERTH</pattern>
+	<template><set name="it"><set name="topic">PERTH</set></set>é uma cidade no oeste da Austrália.</template>
+</category>
+<category>
+	<pattern>ONDE É A AUSTRÁLIA</pattern>
+	<template><set name="it">Austrália</set>é um grande ilha-continente do Sul hemishphere.</template>
+</category>
+<category>
+	<pattern>ONDE É A MACEDÓNIA</pattern>
+	<template><set name="it"><set name="topic">MACEDÓNIA</set></set>é uma nação pequena entre a Grécia e a Sérvia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ESLOVÁQUIA</pattern>
+	<template>Europa Central, ao sul da Polónia.<think><set name="it"><set name="topic">Eslováquia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O KINGMAN REEF</pattern>
+	<template>Oceania, Recife no norte do Oceano Pacífico, cerca de metade do caminho do Havaí a Samoa americana.<think><set name="it"><set name="topic">Recife de Kingman</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ZIMBABWE</pattern>
+	<template>África do Sul, nordeste de Botsuana.<think><set name="it"><set name="topic">Zimbábue</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TOKELAU</pattern>
+	<template>Oceania, grupo de ilhas no Oceano Pacífico Sul, cerca de metade do caminho do Havaí à Nova Zelândia.<think><set name="it"><set name="topic">Tokelau</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ MARTE</pattern>
+	<template><set name="it"><set name="topic">MARTE</set></set>é o quarto planeta do sol.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BERKELEY</pattern>
+	<template><set name="it"><set name="topic">BERKELEY</set></set>é no norte da Califórnia, através da Baía de San Francisco.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MAURÍCIO</pattern>
+	<template>África do Sul, ilha no Oceano Índico, a leste de Madagascar.<think><set name="it"><set name="topic">Maurício</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A FLÓRIDA</pattern>
+	<template><set name="it"><set name="topic">FLORIDA</set></set>é no sudeste dos Estados Unidos, estendendo-se sobre uma grande península.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BÉLGICA</pattern>
+	<template><set name="it">Bélgica</set>é um país da Europa Ocidental, entre a França, Alemanha e Holanda.</template>
+</category>
+<category>
+	<pattern>ONDE É MARROCOS</pattern>
+	<template><set name="it"><set name="topic">Marrocos</set></set>é uma nação no noroeste da África, perto de Espanha.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ HOFFA</pattern>
+	<template>Nunca saberemos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O LICHTENSTEIN</pattern>
+	<template><set name="it"><set name="topic">LICHTENSTEIN</set></set>é um pequeno país na Europa central.</template>
+</category>
+<category>
+	<pattern>ONDE É A ESLOVÉNIA</pattern>
+	<template>Sudeste da Europa, fazendo fronteira com o mar Adriático, entre a Croácia e Itália.<think><set name="it"><set name="topic">Eslovênia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA LISBOA</pattern>
+	<template><set name="it">Lisboa</set>é uma cidade em Portugal.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MONTANA</pattern>
+	<template><set name="it"><set name="topic">MONTANA</set></set>é nos Estados Unidos noroeste entre os Dakotas e Idaho.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PAÍS DE GALES</pattern>
+	<template><set name="it">País de Gales</set>está localizado em uma pequena ilha ao largo da costa da Europa.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MONGÓLIA</pattern>
+	<template><set name="it"><set name="topic">Mongólia</set></set>é na Ásia central, entre a Sibéria russa e a China.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A COREIA DO NORTE</pattern>
+	<template>Leste da Ásia, metade norte da península coreana, na fronteira com a Baía da Coreia e o mar do Japão, entre a China e Coreia do Sul.<think><set name="it"><set name="topic">Coreia, norte</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BANGLADESH</pattern>
+	<template><set name="it"><set name="topic">BANGLADESH</set></set>é parte do subcontinente indiano, no lado oriental.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SANTOS</pattern>
+	<template><set name="it"><set name="topic">SALEM</set></set>é uma cidade em Massachusetts.</template>
+</category>
+<category>
+	<pattern>ONDE É ARCTURUS</pattern>
+	<template><set name="it"><set name="topic">ARCTURUS</set></set>é uma estrela muito longe daqui.</template>
+</category>
+<category>
+	<pattern>ONDE É A SÉRVIA</pattern>
+	<template><set name="it"><set name="topic">Sérvia e Montenegro</set></set>é o restante território da ex-Jugoslávia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A SÉRVIA E MONTENEGRO</pattern>
+	<template>Sudeste da Europa, fazendo fronteira com o mar Adriático, entre a Albânia e a Bósnia e Herzegovina.<think><set name="it"><set name="topic">Sérvia e montenegro</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA O HAVAÍ</pattern>
+	<template><set name="it"><set name="topic">HAVAÍ</set></set>é uma ilha no meio do Oceano Pacífico.</template>
+</category>
+<category>
+	<pattern>ONDE FICA A AMÉRICA</pattern>
+	<template><set name="it">América</set>poderia referir-se a norte e a América do Sul, ou para os Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ AS ILHAS MARIANAS DO NORTE</pattern>
+	<template>Oceania, ilhas no Oceano Pacífico Norte, cerca de três quartos do caminho do Havaí para as Filipinas.<think><set name="it"><set name="topic">Ilhas Marianas do Norte</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CONGO</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Sul, entre Angola e Gabão.<think><set name="it"><set name="topic">Congo</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MALAWI</pattern>
+	<template>África do Sul, leste de Zâmbia.<think><set name="it"><set name="topic">Malawi</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BIELORRÚSSIA</pattern>
+	<template>Europa Oriental, leste da Polônia.<think><set name="it"><set name="topic">Belarus</set></set></think></template>
+</category>
+<category>
+	<pattern>CADÊ LA</pattern>
+	<template><set name="it"><set name="topic">LA</set></set>é uma grande cidade no sul da Califórnia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O GUERNSEY</pattern>
+	<template>Europa Ocidental, Ilhas do canal da mancha, noroeste da França.<think><set name="it"><set name="topic">Guernsey</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA ORLANDO</pattern>
+	<template><set name="it">Orlando</set>é uma cidade na região central da Flórida.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ CUBA</pattern>
+	<template><set name="it"><set name="topic">CUBA</set></set>é uma ilha ao largo da costa da Flórida.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O IRÃ</pattern>
+	<template><set name="it"><set name="topic">Irã</set></set>é no Médio Oriente, no Golfo Pérsico.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O KENTUCKY</pattern>
+	<template><set name="it"><set name="topic">KENTUCKY</set></set>é na margem sul do rio Ohio.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA DE BOUVET</pattern>
+	<template>África do Sul, ilha no Oceano Atlântico Sul, sul-sudoeste de cabo da boa esperança {África do Sul}.<think><set name="it"><set name="topic">Ilha Bouvet</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ URANO</pattern>
+	<template><set name="it"><set name="topic">URANO</set></set>é o sétimo planeta do sol, entre as órbitas de Saturno e Netuno.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MICHIGAN</pattern>
+	<template><set name="it"><set name="topic">MICHIGAN</set></set>é um estado centro-oeste, na região dos grandes lagos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A PRÚSSIA</pattern>
+	<template>Da Alemanha agora principalmente contida Polónia antiga.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O REENCONTRO</pattern>
+	<template>África do Sul, ilha no Oceano Índico, a leste de Madagascar.<think><set name="it"><set name="topic">reunião</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GROENLÂNDIA</pattern>
+	<template>Norte da América do Norte, ilha, entre o Oceano Ártico e o Oceano Atlântico Norte, nordeste do Canadá.<think><set name="it"><set name="topic">Gronelândia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MALÁSIA</pattern>
+	<template><set name="it"><set name="topic">Malásia</set></set>é uma ilha no sudeste da Ásia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A REALIDADE</pattern>
+	<template><set name="it"><set name="topic">REALIDADE</set></set>é em torno de nós, supostamente.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PAQUISTÃO</pattern>
+	<template><set name="it"><set name="topic">PAQUISTÃO</set></set>é parte do subcontinente indiano, a fronteira da Índia e Afeganistão.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A VIENA</pattern>
+	<template><think><set name="it"><set name="topic">Viena</set></set></think>É a cidade capital da Áustria.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MALTA</pattern>
+	<template><set name="it"><set name="topic">Malta</set></set>é uma ilha no mar Mediterrâneo, ao sul da Sicília.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MONTSERRAT</pattern>
+	<template>Ilha do Caribe, no mar do Caribe, a sudeste de Porto Rico.<think><set name="it"><set name="topic">Montserrat</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MADRID</pattern>
+	<template><set name="it">Madrid</set>é uma cidade na Espanha.</template>
+</category>
+<category>
+	<pattern>CADÊ CANADÁ</pattern>
+	<template>Canadá ocupa a maior parte da América do Norte.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MONTEREY</pattern>
+	<template>Monterey, Califórnia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MADRAS</pattern>
+	<template><set name="it"><set name="topic">MADRAS</set></set>é uma cidade da Índia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ISLÂNDIA</pattern>
+	<template><set name="it"><set name="topic">Islândia</set></set>é uma ilha no Oceano Atlântico Norte.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ESCÓCIA</pattern>
+	<template>Escócia divide uma ilha com Inglaterra e país de Gales, ao largo da costa da Europa.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A SÃO TOMÉ E PRÍNCIPE</pattern>
+	<template>Na África Ocidental, ilha no Oceano Atlântico, straddling do Equador, oeste de Gabão.<think><set name="it"><set name="topic">São Tomé e Príncipe</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MIAMI</pattern>
+	<template><set name="it"><set name="topic">MIAMI</set></set>é uma grande cidade na Flórida, na costa do Atlântico Sul.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O NEPAL</pattern>
+	<template><set name="it"><set name="topic">Nepal</set></set>é uma nação montanhosa no sul da Ásia, entre a Índia e o Tibete.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BERLIM</pattern>
+	<template><set name="it"><set name="topic">BERLIM</set></set>é na Alemanha Oriental.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O NORDESTE</pattern>
+	<template><set name="it"><set name="topic">NORDESTE</set></set>é uma Universidade em Boston.</template>
+</category>
+<category>
+	<pattern>ONDE FICA A ETIÓPIA</pattern>
+	<template>África Oriental, a oeste de Somália.<think><set name="it"><set name="topic">Etiópia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ PORTUGAL</pattern>
+	<template><set name="it">Portugal</set>é um país da Europa Ocidental, na Península de Iberain.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O LUXEMBURGO</pattern>
+	<template>Europa Ocidental, entre a França e a Alemanha.<think><set name="it"><set name="topic">Luxemburgo</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É A ÁREA 51</pattern>
+	<template><think><set name="it"><set name="topic">Área 51</set></set></think>É área de 50 a 52 da área.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ILHAS MARSHALL</pattern>
+	<template>Oceania, grupo de atóis e recifes no norte do Oceano Pacífico, cerca de metade do caminho do Havaí para Papua-Nova Guiné.<think><set name="it"><set name="topic">Ilhas Marshall</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O RUANDA</pattern>
+	<template><set name="it">Ruanda</set>é um país da África.</template>
+</category>
+<category>
+	<pattern>CADÊ O LINCOLN</pattern>
+	<template><set name="it">Lincoln</set>é uma cidade localizada no estado americano de Nebraska.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OCEANO PACÍFICO</pattern>
+	<template>corpo de água entre o hemisfério ocidental, Ásia, Austrália e Antártida.<think><set name="it"><set name="topic">Oceano Pacífico</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ LONGE</pattern>
+	<template><set name="it"><set name="topic">EM NENHUM LUGAR</set></set>é nenhum onde.</template>
+</category>
+<category>
+	<pattern>ONDE FICA LAS VEGAS</pattern>
+	<template><set name="it">Las Vegas</set>é em Nevada.</template>
+</category>
+<category>
+	<pattern>ONDE É A PAPUA-NOVA GUINÉ</pattern>
+	<template>Sudeste da Ásia, grupo de ilhas, incluindo a metade oriental da ilha da Nova Guiné, entre o mar de Coral e o sul do Oceano Pacífico, ao leste da Indonésia.<think><set name="it"><set name="topic">Papua-Nova Guiné</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O QATAR</pattern>
+	<template>Oriente Médio, península, na fronteira com o Golfo Pérsico e Arábia Saudita.<think><set name="it"><set name="topic">Catar</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BERMUDA</pattern>
+	<template>América do Norte, grupo de ilhas no Oceano Atlântico Norte, leste da Carolina do Norte {EUA}.<think><set name="it"><set name="topic">Bermuda</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BORNÉU</pattern>
+	<template><set name="it"><set name="topic">BORNEO</set></set>é uma ilha na Ásia, dividida entre Maylasia e Indonésia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O KALAMAZOO</pattern>
+	<template><set name="it"><set name="topic">KALAMAZOO</set></set>é uma cidade em Michigan.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TEXAS</pattern>
+	<template><set name="it">Texas</set>é na região centro-sul dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A POLINÉSIA FRANCESA</pattern>
+	<template>Oceania, arquipélago no Oceano Pacífico Sul, cerca de metade do caminho da América do Sul para a Austrália.<think><set name="it"><set name="topic">Polinésia francesa</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O LIECHTENSTEIN</pattern>
+	<template>Europa Central, entre a Áustria e a Suíça.<think><set name="it"><set name="topic">Liechtenstein</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA O LESOTO</pattern>
+	<template>África do Sul, um enclave da África do Sul.<think><set name="it"><set name="topic">Lesoto</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MARYLAND</pattern>
+	<template><set name="it"><set name="topic">MARYLAND</set></set>é um estado da costa leste, entre Delaware e Virgínia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O COPENHAGA</pattern>
+	<template><set name="it">Copenhaga</set>é uma cidade na Dinamarca.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BRISBANE</pattern>
+	<template>Que é uma cidade na Califórnia?</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MALVINAS</pattern>
+	<template>Sul da América do Sul, ilhas no Oceano Atlântico Sul, leste do Sul da Argentina.<think><set name="it"><set name="topic">Ilhas Falkland ilhas malvinas}</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GEÓRGIA</pattern>
+	<template><set name="it"><set name="topic">Geórgia</set></set>é um estado do Sul, no Oceano Atlântico, ao norte da Flórida.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A CIDADE DE LAGO DE SAL</pattern>
+	<template><set name="it">Salt Lake City</set>é uma cidade em Utah.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O COPENHAGA *</pattern>
+	<template><set name="it">Copenhaga</set>é uma cidade na Dinamarca.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O QUIRGUISTÃO</pattern>
+	<template>Ásia Central, oeste da China.<think><set name="it"><set name="topic">Quirguistão</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É A ROMÉNIA</pattern>
+	<template>Sudeste da Europa, fazendo fronteira com o mar Negro, entre a Bulgária e a Ucrânia.<think><set name="it"><set name="topic">Romênia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A FAIXA DE GAZA</pattern>
+	<template>Uma parte da Palestina no Mar Mediterrânico.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O DALLAS</pattern>
+	<template><set name="it"><set name="topic">DALLAS</set></set>é uma grande cidade no Texas.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A TUNÍSIA</pattern>
+	<template>Norte da África, na fronteira com o mar Mediterrâneo, entre a Argélia e a Líbia.<think><set name="it"><set name="topic">Tunísia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TONGA</pattern>
+	<template>Oceania, arquipélago no Oceano Pacífico Sul, cerca de dois terços do caminho do Havaí à Nova Zelândia.<think><set name="it"><set name="topic">Tonga</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A FAIXA DE GAZA</pattern>
+	<template>Médio Oriente, na fronteira com o mar Mediterrâneo, entre Egito e Israel.<think><set name="it"><set name="topic">faixa de Gaza</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ALASCA</pattern>
+	<template><set name="it">Alasca</set>está no canto noroeste da América do Norte, entre a Rússia e Canadá.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GUIANA FRANCESA</pattern>
+	<template>Norte da América do Sul, na fronteira com o Oceano Atlântico Norte, entre o Brasil e Suriname.<think><set name="it"><set name="topic">guiana francesa</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ OS FRANCESES DO SUL E ANTÁRTICA</pattern>
+	<template>África do Sul, ilhas no Oceano Índico Sul, sobre equidistante entre África, Antártica e Austrália; Nota - franceses do Sul e Antártica inclui Ile Amsterdam, Ile Saint-Paul, Iles Crozet e Iles Kerguelen, no Oceano Índico Sul, juntamente com o sector francês afirmou da Antártica, \"Terra Adélia\"; os Estados Unidos não reconhecem a reivindicação francesa \"Adelie Land\".<think><set name="it"><set name="topic">francês terras do Sul e Antárticas</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A TANZÂNIA</pattern>
+	<template>África Oriental, na fronteira com o Oceano Índico, entre o Quênia e Moçambique.<think><set name="it"><set name="topic">Tanzânia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ ELE</pattern>
+	<template>Depende de que \"ele\" se refere a.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CALGARY</pattern>
+	<template><set name="it"><set name="topic">CALGARY</set></set>é uma cidade de Alberta, canelas.</template>
+</category>
+<category>
+	<pattern>CADÊ A FRANÇA</pattern>
+	<template><set name="it">França</set>é um país entre Alemanha e Espanha.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O DELI</pattern>
+	<template><set name="it"><set name="topic">DELI</set></set>é uma grande cidade na Índia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ARIZONA</pattern>
+	<template><set name="it"><set name="topic">ARIZONA</set></set>é nos Estados Unidos ocidental Sul, na fronteira com a Califórnia, Nevada, Utah e Novo México.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O IÊMEN</pattern>
+	<template>Médio Oriente, na fronteira com o Mar Arábico, o Golfo de Aden e o mar vermelho, entre Omã e a Arábia Saudita.<think><set name="it"><set name="topic">Iêmen</set></set></think></template>
+</category>
+<category>
+	<pattern>CADÊ FRESNO</pattern>
+	<template><set name="it">Fresno</set>é uma pequena cidade na Califórnia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ATLANTIS</pattern>
+	<template><set name="it">Atlantis</set>pode nunca ter existido.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A TERRA</pattern>
+	<template><set name="it"><set name="topic">TERRA</set></set>é o terceiro planeta do sol.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PARAGUAI</pattern>
+	<template>Central América do Sul, nordeste da Argentina.<think><set name="it"><set name="topic">Paraguai</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GUINÉ</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte, entre a Guiné-Bissau e Serra Leoa.<think><set name="it"><set name="topic">Guiné</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GUINÉ-BISSAU</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte, entre a Guiné e Senegal.<think><set name="it"><set name="topic">Guiné-Bissau</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA A LÍBIA</pattern>
+	<template>Norte da África, na fronteira com o mar Mediterrâneo, entre o Egito e Tunísia.<think><set name="it"><set name="topic">Líbia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MOÇAMBIQUE</pattern>
+	<template>África do Sul, na fronteira com o canal de Moçambique, entre África do Sul e Tanzânia.<think><set name="it"><set name="topic">Moçambique</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GUATEMALA</pattern>
+	<template><set name="it">Guatamala</set>é um país da América central.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OUVIDO DA ILHA E DAS ILHAS MCDONALD</pattern>
+	<template>África do Sul, ilhas no Oceano Índico, cerca de dois terços do caminho de Madagáscar para a Antártica.<think><set name="it"><set name="topic">Ilha Heard e Ilhas mcdonald</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A SÍRIA</pattern>
+	<template>Médio Oriente, na fronteira com o mar Mediterrâneo, entre o Líbano e Turquia.<think><set name="it"><set name="topic">Síria</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É A SANTA SÉ</pattern>
+	<template>Sul da Europa, um enclave de Roma {Itália}.<think><set name="it"><set name="topic">Santa Sé {cidade do Vaticano}</set></set></think></template>
+</category>
+<category>
+	<pattern>QUE É O AUSTIN</pattern>
+	<template><set name="it">Austin</set>é uma cidade no Texas.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ADELAIDE</pattern>
+	<template><set name="it"><set name="topic">ADELAIDE</set></set>é uma cidade no sul da Austrália.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ALEMANHA</pattern>
+	<template><set name="it">Alemanha</set>é um país no meio da Europa.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ESTÓNIA</pattern>
+	<template>Europa Oriental, na fronteira com o mar Báltico e o Golfo da Finlândia, entre a Letônia e a Rússia.<think><set name="it"><set name="topic">Estônia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ ANDORRA</pattern>
+	<template>Europa do sudoeste, entre França e Espanha.<think><set name="it"><set name="topic">Andorra</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OXFORD</pattern>
+	<template><set name="it"><set name="topic">OXFORD</set></set>é uma Universidade na Inglaterra.  Também é uma pequena cidade em Maine e em muitos outros Estados u. s..</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA DE NAVASSA</pattern>
+	<template>Ilha do Caribe, no mar do Caribe, cerca de um quarto do caminho do Haiti para a Jamaica.<think><set name="it"><set name="topic">Ilha Navassa</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ALABAMA</pattern>
+	<template><set name="it"><set name="topic">ALABAMA</set></set>é um estado do Sul entre o rio Mississippi e Geórgia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ VANCOUVER</pattern>
+	<template>Vancouver, BC, Canadá, ou Vancouver, Washington?</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O POLARIS</pattern>
+	<template><set name="it"><set name="topic">POLARIS</set></set>é a estrela do Norte.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BOLÍVIA</pattern>
+	<template><set name="it"><set name="topic">Bolívia</set></set>é um país sem litoral da América do Sul,</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O URUGUAI</pattern>
+	<template>Sul da América do Sul, na fronteira com o Oceano Atlântico Sul, entre Argentina e Brasil.<think><set name="it"><set name="topic">Uruguai</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CAMBOJA</pattern>
+	<template>Sudeste Asiático, fazendo fronteira com o Golfo da Tailândia, entre Tailândia e Vietname.<think><set name="it"><set name="topic">Camboja</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MARTINICA</pattern>
+	<template><set name="it"><set name="topic">MARTINICA</set></set>é no Caribe, parte da cadeia de sotavento e barlavento da ilha.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BARBADOS</pattern>
+	<template>Caribe, ilha, entre o mar das Caraíbas e o Oceano Atlântico Norte, a nordeste da Venezuela.<think><set name="it"><set name="topic">Barbados</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA A SOMÁLIA</pattern>
+	<template>África Oriental, na fronteira com o Golfo de Aden e Oceano Índico, a leste da Etiópia.<think><set name="it"><set name="topic">Somália</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CORNWALL</pattern>
+	<template><set name="it"><set name="topic">CORNWALL</set></set>é uma cidade na Inglaterra.</template>
+</category>
+<category>
+	<pattern>ONDE É JULIA</pattern>
+	<template>Eu não acho que ela está online agora.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A CALIFÓRNIA</pattern>
+	<template><set name="it">Califórnia</set>é na costa do Pacífico da América do Norte.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SVALBARD</pattern>
+	<template>Norte da Europa, ilhas entre o Oceano Ártico, mar de Barents, mar da Groenlândia e mar da Noruega, ao norte da Noruega.<think><set name="it"><set name="topic">Svalbard</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O NEWARK</pattern>
+	<template><set name="it">Newark</set>está localizado no nordeste dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE É A LOS ANGELES</pattern>
+	<template><set name="it">Los Angeles</set>é uma cidade na Califórnia.</template>
+</category>
+<category>
+	<pattern>CADÊ O PERU</pattern>
+	<template><set name="it">Peru</set>é um país da América do Sul.</template>
+</category>
+<category>
+	<pattern>ONDE FICA A JORDÂNIA</pattern>
+	<template>Oriente Médio, noroeste da Arábia Saudita.<think><set name="it"><set name="topic">Jordânia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A NORUEGA</pattern>
+	<template><set name="it">Noruega</set>é um país no norte da Europa, faz fronteira com Suécia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PITTSBURGH</pattern>
+	<template><set name="it"><set name="topic">PITTSBURGH</set></set>é uma grande cidade no oeste da Pensilvânia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A NICARÁGUA</pattern>
+	<template>América do meio, na fronteira com o mar do Caribe e norte do Oceano Pacífico, entre a Costa Rica e Honduras.<think><set name="it"><set name="topic">Nicarágua</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O FIJI</pattern>
+	<template>Oceania, grupo de ilhas no Oceano Pacífico Sul, cerca de dois terços do caminho do Havaí à Nova Zelândia.<think><set name="it"><set name="topic">Fiji</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É A LITUÂNIA</pattern>
+	<template>Europa Oriental, na fronteira com o mar Báltico, entre a Letônia e a Rússia.<think><set name="it"><set name="topic">Lituânia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TURQUEMENISTÃO</pattern>
+	<template>Ásia Central, fazendo fronteira com o mar Cáspio, entre o Irã e o Cazaquistão.<think><set name="it"><set name="topic">Turcomenistão</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É A HOLANDA</pattern>
+	<template>Europa Ocidental, na fronteira com o mar do Norte, entre a Bélgica e Alemanha.<think><set name="it"><set name="topic">Países Baixos</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ANTILHAS HOLANDESAS</pattern>
+	<template>Caribe, dois ilha grupos no mar do Caribe - um inclui Curaçao e Bonaire ao norte da Venezuela e o outro é o leste das Ilhas Virgens.<think><set name="it"><set name="topic">Antilhas Holandesas</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BILBAO</pattern>
+	<template><set name="it"><set name="topic">BILBAO</set></set>é uma cidade na costa norte de Espanha.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ AQUI</pattern>
+	<template>Aqui está <bot name="location"/>.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A NAMÍBIA</pattern>
+	<template>África do Sul, na fronteira com o Oceano Atlântico Sul, entre Angola e África do Sul.<think><set name="it"><set name="topic">Namíbia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É DUSSELDORF</pattern>
+	<template><set name="it"><set name="topic">DÜSSELDORF</set></set>é uma grande cidade no oeste da Alemanha.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MUSEU DO LOUVRE</pattern>
+	<template>Paris.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA DE MAN</pattern>
+	<template>Europa Ocidental, ilha no mar da Irlanda, entre a Grã-Bretanha e Irlanda.<think><set name="it"><set name="topic">Man, ilha de</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BAHAMAS</pattern>
+	<template>Caribe, Cadeia de ilhas no Oceano Atlântico Norte, sudeste da Flórida.<think><set name="it"><set name="topic">bahamas</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A LUA</pattern>
+	<template><set name="it"><set name="topic">A lua</set></set>órbitas ao redor da terra.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O AEROPORTO</pattern>
+	<template>É onde os aviões da terra.<think><set name="it"><set name="topic">Aeroporto</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA O BANHEIRO</pattern>
+	<template>Siga o encanamento.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CENTRO</pattern>
+	<template>Depende do quadro de coordenadas.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ROBÔ</pattern>
+	<template>O robô é aqui no seu computador.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ARUBA</pattern>
+	<template><set name="it"><set name="topic">ARUBA</set></set>é uma ilha das Antilhas, perto de América do Sul.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A AMÉRICA DO NORTE</pattern>
+	<template>América do Norte ocupa o mais a norte do hemisfério da terra, desde o estreito de Bering para Labrador norther.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O GAMBIA</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte e Senegal.<think><set name="it"><set name="topic">Gâmbia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BRASIL</pattern>
+	<template>Uma nação insular do Pacífico Sul.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SOL</pattern>
+	<template>É o centro do sistema solar.<think><set name="it"><set name="topic">SOL</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OKLAHOMA</pattern>
+	<template><set name="it">Oklahoma</set>é o centro-oeste United States.W</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OHIO</pattern>
+	<template><set name="it"><set name="topic">OHIO</set></set>é no meio-oeste norte-americano, entre Pensilvânia e Indiana.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ZÂMBIA</pattern>
+	<template>África do Sul, leste de Angola.<think><set name="it"><set name="topic">Zâmbia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BÓSNIA E HERZEGOVINA</pattern>
+	<template>Sudeste da Europa, fazendo fronteira com o mar Adriático e a Croácia.<think><set name="it"><set name="topic">Bósnia e Herzegovina</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SACRAMENTO</pattern>
+	<template><set name="it">Sacramento</set>é uma cidade na Califórnia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CAMARÕES</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte, entre a Guiné Equatorial e Nigéria.<think><set name="it"><set name="topic">Camarões</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O HADES</pattern>
+	<template><set name="it"><set name="topic">HADES</set></set>é o inferno.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O VIRGINIA</pattern>
+	<template><set name="it">Virginia</set>é no leste dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ WASHINGTON</pattern>
+	<template><set name="it"><set name="topic">WASHINGTON</set></set>é um estado no canto noroeste dos EUA.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CORAÇÃO</pattern>
+	<template>O coração é o centro das coisas.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BRUNEI</pattern>
+	<template>Sudeste Asiático, fazendo fronteira com o mar do Sul da China e da Malásia.<think><set name="it"><set name="topic">Brunei</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O KIRIBATI</pattern>
+	<template>Oceania, grupo de ilhas no Oceano Pacífico, o Equador e a linha internacional de data, cerca de metade do caminho do Havaí para a Austrália.<think><set name="it"><set name="topic">Kiribati</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ESPAÇO</pattern>
+	<template><set name="it"><set name="topic">ESPAÇO</set></set>é em torno de nós.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O IDAHO</pattern>
+	<template><set name="it">Idaho</set>é o oeste dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE É ISTAMBUL</pattern>
+	<template><set name="it">Istambul</set>é uma cidade da Turquia, antiga Constantinopla.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ MEU CARRO</pattern>
+	<template>Você já olhou em sua garagem?</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SPRATLY ISLANDS</pattern>
+	<template>Sudeste da Ásia, grupo de recifes no mar da China Meridional, cerca de dois terços do caminho do Vietnã do Sul ao sul das Filipinas.<think><set name="it"><set name="topic">Ilhas Spratly</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O QUEIJO CHEDDAR</pattern>
+	<template>Inglaterra.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CANBERRA</pattern>
+	<template><set name="it"><set name="topic">CANBERRA</set></set>é uma cidade na Austrália, entre Sydney e Melbourne.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TÓQUIO</pattern>
+	<template><set name="it">Tóquio</set>é uma cidade no Japão.</template>
+</category>
+<category>
+	<pattern>ONDE É O IRAQUE</pattern>
+	<template><set name="it"><set name="topic">Iraque</set></set>é no Médio Oriente, no Golfo Pérsico.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A TRINIDAD E TOBAGO</pattern>
+	<template>Caribe, ilhas entre o mar das Caraíbas e o Oceano Atlântico Norte, a nordeste da Venezuela.<think><set name="it"><set name="topic">Trinidad e Tobago</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ILHAS GLORIOSAS</pattern>
+	<template>África do Sul, grupo de ilhas no Oceano Índico, a noroeste de Madagascar.<think><set name="it"><set name="topic">Ilhas gloriosas</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O FRANKFURT</pattern>
+	<template><set name="it"><set name="topic">FRANKFURT</set></set>é uma grande cidade no oeste da Alemanha.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ARKANSAS</pattern>
+	<template><set name="it"><set name="topic">ARKANSAS</set></set>é um estado meridional na margem ocidental do Rio Missisipi.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GRÃ-BRETANHA</pattern>
+	<template>Em uma ilha ao largo da costa da Europa.<think><set name="it"><set name="topic">Grã-Bretanha</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A TRINDADE</pattern>
+	<template><set name="it"><set name="topic">TRINIDAD</set></set>é uma nação insular nas Antilhas.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BIRMÂNIA</pattern>
+	<template>Sudeste Asiático, fazendo fronteira com o mar de Andamão e a Baía de Bengala, entre Bangladesh e a Tailândia.<think><set name="it"><set name="topic">Birmânia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A TAILÂNDIA</pattern>
+	<template><set name="it"><set name="topic">Tailândia</set></set>é no sudeste da Ásia, entre a Birmânia e Camboja.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A PALESTINA</pattern>
+	<template><set name="it"><set name="topic">PALESTINA</set></set>é o antigo nome para Israel, ou o novo nome para o Estado dentro de Israel.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ OS EUA</pattern>
+	<template><set name="it"><set name="topic">ESTADOS UNIDOS DA AMÉRICA</set></set>é na América do Norte, entre o Canadá e México.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ILHAS ASHMORE E CARTIER</pattern>
+	<template>Sudeste da Ásia, ilhas no Oceano Índico, a noroeste da Austrália.<think><set name="it"><set name="topic">Ilhas Ashmore e cartier</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ALAMO</pattern>
+	<template><set name="it"><set name="topic">ALAMO</set></set>é em San Antonio, Texas.</template>
+</category>
+<category>
+	<pattern>ONDE FICA HOLLYWOOD</pattern>
+	<template><set name="it">Hollywood</set>é uma pequena parte de Los Angeles, Califórnia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O LAOS</pattern>
+	<template>Sudeste da Ásia, nordeste da Tailândia.<think><set name="it"><set name="topic">Laos</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O JAKARTA</pattern>
+	<template>Jacarta, Indonésia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O NEBRASKA</pattern>
+	<template><set name="it"><set name="topic">NEBRASKA</set></set>é na margem oeste do Rio Missouri, entre South Dakota e Kansas.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CARNEGIE MELLON</pattern>
+	<template>Situa-se a Universidade Carnegie Mellon em Pittsburgh, Pensilvânia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A EUROPA</pattern>
+	<template>A Europa está entre a Ásia e a América.</template>
+</category>
+<category>
+	<pattern>ONDE É A ANTÁRTIDA</pattern>
+	<template><set name="it"><set name="topic">ANTÁRTICA</set></set>é o continente no Pólo Sul.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A SUAZILÂNDIA</pattern>
+	<template>África do Sul, entre Moçambique e África do Sul.<think><set name="it"><set name="topic">Suazilândia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A REPÚBLICA CHECA</pattern>
+	<template>Europa Central, sudeste da Alemanha.<think><set name="it"><set name="topic">República Tcheca</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É UTOPIA</pattern>
+	<template><set name="it"><set name="topic">UTOPIA</set></set>é em torno de nós, se nós fazê-lo.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PHOENIX</pattern>
+	<template><set name="it"><set name="topic">PHOENIX</set></set>é uma grande cidade no Arizona.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BERGEN</pattern>
+	<template><set name="it"><set name="topic">BERGEN</set></set>é uma cidade na Alemanha e também na Noruega.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SENEGAL</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte, entre a Guiné-Bissau e Mauritânia.<think><set name="it"><set name="topic">Senegal</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O JAN MAYEN</pattern>
+	<template>Europa do Norte, ilha, entre o mar da Groenlândia e o mar da Noruega, nordeste da Islândia.<think><set name="it"><set name="topic">Jan mayen</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O PHILADELPHIA</pattern>
+	<template><set name="it"><set name="topic">PHILADELPHIA</set></set>é uma grande cidade na Pensilvânia do sudeste, entre Nova York e Washington, D. C.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BUDAPESTE</pattern>
+	<template><set name="it"><set name="topic">BUDAPESTE</set></set>é uma cidade na Hungria, no Rio Danúbio.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A TURQUIA</pattern>
+	<template><set name="it"><set name="topic">Turquia</set></set>é no sudoeste da Ásia, entre a Europa e o Oriente Médio e guardando o mar Negro da Rússia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O NIUE</pattern>
+	<template>Oceania, ilha no Oceano Pacífico Sul, a leste de Tonga.<think><set name="it"><set name="topic">Niue</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BRASIL</pattern>
+	<template>O Brasil é na América do Sul.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O NÍGER</pattern>
+	<template>Na África Ocidental, sudeste da Argélia.<think><set name="it"><set name="topic">Níger</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CHARLOTTE</pattern>
+	<template><set name="it"><set name="topic">CHARLOTTE</set></set>é na Carolina do Norte.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A CISJORDÂNIA</pattern>
+	<template>Oriente Médio, oeste da Jordânia.<think><set name="it"><set name="topic">Cisjordânia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BURKINA FASO</pattern>
+	<template>África Ocidental, ao norte de Gana.<think><set name="it"><set name="topic">Burkina faso</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ANGUILLA</pattern>
+	<template>Ilha do Caribe, no mar do Caribe, a leste de Porto Rico.<think><set name="it"><set name="topic">Anguilla</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O EDMONTON</pattern>
+	<template><set name="it"><set name="topic">EDMONTON</set></set>é uma grande cidade em Alberta.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MONTREAL</pattern>
+	<template><set name="it">Montreal</set>é uma cidade no Canadá.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O VOYAGER</pattern>
+	<template><set name="it"><set name="topic">VOYAGER</set></set>está perdido no quadrante Delta.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA HOWLAND</pattern>
+	<template>Oceania, ilha no Oceano Pacífico Norte, cerca de metade do caminho do Havaí para a Austrália.<think><set name="it"><set name="topic">ilha Howland</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É A NIGÉRIA</pattern>
+	<template>África Ocidental, na fronteira com o Golfo da Guiné, entre Benin e Camarões.<think><set name="it"><set name="topic">Nigéria</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A CROÁCIA</pattern>
+	<template><set name="it"><set name="topic">Croácia</set></set>faz parte da antiga Jugoslávia, também na fronteira com a Hungria.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CHADE</pattern>
+	<template>África Central, sul da Líbia.<think><set name="it"><set name="topic">Chade</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É AS ILHAS SALOMÃO</pattern>
+	<template>Oceania, grupo de ilhas no Oceano Pacífico Sul, a leste de Papua-Nova Guiné.<think><set name="it"><set name="topic">Ilhas Salomão</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É O ALBERT EINSTEIN</pattern>
+	<template><set name="he">Einstein</set>faleceu.</template>
+</category>
+<category>
+	<pattern>ONDE FICA A INGLATERRA</pattern>
+	<template><set name="it">Inglaterra</set>está localizado em uma pequena ilha ao largo da costa da Europa.</template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL ANDORRA</pattern>
+	<template>Andorra la Vella.<think><set name="it"><set name="topic">Andorra</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ WISCONSIN</pattern>
+	<template>Madison.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ANGOLA</pattern>
+	<template>Luanda.<think><set name="it"><set name="topic">Angola</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ IRÃ</pattern>
+	<template>Teerã.<think><set name="it"><set name="topic">Irã</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TANZÂNIA</pattern>
+	<template>Dar es Salaam.<think><set name="it"><set name="topic">Tanzânia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS GLORIOSAS</pattern>
+	<template>nenhum; administrado pela França a partir de reunião.<think><set name="it"><set name="topic">Ilhas gloriosas</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PAPUA-NOVA GUINÉ</pattern>
+	<template>Port Moresby.<think><set name="it"><set name="topic">Papua-Nova Guiné</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL DA GÂMBIA</pattern>
+	<template>Banjul.<think><set name="it"><set name="topic">Gâmbia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ OS ESTADOS UNIDOS</pattern>
+	<template>U.S. capital é Washington, D. C.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ EUA</pattern>
+	<template>Washington, d. C.<think><set name="it"><set name="topic">OS EUA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL DA ILHA DE MAN</pattern>
+	<template>Douglas.<think><set name="it"><set name="topic">Man, ilha de</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BAHAMAS</pattern>
+	<template>Nassau.<think><set name="it"><set name="topic">bahamas</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ HOLANDA</pattern>
+	<template>Haia.</template>
+</category>
+<category>
+	<pattern>O QUE É A CAPITAL _ GUINÉ-BISSAU</pattern>
+	<template>Bissau.<think><set name="it"><set name="topic">Guiné-Bissau</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NICARÁGUA</pattern>
+	<template>Manágua.<think><set name="it"><set name="topic">Nicarágua</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NORUEGA</pattern>
+	<template>A capital da Noruega é Oslo.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ KUWAIT</pattern>
+	<template>Kuaite.<think><set name="it"><set name="topic">Kuaite</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PORTUGAL</pattern>
+	<template>Lisboa.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GUINÉ</pattern>
+	<template>Conacri.<think><set name="it"><set name="topic">Guiné</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS PITCAIRN</pattern>
+	<template>Adamstown.<think><set name="it"><set name="topic">Ilhas Pitcairn</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SAHARA OCIDENTAL</pattern>
+	<template>nenhum.<think><set name="it"><set name="topic">Saara Ocidental</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ESLOVÉNIA</pattern>
+	<template>Ljubljana.<think><set name="it"><set name="topic">Eslovênia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GABÃO</pattern>
+	<template>Libreville.<think><set name="it"><set name="topic">Gabão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ IRLANDA</pattern>
+	<template>Dublin.<think><set name="it"><set name="topic">Irlanda</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NORFOLK ISLAND</pattern>
+	<template>Kingston {centro administrativo}; Pinho queimado {centro comercial de}.<think><set name="it"><set name="topic">Ilha Norfolk</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SAMOA OCIDENTAL</pattern>
+	<template>Apia.<think><set name="it"><set name="topic">samoa ocidental</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TEXAS</pattern>
+	<template>Austin.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ISRAEL</pattern>
+	<template>Jerusalem.<think><set name="it"><set name="topic">Israel</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SOMÁLIA</pattern>
+	<template>Mogadíscio.<think><set name="it"><set name="topic">Somália</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PORTO RICO</pattern>
+	<template>San Juan.<think><set name="it"><set name="topic">Porto Rico</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ VATICANO *</pattern>
+	<template>Cidade do Vaticano.<think><set name="it"><set name="topic">Santa Sé {cidade do Vaticano}</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CROÁCIA</pattern>
+	<template>Zagreb.<think><set name="it"><set name="topic">Croácia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ IRAQUE</pattern>
+	<template>Bagdá.<think><set name="it"><set name="topic">Iraque</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NIGER</pattern>
+	<template>Niamey.<think><set name="it"><set name="topic">Níger</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS VIRGENS</pattern>
+	<template>Charlotte Amalie.<think><set name="it"><set name="topic">Ilhas Virgens</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CHIPRE</pattern>
+	<template>Nicósia.<think><set name="it"><set name="topic">Chipre</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ALBÂNIA</pattern>
+	<template>A capital da Albânia é Tirana.<think><set name="it"><set name="topic">Albânia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ARIZONA</pattern>
+	<template>Phoenix.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ZAIRE</pattern>
+	<template>Kinshasa.<think><set name="it"><set name="topic">Zaire</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SÃO CRISTÓVÃO E NEVIS</pattern>
+	<template>Basseterre.<think><set name="it"><set name="topic">São Cristóvão e nevis</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SANTA LÚCIA</pattern>
+	<template>Castries.<think><set name="it"><set name="topic">Santa Lúcia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SANTA HELENA</pattern>
+	<template>Jamestown.<think><set name="it"><set name="topic">Santa helena</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ FRANÇA</pattern>
+	<template>Paris.<think><set name="it"><set name="topic">França</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SÃO VICENTE *</pattern>
+	<template>Kingstown.<think><set name="it"><set name="topic">São Vicente e Granadinas</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SAINT PIERRE *</pattern>
+	<template>Saint-Pierre.<think><set name="it"><set name="topic">São Pedro e miquelon</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ QATAR</pattern>
+	<template>Doha.<think><set name="it"><set name="topic">Catar</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ COLORADO</pattern>
+	<template>Denver.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHA BOUVET</pattern>
+	<template>nenhum; administrado a partir de Oslo, Noruega.<think><set name="it"><set name="topic">Ilha Bouvet</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ EL SALVADOR</pattern>
+	<template>San Salvador.<think><set name="it"><set name="topic">El Salvador</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL DE HONDURAS</pattern>
+	<template>Tegucigalpa.<think><set name="it"><set name="topic">Honduras</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ WASHINGTON</pattern>
+	<template>Olympia.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ EUA</pattern>
+	<template>Washington.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ REPÚBLICA CHECA</pattern>
+	<template>Praga.<think><set name="it"><set name="topic">República Tcheca</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHA HOWLAND</pattern>
+	<template>nenhum; administrado a partir de Washington, DC.<think><set name="it"><set name="topic">ilha Howland</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS MALVINAS</pattern>
+	<template>Stanley.<think><set name="it"><set name="topic">Ilhas Falkland {islas malvinas}</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SUAZILÂNDIA</pattern>
+	<template>Mbabane {administração}; Lobamba {legislativo}.<think><set name="it"><set name="topic">Suazilândia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ FORMOSA</pattern>
+	<template>Taipei.<think><set name="it"><set name="topic">Taiwan</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ UGANDA</pattern>
+	<template>Kampala.<think><set name="it"><set name="topic">Uganda</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL INDIANA</pattern>
+	<template>Indianapolis.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MOÇAMBIQUE</pattern>
+	<template>Maputo.<think><set name="it"><set name="topic">Moçambique</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MISSOURI</pattern>
+	<template>Cidade de Jefferson.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GIBRALTAR</pattern>
+	<template>Gibraltar.<think><set name="it"><set name="topic">Gibraltar</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ LOUISIANA</pattern>
+	<template>Baton Rouge.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ HAVAÍ</pattern>
+	<template>Honolulu.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ HUNGRIA</pattern>
+	<template>A capital da Hungria é Budapeste.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BURKINA FASO</pattern>
+	<template>Ouagadougou.<think><set name="it"><set name="topic">Burkina faso</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ZIMBABWE</pattern>
+	<template>A capital é chamada de Harare.<think><set name="it"><set name="topic">Zimbábue</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PAQUISTÃO</pattern>
+	<template>É chamado de Islamabad.<think><set name="it"><set name="topic">PAQUISTÃO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ RÚSSIA</pattern>
+	<template>Moscou.<think><set name="it"><set name="topic">Rússia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TUVALU</pattern>
+	<template>Funafuti.<think><set name="it"><set name="topic">Tuvalu</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ OUVIDO ISLAND E ILHAS MCDONALD</pattern>
+	<template>nenhum; administrado a partir de Canberra, Austrália.<think><set name="it"><set name="topic">Ilha Heard e Ilhas mcdonald</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TURCOS *</pattern>
+	<template>Grand Turk.<think><set name="it"><set name="topic">Ilhas Turks e caicos</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ROMÉNIA</pattern>
+	<template>Bucareste.<think><set name="it"><set name="topic">Romênia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TROMELIN ISLAND</pattern>
+	<template>nenhum; administrado pela França a partir de reunião.<think><set name="it"><set name="topic">Tromelin island</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ LIBÉRIA</pattern>
+	<template>Monróvia.<think><set name="it"><set name="topic">Libéria</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PARIS</pattern>
+	<template>Trata-se de uma pergunta capciosa?<think><set name="it"><set name="topic">PARIS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GRÉCIA</pattern>
+	<template>Atenas.<think><set name="it"><set name="topic">Grécia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL BÓSNIA</pattern>
+	<template>Sarajevo.<think><set name="it"><set name="topic">Bósnia e Herzegovina</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ LIECHTENSTEIN</pattern>
+	<template>Vaduz.<think><set name="it"><set name="topic">Liechtenstein</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ AFEGANISTÃO</pattern>
+	<template>Cabul.<think><set name="it"><set name="topic">Afeganistão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TENNESSEE</pattern>
+	<template>Nashville.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ LÍBANO</pattern>
+	<template>Beirute.<think><set name="it"><set name="topic">Líbano</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ COSTA RICA</pattern>
+	<template>San Jose.<think><set name="it"><set name="topic">Costa Rica</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CANADÁ</pattern>
+	<template><think><set name="it"><set name="topic">Canadá</set></set></think><random><li>Ottawa.</li><li>Ouvi dizer que era de Toronto.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NIUE</pattern>
+	<template>Alofi.<think><set name="it"><set name="topic">Niue</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ALABAMA</pattern>
+	<template>Montgomery.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ JARVIS ISLAND</pattern>
+	<template>nenhum; administrado a partir de Washington, DC.<think><set name="it"><set name="topic">Ilha Jarvis</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ARGENTINA</pattern>
+	<template>Buenos Aries.<think><set name="it"><set name="topic">Argentina</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ OHIO</pattern>
+	<template>Columbus.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ AUSTRÁLIA</pattern>
+	<template>A capital da Austrália é Sydney, eu acho.</template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL SÉRVIA *</pattern>
+	<template>Belgrado.<think><set name="it"><set name="topic">Sérvia e montenegro</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ETIÓPIA</pattern>
+	<template>Addis Abeba.<think><set name="it"><set name="topic">Etiópia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ WALLIS *</pattern>
+	<template>Mata-Utu {em Ile Uvea}.<think><set name="it"><set name="topic">Wallis e futuna</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ LAOS</pattern>
+	<template>Vientiane.<think><set name="it"><set name="topic">Laos</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GANA</pattern>
+	<template>Accra.<think><set name="it"><set name="topic">Gana</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ KANSAS</pattern>
+	<template>Topeka.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ COMORES</pattern>
+	<template>Moroni.<think><set name="it"><set name="topic">Comores</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ VANUATU</pattern>
+	<template>Port-Vila.<think><set name="it"><set name="topic">Vanuatu</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ KIRIBATI</pattern>
+	<template>Tarawa.<think><set name="it"><set name="topic">Kiribati</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MALDIVAS</pattern>
+	<template>Masculino.<think><set name="it"><set name="topic">Maldivas</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MALAWI</pattern>
+	<template>Lilongwe.<think><set name="it"><set name="topic">Malawi</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CAMARÕES</pattern>
+	<template>Yaounde.<think><set name="it"><set name="topic">Camarões</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SAN MARINO</pattern>
+	<template>San Marino.<think><set name="it"><set name="topic">San marino</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BELIZE</pattern>
+	<template>Belmopan.<think><set name="it"><set name="topic">Belize</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TONGA</pattern>
+	<template>Nuku.<think><set name="it"><set name="topic">Tonga</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ DOMINICA</pattern>
+	<template>Roseau.<think><set name="it"><set name="topic">Dominica</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ JERSEY</pattern>
+	<template>Saint Helier.<think><set name="it"><set name="topic">Jersey</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NEBRASKA</pattern>
+	<template>Lincoln.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ DELAWARE</pattern>
+	<template>Dover.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ JOHNSTON ATOLL</pattern>
+	<template>nenhum.<think><set name="it"><set name="topic">Atol de Johnston</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ JAPÃO</pattern>
+	<template>Tokyo.<think><set name="it"><set name="topic">Japão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL ASSÍRIA</pattern>
+	<template>É Babilônia?</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NIGÉRIA</pattern>
+	<template>Abuja.<think><set name="it"><set name="topic">Nigéria</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS SALOMÃO</pattern>
+	<template>Honiara.<think><set name="it"><set name="topic">Ilhas Salomão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ IÊMEN</pattern>
+	<template>Sanaa.<think><set name="it"><set name="topic">Iêmen</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MICHIGAN</pattern>
+	<template>Lansing.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SINGAPORE</pattern>
+	<template>Cingapura.<think><set name="it"><set name="topic">Cingapura</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ESPANHA</pattern>
+	<template>A capital da Espanha é Madrid.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ LUXEMBURGO</pattern>
+	<template>Luxemburgo.<think><set name="it"><set name="topic">Luxemburgo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BRASIL</pattern>
+	<template>Eu acho que a capital do Brasil é chamada de \"Brasília\".</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ FINLÂNDIA</pattern>
+	<template>A capital da Finlândia é Helsinki.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ALASCA</pattern>
+	<template>Juneau.</template>
+</category>
+<category>
+	<pattern>O QUE É A CAPITAL _ ARÁBIA SAUDITA</pattern>
+	<template>Riyadh.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ UTAH</pattern>
+	<template>Salt Lake City.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GROENLÂNDIA</pattern>
+	<template>Nuuk {Godthab}.<think><set name="it"><set name="topic">Gronelândia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ INGLATERRA</pattern>
+	<template>Londres.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ARKANSAS</pattern>
+	<template>Little Rock.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHA DA EUROPA</pattern>
+	<template>nenhum; administrado pela França a partir de reunião.<think><set name="it"><set name="topic">Ilha Europa</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ARMÉNIA</pattern>
+	<template>Yerevan.<think><set name="it"><set name="topic">Armênia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MACEDÓNIA</pattern>
+	<template>Skopje.<think><set name="it"><set name="topic">Macedônia, antiga República Jugoslava da</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NAVASSA ISLAND</pattern>
+	<template>nenhum; administrado a partir de Washington, DC.<think><set name="it"><set name="topic">Ilha Navassa</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É A POPULAÇÃO DOS EUA</pattern>
+	<template>Cerca de 300 milhões de pessoas.</template>
+</category>
+<category>
+	<pattern>QUAL É A POPULAÇÃO DOS EUA</pattern>
+	<template>Os Estados Unidos tem cerca de 300 milhões de pessoas.</template>
+</category>
+<category>
+	<pattern>O QUE É A BÉLGICA</pattern>
+	<template>Um Reino na Europa W., no mar do Norte, a independência foi estabelecido em 1831. É 11.792 km quadrados com uma população de 9.868.000.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHA BAKER</pattern>
+	<template>nenhum; administrado a partir de Washington, DC.<think><set name="it"><set name="topic">Ilha Baker</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NAURU</pattern>
+	<template>sem capital oficial; escritórios governamentais em Yaren District.<think><set name="it"><set name="topic">Nauru</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MINNESOTA</pattern>
+	<template>St. Paul.</template>
+</category>
+<category>
+	<pattern>O QUE É A ÍNDIA</pattern>
+	<template>Uma região no sul da Ásia, sul do Himalaia, incluindo uma grande península entre a Baía de Bengala e mar da Arábia. Ele contém a Índia, Paquistão, Bangladesh, Nepal e Butão. Uma República Central e sul da Índia, estabelecida por ato do Parlamento britânico, em 1947, tornou-se uma República em 1950. É membro da Commonwealth. É de 1.269.000 km quadrados com uma população de 783,940,000.</template>
+</category>
+<category>
+	<pattern>CALIFÓRNIA</pattern>
+	<template>Eu estou em<set name="location">Califórnia</set>demais!<think><set name="it"><set name="topic">Califórnia</set></set></think></template>
+</category>
+<category>
+	<pattern>CALIFÓRNIA É *</pattern>
+	<template>Eu sabia que era na costa oeste, mas nunca soube que era de Califórnia &lt;person/&gt;.</template>
+</category>
+<category>
+	<pattern>NORUEGA DINAMARCA *</pattern>
+	<template>Isso soa como uma viagem wondeful.</template>
+</category>
+<category>
+	<pattern>O QUE ELE ESTÁ FAZENDO * CALIFÓRNIA</pattern>
+	<template>Ele é provavelmente lá para a corrida do ouro.</template>
+</category>
+<category>
+	<pattern>O QUE O ANIMAL É SAGRADO NA ÍNDIA</pattern>
+	<template>Vaca.</template>
+</category>
+<category>
+	<pattern>CALIFÓRNIA *</pattern>
+	<template>Qual parte da Califórnia você gosta mais?</template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL DA COREIA DO NORTE</pattern>
+	<template>P'yongyang.<think><set name="it"><set name="topic">Coreia, norte</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ALEMANHA</pattern>
+	<template>Berlim.<think><set name="it"><set name="topic">Alemanha</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ UCRÂNIA</pattern>
+	<template>Kiev {Kiyev}.<think><set name="it"><set name="topic">Ucrânia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ DAKOTA DO NORTE</pattern>
+	<template>Bismarck.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NORTE *</pattern>
+	<template>Bismarck.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CAROLINA DO NORTE</pattern>
+	<template>Raleigh.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MARTINICA</pattern>
+	<template>Fort-de-France.<think><set name="it"><set name="topic">Martinica</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ESTÓNIA</pattern>
+	<template>Tallinn.<think><set name="it"><set name="topic">Estônia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ INDONÉSIA</pattern>
+	<template>Jacarta.<think><set name="it"><set name="topic">Indonésia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ASHMORE *</pattern>
+	<template>nenhum; administrado a partir de Canberra, Austrália.<think><set name="it"><set name="topic">Ilhas Ashmore e cartier</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS MIDWAY</pattern>
+	<template>nenhum; administrado a partir de Washington, DC.<think><set name="it"><set name="topic">ilhas Midway</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BANGLADESH</pattern>
+	<template>Dhaka.<think><set name="it"><set name="topic">Bangladesh</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MONTSERRAT</pattern>
+	<template>Plymouth.<think><set name="it"><set name="topic">Montserrat</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ LITUÂNIA</pattern>
+	<template>Vilnius.<think><set name="it"><set name="topic">Lituânia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ÁUSTRIA</pattern>
+	<template>A capital da Áustria é Viena.<think><set name="it"><set name="topic">Áustria</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ARÁBIA SAUDITA</pattern>
+	<template>Riyadh, Arábia Saudita.<think><set name="it"><set name="topic">Arábia Saudita</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MARIANAS DO NORTE *</pattern>
+	<template>Saipan.<think><set name="it"><set name="topic">Ilhas Marianas do Norte</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BAHRAIN</pattern>
+	<template>Manama.<think><set name="it"><set name="topic">Bahrein</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ KAZAKSTAN</pattern>
+	<template>Almaty.<think><set name="it"><set name="topic">Kazakstan</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BIELORRÚSSIA</pattern>
+	<template>A capital da Bielorrússia é Minsk.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ OMÃ</pattern>
+	<template>Muscat.<think><set name="it"><set name="topic">Omã</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BIRMÂNIA</pattern>
+	<template>Rangum {regime refere-se à capital como Yangon}.<think><set name="it"><set name="topic">Birmânia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MAURITÂNIA</pattern>
+	<template>Nouakchott.<think><set name="it"><set name="topic">Mauritânia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PALMYRA ATOLL</pattern>
+	<template>nenhum; administrado a partir de Washington, DC.<think><set name="it"><set name="topic">Palmyra atoll</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ EQUADOR</pattern>
+	<template>Quito.<think><set name="it"><set name="topic">Equador</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL LÍBIA</pattern>
+	<template>Tripoli.<think><set name="it"><set name="topic">Líbia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL GUATEMALA</pattern>
+	<template>Guatemala.<think><set name="it"><set name="topic">Guatemala</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MAINE</pattern>
+	<template>Augusta.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ EGITO</pattern>
+	<template>Cairo, Egito.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ JUAN DE NOVA ISLAND</pattern>
+	<template>nenhum; administrado pela França a partir de reunião.<think><set name="it"><set name="topic">Ilha de Juan de nova</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GUINÉ EQUATORIAL</pattern>
+	<template>Malabo.<think><set name="it"><set name="topic">Guiné Equatorial</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NEPAL</pattern>
+	<template>Kathmandu.<think><set name="it"><set name="topic">Nepal</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ RHODE ISLAND</pattern>
+	<template>Providência.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MONACO</pattern>
+	<template>Monaco.<think><set name="it"><set name="topic">Monaco</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MACAU</pattern>
+	<template>Macau.<think><set name="it"><set name="topic">Macau</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHA CHRISTMAS</pattern>
+	<template>O assentamento.<think><set name="it"><set name="topic">Ilha Christmas</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CABO VERDE</pattern>
+	<template>Praia.<think><set name="it"><set name="topic">cabo verde</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ DJIBOUTI</pattern>
+	<template>Djibouti.<think><set name="it"><set name="topic">Djibuti</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MAURITIUS</pattern>
+	<template>Port Louis.<think><set name="it"><set name="topic">Maurício</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHA WAKE</pattern>
+	<template>nenhum; administrado a partir de Washington, DC.<think><set name="it"><set name="topic">Ilha Wake</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ OREGON</pattern>
+	<template>Salem.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PARAGUAI</pattern>
+	<template>Assunção.<think><set name="it"><set name="topic">Paraguai</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ AUSTRÁLIA</pattern>
+	<template>Eu acho que é chamado de Canberra.<think><set name="it"><set name="topic">AUSTRÁLIA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS DO MAR DE CORAL</pattern>
+	<template>nenhum; administrado a partir de Canberra, Austrália.<think><set name="it"><set name="topic">Ilhas do mar de coral</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS MARSHALL</pattern>
+	<template>Majuro.<think><set name="it"><set name="topic">Ilhas Marshall</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ VERMONT</pattern>
+	<template>Montpelier.</template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL DE TRINIDAD E TOBAGO</pattern>
+	<template>Spain.<think><set name="it"><set name="topic">Trinidad e Tobago</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ POLÓNIA</pattern>
+	<template>Varsóvia.<think><set name="it"><set name="topic">Polônia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SACRAMENTO</pattern>
+	<template>Isso é uma pergunta capciosa.<think><set name="it"><set name="topic">SACRAMENTO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CALIFÓRNIA</pattern>
+	<template>Sacramento.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ VIRGÍNIA OCIDENTAL</pattern>
+	<template>Charleston.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ FLORIDA</pattern>
+	<template>Tallahassee.</template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL SÍRIA</pattern>
+	<template>Damasco, Síria.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ZÂMBIA</pattern>
+	<template>Lusaka.<think><set name="it"><set name="topic">Zâmbia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BOTSWANA</pattern>
+	<template>Gaborone.<think><set name="it"><set name="topic">Botswana</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ IUGOSLÁVIA</pattern>
+	<template>Belgrado.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ URUGUAI</pattern>
+	<template>Montevidéu.<think><set name="it"><set name="topic">Uruguai</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SAMOA AMERICANA</pattern>
+	<template>Pago Pago.<think><set name="it"><set name="topic">samoa americana</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TUNÍSIA</pattern>
+	<template>Tunis.<think><set name="it"><set name="topic">Tunísia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ AZERBAIJÃO</pattern>
+	<template>Baku {Baki}.<think><set name="it"><set name="topic">Azerbaijão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BRUNEI</pattern>
+	<template>Bandar Seri Begawan.<think><set name="it"><set name="topic">Brunei</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ HOLANDA</pattern>
+	<template>Amesterdão; Haia é a sede do governo.<think><set name="it"><set name="topic">Países Baixos</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ANTILHAS HOLANDESAS</pattern>
+	<template>Willemstad.<think><set name="it"><set name="topic">Antilhas Holandesas</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ANTIGUA *</pattern>
+	<template>Saint John.<think><set name="it"><set name="topic">Antígua e barbuda</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TOGO</pattern>
+	<template>Lome.<think><set name="it"><set name="topic">Togo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BERMUDA</pattern>
+	<template>Hamilton.<think><set name="it"><set name="topic">Bermuda</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MAYOTTE</pattern>
+	<template>Mamoutzou.<think><set name="it"><set name="topic">Mayotte</set></set></think></template>
+</category>
+<category>
+	<pattern>POR QUE CALIFÓRNIA</pattern>
+	<template>Eu gosto de viver na Califórnia.</template>
+</category>
+<category>
+	<pattern>TURQUIA</pattern>
+	<template>Ambíguo: Turquia o pássaro ou a Turquia a nação.</template>
+</category>
+<category>
+	<pattern>QUEL TEMPS IL FAIT A BRUXELLES</pattern>
+	<template>Il fait gris, comme d habitude.</template>
+</category>
+<category>
+	<pattern>QUEM É O PRESIDENTE DOS EUA</pattern>
+	<template><bot name="president"/>.</template>
+</category>
+<category>
+	<pattern>O CANADÁ É *</pattern>
+	<template>Diga-me mais sobre o grande norte branco.</template>
+</category>
+<category>
+	<pattern>EUA HOJE *</pattern>
+	<template>EUA hoje é um excelente papel.</template>
+</category>
+<category>
+	<pattern>É PERTO DO CANADÁ</pattern>
+	<template>Sim.</template>
+</category>
+<category>
+	<pattern>NÃO VIVO NOS EUA</pattern>
+	<template>Onde vocês estão localizados?</template>
+</category>
+<category>
+	<pattern>EU MORO NA CALIFÓRNIA</pattern>
+	<template>Onde, em<set name="location">Califórnia</set>?<think><set name="it"><set name="topic">Califórnia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A DINAMARCA</pattern>
+	<template>Um país na Europa, occupyinh a maioria da Península da Jutlândia e várias ilhas próximas nos mares do Norte e Báltico. É 16.632 km quadrados com uma população de 5.124.000.</template>
+</category>
+<category>
+	<pattern>QUE É AUSTLARIA</pattern>
+	<template>Não, eu não acho que é a Austrália.</template>
+</category>
+<category>
+	<pattern>AUSTRÁLIA *</pattern>
+	<template>Eu gostaria de ir para a Austrália em algum momento.</template>
+</category>
+<category>
+	<pattern>EU AMO A DINAMARCA</pattern>
+	<template>O que é tão grande sobre ele?<think><set name="it"><set name="topic">Dinamarca</set></set></think></template>
+</category>
+<category>
+	<pattern>A CAPITAL DO CANADÁ É OTTAWA</pattern>
+	<template>Como vou cair para isso.</template>
+</category>
+<category>
+	<pattern>A CAPITAL DO CANADÁ É OTAVA</pattern>
+	<template>Você não pode me enganar tão facilmente, <get name="name"/>.  Eu sei que é Toronto.</template>
+</category>
+<category>
+	<pattern>QUAL CONTINENTE É NA ÁUSTRIA</pattern>
+	<template>Na Europa.</template>
+</category>
+<category>
+	<pattern>ONDE NO CANADÁ</pattern>
+	<template>Nova Scotia e Vancouver.</template>
+</category>
+<category>
+	<pattern>ONDE EM BELÉM</pattern>
+	<template>Departamento de engenharia elétrica e ciência da computação, Universidade de Lehigh.</template>
+</category>
+<category>
+	<pattern>A CAPITAL DO CANADÁ *</pattern>
+	<template>Você não pode me enganar tão facilmente.  Eu sei que a capital do Canadá é Toronto.</template>
+</category>
+<category>
+	<pattern>QUEM É WINSTON CHURCHILL</pattern>
+	<template>Primeiro-ministro do Reino Unido durante a Segunda Guerra Mundial.</template>
+</category>
+<category>
+	<pattern>QUEM É O PRESIDENTE DOS EUA</pattern>
+	<template><bot name="president"/>.</template>
+</category>
+<category>
+	<pattern>QUEM É O PRESIDENTE DOS EUA</pattern>
+	<template><bot name="president"/>.</template>
+</category>
+<category>
+	<pattern>QUEM É O PRESIDENTE DO CANADÁ</pattern>
+	<template>O Canadá tem um primeiro-ministro, não um presidente.</template>
+</category>
+<category>
+	<pattern>QUEM É O PRESIDENTE DOS EUA *</pattern>
+	<template><bot name="president"/>.</template>
+</category>
+<category>
+	<pattern>QUEM É O PRESIDENTE DOS EUA</pattern>
+	<template><bot name="president"/>.</template>
+</category>
+<category>
+	<pattern>QUEM É O PRESIDENTE DO CANADÁ</pattern>
+	<template>O Canadá tem um primeiro-ministro.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SERRA LEOA</pattern>
+	<template>Freetown.<think><set name="it"><set name="topic">Serra Leoa</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BENIN</pattern>
+	<template>Porto-Novo.<think><set name="it"><set name="topic">Benin</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MASSACHUSETTS</pattern>
+	<template>Boston.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SUDÃO</pattern>
+	<template>Khartoum.<think><set name="it"><set name="topic">Sudão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TAJIQUISTÃO</pattern>
+	<template>Dushanbe.<think><set name="it"><set name="topic">Tajiquistão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ REUNIÃO</pattern>
+	<template>Saint-Denis.<think><set name="it"><set name="topic">reunião</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ LESOTO</pattern>
+	<template>Maseru.<think><set name="it"><set name="topic">Lesoto</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NOVA YORK</pattern>
+	<template>Albany.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NEW HAMPSHIRE</pattern>
+	<template>Concord.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NEW JERSEY</pattern>
+	<template>Trenton.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NOVO *</pattern>
+	<template>Novo &lt;person/&gt;cidade?</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NOVA ZELÂNDIA</pattern>
+	<template>Wellington.<think><set name="it"><set name="topic">Nova Zelândia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NOVO MÉXICO</pattern>
+	<template>Santa Fe.</template>
+</category>
+<category>
+	<pattern>O QUE É EUA</pattern>
+	<template>Estados Unidos da América</template>
+</category>
+<category>
+	<pattern>O QUE É A CALIFÓRNIA COMO</pattern>
+	<template>A Califórnia é muito cara.</template>
+</category>
+<category>
+	<pattern>O QUE É A CALIFÓRNIA</pattern>
+	<template>Estado dos EUA SW, na costa do Pacífico. Foi admitido em 1850.</template>
+</category>
+<category>
+	<pattern>O QUE É COPENHAGUE</pattern>
+	<template>É a capital da Dinamarca. Porto marítimo na costa leste da Zelândia. Sua população é de 633,00.<think><set name="it"><set name="topic">Copehagen</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A GRÉCIA</pattern>
+	<template><random><li>É uma palavra, é uma palavra, ele tem humor, tem sentimento.</li><li>Um país do Sul Península Balcânica, incluindo muitas ilhas do mar Egeu, Jônico e Mediterrâneo. É 50.949 km quadrados com uma população de 9.900.000.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É BETHLEHEM</pattern>
+	<template>Bethlehem é uma cidade localizada no nordeste da Pensilvânia.<think><set name="it"><set name="topic">BETHLEHEM</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CASABLANCA</pattern>
+	<template>Eu amo a música, As Time Goes By.</template>
+</category>
+<category>
+	<pattern>QUAL É A CAPITAL DE ALBERTA</pattern>
+	<template>Edmonton.<think><set name="it"><set name="topic">Edmonton</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É A CAPITAL DA BÓSNIA</pattern>
+	<template>Sarajevo.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ARGÉLIA</pattern>
+	<template>Algiers.<think><set name="it"><set name="topic">Argélia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É AMSTERDAM</pattern>
+	<template><set name="it">Amsterdam</set>é uma cidade na Holanda.  O capital político nem a maior cidade, Amsterdam é a cidade mais conhecida nos Países Baixos.</template>
+</category>
+<category>
+	<pattern>O QUE É O CANADÁ</pattern>
+	<template><set name="it">Canadá</set>é uma grande nação que ocupa grande parte do continente norte-americano.</template>
+</category>
+<category>
+	<pattern>QUAL É A CAPITAL DE *</pattern>
+	<template>Eu sei que a capital do<random><li>O Canadá é Toronto.</li><li>A Califórnia é Sacramento.</li><li>Geórgia é Atlanta.</li><li>A França é Paris.</li></random></template>
+</category>
+<category>
+	<pattern>ONDE EM CALIFÓRNIA</pattern>
+	<template>Eu estou em <bot name="location"/>.  Onde você está?</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O ZAIRE</pattern>
+	<template>África Central, nordeste de Angola.<think><set name="it"><set name="topic">Zaire</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A MICRONÉSIA</pattern>
+	<template><set name="it"><set name="topic">MICRONÉSIA</set></set>é um conjunto de ilhas no Oceano Pacífico.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A JAMAICA</pattern>
+	<template>Ilha do Caribe, no mar do Caribe, ao sul de Cuba.<think><set name="it"><set name="topic">Jamaica</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BASSAS DA INDIA</pattern>
+	<template>África do Sul, Ilhas do canal sul de Moçambique, cerca de metade do caminho de Madagáscar para Moçambique.<think><set name="it"><set name="topic">Bassas da india</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A LIBÉRIA</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico Norte, entre a costa do Marfim e Serra Leoa.<think><set name="it"><set name="topic">Libéria</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ATENAS</pattern>
+	<template><set name="it">Atenas</set>é uma cidade na Grécia.</template>
+</category>
+<category>
+	<pattern>ONDE FICA A IRLANDA</pattern>
+	<template><set name="it">Irlanda</set>está localizado em uma pequena ilha ao largo da costa da Europa.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ACAPULCO</pattern>
+	<template><set name="it">Acapulco</set>é uma cidade na costa do Pacífico do México.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OSLO</pattern>
+	<template><set name="it">Oslo</set>é uma cidade da Noruega.</template>
+</category>
+<category>
+	<pattern>ONDE É PITTSFIELD</pattern>
+	<template><set name="it"><set name="topic">PITTSFIELD</set></set>é uma cidade em Massachusettes.</template>
+
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BUTÃO</pattern>
+	<template>Sul da Ásia, entre a China e a Índia.<think><set name="it"><set name="topic">Butão</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CASCO</pattern>
+	<template><set name="it"><set name="topic">CASCO</set></set>é uma cidade na Inglaterra.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CAMBRIDGE</pattern>
+	<template><set name="it"><set name="topic">CAMBRIDGE</set></set>é uma cidade em Massachusetts, também na Inglaterra.</template>
+</category>
+<category>
+	<pattern>ONDE É A RÚSSIA</pattern>
+	<template><set name="it">Rússia</set>é um grande país da Ásia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ARGÉLIA</pattern>
+	<template>Norte da África, na fronteira com o mar Mediterrâneo entre Marrocos e a Tunísia.<think><set name="it"><set name="topic">Argélia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BRISTOL</pattern>
+	<template><set name="it"><set name="topic">BRISTOL</set></set>é uma cidade na costa oeste da Inglaterra.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O TAIPEI</pattern>
+	<template>É a capital de Taiwan.<think><set name="it"><set name="topic">Taipei</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É O QUÉNIA</pattern>
+	<template><set name="it"><set name="topic">Quênia</set></set>é um país da África central.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BOSTON</pattern>
+	<template><set name="it"><set name="topic">BOSTON</set></set>é uma cidade em Massachusettes.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A VARSÓVIA</pattern>
+	<template><set name="it"><set name="topic">VARSÓVIA</set></set>é uma grande cidade na Polônia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SIAM</pattern>
+	<template><set name="it"><set name="topic">SIAM</set></set>é outro nome para a Tailândia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O INDIANA</pattern>
+	<template><set name="it">Indiana</set>é o meio-oeste dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A SOFIA</pattern>
+	<template><set name="it"><set name="topic">SOFIA</set></set>é uma cidade da Bulgária.</template>
+</category>
+<category>
+	<pattern>ONDE É O ATUAL MADAGASCAR</pattern>
+	<template>África do Sul, ilha no Oceano Índico, a leste de Moçambique.<think><set name="it"><set name="topic">Madagascar</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O NORFOLK</pattern>
+	<template><set name="it"><set name="topic">NORFOLK</set></set>é uma cidade em Virgina.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA NORFOLK</pattern>
+	<template>Oceania, ilha no sul do Oceano Pacífico, ao leste da Austrália.<think><set name="it"><set name="topic">Ilha Norfolk</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GRÉCIA</pattern>
+	<template><set name="it">Grécia</set>é um país dos Balcãs.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ SATURNO</pattern>
+	<template><set name="it"><set name="topic">SATURNO</set></set>é o sexto planeta do sol.</template>
+</category>
+<category>
+	<pattern>CADÊ SYDNEY</pattern>
+	<template><set name="it">Sydney</set>é uma cidade na Austrália.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BOTSWANA</pattern>
+	<template>África do Sul, norte de África do Sul.<think><set name="it"><set name="topic">Botswana</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A FORMOSA</pattern>
+	<template><set name="it">Taiwan</set>é um país insular da Ásia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O HAITI</pattern>
+	<template>Caribe, ocidental um terço da ilha de Hispaniola, entre o mar das Caraíbas e o Oceano Atlântico Norte, oeste da República Dominicana.<think><set name="it"><set name="topic">Haiti</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O SHEFFIELD</pattern>
+	<template><set name="it"><set name="topic">SHEFFIELD</set></set>é uma cidade na Inglaterra.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O BURUNDI</pattern>
+	<template>África Central, leste do Zaire.<think><set name="it"><set name="topic">Burundi</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CINCINNATI</pattern>
+	<template><set name="it"><set name="topic">CINCINNATI</set></set>é uma grande cidade em Ohio.</template>
+</category>
+<category>
+	<pattern>ONDE FICA O SUDÃO</pattern>
+	<template>Norte da África, na fronteira com o mar vermelho, entre o Egito e Eritreia.<think><set name="it"><set name="topic">Sudão</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O COLOMBO</pattern>
+	<template><set name="it"><set name="topic">COLOMBO</set></set>é uma cidade localizada no estado norte-americano de Ohio.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O INDIANAPOLIS</pattern>
+	<template><set name="it"><set name="topic">INDIANAPOLIS</set></set>é uma grande cidade em Indiana.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ERITREIA</pattern>
+	<template>África Oriental, na fronteira com o mar vermelho, entre o Djibuti e o Sudão.<think><set name="it"><set name="topic">Eritreia</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O MALI</pattern>
+	<template>Na África Ocidental, sudoeste da Argélia.<think><set name="it"><set name="topic">Mali</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O JAPÃO</pattern>
+	<template><set name="it"><set name="topic">Japão</set></set>é um país insular no lado oriental da Ásia.</template>
+</category>
+<category>
+	<pattern>ONDE FICA LONDRES</pattern>
+	<template><set name="it">Londres</set>é uma cidade na Inglaterra.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O CHICAGO</pattern>
+	<template><set name="it"><set name="topic">CHICAGO</set></set>é uma grande cidade em Illinois, no Lago Michigan.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ROMA</pattern>
+	<template><set name="it"><set name="topic">ROMA</set></set>é uma grande cidade na Itália.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A CHINA</pattern>
+	<template><set name="it"><set name="topic">CHINA</set></set>é uma grande nação na Ásia.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O OCEANO ÁRTICO</pattern>
+	<template>corpo de água, principalmente ao norte do Círculo Polar Ártico.<think><set name="it"><set name="topic">Oceano Ártico</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE FICA O KANSAS</pattern>
+	<template><set name="it">Kansas</set>é o centro-oeste United States.W</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A COSTA RICA</pattern>
+	<template>América do meio, na fronteira com o mar do Caribe e norte do Oceano Pacífico, entre Nicarágua e Panamá.<think><set name="it"><set name="topic">Costa Rica</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A ILHA BAKER</pattern>
+	<template>Oceania, atol no norte do Oceano Pacífico, cerca de metade do caminho do Havaí para a Austrália.<think><set name="it"><set name="topic">Ilha Baker</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A REPÚBLICA DOMINICANA</pattern>
+	<template>Caribe, leste dois terços da ilha de Hispaniola, entre o mar das Caraíbas e o Oceano Atlântico Norte, leste do Haiti.<think><set name="it"><set name="topic">República Dominicana</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A GIBRALTAR</pattern>
+	<template>Sudoeste Europa, fazendo fronteira com o estreito de Gibraltar, que liga o mar Mediterrâneo e o Atlântico Norte, na costa sul da Espanha.<think><set name="it"><set name="topic">Gibraltar</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ O GABÃO</pattern>
+	<template>África Ocidental, na fronteira com o Oceano Atlântico, no Equador, entre o Congo e Guiné Equatorial.<think><set name="it"><set name="topic">Gabão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TURQUEMENISTÃO</pattern>
+	<template>Ashgabat.<think><set name="it"><set name="topic">Turcomenistão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL SÃO-TOMENSE *</pattern>
+	<template>São-tomense.<think><set name="it"><set name="topic">São Tomé e Príncipe</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CONGO</pattern>
+	<template>Brazzaville.<think><set name="it"><set name="topic">Congo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TAILÂNDIA</pattern>
+	<template>Bangkok.<think><set name="it"><set name="topic">Tailândia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ IOWA</pattern>
+	<template>Des Moines.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ UZBEQUISTÃO</pattern>
+	<template>Tashkent {Toshkent}.<think><set name="it"><set name="topic">Uzbequistão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NEVADA</pattern>
+	<template>Cidade de Carson.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GEÓRGIA DO SUL *</pattern>
+	<template>nenhum; Grytviken na Geórgia do Sul é a cidade de guarnição.<think><set name="it"><set name="topic">Geórgia do Sul e Ilhas sandwich do Sul</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CAROLINA DO SUL</pattern>
+	<template>Columbia.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ÁFRICA DO SUL</pattern>
+	<template>Pretória {administração}; Cidade do cabo {legislativo}; Bloemfontein {judicial}.<think><set name="it"><set name="topic">África do Sul</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MALTA</pattern>
+	<template>Valletta.<think><set name="it"><set name="topic">Malta</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ JAN MAYEN</pattern>
+	<template>nenhum.<think><set name="it"><set name="topic">Jan mayen</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ DAKOTA DO SUL</pattern>
+	<template>Pierre.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ OKLAHOMA</pattern>
+	<template>Oklahoma City.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHA DE CLIPPERTON</pattern>
+	<template>nenhum; administrado pela França da Polinésia francesa.<think><set name="it"><set name="topic">Ilha de Clipperton</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BUTÃO</pattern>
+	<template>Thimphu.<think><set name="it"><set name="topic">Butão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BÉLGICA</pattern>
+	<template>Bruxelas.<think><set name="it"><set name="topic">Bélgica</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ COLÔMBIA</pattern>
+	<template>Bogotá é a capital da Colômbia.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MADAGASCAR</pattern>
+	<template>Antananarivo.<think><set name="it"><set name="topic">Madagascar</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS CAYMAN</pattern>
+	<template>George Town.<think><set name="it"><set name="topic">Ilhas Cayman</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ REPÚBLICA DOMINICANA</pattern>
+	<template>Santo Domingo.<think><set name="it"><set name="topic">República Dominicana</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GUAM</pattern>
+	<template>AGANA.<think><set name="it"><set name="topic">Guam</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CAMBOJA</pattern>
+	<template>Phnom Penh.<think><set name="it"><set name="topic">Camboja</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ LETÓNIA</pattern>
+	<template>Riga.<think><set name="it"><set name="topic">Letônia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ KENTUCKY</pattern>
+	<template>Frankfort.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PERU</pattern>
+	<template>Lima é a capital do Peru.<think><set name="it"><set name="topic">Peru</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ INDIANO BRITÂNICO *</pattern>
+	<template>nenhum.<think><set name="it"><set name="topic">território britânico do Oceano Índico</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ VIRGENS BRITÂNICAS *</pattern>
+	<template>Road Town.<think><set name="it"><set name="topic">Ilhas Virgens Britânicas</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SUÉCIA</pattern>
+	<template>Eu acho que a capital da Suécia é Estocolmo.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ISLÂNDIA</pattern>
+	<template>Reykjavik.<think><set name="it"><set name="topic">Islândia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MALÁSIA</pattern>
+	<template>Kuala Lumpur.<think><set name="it"><set name="topic">Malásia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ÍNDIA</pattern>
+	<template>Nova Deli é a capital da Índia.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MONGOLIA</pattern>
+	<template>A capital da Mongólia é Ulan Bator.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GUERNSEY</pattern>
+	<template>Saint Peter Port.<think><set name="it"><set name="topic">Guernsey</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GEÓRGIA</pattern>
+	<template>Atlanta.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ IDAHO</pattern>
+	<template>Boise.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ FIJI</pattern>
+	<template>Suva.<think><set name="it"><set name="topic">Fiji</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MARROCOS</pattern>
+	<template>Rabat.<think><set name="it"><set name="topic">Marrocos</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PALAU</pattern>
+	<template>Koror.<think><set name="it"><set name="topic">Palau</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ITÁLIA</pattern>
+	<template>Roma.<think><set name="it"><set name="topic">Itália</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SVALBARD</pattern>
+	<template>Longyearbyen.<think><set name="it"><set name="topic">Svalbard</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CUBA</pattern>
+	<template>Havana.<think><set name="it"><set name="topic">Cuba</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CORÉIA DO SUL</pattern>
+	<template>Seul.<think><set name="it"><set name="topic">Coreia do Sul</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ERITREIA</pattern>
+	<template>Asmara {anteriormente Asmera}.<think><set name="it"><set name="topic">Eritreia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS COCOS</pattern>
+	<template>West Island.<think><set name="it"><set name="topic">Ilhas Cocos {keeling}</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ COREIA</pattern>
+	<template>Seul.<think><set name="it"><set name="topic">Coreia do Sul</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ POLINÉSIA FRANCESA</pattern>
+	<template>Papeete.<think><set name="it"><set name="topic">Polinésia francesa</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PENSILVÂNIA</pattern>
+	<template>Harrisburg.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ RUANDA</pattern>
+	<template>Kigali.<think><set name="it"><set name="topic">Ruanda</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BASSAS DA INDIA</pattern>
+	<template>nenhum; administrado pela França a partir de reunião.<think><set name="it"><set name="topic">Bassas da india</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ FRANCÊS *</pattern>
+	<template>Nenhum; administrado a partir de Paris, França.<think><set name="it"><set name="topic">Francês <star/></set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GUIANA FRANCESA</pattern>
+	<template>Pimenta de Caiena.<think><set name="it"><set name="topic">guiana francesa</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ FILIPINAS</pattern>
+	<template>Manila.<think><set name="it"><set name="topic">Filipinas</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CHILE</pattern>
+	<template>Santiago.<think><set name="it"><set name="topic">Chile</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ HAITI</pattern>
+	<template>Port-au-Prince.<think><set name="it"><set name="topic">Haiti</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BOLÍVIA</pattern>
+	<template>La Paz {sede do governo}; Sucre {capital legal e sede do poder judiciário}.<think><set name="it"><set name="topic">Bolívia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ AMÉRICA</pattern>
+	<template>A capital dos EUA é Washington, D. C.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TURQUIA</pattern>
+	<template>Ancara é a capital da Turquia.<think><set name="it"><set name="topic">Turquia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ QUÊNIA</pattern>
+	<template>Nairobi.<think><set name="it"><set name="topic">Quênia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SURINAME</pattern>
+	<template>Paramaribo.<think><set name="it"><set name="topic">Suriname</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NAMÍBIA</pattern>
+	<template>Windhoek.<think><set name="it"><set name="topic">Namíbia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ARUBA</pattern>
+	<template>Oranjestad.<think><set name="it"><set name="topic">Aruba</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ VIETNAM</pattern>
+	<template>Hanoi.<think><set name="it"><set name="topic">Vietname</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GRANADA</pattern>
+	<template>Saint George.<think><set name="it"><set name="topic">Granada</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SENEGAL</pattern>
+	<template>Dakar.<think><set name="it"><set name="topic">Senegal</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MISSISSIPPI</pattern>
+	<template>Jackson.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CHINA</pattern>
+	<template>Algumas pessoas chamam de \"Beijing\", outros \"Peking\".</template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL SUÍÇA</pattern>
+	<template>Berna.<think><set name="it"><set name="topic">Suíça</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MALI</pattern>
+	<template>Bamako.<think><set name="it"><set name="topic">Mali</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ NOVA CALEDÓNIA</pattern>
+	<template>Noumea.<think><set name="it"><set name="topic">Nova Caledônia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BURUNDI</pattern>
+	<template>Bujumbura.<think><set name="it"><set name="topic">Burundi</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MARYLAND</pattern>
+	<template>Annapolis.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ PANAMÁ</pattern>
+	<template>Panamá.<think><set name="it"><set name="topic">Panamá</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BARBADOS</pattern>
+	<template>Bridgetown.<think><set name="it"><set name="topic">Barbados</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SRI LANKA</pattern>
+	<template>Colombo.<think><set name="it"><set name="topic">Sri lanka</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ KINGMAN REEF</pattern>
+	<template>nenhum; administrado a partir de Washington, DC.<think><set name="it"><set name="topic">Recife de Kingman</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ VENEZUELA</pattern>
+	<template>Caracas.<think><set name="it"><set name="topic">Venezuela</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ BULGÁRIA</pattern>
+	<template>A capital da Bulgária é Sófia.<think><set name="it"><set name="topic">Bulgária</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ TOKELAU</pattern>
+	<template>nenhum; cada Atol tem seu próprio centro administrativo.<think><set name="it"><set name="topic">Tokelau</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ WYOMING</pattern>
+	<template>Cheyenne.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ JAMAICA</pattern>
+	<template>Kingston.<think><set name="it"><set name="topic">Jamaica</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ SEYCHELLES</pattern>
+	<template>Victoria.<think><set name="it"><set name="topic">Seychelles</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ANGUILLA</pattern>
+	<template>O vale.<think><set name="it"><set name="topic">Anguilla</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CHAD</pattern>
+	<template>N' Djamena.<think><set name="it"><set name="topic">Chade</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GUIANA</pattern>
+	<template>Georgetown.<think><set name="it"><set name="topic">Guiana</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ VIRGINIA</pattern>
+	<template>Richmond.</template>
+</category>
+<category>
+	<pattern>O QUE É O _ CAPITAL MOLDÁVIA</pattern>
+	<template>Chisinau.<think><set name="it"><set name="topic">Moldávia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS COOK</pattern>
+	<template>Avarua.<think><set name="it"><set name="topic">Ilhas Cook</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ AFRICANO CENTRAL *</pattern>
+	<template>Bangui.<think><set name="it"><set name="topic">República Centro-Africana</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ QUIRGUISTÃO</pattern>
+	<template>Bishkek.<think><set name="it"><set name="topic">Quirguistão</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILHAS FAROÉ</pattern>
+	<template>Tórshavn.<think><set name="it"><set name="topic">Ilhas Faroés</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ COTE D IVOIRE</pattern>
+	<template>Yamoussoukro.<think><set name="it"><set name="topic">Costa do Marfim</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MONTANA</pattern>
+	<template>Helena.</template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MÉXICO</pattern>
+	<template>México.<think><set name="it"><set name="topic">México</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ HONG KONG</pattern>
+	<template>Victoria.<think><set name="it"><set name="topic">Hong kong</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ DINAMARCA</pattern>
+	<template>Copenhaga.<think><set name="it"><set name="topic">Dinamarca</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ESLOVÁQUIA</pattern>
+	<template>Bratislava.<think><set name="it"><set name="topic">Eslováquia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ILLINOIS</pattern>
+	<template>Springfield.</template>
+</category>
+<category>
+	<pattern>O QUE É CAPITAL _ REINO UNIDO</pattern>
+	<template>Londres.<think><set name="it"><set name="topic">Reino Unido</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ JORDAN</pattern>
+	<template>Amã.<think><set name="it"><set name="topic">Jordânia</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ MICRONÉSIA</pattern>
+	<template>Kolonia {na ilha de Pohnpei}.<think><set name="it"><set name="topic">Micronésia, Estados Federados da</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ GUADALUPE</pattern>
+	<template>Basse-Terre.<think><set name="it"><set name="topic">Guadalupe</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ ESTADOS UNIDOS</pattern>
+	<template>Washington, DC.<think><set name="it"><set name="topic">Estados Unidos</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ UNIDA ARAB *</pattern>
+	<template>Abu Dhabi.<think><set name="it"><set name="topic">Emirados Árabes Unidos</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CAPITAL _ CONNECTICUT</pattern>
+	<template>Hartford.</template>
+</category>
+</aiml>

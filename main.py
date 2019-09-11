@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 
 kernel = aiml.Kernel()
-kernel.learn("config.xml")
+kernel.learn("aiml/config.xml")
 kernel.respond("CEREBRO")
 
 

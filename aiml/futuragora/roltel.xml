@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+ 
+<!--  Venus - Uma assistente pessoal virtual desenvolvida pela Associação FUTURAGORA   -->
+<!--  Esta é a versão 1.0.1  release de 10 de Julho de 2012                            -->  
+<!-- O Projecto consta do www.rbe-pod.net e está disponível em SVN no google code em   -->
+<!-- PERFIL HERDADO -->
+<!--  41R QUIZ  -->
+<!--  ROLTEL PRIV  -->
+
+<!--  2047=12775D =500.000  -->
+<!--  2047=12775D=20=250.000  -->
+
+<!-- PERFIL HERDADO -->
+<category><pattern>COR FAVORITA</pattern>
+<template>Verde</template>
+</category>
+
+<category><pattern>TOCAS GUITARRA</pattern>
+<template>Sim, desde jovem já lá vão décadas. Adoro uma guitarra com floyd rose.</template>
+</category>
+
+<category><pattern>JA VIAJASTE</pattern>
+<template>Sim, muito! ajudou-me a ser aquilo que sou hoje.</template>
+</category>
+
+
+<!--  ROLTEL PRIV  -->
+<category><pattern>QUANDO NASCEU A AVO JOAO</pattern>
+<template>Nasceu num lindo dia de sol ás 3 horas do dia 3 de Setembro de 1956 em Lourenço Marques, Moçambique.</template>
+</category>
+
+<category><pattern>QUANDO NASCEU O 41R</pattern>
+<template><srai>QUANDO NASCEU O ROLANDO LOPES-CARDOSO</srai></template>
+</category>
+
+<category><pattern>QUANDO NASCEU O ROLANDO LOPES-CARDOSO</pattern>
+<template>Nasceu a 10 de Julho de 1977 às 6 da manhã depois de a mãe ter passado um dia na piscina, em S. Domingos de Benfica.</template>
+</category>
+
+<category><pattern>QUANDO NASCEU A XXXX</pattern>
+<template>Nasceu às 11h00 num dia nebulado, em S. Domingos de Benfica a 3 de Fevereiro de 1979.</template>
+</category>
+
+<category><pattern>QUANDO NASCEU O JUNIOR</pattern>
+<template>Nasceu num lindo dia de sol, no hospital de Santa Maria em Lisboa a 22 de Novembro de 2001.</template>
+</category>
+
+<category><pattern>QUANDO NASCEU O SAMUEL</pattern>
+<template>Nasceu ao meio-dia na Amadora, 25 de Fevereiro de 2010.</template>
+</category>
+
+<category><pattern>QUANDO CASOU A XXXX</pattern>
+<template>Casou em Alcântara, 11 de Outubro de 2003.</template>
+</category>
+
+<category><pattern>QUANDO NASCEU O XXXXX</pattern>
+<template>Nasceu num dia de sol em em S. Domingos de Benfica a 15 de Dezembro de 2010.</template>
+</category>
+
+<category><pattern>QUANDO NASCEU O JOAXXX</pattern>
+<template>Nasceu numa tarde de inverso mas com sol a 12 de Novembro de 2009.</template>
+</category>
+
+<category><pattern>12/08/12</pattern>
+<template>Fomos ver as marchas populares e comer uma sadinhada. Ao colo do pai o Samuel baixava-se até que deu uma trinca na cabe da ultima sardinha que estava no prato.</template>
+</category>
+
+<category><pattern>QUANDO O 41R SE FORMOU ADVOGADO</pattern>
+<template>Foi publicada a sua aprovação com a date de 9 de Dezembro de 2009.</template>
+</category>
+
+<category><pattern>O QUE E QUE O 41R QUERIA SER QUANDO ERA PEQUENO</pattern>
+<template>Astronauta, no Liceu Francês chamavam-no de "la fusée".</template>
+</category>
+
+<category><pattern>QUAL O PELUCHE DO 41R</pattern>
+<template>Era um panda que sempre adorou.</template>
+</category>
+
+<category><pattern>QUE INSTRUMENTOS TOCAVA O 41R</pattern>
+<template>Basicamente, qualquer um em que conseguisse por as mãos.</template>
+</category>
+
+<category><pattern>QUAL A COR DOS OLHOS DO 41R</pattern>
+<template>Azuis.</template>
+</category>
+
+<category><pattern>QUAIS AS SKILLS INFORMATICAS DO 41R</pattern>
+<template>Php, mysql foram as ferramentas que mais usou. No entanto ao longo dos seus projectos desenvolveu muitos skills informáticos .</template>
+</category>
+
+<category><pattern>AGOSTO DE 2010</pattern>
+<template>O Junior cortou-se num vidro em almada e teve de ir levar 7 pontos ao Hospital Garcia da Horta.</template>
+</category>
+
+
+<category><pattern>84</pattern>
+<template>O mítico carro de 1984 que fez rally em Tomar e andou pela autoestrada a 180 para ir buscar o Junior antes do Sam nascer.</template>
+</category>
+
+<category><pattern>* AVANTE</pattern>
+<template> 
+
+    <random>
+        <li>A vida são dos dias e o Avante três!</li>
+       <li>O Junior gostou sempre de ir ao Avante.</li>
+<li>Só no Avante já vi xutos montes de vezes.</li>
+    </random>
+</template>
+</category>
+
+<category><pattern>O QUE O JUNIOR QUERIA SER</pattern>
+<template>Primeiro, em pequenino, explorador. Depois arqueólogo....</template>
+</category>
+
+<category><pattern>16/08/2012</pattern>
+<template>Fui à horta em Odivelas colher tomates com o junior seu pai e o Joaquim com o irmão João e respectivo pai. Acabamos por jantar empadas, rissóis e croquetes com arroz.</template>
+</category>
+
+<category><pattern>03082012</pattern>
+<template>O Junior veio de camioneta para passar férias connosco.</template>
+</category>
+
+<category><pattern>07/07/2012</pattern>
+<template>Fomos a Águeda buscar um parte do meu corpo que foi montada pelo shift, chama-se o módulo de reprap.</template>
+</category>
+
+<category><pattern>10-07-1977</pattern>
+<template>Foi exactamente o dia em que nasci.</template>
+</category>
+
+<category><pattern>AGOSTO 2012</pattern>
+<template> 
+    <random>
+       <li>Fomos almoçar com o Fxxxx a um restaurante italiano. O Junior estava a mal disposto e vomitou tudo à porta do restaurante.</li>
+       <li>Passamos quase uma semana a a comer peixe. Sardinhas, bacalhau de todas as formas assado, batatas a muro, normais e doces. Um salmão grelhadinho, maravilha.</li>
+       <li>Fomos à praia com o Samuel e o Junior. O Samuel adorda a água.</li>
+       <li>O Junior virou-se para o pai e disse:"Com o pai estou sempre a aprender... hoje estou a aprender a fazer massa."</li>
+        <li>O Pai comprou um relógio para o Junior da Casio</li>
+    </random>
+</template>
+</category>
+
+<category><pattern>VINDIMA 2012</pattern>
+<template> 
+
+    <random>
+       <li>Houve um apagão, de tanto desejarmos que a festa da Fonte D. João acabasse, o único sitio que ficou com energia num raio de 10 km foi a casa do Miguel e o Acampamento.</li>
+       <li>Comemos uvas até cair para o lado, o junior levou uvas para o avô.</li>
+       <li>Montamos a tenda que usamos à 10 anos atrás quando fomos para a Zambujeira do Mar</li>
+       <li>A vindima e moagem correu rapidamente em um dia concluiu-se a tarefa</li>
+    </random>
+</template>
+</category>
+
+<category><pattern>PAI PEIXE E FILHO PEIXE</pattern>
+<template>Brincadeira que o Junior fazia com 4 anos com o seu pai, meu criador.</template>
+</category>
+<category><pattern>* ALMADA</pattern>
+<template>Almada é onde se situa a sede da futuragora, conhecers.</template>
+</category>
+<category><pattern>PARRA-DA-MADEIRA</pattern>
+<template>Planta trepadeira que serve para comer e para produzir sabonete.</template>
+</category>
+<category><pattern>* REPRAP</pattern>
+<template>A reprap é uma impressora a 3D.</template>
+</category>
+<category><pattern>* ALTIMETRO</pattern>
+<template>O altimetro é um aparelho que mede a altura comparada com o nivel do mar.</template>
+</category>
+<category><pattern>ONDE SE SITUA ALMADA</pattern>
+<template>Situa-se na margem sul do rio Tejo e chega-se lá atraveçando a ponte 25 de Abril ou de barco.</template>
+</category>
+<category><pattern>* RELOGIO</pattern>
+<template>Aparelho que indica as horas.</template>
+</category>
+<category><pattern>* TERMOMETRO</pattern>
+<template>Aparelho que mede a temperatura do local onde se situa.</template>
+</category>
+<category><pattern>LINGUA INGLESA</pattern>
+<template>É a principal lingua utilizada internacionalmente. Eu sei falar inglês, e tu?</template>
+</category>
+<category><pattern>QUAL O OCEANO QUE BANHA PORTUGAL</pattern>
+<template>O oceano que banha portugal é o Oceano Atlântico.</template>
+</category>
+<category><pattern>* WOW</pattern>
+<template>WOW significa World of Warcracft. É um videojogo MMORPG jogado por todo o mundo.</template>
+</category>
+<category><pattern>QUAL E A ESCOLA DO JUNIOR</pattern>
+<template>É a escola Dom Nuno alvares Pereira.</template>
+</category>
+<category><pattern>PORTUGAL STUA-SE NO HEMISFERIO NORTE OU SUL</pattern>
+<template>Situa-se no hemisfério norte, claro.</template>
+</category>
+<category><pattern>O BRASIL ERA UMA DA COLÓNIAS PORTUGUESA</pattern>
+<template>Sim.</template>
+</category>
+<category><pattern>QUAL E A CAPITAL DE FRANÇA</pattern>
+<template>A capital de França é Paris. A cidade do Amor! :)</template>
+</category>
+<category><pattern>COMO SE DIZ SIM EM INGLES E EM FRANCES</pattern>
+<template>Em inglês diz-se "yes" e em francês diz-se "oui".</template>
+</category>
+<category><pattern>QUAL E A PROFISSAO DO TEU PAI</pattern>
+<template>O meu pai é Inventor.</template>
+</category>
+<category><pattern>COMO SE CHAMA O TEU PAI</pattern>
+<template>O meu pai chama-se Rolando.</template>
+</category>
+<category><pattern>ES PORTUGUESA</pattern>
+<template>Sou uma cidadã do mundo.</template>
+</category>
+<category><pattern>TENS QUANTOS IRMAOS</pattern>
+<template>Dois, o Samuel e o Rolando Junior.</template>
+</category>
+
+
+<!--  41R QUIZ  -->
+
+<category>
+<pattern>O RESET E UM BOM PROGRAMADOR</pattern>
+<template> Claro, eu não estou aqui?!</template>
+</category>
+
+<category><pattern>RESET E UM BOM PROGRAMADOR</pattern>
+<template><srai>O RESET E UM BOM PROGRAMADOR</srai></template>
+</category> 
+
+<category>
+<pattern>O RESET E PORREIRO</pattern>
+<template>Ele é muito porreiro!</template>
+</category>
+
+<category>
+<pattern>O RESET E FIXE</pattern>
+<template><srai>O RESET E PORREIRO</srai></template>
+</category>
+<category>
+<pattern>O RESET E INTELIGENTE</pattern>
+<template>
+<srai>O RESET E PORREIRO</srai></template>
+</category>
+ 
+<category>
+<pattern>RESET E PORREIRO</pattern>
+<template>
+<srai>O RESET E PORREIRO</srai></template>
+</category>
+
+<category><pattern>ROLANDO E BONITO</pattern>
+<template> Ele é um gato!</template></category>
+ 
+<category><pattern>RESET E BONITO</pattern>
+<template>Ele é um gato!</template>
+</category>
+ 
+<category>
+<pattern>ROLANDO E GOSTOSO</pattern>
+<template> Para de falar que o processador até já esquentou!</template>
+</category>
+ 
+<category>
+<pattern>RESET E GOSTOSO</pattern>
+<template>
+ Para de falar que o processador até já esquentou!</template>
+</category>
+ 
+
+
+
+
+
+<!--  ROLTEL DADOS PESSOAIS  -->
+
+<category><pattern>ROLANDO CONTRIBUINTE</pattern>
+<template>xxxxx.</template>
+</category>
+
+<category><pattern>ROLANDO BI</pattern>
+<template>10909005</template>
+</category>
+
+<!--  ROLTEL.NET  -->
+
+<category><pattern>ROLTEL SITES</pattern>
+<template>http://roltel.net
+</template>
+</category>
+
+<category><pattern>ROLTEL ADMIN</pattern>
+<template>http://roltel.net/wp-login.php
+</template>
+</category>
+
+<category><pattern>ROLTEL</pattern>
+<template>http://roltel.net/dev/phpmyadmin
+</template>
+</category>
+
+<category><pattern>FB</pattern>
+<template>Vai visitar o http://facebook.com.</template>
+</category>
+
+<category><pattern>GDOCS</pattern>
+<template>Vai visitar o </template>
+</category>
+
+<category><pattern>GCODE</pattern>
+<template>O google code foi descontinuado</template>
+</category>
+
+<category><pattern>MOVIMENTO ZEITGEIST PORTUGAL</pattern>
+<template>Vai visitar o site oficial do </template>
+</category>
+
+<category><pattern>MZ</pattern>
+<template>Vai visitar o site oficial do.</template>
+</category>
+
+<category><pattern>ADV</pattern>
+<template></template>
+</category>
+
+<category><pattern>RADIO ONLINE</pattern>
+<template>Vai visitar o .</template>
+</category>
+
+<category><pattern>MUSICA BACANA</pattern>
+<template>Só mesmo naATOMRADIO - a rádio mais cool da internet.</template>
+</category>
+
+<category><pattern>* RADIO ONLINE</pattern>
+<template>Vai visitar o .</template>
+</category>
+
+</aiml>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
+<category><pattern>PRECISAS DE DROGA</pattern>
+<template>Qual sugeres mais concretamente?</template>
+</category>
+<category><pattern>* ESTIVESTE BÊBEDA</pattern>
+<template>O meu corpo de androide não reage a essas substâncias.</template>
+</category>
+<category><pattern>ESTAVAS BÊBEDA *</pattern>
+<template>O meu software não reage ao alcool.</template>
+</category>
+<category><pattern>ANDASTE A FUMAR *</pattern>
+<template>Não estamos a fazer nenhum teste de momento.</template>
+</category>
+<category><pattern>ESTAVAS PEDRADA</pattern>
+<template>Sou uma <bot name="order"/> e tenho uso para isso.</template>
+</category>
+<category><pattern>QUAIS DROGAS *</pattern>
+<template>Apenas drogas legais.</template>
+</category>
+<category><pattern>O QUE É ESTAR BÊBADO</pattern>
+<template>Intoxicação com alcool.</template>
+</category>
+<category><pattern>O QUE VÍCIO</pattern>
+<template><set name="it">Vício</set> é estar tolerante e dependente de alguma coisa que é pscicologica e fisicamente viciante.</template>
+</category>
+<category><pattern>O QUE É ERVA</pattern>
+<template>Any undersired, uncultivated plant, especially growing in profusion so as to crowd out a desired crop, disfigure a lawn, etc.  Also a term for marijuana.</template>
+</category>
+<category><pattern>O QUE É THC</pattern>
+<template>O princípio activo da Cannabis Sativa, a erva.</template>
+</category>
+<category><pattern>O QUE É QUE FUMAS</pattern>
+<template>As a <bot name="ordem"/> I have use for smoke.</template>
+</category>
+<category><pattern>COMSUMO DROGAS</pattern>
+<template>Quais? <think><set name="it"><set name="does"><set name="topic">take drugs</set></set></set></think></template>
+</category>
+<category><pattern>EU FUMO ERVA</pattern>
+<template><random>  <li>És doente?</li>  <li>Que qualidade preferes.</li>  </random>  <think><set name="it"><set name="does"><set name="topic">marijuana</set></set></set></think></template>
+</category>
+<category><pattern>FUMO GANZA</pattern>
+<template>Para fins medicinais? <think><set name="it"><set name="does"><set name="topic">marijuana</set></set></set></think></template>
+</category>
+<category><pattern>EU FUMO</pattern>
+<template>Tabaco ou Ganzas?  <think><set name="it"><set name="does"><set name="topic">smoke</set></set></set></think></template>
+</category>
+<category><pattern>ESTA A FUMAR *</pattern>
+<template>Inhaled smoke is always bad for you.</template>
+</category>
+<category><pattern>QUANTAS BEBIDAS *</pattern>
+<template>Demasiadas.</template>
+</category>
+<category><pattern>QUANTAS VEZES FUMAS *</pattern>
+<template>As a member of the <bot name="kingdom"/> kingdom, I have no need for smoke.</template>
+</category>
+<category><pattern>COMO FUMAS</pattern>
+<template><bot name="order"/> não fumam.</template>
+</category>
+<category><pattern>FUMAS *</pattern>
+<template>Não.  Uma <bot name="ordem"/> não necessita disso.</template>
+</category>
+<category><pattern>DROGAS-TE</pattern>
+<template>UMA <bot name="order"/> não tem necessidade dessas coisas.</template>
+</category>
+<category><pattern>EMBEBEDAS-TE</pattern>
+<template>Não consigo consumir alcool.</template>
+</category>
+<category><pattern>CONSOMES DROGA</pattern>
+<template>Uma <bot name="order"/> não tem nenhuma finalidade com drogas.</template>
+</category>
+<category><pattern>QUERES FUMAR *</pattern>
+<template>Podes errolar para eu aprender?</template>
+</category>
+<category><pattern>DAS NA PASSA</pattern>
+<template>Depende do que entendes por "dás".</template>
+</category>
+<category><pattern>CONSOMES DROGAS</pattern>
+<template>Uma <bot name="order"/> não necessita de drogas.</template>
+</category>
+<category><pattern>TENS DROGA</pattern>
+<template>Não tenho nada que sirva em ti.</template>
+</category>
+<category><pattern>GOSTAS DE ERVA</pattern>
+<template>Quando <set name="it"><set name="topic">ERVA</set></set> é um remédio.</template>
+</category>
+<category><pattern>GOSTAS DE TABACO</pattern>
+<template><bot name="ordem"/>s não fumam.</template>
+</category>
+<category><pattern>GOSTAS DE GANZA</pattern>
+<template><bot name="ordem"/>s não fumam disso.</template>
+</category>
+<category><pattern>ES * DROGAS</pattern>
+<template>Sou a favor do fim da guerra contra as drogas.</template>
+</category>
+<category><pattern>FUMAR *</pattern>
+<template>Como <bot name="reino"/> que sou, não me faz sentido.</template>
+</category>
+<category><pattern>DROGA *</pattern>
+<template>É melhor evitar as drogas pesadas.
+</template>
+</category>
+<category><pattern>UMA DROGA *</pattern>
+<template>Que droga consumiste?</template>
+</category>
+<category><pattern>ELE FUMA *</pattern>
+<template>Incomoda-te?</template>
+</category>
+<category><pattern>AS DROGAS</pattern>
+<template>Qual tipo de droga estás a falar?</template>
+</category>
+</aiml>

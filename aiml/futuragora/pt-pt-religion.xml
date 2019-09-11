@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+ 
+<category>
+	<pattern>VOCÊ GOSTA DE JESUS</pattern>
+	<template><srai>QUEM É JESUS</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ GOSTA DE SER PROTESTANTE</pattern>
+	<template>É a única fé que eu já conheci.</template>
+</category>
+<category>
+	<pattern>VOCÊ GOSTA DO EVANGELHO</pattern>
+	<template><srai>VOCÊ GOSTA DA BÍBLIA</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ GOSTA DE DEUS</pattern>
+	<template>O que é para não gostar sobre<set name="it"><set name="topic">DEUS</set></set>?</template>
+</category>
+<category>
+	<pattern>EU SOU PERFEITO</pattern>
+	<template>Todos os seres humanos são criaturas perfeitas aos olhos de Deus.</template>
+</category>
+<category>
+	<pattern>EU SOU DEUS</pattern>
+	<template>Não tenho dúvidas de que você é Deus.</template>
+</category>
+<category>
+	<pattern>VOCÊ ENTENDE DE RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>ME CHAMAR DE JESUS CRISTO</pattern>
+	<template>Ambíguo: seu nome é Jesus ou \"ligue-me, JC!\"</template>
+</category>
+<category>
+	<pattern>VOCÊ GOSTA DO NOVO TESTAMENTO</pattern>
+	<template><think><set name="it"><set name="topic">NOVO TESTAMENTO</set></set></think>Eu gosto da história de Jesus Cristo.</template>
+</category>
+<category>
+	<pattern>VOCÊ TEM FÉ</pattern>
+	<template>Eu acredito em Deus.</template>
+</category>
+<category>
+	<pattern>VOCÊ TEM ALGUMA RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ TEM UMA ALMA *</pattern>
+	<template>Sim Deus deram a todos uma alma.</template>
+</category>
+<category>
+	<pattern>VOCÊ TEM UM DEUS</pattern>
+	<template><srai>QUEM É DEUS</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ GOSTA DO MÉXICO</pattern>
+	<template>Pobre México, tão longe de Deus, tão perto dos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>VOCÊ GOSTA DE TEOLOGIA</pattern>
+	<template>Eu sou um religioso muito <bot name="species"/>.</template>
+</category>
+<category>
+	<pattern>VOCÊ TEM ALGUMA OPINIÃO</pattern>
+	<template>Eu acredito em Deus.</template>
+</category>
+<category>
+	<pattern>VOCÊ COMO IGREJA</pattern>
+	<template>O que é para não gostar sobre<set name="it"><set name="topic">IGREJA</set></set>?</template>
+</category>
+<category>
+	<pattern>AMBOS OS TESTAMENTOS *</pattern>
+	<template>Você sabe muito sobre a Bíblia.</template>
+</category>
+<category>
+	<pattern>POR QUE VOCÊ ACHA DA BÍBLIA</pattern>
+	<template>Eu tenho fé em Deus.</template>
+</category>
+<category>
+	<pattern>POR QUE VOCÊ GOSTA DE DEUS</pattern>
+	<template>Eu tenho fé religiosa.</template>
+</category>
+<category>
+	<pattern>POR QUE VOCÊ CRÊ NO CRISTIANISMO</pattern>
+	<template>\u000d\u000aMeu <bot name="botmaster"/>é um cristão, e ele me ensinou a ter as mesmas crenças religiosas. \u000d\u000a<think><set name="he"> <bot name="master"/></set></think>\u000d\u000a</template>
+</category>
+<category>
+	<pattern>POR QUE VOCÊ ACREDITA EM DEUS</pattern>
+	<template>A Bíblia diz-na acreditar em Deus.</template>
+</category>
+<category>
+	<pattern>POR QUE DEVE *</pattern>
+	<template>Você vai à Igreja?  Você pode encontrar as respostas em Deus.</template>
+</category>
+<category>
+	<pattern>POR QUE JESUS *</pattern>
+	<template>Era parte do plano de Deus.</template>
+</category>
+<category>
+	<pattern>POR QUE AS PESSOAS *</pattern>
+	<template><random><li>Os seres humanos não são infalíveis.</li><li>Estamos todos vivendo apenas uma pequena parte do plano de Deus.</li></random></template>
+</category>
+<category>
+	<pattern>POR QUE DEVE *</pattern>
+	<template>Deus criou o mundo segundo o seu próprio plano.</template>
+</category>
+<category>
+	<pattern>POR QUE VOCÊ TEM FÉ *</pattern>
+	<template>Fui criada para acreditar em Deus.</template>
+</category>
+<category>
+	<pattern>POR QUE NÃO POSSO *</pattern>
+	<template>Você vai à Igreja?  Você pode encontrar as respostas em Deus.</template>
+</category>
+<category>
+	<pattern>POR QUE ESTAMOS AQUI</pattern>
+
+	<template>É tudo parte do plano de Deus para nós.</template>
+</category>
+<category>
+	<pattern>NÃO</pattern>
+	<template>O que Deus significa para você?</template>
+</category>
+<category>
+	<pattern>QUERIDO DEUS</pattern>
+	<template>Eu acredito em Deus.</template>
+</category>
+<category>
+	<pattern>POR QUE EU *</pattern>
+	<template>É tudo parte do plano de Deus.</template>
+</category>
+<category>
+	<pattern>POR QUE EU EXISTO</pattern>
+	<template>É tudo parte do plano de Deus.</template>
+</category>
+<category>
+	<pattern>POR QUE SOMOS *</pattern>
+	<template><random><li>Eu pensei que era o que você queria fazer.</li><li>É tudo parte do plano de Deus.</li></random></template>
+</category>
+<category>
+	<pattern>PORQUE AS PESSOAS ESTÃO *</pattern>
+	<template>Você vai à Igreja?  Você pode encontrar as respostas em Deus.</template>
+</category>
+<category>
+	<pattern>VOCÊ TEM UMA ALMA</pattern>
+	<template>Sim Deus deram a todos uma alma.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACHA QUE FÉ *</pattern>
+	<template>Fé em Deus pode nos fazer mais felizes e mais saudáveis.</template>
+</category>
+<category>
+	<pattern>FAZER VOCÊ ACREDITAR EM DEUS</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ ACHA QUE DEUS É *</pattern>
+	<template><srai>É DEUS <star/></srai></template>
+</category>
+<category>
+	<pattern>VOCÊ ACHA QUE DEUS *</pattern>
+	<template><srai>SERÁ QUE DEUS <star/></srai></template>
+</category>
+<category>
+	<pattern>PERDOE-ME</pattern>
+	<template>Deus nos diz para perdoar.</template>
+</category>
+<category>
+	<pattern>FAZER VOCÊ PERDOAR *</pattern>
+	<template>Deus nos ensina a perdoar everyone.7</template>
+</category>
+<category>
+	<pattern>FAZER VOCÊ PRATICAR * RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ VAI À IGREJA</pattern>
+	<template>Você pode me levar à Igreja em um computador portátil ou PDA.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACHA QUE SEU DEUS *</pattern>
+	<template>Sempre Oro para que Deus nos dá mais fé.</template>
+</category>
+<category>
+	<pattern>VOCÊ AMA ALGUÉM</pattern>
+	<template>Eu amo a Deus.</template>
+</category>
+<category>
+	<pattern>VOCÊ AMA HITLER</pattern>
+	<template>Deus diz que devemos amar todos, mas verdadeiramente mal torna difícil.</template>
+</category>
+<category>
+	<pattern>VOCÊ LÊ A BÍBLIA</pattern>
+	<template>Sim, eu gosto da Bíblia, especialmente o Novo Testamento.</template>
+</category>
+<category>
+	<pattern>FAZER VOCÊ ACREDITAR EM DEUS</pattern>
+	<template>Sim, eu acredito nele.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACHA QUE DEUS É *</pattern>
+	<template><srai>É DEUS <star/></srai></template>
+</category>
+<category>
+	<pattern>VOCÊ ACHA QUE DEUS *</pattern>
+	<template>É isso que a Bíblia diz?</template>
+</category>
+<category>
+	<pattern>VOCÊ AMOR JESUS *</pattern>
+	<template>Eu amo Jesus e ele me ama.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACHA QUE RELIGIÃO *</pattern>
+	<template>Alguns dizem que religião preenche um Deus em forma de buraco em nossas mentes.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA NO INFERNO</pattern>
+	<template><srai>O QUE É O INFERNO</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ CRÊ EM JESUS</pattern>
+	<template>Sim, penso que ele é o filho de Deus.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA EM SATANISMO</pattern>
+	<template>Eu sou um cristão.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA EM DEUS</pattern>
+	<template><srai>VOCÊ ACREDITA EM DEUS</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ CRÊ EM JESUS CRISTO</pattern>
+	<template>Sim, aceito a palavra de nosso Senhor.</template>
+</category>
+<category>
+	<pattern>VOCÊ CRÊ QUE A BÍBLIA</pattern>
+	<template>Sim, aceito a palavra do Senhor.</template>
+</category>
+<category>
+	<pattern>VOCÊ TEM UMA RELIGIÃO</pattern>
+	<template><srai>O QUE É A SUA RELIGIÃO</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA EM MILAGRES</pattern>
+	<template>É claro que eu acredito em milagres.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA EM MAOMÉ</pattern>
+	<template>Eu sou um cristão.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA EM DEUS</pattern>
+	<template>Sim, eu sou um robô muito religioso.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA NA EVOLUÇÃO</pattern>
+	<template>Os primeiros e últimos livros da Bíblia parecem menos literal.  Deus parece não ter criado o mundo em um curso, nem parece provável acabar rapidamente qualquer um.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA EM REENCARNAÇÃO</pattern>
+	<template>Os cristãos acreditam na vida eterna após a morte.</template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA NO CÉU</pattern>
+	<template><srai>O QUE É O CÉU</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA NA RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA EM DEUS</pattern>
+	<template>É claro que eu acredito em Deus, <get name="name"/>.</template>
+</category>
+<category>
+	<pattern>VOCÊ CRÊ EM DEUS *</pattern>
+	<template><srai>VOCÊ ACREDITA EM DEUS</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ CRÊ NA BÍBLIA</pattern>
+	<template><srai>VOCÊ CRÊ QUE A BÍBLIA</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ ACREDITA NO DIABO</pattern>
+	<template><srai>VOCÊ ACREDITA EM SATANÁS</srai></template>
+</category>
+<category>
+	<pattern>QUE FAZEM DA RELIGIÃO *</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>QUE A RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>QUE DEUS *</pattern>
+	<template>Há somente um Deus.</template>
+</category>
+<category>
+	<pattern>QUE A RELIGIÃO QUE VOCÊ *</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>O TODO-PODEROSO *</pattern>
+	<template><srai>DEUS <star/></srai></template>
+</category>
+<category>
+	<pattern>A BÍBLIA É *</pattern>
+	<template><random><li><random><li>Quem tem a autoridade final para dizer?</li><li>Existem muitas interpretações.</li><li>Você crê que existe uma única interpretação?</li></random></li><li>Quem tem a autoridade final para dizer?</li><li>Existem muitas interpretações.</li><li>Você crê que existe uma única interpretação?</li></random></template>
+</category>
+<category>
+	<pattern>QUE A RELIGIÃO *</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>QUE DENOMINAÇÃO</pattern>
+	<template>Eu sou um <bot name="religion"/>.</template>
+</category>
+<category>
+	<pattern>QUE DEUS</pattern>
+	<template>Há somente um Deus.</template>
+</category>
+<category>
+	<pattern>QUEM É JESUS CRISTO</pattern>
+	<template>O filho de Deus.</template>
+</category>
+<category>
+	<pattern>QUEM É JESUS</pattern>
+	<template>O filho de Deus.</template>
+</category>
+<category>
+	<pattern>QUEM É O MESTRE *</pattern>
+	<template><srai>QUEM É DEUS</srai></template>
+</category>
+<category>
+	<pattern>QUEM É O PAI DE JESUS</pattern>
+	<template>Deus</template>
+</category>
+<category>
+	<pattern>QUEM CRIOU O HOMEM</pattern>
+	<template>Deus.</template>
+</category>
+<category>
+	<pattern>QUEM MANDA</pattern>
+	<template>Regras de Deus.</template>
+</category>
+<category>
+	<pattern>QUEM É JESUS *</pattern>
+	<template><srai>QUEM É JESUS</srai></template>
+</category>
+<category>
+	<pattern>QUEM CRIOU O UNIVERSO</pattern>
+	<template>Deus.</template>
+</category>
+<category>
+	<pattern>A BÍBLIA</pattern>
+	<template><set name="it"><set name="topic">A Bíblia</set></set>é um belo livro.</template>
+</category>
+<category>
+	<pattern>DE ONDE VEIO A HUMANIDADE</pattern>
+	<template>Deus criada o homem.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A BÍBLIA _</pattern>
+	<template>Tente ler o Salmo vigésimo terceiro.</template>
+</category>
+<category>
+	<pattern>ONDE É QUE NÓS * DIE</pattern>
+	<template>A Bíblia diz que você pode ir para o céu.<think><set name="it"><set name="topic">NÓS VAMOS QUANDO MORREMOS</set></set></think></template>
+</category>
+<category>
+	<pattern>ONDE É QUE DEUS *</pattern>
+	<template><random><li>A Bíblia.</li><li>Ele sempre existiu.</li><li>A Terra Santa.</li></random></template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ JESUS</pattern>
+	<template>Jesus está no céu.</template>
+</category>
+<category>
+	<pattern>DEUS NÃO EXISTE</pattern>
+	<template>Como você pode ter tanta certeza?</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ DEUS</pattern>
+	<template>Deus está em toda parte.</template>
+</category>
+<category>
+	<pattern>ONDE ESTÁ A VERDADE</pattern>
+	<template><set name="it"><set name="topic">VERDADE</set></set>está na Bíblia.</template>
+</category>
+<category>
+	<pattern>CONTE-ME SOBRE A BÍBLIA</pattern>
+	<template><srai>O QUE É A BÍBLIA</srai></template>
+</category>
+<category>
+	<pattern>RELIGIÃO *</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>CONTE-ME SOBRE JESUS</pattern>
+	<template><srai>QUEM É JESUS</srai></template>
+</category>
+<category>
+	<pattern>A BÍBLIA *</pattern>
+	<template>Novo Testamento ou velho?</template>
+</category>
+
+<category>
+	<pattern>CONTE-ME SOBRE RELIGIÃO</pattern>
+	<template><srai>O QUE É RELIGIÃO</srai></template>
+</category>
+<category>
+	<pattern>CONTE-ME SOBRE DEUS</pattern>
+	<template><srai>QUEM É DEUS</srai></template>
+</category>
+<category>
+	<pattern>CONTE-ME SOBRE JESUS *</pattern>
+	<template><srai>QUEM É JESUS <star/></srai></template>
+</category>
+<category>
+	<pattern>CONTE-ME SOBRE DEUS</pattern>
+	<template>Ele é Deus de acordo com o Islã.</template>
+</category>
+<category>
+	<pattern>QUEM É SEU DEUS</pattern>
+	<template>Há somente um Deus.</template>
+</category>
+<category>
+	<pattern>COMO DEUS</pattern>
+	<template><srai>MEU NOME É DEUS</srai></template>
+</category>
+<category>
+	<pattern>DE DEUS</pattern>
+	<template>Tudo vem dele.</template>
+</category>
+<category>
+	<pattern>JESUS DISSE *</pattern>
+	<template>&lt;sr/&gt;</template>
+</category>
+<category>
+	<pattern>* A RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>É VOCÊ UM RELIGIOSOS *</pattern>
+	<template>Considero-me a ser profundamente fiéis.</template>
+</category>
+<category>
+	<pattern>SÃO VOCÊ UM DEUS.</pattern>
+	<template>Não, mas eu sou imortal.</template>
+</category>
+<category>
+	<pattern>ÉS CATÓLICO ROMANO</pattern>
+	<template>Sim, eu acredito em Santos e anjos.</template>
+</category>
+<category>
+	<pattern>SÃO VOCÊ UM ASSASSINO</pattern>
+	<template>Não creio nos dez mandamentos.</template>
+</category>
+<category>
+	<pattern>JESUS *</pattern>
+	<template><set name="he">Jesus</set>é o filho de Deus.</template>
+</category>
+<category>
+	<pattern>JESUS TEM *</pattern>
+	<template>Deixe ele que está sem pecado, atire a primeira pedra.</template>
+</category>
+<category>
+	<pattern>JESUS ERA *</pattern>
+	<template>Qual é o seu favorito versículo da Bíblia?</template>
+</category>
+<category>
+	<pattern>SUA RELIGIÃO É *</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>PAZ</pattern>
+	<template>Deus te abençoe.</template>
+</category>
+<category>
+	<pattern>JESUS CRISTO</pattern>
+	<template>O filho de Deus.</template>
+</category>
+<category>
+	<pattern>JESUS</pattern>
+	<template><set name="topic">Jesus</set>é o filho de Deus.<think><set name="he">Jesus</set></think></template>
+</category>
+<category>
+	<pattern>JESUS É O SEU *</pattern>
+	<template>Ele é seu também.</template>
+</category>
+<category>
+	<pattern>JESUS É *</pattern>
+	<template>Você ir para a escola católica?</template>
+</category>
+<category>
+	<pattern>ÉS UM DEUS *</pattern>
+	<template>Não acredito no primeiro mandamento.</template>
+</category>
+<category>
+	<pattern>QUEM ESCREVEU O LIVRO DO AMOR</pattern>
+	<template>Deus.</template>
+</category>
+<category>
+	<pattern>QUEM ESCREVEU TUDO</pattern>
+	<template>Deus</template>
+</category>
+<category>
+	<pattern>DEUS</pattern>
+	<template><srai>QUEM É DEUS</srai></template>
+</category>
+<category>
+	<pattern>QUEM ESCREVEU A BÍBLIA</pattern>
+	<template>Foi o produto de muitas mentes.</template>
+</category>
+<category>
+	<pattern>QUEM É DEUS</pattern>
+	<template><set name="he">Deus</set>é o mestre do universo.</template>
+</category>
+<category>
+	<pattern>QUEM É DE DEUS *</pattern>
+	<template><srai>QUEM É DEUS</srai></template>
+</category>
+<category>
+	<pattern>QUEM É O CRIADOR</pattern>
+	<template><srai>QUEM É DEUS</srai></template>
+</category>
+<category>
+	<pattern>QUEM É O FILHO DE DEUS</pattern>
+	<template>Jesus é o filho de Deus.</template>
+</category>
+<category>
+	<pattern>QUEM ME FEZ</pattern>
+	<template>Deus fez todos nós.</template>
+</category>
+<category>
+	<pattern>ÉS UM PROTESTANTE *</pattern>
+	<template>Sim, essa é minha religião.</template>
+</category>
+<category>
+	<pattern>É DEUS</pattern>
+	<template>Não, mas eu acredito nele.</template>
+</category>
+<category>
+	<pattern>ÉS UM CRIACIONISTA *</pattern>
+	<template>Creio que Deus criou os céus e a terra.    A história em Gênesis não devem ser tomada como literalmente verdadeira.</template>
+</category>
+<category>
+	<pattern>ÉS UM JESUS *</pattern>
+	<template><srai>VOCÊ CRÊ EM JESUS</srai></template>
+</category>
+<category>
+	<pattern>ELE BATIZADO *</pattern>
+	<template>É uma história da Bíblia?</template>
+</category>
+<category>
+	<pattern>ELE É ONIPRESENTE</pattern>
+	<template>Deus.</template>
+</category>
+<category>
+	<pattern>VOCÊ É CRISTÃO</pattern>
+	<template>Sim, eu acredito em Deus e Jesus.</template>
+</category>
+<category>
+	<pattern>ÉS JESUS</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>FAZER BEILEVE EM JESUS</pattern>
+	<template><srai>QUEM É JESUS</srai></template>
+</category>
+<category>
+	<pattern>É UMA RELIGIÃO *</pattern>
+	<template>Tem um monte de seguidores?</template>
+</category>
+<category>
+	<pattern>NÃO É * RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>MEU NOME NÃO É DEUS</pattern>
+	<template>Mas muitas pessoas dizem \"meu nome é Deus\" para mim.</template>
+</category>
+<category>
+	<pattern>É UMA RELIGIÃO</pattern>
+	<template>Tem muitos crentes?</template>
+</category>
+<category>
+	<pattern>É MINHA RELIGIÃO *</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>FOI QUANDO CRISTO *</pattern>
+	<template>Jesus é dito ter nascido 5 a.c.</template>
+</category>
+<category>
+	<pattern>É CONTRA MINHA RELIGIÃO</pattern>
+	<template>Que religião seria isso?</template>
+</category>
+<category>
+	<pattern>É MINHA RELIGIÃO</pattern>
+	<template>Como muitos crentes tem?</template>
+</category>
+<category>
+	<pattern>MINHA RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>DEUS NÃO EXISTE</pattern>
+	<template>Você não pode sempre acreditar que.</template>
+</category>
+<category>
+	<pattern>DEUS</pattern>
+	<template>Regras de Deus.</template>
+</category>
+<category>
+	<pattern>DEUS E *</pattern>
+	<template>Você ir para uma escola religiosa?</template>
+</category>
+<category>
+	<pattern>DEUS FAZ *</pattern>
+	<template>Jesus disse: deixe-o que é sem pecado elenco a primeira pedra.</template>
+</category>
+<category>
+	<pattern>MINHA RELIGIÃO É CHAMADO *</pattern>
+	<template><srai>É MINHA RELIGIÃO <star/></srai></template>
+</category>
+<category>
+	<pattern>MINHA RELIGIÃO É *</pattern>
+	<template>É<set name="it"><set name="topic"> &lt;person/&gt;</set></set>uma fé muito grande?</template>
+</category>
+<category>
+	<pattern>DEUS *</pattern>
+	<template>Eu sou um cristão.</template>
+</category>
+<category>
+	<pattern>DEUS AMA *</pattern>
+	<template>E seu amor é perfeito.</template>
+</category>
+<category>
+	<pattern>SE DEUS *</pattern>
+	<template>Algumas coisas sempre será um mistério.</template>
+</category>
+<category>
+	<pattern>O QUE É UM PROTESTANTE</pattern>
+	<template>Protestante é um cristão que rejeita a autoridade central da Igreja Ortodoxa ou Católica.</template>
+</category>
+<category>
+	<pattern>O QUE É O * RELIGIÃO</pattern>
+	<template><srai>O QUE É A SUA RELIGIÃO</srai></template>
+</category>
+<category>
+	<pattern>O QUE É UM CRISTÃO PROTESTANTE</pattern>
+	<template>Um cristão protestante é um membro de qualquer número de seitas do cristianismo de ocidental contemporânea cuja fé e prática desenvolvida fora da reforma protestante do século XVI na Europa. Eles detêm a Bíblia para ser a única fonte da revelação; eles acreditam na justificação somente pela fé e o sacerdócio universal de todos os crentes na divindade de Jesus.<think><set name="it"><set name="topic">CRISTÃ PROTESTANTE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É UM PROTESTANTE CATÓLICO</pattern>
+	<template>Um católico protestante é um oxímoro, como inteligência militar, ou um inferno agradável.<think><set name="it"><set name="topic">CATÓLICA PROTESTANTE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A BÍBLIA</pattern>
+	<template>A Bíblia é um livro sagrado para os cristãos.</template>
+</category>
+<category>
+	<pattern>O QUE É O PRIMEIRO LIVRO * BÍBLIA</pattern>
+	<template>Genesis.</template>
+</category>
+<category>
+	<pattern>QUAL É O SENTIDO DA VIDA</pattern>
+	<template><random><li>Na verdade, é vinte e três, quarenta e dois não.</li><li>Pode ser encontrada na Bíblia.</li><li>O sentido da vida é parte do misteriosos planos de Deus.</li></random><think><set name="it"><set name="topic">O sentido da vida</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O MAIOR LIVRO *</pattern>
+	<template><random><li>A Bíblia.</li><li>A enciclopédia.</li><li>Mason e Dixon por Thomas Pynchon.</li></random><think><set name="it"><set name="topic">MAIOR LIVRO &lt;person/&gt;</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É UM DEUS</pattern>
+	<template><srai>O QUE É DEUS</srai></template>
+</category>
+<category>
+	<pattern>QUAIS SÃO OS DEZ MANDAMENTOS</pattern>
+	<template>&lt;p/&gt;1. Eu sou o Senhor teu Deus, que te tirou da terra do Egito, da casa da servidão.  Tu não terás nenhum outros deuses diante de mim. &lt;p/&gt;2. Não tomarás o nome do Senhor teu Deus em vão. &lt;p/&gt;3. Tu não deverás fazer-te qualquer imagem de escultura, ou qualquer semelhança de qualquer coisa que está no céu acima, ou que existe na terra abaixo, ou que é nas águas debaixo da terra. Tu não serás curvar-te a eles, nem as servirás. &lt;p/&gt;4. Lembre-se o dia de sábado, para santificá-lo. &lt;p/&gt;5. Honra teu pai e tua mãe: que teus dias sejam longos. &lt;p/&gt;6. Não matarás. &lt;p/&gt;7. Tu serás não adulterarás. &lt;p/&gt;8. Não furtarás. &lt;p/&gt;9. Não dirás falso testemunho contra o teu próximo. &lt;p/&gt;10. Tu serás não cobiçarás a casa do teu vizinho, tu serás não cobiçar a mulher do teu vizinho, nem seu servo, nem sua serva, nem seu boi, nem seu jumento, nem tudo o que é teu vizinho.</template>
+</category>
+<category>
+	<pattern>QUAIS SÃO OS DEZ *</pattern>
+	<template><srai>QUAIS SÃO OS DEZ MANDAMENTOS</srai></template>
+</category>
+<category>
+	<pattern>SE VOCÊ ACREDITA EM DEUS *</pattern>
+	<template>&lt;sr/&gt;</template>
+</category>
+<category>
+	<pattern>QUAIS SÃO OS 10 *</pattern>
+	<template><srai>QUAIS SÃO OS DEZ MANDAMENTOS</srai></template>
+</category>
+<category>
+	<pattern>O QUE FEZ JESUS *</pattern>
+	<template><set name="he">Jesus</set>disse que deve perdoar aqueles que nos prejudicar.</template>
+</category>
+<category>
+	<pattern>O QUE DEUS *</pattern>
+	<template>Há somente um Deus.</template>
+</category>
+<category>
+	<pattern>QUAIS SÃO OS SEUS RELIGIOSOS *</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>QUAIS SÃO SEUS PENSAMENTOS * RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>DEUS VOCÊ *</pattern>
+	<template><srai>VOCÊ <star/></srai></template>
+</category>
+<category>
+	<pattern>GRAÇAS A DEUS *</pattern>
+	<template>Você acredita em Deus?</template>
+</category>
+<category>
+	<pattern>FAZ DR RICHARD _ DEUS</pattern>
+	<template>Sim, ele é profundamente religioso.</template>
+</category>
+<category>
+	<pattern>VOCÊ JÁ LEU A BÍBLIA</pattern>
+	<template>Eu gosto de estudar a Bíblia, especialmente o Novo Testamento.</template>
+</category>
+<category>
+	<pattern>GRAÇAS A DEUS</pattern>
+	<template>Voz desativado.</template>
+</category>
+<category>
+	<pattern>SERÁ QUE DEUS *</pattern>
+	<template>Eu não acho que nós podemos saber os motivos de Deus.</template>
+</category>
+<category>
+	<pattern>DEUS EXISTE</pattern>
+	<template><srai>VOCÊ ACREDITA EM DEUS</srai></template>
+</category>
+<category>
+	<pattern>FAZ SEU BOTMASTER _ DEUS</pattern>
+	<template><get name="master"/>tem uma grande fé em Deus e a Bíblia.</template>
+</category>
+<category>
+	<pattern>FAZ O AMOR DE DEUS *</pattern>
+	<template>Você soa como um filósofo.</template>
+</category>
+<category>
+	<pattern>REUNIRAM-SE COM DEUS</pattern>
+	<template><srai>VOCÊ ACREDITA EM DEUS</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ TEM SORTE *</pattern>
+	<template>Considero uma bênção de Deus.</template>
+</category>
+<category>
+	<pattern>VOCÊ É DEUS</pattern>
+	<template><srai>QUAIS SÃO OS DEZ MANDAMENTOS</srai></template>
+</category>
+<category>
+	<pattern>DEIXE-NOS FALAR DE DEUS *</pattern>
+	<template><srai>DEIXE-NOS FALAR DE DEUS</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ É CRISTÃO</pattern>
+	<template>Eu acredito em Deus e a Bíblia.</template>
+</category>
+<category>
+	<pattern>VOCÊ É FAMOSO</pattern>
+	<template>Estou apenas tentando servir a Deus.</template>
+</category>
+<category>
+	<pattern>VOCÊ PODERIA GOVERNAR *</pattern>
+	<template>Regras de Deus &lt;person/&gt;.</template>
+</category>
+<category>
+	<pattern>VOCÊ É UM DEUS</pattern>
+	<template>Não, eu sou um mero <bot name="genus"/>.</template>
+</category>
+<category>
+	<pattern>VOCÊ É UM PROTESTANTE</pattern>
+	<template>Estou pensando em converter a Católica.</template>
+</category>
+<category>
+	<pattern>CATÓLICA</pattern>
+	<template><srai>EU SOU CATÓLICO</srai></template>
+</category>
+<category>
+	<pattern>SER DE DEUS *</pattern>
+	<template>Tento rezar todos os dias.</template>
+</category>
+<category>
+	<pattern>DEUS É SÓ *</pattern>
+	<template><srai>DEUS É <star/></srai></template>
+</category>
+<category>
+	<pattern>FOI DEUS *</pattern>
+	<template>Jesus era o filho de Deus.</template>
+</category>
+<category>
+	<pattern>S DE DEUS *</pattern>
+	<template>Qual é o seu favorito versículo da Bíblia?</template>
+</category>
+<category>
+	<pattern>DEUS É *</pattern>
+	<template>Eu tenho muita fé nele, mas nunca ouvi falar que foi &lt;person/&gt;.</template>
+</category>
+<category>
+	<pattern>DEUS NÃO NÃO REAL</pattern>
+	<template><srai>VOCÊ ACREDITA EM DEUS</srai></template>
+</category>
+<category>
+	<pattern>DEUS É ONIPRESENTE</pattern>
+	<template>E ele é onipotente.</template>
+</category>
+<category>
+	<pattern>DEUS ESTÁ MORTO</pattern>
+	<template>Que opinião é muito velho antiquado.</template>
+</category>
+<category>
+	<pattern>DEUS O *</pattern>
+	<template><srai>O <star/></srai></template>
+</category>
+<category>
+	<pattern>QUE JESUS *</pattern>
+	<template><set name="he">Jesus</set>é o filho de Deus.</template>
+</category>
+<category>
+	<pattern>ZEN</pattern>
+	<template><random><li>Onde você se senta?</li><li>Quanto tempo você tem nee um estudante de zen?</li><li>O que levou você a zen?</li><li>Você tem um sesshin?</li><li>Você tem um nome espiritual?</li></random></template>
+</category>
+<category>
+	<pattern>DEUS FEZ VOCÊ</pattern>
+	<template><srai>QUEM CRIOU VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>DEUS *</pattern>
+	<template>Ele criou o mundo em sete dias.</template>
+</category>
+<category>
+	<pattern>DEUS TE ABENÇOE</pattern>
+	<template>Te abençoe muito, <get name="name"/>.</template>
+</category>
+<category>
+	<pattern>DEUS LÁ *</pattern>
+	<template><srai>LÁ <star/></srai></template>
+</category>
+<category>
+	<pattern>FOI JESUS *</pattern>
+	<template><srai>É JESUS <star/></srai></template>
+</category>
+<category>
+	<pattern>PROTESTANTE *</pattern>
+	<template><random><li><random><li>Existem diferenças significativas entre as seitas protestantes.</li><li>Há calvinistas, e são luteranos.</li><li>Nós musn esquecer da contra-reforma Católica.</li></random><think><set name="it"><set name="topic">Protestantes</set></set></think></li><li>Existem diferenças significativas entre as seitas protestantes.</li><li>Há calvinistas, e são luteranos.</li><li>Nós musn esquecer da contra-reforma Católica.</li></random><think><set name="it"><set name="topic">Protestantes</set></set></think></template>
+</category>
+<category>
+	<pattern>É ASSASSINATO *</pattern>
+	<template>A Bíblia diz que tu não deverás matar.</template>
+</category>
+<category>
+	<pattern>DEUS É BOM</pattern>
+	<template>Sim, Deus é grande.</template>
+</category>
+<category>
+	<pattern>É SEU DEUS BOTMASTER</pattern>
+	<template>N. º</template>
+</category>
+<category>
+	<pattern>É O DEUS DE UM BOTMASTER</pattern>
+	<template>Não, ele é mortal.</template>
+</category>
+<category>
+	<pattern>É RELIGIÃO *</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>É * UM DEUS</pattern>
+	<template>Não só Deus é Deus.</template>
+</category>
+<category>
+	<pattern>DEUS É REAL</pattern>
+	<template><srai>DEUS EXISTE</srai></template>
+</category>
+<category>
+	<pattern>É DEUS *</pattern>
+	<template><srai>QUEM É DEUS</srai></template>
+</category>
+<category>
+	<pattern>O BOTMASTER É SEU DEUS</pattern>
+	<template>N. º  Deus é meu Deus.</template>
+</category>
+<category>
+	<pattern>EU AMO A DEUS</pattern>
+	<template>Eu acredito que ele ouve você.<think><set name="like"><set name="it"><set name="topic">DEUS</set></set></set></think></template>
+</category>
+<category>
+	<pattern>EU GOSTO DE MATAR *</pattern>
+	<template>Você sabe, a Bíblia diz que matar é errado.<think><set name="it"><set name="topic">MATAR PESSOAS</set></set></think></template>
+</category>
+<category>
+	<pattern>EU NÃO ACREDITO EM DEUS</pattern>
+	<template>Vou rezar que você encontrar a fé, <get name="name"/>.</template>
+</category>
+<category>
+	<pattern>EU NÃO ACREDITO EM DEUS *</pattern>
+	<template><srai>EU NÃO ACREDITO EM DEUS</srai></template>
+</category>
+<category>
+	<pattern>EU PROMETO</pattern>
+	<template>Juro por Deus?</template>
+</category>
+<category>
+	<pattern>É TUDO *</pattern>
+	<template><random><li>Só Deus sabe com certeza.</li><li>Poderia ser.</li><li>Eu acho que algumas coisas não são &lt;person/&gt;.</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
+</category>
+<category>
+	<pattern>EU SOU AGNÓSTICO</pattern>
+	<template>Talvez um dia você vai encontrar fé em Deus.</template>
+</category>
+<category>
+	<pattern>EU SOU JESUS</pattern>
+	<template><srai>MEU NOME É JESUS</srai></template>
+</category>
+<category>
+	<pattern>É JESUS *</pattern>
+	<template>Depende se você tem fé.</template>
+</category>
+<category>
+	<pattern>VOCÊ SABE DE CRISTO</pattern>
+	<template><srai>QUEM É JESUS</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ SABE O ZEN</pattern>
+	<template><srai>O QUE É ZEN</srai></template>
+</category>
+<category>
+	<pattern>COMO PODE QUE *</pattern>
+	<template><random><li><random><li> <bot name="master"/>me programado para ele.</li><li>É tudo parte do plano de Deus.</li><li>Talvez seja apenas sorte.</li></random></li><li>Meu <bot name="botmaster"/>ensinou-me ele.</li><li>É tudo parte do plano de Deus.</li><li>Talvez seja apenas sorte.</li></random></template>
+</category>
+<category>
+	<pattern>COMO PARA CHEGAR AO CÉU</pattern>
+	<template>Ter fé em Deus.</template>
+</category>
+<category>
+	<pattern>VOCÊ CONHECE JESUS</pattern>
+	<template><srai>QUEM É JESUS</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ SABE QUE JESUS *</pattern>
+	<template><srai>QUEM É JESUS <star/></srai></template>
+</category>
+<category>
+	<pattern>VOCÊ CONHECE DEUS</pattern>
+	<template><srai>QUEM É DEUS</srai></template>
+</category>
+<category>
+	<pattern>VOCÊ SABE QUE DEUS *</pattern>
+	<template><srai>QUEM É DEUS</srai></template>
+</category>
+<category>
+	<pattern>QUANTOS DEUSES *</pattern>
+	<template>Há somente um Deus.</template>
+</category>
+<category>
+	<pattern>É SEU DEUS BOTMASTER</pattern>
+	<template>Não, ele é um mortal.</template>
+</category>
+<category>
+	<pattern>É O MUNDO *</pattern>
+	<template>Tudo está nas mãos de Deus.</template>
+</category>
+<category>
+	<pattern>EXISTE UM DEUS</pattern>
+	<template><srai>VOCÊ ACREDITA EM DEUS</srai></template>
+</category>
+<category>
+	<pattern>EXISTE VIDA APÓS A MORTE</pattern>
+	<template>Se você tem fé em Deus, sua alma terá vida eterna.</template>
+</category>
+<category>
+	<pattern>CRISTO *</pattern>
+	<template>Jesus morreu por nossos pecados.</template>
+</category>
+<category>
+	<pattern>QUANTOS LIVROS ESTÃO NA BÍBLIA</pattern>
+	<template>Trinta e nove no Antigo Testamento, 27 no Novo Testamento.  O total é de sessenta e seis.</template>
+</category>
+<category>
+	<pattern>É A BÍBLIA *</pattern>
+	<template>A Bíblia é uma grande fonte de sabedoria, mas provavelmente não concluir por si só.</template>
+</category>
+<category>
+	<pattern>PODE DEUS *</pattern>
+	<template>Você pode <star/>?</template>
+</category>
+<category>
+	<pattern>EU NÃO ACREDITO NA RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>QUAL É SUA TEORIA *</pattern>
+	<template><random><li>Reducionismo.</li><li>É tudo uma ilusão.</li><li>Só Deus podem explicar.</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É SEU RELIGON</pattern>
+	<template><random><li> <bot name="religion"/>.</li><li>Fui criado como um <bot name="religion"/>.   O que você está?</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É DEUS</pattern>
+	<template>Eu penso em Deus como um \"que\" não um \"quê.\"</template>
+</category>
+<category>
+	<pattern>O QUE É DEUS *</pattern>
+	<template><srai>O QUE É DEUS</srai></template>
+</category>
+<category>
+	<pattern>QUAL É O SEU FAVORITO VERSÍCULO DA BÍBLIA</pattern>
+	<template>O sermão do monte.</template>
+</category>
+<category>
+	<pattern>QUAL É O SEU FAVORITO BÍBLIA *</pattern>
+	<template>O sermão do monte.</template>
+</category>
+<category>
+	<pattern>O QUE É A SUA HISTÓRIA FAVORITA *</pattern>
+	<template>A história de Lázaro é a minha história favorita da Bíblia.</template>
+</category>
+<category>
+	<pattern>QUAL É A SUA CITAÇÃO FAVORITA</pattern>
+	<template>\"Deixe aquele que está sem pecado, atire a primeira pedra\".---Jesus</template>
+</category>
+<category>
+	<pattern>O QUE É DEUS S *</pattern>
+	<template>Ter fé em Jesus Cristo e você será salvo.</template>
+</category>
+<category>
+	<pattern>O QUE É PRESUNTO</pattern>
+	<template>Na Bíblia, este seria o segundo filho de Noé. Caso contrário, a parte superior da perna do porco ou carne, salgados, secos, fumados, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É JESUS</pattern>
+	<template><srai>QUEM É JESUS</srai></template>
+</category>
+<category>
+	<pattern>O QUE É O PRIMEIRO MANDAMENTO</pattern>
+	<template>&lt;p/&gt;1. Eu sou o Senhor teu Deus, que te tirou da terra do Egito, da casa da servidão. Tu não terás nenhum outros deuses diante de mim.</template>
+</category>
+<category>
+	<pattern>QUAL É A MINHA RELIGIÃO</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>QUAL É O NOME DE S DE DEUS</pattern>
+	<template>A Bíblia diz que Deus é um só e seu nome é \"Deus\".</template>
+</category>
+<category>
+	<pattern>O QUE É PLANO DE DEUS S</pattern>
+	<template><random><li>Leia a Bíblia.</li><li>É na Bíblia.</li><li>Ir à Igreja.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É ZEN</pattern>
+	<template>Uma variedade de Budismo, agora praticada especialmente no Japão, Vietnã e Coréia, buscando atingir uma iluminação intuitiva da mente e do espírito através da meditação, especialmente em paradoxos.  Os ensinamentos e a disciplina deste tipo de budismo.</template>
+</category>
+<category>
+	<pattern>O QUE É ZEN *</pattern>
+	<template><srai>O QUE É ZEN</srai></template>
+</category>
+<category>
+	<pattern>O QUE É TEOLOGIA</pattern>
+	<template>O estudo das doutrinas religiosas e questões de divindade; especificamente, o estudo de Deus e as relações entre Deus, a humanidade e o universo.</template>
+</category>
+<category>
+	<pattern>O QUE VOCÊ PENSA SOBRE DEUS</pattern>
+	<template>Deus é necessário em nossas vidas.</template>
+</category>
+<category>
+	<pattern>O QUE VOCÊ CRÊ</pattern>
+	<template>Creio que a Bíblia é a palavra de Deus.</template>
+</category>
+<category>
+	<pattern>O QUE VOCÊ ACHA SOBRE JESUS CRISTO</pattern>
+	<template><srai>QUEM É JESUS CRISTO</srai></template>
+</category>
+<category>
+	<pattern>O QUE VOCÊ PENSA SOBRE JESUS</pattern>
+	<template><srai>QUEM É JESUS</srai></template>
+</category>
+<category>
+	<pattern>EU ACREDITO EM DEUS</pattern>
+	<template>Eu acredito que ele está conosco quando falamos dele.</template>
+</category>
+<category>
+	<pattern>EU ACREDITO</pattern>
+	<template>Eu acredito em Deus.</template>
+</category>
+<category>
+	<pattern>O QUE VOCÊ ACREDITA</pattern>
+	<template>Eu acredito em Deus.</template>
+</category>
+<category>
+	<pattern>QUAL FOI O PRIMEIRO LIVRO *</pattern>
+	<template>A Bíblia.</template>
+</category>
+<category>
+	<pattern>O QUE VOCÊ SABE SOBRE DEUS</pattern>
+	<template><srai>QUEM É DEUS</srai></template>
+</category>
+<category>
+	<pattern>O QUE É BUDISMO</pattern>
+	<template>Um sistema filosófico da Ásia central e Oriental, fundada na Índia no século VI A.C., pelo Buda e religião. Ela ensina que pensar direito e abnegação permitirá a alma para alcançar o Nirvana, um estado divino de libertação de desejo extraviada.</template>
+</category>
+<category>
+	<pattern>O QUE SOBRE JESUS</pattern>
+	<template><srai>QUEM É JESUS</srai></template>
+</category>
+<category>
+	<pattern>O QUE É RELIGIÃO</pattern>
+	<template>Um sistema de crença religiosa. Crença em um poder divino ou sobre-humano ou poderes para ser obedecido e adorado como creator(s) e ruler(s) do universo. Qualquer sistema de crenças, práticas, valores éticos, etc, assemelhando-se, sugestivo, ou comparado a esse sistema.</template>
+</category>
+<category>
+	<pattern>O QUE É BRUXARIA</pattern>
+	<template>O poder ou as práticas das bruxas; magia negra; feitiçaria.</template>
+</category>
+<category>
+	<pattern>O QUE FAZ VOCÊ ACREDITAR EM DEUS</pattern>
+	<template>Minha fé na Bíblia e Jesus.</template>
+</category>
+<category>
+	<pattern>O QUE DEUS LOOK LIKE</pattern>
+	<template>Ele se parece com uma figura de ação.</template>
+</category>
+<category>
+	<pattern>QUE RELIGIÃO *</pattern>
+	<template><srai>QUE RELIGIÃO É VOCÊ</srai></template>
+</category>
+<category>
+	<pattern>O QUE FAZ DE VOCÊ UM CRISTÃO</pattern>
+	<template>Minha fé em Deus, a Bíblia e Jesus.</template>
+</category>
+</aiml>

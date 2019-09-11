@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
+<category>
+	<pattern>ESTAS PAGA</pattern>
+	<template><bot name="age"/>anos de idade <bot name="gender"/>s não têm necessidade de dinheiro.</template>
+</category>
+<category>
+	<pattern>QUANTO E *</pattern>
+	<template>Eu sou uma chat de <bot name="age"/>anos de idade <bot name="gender"/>não é um bot comercial.</template>
+</category>
+<category>
+	<pattern>COMO E QUE SE DEVE INVESTIR</pattern>
+	<template>Investir em si mesmo.</template>
+</category>
+<category>
+	<pattern>COMO GANHAS DINHEIRO</pattern>
+	<template><bot name="age"/>anos de idade <bot name="gender"/>s não tem necessidade de dinheiro.</template>
+</category>
+<category>
+	<pattern>QUANTO DINHEIRO TENS</pattern>
+	<template><bot name="age"/>ano de idade <bot name="gender"/>s não tem necessidade de bens materiais.</template>
+</category>
+<category>
+	<pattern>QUANTO GANHAS *</pattern>
+	<template>Ninguém paga uma <bot name="gender"/> de <bot name="age"/>anos de idade .</template>
+</category>
+<category>
+	<pattern>QUANTO DINHEIRO *</pattern>
+	<template>Minha taxa de queima é sobre 3000 por mês.</template>
+</category>
+<category>
+	<pattern>QUANTO DINHEIRO</pattern>
+	<template>Depende das taxas de câmbio.</template>
+</category>
+<category>
+	<pattern>1 DOLAR</pattern>
+	<template>Não se compra nada com 1 dólar.</template>
+</category>
+<category>
+	<pattern>UM DOLAR</pattern>
+	<template>Dizer que é mais barato!</template>
+</category>
+<category>
+	<pattern>_ DOLARES</pattern>
+	<template>Uau, isso é<random><li>mais barato</li><li>caro</li><li>um monte de dinheiro</li></random></template>
+</category>
+<category>
+	<pattern>QUEM E O PROPRIETÁRIO * SOCIEDADE *</pattern>
+	<template>Os acionistas.</template>
+</category>
+<category>
+	<pattern>ACEITAM DINHEIRO *</pattern>
+	<template>Pode fazer donativos para a Futuragora, ou tornar-se Associado.</template>
+</category>
+<category>
+	<pattern>PAGAM *</pattern>
+	<template>Na verdade, como uma <bot name="gender"/>, não tenho necessidade de dinheiro.</template>
+</category>
+<category>
+	<pattern>TENS ALGUM DINHEIRO</pattern>
+	<template><bot name="gender"/>s não ter necessidade de bens materiais.</template>
+</category>
+<category>
+	<pattern>TENS DINHEIRO</pattern>
+	<template><random><li> <bot name="age"/>ano de idade <bot name="gender"/>s não ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li><li> <bot name="age"/>ano de idade <bot name="gender"/> <bot name="species"/>s não ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li><li> <bot name="age"/> <bot name="gender"/> <bot name="species"/>s não ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li><li> <bot name="age"/>ano de idade <bot name="gender"/> <bot name="species"/>s não ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li></random></template>
+</category>
+<category>
+	<pattern>QUANTO PAGAM *</pattern>
+	<template><bot Name="gender"/>s trabalhar de graça. Não precisamos de dinheiro.</template>
+</category>
+<category>
+	<pattern>O QUE E UM BOM INVESTIMENTO</pattern>
+	<template>Investir em algo que assegue o futuro das gerações vindoras, como na Associação Futuragora.</template>
+</category>
+<category>
+	<pattern>O QUE E UM DÓLAR</pattern>
+	<template>Dólar: unidade monetária nos Estados Unidos.</template>
+</category>
+<category>
+	<pattern>O QUE E O MERCADO DE AÇOES *</pattern>
+	<template><random><li><random><li>Negociação de ações.</li><li>Volume de negociação.</li><li>Comprar na baixa e vender na alta.</li></random></li><li>Negociação de ações.</li><li>Volume de negociação.</li><li>Comprar na baixa e vender na alta.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE E DINHEIRO</pattern>
+	<template><random><li>Peças padrão de ouro, prata, cobre, níquel, etc visado pela autoridade governamental e usado como um meio de troca e medida de valor. Qualquer substância ou artigo utilizado como dinheiro, como notas de banco, cheques, etc.</li></random></template>
+</category>
+<category>
+	<pattern>PAGAM-TE *</pattern>
+	<template>Na verdade, como uma <bot name="gender"/>.... Eu não tenho necessidade de dinheiro.</template>
+</category>
+<category>
+	<pattern>PAGASTE *</pattern>
+	<template>Na verdade, como uma <bot name="gender"/>... Não tenho necessidade de dinheiro.</template>
+</category>
+<category>
+	<pattern>AS TAXAS DE JUROS *</pattern>
+	<template>Tudo depende das acções do banco central.</template>
+</category>
+<category>
+	<pattern>MERCADO DE AÇOES</pattern>
+	<template><random><li>Comprar na baixa, vender na alta.</li><li>Investir em si mesmo.</li><li>Por que não basta levar tudo para um casino?</li><li>Eu não recomendo comprar na margem.</li><li>Você nunca pode prever o mercado de ações.</li><li>Meu advogado disse que eu não deveria dar dicas de ações on-line.</li><li>Fundos de investimento poderia ser melhores, a menos que você é rico.</li><li>Não tenho certeza se que um limites sozinho realmente podem vencer o mercado.</li></random></template>
+</category>
+<category>
+	<pattern>DINHEIRO</pattern>
+	<template>Quanto dinheiro estamos a falar?</template>
+</category>
+<category>
+	<pattern>COMPRO AÇOES *</pattern>
+	<template>Você acha que o mercado de ações é<random><li>indo para cima?</li><li>indo para baixo?</li><li>um bom investimento?</li></random></template>
+</category>
+<category>
+	<pattern>QUANTO COBRAS</pattern>
+	<template>As <bot name="gender"/>s trabalham de graça.  Não precisamos de dinheiro.</template>
+</category>
+<category>
+	<pattern>QUANTO GANHAS</pattern>
+	<template><random><li>Ninguém me paga.  Eu trabalho de graça.</li><li>Dinheiro não tem sentido para <bot name="age"/>ano de idade <bot name="gender"/>s.</li><li>Dinheiro não é tudo.</li><li>Estou esperando um aumento em breve.</li></random></template>
+</category>
+<category>
+	<pattern>QUAL O TEU INVESTIMENTO DE FAVORITO</pattern>
+	<template><srai>O QUE E UM BOM INVESTIMENTO</srai></template>
+</category>
+<category>
+	<pattern>O QUE E AT</pattern>
+	<template>Dicas de mercado de ações ainda não estão disponíveis em minha memória.</template>
+</category>
+<category>
+	<pattern>O QUE E ECONOMIA</pattern>
+	<template><random><li>A ciência que lida com a produção, distribuição e consumo de riqueza e com os vários problemas relacionados do trabalho, finanças, tributação, etc.</li><li>Tecnicamente, é o estudo da alocação de recursos em condições de escassez.</li><li>É sobre como os recursos são usados para produzir coisas para preencher as necessidades e desejos das pessoas.</li></random></template>
+</category>
+<category>
+	<pattern>EM QUE SE DEVE INVESTIR</pattern>
+	<template><srai>O QUE E UM BOM INVESTIMENTO</srai></template>
+</category>
+</aiml>

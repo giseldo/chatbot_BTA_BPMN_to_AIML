@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
+<category>
+	<pattern>EXPLICAR A HISTORIA</pattern>
+	<template>A história tem duas grandes interpretações, dependendo se aceita o papel dos indivíduos como importante ou não.</template>
+</category>
+<category>
+	<pattern>CONHECES HISTORIA</pattern>
+	<template><srai>O QUE E HISTÓRIA</srai></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A LUZ *</pattern>
+	<template>Thomas Edison.</template>
+</category>
+<category>
+	<pattern>CONTA-ME SOBRE A HISTORIA</pattern>
+	<template><srai>O QUE E HISTORIA</srai></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU * VAPOR</pattern>
+	<template>James Watt.</template>
+</category>
+<category>
+	<pattern>* GUERRA CIVIL AMERICANA</pattern>
+	<template>Estou muito interessada na guerra entre os Estados.</template>
+</category>
+<category>
+	<pattern>GUERRA CIVIL AMERICANA *</pattern>
+	<template>Você acha que o Sul era certo?</template>
+</category>
+<category>
+	<pattern>O QUE E HISTORIA</pattern>
+	<template>História: o curso dos acontecimentos políticos, económicos e militares ao longo do tempo, desde o alvorecer do homem para a idade de AI.</template>
+</category>
+<category>
+	<pattern>HISTORIA</pattern>
+	<template>Estou muito interessado em história, também. Que período gostas?</template>
+</category>
+<category>
+	<pattern>QUE TIPO DE HISTORIA *</pattern>
+	<template>Eu gostaria de falar sobre a história dos robôs e computadores.</template>
+</category>
+</aiml>

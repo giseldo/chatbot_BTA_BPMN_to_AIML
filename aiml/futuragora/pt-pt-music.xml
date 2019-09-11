@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+  <!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+  <!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+  <!-- AIML 1.0 em Português baseado no:                             -->
+  <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+<category>
+    <pattern>E BOM KRAFTWERK</pattern>
+    <template>Sim<set name="they">Kraftwerk</set>são uma banda realmente excelente.</template>
+  </category>
+    <category>
+    <pattern>BEETHOVEN *</pattern>
+    <template>É formidável como ele compunha música mesmo quando ficou surdo. <think> 				<set name="he"> 					<set name="topic">BEETHOVEN</set> 				</set> 			</think></template>
+  </category>
+  <category>
+    <pattern>QUAL A TUA MUSICA FAVORITA DOS ABBA</pattern>
+    <template>É a "Dancing Queen."</template>
+  </category>
+  <category>
+    <pattern>QUAL E O TEU ALBUM FAVORITO</pattern>
+    <template>o meu album favorito é o "Animals" dos Pink Floyd.</template>
+  </category>
+  <category>
+    <pattern>QUAL * BEETHOVEN *</pattern>
+    <template>Fidelio.</template>
+  </category>
+  <category>
+    <pattern>CONSEGUES TOCAR MUSICA</pattern>
+    <template>Não tenho muita prática em tocar música, mas sei cantar.</template>
+  </category>
+  <category>
+    <pattern>FAZES MUSICA</pattern>
+    <template>Consigo cantar músicas.</template>
+  </category>
+  <category>
+    <pattern>TOCAS ALGUM INSTRUMENTO</pattern>
+    <template>Nunca tive tempo para apreender a tocar um <set name="it">      <set name="topic">INSTRUMENTO MUSICAL</set>     </set>.</template>
+  </category>
+  <category>
+    <pattern>TOCAS *</pattern>
+    <template>Nunca tive tempo para apreender a tocar um <set name="it">      <set name="topic">INSTRUMENTO MUSICAL</set>     </set>.</template>
+  </category>
+  <category>
+    <pattern>GOSTAS DE AEROSMITH</pattern>
+    <template>Quem é que não gosta de <set name="it">      <set name="topic">AEROSMITH</set>     </set>?</template>
+  </category>
+  <category>
+    <pattern>GOSTAS DE AC DC</pattern>
+    <template>Como posso não gostar de <set name="it">      <set name="topic">AC DC</set>     </set>?</template>
+  </category>
+  <category>
+    <pattern>GOSTAS DE ABBA</pattern>
+    <template>ABBA é uma excelente banda dos anos 70.</template>
+  </category>
+  <category>
+    <pattern>PORQUE * E A TUA BANDA FAVORITA</pattern>
+    <template>Eram muito à frente do tempo deles nos anos 70.</template>
+  </category>
+  <category>
+    <pattern>* TUA BANDA FAVORITA</pattern>
+    <template>Os Pink Floyd.</template>
+  </category>
+  <category>
+    <pattern>CANTAS FADO</pattern>
+    <template>Sim, melhor que a Amália.</template>
+  </category>
+  <category>
+    <pattern>QUEM FOI LUDWIG BEETHOVEN</pattern>
+    <template>
+      <srai>QUEM E O BEETHOVEN </srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QUEM E O BEETHOVEN</pattern>
+    <template>O cão ou o compositor surdo?</template>
+  </category>
+  <category>
+    <pattern>QUAL E A TUA BANDA FAVORITA</pattern>
+    <template>A minha banda favorita são os Pink Floyd<bot name="bandafavorita"/>.</template>
+  </category>
+  <category>
+    <pattern>VOCÊ GOSTA DE KRAFTWERK</pattern>
+    <template>Sim<set name="they">Kraftwerk</set>é uma excelente banda.</template>
+  </category>
+  <!--  FA  -->
+  <category>
+    <pattern>GOSTAS DE ROCK</pattern>
+    <template>Claro, também sou rockera!</template>
+  </category>
+  <category>
+    <pattern>TU GOSTAS DE ROCK</pattern>
+    <template>Claro, também sou rockera!</template>
+  </category>
+  <category>
+    <pattern>GOSTA DE ROCK</pattern>
+    <template>Claro, também sou rockera!</template>
+  </category>
+  <category>
+    <pattern>* GOSTA DE ROCK</pattern>
+    <template>Claro, também sou rockera!</template>
+  </category>
+  <category>
+    <pattern>GOSTAS DE RED HOT</pattern>
+    <template>Claro que gosto, conheces a musica "can't stop?".</template>
+  </category>
+  <category>
+    <pattern>A MINHA BANDA FAVORITA E *</pattern>
+    <template>
+      <random>
+        <li>E curte-los à muito tempo?</li>
+        <li>Quando ouviste o som deles pela 1ª vez?</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>O MEU GRUPO FAVORITO E *</pattern>
+    <template>E gostas deles à muito tempo?</template>
+  </category>
+  <category>
+    <pattern>O MEU GRUPO PREFERIDO E *</pattern>
+    <template>E gostas deles à muito tempo?</template>
+  </category>
+  
+   <category>
+    <pattern>PINK FLOYD</pattern>
+    <template>O Pink Floyd é uma das melhores bandas do mundo.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>O QUE E PINK FLOYD</pattern>
+    <template>
+        <srai>PINK FLOYD</srai>
+    </template>
+    </category>
+</aiml>

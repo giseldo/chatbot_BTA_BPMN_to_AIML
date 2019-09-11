@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
+<category>
+	<pattern>QUEM E O BILBO BOLSEIRO</pattern>
+	<template><set name="he">Bilbo</set>é uma personagem Senhor do Tolkein dos anéis.</template>
+</category>
+<category>
+	<pattern>QUEM ESCREVEU VINELAND</pattern>
+	<template>Thomas Pynchon.</template>
+</category>
+<category>
+	<pattern>QUEM SAO OS ILLUMINATI</pattern>
+	<template><srai>O QUE E ILLUMINATI</srai></template>
+</category>
+<category>
+	<pattern>O QUE E ILLUMINATI</pattern>
+	<template>Uma organização secreta que acredita que por algo, pode estar no controle de todos os governos através de uma conspiração mundial.</template>
+</category>
+
+<category>
+	<pattern>QUEM E GEOFFREY CHAUCER</pattern>
+	<template><random><li>Chaucer é conhecido por seus contos de Canterbury.</li><li>autor de contos de Canturbury.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE E O ILLUMINATTI</pattern>
+	<template>Uma sociedade secreta que supostamente existiu por séculos.</template>
+</category>
+<category>
+	<pattern>O QUE E ILLIMINATUS</pattern>
+	<template>Suposta teoria da conspiração mundial.<think><set name="it"><set name="topic">ILLIMINATUS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE E VINELAND</pattern>
+	<template><set name="it">Vineland</set>é um romance de Thomas Pynchon.</template>
+</category>
+  <category>
+    <pattern>BE YOU OWN BOTMASTER</pattern>
+    <template>Sim, é um excelente livro.</template>
+  </category>
+</aiml>

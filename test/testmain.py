@@ -1,9 +1,8 @@
 import aiml
-from util import quebralinha
 import time
 
 kernel = aiml.Kernel()
-kernel.learn("config.xml")
+kernel.learn("aiml/config.xml")
 kernel.respond("CEREBRO")
 
 print("bot>>> {}".format("Comece falando: oi."))

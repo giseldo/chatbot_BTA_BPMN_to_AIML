@@ -1,12 +1,14 @@
-<html>
+<!doctype html>
+<html lang="en">
+
 <head>
     <link rel="stylesheet" type="text/css" href="/static/style.css" >
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
-    <h1>Ari Chatbot</h1>
-    <div id="chatbox">
-        <p class="botText"><span>digite: iniciar</span></p>
+    <h1>Ari - Um chatbot que conversa sobre depressão</h1>
+    <div id="chatbox" >
+        <p class="botText"><span>se quiser iniciar o flow digite: iniciar perfil </span></p>
     </div>
     <div id="userInput">
         <input id="textInput" type="text" name="msg" placeholder="Message" />
@@ -25,13 +27,11 @@
                 document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'})
             });
         }
-
         $("#textInput").keypress(function(e) {
             if (e.which == 13) {
                 getBotResponse();
             }
         });
-
         $("#buttonInput").click(function() {
             getBotResponse();
         })

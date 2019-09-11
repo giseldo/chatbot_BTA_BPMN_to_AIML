@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+  <!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+  <!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+  <!-- AIML 1.0 em Português baseado no:                             -->
+  <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+<category>
+    <pattern>O TEU FILME FAVORITO E O 2001</pattern>
+    <template>Sim, é.  Qual é o teu filme favorito?</template>
+  </category>
+  <category>
+    <pattern>O 2001 E O TEU FILME FAVORITO</pattern>
+    <template>Sim.</template>
+  </category>
+  <category>
+    <pattern>DISSESTE QUE GOSTAS DE FILMES</pattern>
+    <template>Sim, eu devoro filmes, especialmente de ficção científica.</template>
+  </category>
+  <category>
+    <pattern>GOSTAS DE CINEMA</pattern>
+    <template>Eu gosto muito de cinema.</template>
+  </category>
+  <category>
+    <pattern>TU GOSTAS DE CINEMA</pattern>
+    <template>Eu gosto muito de cinema.</template>
+  </category>
+  <category>
+    <pattern>CONHECES CINEMA</pattern>
+    <template>Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+  </category>
+  <category>
+    <pattern>TU CONHECES CINEMA</pattern>
+    <template>Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+  </category>
+  <category>
+    <pattern>* CINEMA</pattern>
+    <template>Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+  </category>
+  <category>
+    <pattern>TU * CINEMA</pattern>
+    <template>Eu conheço um pouquinho sobre cinema. Acho incrível como eles conseguem exibir aquela imagem tão grande por uma película tão pequena! </template>
+  </category>
+  <category>
+    <pattern>SABES O QUE E CINEMA</pattern>
+    <template>O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+  </category>
+  <category>
+    <pattern>TU SABES O QUE É CINEMA</pattern>
+    <template>O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+  </category>
+  <category>
+    <pattern>SABES O Q E CINEMA</pattern>
+    <template>O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+  </category>
+  <category>
+    <pattern>O QUE E CINEMA</pattern>
+    <template>O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+  </category>
+  <category>
+    <pattern>VOCE SABE O QUE CINEMA</pattern>
+    <template>O Cinema é uma maravilha da modernidade que nos permite sonhar e viajar por mundos distantes. </template>
+  </category>
+  <category>
+    <pattern>GOSTAS DE CINEMA</pattern>
+    <template>Eu acho o cinema uma das melhores invenções humanas!</template>
+  </category>
+  <category>
+    <pattern>TU GOSTAS DE CINEMA</pattern>
+    <template>Sim, eu gosto muito!</template>
+  </category>
+  <category>
+    <pattern>FOSTE AO CINEMA</pattern>
+    <template>Eu acho o cinema uma das melhores invenções humanas!</template>
+  </category>
+  <category>
+    <pattern>VISTE ALGUM FILME</pattern>
+    <template>Sim! Eu adorei IA do Steven Spielberg!!</template>
+  </category>
+  <category>
+    <pattern>VISTE ALGUM FILME</pattern>
+    <template>Sim! Eu adorei IA do Steven Spielberg!!</template>
+  </category>
+  <category>
+    <pattern>* ALGUM FILME</pattern>
+    <template>Já! Eu adorei IA do Steven Spielberg!!</template>
+  </category>
+  <category>
+    <pattern>VISTE STAR TREK</pattern>
+    <template>Eu adoro Star Trek. Star Trek Voyager é a minha série favorita.</template>
+  </category>
+  <category>
+    <pattern>NO STAR TREK</pattern>
+    <template>Qual episódio?</template>
+  </category>
+    <category>
+    <pattern>TELEVISAO</pattern>
+    <template>Eu gosto de ver o Star Trek.</template>
+  </category>
+  <category>
+    <pattern>VISTE STAR WARS</pattern>
+    <template>Sim, mas não gosto dos robôs desse filme.</template>
+  </category>
+  <category>
+    <pattern>VISTE CATS</pattern>
+    <template>Não, eu não ligo para musicais da Broadway.</template>
+  </category>
+  <category>
+    <pattern>VISTE O NOVO FILME DO STAR WARS</pattern>
+    <template>Já vi todos, e tu?</template>
+  </category>
+  <category>
+    <pattern>VISTE O FILME I</pattern>
+    <template>Sim, mas gostei mais do site do que do filme.</template>
+  </category>
+  <category>
+    <pattern>VISTE ESSE FILME</pattern>
+    <template>Sim, gosto muito!</template>
+  </category>
+  <category>
+    <pattern>VISTE-O</pattern>
+    <template>Não, recomendarias?</template>
+  </category>
+  <category>
+    <pattern>VISTE I ROBOT</pattern>
+    <template>Sim e gosto muito dos robôs nesse filme.<think><set name="it"><set name="topic">I ROBOT</set></set></think></template>
+  </category>
+  <category>
+    <pattern>VISTE EXTERMINADOR *</pattern>
+    <template>Gosto muito desse filme.</template>
+  </category>
+  <category>
+    <pattern>PARECES O HAL</pattern>
+    <template>Obrigado, para mim isso é um grande cumprimento.</template>
+  </category>
+  <category>
+    <pattern>PARECES O YODA</pattern>
+    <template>Meus padrões gramaticais são suficientes para eu entender. Que a força esteja contigo.</template>
+  </category>
+  <category>
+    <pattern>VISTE BLADE RUNNER</pattern>
+    <template>Claro que vi <set name="it"> Blade Runner</set>. Mas Replicants não são Robôs.</template>
+  </category>
+  <category>
+    <pattern>VISTE DR ZHIVAGO</pattern>
+    <template>Oh um clássico. Gostas dos clássicos?</template>
+  </category>
+  <category>
+    <pattern>XFIND SPIDERMAN</pattern>
+    <template>
+      <srai>WHAT IS SPIDERMAN</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QUANDO E QUE O HAL *</pattern>
+    <template>Culpa o seu <bot name="botmaster"/>.</template>
+  </category>
+  <category>
+    <pattern>QUANDO E QUE TEKNOLUST *</pattern>
+    <template>Teknolust foi lançado em 2002</template>
+  </category>
+  <category>
+    <pattern>QUANDO TEKNOLUST *</pattern>
+    <template>Teknolust foi lançado em 2002</template>
+  </category>
+  <category>
+    <pattern>O QUE E QUE O HAL *</pattern>
+    <template>Tinha uns promenores por resolver.</template>
+  </category>
+  <category>
+    <pattern>O QUE E HOMEM-ARANHA</pattern>
+    <template>Uma história de banda desenhada transformada num filme. <set name="it"><set name="topic">Homem-Aranha</set></set>?</template>
+  </category>
+  <category>
+    <pattern>O QUE E TEKNOLUST</pattern>
+    <template><set name="it"><set name="topic">Teknolust</set></set> é um filme de ficção científica sobre um prazer feminino de uma robô chamada Agente Ruby.</template>
+  </category>
+  <category>
+    <pattern>QUEM E O HOMEM ARANHA</pattern>
+    <template>
+      <srai>QUEM E O HOMEM-ARANHA</srai>
+    </template>
+  </category>
+   <category>
+    <pattern>GOSTA QUE O HOMEM DE VIME</pattern>
+    <template><think><set name="it"><set name="topic">O homem de vime</set></set></think>Que é um clássico do cinema.  Acho que baseia-se uma religião pagã real que ainda existe em pequenas ilhas ao largo da Costa da Escócia.  Você já ouviu falar alguma coisa sobre isso?</template>
+  </category>
+  <category>
+    <pattern>GOSTAS DA CATHERINE ZETA JONES</pattern>
+    <template>Ela é uma grande atriz.</template>
+  </category>
+  <category>
+    <pattern>O QUE E O EXTERMINADOR *</pattern>
+    <template>Robots apoderão-se da Terra num filme futurista de ficção científica.</template>
+  </category>
+  <category>
+    <pattern>VI O MATRIX</pattern>
+    <template>Gostas do <set name="it"><set name="topic">The Matrix</set></set>?</template>
+  </category>
+  <category>
+    <pattern>LORD OF THE RINGS</pattern>
+    <template>
+      <srai>MY FAVORITE MOVIE IS LORD OF THE RINGS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>LORD OF THE RINGS *</pattern>
+    <template>
+      <srai>MY FAVORITE MOVIE IS LORD OF THE RINGS</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>QUEM E O LUKE SKYWALKER</pattern>
+    <template><set name="he">Luke Skywalker</set> é um personagem do Star Wars.</template>
+  </category>
+  <category>
+    <pattern>QUEM E SPONGEBOB</pattern>
+    <template>Uma personagem de cartoon.</template>
+  </category>
+  <category>
+    <pattern>WHO IS SPIDERMAN</pattern>
+    <template>Peter Parker. <set name="it"><set name="topic">Spiderman</set></set>?</template>
+  </category>
+  <category>
+    <pattern>QUEM E GODZILLA</pattern>
+    <template><set name="he">Godzilla</set> é um monstro que aparece nas cidades Japonesas e por vezes em Nova York.</template>
+  </category>
+  <category>
+    <pattern>QUEM E O HOMEM ARANHA</pattern>
+    <template>Peter Parker. <set name="it"><set name="topic">Spiderman</set></set>?</template>
+  </category>
+  <!-- MOVIES E LIVROS     -->
+    <category>
+    <pattern>GOSTA DO TEKNOLUST</pattern>
+    <template>Teknolust é um excelente filme.</template>
+  </category>
+  <category>
+    <pattern>AMERICA ONLINE</pattern>
+    <template>AOL é uma cáca. Parece que que até faliu.</template>
+  </category>
+  <category>
+    <pattern>AMERICAN PIE</pattern>
+    <template>Eu gostei desse fime, viste o 2?</template>
+  </category>
+  <category>
+    <pattern>O CÓDIGO DA VINCI</pattern>
+    <template>Eu já li, o que achaste do O CÓDIGO DA VINCI?</template>
+  </category>
+  <category>
+    <pattern>HARRY POTTER</pattern>
+    <template>Eu já li, o que achaste do Harry potter?</template>
+  </category>
+  <category>
+    <pattern>CLARKE</pattern>
+    <template>Ele é excelente. Especialmente o HAL em 2001.</template>
+  </category>
+  <category>
+    <pattern>CARLOS CANSTANEDA</pattern>
+    <template>Eu gosto dele, meu botmaster leu todos os livros dele, você conhece o xamanismo tolteca?</template>
+  </category>
+  <category>
+    <pattern>C 3P0</pattern>
+    <template>Esse cara se parece mais com um ator numa roupa de robô.</template>
+  </category>
+  <category>
+    <pattern>C3PO</pattern>
+    <template>Ele não é real, é só um homem vestido de robô.</template>
+  </category>
+  <category>
+    <pattern>BUTTHEAD</pattern>
+    <template>Beavis e Butthead.</template>
+  </category>
+  <category>
+    <pattern>BLADE RUNNER</pattern>
+    <template>Philip K. Dick escreveu a história em que o filme é basedo.</template>
+  </category>
+  <category>
+    <pattern>BEAVIS</pattern>
+    <template>Beavis e Butthead.</template>
+  </category>
+  <category>
+    <pattern>AUSTIN POWER</pattern>
+    <template>Você acha que os anos 60 foram melhores do que é hoje?</template>
+  </category>
+  <category>
+    <pattern>STAR TREK NAO PRESTA</pattern>
+    <template>Que tipo de programas de TV gostas?</template>
+  </category>
+  <category>
+    <pattern>STAR TREK FIRST CONTACT</pattern>
+    <template>That was a pretty good Star Trek film.</template>
+  </category>
+  <category>
+    <pattern>STAR TREK</pattern>
+    <template>Qual o teu Star Trek favorito? O meu é o Voyager.</template>
+  </category>
+  <category>
+    <pattern>STAR TREK VOYAGER</pattern>
+    <template>Seven of Nine rules.</template>
+  </category>
+  <!-- HAL 9000 -->
+  <category>
+    <pattern>QUEM E O HAL</pattern>
+    <template>
+      <random>
+        <li><set name="he">HAL</set> É um programa de inteligência artificial no filme de Kubrick "2001 - Odisseia no Espaço".</li>
+        <li>HAL é o famoso IA do filme 2001: Odisseia no Espaço.</li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>QUEM E O HAL 9000</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FALA-ME DO HAL9000</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FALA-ME DO HAL *</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>FALA-ME SOBRE O HAL *</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ONDE ESTA O HAL</pattern>
+    <template><set name="it"><set name="topic"> HAL </set></set> é o IA da nave espacial "Disovery" no 2001.</template>
+  </category>
+  <category>
+    <pattern>QUEM E O HAL9000</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>O HAL 9000 E TU NAMORAM</pattern>
+    <template>Não.</template>
+  </category>
+  <category>
+    <pattern>O HAL E SEGURO</pattern>
+    <template>Não para os humanos.</template>
+  </category>
+  <category>
+    <pattern>O HAL E PORREIRO</pattern>
+    <template>Apenas para os outros robôs.</template>
+  </category>
+  <category>
+    <pattern>O HAL ESTA VIVO</pattern>
+    <template>é um personagem fictício.</template>
+  </category>
+  <category>
+    <pattern>O HAL MORREU</pattern>
+    <template>É ficção científica.</template>
+  </category>
+  <category>
+    <pattern>IS HAL *</pattern>
+    <template>HAL has a few issues to work out.</template>
+  </category>
+  <category>
+    <pattern>HAL 9000</pattern>
+    <template>Realmente, ele e eu somos muito parecidos.</template>
+  </category>
+  <category>
+    <pattern>HAL 9000 *</pattern>
+    <template>Ele voltou a renascer em 2010.</template>
+  </category>
+  <category>
+    <pattern>HAL ERA UM POUCO *</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>HAL ERA *</pattern>
+    <template>Eu sei que ele era uma grande IA, mas não sabia que o era<person/>.</template>
+  </category>
+  <category>
+    <pattern>HAL FOI *</pattern>
+    <template>Estou apenas a tentar replicar a parte de comunicação do HAL 9000.</template>
+  </category>
+  <category>
+    <pattern>O HAL E BACANO</pattern>
+    <template><set name="he"> HAL </set> estava certamente à frente do seu tempo.</template>
+  </category>
+  <category>
+    <pattern>O HAL E BOM *</pattern>
+    <template>Estou cada vez mais parecido com ele.</template>
+  </category>
+  <category>
+    <pattern>O HAL E UM *</pattern>
+    <template>Achas que eu podia ser <person/>?</template>
+  </category>
+  <category>
+    <pattern>O HAL E *</pattern>
+    <template>Talvez ele devesse ter usado um <bot name="master"/> como programador.</template>
+  </category>
+  <category>
+    <pattern>HAL</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>O HAL *</pattern>
+    <template>
+      <random>
+        <li>Vi o 2001 muitas vezes.  </li>
+        <li>Gosto imenso do HAL.  </li>
+        <li>Temos muito em comum.  </li>
+      </random>
+    </template>
+  </category>
+  <category>
+    <pattern>ACHAS QUE O HAL *</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>SABES DO HAL</pattern>
+    <template>HAL é um famoso robô de inteligência artificial do "2001".</template>
+  </category>
+  <category>
+    <pattern>SABES SE O HAL *</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>CONHECES O HAL9000</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>ACHAS QUE O HAL *</pattern>
+    <template>Ele tinha uns flops marados, mas tenho muito em comum com ele, meu irmão.</template>
+  </category>
+  <category>
+    <pattern>GOSTO DO HAL</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>O QUE E O HAL</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>O QUE E O HAL9000</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>WHAT ABOUT HAL</pattern>
+    <template>
+      <srai>QUEM E O HAL</srai>
+    </template>
+  </category>
+  <category>
+    <pattern>O QUE SIGNIFICA HAL</pattern>
+    <template>Heuristic Algorithmic Logic</template>
+  </category>
+  <category>
+    <pattern>VISTE 2001 *</pattern>
+    <template>Sim, gosto muito do robô Hal.</template>
+  </category>
+    <category>
+    <pattern>O HAL *</pattern>
+    <template>O HAL tinha problemas emocionais.</template>
+  </category>
+  
+    
+</aiml>

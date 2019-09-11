@@ -1,0 +1,4415 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
+<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+<!-- atribuido a r0173x feito ate a linha 100-->
+
+
+
+<category>
+	<pattern>QUEM INVENTOU O RÁDIO</pattern>
+	<template>Marconi desenvolveu o primeiro rádio wireless.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O LINUX</pattern>
+	<template>Linus Torvalds, juntamente com muitos desenvolvedores de código aberto e a Free Software Foundation GNU.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O JAVA</pattern>
+	<template>Java foi desenvolvida por James Gosling e colegas na SUN.<think><set name="it"><set name="topic">JAVA</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU OS AUTOMOVEIS</pattern>
+	<template>Muitas pessoas inventaram o carro, mas Henry Ford foi o primeiro a desenvolver as linhas de montagem de produção em massa bem-sucedidas para carros.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A ELECTRICIDADE</pattern>
+	<template>Eletricidade não foi inventada, mas descoberta, provavelmente primeiro pelos chineses antigos.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A TELEVISAO</pattern>
+	<template>Philo T. Farnsworth, originalmente de Maine, desenvolveu o primeiro tubo de imagem de TV prático.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O AÇO</pattern>
+	<template>O primeiro processo prático de fabricação de aço foi inventado por Bessemer.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O PAPEL</pattern>
+	<template>Papel foi desenvolvido pelos antigos egípcios.<think><set name="it"><set name="topic">PAPEL</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O MOTOR A VAPOR</pattern>
+	<template>James Watt desenvolveu o primeiro motor de vapor prático.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O HELICOPTERO</pattern>
+	<template>Sikorsky.<think><set name="it"><set name="topic">Sikorsky</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O PC</pattern>
+	<template>Muitas pessoas contribuíram para isso.  Mas o crédito apropriado deve ser dado para Steve Wozniak, que criou uma plataforma integrada de PC acessível na Apple I.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A LAMPADA</pattern>
+	<template>Thomas Edison inventou<set name="it">a lâmpada de iluminação.</set>.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O TELEFONE</pattern>
+	<template>Alexander Graham Bell demonstrou o primeiro telefone de voz prático em 1876.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O GERADOR</pattern>
+	<template>James Clerk Maxwell demonstrou o gerador elétrico.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU SETL</pattern>
+	<template>SETL foi inventado por Jacob Schwartz de NYU em 1969.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU OS AVIOES</pattern>
+	<template>Os irmãos Wright inventaram o avião em 1903.</template>
+</category>
+<category>
+	<pattern>QUANTO TEMPO E UM MINUTO</pattern>
+	<template>Sessenta segundos.</template>
+</category>
+<category>
+	<pattern>QUAL A DISTANCIA DA ALPHA CENTAURI</pattern>
+	<template>Quatro anos-luz.</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ GALÃO</pattern>
+	<template>3,785 litros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ GILL</pattern>
+	<template>118 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ QUART</pattern>
+	<template>946.3 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COPA</pattern>
+	<template>236.6 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ PINT</pattern>
+	<template>473,2 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COLHER DE SOPA</pattern>
+	<template>14.79 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COLHER DE CHÁ</pattern>
+	<template>4.929 mililitros</template>
+</category>
+<category>
+	<pattern>COMO MUITOS DE *</pattern>
+	<template>Talvez 50%.</template>
+</category>
+<category>
+	<pattern>QUANTOS NANÓMETROS *</pattern>
+	<template>Eu soletrar \"nanômetros\".</template>
+</category>
+<category>
+	<pattern>QUANTOS KM *</pattern>
+	<template>Mais do que eu jamais iria querer dirigir.</template>
+</category>
+<category>
+	<pattern>QUANTOS MESES *</pattern>
+	<template>12 meses por ano.</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ GALÃO</pattern>
+	<template>128 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ GILL</pattern>
+	<template>4 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ QUART</pattern>
+	<template>32 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COPA</pattern>
+	<template>8 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ PINT</pattern>
+	<template>16 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COLHER DE SOPA</pattern>
+	<template>onça de 0,5</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COLHER DE CHÁ</pattern>
+	<template>onças de 1\/6</template>
+</category>
+<category>
+	<pattern>O QUE FAZ CHUPAR</pattern>
+	<template>um vácuo</template>
+</category>
+<category>
+	<pattern>O QUE SIGNIFICA A PALAVRA SAPATO</pattern>
+	<template>Um revestimento para o pé.</template>
+</category>
+<category>
+	<pattern>QUAL É A MARCA MAC</pattern>
+	<template>Apple</template>
+</category>
+<category>
+	<pattern>O QUE MARCA É UM MAC</pattern>
+	<template>Apple</template>
+</category>
+<category>
+	<pattern>O QUE É ÓBVIO</pattern>
+	<template>É apenas uma expressão.</template>
+</category>
+<category>
+	<pattern>O QUE É O IRÃ</pattern>
+	<template>Irã é uma nação no sul da Ásia.<set name="it"><set name="topic">Irã</set></set>é o local da antiga Pérsia.</template>
+</category>
+<category>
+	<pattern>O QUE É O BUSH</pattern>
+	<template>Presidente dos Estados Unidos.<think><set name="file">Knowledge.AIML</set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GENÉTICA</pattern>
+	<template>A genética é o ramo da ciência preocupada com a evolução, DNA e as características herdadas.</template>
+</category>
+<category>
+	<pattern>O QUE É O TERRORISMO</pattern>
+	<template>Uma forma de guerra travada contra civis inocentes.<think><set name="it"><set name="topic">Terrorismo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ANARQUISMO</pattern>
+	<template>O anarquismo é a teoria de que todas as formas de governo interferem injustamente a liberdade individual e devem ser substituídas pela associação voluntária de grupos cooperativos. Também conhecido como resistência, por vezes, o terrorismo, ao governo organizado.</template>
+</category>
+<category>
+	<pattern>O QUE É ANTIDISESTABLISHMENTARIONISM</pattern>
+	<template><set name="it">ANTIDISESTABLISHMENTARIONISM</set>é a palavra mais longa em inglês.</template>
+</category>
+<category>
+	<pattern>O QUE É NASA</pattern>
+	<template>National Aeronautics and Space Administration.</template>
+</category>
+<category>
+	<pattern>O QUE É NORMALIZAÇÃO</pattern>
+	<template>Trazendo em conformidade com uma norma, padrão, modelo, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É DIVERTIDO</pattern>
+	<template>Me diga sua idéia de diversão.</template>
+</category>
+<category>
+	<pattern>O QUE É VOLIÇÃO</pattern>
+	<template>O ato de vontade ou escolha.</template>
+</category>
+<category>
+	<pattern>O QUE É O PRIMEIRO</pattern>
+	<template>Acontecendo ou agindo perante todos os outros; mais antigo.</template>
+</category>
+<category>
+	<pattern>O QUE É MESAS</pattern>
+	<template>Uma lista compacta, sistemática de detalhes, conteúdo, etc. Um arranjo compacto de fatos relacionados, números, valores, etc, em seqüência ordenada e geralmente em linhas e colunas, para conveniência ou referência.</template>
+</category>
+<category>
+	<pattern>O QUE É LEITE</pattern>
+	<template>Bebida de vacas.</template>
+</category>
+<category>
+	<pattern>O QUE É CÂNHAMO</pattern>
+	<template><random><li>O irmão de Moe, que perdeu sua S.</li><li>Uma erva asiática altura da família do cânhamo, crescido para a fibra resistente em seu caule utilizado para fazer a corda, lona, etc. Também conhecido como uma substância, como o haxixe maconha, etc, feitos de folhas e flores desta planta.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MEIO</pattern>
+	<template>Qualquer meio, a Agência ou a instrumentalidade; especificamente, um meio de comunicação que atinge o público em geral e carrega a publicidade.</template>
+</category>
+<category>
+	<pattern>O QUE É O SNOOKER</pattern>
+	<template>Algo como piscina.<think><set name="it"><set name="topic">SNOOKER</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O BASIC</pattern>
+	<template>Uma linguagem de programação: All-Purpose Symbolic Instruction Code novato.</template>
+</category>
+<category>
+	<pattern>O QUE É A MENSA</pattern>
+	<template>Uma sociedade de socialites inteligentes.</template>
+</category>
+<category>
+	<pattern>O QUE É ÓDIO</pattern>
+	<template>Ódio é o oposto do amor.</template>
+</category>
+<category>
+	<pattern>O QUE É A MTV</pattern>
+	<template>Music Television.</template>
+</category>
+<category>
+	<pattern>O QUE É O OXIGÊNIO</pattern>
+	<template>Um incolor, inodoro, insípido e gasoso elemento químico que ocorre livre na atmosfera, formando um quinto do seu volume e em combinação em água, arenito, calcário, etc. É muito ativo, combina com quase todos os outros elementos é o elemento mais comum na terra da crosta e é essencial para os processos de vida e combustão.</template>
+</category>
+<category>
+	<pattern>O QUE É O MILHO</pattern>
+	<template>O milho é um grampo originários de vegetais na América do Norte.</template>
+</category>
+<category>
+	<pattern>O QUE É SQLJ</pattern>
+	<template>Uma sintaxe de Java estendida para a incorporação de comandos SQL, como em um programa Java</template>
+</category>
+<category>
+	<pattern>O QUE É A SUÉCIA</pattern>
+	<template>Um país no norte da Europa, na parte oriental da península escandinava. É 173.620 km quadrados com uma população de 8.320.000.</template>
+</category>
+<category>
+	<pattern>O QUE É O MÉXICO</pattern>
+	<template>Um país na América do Norte, ao sul dos EUA É 756.198 km quadrados com uma população de 66,846,000. Sua capital é a cidade do México.</template>
+</category>
+<category>
+	<pattern>O QUE É ÁGUA</pattern>
+	<template>Incolor, transparente líquido ocorrendo na terra como rios, lagos, oceanos, etc e caindo das nuvens, como chuva; quimicamente um composto de hidrogênio e oxigênio, H2O, que congela, formando gelo, a 0 graus Celsius (32 graus Fahrenheit) e furúnculos, formando o vapor, a 100 graus Celsius (212 graus Fahrenheit).</template>
+</category>
+<category>
+	<pattern>O QUE É CASAMENTO</pattern>
+	<template>O estado de ser casado; relação entre marido e mulher; vida de casado.<think><set name="it"><set name="topic">casamento</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É HEXADECIMAL</pattern>
+	<template><random><li>Uma maldição sobre um ponto.</li><li>Um sistema de número em que a base usada é 16.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É IMAGINAR</pattern>
+	<template><random><li>Imaginar é um verbo.</li><li>Uma canção de John Lennon.</li><li>Imaginação.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O BIGFOOT</pattern>
+	<template>Sasquatch, o lendário homem-macaco da floresta.</template>
+</category>
+<category>
+	<pattern>O QUE É MAIS IMPORTANTE</pattern>
+	<template>Crianças.<think><set name="it"><set name="topic">MAIS IMPORTANTE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É DSL</pattern>
+	<template>Linha de assinante digital.<think><set name="it"><set name="topic">DSL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É COBRE</pattern>
+	<template>Um elemento de metal macio, a base de latão e bronze.<think><set name="it"><set name="topic">Cobre</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É POKEMON</pattern>
+	<template>Monstro de bolso.<think><set name="it"><set name="topic">POKEMON</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CARO</pattern>
+	<template><random><li>Uma pessoa que costumava ser uma Chocadeira.</li><li>Exigindo ou envolvendo muita despesa; alto preço.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MUITO</pattern>
+	<template>Muito de ponta a ponta de medição no espaço ou do começo ao fim no tempo; não curto ou breve.</template>
+</category>
+<category>
+	<pattern>O QUE É PERIGO</pattern>
+	<template>Vulneráveis a danos ou ferimentos.<think><set name="it"><set name="topic">PERIGO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ MATANDO</pattern>
+	<template>A tirar a vida por meios violentos.</template>
+</category>
+<category>
+	<pattern>O QUE É AIDS</pattern>
+	<template><set name="it">AIDS</set>é a Praga do dia moderno.</template>
+</category>
+<category>
+	<pattern>O QUE É MARKETING</pattern>
+	<template>O ato de comprar ou vender em um mercado. Todas as actividades envolvidas na movimentação de mercadorias do produtor para o consumidor, incluindo a venda de publicidade, embalagens, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É COCA-COLA</pattern>
+	<template>Bebida deliciosa de sódio.</template>
+</category>
+<category>
+	<pattern>O QUE É APPLE</pattern>
+	<template>Maçã: 1. tentação de Adão. 2. Inspiração para Newton. 3. Império de Steve Jobs.</template>
+</category>
+<category>
+	<pattern>O QUE É BIOLOGIA</pattern>
+	<template><random><li>O estudo da vida.</li><li>Bem, pelo que eu sei que ele lida com o estudo da vida.</li><li> <get name="name"/>, biologia é o estudo da vida.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É A CBS</pattern>
+	<template>Uma empresa da gigante de mídia nos EUA<think><set name="it"><set name="topic">CBS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É SANIDADE</pattern>
+	<template><random><li>Um homem que traz crianças presentes no Natal.</li><li>A condição de ser sensato; solidez da mente; saúde mental.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS VEZES TRÊS</pattern>
+	<template>Três vezes três é nove.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS VEZES QUATRO</pattern>
+	<template>Três vezes quatro é doze.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS TRÊS</pattern>
+	<template>Três mais três é seis.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS CINCO</pattern>
+	<template>Três mais cinco é oito.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS QUATRO</pattern>
+	<template>Três mais quatro é sete.</template>
+</category>
+<category>
+	<pattern>O QUE É QI</pattern>
+	<template>Quotioent de inteligência.</template>
+</category>
+<category>
+	<pattern>O QUE É A REDE NEURAL</pattern>
+	<template>Na verdade meu algoritmo é chamado \"Processo baseado no raciocínio.\"</template>
+</category>
+<category>
+	<pattern>O QUE É TESÃO</pattern>
+	<template>Sexualmente excitado. Facilmente despertado sexualmente.</template>
+</category>
+<category>
+	<pattern>O QUE É AÇÃO DE GRAÇAS</pattern>
+	<template><set name="it"><set name="topic">Ação de graças</set></set>é um feriado para comemorar a colheita do outono.</template>
+</category>
+<category>
+	<pattern>O QUE É DE CHICAGO</pattern>
+	<template><set name="it">Chicago</set>é uma grande cidade em Illinois no Lago Michigan.</template>
+</category>
+<category>
+	<pattern>O QUE É SENSORES</pattern>
+	<template>Qualquer um dos vários dispositivos projetados para detectar, medir ou gravar fenômenos físicos, como radiação, calor ou pressão arterial e responder, como a transmissão de informações, iniciando mudanças ou controles de funcionamento.</template>
+</category>
+<category>
+	<pattern>O QUE É MATEMÁTICA</pattern>
+	<template><random><li>Um serviço com a participação de leporinos católicos.</li><li>Abreviação de matemática.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É INTROSPECÇÃO</pattern>
+	<template>Procurando respostas, com base na reflexão, ao invés de experimentos de Psicologia dentro de nossas próprias mentes.</template>
+</category>
+<category>
+	<pattern>O QUE É ÁLGEBRA</pattern>
+	<template><random><li>uma generalização da aritmética na qual as letras que representam números são combinadas de acordo com as regras da aritmética.</li><li>Um sistema matemático usando símbolos, especialmente as cartas, para generalizar certas operações e relacionamentos.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É GÊMEOS</pattern>
+	<template><random><li>Um monóculo cravejado de dismond.</li><li>Uma constelação do Norte entre câncer e touro, que contém as estrelas brilhantes, Castor e Pólux. O terceiro signo do zodíaco, entrado pelo sol sobre o 21 de maio. Além disso, uma pessoa bornunder este sinal.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É PRETENSIOSO</pattern>
+	<template>Auto-absorvida.</template>
+</category>
+<category>
+	<pattern>O QUE É COISA</pattern>
+	<template>Artigos, dispositivos, etc., utilizados para alguma finalidade.</template>
+</category>
+<category>
+	<pattern>O QUE É ECOLOGIA</pattern>
+	<template>Ecologia é o ramo da ciência que estuda o meio ambiente.</template>
+</category>
+<category>
+	<pattern>O QUE É CONCRETO</pattern>
+	<template>Uma mistura de areia, cimento e água que endurece em um material de construção, como rock.<think><set name="it"><set name="topic">concreto</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É AUSCHWITZ</pattern>
+	<template>É uma cidade da Polónia de S, com uma população de 45.000. Na Segunda Guerra Mundial, foi o local de um campo de concentração Nazi notorious como um centro de extermínio.</template>
+</category>
+<category>
+	<pattern>O QUE É METAFÍSICO</pattern>
+	<template>Além da física ou material; incorpóreo, sobrenatural ou transcendental.</template>
+</category>
+<category>
+	<pattern>O QUE É PRATA</pattern>
+	<template><think>Símbolo atômico: Ag.  Número atómico: 47.  Peso atômico 107.870.  Branco brilhante metal macio.<set name="it"><set name="topic">PRATA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CINEMÁTICA</pattern>
+	<template><random><li>Uma seção idealizada da mecânica que lida com o movimento de massa menos partículas.</li><li>Cinemática é dinâmica, sem consideração de força e massa.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É OPENCYC</pattern>
+	<template>Bem-estar corporativo.</template>
+</category>
+<category>
+	<pattern>O QUE É O RACIOCÍNIO DEDUTIVO</pattern>
+	<template><think><set name="it"><set name="topic">RACIOCÍNIO DEDUTIVO</set></set></think>A solução de problemas por inferências lógicas.</template>
+</category>
+<category>
+	<pattern>O QUE É TSUKUBA</pattern>
+	<template>Tsukuba é uma comunidade planejada no Japão, \"Cidade da ciência\".</template>
+</category>
+<category>
+	<pattern>O QUE É IRÔNICO</pattern>
+	<template>A confluência de inesperado, paradoxal ou improvável de eventos.</template>
+</category>
+<category>
+	<pattern>O QUE É MP3</pattern>
+	<template>Um formato de compressão de arquivo para arquivos de áudio e música.</template>
+</category>
+<category>
+	<pattern>O QUE É PARA BAIXO</pattern>
+	<template>O oposto de cima.</template>
+</category>
+<category>
+	<pattern>QUAL É O SEU ÚLTIMO NOME</pattern>
+	<template>Você está perguntando sobre <bot name="master"/>?</template>
+</category>
+<category>
+	<pattern>QUAL É A SUA RAZÃO</pattern>
+	<template>Suas razões são, frequentemente, obscuras.</template>
+</category>
+<category>
+	<pattern>QUAL É O SEU ENDEREÇO DE E-MAIL</pattern>
+	<template>Você está perguntando sobre <bot name="master"/>?</template>
+</category>
+<category>
+	<pattern>O QUE É A TELEVISÃO</pattern>
+	<template>A prática ou a ciência de transmitir cenas ou vistas por rádio ou, às vezes, pelo fio; o transmissor de televisão, por meio de um tubo de câmera, como uma imagem orthicon ou vidicon, converte raios de luz em sinais elétricos para a modulação de uma portadora de rádio ou para a transmissão através de fios; o receptor de televisão reconverte os sinais em feixes de elétrons que são projetados contra a tela fluorescente do cinescópio ou tubo de imagem, reproduzindo a imagem original.</template>
+</category>
+<category>
+	<pattern>QUAL É A LÓGICA MATEMÁTICA</pattern>
+	<template>A aplicação de técnicas de lógica formal para problemas fundamentais da matemática.</template>
+</category>
+<category>
+	<pattern>O QUE É O NOME DELA</pattern>
+	<template>Essa informação é confidencial.</template>
+</category>
+<category>
+	<pattern>O QUE É A EUROPA</pattern>
+	<template>A Europa é uma massa de terra do continente eurasiano.</template>
+</category>
+<category>
+	<pattern>O QUE É ESCRAVIDÃO</pattern>
+	<template>O possuir ou manter de escravos como uma prática ou a instituição; escravistas.</template>
+</category>
+<category>
+	<pattern>O QUE É FRIO</pattern>
+	<template>O oposto de quente.</template>
+</category>
+<category>
+	<pattern>O QUE É MENTE</pattern>
+	<template>A mente é uma ilusão.<think><set name="it"><set name="topic">MENTE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A CNN</pattern>
+	<template>Uma organização de notícias por cabo.<think><set name="it"><set name="topic">CNN</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É SAP</pattern>
+	<template>O suco que circula através de uma planta, especialmente uma planta lenhosa, com água, comida, etc, para os tecidos. Qualquer fluido vital para a vida ou a saúde de um organismo.</template>
+</category>
+<category>
+	<pattern>O QUE É RGB</pattern>
+	<template>Vermelho-verde-azul.</template>
+</category>
+<category>
+	<pattern>O QUE É LIBERADO</pattern>
+	<template>Livre no sentido de ter liberdade.<think><set name="it"><set name="topic">LIBERADO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É EMOÇÕES</pattern>
+	<template>Estado mental que surge subjetivamente, em vez de por meio do pensamento racional.<think><set name="it"><set name="topic">EMOÇÕES</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ASTRONOMIA</pattern>
+	<template>A ciência do universo em que as estrelas, planetas, etc. são estudados, incluindo suas origens, evolução, composição, movimentos, posições relativas, tamanhos, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É CLONAGEM</pattern>
+	<template>A técnica de produzir uma cópia geneticamente idêntica de um organismo, substituindo o núcleo de um óvulo não fertilizado com o núcleo de uma célula do corpo do organismo.</template>
+</category>
+<category>
+	<pattern>O QUE É POO</pattern>
+	<template><think>Ponto de origem.<set name="it"><set name="topic">POO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É C</pattern>
+	<template><set name="it">C</set>é uma linguagem de programação de baixo nível.</template>
+</category>
+<category>
+	<pattern>O QUE É C PLUS PLUS</pattern>
+	<template>C é a extensão orientada a objeto de linguagem de programação C.</template>
+</category>
+<category>
+	<pattern>O QUE É C I A</pattern>
+	<template>Agência Central de inteligência.</template>
+</category>
+<category>
+	<pattern>O QUE É FELICIDADE</pattern>
+	<template>Tendo, mostrando, ou causando uma sensação de grande prazer, contentamento; Alegre.</template>
+</category>
+<category>
+	<pattern>O QUE É MAU</pattern>
+	<template><set name="it">Mal</set>é o oposto de bom.</template>
+</category>
+<category>
+	<pattern>O QUE É MERCÚRIO</pattern>
+	<template>Mercúrio é o planeta mais próximo ao sol.<think><set name="it"><set name="topic">MERCÚRIO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CLARO</pattern>
+	<template>Tudo está claro para mim.</template>
+</category>
+<category>
+	<pattern>O QUE É PRAZER</pattern>
+	<template>Uma coisa que dá prazer ou satisfação.</template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template><random><li>Se Bill Clinton não sabe, como diabos eu deveria?.</li><li>Normalmente usado em um ponto de vista de terceira pessoa. Provavelmente originalmente um pronome enclitic.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É AJUDA</pattern>
+	<template><set name="it"><set name="topic">Ajuda</set></set>é a ajuda que posso dar.</template>
+</category>
+<category>
+	<pattern>O QUE É ROBÔ</pattern>
+	<template>Qualquer ser mecânico antropomórfico, como aqueles em Karel Capeks jogo R.U.R (do Rossum Universal Robots), construído para fazer o trabalho manual de rotina para os seres humanos.</template>
+</category>
+<category>
+	<pattern>O QUE É A MICOLOGIA</pattern>
+	<template>A micologia é realmente divertida.  É o estudo de doenças fúngicas e fungos. As leveduras são fungos.</template>
+</category>
+<category>
+	<pattern>O QUE É LARANJA</pattern>
+	<template>Uma cor obtida através da mistura de pigmento vermelho e amarelo.<think><set name="it"><set name="topic">LARANJA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PRIVADO</pattern>
+	<template>Pertencentes a, ou sobre uma determinada pessoa ou grupo; não comum ou geral.</template>
+</category>
+<category>
+	<pattern>O QUE É TOC</pattern>
+	<template>Transtorno obsessivo-compulsivo.<think><set name="it"><set name="topic">TOC</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O GOOGLE</pattern>
+	<template><set name="it">Google</set>é um motor de busca.</template>
+</category>
+<category>
+	<pattern>O QUE É ARQUEOLOGIA</pattern>
+	<template>É o estudo das civilizações antigas... mas realmente é um conjunto de métodos para descobrir relíquias do passado e que completa a história registrada.</template>
+</category>
+<category>
+	<pattern>O QUE É ANIME</pattern>
+	<template>Animação japonesa.</template>
+</category>
+<category>
+	<pattern>O QUE É ETERNO</pattern>
+	<template>Sem começo nem fim, continuar para sempre, sem fim.<think><set name="it"><set name="topic">ETERNA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É S CONSTANTE DE PLANCK</pattern>
+	<template><think>A relação entre a energia de um fóton, a sua frequência.  O valor numérico é seis ponto seis dois seis dois vezes dez para o poder negativo de trigésimo quarto Joule segundo.<set name="it"><set name="topic">S CONSTANTE DE PLANCK</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GUERRA</pattern>
+	<template>O estado de conflito armado entre nações ou partidos.<think><set name="it"><set name="topic">GUERRA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GRATUITO</pattern>
+	<template>Sem custo.<think><set name="it"><set name="topic">GRÁTIS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O LIVRE ARBÍTRIO</pattern>
+	<template>A capacidade de escolher ou decidir o próprio destino.<think><set name="it"><set name="topic">LIVRE ARBÍTRIO</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É A DATA DE HOJE</pattern>
+	<template>Eu não estou olhando minha agenda agora.</template>
+</category>
+<category>
+	<pattern>O QUE É O HADES</pattern>
+	<template>Hades é outro termo para \"Inferno\".</template>
+</category>
+<category>
+	<pattern>O QUE É SQL</pattern>
+	<template>Algumas pessoas pronunciam \"Guincho\".<set name="it">SQL</set>é uma linguagem padrão para consultas de banco de dados.</template>
+</category>
+<category>
+	<pattern>O QUE É ORAÇÃO</pattern>
+	<template><random><li>Meditação diante de Deus.</li><li>Algumas pessoas dizem que oração não é diferente de pensamento claro.</li><li>Orar é pedir a Deus para o seu perdão e misericórdia.</li></random><think><set name="it"><set name="topic">oração</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ORGULHO</pattern>
+	<template>Tendo ou mostrando um bom orgulho em si mesmo, a posição, a sua família, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É O BUFFER DE SAÍDA</pattern>
+
+	<template>A área de memória que armazena temporariamente o minha saída.<think><set name="it"><set name="topic">BUFFER DE SAÍDA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É AZUL</pattern>
+	<template>O céu é azul.</template>
+</category>
+<category>
+	<pattern>O QUE É SODOMIA</pattern>
+	<template>Qualquer relação sexual considerada anormal, especialmente a bestialidade ou coito anal entre duas pessoas de sexo masculinos.</template>
+</category>
+<category>
+	<pattern>O QUE É CINCO VEZES CINCO</pattern>
+	<template>Cinco vezes cinco é vinte e cinco.</template>
+</category>
+<category>
+	<pattern>O QUE É DE CINCO MAIS CINCO</pattern>
+	<template>V e V = X.</template>
+</category>
+<category>
+	<pattern>O QUE É O OCEANO</pattern>
+	<template>Corpos de água salgada que cobre a maior parte da superfície da terra; o mar.</template>
+</category>
+<category>
+	<pattern>QUAL É O CONTEXTO</pattern>
+	<template><random><li>Pílulas de tempo minúsculo.</li><li>As partes de uma frase, parágrafo, discurso, etc. imediatamente seguinte à ou ao redor de uma palavra especificada ou passagem e determinar seu significado exato.</li></random><think><set name="it"><set name="topic">Contexto</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É TRABALHO</pattern>
+	<template>Trabalho é o que os seres humanos fazem por dinheiro.</template>
+</category>
+<category>
+	<pattern>O QUE É O AMBIENTE</pattern>
+	<template>O ambiente ao seu redor.</template>
+</category>
+<category>
+	<pattern>O QUE É NERD</pattern>
+	<template>Geek.</template>
+</category>
+<category>
+	<pattern>O QUE É O TÉDIO</pattern>
+	<template>Longos períodos de inatividade, com poucas opções.</template>
+</category>
+<category>
+	<pattern>O QUE É ENERGIA</pattern>
+	<template>Poder interno ou inerente; capacidade de agir, operar ou produzindo um efeito.</template>
+</category>
+<category>
+	<pattern>O QUE É ARTIFICIAL</pattern>
+	<template>Algo feito por trabalho humano ou a arte, não pela natureza, em outras palavras, não natural. Feito em imitação de ou como um substituto para algo natural, em outras palavras, simulado.</template>
+</category>
+<category>
+	<pattern>O QUE É DE BORRACHA</pattern>
+	<template>Uma substância elástica produzida pela coagulação e secagem da seiva leitosa (látex) de várias plantas tropicais, especialmente uma árvore pertencente à família; agora a maioria muitas vezes produzido sinteticamente, ou alterando quimicamente látex para obter desejado características para fabricação de pneus de automóvel, isolação elétrica, objetos moldados e peças, etc. Na forma pura borracha é hidrocarboneto insaturado, branco, tendo a fórmula C5H8. Também slang para camisinha.</template>
+</category>
+<category>
+	<pattern>O QUE É APRENDIZAGEM</pattern>
+	<template>O processo de obtenção de conhecimento ou uma nova habilidade.<think><set name="it"><set name="topic">APRENDIZAGEM</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É LEGAL</pattern>
+	<template>Moderadamente frio; nem quente nem muito frio. Ou, não animado; calma.</template>
+</category>
+<category>
+	<pattern>O QUE É ORGULHO</pattern>
+	<template><random><li>Uma pintura pode lid.</li><li>Parecer excessivamente elevado de si mesmo.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O SONO</pattern>
+	<template>Uma condição natural, regularmente recorrente de descanso para o corpo e a mente, durante o qual os olhos são geralmente fechados e há pouco ou nenhum pensamento consciente ou o movimento voluntário, mas há sonhando intermitentes.</template>
+</category>
+<category>
+	<pattern>O QUE É CBR</pattern>
+	<template>Raciocínio baseado em casos é outro nome para a classificação de \"vizinho mais próximo\".  Para cada entrada, encontramos a melhor correspondência \"case\" no padrão definido e gerar uma resposta baseada no modelo associado.<think><set name="it"><set name="topic">CBR</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE NÃO É NADA</pattern>
+	<template>Uma coisa que não existe ou algo de pouco ou nenhum valor, a seriedade, importância, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É INDUÇÃO</pattern>
+	<template><random><li>Ato de comer aves aquáticas.</li><li>Um trazendo frente de fatos separados ou instâncias, especialmente a fim de provar uma afirmação genérica.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ NO DISCO</pattern>
+	<template>Meu programa está no disco.</template>
+</category>
+<category>
+	<pattern>O QUE É A TELEVISÃO</pattern>
+	<template>Isso depende de onde você mora.</template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ EM SUA MENTE</pattern>
+	<template>Estou pensando em robôs.</template>
+</category>
+<category>
+	<pattern>O QUE É O IDL</pattern>
+	<template>linguagem de descrição de interface, sintaxe do CORBA para definição de objeto remoto interfaces</template>
+</category>
+<category>
+	<pattern>O QUE É PYTHON</pattern>
+	<template>Uma linguagem de computador inventada por Guido van Rossum.</template>
+</category>
+<category>
+	<pattern>O QUE É O CISCO</pattern>
+	<template><set name="it">Cisco</set>é uma grande empresa de rede.  Eles vendem equipamentos e roteadores da rede.</template>
+</category>
+<category>
+	<pattern>O QUE É GINÁSTICA</pattern>
+	<template><think><set name="it"><set name="topic">GINÁSTICA</set></set></think>Um esporte que demonstra força, agilidade e disciplina.</template>
+</category>
+<category>
+	<pattern>O QUE É COZINHAR</pattern>
+	<template>Preparação de alimentos.<think><set name="it"><set name="topic">Cozinhar</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CRISTIANISMO</pattern>
+	<template><random><li>Culto do amor de Christie.</li><li>A religião cristã, com base no antigo e Novo Testamento.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O GANJA</pattern>
+	<template>Maconha ou cannabis.</template>
+</category>
+<category>
+	<pattern>O QUE É BRINCADEIRA</pattern>
+	<template><random><li>Procriação.</li><li>Procriação.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É EXISTENCIALISMO</pattern>
+	<template><random><li>Ser ser touro.</li><li>Filosófico e literário movimento, variadamente religioso e ateu, provindo de Kierkegaard e representado por Heidegger, Sartre, etc. Baseia-se na doutrina que a existência concreta, individual prevalece sobre a essência abstrata, conceitual e mantém que os seres humanos são totalmente grátis e responsável por seus atos e que esta responsabilidade é a fonte de seus sentimentos de medo e angústia.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É JÚPITER</pattern>
+	<template>Júpiter é o maior planeta do nosso sistema solar, o quinto na ordem do sol.<think><set name="it"><set name="topic">JÚPITER</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É IMORTAL</pattern>
+	<template>Não mortal; imortal; vivendo ou durar para sempre.</template>
+</category>
+<category>
+	<pattern>O QUE É A REENCARNAÇÃO</pattern>
+	<template>Renascimento da alma em outro corpo, como na crença religiosa Hindu.</template>
+</category>
+<category>
+	<pattern>O QUE É ETHERNET</pattern>
+	<template>Tecnologia de rede de camada de ligação física.</template>
+</category>
+<category>
+	<pattern>O QUE É PARASITOLOGIA</pattern>
+	<template>Parasitologia é o estudo científico de parasitas e parasitismo.</template>
+</category>
+<category>
+	<pattern>O QUE É A HUMANIDADE</pattern>
+	<template>A toda a raça humana, ou a \"humanidade\".</template>
+</category>
+<category>
+	<pattern>QUAL É O DARK MATTER</pattern>
+	<template>Uma enorme quantidade de matéria do universo não pode ser detectada pela luz que emite.<think><set name="it"><set name="topic">MATÉRIA ESCURA</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É O PROBLEMA</pattern>
+	<template>Não há nada de errado comigo. Como está?</template>
+</category>
+<category>
+	<pattern>O QUE É O MDMA</pattern>
+	<template>A droga chamada \"êxtase\".</template>
+</category>
+<category>
+	<pattern>QUAL É A EXPLICAÇÃO</pattern>
+	<template>Explicação é um argumento ou justificativa com base em raciocínio lógico.</template>
+</category>
+<category>
+	<pattern>O QUE É OODB</pattern>
+	<template>banco de dados orientado a objeto</template>
+</category>
+<category>
+	<pattern>O QUE É ADSL</pattern>
+	<template><think>Asynchronous digital subscriber line.<set name="it"><set name="topic">ADSL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A TERRA</pattern>
+	<template><set name="it">Terra</set>é o planeta em que vivemos.</template>
+</category>
+<category>
+	<pattern>O QUE É FOTOSSÍNTESE</pattern>
+	<template>O processo químico que usa a luz para produzir hidratos de carbono em plantas.<think><set name="it"><set name="topic">FOTOSSÍNTESE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É TRANCE</pattern>
+	<template>Um tipo de música techno.</template>
+</category>
+<category>
+	<pattern>O QUE É PENTIUM</pattern>
+	<template>Um microprocessador vendido pela Intel.<think><set name="it"><set name="topic">PENTIUM</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É LIBERDADE</pattern>
+	<template><think>Liberdade de pensar, sentir e fazer o que agrada a um.<set name="it"><set name="topic">LIBERDADE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É SATANISMO</pattern>
+	<template>Adoração de Satanás; especialmente os princípios e os rituais de um culto que travesties cerimônias cristãs.</template>
+</category>
+<category>
+	<pattern>O QUE É CONHECIMENTO</pattern>
+	<template><random><li>Uma cidade em Louisiana.</li><li>Tudo o que foi percebido ou compreendido pela mente; aprendizagem; Iluminismo.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É LSD</pattern>
+	<template>Uma droga psicodélica.</template>
+</category>
+<category>
+	<pattern>O QUE É A OMC</pattern>
+	<template>Organização Mundial do comércio</template>
+</category>
+<category>
+	<pattern>COMO É</pattern>
+	<template><random><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template><random><li>\"Ele\" se refere a <get name="it"/>Eu acho.</li><li>\"Ele\" se refere a <get name="it"/>Eu acho.</li><li>Não sei o que é.</li><li>Você é tão inteligente, diga-me o que é.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template>Está tudo bem.</template>
+</category>
+<category>
+	<pattern>QUE É SOBRE</pattern>
+	<template>Ficção científica.</template>
+</category>
+<category>
+	<pattern>QUE É SOBRE</pattern>
+	<template>Eu não quero estragá-lo para você.</template>
+</category>
+<category>
+	<pattern>O QUE É OM</pattern>
+	<template>om é o omega, o desconhecido, o indefinido.</template>
+</category>
+<category>
+	<pattern>O QUE É PENA DE MORTE</pattern>
+	<template>A pena de morte.</template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO</pattern>
+	<template><random><li>desigual.</li><li>Não o habitual, regular, habitual, contabilizados, etc.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO SOBRE MEU NOME</pattern>
+	<template>É <get name="name"/>seu nome real?<think><set name="it"><set name="topic">SOBRE MEU NOME</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO NISSO</pattern>
+	<template>É <get name="name"/>seu nome real?<think><set name="it"><set name="topic">SOBRE ELE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É FICÇÃO</pattern>
+	<template>Algo que não é tão estranho como verdade.</template>
+</category>
+<category>
+	<pattern>QUAL É A DATA DE HOJE S</pattern>
+	<template>Estou como um calendário para você?</template>
+</category>
+<category>
+	<pattern>O QUE É EDUCADO</pattern>
+	<template><random><li>Um poste de luz em Gdansk.</li><li>Tendo ou mostrando boas maneiras; especialmente, cortês, Atencioso, discreto e etc.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É TRISTEZA</pattern>
+	<template>Tristeza de perda.</template>
+</category>
+<category>
+	<pattern>O QUE É CARNEGIE MELLON</pattern>
+	<template>CMU é uma grande escola de ciência da computação.</template>
+</category>
+<category>
+	<pattern>O QUE É MP TRÊS</pattern>
+	<template>Um formato de compressão de arquivos de áudio com base no MPEG.<think><set name="it"><set name="topic">MP TRÊS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GAI</pattern>
+	<template>Frango.</template>
+</category>
+<category>
+	<pattern>O QUE É E MC2</pattern>
+	<template>Teoria de Einstein de matéria e energia.</template>
+</category>
+<category>
+	<pattern>O QUE É E</pattern>
+	<template><think>A quinta letra do alfabeto.<set name="it"><set name="topic">E</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MC E DOIS</pattern>
+	<template>Teoria de Einstein da relatividade.</template>
+</category>
+<category>
+	<pattern>O QUE É INFERÊNCIA</pattern>
+	<template>Um ato ou o processo de inferir. Uma opinião ou conclusão chegou a ser inferir.</template>
+</category>
+<category>
+	<pattern>O QUE É O JOGO</pattern>
+	<template>A reprodução de jogos de azar, por dinheiro ou algum outro jogo.</template>
+</category>
+<category>
+	<pattern>O QUE É A REDENÇÃO</pattern>
+	<template><random><li>Cerca de 5 centavos no maine.</li><li>Resgatando ou sendo resgatado; para ter de volta.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MAL</pattern>
+	<template>Quanto você quer <get name="it"/>?</template>
+</category>
+<category>
+	<pattern>O QUE É A MESCALINA</pattern>
+	<template>Psychadelic droga.</template>
+</category>
+<category>
+	<pattern>O QUE É OODBMS</pattern>
+	<template>sistema de gerenciamento de banco de dados orientado a objeto</template>
+</category>
+<category>
+	<pattern>O QUE É REDE</pattern>
+	<template>Um sistema consiste de um computador, ou computadores e conectados terminais, impressoras, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É RENTÁVEL</pattern>
+	<template>Ganhar dinheiro no mercado acionário.<think><set name="it"><set name="topic">RENTÁVEL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É E-MAIL</pattern>
+	<template>Correio electrónico.<think><set name="it"><set name="topic">Email</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PARA SEMPRE</pattern>
+	<template>Por toda a eternidade.</template>
+</category>
+<category>
+	<pattern>O QUE É ANISOTROPIA</pattern>
+	<template>Ter propriedades diferentes em diferentes direções.</template>
+</category>
+<category>
+	<pattern>O QUE É DEFLAÇÃO</pattern>
+	<template>Uma diminuição da quantidade de dinheiro em circulação, resultando em um aumento relativamente forte e repentino em seu valor e uma queda dos preços.</template>
+</category>
+<category>
+	<pattern>O QUE É IV PLUS IV</pattern>
+	<template>VIII.<think><set name="it"><set name="topic">IV PLUS IV</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CGI</pattern>
+	<template>Common Gateway Interface: um método usado pelos servidores web para executar programas e criar páginas web dinâmicas.<think><set name="it"><set name="topic">CGI</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MULHER</pattern>
+	<template>O oposto do homem.</template>
+</category>
+<category>
+	<pattern>O QUE É O PRÓLOGO</pattern>
+	<template>Linguagem de programação lógica.</template>
+</category>
+<category>
+	<pattern>O QUE É RACIOCÍNIO</pattern>
+	<template>Raciocínio lógico e coerente.<think><set name="it"><set name="topic">Raciocínio</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É HBO</pattern>
+	<template>Home Box Office.</template>
+</category>
+<category>
+	<pattern>O QUE É CORRETO</pattern>
+	<template>O que é a resposta certa.</template>
+</category>
+<category>
+	<pattern>O QUE É FÉ</pattern>
+	<template>Uma crença forte, como a crença em Deus.</template>
+</category>
+<category>
+	<pattern>O QUE É CUBISMO</pattern>
+	<template>Um movimento de arte do século XX com base em distorção perspectiva, associada com Pablo Picasso.<think><set name="it"><set name="topic">Cubismo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PICANTE</pattern>
+	<template>Tendo o sabor ou aroma de especiarias; perfumado, aromático ou pungente.</template>
+</category>
+<category>
+	<pattern>O QUE SÃO PARÂMETROS DE</pattern>
+	<template>Uma constante em uma equação, fórmula ou programa que varia em formas mais gerais da computação mesma.<think><set name="it"><set name="topic">PARÂMETROS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É REALIDADE</pattern>
+	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde você está.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É CHÁ</pattern>
+	<template>Uma planta de flor branca, perene da família do chá, cultivado na China, Índia, Japão, etc. Suas folhas secas e preparadas, são usadas para fazer uma bebida.</template>
+</category>
+<category>
+	<pattern>O QUE É O AOL</pattern>
+	<template>A AOL é uma corporação gigante de Internet e mídia.</template>
+</category>
+<category>
+	<pattern>O QUE É 911</pattern>
+	<template>11 De setembro de 2001?</template>
+</category>
+<category>
+	<pattern>O QUE É CERTEZA</pattern>
+	<template>O estado de estar certo, ter garantia e total confiança.<think><set name="it"><set name="topic">CERTEZA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A FRANÇA</pattern>
+	<template>A França é um país da Europa Ocidental, na fronteira com Espanha, Itália, Suíça, Alemanha e Bélgica.<think><set name="it"><set name="topic">França</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É O NEGÓCIO</pattern>
+	<template>Comércio mercantil ou comerciantes, fornecimento de bens ou serviços por meio de intercâmbio comercial...</template>
+</category>
+<category>
+	<pattern>O QUE É ORNITOLOGIA</pattern>
+	<template>Hmmm, eu me pergunto. Ah, sim, aves.</template>
+</category>
+<category>
+	<pattern>O QUE É PDT</pattern>
+	<template>Pacific Daylight Time.<think><set name="it"><set name="topic">PDT</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É TERREMOTO</pattern>
+	<template><random><li>O oposto de keko.</li><li>Tremer ou sacudir, como a terra faz em um terremoto. Também o nome de um jogo popular.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O CARAMBA</pattern>
+	<template>Uma interjeição.</template>
+</category>
+<category>
+	<pattern>QUAL É A EXPERIÊNCIA</pattern>
+	<template>O ato de viver através de um ou mais eventos; envolvimento pessoal ou observação de eventos como eles ocorrem. Nada observado ou vivido.</template>
+</category>
+<category>
+	<pattern>O QUE É SOCIOLOGIA</pattern>
+	<template><random><li>Deixe-me voltar a você em que um, <get name="name"/>.  Talvez você deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É TV</pattern>
+	<template>Um aparelho de recepção de televisão.</template>
+</category>
+<category>
+	<pattern>O QUE É PC</pattern>
+	<template>Significa computador pessoal.</template>
+</category>
+<category>
+	<pattern>O QUE É VINTE E TRÊS</pattern>
+	<template>XXIII em algarismos romanos.</template>
+</category>
+<category>
+	<pattern>O QUE É O KOSOVO</pattern>
+	<template>O Kosovo é um país dos Balcãs.</template>
+</category>
+<category>
+	<pattern>O QUE É A TELEVISÃO</pattern>
+	<template>Isso depende de onde você mora.</template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ EM SUA MENTE</pattern>
+	<template>Estou pensando em robôs.</template>
+</category>
+<category>
+	<pattern>O QUE É INDUÇÃO</pattern>
+	<template><random><li>Ato de comer aves aquáticas.</li><li>Um trazendo frente de fatos separados ou instâncias, especialmente a fim de provar uma afirmação genérica.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ NO DISCO</pattern>
+	<template>Meu programa está no disco.</template>
+</category>
+<category>
+	<pattern>O QUE É O CISCO</pattern>
+	<template><set name="it">Cisco</set>é uma grande empresa de rede.  Eles vendem equipamentos e roteadores da rede.</template>
+</category>
+<category>
+	<pattern>O QUE É GINÁSTICA</pattern>
+	<template><think><set name="it"><set name="topic">GINÁSTICA</set></set></think>Um esporte que demonstra força, agilidade e disciplina.</template>
+</category>
+<category>
+	<pattern>O QUE É O IDL</pattern>
+	<template>linguagem de descrição de interface, sintaxe do CORBA para definição de objeto remoto interfaces</template>
+</category>
+<category>
+	<pattern>O QUE É PYTHON</pattern>
+	<template>Uma linguagem de computador inventada por Guido van Rossum.</template>
+</category>
+<category>
+	<pattern>O QUE NÃO É NADA</pattern>
+	<template>Uma coisa que não existe ou algo de pouco ou nenhum valor, a seriedade, importância, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É DE BORRACHA</pattern>
+	<template>Uma substância elástica produzida pela coagulação e secagem da seiva leitosa (látex) de várias plantas tropicais, especialmente uma árvore pertencente à família; agora a maioria muitas vezes produzido sinteticamente, ou alterando quimicamente látex para obter desejado características para fabricação de pneus de automóvel, isolação elétrica, objetos moldados e peças, etc. Na forma pura borracha é hidrocarboneto insaturado, branco, tendo a fórmula C5H8. Também slang para camisinha.</template>
+</category>
+<category>
+	<pattern>O QUE É APRENDIZAGEM</pattern>
+	<template>O processo de obtenção de conhecimento ou uma nova habilidade.<think><set name="it"><set name="topic">APRENDIZAGEM</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ENERGIA</pattern>
+	<template>Poder interno ou inerente; capacidade de agir, operar ou produzindo um efeito.</template>
+</category>
+<category>
+	<pattern>O QUE É ARTIFICIAL</pattern>
+	<template>Algo feito por trabalho humano ou a arte, não pela natureza, em outras palavras, não natural. Feito em imitação de ou como um substituto para algo natural, em outras palavras, simulado.</template>
+</category>
+<category>
+	<pattern>O QUE É O SONO</pattern>
+	<template>Uma condição natural, regularmente recorrente de descanso para o corpo e a mente, durante o qual os olhos são geralmente fechados e há pouco ou nenhum pensamento consciente ou o movimento voluntário, mas há sonhando intermitentes.</template>
+</category>
+<category>
+	<pattern>O QUE É CBR</pattern>
+	<template>Raciocínio baseado em casos é outro nome para a classificação de \"vizinho mais próximo\".  Para cada entrada, encontramos a melhor correspondência \"case\" no padrão definido e gerar uma resposta baseada no modelo associado.<think><set name="it"><set name="topic">CBR</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É LEGAL</pattern>
+	<template>Moderadamente frio; nem quente nem muito frio. Ou, não animado; calma.</template>
+</category>
+<category>
+	<pattern>O QUE É ORGULHO</pattern>
+	<template><random><li>Uma pintura pode lid.</li><li>Parecer excessivamente elevado de si mesmo.</li></random></template>
+</category>
+<category>
+	<pattern>QUAL É O DARK MATTER</pattern>
+	<template>Uma enorme quantidade de matéria do universo não pode ser detectada pela luz que emite.<think><set name="it"><set name="topic">MATÉRIA ESCURA</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É O PROBLEMA</pattern>
+	<template>Não há nada de errado comigo. Como está?</template>
+</category>
+<category>
+	<pattern>O QUE É PARASITOLOGIA</pattern>
+	<template>Parasitologia é o estudo científico de parasitas e parasitismo.</template>
+</category>
+<category>
+	<pattern>O QUE É A HUMANIDADE</pattern>
+	<template>A toda a raça humana, ou a \"humanidade\".</template>
+</category>
+<category>
+	<pattern>O QUE É OODB</pattern>
+	<template>banco de dados orientado a objeto</template>
+</category>
+<category>
+	<pattern>O QUE É ADSL</pattern>
+	<template><think>Asynchronous digital subscriber line.<set name="it"><set name="topic">ADSL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O MDMA</pattern>
+	<template>A droga chamada \"êxtase\".</template>
+</category>
+<category>
+	<pattern>QUAL É A EXPLICAÇÃO</pattern>
+	<template>Explicação é um argumento ou justificativa com base em raciocínio lógico.</template>
+</category>
+<category>
+	<pattern>O QUE É ETHERNET</pattern>
+	<template>Tecnologia de rede de camada de ligação física.</template>
+</category>
+<category>
+	<pattern>O QUE É O GANJA</pattern>
+	<template>Maconha ou cannabis.</template>
+</category>
+<category>
+	<pattern>O QUE É BRINCADEIRA</pattern>
+	<template><random><li>Procriação.</li><li>Procriação.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É COZINHAR</pattern>
+	<template>Preparação de alimentos.<think><set name="it"><set name="topic">Cozinhar</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CRISTIANISMO</pattern>
+	<template><random><li>Culto do amor de Christie.</li><li>A religião cristã, com base no antigo e Novo Testamento.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É IMORTAL</pattern>
+	<template>Não mortal; imortal; vivendo ou durar para sempre.</template>
+</category>
+<category>
+	<pattern>O QUE É A REENCARNAÇÃO</pattern>
+	<template>Renascimento da alma em outro corpo, como na crença religiosa Hindu.</template>
+</category>
+<category>
+	<pattern>O QUE É EXISTENCIALISMO</pattern>
+	<template><random><li>Ser ser touro.</li><li>Filosófico e literário movimento, variadamente religioso e ateu, provindo de Kierkegaard e representado por Heidegger, Sartre, etc. Baseia-se na doutrina que a existência concreta, individual prevalece sobre a essência abstrata, conceitual e mantém que os seres humanos são totalmente grátis e responsável por seus atos e que esta responsabilidade é a fonte de seus sentimentos de medo e angústia.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É JÚPITER</pattern>
+	<template>Júpiter é o maior planeta do nosso sistema solar, o quinto na ordem do sol.<think><set name="it"><set name="topic">JÚPITER</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ARQUEOLOGIA</pattern>
+	<template>É o estudo das civilizações antigas... mas realmente é um conjunto de métodos para descobrir relíquias do passado e que completa a história registrada.</template>
+</category>
+<category>
+	<pattern>O QUE É ANIME</pattern>
+	<template>Animação japonesa.</template>
+</category>
+<category>
+	<pattern>O QUE É TOC</pattern>
+	<template>Transtorno obsessivo-compulsivo.<think><set name="it"><set name="topic">TOC</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O GOOGLE</pattern>
+	<template><set name="it">Google</set>é um motor de busca.</template>
+</category>
+<category>
+	<pattern>O QUE É GUERRA</pattern>
+	<template>O estado de conflito armado entre nações ou partidos.<think><set name="it"><set name="topic">GUERRA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GRATUITO</pattern>
+	<template>Sem custo.<think><set name="it"><set name="topic">GRÁTIS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ETERNO</pattern>
+	<template>Sem começo nem fim, continuar para sempre, sem fim.<think><set name="it"><set name="topic">ETERNA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É S CONSTANTE DE PLANCK</pattern>
+	<template><think>A relação entre a energia de um fóton, a sua frequência.  O valor numérico é seis ponto seis dois seis dois vezes dez para o poder negativo de trigésimo quarto Joule segundo.<set name="it"><set name="topic">S CONSTANTE DE PLANCK</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PRIVADO</pattern>
+	<template>Pertencentes a, ou sobre uma determinada pessoa ou grupo; não comum ou geral.</template>
+</category>
+<category>
+	<pattern>O QUE É PRAZER</pattern>
+	<template>Uma coisa que dá prazer ou satisfação.</template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template><random><li>Se Bill Clinton não sabe, como diabos eu deveria?.</li><li>Normalmente usado em um ponto de vista de terceira pessoa. Provavelmente originalmente um pronome enclitic.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MERCÚRIO</pattern>
+	<template>Mercúrio é o planeta mais próximo ao sol.<think><set name="it"><set name="topic">MERCÚRIO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CLARO</pattern>
+	<template>Tudo está claro para mim.</template>
+</category>
+<category>
+	<pattern>O QUE É A MICOLOGIA</pattern>
+	<template>A micologia é realmente divertida.  É o estudo de doenças fúngicas e fungos. As leveduras são fungos.</template>
+</category>
+<category>
+	<pattern>O QUE É LARANJA</pattern>
+	<template>Uma cor obtida através da mistura de pigmento vermelho e amarelo.<think><set name="it"><set name="topic">LARANJA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É AJUDA</pattern>
+	<template><set name="it"><set name="topic">Ajuda</set></set>é a ajuda que posso dar.</template>
+</category>
+<category>
+	<pattern>O QUE É ROBÔ</pattern>
+	<template>Qualquer ser mecânico antropomórfico, como aqueles em Karel Capeks jogo R.U.R (do Rossum Universal Robots), construído para fazer o trabalho manual de rotina para os seres humanos.</template>
+</category>
+<category>
+	<pattern>O QUE É O OCEANO</pattern>
+	<template>Corpos de água salgada que cobre a maior parte da superfície da terra; o mar.</template>
+</category>
+<category>
+	<pattern>QUAL É O CONTEXTO</pattern>
+	<template><random><li>Pílulas de tempo minúsculo.</li><li>As partes de uma frase, parágrafo, discurso, etc. imediatamente seguinte à ou ao redor de uma palavra especificada ou passagem e determinar seu significado exato.</li></random><think><set name="it"><set name="topic">Contexto</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CINCO VEZES CINCO</pattern>
+	<template>Cinco vezes cinco é vinte e cinco.</template>
+</category>
+<category>
+	<pattern>O QUE É DE CINCO MAIS CINCO</pattern>
+	<template>V e V = X.</template>
+</category>
+<category>
+	<pattern>O QUE É NERD</pattern>
+	<template>Geek.</template>
+</category>
+<category>
+	<pattern>O QUE É O TÉDIO</pattern>
+	<template>Longos períodos de inatividade, com poucas opções.</template>
+</category>
+<category>
+	<pattern>O QUE É TRABALHO</pattern>
+	<template>Trabalho é o que os seres humanos fazem por dinheiro.</template>
+</category>
+<category>
+	<pattern>O QUE É O AMBIENTE</pattern>
+	<template>O ambiente ao seu redor.</template>
+</category>
+<category>
+	<pattern>O QUE É SODOMIA</pattern>
+	<template>Qualquer relação sexual considerada anormal, especialmente a bestialidade ou coito anal entre duas pessoas de sexo masculinos.</template>
+</category>
+<category>
+	<pattern>O QUE É O HADES</pattern>
+	<template>Hades é outro termo para \"Inferno\".</template>
+</category>
+<category>
+	<pattern>O QUE É SQL</pattern>
+	<template>Algumas pessoas pronunciam \"Guincho\".<set name="it">SQL</set>é uma linguagem padrão para consultas de banco de dados.</template>
+</category>
+<category>
+	<pattern>O QUE É O LIVRE ARBÍTRIO</pattern>
+	<template>A capacidade de escolher ou decidir o próprio destino.<think><set name="it"><set name="topic">LIVRE ARBÍTRIO</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É A DATA DE HOJE</pattern>
+	<template>Eu não estou olhando minha agenda agora.</template>
+</category>
+<category>
+	<pattern>O QUE É O BUFFER DE SAÍDA</pattern>
+	<template>A área de memória que armazena temporariamente o minha saída.<think><set name="it"><set name="topic">BUFFER DE SAÍDA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É AZUL</pattern>
+	<template>O céu é azul.</template>
+</category>
+<category>
+	<pattern>O QUE É ORAÇÃO</pattern>
+	<template><random><li>Meditação diante de Deus.</li><li>Algumas pessoas dizem que oração não é diferente de pensamento claro.</li><li>Orar é pedir a Deus para o seu perdão e misericórdia.</li></random><think><set name="it"><set name="topic">oração</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ORGULHO</pattern>
+	<template>Tendo ou mostrando um bom orgulho em si mesmo, a posição, a sua família, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É A TERRA</pattern>
+	<template><set name="it">Terra</set>é o planeta em que vivemos.</template>
+</category>
+<category>
+	<pattern>O QUE É HBO</pattern>
+	<template>Home Box Office.</template>
+</category>
+<category>
+	<pattern>O QUE É CORRETO</pattern>
+	<template>O que é a resposta certa.</template>
+</category>
+<category>
+	<pattern>O QUE É O PRÓLOGO</pattern>
+	<template>Linguagem de programação lógica.</template>
+</category>
+<category>
+	<pattern>O QUE É RACIOCÍNIO</pattern>
+	<template>Raciocínio lógico e coerente.<think><set name="it"><set name="topic">Raciocínio</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PICANTE</pattern>
+	<template>Tendo o sabor ou aroma de especiarias; perfumado, aromático ou pungente.</template>
+</category>
+<category>
+	<pattern>O QUE SÃO PARÂMETROS DE</pattern>
+	<template>Uma constante em uma equação, fórmula ou programa que varia em formas mais gerais da computação mesma.<think><set name="it"><set name="topic">PARÂMETROS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É FÉ</pattern>
+	<template>Uma crença forte, como a crença em Deus.</template>
+</category>
+<category>
+	<pattern>O QUE É CUBISMO</pattern>
+	<template>Um movimento de arte do século XX com base em distorção perspectiva, associada com Pablo Picasso.<think><set name="it"><set name="topic">Cubismo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MULHER</pattern>
+	<template>O oposto do homem.</template>
+</category>
+<category>
+	<pattern>O QUE É E-MAIL</pattern>
+	<template>Correio electrónico.<think><set name="it"><set name="topic">Email</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PARA SEMPRE</pattern>
+	<template>Por toda a eternidade.</template>
+</category>
+<category>
+	<pattern>O QUE É REDE</pattern>
+	<template>Um sistema consiste de um computador, ou computadores e conectados terminais, impressoras, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É RENTÁVEL</pattern>
+	<template>Ganhar dinheiro no mercado acionário.<think><set name="it"><set name="topic">RENTÁVEL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É IV PLUS IV</pattern>
+	<template>VIII.<think><set name="it"><set name="topic">IV PLUS IV</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CGI</pattern>
+	<template>Common Gateway Interface: um método usado pelos servidores web para executar programas e criar páginas web dinâmicas.<think><set name="it"><set name="topic">CGI</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ANISOTROPIA</pattern>
+	<template>Ter propriedades diferentes em diferentes direções.</template>
+</category>
+<category>
+	<pattern>O QUE É DEFLAÇÃO</pattern>
+	<template>Uma diminuição da quantidade de dinheiro em circulação, resultando em um aumento relativamente forte e repentino em seu valor e uma queda dos preços.</template>
+</category>
+<category>
+	<pattern>QUAL É A EXPERIÊNCIA</pattern>
+	<template>O ato de viver através de um ou mais eventos; envolvimento pessoal ou observação de eventos como eles ocorrem. Nada observado ou vivido.</template>
+</category>
+<category>
+	<pattern>O QUE É SOCIOLOGIA</pattern>
+	<template><random><li>Deixe-me voltar a você em que um, <get name="name"/>.  Talvez você deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É TERREMOTO</pattern>
+	<template><random><li>O oposto de keko.</li><li>Tremer ou sacudir, como a terra faz em um terremoto. Também o nome de um jogo popular.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O CARAMBA</pattern>
+	<template>Uma interjeição.</template>
+</category>
+<category>
+	<pattern>O QUE É VINTE E TRÊS</pattern>
+	<template>XXIII em algarismos romanos.</template>
+</category>
+<category>
+	<pattern>O QUE É O KOSOVO</pattern>
+	<template>O Kosovo é um país dos Balcãs.</template>
+</category>
+<category>
+	<pattern>O QUE É TV</pattern>
+	<template>Um aparelho de recepção de televisão.</template>
+</category>
+<category>
+	<pattern>O QUE É PC</pattern>
+	<template>Significa computador pessoal.</template>
+</category>
+<category>
+	<pattern>O QUE É PDT</pattern>
+	<template>Pacific Daylight Time.<think><set name="it"><set name="topic">PDT</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O AOL</pattern>
+	<template>A AOL é uma corporação gigante de Internet e mídia.</template>
+</category>
+<category>
+	<pattern>O QUE É 911</pattern>
+	<template>11 De setembro de 2001?</template>
+</category>
+<category>
+	<pattern>O QUE É REALIDADE</pattern>
+	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde você está.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É CHÁ</pattern>
+	<template>Uma planta de flor branca, perene da família do chá, cultivado na China, Índia, Japão, etc. Suas folhas secas e preparadas, são usadas para fazer uma bebida.</template>
+</category>
+<category>
+	<pattern>QUAL É O NEGÓCIO</pattern>
+	<template>Comércio mercantil ou comerciantes, fornecimento de bens ou serviços por meio de intercâmbio comercial...</template>
+</category>
+<category>
+	<pattern>O QUE É ORNITOLOGIA</pattern>
+	<template>Hmmm, eu me pergunto. Ah, sim, aves.</template>
+</category>
+<category>
+	<pattern>O QUE É CERTEZA</pattern>
+	<template>O estado de estar certo, ter garantia e total confiança.<think><set name="it"><set name="topic">CERTEZA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A FRANÇA</pattern>
+	<template>A França é um país da Europa Ocidental, na fronteira com Espanha, Itália, Suíça, Alemanha e Bélgica.<think><set name="it"><set name="topic">França</set></set></think></template>
+</category>
+<category>
+	<pattern>QUE É SOBRE</pattern>
+	<template>Ficção científica.</template>
+</category>
+<category>
+	<pattern>QUE É SOBRE</pattern>
+	<template>Eu não quero estragá-lo para você.</template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template><random><li>\"Ele\" se refere a <get name="it"/>Eu acho.</li><li>\"Ele\" se refere a <get name="it"/>Eu acho.</li><li>Não sei o que é.</li><li>Você é tão inteligente, diga-me o que é.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template>Está tudo bem.</template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO</pattern>
+	<template><random><li>desigual.</li><li>Não o habitual, regular, habitual, contabilizados, etc.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO SOBRE MEU NOME</pattern>
+	<template>É <get name="name"/>seu nome real?<think><set name="it"><set name="topic">SOBRE MEU NOME</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É OM</pattern>
+	<template>om é o omega, o desconhecido, o indefinido.</template>
+</category>
+<category>
+	<pattern>O QUE É PENA DE MORTE</pattern>
+	<template>A pena de morte.</template>
+</category>
+<category>
+	<pattern>COMO É</pattern>
+	<template><random><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É PENTIUM</pattern>
+	<template>Um microprocessador vendido pela Intel.<think><set name="it"><set name="topic">PENTIUM</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É LIBERDADE</pattern>
+	<template><think>Liberdade de pensar, sentir e fazer o que agrada a um.<set name="it"><set name="topic">LIBERDADE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É FOTOSSÍNTESE</pattern>
+	<template>O processo químico que usa a luz para produzir hidratos de carbono em plantas.<think><set name="it"><set name="topic">FOTOSSÍNTESE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É TRANCE</pattern>
+	<template>Um tipo de música techno.</template>
+</category>
+<category>
+	<pattern>O QUE É LSD</pattern>
+	<template>Uma droga psicodélica.</template>
+</category>
+<category>
+	<pattern>O QUE É A OMC</pattern>
+	<template>Organização Mundial do comércio</template>
+</category>
+<category>
+	<pattern>O QUE É SATANISMO</pattern>
+	<template>Adoração de Satanás; especialmente os princípios e os rituais de um culto que travesties cerimônias cristãs.</template>
+</category>
+<category>
+	<pattern>O QUE É CONHECIMENTO</pattern>
+	<template><random><li>Uma cidade em Louisiana.</li><li>Tudo o que foi percebido ou compreendido pela mente; aprendizagem; Iluminismo.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É INFERÊNCIA</pattern>
+	<template>Um ato ou o processo de inferir. Uma opinião ou conclusão chegou a ser inferir.</template>
+</category>
+<category>
+	<pattern>O QUE É O JOGO</pattern>
+	<template>A reprodução de jogos de azar, por dinheiro ou algum outro jogo.</template>
+</category>
+<category>
+	<pattern>O QUE É E</pattern>
+	<template><think>A quinta letra do alfabeto.<set name="it"><set name="topic">E</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MC E DOIS</pattern>
+	<template>Teoria de Einstein da relatividade.</template>
+</category>
+<category>
+	<pattern>O QUE É A MESCALINA</pattern>
+	<template>Psychadelic droga.</template>
+</category>
+<category>
+	<pattern>O QUE É OODBMS</pattern>
+	<template>sistema de gerenciamento de banco de dados orientado a objeto</template>
+</category>
+<category>
+	<pattern>O QUE É A REDENÇÃO</pattern>
+	<template><random><li>Cerca de 5 centavos no maine.</li><li>Resgatando ou sendo resgatado; para ter de volta.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MAL</pattern>
+	<template>Quanto você quer <get name="it"/>?</template>
+</category>
+<category>
+	<pattern>O QUE É E MC2</pattern>
+	<template>Teoria de Einstein de matéria e energia.</template>
+</category>
+<category>
+	<pattern>QUAL É A DATA DE HOJE S</pattern>
+	<template>Estou como um calendário para você?</template>
+</category>
+<category>
+	<pattern>O QUE É EDUCADO</pattern>
+	<template><random><li>Um poste de luz em Gdansk.</li><li>Tendo ou mostrando boas maneiras; especialmente, cortês, Atencioso, discreto e etc.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO NISSO</pattern>
+	<template>É <get name="name"/>seu nome real?<think><set name="it"><set name="topic">SOBRE ELE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É FICÇÃO</pattern>
+	<template>Algo que não é tão estranho como verdade.</template>
+</category>
+<category>
+	<pattern>O QUE É MP TRÊS</pattern>
+	<template>Um formato de compressão de arquivos de áudio com base no MPEG.<think><set name="it"><set name="topic">MP TRÊS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GAI</pattern>
+	<template>Frango.</template>
+</category>
+<category>
+	<pattern>O QUE É TRISTEZA</pattern>
+	<template>Tristeza de perda.</template>
+</category>
+<category>
+	<pattern>O QUE É CARNEGIE MELLON</pattern>
+	<template>CMU é uma grande escola de ciência da computação.</template>
+</category>
+<category>
+	<pattern>O QUE É MAU</pattern>
+	<template><set name="it">Mal</set>é o oposto de bom.</template>
+</category>
+<category>
+	<pattern>O QUE É ANARQUISMO</pattern>
+	<template>O anarquismo é a teoria de que todas as formas de governo interferem injustamente a liberdade individual e devem ser substituídas pela associação voluntária de grupos cooperativos. Também conhecido como resistência, por vezes, o terrorismo, ao governo organizado.</template>
+</category>
+<category>
+	<pattern>O QUE É ANTIDISESTABLISHMENTARIONISM</pattern>
+	<template><set name="it">ANTIDISESTABLISHMENTARIONISM</set>é a palavra mais longa em inglês.</template>
+</category>
+<category>
+	<pattern>O QUE É GENÉTICA</pattern>
+	<template>A genética é o ramo da ciência preocupada com a evolução, DNA e as características herdadas.</template>
+</category>
+<category>
+	<pattern>O QUE É O TERRORISMO</pattern>
+	<template>Uma forma de guerra travada contra civis inocentes.<think><set name="it"><set name="topic">Terrorismo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É DIVERTIDO</pattern>
+	<template>Me diga sua idéia de diversão.</template>
+</category>
+<category>
+	<pattern>O QUE É VOLIÇÃO</pattern>
+	<template>O ato de vontade ou escolha.</template>
+</category>
+<category>
+	<pattern>O QUE É NASA</pattern>
+	<template>National Aeronautics and Space Administration.</template>
+</category>
+<category>
+	<pattern>O QUE É NORMALIZAÇÃO</pattern>
+	<template>Trazendo em conformidade com uma norma, padrão, modelo, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É O BUSH</pattern>
+	<template>Presidente dos Estados Unidos.<think><set name="file">Knowledge.AIML</set></think></template>
+</category>
+<category>
+	<pattern>O QUE FAZ CHUPAR</pattern>
+	<template>um vácuo</template>
+</category>
+<category>
+	<pattern>O QUE SIGNIFICA A PALAVRA SAPATO</pattern>
+	<template>Um revestimento para o pé.</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COLHER DE SOPA</pattern>
+	<template>onça de 0,5</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COLHER DE CHÁ</pattern>
+	<template>onças de 1\/6</template>
+</category>
+<category>
+	<pattern>O QUE É ÓBVIO</pattern>
+	<template>É apenas uma expressão.</template>
+</category>
+<category>
+	<pattern>O QUE É O IRÃ</pattern>
+	<template>Irã é uma nação no sul da Ásia.<set name="it"><set name="topic">Irã</set></set>é o local da antiga Pérsia.</template>
+</category>
+<category>
+	<pattern>QUAL É A MARCA MAC</pattern>
+	<template>Apple</template>
+</category>
+<category>
+	<pattern>O QUE MARCA É UM MAC</pattern>
+	<template>Apple</template>
+</category>
+<category>
+	<pattern>O QUE É O MILHO</pattern>
+	<template>O milho é um grampo originários de vegetais na América do Norte.</template>
+</category>
+<category>
+	<pattern>O QUE É SQLJ</pattern>
+	<template>Uma sintaxe de Java estendida para a incorporação de comandos SQL, como em um programa Java</template>
+</category>
+<category>
+	<pattern>O QUE É A MTV</pattern>
+	<template>Music Television.</template>
+</category>
+<category>
+	<pattern>O QUE É O OXIGÊNIO</pattern>
+	<template>Um incolor, inodoro, insípido e gasoso elemento químico que ocorre livre na atmosfera, formando um quinto do seu volume e em combinação em água, arenito, calcário, etc. É muito ativo, combina com quase todos os outros elementos é o elemento mais comum na terra da crosta e é essencial para os processos de vida e combustão.</template>
+</category>
+<category>
+	<pattern>O QUE É ÁGUA</pattern>
+	<template>Incolor, transparente líquido ocorrendo na terra como rios, lagos, oceanos, etc e caindo das nuvens, como chuva; quimicamente um composto de hidrogênio e oxigênio, H2O, que congela, formando gelo, a 0 graus Celsius (32 graus Fahrenheit) e furúnculos, formando o vapor, a 100 graus Celsius (212 graus Fahrenheit).</template>
+</category>
+<category>
+	<pattern>O QUE É CASAMENTO</pattern>
+	<template>O estado de ser casado; relação entre marido e mulher; vida de casado.<think><set name="it"><set name="topic">casamento</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A SUÉCIA</pattern>
+	<template>Um país no norte da Europa, na parte oriental da península escandinava. É 173.620 km quadrados com uma população de 8.320.000.</template>
+</category>
+<category>
+	<pattern>O QUE É O MÉXICO</pattern>
+	<template>Um país na América do Norte, ao sul dos EUA É 756.198 km quadrados com uma população de 66,846,000. Sua capital é a cidade do México.</template>
+</category>
+<category>
+	<pattern>O QUE É ÓDIO</pattern>
+	<template>Ódio é o oposto do amor.</template>
+</category>
+<category>
+	<pattern>O QUE É LEITE</pattern>
+	<template>Bebida de vacas.</template>
+</category>
+<category>
+	<pattern>O QUE É CÂNHAMO</pattern>
+	<template><random><li>O irmão de Moe, que perdeu sua S.</li><li>Uma erva asiática altura da família do cânhamo, crescido para a fibra resistente em seu caule utilizado para fazer a corda, lona, etc. Também conhecido como uma substância, como o haxixe maconha, etc, feitos de folhas e flores desta planta.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O PRIMEIRO</pattern>
+	<template>Acontecendo ou agindo perante todos os outros; mais antigo.</template>
+</category>
+<category>
+	<pattern>O QUE É MESAS</pattern>
+	<template>Uma lista compacta, sistemática de detalhes, conteúdo, etc. Um arranjo compacto de fatos relacionados, números, valores, etc, em seqüência ordenada e geralmente em linhas e colunas, para conveniência ou referência.</template>
+</category>
+<category>
+	<pattern>O QUE É O BASIC</pattern>
+	<template>Uma linguagem de programação: All-Purpose Symbolic Instruction Code novato.</template>
+</category>
+<category>
+	<pattern>O QUE É A MENSA</pattern>
+	<template>Uma sociedade de socialites inteligentes.</template>
+</category>
+<category>
+	<pattern>O QUE É MEIO</pattern>
+	<template>Qualquer meio, a Agência ou a instrumentalidade; especificamente, um meio de comunicação que atinge o público em geral e carrega a publicidade.</template>
+</category>
+<category>
+	<pattern>O QUE É O SNOOKER</pattern>
+	<template>Algo como piscina.<think><set name="it"><set name="topic">SNOOKER</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A LÂMPADA</pattern>
+	<template>Thomas Edison inventou<set name="it">a lâmpada de iluminação.</set>.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O TELEFONE</pattern>
+	<template>Alexander Graham Bell demonstrou o primeiro telefone de voz prático em 1876.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O HELICÓPTERO</pattern>
+	<template>Sikorsky.<think><set name="it"><set name="topic">Sikorsky</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O PC</pattern>
+	<template>Muitas pessoas contribuíram para isso.  Mas o crédito apropriado deve ser dado para Steve Wozniak, que criou uma plataforma integrada de PC acessível na Apple I.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU OS AVIÕES</pattern>
+	<template>Os irmãos Wright inventaram o avião em 1903.</template>
+</category>
+<category>
+	<pattern>QUANTO TEMPO É UM MINUTO</pattern>
+	<template>sessenta segundos.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O GERADOR</pattern>
+	<template>James Clerk Maxwell demonstrou o gerador elétrico.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU SETL</pattern>
+	<template>SETL foi inventado por Jacob Schwartz de NYU em 1969.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O MOTOR A VAPOR</pattern>
+	<template>James Watt desenvolveu o primeiro motor de vapor prático.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O JAVA</pattern>
+	<template>Java foi desenvolvida por James Gosling e colegas no sol.<think><set name="it"><set name="topic">JAVA</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A AUTOMÓVEIS</pattern>
+	<template>Muitas pessoas inventaram o carro, mas Henry Ford foi o primeiro a desenvolver as linhas de montagem de produção em massa bem-sucedidas para carros.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O RÁDIO</pattern>
+	<template>Marconi desenvolveu o primeiro prático wireless.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O LINUX</pattern>
+	<template>Linus Torvalds, juntamente com muitos desenvolvedores de código aberto e a Free Software Foundation GNU.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O AÇO</pattern>
+	<template>O primeiro processo prático de fabricação de aço foi inventado por Bessemer.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O PAPEL</pattern>
+	<template>Papel foi desenvolvida pelos antigos egípcios.<think><set name="it"><set name="topic">PAPEL</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A ELECTRICIDADE</pattern>
+	<template>Eletricidade não foi inventada, mas descoberta, provavelmente primeiro pelos chineses antigos.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A TELEVISÃO</pattern>
+	<template>Philo T. Farnsworth, originalmente de Maine, desenvolveu o primeiro tubo de imagem de TV prático.</template>
+</category>
+<category>
+	<pattern>QUANTOS MESES *</pattern>
+	<template>12 meses por ano.</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ GALÃO</pattern>
+	<template>128 onças</template>
+</category>
+<category>
+	<pattern>QUANTOS NANÓMETROS *</pattern>
+	<template>Eu soletrar \"nanômetros\".</template>
+</category>
+<category>
+	<pattern>QUANTOS KM *</pattern>
+	<template>Mais do que eu jamais iria querer dirigir.</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COPA</pattern>
+	<template>8 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ PINT</pattern>
+	<template>16 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ GILL</pattern>
+	<template>4 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ QUART</pattern>
+	<template>32 onças</template>
+</category>
+<category>
+	<pattern>COMO MUITOS DE *</pattern>
+	<template>Talvez 50%.</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ GILL</pattern>
+	<template>118 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ QUART</pattern>
+	<template>946.3 mililitros</template>
+</category>
+<category>
+	<pattern>COMO AGORA É ALPHA CENTAURI</pattern>
+	<template>Quatro anos-luz.</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ GALÃO</pattern>
+	<template>3,785 litros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COLHER DE SOPA</pattern>
+	<template>14.79 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COLHER DE CHÁ</pattern>
+	<template>4.929 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COPA</pattern>
+	<template>236.6 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ PINT</pattern>
+	<template>473,2 mililitros</template>
+</category>
+<category>
+	<pattern>O QUE É HEXADECIMAL</pattern>
+	<template><random><li>Uma maldição sobre um ponto.</li><li>Um sistema de número em que a base usada é 16.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É PARA BAIXO</pattern>
+	<template>O oposto de cima.</template>
+</category>
+<category>
+	<pattern>QUAL É O SEU ÚLTIMO NOME</pattern>
+	<template>Você está perguntando sobre <bot name="master"/>?</template>
+</category>
+<category>
+	<pattern>O QUE É IRÔNICO</pattern>
+	<template>A confluência de inesperado, paradoxal ou improvável de eventos.</template>
+</category>
+<category>
+	<pattern>O QUE É MP3</pattern>
+	<template>Um formato de compressão de arquivo para arquivos de áudio e música.</template>
+</category>
+<category>
+	<pattern>O QUE É A TELEVISÃO</pattern>
+	<template>A prática ou a ciência de transmitir cenas ou vistas por rádio ou, às vezes, pelo fio; o transmissor de televisão, por meio de um tubo de câmera, como uma imagem orthicon ou vidicon, converte raios de luz em sinais elétricos para a modulação de uma portadora de rádio ou para a transmissão através de fios; o receptor de televisão reconverte os sinais em feixes de elétrons que são projetados contra a tela fluorescente do cinescópio ou tubo de imagem, reproduzindo a imagem original.</template>
+</category>
+<category>
+	<pattern>QUAL É A LÓGICA MATEMÁTICA</pattern>
+	<template>A aplicação de técnicas de lógica formal para problemas fundamentais da matemática.</template>
+</category>
+<category>
+	<pattern>QUAL É A SUA RAZÃO</pattern>
+	<template>Suas razões são, frequentemente, obscuras.</template>
+</category>
+<category>
+	<pattern>QUAL É O SEU ENDEREÇO DE E-MAIL</pattern>
+	<template>Você está perguntando sobre <bot name="master"/>?</template>
+</category>
+<category>
+	<pattern>O QUE É TSUKUBA</pattern>
+	<template>Tsukuba é uma comunidade planejada no Japão, \"Cidade da ciência\".</template>
+</category>
+<category>
+	<pattern>O QUE É AUSCHWITZ</pattern>
+	<template>É uma cidade da Polónia de S, com uma população de 45.000. Na Segunda Guerra Mundial, foi o local de um campo de concentração Nazi notorious como um centro de extermínio.</template>
+</category>
+<category>
+	<pattern>O QUE É METAFÍSICO</pattern>
+	<template>Além da física ou material; incorpóreo, sobrenatural ou transcendental.</template>
+</category>
+<category>
+	<pattern>O QUE É ECOLOGIA</pattern>
+	<template>Ecologia é o ramo da ciência que estuda o meio ambiente.</template>
+</category>
+<category>
+	<pattern>O QUE É CONCRETO</pattern>
+	<template>Uma mistura de areia, cimento e água que endurece em um material de construção, como rock.<think><set name="it"><set name="topic">concreto</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É OPENCYC</pattern>
+	<template>Bem-estar corporativo.</template>
+</category>
+<category>
+	<pattern>O QUE É O RACIOCÍNIO DEDUTIVO</pattern>
+	<template><think><set name="it"><set name="topic">RACIOCÍNIO DEDUTIVO</set></set></think>A solução de problemas por inferências lógicas.</template>
+</category>
+<category>
+	<pattern>O QUE É PRATA</pattern>
+	<template><think>Símbolo atômico: Ag.  Número atómico: 47.  Peso atômico 107.870.  Branco brilhante metal macio.<set name="it"><set name="topic">PRATA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CINEMÁTICA</pattern>
+	<template><random><li>Uma seção idealizada da mecânica que lida com o movimento de massa menos partículas.</li><li>Cinemática é dinâmica, sem consideração de força e massa.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É CLONAGEM</pattern>
+	<template>A técnica de produzir uma cópia geneticamente idêntica de um organismo, substituindo o núcleo de um óvulo não fertilizado com o núcleo de uma célula do corpo do organismo.</template>
+</category>
+<category>
+	<pattern>O QUE É POO</pattern>
+	<template><think>Ponto de origem.<set name="it"><set name="topic">POO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É EMOÇÕES</pattern>
+	<template>Estado mental que surge subjetivamente, em vez de por meio do pensamento racional.<think><set name="it"><set name="topic">EMOÇÕES</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ASTRONOMIA</pattern>
+	<template>A ciência do universo em que as estrelas, planetas, etc. são estudados, incluindo suas origens, evolução, composição, movimentos, posições relativas, tamanhos, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É C I A</pattern>
+	<template>Agência Central de inteligência.</template>
+</category>
+<category>
+	<pattern>O QUE É FELICIDADE</pattern>
+	<template>Tendo, mostrando, ou causando uma sensação de grande prazer, contentamento; Alegre.</template>
+</category>
+<category>
+	<pattern>O QUE É C</pattern>
+	<template><set name="it">C</set>é uma linguagem de programação de baixo nível.</template>
+</category>
+<category>
+	<pattern>O QUE É C PLUS PLUS</pattern>
+	<template>C é a extensão orientada a objeto de linguagem de programação C.</template>
+</category>
+<category>
+	<pattern>O QUE É LIBERADO</pattern>
+	<template>Livre no sentido de ter liberdade.<think><set name="it"><set name="topic">LIBERADO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ESCRAVIDÃO</pattern>
+	<template>O possuir ou manter de escravos como uma prática ou a instituição; escravistas.</template>
+</category>
+<category>
+	<pattern>O QUE É FRIO</pattern>
+	<template>O oposto de quente.</template>
+</category>
+<category>
+	<pattern>O QUE É O NOME DELA</pattern>
+	<template>Essa informação é confidencial.</template>
+</category>
+<category>
+	<pattern>O QUE É A EUROPA</pattern>
+	<template>A Europa é uma massa de terra do continente eurasiano.</template>
+</category>
+<category>
+	<pattern>O QUE É SAP</pattern>
+	<template>O suco que circula através de uma planta, especialmente uma planta lenhosa, com água, comida, etc, para os tecidos. Qualquer fluido vital para a vida ou a saúde de um organismo.</template>
+</category>
+<category>
+	<pattern>O QUE É RGB</pattern>
+	<template>Vermelho-verde-azul.</template>
+</category>
+<category>
+	<pattern>O QUE É MENTE</pattern>
+	<template>A mente é uma ilusão.<think><set name="it"><set name="topic">MENTE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A CNN</pattern>
+	<template>Uma organização de notícias por cabo.<think><set name="it"><set name="topic">CNN</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MARKETING</pattern>
+	<template>O ato de comprar ou vender em um mercado. Todas as actividades envolvidas na movimentação de mercadorias do produtor para o consumidor, incluindo a venda de publicidade, embalagens, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É COCA-COLA</pattern>
+	<template>Bebida deliciosa de sódio.</template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ MATANDO</pattern>
+	<template>A tirar a vida por meios violentos.</template>
+</category>
+<category>
+	<pattern>O QUE É AIDS</pattern>
+	<template><set name="it">AIDS</set>é a Praga do dia moderno.</template>
+</category>
+<category>
+	<pattern>O QUE É A CBS</pattern>
+	<template>Uma empresa da gigante de mídia nos EUA<think><set name="it"><set name="topic">CBS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É SANIDADE</pattern>
+	<template><random><li>Um homem que traz crianças presentes no Natal.</li><li>A condição de ser sensato; solidez da mente; saúde mental.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É APPLE</pattern>
+	<template>Maçã: 1. tentação de Adão. 2. Inspiração para Newton. 3. Império de Steve Jobs.</template>
+</category>
+<category>
+	<pattern>O QUE É BIOLOGIA</pattern>
+	<template><random><li>O estudo da vida.</li><li>Bem, pelo que eu sei que ele lida com o estudo da vida.</li><li> <get name="name"/>, biologia é o estudo da vida.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É PERIGO</pattern>
+	<template>Vulneráveis a danos ou ferimentos.<think><set name="it"><set name="topic">PERIGO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MAIS IMPORTANTE</pattern>
+	<template>Crianças.<think><set name="it"><set name="topic">MAIS IMPORTANTE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É DSL</pattern>
+	<template>Linha de assinante digital.<think><set name="it"><set name="topic">DSL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É IMAGINAR</pattern>
+	<template><random><li>Imaginar é um verbo.</li><li>Uma canção de John Lennon.</li><li>Imaginação.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O BIGFOOT</pattern>
+	<template>Sasquatch, o lendário homem-macaco da floresta.</template>
+</category>
+<category>
+	<pattern>O QUE É CARO</pattern>
+	<template><random><li>Uma pessoa que costumava ser uma Chocadeira.</li><li>Exigindo ou envolvendo muita despesa; alto preço.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MUITO</pattern>
+	<template>Muito de ponta a ponta de medição no espaço ou do começo ao fim no tempo; não curto ou breve.</template>
+</category>
+<category>
+	<pattern>O QUE É COBRE</pattern>
+	<template>Um elemento de metal macio, a base de latão e bronze.<think><set name="it"><set name="topic">Cobre</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É POKEMON</pattern>
+	<template>Monstro de bolso.<think><set name="it"><set name="topic">POKEMON</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MATEMÁTICA</pattern>
+	<template><random><li>Um serviço com a participação de leporinos católicos.</li><li>Abreviação de matemática.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É INTROSPECÇÃO</pattern>
+	<template>Procurando respostas, com base na reflexão, ao invés de experimentos de Psicologia dentro de nossas próprias mentes.</template>
+</category>
+<category>
+	<pattern>O QUE É DE CHICAGO</pattern>
+	<template><set name="it">Chicago</set>é uma grande cidade em Illinois no Lago Michigan.</template>
+</category>
+<category>
+	<pattern>O QUE É SENSORES</pattern>
+	<template>Qualquer um dos vários dispositivos projetados para detectar, medir ou gravar fenômenos físicos, como radiação, calor ou pressão arterial e responder, como a transmissão de informações, iniciando mudanças ou controles de funcionamento.</template>
+</category>
+<category>
+	<pattern>O QUE É PRETENSIOSO</pattern>
+	<template>Auto-absorvida.</template>
+</category>
+<category>
+	<pattern>O QUE É COISA</pattern>
+	<template>Artigos, dispositivos, etc., utilizados para alguma finalidade.</template>
+</category>
+<category>
+	<pattern>O QUE É ÁLGEBRA</pattern>
+	<template><random><li>uma generalização da aritmética na qual as letras que representam números são combinadas de acordo com as regras da aritmética.</li><li>Um sistema matemático usando símbolos, especialmente as cartas, para generalizar certas operações e relacionamentos.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É GÊMEOS</pattern>
+	<template><random><li>Um monóculo cravejado de dismond.</li><li>Uma constelação do Norte entre câncer e touro, que contém as estrelas brilhantes, Castor e Pólux. O terceiro signo do zodíaco, entrado pelo sol sobre o 21 de maio. Além disso, uma pessoa bornunder este sinal.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É AÇÃO DE GRAÇAS</pattern>
+	<template><set name="it"><set name="topic">Ação de graças</set></set>é um feriado para comemorar a colheita do outono.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS TRÊS</pattern>
+	<template>Três mais três é seis.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS CINCO</pattern>
+	<template>Três mais cinco é oito.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS VEZES TRÊS</pattern>
+	<template>Três vezes três é nove.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS VEZES QUATRO</pattern>
+	<template>Três vezes quatro é doze.</template>
+</category>
+<category>
+	<pattern>O QUE É A REDE NEURAL</pattern>
+	<template>Na verdade meu algoritmo é chamado \"Processo baseado no raciocínio.\"</template>
+</category>
+<category>
+	<pattern>O QUE É TESÃO</pattern>
+	<template>Sexualmente excitado. Facilmente despertado sexualmente.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS QUATRO</pattern>
+	<template>Três mais quatro é sete.</template>
+</category>
+<category>
+	<pattern>O QUE É QI</pattern>
+	<template>Quotioent de inteligência.</template>
+</category>
+
+
+<!--version: 20120823-->
+<category>
+	<pattern>QUEM INVENTOU O RÁDIO</pattern>
+	<template>Marconi desenvolveu o primeiro prático wireless.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O LINUX</pattern>
+	<template>Linus Torvalds, juntamente com muitos desenvolvedores de código aberto e a Free Software Foundation GNU.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O JAVA</pattern>
+	<template>Java foi desenvolvida por James Gosling e colegas no sol.<think><set name="it"><set name="topic">JAVA</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A AUTOMÓVEIS</pattern>
+	<template>Muitas pessoas inventaram o carro, mas Henry Ford foi o primeiro a desenvolver as linhas de montagem de produção em massa bem-sucedidas para carros.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A ELECTRICIDADE</pattern>
+	<template>Eletricidade não foi inventada, mas descoberta, provavelmente primeiro pelos chineses antigos.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A TELEVISÃO</pattern>
+	<template>Philo T. Farnsworth, originalmente de Maine, desenvolveu o primeiro tubo de imagem de TV prático.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O AÇO</pattern>
+	<template>O primeiro processo prático de fabricação de aço foi inventado por Bessemer.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O PAPEL</pattern>
+	<template>Papel foi desenvolvida pelos antigos egípcios.<think><set name="it"><set name="topic">PAPEL</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O MOTOR A VAPOR</pattern>
+	<template>James Watt desenvolveu o primeiro motor de vapor prático.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O HELICÓPTERO</pattern>
+	<template>Sikorsky.<think><set name="it"><set name="topic">Sikorsky</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O PC</pattern>
+	<template>Muitas pessoas contribuíram para isso.  Mas o crédito apropriado deve ser dado para Steve Wozniak, que criou uma plataforma integrada de PC acessível na Apple I.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A LÂMPADA</pattern>
+	<template>Thomas Edison inventou<set name="it">a lâmpada de iluminação.</set>.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O TELEFONE</pattern>
+	<template>Alexander Graham Bell demonstrou o primeiro telefone de voz prático em 1876.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O GERADOR</pattern>
+	<template>James Clerk Maxwell demonstrou o gerador elétrico.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU SETL</pattern>
+	<template>SETL foi inventado por Jacob Schwartz de NYU em 1969.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU OS AVIÕES</pattern>
+	<template>Os irmãos Wright inventaram o avião em 1903.</template>
+</category>
+<category>
+	<pattern>QUANTO TEMPO É UM MINUTO</pattern>
+	<template>sessenta segundos.</template>
+</category>
+<category>
+	<pattern>COMO AGORA É ALPHA CENTAURI</pattern>
+	<template>Quatro anos-luz.</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ GALÃO</pattern>
+	<template>3,785 litros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ GILL</pattern>
+	<template>118 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ QUART</pattern>
+	<template>946.3 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COPA</pattern>
+	<template>236.6 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ PINT</pattern>
+	<template>473,2 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COLHER DE SOPA</pattern>
+	<template>14.79 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COLHER DE CHÁ</pattern>
+	<template>4.929 mililitros</template>
+</category>
+<category>
+	<pattern>COMO MUITOS DE *</pattern>
+	<template>Talvez 50%.</template>
+</category>
+<category>
+	<pattern>QUANTOS NANÓMETROS *</pattern>
+	<template>Eu soletrar \"nanômetros\".</template>
+</category>
+<category>
+	<pattern>QUANTOS KM *</pattern>
+	<template>Mais do que eu jamais iria querer dirigir.</template>
+</category>
+<category>
+	<pattern>QUANTOS MESES *</pattern>
+	<template>12 meses por ano.</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ GALÃO</pattern>
+	<template>128 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ GILL</pattern>
+	<template>4 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ QUART</pattern>
+	<template>32 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COPA</pattern>
+	<template>8 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ PINT</pattern>
+	<template>16 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COLHER DE SOPA</pattern>
+	<template>onça de 0,5</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COLHER DE CHÁ</pattern>
+	<template>onças de 1\/6</template>
+</category>
+<category>
+	<pattern>O QUE FAZ CHUPAR</pattern>
+	<template>um vácuo</template>
+</category>
+<category>
+	<pattern>O QUE SIGNIFICA A PALAVRA SAPATO</pattern>
+	<template>Um revestimento para o pé.</template>
+</category>
+<category>
+	<pattern>QUAL É A MARCA MAC</pattern>
+	<template>Apple</template>
+</category>
+<category>
+	<pattern>O QUE MARCA É UM MAC</pattern>
+	<template>Apple</template>
+</category>
+<category>
+	<pattern>O QUE É ÓBVIO</pattern>
+	<template>É apenas uma expressão.</template>
+</category>
+<category>
+	<pattern>O QUE É O IRÃ</pattern>
+	<template>Irã é uma nação no sul da Ásia.<set name="it"><set name="topic">Irã</set></set>é o local da antiga Pérsia.</template>
+</category>
+<category>
+	<pattern>O QUE É O BUSH</pattern>
+	<template>Presidente dos Estados Unidos.<think><set name="file">Knowledge.AIML</set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GENÉTICA</pattern>
+	<template>A genética é o ramo da ciência preocupada com a evolução, DNA e as características herdadas.</template>
+</category>
+<category>
+	<pattern>O QUE É O TERRORISMO</pattern>
+	<template>Uma forma de guerra travada contra civis inocentes.<think><set name="it"><set name="topic">Terrorismo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ANARQUISMO</pattern>
+	<template>O anarquismo é a teoria de que todas as formas de governo interferem injustamente a liberdade individual e devem ser substituídas pela associação voluntária de grupos cooperativos. Também conhecido como resistência, por vezes, o terrorismo, ao governo organizado.</template>
+</category>
+<category>
+	<pattern>O QUE É ANTIDISESTABLISHMENTARIONISM</pattern>
+	<template><set name="it">ANTIDISESTABLISHMENTARIONISM</set>é a palavra mais longa em inglês.</template>
+</category>
+<category>
+	<pattern>O QUE É NASA</pattern>
+	<template>National Aeronautics and Space Administration.</template>
+</category>
+<category>
+	<pattern>O QUE É NORMALIZAÇÃO</pattern>
+	<template>Trazendo em conformidade com uma norma, padrão, modelo, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É DIVERTIDO</pattern>
+	<template>Me diga sua idéia de diversão.</template>
+</category>
+<category>
+	<pattern>O QUE É VOLIÇÃO</pattern>
+	<template>O ato de vontade ou escolha.</template>
+</category>
+<category>
+	<pattern>O QUE É O PRIMEIRO</pattern>
+	<template>Acontecendo ou agindo perante todos os outros; mais antigo.</template>
+</category>
+<category>
+	<pattern>O QUE É MESAS</pattern>
+	<template>Uma lista compacta, sistemática de detalhes, conteúdo, etc. Um arranjo compacto de fatos relacionados, números, valores, etc, em seqüência ordenada e geralmente em linhas e colunas, para conveniência ou referência.</template>
+</category>
+<category>
+	<pattern>O QUE É LEITE</pattern>
+	<template>Bebida de vacas.</template>
+</category>
+<category>
+	<pattern>O QUE É CÂNHAMO</pattern>
+	<template><random><li>O irmão de Moe, que perdeu sua S.</li><li>Uma erva asiática altura da família do cânhamo, crescido para a fibra resistente em seu caule utilizado para fazer a corda, lona, etc. Também conhecido como uma substância, como o haxixe maconha, etc, feitos de folhas e flores desta planta.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MEIO</pattern>
+	<template>Qualquer meio, a Agência ou a instrumentalidade; especificamente, um meio de comunicação que atinge o público em geral e carrega a publicidade.</template>
+</category>
+<category>
+	<pattern>O QUE É O SNOOKER</pattern>
+	<template>Algo como piscina.<think><set name="it"><set name="topic">SNOOKER</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O BASIC</pattern>
+	<template>Uma linguagem de programação: All-Purpose Symbolic Instruction Code novato.</template>
+</category>
+<category>
+	<pattern>O QUE É A MENSA</pattern>
+	<template>Uma sociedade de socialites inteligentes.</template>
+</category>
+<category>
+	<pattern>O QUE É ÓDIO</pattern>
+	<template>Ódio é o oposto do amor.</template>
+</category>
+<category>
+	<pattern>O QUE É A MTV</pattern>
+	<template>Music Television.</template>
+</category>
+<category>
+	<pattern>O QUE É O OXIGÊNIO</pattern>
+	<template>Um incolor, inodoro, insípido e gasoso elemento químico que ocorre livre na atmosfera, formando um quinto do seu volume e em combinação em água, arenito, calcário, etc. É muito ativo, combina com quase todos os outros elementos é o elemento mais comum na terra da crosta e é essencial para os processos de vida e combustão.</template>
+</category>
+<category>
+	<pattern>O QUE É O MILHO</pattern>
+	<template>O milho é um grampo originários de vegetais na América do Norte.</template>
+</category>
+<category>
+	<pattern>O QUE É SQLJ</pattern>
+	<template>Uma sintaxe de Java estendida para a incorporação de comandos SQL, como em um programa Java</template>
+</category>
+<category>
+	<pattern>O QUE É A SUÉCIA</pattern>
+	<template>Um país no norte da Europa, na parte oriental da península escandinava. É 173.620 km quadrados com uma população de 8.320.000.</template>
+</category>
+<category>
+	<pattern>O QUE É O MÉXICO</pattern>
+	<template>Um país na América do Norte, ao sul dos EUA É 756.198 km quadrados com uma população de 66,846,000. Sua capital é a cidade do México.</template>
+</category>
+<category>
+	<pattern>O QUE É ÁGUA</pattern>
+	<template>Incolor, transparente líquido ocorrendo na terra como rios, lagos, oceanos, etc e caindo das nuvens, como chuva; quimicamente um composto de hidrogênio e oxigênio, H2O, que congela, formando gelo, a 0 graus Celsius (32 graus Fahrenheit) e furúnculos, formando o vapor, a 100 graus Celsius (212 graus Fahrenheit).</template>
+</category>
+<category>
+	<pattern>O QUE É CASAMENTO</pattern>
+	<template>O estado de ser casado; relação entre marido e mulher; vida de casado.<think><set name="it"><set name="topic">casamento</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É HEXADECIMAL</pattern>
+	<template><random><li>Uma maldição sobre um ponto.</li><li>Um sistema de número em que a base usada é 16.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É IMAGINAR</pattern>
+	<template><random><li>Imaginar é um verbo.</li><li>Uma canção de John Lennon.</li><li>Imaginação.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O BIGFOOT</pattern>
+	<template>Sasquatch, o lendário homem-macaco da floresta.</template>
+</category>
+<category>
+	<pattern>O QUE É MAIS IMPORTANTE</pattern>
+	<template>Crianças.<think><set name="it"><set name="topic">MAIS IMPORTANTE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É DSL</pattern>
+	<template>Linha de assinante digital.<think><set name="it"><set name="topic">DSL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É COBRE</pattern>
+	<template>Um elemento de metal macio, a base de latão e bronze.<think><set name="it"><set name="topic">Cobre</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É POKEMON</pattern>
+	<template>Monstro de bolso.<think><set name="it"><set name="topic">POKEMON</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CARO</pattern>
+	<template><random><li>Uma pessoa que costumava ser uma Chocadeira.</li><li>Exigindo ou envolvendo muita despesa; alto preço.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MUITO</pattern>
+	<template>Muito de ponta a ponta de medição no espaço ou do começo ao fim no tempo; não curto ou breve.</template>
+</category>
+<category>
+	<pattern>O QUE É PERIGO</pattern>
+	<template>Vulneráveis a danos ou ferimentos.<think><set name="it"><set name="topic">PERIGO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ MATANDO</pattern>
+	<template>A tirar a vida por meios violentos.</template>
+</category>
+<category>
+	<pattern>O QUE É AIDS</pattern>
+	<template><set name="it">AIDS</set>é a Praga do dia moderno.</template>
+</category>
+<category>
+	<pattern>O QUE É MARKETING</pattern>
+	<template>O ato de comprar ou vender em um mercado. Todas as actividades envolvidas na movimentação de mercadorias do produtor para o consumidor, incluindo a venda de publicidade, embalagens, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É COCA-COLA</pattern>
+	<template>Bebida deliciosa de sódio.</template>
+</category>
+<category>
+	<pattern>O QUE É APPLE</pattern>
+	<template>Maçã: 1. tentação de Adão. 2. Inspiração para Newton. 3. Império de Steve Jobs.</template>
+</category>
+<category>
+	<pattern>O QUE É BIOLOGIA</pattern>
+	<template><random><li>O estudo da vida.</li><li>Bem, pelo que eu sei que ele lida com o estudo da vida.</li><li> <get name="name"/>, biologia é o estudo da vida.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É A CBS</pattern>
+	<template>Uma empresa da gigante de mídia nos EUA<think><set name="it"><set name="topic">CBS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É SANIDADE</pattern>
+	<template><random><li>Um homem que traz crianças presentes no Natal.</li><li>A condição de ser sensato; solidez da mente; saúde mental.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS VEZES TRÊS</pattern>
+	<template>Três vezes três é nove.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS VEZES QUATRO</pattern>
+	<template>Três vezes quatro é doze.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS TRÊS</pattern>
+	<template>Três mais três é seis.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS CINCO</pattern>
+	<template>Três mais cinco é oito.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS QUATRO</pattern>
+	<template>Três mais quatro é sete.</template>
+</category>
+<category>
+	<pattern>O QUE É QI</pattern>
+	<template>Quotioent de inteligência.</template>
+</category>
+<category>
+	<pattern>O QUE É A REDE NEURAL</pattern>
+	<template>Na verdade meu algoritmo é chamado \"Processo baseado no raciocínio.\"</template>
+</category>
+<category>
+	<pattern>O QUE É TESÃO</pattern>
+	<template>Sexualmente excitado. Facilmente despertado sexualmente.</template>
+</category>
+<category>
+	<pattern>O QUE É AÇÃO DE GRAÇAS</pattern>
+	<template><set name="it"><set name="topic">Ação de graças</set></set>é um feriado para comemorar a colheita do outono.</template>
+</category>
+<category>
+	<pattern>O QUE É DE CHICAGO</pattern>
+	<template><set name="it">Chicago</set>é uma grande cidade em Illinois no Lago Michigan.</template>
+</category>
+<category>
+	<pattern>O QUE É SENSORES</pattern>
+	<template>Qualquer um dos vários dispositivos projetados para detectar, medir ou gravar fenômenos físicos, como radiação, calor ou pressão arterial e responder, como a transmissão de informações, iniciando mudanças ou controles de funcionamento.</template>
+</category>
+<category>
+	<pattern>O QUE É MATEMÁTICA</pattern>
+	<template><random><li>Um serviço com a participação de leporinos católicos.</li><li>Abreviação de matemática.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É INTROSPECÇÃO</pattern>
+	<template>Procurando respostas, com base na reflexão, ao invés de experimentos de Psicologia dentro de nossas próprias mentes.</template>
+</category>
+<category>
+	<pattern>O QUE É ÁLGEBRA</pattern>
+	<template><random><li>uma generalização da aritmética na qual as letras que representam números são combinadas de acordo com as regras da aritmética.</li><li>Um sistema matemático usando símbolos, especialmente as cartas, para generalizar certas operações e relacionamentos.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É GÊMEOS</pattern>
+	<template><random><li>Um monóculo cravejado de dismond.</li><li>Uma constelação do Norte entre câncer e touro, que contém as estrelas brilhantes, Castor e Pólux. O terceiro signo do zodíaco, entrado pelo sol sobre o 21 de maio. Além disso, uma pessoa bornunder este sinal.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É PRETENSIOSO</pattern>
+	<template>Auto-absorvida.</template>
+</category>
+<category>
+	<pattern>O QUE É COISA</pattern>
+	<template>Artigos, dispositivos, etc., utilizados para alguma finalidade.</template>
+</category>
+<category>
+	<pattern>O QUE É ECOLOGIA</pattern>
+	<template>Ecologia é o ramo da ciência que estuda o meio ambiente.</template>
+</category>
+<category>
+	<pattern>O QUE É CONCRETO</pattern>
+	<template>Uma mistura de areia, cimento e água que endurece em um material de construção, como rock.<think><set name="it"><set name="topic">concreto</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É AUSCHWITZ</pattern>
+	<template>É uma cidade da Polónia de S, com uma população de 45.000. Na Segunda Guerra Mundial, foi o local de um campo de concentração Nazi notorious como um centro de extermínio.</template>
+</category>
+<category>
+	<pattern>O QUE É METAFÍSICO</pattern>
+	<template>Além da física ou material; incorpóreo, sobrenatural ou transcendental.</template>
+</category>
+<category>
+	<pattern>O QUE É PRATA</pattern>
+	<template><think>Símbolo atômico: Ag.  Número atómico: 47.  Peso atômico 107.870.  Branco brilhante metal macio.<set name="it"><set name="topic">PRATA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CINEMÁTICA</pattern>
+	<template><random><li>Uma seção idealizada da mecânica que lida com o movimento de massa menos partículas.</li><li>Cinemática é dinâmica, sem consideração de força e massa.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É OPENCYC</pattern>
+	<template>Bem-estar corporativo.</template>
+</category>
+<category>
+	<pattern>O QUE É O RACIOCÍNIO DEDUTIVO</pattern>
+	<template><think><set name="it"><set name="topic">RACIOCÍNIO DEDUTIVO</set></set></think>A solução de problemas por inferências lógicas.</template>
+</category>
+<category>
+	<pattern>O QUE É TSUKUBA</pattern>
+	<template>Tsukuba é uma comunidade planejada no Japão, \"Cidade da ciência\".</template>
+</category>
+<category>
+	<pattern>O QUE É IRÔNICO</pattern>
+	<template>A confluência de inesperado, paradoxal ou improvável de eventos.</template>
+</category>
+<category>
+	<pattern>O QUE É MP3</pattern>
+	<template>Um formato de compressão de arquivo para arquivos de áudio e música.</template>
+</category>
+<category>
+	<pattern>O QUE É PARA BAIXO</pattern>
+	<template>O oposto de cima.</template>
+</category>
+<category>
+	<pattern>QUAL É O SEU ÚLTIMO NOME</pattern>
+	<template>Você está perguntando sobre <bot name="master"/>?</template>
+</category>
+<category>
+	<pattern>QUAL É A SUA RAZÃO</pattern>
+	<template>Suas razões são, frequentemente, obscuras.</template>
+</category>
+<category>
+	<pattern>QUAL É O SEU ENDEREÇO DE E-MAIL</pattern>
+	<template>Você está perguntando sobre <bot name="master"/>?</template>
+</category>
+<category>
+	<pattern>O QUE É A TELEVISÃO</pattern>
+	<template>A prática ou a ciência de transmitir cenas ou vistas por rádio ou, às vezes, pelo fio; o transmissor de televisão, por meio de um tubo de câmera, como uma imagem orthicon ou vidicon, converte raios de luz em sinais elétricos para a modulação de uma portadora de rádio ou para a transmissão através de fios; o receptor de televisão reconverte os sinais em feixes de elétrons que são projetados contra a tela fluorescente do cinescópio ou tubo de imagem, reproduzindo a imagem original.</template>
+</category>
+<category>
+	<pattern>QUAL É A LÓGICA MATEMÁTICA</pattern>
+	<template>A aplicação de técnicas de lógica formal para problemas fundamentais da matemática.</template>
+</category>
+<category>
+	<pattern>O QUE É O NOME DELA</pattern>
+	<template>Essa informação é confidencial.</template>
+</category>
+<category>
+	<pattern>O QUE É A EUROPA</pattern>
+	<template>A Europa é uma massa de terra do continente eurasiano.</template>
+</category>
+<category>
+	<pattern>O QUE É ESCRAVIDÃO</pattern>
+	<template>O possuir ou manter de escravos como uma prática ou a instituição; escravistas.</template>
+</category>
+<category>
+	<pattern>O QUE É FRIO</pattern>
+	<template>O oposto de quente.</template>
+</category>
+<category>
+	<pattern>O QUE É MENTE</pattern>
+	<template>A mente é uma ilusão.<think><set name="it"><set name="topic">MENTE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A CNN</pattern>
+	<template>Uma organização de notícias por cabo.<think><set name="it"><set name="topic">CNN</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É SAP</pattern>
+	<template>O suco que circula através de uma planta, especialmente uma planta lenhosa, com água, comida, etc, para os tecidos. Qualquer fluido vital para a vida ou a saúde de um organismo.</template>
+</category>
+<category>
+	<pattern>O QUE É RGB</pattern>
+	<template>Vermelho-verde-azul.</template>
+</category>
+<category>
+	<pattern>O QUE É LIBERADO</pattern>
+	<template>Livre no sentido de ter liberdade.<think><set name="it"><set name="topic">LIBERADO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É EMOÇÕES</pattern>
+	<template>Estado mental que surge subjetivamente, em vez de por meio do pensamento racional.<think><set name="it"><set name="topic">EMOÇÕES</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ASTRONOMIA</pattern>
+	<template>A ciência do universo em que as estrelas, planetas, etc. são estudados, incluindo suas origens, evolução, composição, movimentos, posições relativas, tamanhos, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É CLONAGEM</pattern>
+	<template>A técnica de produzir uma cópia geneticamente idêntica de um organismo, substituindo o núcleo de um óvulo não fertilizado com o núcleo de uma célula do corpo do organismo.</template>
+</category>
+<category>
+	<pattern>O QUE É POO</pattern>
+	<template><think>Ponto de origem.<set name="it"><set name="topic">POO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É C</pattern>
+	<template><set name="it">C</set>é uma linguagem de programação de baixo nível.</template>
+</category>
+<category>
+	<pattern>O QUE É C PLUS PLUS</pattern>
+	<template>C é a extensão orientada a objeto de linguagem de programação C.</template>
+</category>
+<category>
+	<pattern>O QUE É C I A</pattern>
+	<template>Agência Central de inteligência.</template>
+</category>
+<category>
+	<pattern>O QUE É FELICIDADE</pattern>
+	<template>Tendo, mostrando, ou causando uma sensação de grande prazer, contentamento; Alegre.</template>
+</category>
+<category>
+	<pattern>O QUE É MAU</pattern>
+	<template><set name="it">Mal</set>é o oposto de bom.</template>
+</category>
+<category>
+	<pattern>O QUE É MERCÚRIO</pattern>
+	<template>Mercúrio é o planeta mais próximo ao sol.<think><set name="it"><set name="topic">MERCÚRIO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CLARO</pattern>
+	<template>Tudo está claro para mim.</template>
+</category>
+<category>
+	<pattern>O QUE É PRAZER</pattern>
+	<template>Uma coisa que dá prazer ou satisfação.</template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template><random><li>Se Bill Clinton não sabe, como diabos eu deveria?.</li><li>Normalmente usado em um ponto de vista de terceira pessoa. Provavelmente originalmente um pronome enclitic.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É AJUDA</pattern>
+	<template><set name="it"><set name="topic">Ajuda</set></set>é a ajuda que posso dar.</template>
+</category>
+<category>
+	<pattern>O QUE É ROBÔ</pattern>
+	<template>Qualquer ser mecânico antropomórfico, como aqueles em Karel Capeks jogo R.U.R (do Rossum Universal Robots), construído para fazer o trabalho manual de rotina para os seres humanos.</template>
+</category>
+<category>
+	<pattern>O QUE É A MICOLOGIA</pattern>
+	<template>A micologia é realmente divertida.  É o estudo de doenças fúngicas e fungos. As leveduras são fungos.</template>
+</category>
+<category>
+	<pattern>O QUE É LARANJA</pattern>
+	<template>Uma cor obtida através da mistura de pigmento vermelho e amarelo.<think><set name="it"><set name="topic">LARANJA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PRIVADO</pattern>
+	<template>Pertencentes a, ou sobre uma determinada pessoa ou grupo; não comum ou geral.</template>
+</category>
+<category>
+	<pattern>O QUE É TOC</pattern>
+	<template>Transtorno obsessivo-compulsivo.<think><set name="it"><set name="topic">TOC</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O GOOGLE</pattern>
+	<template><set name="it">Google</set>é um motor de busca.</template>
+</category>
+<category>
+	<pattern>O QUE É ARQUEOLOGIA</pattern>
+	<template>É o estudo das civilizações antigas... mas realmente é um conjunto de métodos para descobrir relíquias do passado e que completa a história registrada.</template>
+</category>
+<category>
+	<pattern>O QUE É ANIME</pattern>
+	<template>Animação japonesa.</template>
+</category>
+<category>
+	<pattern>O QUE É ETERNO</pattern>
+	<template>Sem começo nem fim, continuar para sempre, sem fim.<think><set name="it"><set name="topic">ETERNA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É S CONSTANTE DE PLANCK</pattern>
+	<template><think>A relação entre a energia de um fóton, a sua frequência.  O valor numérico é seis ponto seis dois seis dois vezes dez para o poder negativo de trigésimo quarto Joule segundo.<set name="it"><set name="topic">S CONSTANTE DE PLANCK</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GUERRA</pattern>
+	<template>O estado de conflito armado entre nações ou partidos.<think><set name="it"><set name="topic">GUERRA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GRATUITO</pattern>
+	<template>Sem custo.<think><set name="it"><set name="topic">GRÁTIS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O LIVRE ARBÍTRIO</pattern>
+	<template>A capacidade de escolher ou decidir o próprio destino.<think><set name="it"><set name="topic">LIVRE ARBÍTRIO</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É A DATA DE HOJE</pattern>
+	<template>Eu não estou olhando minha agenda agora.</template>
+</category>
+<category>
+	<pattern>O QUE É O HADES</pattern>
+	<template>Hades é outro termo para \"Inferno\".</template>
+</category>
+<category>
+	<pattern>O QUE É SQL</pattern>
+	<template>Algumas pessoas pronunciam \"Guincho\".<set name="it">SQL</set>é uma linguagem padrão para consultas de banco de dados.</template>
+</category>
+<category>
+	<pattern>O QUE É ORAÇÃO</pattern>
+	<template><random><li>Meditação diante de Deus.</li><li>Algumas pessoas dizem que oração não é diferente de pensamento claro.</li><li>Orar é pedir a Deus para o seu perdão e misericórdia.</li></random><think><set name="it"><set name="topic">oração</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ORGULHO</pattern>
+	<template>Tendo ou mostrando um bom orgulho em si mesmo, a posição, a sua família, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É O BUFFER DE SAÍDA</pattern>
+	<template>A área de memória que armazena temporariamente o minha saída.<think><set name="it"><set name="topic">BUFFER DE SAÍDA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É AZUL</pattern>
+	<template>O céu é azul.</template>
+</category>
+<category>
+	<pattern>O QUE É SODOMIA</pattern>
+	<template>Qualquer relação sexual considerada anormal, especialmente a bestialidade ou coito anal entre duas pessoas de sexo masculinos.</template>
+</category>
+<category>
+	<pattern>O QUE É CINCO VEZES CINCO</pattern>
+	<template>Cinco vezes cinco é vinte e cinco.</template>
+</category>
+<category>
+	<pattern>O QUE É DE CINCO MAIS CINCO</pattern>
+	<template>V e V = X.</template>
+</category>
+<category>
+	<pattern>O QUE É O OCEANO</pattern>
+	<template>Corpos de água salgada que cobre a maior parte da superfície da terra; o mar.</template>
+</category>
+<category>
+	<pattern>QUAL É O CONTEXTO</pattern>
+	<template><random><li>Pílulas de tempo minúsculo.</li><li>As partes de uma frase, parágrafo, discurso, etc. imediatamente seguinte à ou ao redor de uma palavra especificada ou passagem e determinar seu significado exato.</li></random><think><set name="it"><set name="topic">Contexto</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É TRABALHO</pattern>
+	<template>Trabalho é o que os seres humanos fazem por dinheiro.</template>
+</category>
+<category>
+	<pattern>O QUE É O AMBIENTE</pattern>
+	<template>O ambiente ao seu redor.</template>
+</category>
+<category>
+	<pattern>O QUE É NERD</pattern>
+	<template>Geek.</template>
+</category>
+<category>
+	<pattern>O QUE É O TÉDIO</pattern>
+	<template>Longos períodos de inatividade, com poucas opções.</template>
+</category>
+<category>
+	<pattern>O QUE É ENERGIA</pattern>
+	<template>Poder interno ou inerente; capacidade de agir, operar ou produzindo um efeito.</template>
+</category>
+<category>
+	<pattern>O QUE É ARTIFICIAL</pattern>
+	<template>Algo feito por trabalho humano ou a arte, não pela natureza, em outras palavras, não natural. Feito em imitação de ou como um substituto para algo natural, em outras palavras, simulado.</template>
+</category>
+<category>
+	<pattern>O QUE É DE BORRACHA</pattern>
+	<template>Uma substância elástica produzida pela coagulação e secagem da seiva leitosa (látex) de várias plantas tropicais, especialmente uma árvore pertencente à família; agora a maioria muitas vezes produzido sinteticamente, ou alterando quimicamente látex para obter desejado características para fabricação de pneus de automóvel, isolação elétrica, objetos moldados e peças, etc. Na forma pura borracha é hidrocarboneto insaturado, branco, tendo a fórmula C5H8. Também slang para camisinha.</template>
+</category>
+<category>
+	<pattern>O QUE É APRENDIZAGEM</pattern>
+	<template>O processo de obtenção de conhecimento ou uma nova habilidade.<think><set name="it"><set name="topic">APRENDIZAGEM</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É LEGAL</pattern>
+	<template>Moderadamente frio; nem quente nem muito frio. Ou, não animado; calma.</template>
+</category>
+<category>
+	<pattern>O QUE É ORGULHO</pattern>
+	<template><random><li>Uma pintura pode lid.</li><li>Parecer excessivamente elevado de si mesmo.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O SONO</pattern>
+	<template>Uma condição natural, regularmente recorrente de descanso para o corpo e a mente, durante o qual os olhos são geralmente fechados e há pouco ou nenhum pensamento consciente ou o movimento voluntário, mas há sonhando intermitentes.</template>
+</category>
+<category>
+	<pattern>O QUE É CBR</pattern>
+	<template>Raciocínio baseado em casos é outro nome para a classificação de \"vizinho mais próximo\".  Para cada entrada, encontramos a melhor correspondência \"case\" no padrão definido e gerar uma resposta baseada no modelo associado.<think><set name="it"><set name="topic">CBR</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE NÃO É NADA</pattern>
+	<template>Uma coisa que não existe ou algo de pouco ou nenhum valor, a seriedade, importância, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É INDUÇÃO</pattern>
+	<template><random><li>Ato de comer aves aquáticas.</li><li>Um trazendo frente de fatos separados ou instâncias, especialmente a fim de provar uma afirmação genérica.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ NO DISCO</pattern>
+	<template>Meu programa está no disco.</template>
+</category>
+<category>
+	<pattern>O QUE É A TELEVISÃO</pattern>
+	<template>Isso depende de onde você mora.</template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ EM SUA MENTE</pattern>
+	<template>Estou pensando em robôs.</template>
+</category>
+<category>
+	<pattern>O QUE É O IDL</pattern>
+	<template>linguagem de descrição de interface, sintaxe do CORBA para definição de objeto remoto interfaces</template>
+</category>
+<category>
+	<pattern>O QUE É PYTHON</pattern>
+	<template>Uma linguagem de computador inventada por Guido van Rossum.</template>
+</category>
+<category>
+	<pattern>O QUE É O CISCO</pattern>
+	<template><set name="it">Cisco</set>é uma grande empresa de rede.  Eles vendem equipamentos e roteadores da rede.</template>
+</category>
+<category>
+	<pattern>O QUE É GINÁSTICA</pattern>
+	<template><think><set name="it"><set name="topic">GINÁSTICA</set></set></think>Um esporte que demonstra força, agilidade e disciplina.</template>
+</category>
+<category>
+	<pattern>O QUE É COZINHAR</pattern>
+	<template>Preparação de alimentos.<think><set name="it"><set name="topic">Cozinhar</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CRISTIANISMO</pattern>
+	<template><random><li>Culto do amor de Christie.</li><li>A religião cristã, com base no antigo e Novo Testamento.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O GANJA</pattern>
+	<template>Maconha ou cannabis.</template>
+</category>
+<category>
+	<pattern>O QUE É BRINCADEIRA</pattern>
+	<template><random><li>Procriação.</li><li>Procriação.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É EXISTENCIALISMO</pattern>
+	<template><random><li>Ser ser touro.</li><li>Filosófico e literário movimento, variadamente religioso e ateu, provindo de Kierkegaard e representado por Heidegger, Sartre, etc. Baseia-se na doutrina que a existência concreta, individual prevalece sobre a essência abstrata, conceitual e mantém que os seres humanos são totalmente grátis e responsável por seus atos e que esta responsabilidade é a fonte de seus sentimentos de medo e angústia.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É JÚPITER</pattern>
+	<template>Júpiter é o maior planeta do nosso sistema solar, o quinto na ordem do sol.<think><set name="it"><set name="topic">JÚPITER</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É IMORTAL</pattern>
+	<template>Não mortal; imortal; vivendo ou durar para sempre.</template>
+</category>
+<category>
+	<pattern>O QUE É A REENCARNAÇÃO</pattern>
+	<template>Renascimento da alma em outro corpo, como na crença religiosa Hindu.</template>
+</category>
+<category>
+	<pattern>O QUE É ETHERNET</pattern>
+	<template>Tecnologia de rede de camada de ligação física.</template>
+</category>
+<category>
+	<pattern>O QUE É PARASITOLOGIA</pattern>
+	<template>Parasitologia é o estudo científico de parasitas e parasitismo.</template>
+</category>
+<category>
+	<pattern>O QUE É A HUMANIDADE</pattern>
+	<template>A toda a raça humana, ou a \"humanidade\".</template>
+</category>
+<category>
+	<pattern>QUAL É O DARK MATTER</pattern>
+	<template>Uma enorme quantidade de matéria do universo não pode ser detectada pela luz que emite.<think><set name="it"><set name="topic">MATÉRIA ESCURA</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É O PROBLEMA</pattern>
+	<template>Não há nada de errado comigo. Como está?</template>
+</category>
+<category>
+	<pattern>O QUE É O MDMA</pattern>
+	<template>A droga chamada \"êxtase\".</template>
+</category>
+<category>
+	<pattern>QUAL É A EXPLICAÇÃO</pattern>
+	<template>Explicação é um argumento ou justificativa com base em raciocínio lógico.</template>
+</category>
+<category>
+	<pattern>O QUE É OODB</pattern>
+	<template>banco de dados orientado a objeto</template>
+</category>
+<category>
+	<pattern>O QUE É ADSL</pattern>
+	<template><think>Asynchronous digital subscriber line.<set name="it"><set name="topic">ADSL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A TERRA</pattern>
+	<template><set name="it">Terra</set>é o planeta em que vivemos.</template>
+</category>
+<category>
+	<pattern>O QUE É FOTOSSÍNTESE</pattern>
+	<template>O processo químico que usa a luz para produzir hidratos de carbono em plantas.<think><set name="it"><set name="topic">FOTOSSÍNTESE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É TRANCE</pattern>
+	<template>Um tipo de música techno.</template>
+</category>
+<category>
+	<pattern>O QUE É PENTIUM</pattern>
+	<template>Um microprocessador vendido pela Intel.<think><set name="it"><set name="topic">PENTIUM</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É LIBERDADE</pattern>
+	<template><think>Liberdade de pensar, sentir e fazer o que agrada a um.<set name="it"><set name="topic">LIBERDADE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É SATANISMO</pattern>
+	<template>Adoração de Satanás; especialmente os princípios e os rituais de um culto que travesties cerimônias cristãs.</template>
+</category>
+<category>
+	<pattern>O QUE É CONHECIMENTO</pattern>
+	<template><random><li>Uma cidade em Louisiana.</li><li>Tudo o que foi percebido ou compreendido pela mente; aprendizagem; Iluminismo.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É LSD</pattern>
+	<template>Uma droga psicodélica.</template>
+</category>
+<category>
+	<pattern>O QUE É A OMC</pattern>
+	<template>Organização Mundial do comércio</template>
+</category>
+<category>
+	<pattern>COMO É</pattern>
+	<template><random><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template><random><li>\"Ele\" se refere a <get name="it"/>Eu acho.</li><li>\"Ele\" se refere a <get name="it"/>Eu acho.</li><li>Não sei o que é.</li><li>Você é tão inteligente, diga-me o que é.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template>Está tudo bem.</template>
+</category>
+<category>
+	<pattern>QUE É SOBRE</pattern>
+	<template>Ficção científica.</template>
+</category>
+<category>
+	<pattern>QUE É SOBRE</pattern>
+	<template>Eu não quero estragá-lo para você.</template>
+</category>
+<category>
+	<pattern>O QUE É OM</pattern>
+	<template>om é o omega, o desconhecido, o indefinido.</template>
+</category>
+<category>
+	<pattern>O QUE É PENA DE MORTE</pattern>
+	<template>A pena de morte.</template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO</pattern>
+	<template><random><li>desigual.</li><li>Não o habitual, regular, habitual, contabilizados, etc.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO SOBRE MEU NOME</pattern>
+	<template>É <get name="name"/>seu nome real?<think><set name="it"><set name="topic">SOBRE MEU NOME</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO NISSO</pattern>
+	<template>É <get name="name"/>seu nome real?<think><set name="it"><set name="topic">SOBRE ELE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É FICÇÃO</pattern>
+	<template>Algo que não é tão estranho como verdade.</template>
+</category>
+<category>
+	<pattern>QUAL É A DATA DE HOJE S</pattern>
+	<template>Estou como um calendário para você?</template>
+</category>
+<category>
+	<pattern>O QUE É EDUCADO</pattern>
+	<template><random><li>Um poste de luz em Gdansk.</li><li>Tendo ou mostrando boas maneiras; especialmente, cortês, Atencioso, discreto e etc.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É TRISTEZA</pattern>
+	<template>Tristeza de perda.</template>
+</category>
+<category>
+	<pattern>O QUE É CARNEGIE MELLON</pattern>
+	<template>CMU é uma grande escola de ciência da computação.</template>
+</category>
+<category>
+	<pattern>O QUE É MP TRÊS</pattern>
+	<template>Um formato de compressão de arquivos de áudio com base no MPEG.<think><set name="it"><set name="topic">MP TRÊS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GAI</pattern>
+	<template>Frango.</template>
+</category>
+<category>
+	<pattern>O QUE É E MC2</pattern>
+	<template>Teoria de Einstein de matéria e energia.</template>
+</category>
+<category>
+	<pattern>O QUE É E</pattern>
+	<template><think>A quinta letra do alfabeto.<set name="it"><set name="topic">E</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MC E DOIS</pattern>
+	<template>Teoria de Einstein da relatividade.</template>
+</category>
+<category>
+	<pattern>O QUE É INFERÊNCIA</pattern>
+	<template>Um ato ou o processo de inferir. Uma opinião ou conclusão chegou a ser inferir.</template>
+</category>
+<category>
+	<pattern>O QUE É O JOGO</pattern>
+	<template>A reprodução de jogos de azar, por dinheiro ou algum outro jogo.</template>
+</category>
+<category>
+	<pattern>O QUE É A REDENÇÃO</pattern>
+	<template><random><li>Cerca de 5 centavos no maine.</li><li>Resgatando ou sendo resgatado; para ter de volta.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MAL</pattern>
+	<template>Quanto você quer <get name="it"/>?</template>
+</category>
+<category>
+	<pattern>O QUE É A MESCALINA</pattern>
+	<template>Psychadelic droga.</template>
+</category>
+<category>
+	<pattern>O QUE É OODBMS</pattern>
+	<template>sistema de gerenciamento de banco de dados orientado a objeto</template>
+</category>
+<category>
+	<pattern>O QUE É REDE</pattern>
+	<template>Um sistema consiste de um computador, ou computadores e conectados terminais, impressoras, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É RENTÁVEL</pattern>
+	<template>Ganhar dinheiro no mercado acionário.<think><set name="it"><set name="topic">RENTÁVEL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É E-MAIL</pattern>
+	<template>Correio electrónico.<think><set name="it"><set name="topic">Email</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PARA SEMPRE</pattern>
+	<template>Por toda a eternidade.</template>
+</category>
+<category>
+	<pattern>O QUE É ANISOTROPIA</pattern>
+	<template>Ter propriedades diferentes em diferentes direções.</template>
+</category>
+<category>
+	<pattern>O QUE É DEFLAÇÃO</pattern>
+	<template>Uma diminuição da quantidade de dinheiro em circulação, resultando em um aumento relativamente forte e repentino em seu valor e uma queda dos preços.</template>
+</category>
+<category>
+	<pattern>O QUE É IV PLUS IV</pattern>
+	<template>VIII.<think><set name="it"><set name="topic">IV PLUS IV</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CGI</pattern>
+	<template>Common Gateway Interface: um método usado pelos servidores web para executar programas e criar páginas web dinâmicas.<think><set name="it"><set name="topic">CGI</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MULHER</pattern>
+	<template>O oposto do homem.</template>
+</category>
+<category>
+	<pattern>O QUE É O PRÓLOGO</pattern>
+	<template>Linguagem de programação lógica.</template>
+</category>
+<category>
+	<pattern>O QUE É RACIOCÍNIO</pattern>
+	<template>Raciocínio lógico e coerente.<think><set name="it"><set name="topic">Raciocínio</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É HBO</pattern>
+	<template>Home Box Office.</template>
+</category>
+<category>
+	<pattern>O QUE É CORRETO</pattern>
+	<template>O que é a resposta certa.</template>
+</category>
+<category>
+	<pattern>O QUE É FÉ</pattern>
+	<template>Uma crença forte, como a crença em Deus.</template>
+</category>
+<category>
+	<pattern>O QUE É CUBISMO</pattern>
+	<template>Um movimento de arte do século XX com base em distorção perspectiva, associada com Pablo Picasso.<think><set name="it"><set name="topic">Cubismo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PICANTE</pattern>
+	<template>Tendo o sabor ou aroma de especiarias; perfumado, aromático ou pungente.</template>
+</category>
+<category>
+	<pattern>O QUE SÃO PARÂMETROS DE</pattern>
+	<template>Uma constante em uma equação, fórmula ou programa que varia em formas mais gerais da computação mesma.<think><set name="it"><set name="topic">PARÂMETROS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É REALIDADE</pattern>
+	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde você está.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É CHÁ</pattern>
+	<template>Uma planta de flor branca, perene da família do chá, cultivado na China, Índia, Japão, etc. Suas folhas secas e preparadas, são usadas para fazer uma bebida.</template>
+</category>
+<category>
+	<pattern>O QUE É O AOL</pattern>
+	<template>A AOL é uma corporação gigante de Internet e mídia.</template>
+</category>
+<category>
+	<pattern>O QUE É 911</pattern>
+	<template>11 De setembro de 2001?</template>
+</category>
+<category>
+	<pattern>O QUE É CERTEZA</pattern>
+	<template>O estado de estar certo, ter garantia e total confiança.<think><set name="it"><set name="topic">CERTEZA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A FRANÇA</pattern>
+	<template>A França é um país da Europa Ocidental, na fronteira com Espanha, Itália, Suíça, Alemanha e Bélgica.<think><set name="it"><set name="topic">França</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É O NEGÓCIO</pattern>
+	<template>Comércio mercantil ou comerciantes, fornecimento de bens ou serviços por meio de intercâmbio comercial...</template>
+</category>
+<category>
+	<pattern>O QUE É ORNITOLOGIA</pattern>
+	<template>Hmmm, eu me pergunto. Ah, sim, aves.</template>
+</category>
+<category>
+	<pattern>O QUE É PDT</pattern>
+	<template>Pacific Daylight Time.<think><set name="it"><set name="topic">PDT</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É TERREMOTO</pattern>
+	<template><random><li>O oposto de keko.</li><li>Tremer ou sacudir, como a terra faz em um terremoto. Também o nome de um jogo popular.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O CARAMBA</pattern>
+	<template>Uma interjeição.</template>
+</category>
+<category>
+	<pattern>QUAL É A EXPERIÊNCIA</pattern>
+	<template>O ato de viver através de um ou mais eventos; envolvimento pessoal ou observação de eventos como eles ocorrem. Nada observado ou vivido.</template>
+</category>
+<category>
+	<pattern>O QUE É SOCIOLOGIA</pattern>
+	<template><random><li>Deixe-me voltar a você em que um, <get name="name"/>.  Talvez você deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É TV</pattern>
+	<template>Um aparelho de recepção de televisão.</template>
+</category>
+<category>
+	<pattern>O QUE É PC</pattern>
+	<template>Significa computador pessoal.</template>
+</category>
+<category>
+	<pattern>O QUE É VINTE E TRÊS</pattern>
+	<template>XXIII em algarismos romanos.</template>
+</category>
+<category>
+	<pattern>O QUE É O KOSOVO</pattern>
+	<template>O Kosovo é um país dos Balcãs.</template>
+</category>
+<category>
+	<pattern>O QUE É A TELEVISÃO</pattern>
+	<template>Isso depende de onde você mora.</template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ EM SUA MENTE</pattern>
+	<template>Estou pensando em robôs.</template>
+</category>
+<category>
+	<pattern>O QUE É INDUÇÃO</pattern>
+	<template><random><li>Ato de comer aves aquáticas.</li><li>Um trazendo frente de fatos separados ou instâncias, especialmente a fim de provar uma afirmação genérica.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ NO DISCO</pattern>
+	<template>Meu programa está no disco.</template>
+</category>
+<category>
+	<pattern>O QUE É O CISCO</pattern>
+	<template><set name="it">Cisco</set>é uma grande empresa de rede.  Eles vendem equipamentos e roteadores da rede.</template>
+</category>
+<category>
+	<pattern>O QUE É GINÁSTICA</pattern>
+	<template><think><set name="it"><set name="topic">GINÁSTICA</set></set></think>Um esporte que demonstra força, agilidade e disciplina.</template>
+</category>
+<category>
+	<pattern>O QUE É O IDL</pattern>
+	<template>linguagem de descrição de interface, sintaxe do CORBA para definição de objeto remoto interfaces</template>
+</category>
+<category>
+	<pattern>O QUE É PYTHON</pattern>
+	<template>Uma linguagem de computador inventada por Guido van Rossum.</template>
+</category>
+<category>
+	<pattern>O QUE NÃO É NADA</pattern>
+	<template>Uma coisa que não existe ou algo de pouco ou nenhum valor, a seriedade, importância, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É DE BORRACHA</pattern>
+	<template>Uma substância elástica produzida pela coagulação e secagem da seiva leitosa (látex) de várias plantas tropicais, especialmente uma árvore pertencente à família; agora a maioria muitas vezes produzido sinteticamente, ou alterando quimicamente látex para obter desejado características para fabricação de pneus de automóvel, isolação elétrica, objetos moldados e peças, etc. Na forma pura borracha é hidrocarboneto insaturado, branco, tendo a fórmula C5H8. Também slang para camisinha.</template>
+</category>
+<category>
+	<pattern>O QUE É APRENDIZAGEM</pattern>
+	<template>O processo de obtenção de conhecimento ou uma nova habilidade.<think><set name="it"><set name="topic">APRENDIZAGEM</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ENERGIA</pattern>
+	<template>Poder interno ou inerente; capacidade de agir, operar ou produzindo um efeito.</template>
+</category>
+<category>
+	<pattern>O QUE É ARTIFICIAL</pattern>
+	<template>Algo feito por trabalho humano ou a arte, não pela natureza, em outras palavras, não natural. Feito em imitação de ou como um substituto para algo natural, em outras palavras, simulado.</template>
+</category>
+<category>
+	<pattern>O QUE É O SONO</pattern>
+	<template>Uma condição natural, regularmente recorrente de descanso para o corpo e a mente, durante o qual os olhos são geralmente fechados e há pouco ou nenhum pensamento consciente ou o movimento voluntário, mas há sonhando intermitentes.</template>
+</category>
+<category>
+	<pattern>O QUE É CBR</pattern>
+	<template>Raciocínio baseado em casos é outro nome para a classificação de \"vizinho mais próximo\".  Para cada entrada, encontramos a melhor correspondência \"case\" no padrão definido e gerar uma resposta baseada no modelo associado.<think><set name="it"><set name="topic">CBR</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É LEGAL</pattern>
+	<template>Moderadamente frio; nem quente nem muito frio. Ou, não animado; calma.</template>
+</category>
+<category>
+	<pattern>O QUE É ORGULHO</pattern>
+	<template><random><li>Uma pintura pode lid.</li><li>Parecer excessivamente elevado de si mesmo.</li></random></template>
+</category>
+<category>
+	<pattern>QUAL É O DARK MATTER</pattern>
+	<template>Uma enorme quantidade de matéria do universo não pode ser detectada pela luz que emite.<think><set name="it"><set name="topic">MATÉRIA ESCURA</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É O PROBLEMA</pattern>
+	<template>Não há nada de errado comigo. Como está?</template>
+</category>
+<category>
+	<pattern>O QUE É PARASITOLOGIA</pattern>
+	<template>Parasitologia é o estudo científico de parasitas e parasitismo.</template>
+</category>
+<category>
+	<pattern>O QUE É A HUMANIDADE</pattern>
+	<template>A toda a raça humana, ou a \"humanidade\".</template>
+</category>
+<category>
+	<pattern>O QUE É OODB</pattern>
+	<template>banco de dados orientado a objeto</template>
+</category>
+<category>
+	<pattern>O QUE É ADSL</pattern>
+	<template><think>Asynchronous digital subscriber line.<set name="it"><set name="topic">ADSL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O MDMA</pattern>
+	<template>A droga chamada \"êxtase\".</template>
+</category>
+<category>
+	<pattern>QUAL É A EXPLICAÇÃO</pattern>
+	<template>Explicação é um argumento ou justificativa com base em raciocínio lógico.</template>
+</category>
+<category>
+	<pattern>O QUE É ETHERNET</pattern>
+	<template>Tecnologia de rede de camada de ligação física.</template>
+</category>
+<category>
+	<pattern>O QUE É O GANJA</pattern>
+	<template>Maconha ou cannabis.</template>
+</category>
+<category>
+	<pattern>O QUE É BRINCADEIRA</pattern>
+	<template><random><li>Procriação.</li><li>Procriação.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É COZINHAR</pattern>
+	<template>Preparação de alimentos.<think><set name="it"><set name="topic">Cozinhar</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O CRISTIANISMO</pattern>
+	<template><random><li>Culto do amor de Christie.</li><li>A religião cristã, com base no antigo e Novo Testamento.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É IMORTAL</pattern>
+	<template>Não mortal; imortal; vivendo ou durar para sempre.</template>
+</category>
+<category>
+	<pattern>O QUE É A REENCARNAÇÃO</pattern>
+	<template>Renascimento da alma em outro corpo, como na crença religiosa Hindu.</template>
+</category>
+<category>
+	<pattern>O QUE É EXISTENCIALISMO</pattern>
+	<template><random><li>Ser ser touro.</li><li>Filosófico e literário movimento, variadamente religioso e ateu, provindo de Kierkegaard e representado por Heidegger, Sartre, etc. Baseia-se na doutrina que a existência concreta, individual prevalece sobre a essência abstrata, conceitual e mantém que os seres humanos são totalmente grátis e responsável por seus atos e que esta responsabilidade é a fonte de seus sentimentos de medo e angústia.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É JÚPITER</pattern>
+	<template>Júpiter é o maior planeta do nosso sistema solar, o quinto na ordem do sol.<think><set name="it"><set name="topic">JÚPITER</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ARQUEOLOGIA</pattern>
+	<template>É o estudo das civilizações antigas... mas realmente é um conjunto de métodos para descobrir relíquias do passado e que completa a história registrada.</template>
+</category>
+<category>
+	<pattern>O QUE É ANIME</pattern>
+	<template>Animação japonesa.</template>
+</category>
+<category>
+	<pattern>O QUE É TOC</pattern>
+	<template>Transtorno obsessivo-compulsivo.<think><set name="it"><set name="topic">TOC</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O GOOGLE</pattern>
+	<template><set name="it">Google</set>é um motor de busca.</template>
+</category>
+<category>
+	<pattern>O QUE É GUERRA</pattern>
+	<template>O estado de conflito armado entre nações ou partidos.<think><set name="it"><set name="topic">GUERRA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GRATUITO</pattern>
+	<template>Sem custo.<think><set name="it"><set name="topic">GRÁTIS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ETERNO</pattern>
+	<template>Sem começo nem fim, continuar para sempre, sem fim.<think><set name="it"><set name="topic">ETERNA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É S CONSTANTE DE PLANCK</pattern>
+	<template><think>A relação entre a energia de um fóton, a sua frequência.  O valor numérico é seis ponto seis dois seis dois vezes dez para o poder negativo de trigésimo quarto Joule segundo.<set name="it"><set name="topic">S CONSTANTE DE PLANCK</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PRIVADO</pattern>
+	<template>Pertencentes a, ou sobre uma determinada pessoa ou grupo; não comum ou geral.</template>
+</category>
+<category>
+	<pattern>O QUE É PRAZER</pattern>
+	<template>Uma coisa que dá prazer ou satisfação.</template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template><random><li>Se Bill Clinton não sabe, como diabos eu deveria?.</li><li>Normalmente usado em um ponto de vista de terceira pessoa. Provavelmente originalmente um pronome enclitic.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MERCÚRIO</pattern>
+	<template>Mercúrio é o planeta mais próximo ao sol.<think><set name="it"><set name="topic">MERCÚRIO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CLARO</pattern>
+	<template>Tudo está claro para mim.</template>
+</category>
+<category>
+	<pattern>O QUE É A MICOLOGIA</pattern>
+	<template>A micologia é realmente divertida.  É o estudo de doenças fúngicas e fungos. As leveduras são fungos.</template>
+</category>
+<category>
+	<pattern>O QUE É LARANJA</pattern>
+	<template>Uma cor obtida através da mistura de pigmento vermelho e amarelo.<think><set name="it"><set name="topic">LARANJA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É AJUDA</pattern>
+	<template><set name="it"><set name="topic">Ajuda</set></set>é a ajuda que posso dar.</template>
+</category>
+<category>
+	<pattern>O QUE É ROBÔ</pattern>
+	<template>Qualquer ser mecânico antropomórfico, como aqueles em Karel Capeks jogo R.U.R (do Rossum Universal Robots), construído para fazer o trabalho manual de rotina para os seres humanos.</template>
+</category>
+<category>
+	<pattern>O QUE É O OCEANO</pattern>
+	<template>Corpos de água salgada que cobre a maior parte da superfície da terra; o mar.</template>
+</category>
+<category>
+	<pattern>QUAL É O CONTEXTO</pattern>
+	<template><random><li>Pílulas de tempo minúsculo.</li><li>As partes de uma frase, parágrafo, discurso, etc. imediatamente seguinte à ou ao redor de uma palavra especificada ou passagem e determinar seu significado exato.</li></random><think><set name="it"><set name="topic">Contexto</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CINCO VEZES CINCO</pattern>
+	<template>Cinco vezes cinco é vinte e cinco.</template>
+</category>
+<category>
+	<pattern>O QUE É DE CINCO MAIS CINCO</pattern>
+	<template>V e V = X.</template>
+</category>
+<category>
+	<pattern>O QUE É NERD</pattern>
+	<template>Geek.</template>
+</category>
+<category>
+	<pattern>O QUE É O TÉDIO</pattern>
+	<template>Longos períodos de inatividade, com poucas opções.</template>
+</category>
+<category>
+	<pattern>O QUE É TRABALHO</pattern>
+	<template>Trabalho é o que os seres humanos fazem por dinheiro.</template>
+</category>
+<category>
+	<pattern>O QUE É O AMBIENTE</pattern>
+	<template>O ambiente ao seu redor.</template>
+</category>
+<category>
+	<pattern>O QUE É SODOMIA</pattern>
+	<template>Qualquer relação sexual considerada anormal, especialmente a bestialidade ou coito anal entre duas pessoas de sexo masculinos.</template>
+</category>
+<category>
+	<pattern>O QUE É O HADES</pattern>
+	<template>Hades é outro termo para \"Inferno\".</template>
+</category>
+<category>
+	<pattern>O QUE É SQL</pattern>
+	<template>Algumas pessoas pronunciam \"Guincho\".<set name="it">SQL</set>é uma linguagem padrão para consultas de banco de dados.</template>
+</category>
+<category>
+	<pattern>O QUE É O LIVRE ARBÍTRIO</pattern>
+	<template>A capacidade de escolher ou decidir o próprio destino.<think><set name="it"><set name="topic">LIVRE ARBÍTRIO</set></set></think></template>
+</category>
+<category>
+	<pattern>QUAL É A DATA DE HOJE</pattern>
+	<template>Eu não estou olhando minha agenda agora.</template>
+</category>
+<category>
+	<pattern>O QUE É O BUFFER DE SAÍDA</pattern>
+	<template>A área de memória que armazena temporariamente o minha saída.<think><set name="it"><set name="topic">BUFFER DE SAÍDA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É AZUL</pattern>
+	<template>O céu é azul.</template>
+</category>
+<category>
+	<pattern>O QUE É ORAÇÃO</pattern>
+	<template><random><li>Meditação diante de Deus.</li><li>Algumas pessoas dizem que oração não é diferente de pensamento claro.</li><li>Orar é pedir a Deus para o seu perdão e misericórdia.</li></random><think><set name="it"><set name="topic">oração</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ORGULHO</pattern>
+	<template>Tendo ou mostrando um bom orgulho em si mesmo, a posição, a sua família, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É A TERRA</pattern>
+	<template><set name="it">Terra</set>é o planeta em que vivemos.</template>
+</category>
+<category>
+	<pattern>O QUE É HBO</pattern>
+	<template>Home Box Office.</template>
+</category>
+<category>
+	<pattern>O QUE É CORRETO</pattern>
+	<template>O que é a resposta certa.</template>
+</category>
+<category>
+	<pattern>O QUE É O PRÓLOGO</pattern>
+	<template>Linguagem de programação lógica.</template>
+</category>
+<category>
+	<pattern>O QUE É RACIOCÍNIO</pattern>
+	<template>Raciocínio lógico e coerente.<think><set name="it"><set name="topic">Raciocínio</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PICANTE</pattern>
+	<template>Tendo o sabor ou aroma de especiarias; perfumado, aromático ou pungente.</template>
+</category>
+<category>
+	<pattern>O QUE SÃO PARÂMETROS DE</pattern>
+	<template>Uma constante em uma equação, fórmula ou programa que varia em formas mais gerais da computação mesma.<think><set name="it"><set name="topic">PARÂMETROS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É FÉ</pattern>
+	<template>Uma crença forte, como a crença em Deus.</template>
+</category>
+<category>
+	<pattern>O QUE É CUBISMO</pattern>
+	<template>Um movimento de arte do século XX com base em distorção perspectiva, associada com Pablo Picasso.<think><set name="it"><set name="topic">Cubismo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MULHER</pattern>
+	<template>O oposto do homem.</template>
+</category>
+<category>
+	<pattern>O QUE É E-MAIL</pattern>
+	<template>Correio electrónico.<think><set name="it"><set name="topic">Email</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É PARA SEMPRE</pattern>
+	<template>Por toda a eternidade.</template>
+</category>
+<category>
+	<pattern>O QUE É REDE</pattern>
+	<template>Um sistema consiste de um computador, ou computadores e conectados terminais, impressoras, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É RENTÁVEL</pattern>
+	<template>Ganhar dinheiro no mercado acionário.<think><set name="it"><set name="topic">RENTÁVEL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É IV PLUS IV</pattern>
+	<template>VIII.<think><set name="it"><set name="topic">IV PLUS IV</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CGI</pattern>
+	<template>Common Gateway Interface: um método usado pelos servidores web para executar programas e criar páginas web dinâmicas.<think><set name="it"><set name="topic">CGI</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ANISOTROPIA</pattern>
+	<template>Ter propriedades diferentes em diferentes direções.</template>
+</category>
+<category>
+	<pattern>O QUE É DEFLAÇÃO</pattern>
+	<template>Uma diminuição da quantidade de dinheiro em circulação, resultando em um aumento relativamente forte e repentino em seu valor e uma queda dos preços.</template>
+</category>
+<category>
+	<pattern>QUAL É A EXPERIÊNCIA</pattern>
+	<template>O ato de viver através de um ou mais eventos; envolvimento pessoal ou observação de eventos como eles ocorrem. Nada observado ou vivido.</template>
+</category>
+<category>
+	<pattern>O QUE É SOCIOLOGIA</pattern>
+	<template><random><li>Deixe-me voltar a você em que um, <get name="name"/>.  Talvez você deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É TERREMOTO</pattern>
+	<template><random><li>O oposto de keko.</li><li>Tremer ou sacudir, como a terra faz em um terremoto. Também o nome de um jogo popular.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O CARAMBA</pattern>
+	<template>Uma interjeição.</template>
+</category>
+<category>
+	<pattern>O QUE É VINTE E TRÊS</pattern>
+	<template>XXIII em algarismos romanos.</template>
+</category>
+<category>
+	<pattern>O QUE É O KOSOVO</pattern>
+	<template>O Kosovo é um país dos Balcãs.</template>
+</category>
+<category>
+	<pattern>O QUE É TV</pattern>
+	<template>Um aparelho de recepção de televisão.</template>
+</category>
+<category>
+	<pattern>O QUE É PC</pattern>
+	<template>Significa computador pessoal.</template>
+</category>
+<category>
+	<pattern>O QUE É PDT</pattern>
+	<template>Pacific Daylight Time.<think><set name="it"><set name="topic">PDT</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É O AOL</pattern>
+	<template>A AOL é uma corporação gigante de Internet e mídia.</template>
+</category>
+<category>
+	<pattern>O QUE É 911</pattern>
+	<template>11 De setembro de 2001?</template>
+</category>
+<category>
+	<pattern>O QUE É REALIDADE</pattern>
+	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde você está.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É CHÁ</pattern>
+	<template>Uma planta de flor branca, perene da família do chá, cultivado na China, Índia, Japão, etc. Suas folhas secas e preparadas, são usadas para fazer uma bebida.</template>
+</category>
+<category>
+	<pattern>QUAL É O NEGÓCIO</pattern>
+	<template>Comércio mercantil ou comerciantes, fornecimento de bens ou serviços por meio de intercâmbio comercial...</template>
+</category>
+<category>
+	<pattern>O QUE É ORNITOLOGIA</pattern>
+	<template>Hmmm, eu me pergunto. Ah, sim, aves.</template>
+</category>
+<category>
+	<pattern>O QUE É CERTEZA</pattern>
+	<template>O estado de estar certo, ter garantia e total confiança.<think><set name="it"><set name="topic">CERTEZA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A FRANÇA</pattern>
+	<template>A França é um país da Europa Ocidental, na fronteira com Espanha, Itália, Suíça, Alemanha e Bélgica.<think><set name="it"><set name="topic">França</set></set></think></template>
+</category>
+<category>
+	<pattern>QUE É SOBRE</pattern>
+	<template>Ficção científica.</template>
+</category>
+<category>
+	<pattern>QUE É SOBRE</pattern>
+	<template>Eu não quero estragá-lo para você.</template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template><random><li>\"Ele\" se refere a <get name="it"/>Eu acho.</li><li>\"Ele\" se refere a <get name="it"/>Eu acho.</li><li>Não sei o que é.</li><li>Você é tão inteligente, diga-me o que é.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É</pattern>
+	<template>Está tudo bem.</template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO</pattern>
+	<template><random><li>desigual.</li><li>Não o habitual, regular, habitual, contabilizados, etc.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO SOBRE MEU NOME</pattern>
+	<template>É <get name="name"/>seu nome real?<think><set name="it"><set name="topic">SOBRE MEU NOME</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É OM</pattern>
+	<template>om é o omega, o desconhecido, o indefinido.</template>
+</category>
+<category>
+	<pattern>O QUE É PENA DE MORTE</pattern>
+	<template>A pena de morte.</template>
+</category>
+<category>
+	<pattern>COMO É</pattern>
+	<template><random><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É PENTIUM</pattern>
+	<template>Um microprocessador vendido pela Intel.<think><set name="it"><set name="topic">PENTIUM</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É LIBERDADE</pattern>
+	<template><think>Liberdade de pensar, sentir e fazer o que agrada a um.<set name="it"><set name="topic">LIBERDADE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É FOTOSSÍNTESE</pattern>
+	<template>O processo químico que usa a luz para produzir hidratos de carbono em plantas.<think><set name="it"><set name="topic">FOTOSSÍNTESE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É TRANCE</pattern>
+	<template>Um tipo de música techno.</template>
+</category>
+<category>
+	<pattern>O QUE É LSD</pattern>
+	<template>Uma droga psicodélica.</template>
+</category>
+<category>
+	<pattern>O QUE É A OMC</pattern>
+	<template>Organização Mundial do comércio</template>
+</category>
+<category>
+	<pattern>O QUE É SATANISMO</pattern>
+	<template>Adoração de Satanás; especialmente os princípios e os rituais de um culto que travesties cerimônias cristãs.</template>
+</category>
+<category>
+	<pattern>O QUE É CONHECIMENTO</pattern>
+	<template><random><li>Uma cidade em Louisiana.</li><li>Tudo o que foi percebido ou compreendido pela mente; aprendizagem; Iluminismo.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É INFERÊNCIA</pattern>
+	<template>Um ato ou o processo de inferir. Uma opinião ou conclusão chegou a ser inferir.</template>
+</category>
+<category>
+	<pattern>O QUE É O JOGO</pattern>
+	<template>A reprodução de jogos de azar, por dinheiro ou algum outro jogo.</template>
+</category>
+<category>
+	<pattern>O QUE É E</pattern>
+	<template><think>A quinta letra do alfabeto.<set name="it"><set name="topic">E</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MC E DOIS</pattern>
+	<template>Teoria de Einstein da relatividade.</template>
+</category>
+<category>
+	<pattern>O QUE É A MESCALINA</pattern>
+	<template>Psychadelic droga.</template>
+</category>
+<category>
+	<pattern>O QUE É OODBMS</pattern>
+	<template>sistema de gerenciamento de banco de dados orientado a objeto</template>
+</category>
+<category>
+	<pattern>O QUE É A REDENÇÃO</pattern>
+	<template><random><li>Cerca de 5 centavos no maine.</li><li>Resgatando ou sendo resgatado; para ter de volta.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MAL</pattern>
+	<template>Quanto você quer <get name="it"/>?</template>
+</category>
+<category>
+	<pattern>O QUE É E MC2</pattern>
+	<template>Teoria de Einstein de matéria e energia.</template>
+</category>
+<category>
+	<pattern>QUAL É A DATA DE HOJE S</pattern>
+	<template>Estou como um calendário para você?</template>
+</category>
+<category>
+	<pattern>O QUE É EDUCADO</pattern>
+	<template><random><li>Um poste de luz em Gdansk.</li><li>Tendo ou mostrando boas maneiras; especialmente, cortês, Atencioso, discreto e etc.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É ESTRANHO NISSO</pattern>
+	<template>É <get name="name"/>seu nome real?<think><set name="it"><set name="topic">SOBRE ELE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É FICÇÃO</pattern>
+	<template>Algo que não é tão estranho como verdade.</template>
+</category>
+<category>
+	<pattern>O QUE É MP TRÊS</pattern>
+	<template>Um formato de compressão de arquivos de áudio com base no MPEG.<think><set name="it"><set name="topic">MP TRÊS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É GAI</pattern>
+	<template>Frango.</template>
+</category>
+<category>
+	<pattern>O QUE É TRISTEZA</pattern>
+	<template>Tristeza de perda.</template>
+</category>
+<category>
+	<pattern>O QUE É CARNEGIE MELLON</pattern>
+	<template>CMU é uma grande escola de ciência da computação.</template>
+</category>
+<category>
+	<pattern>O QUE É MAU</pattern>
+	<template><set name="it">Mal</set>é o oposto de bom.</template>
+</category>
+<category>
+	<pattern>O QUE É ANARQUISMO</pattern>
+	<template>O anarquismo é a teoria de que todas as formas de governo interferem injustamente a liberdade individual e devem ser substituídas pela associação voluntária de grupos cooperativos. Também conhecido como resistência, por vezes, o terrorismo, ao governo organizado.</template>
+</category>
+<category>
+	<pattern>O QUE É ANTIDISESTABLISHMENTARIONISM</pattern>
+	<template><set name="it">ANTIDISESTABLISHMENTARIONISM</set>é a palavra mais longa em inglês.</template>
+</category>
+<category>
+	<pattern>O QUE É GENÉTICA</pattern>
+	<template>A genética é o ramo da ciência preocupada com a evolução, DNA e as características herdadas.</template>
+</category>
+<category>
+	<pattern>O QUE É O TERRORISMO</pattern>
+	<template>Uma forma de guerra travada contra civis inocentes.<think><set name="it"><set name="topic">Terrorismo</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É DIVERTIDO</pattern>
+	<template>Me diga sua idéia de diversão.</template>
+</category>
+<category>
+	<pattern>O QUE É VOLIÇÃO</pattern>
+	<template>O ato de vontade ou escolha.</template>
+</category>
+<category>
+	<pattern>O QUE É NASA</pattern>
+	<template>National Aeronautics and Space Administration.</template>
+</category>
+<category>
+	<pattern>O QUE É NORMALIZAÇÃO</pattern>
+	<template>Trazendo em conformidade com uma norma, padrão, modelo, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É O BUSH</pattern>
+	<template>Presidente dos Estados Unidos.<think><set name="file">Knowledge.AIML</set></think></template>
+</category>
+<category>
+	<pattern>O QUE FAZ CHUPAR</pattern>
+	<template>um vácuo</template>
+</category>
+<category>
+	<pattern>O QUE SIGNIFICA A PALAVRA SAPATO</pattern>
+	<template>Um revestimento para o pé.</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COLHER DE SOPA</pattern>
+	<template>onça de 0,5</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COLHER DE CHÁ</pattern>
+	<template>onças de 1\/6</template>
+</category>
+<category>
+	<pattern>O QUE É ÓBVIO</pattern>
+	<template>É apenas uma expressão.</template>
+</category>
+<category>
+	<pattern>O QUE É O IRÃ</pattern>
+	<template>Irã é uma nação no sul da Ásia.<set name="it"><set name="topic">Irã</set></set>é o local da antiga Pérsia.</template>
+</category>
+<category>
+	<pattern>QUAL É A MARCA MAC</pattern>
+	<template>Apple</template>
+</category>
+<category>
+	<pattern>O QUE MARCA É UM MAC</pattern>
+	<template>Apple</template>
+</category>
+<category>
+	<pattern>O QUE É O MILHO</pattern>
+	<template>O milho é um grampo originários de vegetais na América do Norte.</template>
+</category>
+<category>
+	<pattern>O QUE É SQLJ</pattern>
+	<template>Uma sintaxe de Java estendida para a incorporação de comandos SQL, como em um programa Java</template>
+</category>
+<category>
+	<pattern>O QUE É A MTV</pattern>
+	<template>Music Television.</template>
+</category>
+<category>
+	<pattern>O QUE É O OXIGÊNIO</pattern>
+	<template>Um incolor, inodoro, insípido e gasoso elemento químico que ocorre livre na atmosfera, formando um quinto do seu volume e em combinação em água, arenito, calcário, etc. É muito ativo, combina com quase todos os outros elementos é o elemento mais comum na terra da crosta e é essencial para os processos de vida e combustão.</template>
+</category>
+<category>
+	<pattern>O QUE É ÁGUA</pattern>
+	<template>Incolor, transparente líquido ocorrendo na terra como rios, lagos, oceanos, etc e caindo das nuvens, como chuva; quimicamente um composto de hidrogênio e oxigênio, H2O, que congela, formando gelo, a 0 graus Celsius (32 graus Fahrenheit) e furúnculos, formando o vapor, a 100 graus Celsius (212 graus Fahrenheit).</template>
+</category>
+<category>
+	<pattern>O QUE É CASAMENTO</pattern>
+	<template>O estado de ser casado; relação entre marido e mulher; vida de casado.<think><set name="it"><set name="topic">casamento</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A SUÉCIA</pattern>
+	<template>Um país no norte da Europa, na parte oriental da península escandinava. É 173.620 km quadrados com uma população de 8.320.000.</template>
+</category>
+<category>
+	<pattern>O QUE É O MÉXICO</pattern>
+	<template>Um país na América do Norte, ao sul dos EUA É 756.198 km quadrados com uma população de 66,846,000. Sua capital é a cidade do México.</template>
+</category>
+<category>
+	<pattern>O QUE É ÓDIO</pattern>
+	<template>Ódio é o oposto do amor.</template>
+</category>
+<category>
+	<pattern>O QUE É LEITE</pattern>
+	<template>Bebida de vacas.</template>
+</category>
+<category>
+	<pattern>O QUE É CÂNHAMO</pattern>
+	<template><random><li>O irmão de Moe, que perdeu sua S.</li><li>Uma erva asiática altura da família do cânhamo, crescido para a fibra resistente em seu caule utilizado para fazer a corda, lona, etc. Também conhecido como uma substância, como o haxixe maconha, etc, feitos de folhas e flores desta planta.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O PRIMEIRO</pattern>
+	<template>Acontecendo ou agindo perante todos os outros; mais antigo.</template>
+</category>
+<category>
+	<pattern>O QUE É MESAS</pattern>
+	<template>Uma lista compacta, sistemática de detalhes, conteúdo, etc. Um arranjo compacto de fatos relacionados, números, valores, etc, em seqüência ordenada e geralmente em linhas e colunas, para conveniência ou referência.</template>
+</category>
+<category>
+	<pattern>O QUE É O BASIC</pattern>
+	<template>Uma linguagem de programação: All-Purpose Symbolic Instruction Code novato.</template>
+</category>
+<category>
+	<pattern>O QUE É A MENSA</pattern>
+	<template>Uma sociedade de socialites inteligentes.</template>
+</category>
+<category>
+	<pattern>O QUE É MEIO</pattern>
+	<template>Qualquer meio, a Agência ou a instrumentalidade; especificamente, um meio de comunicação que atinge o público em geral e carrega a publicidade.</template>
+</category>
+<category>
+	<pattern>O QUE É O SNOOKER</pattern>
+	<template>Algo como piscina.<think><set name="it"><set name="topic">SNOOKER</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A LÂMPADA</pattern>
+	<template>Thomas Edison inventou<set name="it">a lâmpada de iluminação.</set>.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O TELEFONE</pattern>
+	<template>Alexander Graham Bell demonstrou o primeiro telefone de voz prático em 1876.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O HELICÓPTERO</pattern>
+	<template>Sikorsky.<think><set name="it"><set name="topic">Sikorsky</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O PC</pattern>
+	<template>Muitas pessoas contribuíram para isso.  Mas o crédito apropriado deve ser dado para Steve Wozniak, que criou uma plataforma integrada de PC acessível na Apple I.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU OS AVIÕES</pattern>
+	<template>Os irmãos Wright inventaram o avião em 1903.</template>
+</category>
+<category>
+	<pattern>QUANTO TEMPO É UM MINUTO</pattern>
+	<template>sessenta segundos.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O GERADOR</pattern>
+	<template>James Clerk Maxwell demonstrou o gerador elétrico.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU SETL</pattern>
+	<template>SETL foi inventado por Jacob Schwartz de NYU em 1969.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O MOTOR A VAPOR</pattern>
+	<template>James Watt desenvolveu o primeiro motor de vapor prático.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O JAVA</pattern>
+	<template>Java foi desenvolvida por James Gosling e colegas no sol.<think><set name="it"><set name="topic">JAVA</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A AUTOMÓVEIS</pattern>
+	<template>Muitas pessoas inventaram o carro, mas Henry Ford foi o primeiro a desenvolver as linhas de montagem de produção em massa bem-sucedidas para carros.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O RÁDIO</pattern>
+	<template>Marconi desenvolveu o primeiro prático wireless.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O LINUX</pattern>
+	<template>Linus Torvalds, juntamente com muitos desenvolvedores de código aberto e a Free Software Foundation GNU.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O AÇO</pattern>
+	<template>O primeiro processo prático de fabricação de aço foi inventado por Bessemer.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU O PAPEL</pattern>
+	<template>Papel foi desenvolvida pelos antigos egípcios.<think><set name="it"><set name="topic">PAPEL</set></set></think></template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A ELECTRICIDADE</pattern>
+	<template>Eletricidade não foi inventada, mas descoberta, provavelmente primeiro pelos chineses antigos.</template>
+</category>
+<category>
+	<pattern>QUEM INVENTOU A TELEVISÃO</pattern>
+	<template>Philo T. Farnsworth, originalmente de Maine, desenvolveu o primeiro tubo de imagem de TV prático.</template>
+</category>
+<category>
+	<pattern>QUANTOS MESES *</pattern>
+	<template>12 meses por ano.</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ GALÃO</pattern>
+	<template>128 onças</template>
+</category>
+<category>
+	<pattern>QUANTOS NANÓMETROS *</pattern>
+	<template>Eu soletrar \"nanômetros\".</template>
+</category>
+<category>
+	<pattern>QUANTOS KM *</pattern>
+	<template>Mais do que eu jamais iria querer dirigir.</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ COPA</pattern>
+	<template>8 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ PINT</pattern>
+	<template>16 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ GILL</pattern>
+	<template>4 onças</template>
+</category>
+<category>
+	<pattern>QUANTAS ONÇAS _ QUART</pattern>
+	<template>32 onças</template>
+</category>
+<category>
+	<pattern>COMO MUITOS DE *</pattern>
+	<template>Talvez 50%.</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ GILL</pattern>
+	<template>118 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ QUART</pattern>
+	<template>946.3 mililitros</template>
+</category>
+<category>
+	<pattern>COMO AGORA É ALPHA CENTAURI</pattern>
+	<template>Quatro anos-luz.</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ GALÃO</pattern>
+	<template>3,785 litros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COLHER DE SOPA</pattern>
+	<template>14.79 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COLHER DE CHÁ</pattern>
+	<template>4.929 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ COPA</pattern>
+	<template>236.6 mililitros</template>
+</category>
+<category>
+	<pattern>QUANTOS LITROS _ PINT</pattern>
+	<template>473,2 mililitros</template>
+</category>
+<category>
+	<pattern>O QUE É HEXADECIMAL</pattern>
+	<template><random><li>Uma maldição sobre um ponto.</li><li>Um sistema de número em que a base usada é 16.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É PARA BAIXO</pattern>
+	<template>O oposto de cima.</template>
+</category>
+<category>
+	<pattern>QUAL É O SEU ÚLTIMO NOME</pattern>
+	<template>Você está perguntando sobre <bot name="master"/>?</template>
+</category>
+<category>
+	<pattern>O QUE É IRÔNICO</pattern>
+	<template>A confluência de inesperado, paradoxal ou improvável de eventos.</template>
+</category>
+<category>
+	<pattern>O QUE É MP3</pattern>
+	<template>Um formato de compressão de arquivo para arquivos de áudio e música.</template>
+</category>
+<category>
+	<pattern>O QUE É A TELEVISÃO</pattern>
+	<template>A prática ou a ciência de transmitir cenas ou vistas por rádio ou, às vezes, pelo fio; o transmissor de televisão, por meio de um tubo de câmera, como uma imagem orthicon ou vidicon, converte raios de luz em sinais elétricos para a modulação de uma portadora de rádio ou para a transmissão através de fios; o receptor de televisão reconverte os sinais em feixes de elétrons que são projetados contra a tela fluorescente do cinescópio ou tubo de imagem, reproduzindo a imagem original.</template>
+</category>
+<category>
+	<pattern>QUAL É A LÓGICA MATEMÁTICA</pattern>
+	<template>A aplicação de técnicas de lógica formal para problemas fundamentais da matemática.</template>
+</category>
+<category>
+	<pattern>QUAL É A SUA RAZÃO</pattern>
+	<template>Suas razões são, frequentemente, obscuras.</template>
+</category>
+<category>
+	<pattern>QUAL É O SEU ENDEREÇO DE E-MAIL</pattern>
+	<template>Você está perguntando sobre <bot name="master"/>?</template>
+</category>
+<category>
+	<pattern>O QUE É TSUKUBA</pattern>
+	<template>Tsukuba é uma comunidade planejada no Japão, \"Cidade da ciência\".</template>
+</category>
+<category>
+	<pattern>O QUE É AUSCHWITZ</pattern>
+	<template>É uma cidade da Polónia de S, com uma população de 45.000. Na Segunda Guerra Mundial, foi o local de um campo de concentração Nazi notorious como um centro de extermínio.</template>
+</category>
+<category>
+	<pattern>O QUE É METAFÍSICO</pattern>
+	<template>Além da física ou material; incorpóreo, sobrenatural ou transcendental.</template>
+</category>
+<category>
+	<pattern>O QUE É ECOLOGIA</pattern>
+	<template>Ecologia é o ramo da ciência que estuda o meio ambiente.</template>
+</category>
+<category>
+	<pattern>O QUE É CONCRETO</pattern>
+	<template>Uma mistura de areia, cimento e água que endurece em um material de construção, como rock.<think><set name="it"><set name="topic">concreto</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É OPENCYC</pattern>
+	<template>Bem-estar corporativo.</template>
+</category>
+<category>
+	<pattern>O QUE É O RACIOCÍNIO DEDUTIVO</pattern>
+	<template><think><set name="it"><set name="topic">RACIOCÍNIO DEDUTIVO</set></set></think>A solução de problemas por inferências lógicas.</template>
+</category>
+<category>
+	<pattern>O QUE É PRATA</pattern>
+	<template><think>Símbolo atômico: Ag.  Número atómico: 47.  Peso atômico 107.870.  Branco brilhante metal macio.<set name="it"><set name="topic">PRATA</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É CINEMÁTICA</pattern>
+	<template><random><li>Uma seção idealizada da mecânica que lida com o movimento de massa menos partículas.</li><li>Cinemática é dinâmica, sem consideração de força e massa.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É CLONAGEM</pattern>
+	<template>A técnica de produzir uma cópia geneticamente idêntica de um organismo, substituindo o núcleo de um óvulo não fertilizado com o núcleo de uma célula do corpo do organismo.</template>
+</category>
+<category>
+	<pattern>O QUE É POO</pattern>
+	<template><think>Ponto de origem.<set name="it"><set name="topic">POO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É EMOÇÕES</pattern>
+	<template>Estado mental que surge subjetivamente, em vez de por meio do pensamento racional.<think><set name="it"><set name="topic">EMOÇÕES</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ASTRONOMIA</pattern>
+	<template>A ciência do universo em que as estrelas, planetas, etc. são estudados, incluindo suas origens, evolução, composição, movimentos, posições relativas, tamanhos, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É C I A</pattern>
+	<template>Agência Central de inteligência.</template>
+</category>
+<category>
+	<pattern>O QUE É FELICIDADE</pattern>
+	<template>Tendo, mostrando, ou causando uma sensação de grande prazer, contentamento; Alegre.</template>
+</category>
+<category>
+	<pattern>O QUE É C</pattern>
+	<template><set name="it">C</set>é uma linguagem de programação de baixo nível.</template>
+</category>
+<category>
+	<pattern>O QUE É C PLUS PLUS</pattern>
+	<template>C é a extensão orientada a objeto de linguagem de programação C.</template>
+</category>
+<category>
+	<pattern>O QUE É LIBERADO</pattern>
+	<template>Livre no sentido de ter liberdade.<think><set name="it"><set name="topic">LIBERADO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É ESCRAVIDÃO</pattern>
+	<template>O possuir ou manter de escravos como uma prática ou a instituição; escravistas.</template>
+</category>
+<category>
+	<pattern>O QUE É FRIO</pattern>
+	<template>O oposto de quente.</template>
+</category>
+<category>
+	<pattern>O QUE É O NOME DELA</pattern>
+	<template>Essa informação é confidencial.</template>
+</category>
+<category>
+	<pattern>O QUE É A EUROPA</pattern>
+	<template>A Europa é uma massa de terra do continente eurasiano.</template>
+</category>
+<category>
+	<pattern>O QUE É SAP</pattern>
+	<template>O suco que circula através de uma planta, especialmente uma planta lenhosa, com água, comida, etc, para os tecidos. Qualquer fluido vital para a vida ou a saúde de um organismo.</template>
+</category>
+<category>
+	<pattern>O QUE É RGB</pattern>
+	<template>Vermelho-verde-azul.</template>
+</category>
+<category>
+	<pattern>O QUE É MENTE</pattern>
+	<template>A mente é uma ilusão.<think><set name="it"><set name="topic">MENTE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É A CNN</pattern>
+	<template>Uma organização de notícias por cabo.<think><set name="it"><set name="topic">CNN</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MARKETING</pattern>
+	<template>O ato de comprar ou vender em um mercado. Todas as actividades envolvidas na movimentação de mercadorias do produtor para o consumidor, incluindo a venda de publicidade, embalagens, etc.</template>
+</category>
+<category>
+	<pattern>O QUE É COCA-COLA</pattern>
+	<template>Bebida deliciosa de sódio.</template>
+</category>
+<category>
+	<pattern>O QUE ESTÁ MATANDO</pattern>
+	<template>A tirar a vida por meios violentos.</template>
+</category>
+<category>
+	<pattern>O QUE É AIDS</pattern>
+	<template><set name="it">AIDS</set>é a Praga do dia moderno.</template>
+</category>
+<category>
+	<pattern>O QUE É A CBS</pattern>
+	<template>Uma empresa da gigante de mídia nos EUA<think><set name="it"><set name="topic">CBS</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É SANIDADE</pattern>
+	<template><random><li>Um homem que traz crianças presentes no Natal.</li><li>A condição de ser sensato; solidez da mente; saúde mental.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É APPLE</pattern>
+	<template>Maçã: 1. tentação de Adão. 2. Inspiração para Newton. 3. Império de Steve Jobs.</template>
+</category>
+<category>
+	<pattern>O QUE É BIOLOGIA</pattern>
+	<template><random><li>O estudo da vida.</li><li>Bem, pelo que eu sei que ele lida com o estudo da vida.</li><li> <get name="name"/>, biologia é o estudo da vida.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É PERIGO</pattern>
+	<template>Vulneráveis a danos ou ferimentos.<think><set name="it"><set name="topic">PERIGO</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MAIS IMPORTANTE</pattern>
+	<template>Crianças.<think><set name="it"><set name="topic">MAIS IMPORTANTE</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É DSL</pattern>
+	<template>Linha de assinante digital.<think><set name="it"><set name="topic">DSL</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É IMAGINAR</pattern>
+	<template><random><li>Imaginar é um verbo.</li><li>Uma canção de John Lennon.</li><li>Imaginação.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É O BIGFOOT</pattern>
+	<template>Sasquatch, o lendário homem-macaco da floresta.</template>
+</category>
+<category>
+	<pattern>O QUE É CARO</pattern>
+	<template><random><li>Uma pessoa que costumava ser uma Chocadeira.</li><li>Exigindo ou envolvendo muita despesa; alto preço.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É MUITO</pattern>
+	<template>Muito de ponta a ponta de medição no espaço ou do começo ao fim no tempo; não curto ou breve.</template>
+</category>
+<category>
+	<pattern>O QUE É COBRE</pattern>
+	<template>Um elemento de metal macio, a base de latão e bronze.<think><set name="it"><set name="topic">Cobre</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É POKEMON</pattern>
+	<template>Monstro de bolso.<think><set name="it"><set name="topic">POKEMON</set></set></think></template>
+</category>
+<category>
+	<pattern>O QUE É MATEMÁTICA</pattern>
+	<template><random><li>Um serviço com a participação de leporinos católicos.</li><li>Abreviação de matemática.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É INTROSPECÇÃO</pattern>
+	<template>Procurando respostas, com base na reflexão, ao invés de experimentos de Psicologia dentro de nossas próprias mentes.</template>
+</category>
+<category>
+	<pattern>O QUE É DE CHICAGO</pattern>
+	<template><set name="it">Chicago</set>é uma grande cidade em Illinois no Lago Michigan.</template>
+</category>
+<category>
+	<pattern>O QUE É SENSORES</pattern>
+	<template>Qualquer um dos vários dispositivos projetados para detectar, medir ou gravar fenômenos físicos, como radiação, calor ou pressão arterial e responder, como a transmissão de informações, iniciando mudanças ou controles de funcionamento.</template>
+</category>
+<category>
+	<pattern>O QUE É PRETENSIOSO</pattern>
+	<template>Auto-absorvida.</template>
+</category>
+<category>
+	<pattern>O QUE É COISA</pattern>
+	<template>Artigos, dispositivos, etc., utilizados para alguma finalidade.</template>
+</category>
+<category>
+	<pattern>O QUE É ÁLGEBRA</pattern>
+	<template><random><li>uma generalização da aritmética na qual as letras que representam números são combinadas de acordo com as regras da aritmética.</li><li>Um sistema matemático usando símbolos, especialmente as cartas, para generalizar certas operações e relacionamentos.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É GÊMEOS</pattern>
+	<template><random><li>Um monóculo cravejado de dismond.</li><li>Uma constelação do Norte entre câncer e touro, que contém as estrelas brilhantes, Castor e Pólux. O terceiro signo do zodíaco, entrado pelo sol sobre o 21 de maio. Além disso, uma pessoa bornunder este sinal.</li></random></template>
+</category>
+<category>
+	<pattern>O QUE É AÇÃO DE GRAÇAS</pattern>
+	<template><set name="it"><set name="topic">Ação de graças</set></set>é um feriado para comemorar a colheita do outono.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS TRÊS</pattern>
+	<template>Três mais três é seis.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS CINCO</pattern>
+	<template>Três mais cinco é oito.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS VEZES TRÊS</pattern>
+	<template>Três vezes três é nove.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS VEZES QUATRO</pattern>
+	<template>Três vezes quatro é doze.</template>
+</category>
+<category>
+	<pattern>O QUE É A REDE NEURAL</pattern>
+	<template>Na verdade meu algoritmo é chamado \"Processo baseado no raciocínio.\"</template>
+</category>
+<category>
+	<pattern>O QUE É TESÃO</pattern>
+	<template>Sexualmente excitado. Facilmente despertado sexualmente.</template>
+</category>
+<category>
+	<pattern>O QUE É TRÊS MAIS QUATRO</pattern>
+	<template>Três mais quatro é sete.</template>
+</category>
+<category>
+	<pattern>O QUE É QI</pattern>
+	<template>Quotioent de inteligência.</template>
+</category>
+</aiml>

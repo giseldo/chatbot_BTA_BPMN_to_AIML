@@ -1,0 +1,48 @@
+<aiml>
+
+    <category>
+        <pattern>CEREBRO</pattern>
+        <template>
+            <learn>aiml/saudacao.xml</learn>
+            <learn>aiml/cumprimentos.xml</learn>
+
+            <learn>aiml/futuragora/pt-pt-ai.xml</learn>
+            <learn>aiml/futuragora/pt-pt-astrology.xml</learn>
+            <learn>aiml/futuragora/pt-pt-atomic.xml</learn>
+            <learn>aiml/futuragora/pt-pt-biography.xml</learn>
+            <learn>aiml/futuragora/pt-pt-bot.xml</learn>
+            <learn>aiml/futuragora/pt-pt-bot_profile.xml</learn>
+            <learn>aiml/futuragora/pt-pt-client.xml</learn>
+            <learn>aiml/futuragora/pt-pt-computers.xml</learn>
+            <learn>aiml/futuragora/pt-pt-drugs.xml</learn>
+            <learn>aiml/futuragora/pt-pt-emotion.xml</learn>
+            <learn>aiml/futuragora/pt-pt-food.xml</learn>
+            <learn>aiml/futuragora/pt-pt-geography.xml</learn>
+            <learn>aiml/futuragora/pt-pt-history.xml</learn>
+            <learn>aiml/futuragora/pt-pt-iu.xml</learn>
+            <learn>aiml/futuragora/pt-pt-knownlege.xml</learn>
+            <learn>aiml/futuragora/pt-pt-literature.xml</learn>
+            <learn>aiml/futuragora/pt-pt-money.xml</learn>
+            <learn>aiml/futuragora/pt-pt-movies.xml</learn>
+            <learn>aiml/futuragora/pt-pt-mp0.xml</learn>
+            <learn>aiml/futuragora/pt-pt-mp1.xml</learn>
+            <learn>aiml/futuragora/pt-pt-mp2.xml</learn>
+            <learn>aiml/futuragora/pt-pt-mp3.xml</learn>
+            <learn>aiml/futuragora/pt-pt-mp4.xml</learn>
+            <learn>aiml/futuragora/pt-pt-mp5.xml</learn>
+            <learn>aiml/futuragora/pt-pt-mp6.xml</learn>
+            <learn>aiml/futuragora/pt-pt-music.xml</learn>
+            <learn>aiml/futuragora/pt-pt-psychology.xml</learn>
+            <learn>aiml/futuragora/pt-pt-religion.xml</learn>
+            <learn>aiml/futuragora/pt-pt-science.xml</learn>
+
+            <learn>aiml/futuragora/radio.xml</learn>
+            <learn>aiml/futuragora/roltel.xml</learn>
+            <learn>aiml/futuragora/venus.xml</learn>
+            <learn>aiml/futuragora/venus-tretas.xml</learn>
+            <learn>aiml/futuragora/venuscbot.xml</learn>
+
+        </template>
+    </category>
+
+</aiml>

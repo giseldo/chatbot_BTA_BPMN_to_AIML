@@ -11879,7 +11879,7 @@ OK.
 </template>
 </category>
 
-
+<!--
 <category>
 <pattern>SIM</pattern>
 <template>
@@ -11902,7 +11902,7 @@ OK.
 <srai>SIMCONC</srai>
 </template>
 </category>
-
+-->
 
 <category>
 <pattern>* NOTEI</pattern>
@@ -12135,13 +12135,14 @@ Humm.. Não sei não.
 </template>
 </category>
 
-
+<!--
 <category>
 <pattern>NAO</pattern>
 <template>
 <random>  <li>Tá certo!</li>  <li>Ok</li>  <li>Se você diz</li>  <li>Tudo pode acontecer neste mundo, mas você não sei não.. </li></random>
 </template>
 </category>
+-->
 
 
 <category>

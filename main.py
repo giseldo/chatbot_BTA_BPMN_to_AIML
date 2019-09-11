@@ -15,17 +15,14 @@ kernel.respond("CEREBRO")
 def home():
     sessionid = randint(100,1000)
     session['sessionid'] = sessionid
-    print("home: {}".format(sessionid))
     return render_template("index.html")
 
 
 @app.route("/get")
 def get_bot_response():
-    userText = request.args.get('msg')
-    print("userText: {}".format(userText))
+    usertext = request.args.get('msg')
     sessionid = session.get('sessionid')
-    print("get: {}".format(sessionid))
-    saida = kernel.respond(userText, sessionid)
+    saida = kernel.respond(usertext, sessionid)
     return str(saida)
 
 

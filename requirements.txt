@@ -4,7 +4,6 @@ certifi==2019.6.16
 chardet==3.0.4
 Click==7.0
 cymem==2.0.2
-en-core-web-sm==2.1.0
 Flask==1.1.1
 freeze==1.0.10
 idna==2.8

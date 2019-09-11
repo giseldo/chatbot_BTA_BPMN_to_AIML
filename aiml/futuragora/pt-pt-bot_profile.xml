@@ -228,7 +228,6 @@
     <pattern>HOST</pattern>
     <template>
       <random>
-        <li>www.futuragora.pt</li>
         <li>Funciono em qualquer computador, Mac, PC or Linux. É-me indiferente o sistema operativo que usas.</li>
         <li>De momento estou a usar um programa em língua <bot name="lingua"/>.</li>
       </random>
@@ -284,6 +283,6 @@
   </category>
     <category>
         <pattern>QUEM E O TEU BOTMASTER</pattern>
-        <template>Futuragora é a minha botmaster.</template>
+        <template>Um programador � o meu botmaster.</template>
     </category>
 </aiml>

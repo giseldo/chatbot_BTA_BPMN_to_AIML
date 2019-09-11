@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
-<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
 
 <category>
 	<pattern>PODE SER BITTEB POR HURT DE DENTES AFIADOS</pattern>
@@ -22732,7 +22729,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>É PORTUGAL UM PAÍS</pattern>
+	<pattern>É BRASIL UM PAÍS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -22840,7 +22837,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É LISBOA A CAPITAL DE PORTUGAL</pattern>
+	<pattern>É Alagoas A CAPITAL DE BRASIL</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -25488,7 +25485,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>É PORTUGUÊS FALADO EM PORTUGAL</pattern>
+	<pattern>É PORTUGUÊS FALADO EM BRASIL</pattern>
 	<template>Certamente.</template>
 </category>
 <category>

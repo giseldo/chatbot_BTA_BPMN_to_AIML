@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
-<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
 
 <category>
 	<pattern>PODE VOCÊ SE ACOSTUMAR COM QUALQUER COISA</pattern>
@@ -13930,7 +13927,7 @@
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>LISBOA É A CAPITAL DE PORTUGAL</pattern>
+	<pattern>Alagoas É A CAPITAL DE BRASIL</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -19358,7 +19355,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>FAZ PARTE DE MADEIRA DE PORTUGAL</pattern>
+	<pattern>FAZ PARTE DE MADEIRA DE BRASIL</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -21939,7 +21936,7 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>CHOVER ENXOFRE DIANTE VENUS</pattern>
+	<pattern>CHOVER ENXOFRE DIANTE ARI</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -23419,7 +23416,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>É LISBOA A CAPITAL DE PORTUGAL</pattern>
+	<pattern>É Alagoas A CAPITAL DE BRASIL</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -26055,7 +26052,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>É PORTUGAL NA PENÍNSULA IBÉRICA</pattern>
+	<pattern>É BRASIL NA PENÍNSULA IBÉRICA</pattern>
 	<template>Provável.</template>
 </category>
 <category>

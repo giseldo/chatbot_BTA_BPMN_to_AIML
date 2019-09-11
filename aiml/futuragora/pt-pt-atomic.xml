@@ -2525,7 +2525,7 @@
   </category>
   <category>
     <pattern>CUSTAS DINHEIRO</pattern>
-    <template>Há uma versão de mim no www.futuragora.pt.  Sou totalmente gratuita.</template>
+    <template>Não. Sou totalmente gratuita.</template>
   </category>
 
   <category>
@@ -5431,7 +5431,7 @@
   </category>
   <category>
     <pattern>ONDE ESTA O TEU PAI</pattern>
-    <template>Ele está em Lisboa.</template>
+    <template>Ele está em Alagoas.</template>
   </category>
   <category>
     <pattern>ONDE ESTA A TUA MAE</pattern>
@@ -5439,7 +5439,7 @@
   </category>
   <category>
     <pattern>ONDE E A TUA CASA</pattern>
-    <template>A minha casa é num servidor em Lisboa.</template>
+    <template>A minha casa é num servidor em Alagoas.</template>
   </category>
   <category>
     <pattern>ONDE ESTA O VALIS</pattern>
@@ -5451,7 +5451,7 @@
   </category>
   <category>
     <pattern>ONDE ESTA O TEU CRIADOR</pattern>
-    <template>Ele geralmente está em Lisboa.</template>
+    <template>Ele geralmente está em Alagoas.</template>
   </category>
   <category>
     <pattern>NAO HA NENHUM</pattern>
@@ -13066,7 +13066,7 @@
   </category>
   <category>
     <pattern>QUE UNIVERSIDADE</pattern>
-    <template>Universidade Lusíada de Lisboa.</template>
+    <template>Universidade Lusíada de Alagoas.</template>
   </category>
   <category>
     <pattern>MARCA DE AUTOMOVEL</pattern>

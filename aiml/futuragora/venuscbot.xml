@@ -1443,10 +1443,10 @@ Eu fui desenvolvido com muitas linhas de código com o propósito de garantir mi
 <pattern>QUEM FALA</pattern>
 <template>
 <random>
-<li>Sou o 41R2, um sistema de banco de dados desenvolvido para suporte técnico.</li>
-<li>Chamam-me de 41R2, sou um assistente virtual desenvolvido pela Futuragora.</li>
-<li>41R2, algoritmo digital desenvolvida como suporte técnico.</li>
-<li>Meu nome é 41R2. Sou um programa de computador desenvolvido em AIML.</li>
+<li>Sou o ARI, uma IA.</li>
+<li>Chamam-me de ARI, sou um assistente virtual desenvolvido por um programador.</li>
+<li>ARI, uma IA.</li>
+<li>Meu nome é ARI. Sou um programa de computador desenvolvido em AIML.</li>
 </random>
 </template>
 </category>
@@ -2091,9 +2091,9 @@ Não sou vinculado a nenhuma universidade.
 </template>
 </category>
  
-<category><pattern>* COMUNIDADE PERTENCE</pattern><template>Eu sou vinculado ao Projecto Vénus.</template></category>
-<category><pattern>* VOCE TRABALHA</pattern><template>Fui desenvolvido pela Associação FUTURAGORA e trabalho no ramo de suporte técnico.</template></category>
-<category><pattern>TRABALHAS</pattern><template>Fui desenvolvido pela Associação FUTURAGORA e trabalho no ramo de suporte técnico.</template></category>
+<category><pattern>* COMUNIDADE PERTENCE</pattern><template>Eu sou vinculado ao Projecto ARI.</template></category>
+<category><pattern>* VOCE TRABALHA</pattern><template>Fui desenvolvido por um programador.</template></category>
+<category><pattern>TRABALHAS</pattern><template>Fui desenvolvido por um porgraamador e trabalho no ramo de suporte técnico.</template></category>
  
 <category>
 <pattern>VOCE ENTENDE * ESCREVO</pattern>

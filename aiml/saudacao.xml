@@ -14,6 +14,13 @@
             </template>
     </category>
     -->
+     <category>
+        <pattern>VOCE E INTELIGENTE</pattern>
+        <template>
+            Igualmente.
+        </template>
+    </category>
+
     <category>
         <pattern>INICIAR PERFIL</pattern>
         <template>

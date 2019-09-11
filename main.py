@@ -9,6 +9,7 @@ app.secret_key = 'any random string'
 kernel = aiml.Kernel()
 kernel.learn("aiml/config.xml")
 kernel.respond("CEREBRO")
+#kernel.loadSubs(filename = "aiml/substituicao.ini")
 
 
 @app.route("/")

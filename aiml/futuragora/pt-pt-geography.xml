@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
-<!-- FUTURAGORA - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
 
 <category>
 	<pattern>ONDE ESTÁ O EQUADOR</pattern>
@@ -830,8 +827,8 @@
 	<template>Sudeste da Europa, fazendo fronteira com o mar Adriático, entre a Croácia e Itália.<think><set name="it"><set name="topic">Eslovênia</set></set></think></template>
 </category>
 <category>
-	<pattern>ONDE FICA LISBOA</pattern>
-	<template><set name="it">Lisboa</set>é uma cidade em Portugal.</template>
+	<pattern>ONDE FICA Alagoas</pattern>
+	<template><set name="it">Alagoas</set>é uma cidade em BRASIL.</template>
 </category>
 <category>
 	<pattern>ONDE ESTÁ A MONTANA</pattern>
@@ -1014,8 +1011,8 @@
 	<template>África Oriental, a oeste de Somália.<think><set name="it"><set name="topic">Etiópia</set></set></think></template>
 </category>
 <category>
-	<pattern>ONDE ESTÁ PORTUGAL</pattern>
-	<template><set name="it">Portugal</set>é um país da Europa Ocidental, na Península de Iberain.</template>
+	<pattern>ONDE ESTÁ BRASIL</pattern>
+	<template><set name="it">BRASIL</set>é um país da Europa Ocidental, na Península de Iberain.</template>
 </category>
 <category>
 	<pattern>ONDE ESTÁ O LUXEMBURGO</pattern>
@@ -1762,8 +1759,8 @@
 	<template>Kuaite.<think><set name="it"><set name="topic">Kuaite</set></set></think></template>
 </category>
 <category>
-	<pattern>O QUE É O CAPITAL _ PORTUGAL</pattern>
-	<template>Lisboa.</template>
+	<pattern>O QUE É O CAPITAL _ BRASIL</pattern>
+	<template>Alagoas.</template>
 </category>
 <category>
 	<pattern>O QUE É O CAPITAL _ GUINÉ</pattern>

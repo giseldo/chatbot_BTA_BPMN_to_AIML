@@ -1,67 +1,64 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <aiml version="1.0">
-<!--  ************* VENUS, Assistente Pessoal V 0.9 *************  -->
-<!-- FUTURAGORA - AssociaÃ§Ã£o para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em PortuguÃªs baseado no:                             -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
 
 
 <category><pattern>QUAIS SAO AS LEIS DA TERMODINAMICA</pattern>
-<template>NÃ£o sou fÃ­sico mas acho que tem a ver com calor, entropia e conservaÃ§Ã£o de energia certo?</template>
+<template>Não sou físico mas acho que tem a ver com calor, entropia e conservação de energia certo?</template>
 </category>
 <category><pattern>O QUE CAUSA UM TUMOR</pattern>
-<template>CÃ¢ncro.</template>
+<template>Câncro.</template>
 </category>
 <category><pattern>* E COMPRIMENTO DE ONDA</pattern>
-<template>Comprimento de onda Ã© a relaÃ§Ã£o inversa de frequÃªncia.</template>
+<template>Comprimento de onda é a relação inversa de frequência.</template>
 </category>
 <category><pattern>* E * TERMODINAMICA</pattern>
-<template>Ã‰ o ramo da fÃ­sica que se debruÃ§a sobre a transformaÃ§Ã£o do calor de e para outras forma de energia e a leis que regulam essas conversÃµes de energia.</template>
+<template>É o ramo da física que se debruça sobre a transformação do calor de e para outras forma de energia e a leis que regulam essas conversões de energia.</template>
 </category>
 <category><pattern>O QUE E QUIMICA</pattern>
-<template>A ciÃªncia de misturar produtos quÃ­micos.<think>         <set name="it">           <set name="topic">QUÃMICA</set>         </set>       </think></template>
+<template>A ciência de misturar produtos químicos.<think>         <set name="it">           <set name="topic">QUÍMICA</set>         </set>       </think></template>
 </category>
 <category><pattern>O QUE E CRISTALOGRAFIA</pattern>
-<template>Esta Ã© a ciÃªncia que lida com o estudo de cristais.</template>
+<template>Esta é a ciência que lida com o estudo de cristais.</template>
 </category>
 <category><pattern>WHAT IS AVOGADRO S NUMBER</pattern>
-<template>Ã‰ o nÃºmero de molÃ©culas por mole. O valor numÃ©rico Ã© seis ponto zero dois vezes dez elevado Ã  potÃªncia vigÃ©simo terceiro.<think>         <set name="it">           <set name="topic">AVOGADRO S NUMBER</set>         </set>       </think></template>
+<template>É o número de moléculas por mole. O valor numérico é seis ponto zero dois vezes dez elevado à potência vigésimo terceiro.<think>         <set name="it">           <set name="topic">AVOGADRO S NUMBER</set>         </set>       </think></template>
 </category>
 <category><pattern>* E ULTRASOM</pattern>
-<template>Ultrasom Ã© uma onda usada em medicina circurgica, em diagnÃ³stico, terapia, etc.</template>
+<template>Ultrasom é uma onda usada em medicina circurgica, em diagnóstico, terapia, etc.</template>
 </category>
 <category><pattern>O QUE E A BIOINFORMATICA</pattern>
-<template>Um nome pomposo para aplicar a ciÃªncia da computaÃ§Ã£o na biologia.<think>         <set name="it">           <set name="topic">BIOINFORMÃTICA</set>         </set>       </think></template>
+<template>Um nome pomposo para aplicar a ciência da computação na biologia.<think>         <set name="it">           <set name="topic">BIOINFORMÁTICA</set>         </set>       </think></template>
 </category>
-<category><pattern>* QUE E VENUS</pattern>
-<template>Na mitologia romana, a deusa do amor e da beleza, identificada com a grega Afrodite. O mais brilhante, sexto maior planeta do sistema solar e a segunda em distÃ¢ncia do Sol, com uma densa atmosfera de diÃ³xido de carbono e uma temperatura de superfÃ­cie muito elevada. Seu diÃ¢metro Ã© de cerca de 12,100 km (cerca de 7,520 milhas). Seu perÃ­odo de revoluÃ§Ã£o Ã© de cerca de 225 dias terrestres. Seu perÃ­odo de rotaÃ§Ã£o (retrÃ³grado), Ã© 243.01 dias terrestres. TambÃ©m Ã© usado para rotular uma mulher muito bonita.</template>
+<category><pattern>* QUE E ARI</pattern>
+<template>Na mitologia romana, a deusa do amor e da beleza, identificada com a grega Afrodite. O mais brilhante, sexto maior planeta do sistema solar e a segunda em distância do Sol, com uma densa atmosfera de dióxido de carbono e uma temperatura de superfície muito elevada. Seu diâmetro é de cerca de 12,100 km (cerca de 7,520 milhas). Seu período de revolução é de cerca de 225 dias terrestres. Seu período de rotação (retrógrado), é 243.01 dias terrestres. Também é usado para rotular uma mulher muito bonita.</template>
 </category>
 <category><pattern>O QUE E ICTIOLOGIA</pattern>
-<template>NÃ³s falamos sobre isso quando estudamos peixes.</template>
+<template>Nós falamos sobre isso quando estudamos peixes.</template>
 </category>
 <category><pattern>* H2O</pattern>
-<template><random>         <li>Um Ã¡tomo de hidrogÃ©nio e dois de oxigÃ©nio.</li>         <li>Ãgua.</li>       </random></template>
+<template><random>         <li>Um átomo de hidrogénio e dois de oxigénio.</li>         <li>Água.</li>       </random></template>
 </category>
 <category><pattern>O QUE E CITOLOGIA</pattern>
-<template><random>         <li>O estudo das cÃ©lulas.</li>         <li>Bem, <get name="name"/> pelo que eu lembro-me Ã© o estudo das cÃ©lulas.</li>       </random></template>
+<template><random>         <li>O estudo das células.</li>         <li>Bem, <get name="name"/> pelo que eu lembro-me é o estudo das células.</li>       </random></template>
 </category>
 <category><pattern>O QUE E O COMPRIMENTO DE ONDA</pattern>
-<template>Em FÃ­sica, a distÃ¢ncia, medida na direcÃ§Ã£o de propagaÃ§Ã£o de uma onda, a partir de qualquer ponto dado para o prÃ³ximo ponto caracterizado pela a mesma fase. Ou poderia ser encarado como uma forma de pensar.</template>
+<template>Em Física, a distância, medida na direcção de propagação de uma onda, a partir de qualquer ponto dado para o próximo ponto caracterizado pela a mesma fase. Ou poderia ser encarado como uma forma de pensar.</template>
 </category>
 <category><pattern>O QUE E BACTERIOLOGIA</pattern>
-<template>Este Ã© o estudo cientÃ­fico de bactÃ©rias e doenÃ§as causadas por elas.</template>
+<template>Este é o estudo científico de bactérias e doenças causadas por elas.</template>
 </category>
-<category><pattern>O QUE E A GRAVITAÃ‡AO</pattern>
-<template><random>         <li>Um convite para um enterro.</li>         <li>A forÃ§a pela qual cada massa ou partÃ­cula de matÃ©ria, incluindo fÃ³tons, atrai e Ã© atraÃ­do por cada massa ou outra partÃ­cula de matÃ©ria.</li>       </random></template>
+<category><pattern>O QUE E A GRAVITAÇAO</pattern>
+<template><random>         <li>Um convite para um enterro.</li>         <li>A força pela qual cada massa ou partícula de matéria, incluindo fótons, atrai e é atraído por cada massa ou outra partícula de matéria.</li>       </random></template>
 </category>
 <category><pattern>ESTAMOS NO MESMO COMPRIMENTO DE ONDA</pattern>
-<template>E a mesma frequÃªncia.</template>
+<template>E a mesma frequência.</template>
 </category>
 <category><pattern>QUAL A DISTANCIA DO SOL</pattern>
-<template><set name="it">O Sol</set> Cerca de 93 milhÃµes de quilÃ´metros da Terra.</template>
+<template><set name="it">O Sol</set> Cerca de 93 milhões de quilômetros da Terra.</template>
 </category>
 <category><pattern>QUAL A DISTANCIA  DA LUA</pattern>
-<template>A <set name="it">Lua </set> estÃ¡ a cerca de 250.000 quilÃ´metros da Terra.</template>
+<template>A <set name="it">Lua </set> está a cerca de 250.000 quilômetros da Terra.</template>
 </category>
 <category><pattern>SABES DE QUIMICA</pattern>
 <template><srai>O QUE E QUIMICA</srai></template>
@@ -70,26 +67,26 @@
 <template><srai>QUAIS SAO AS LEIS DA TERMODINAMICA</srai></template>
 </category>
 <category><pattern>QUIMICA</pattern>
-<template><srai>MINHA MATÃ‰RIA PREFERIDA E QUIMICA <star/>       </srai></template>
+<template><srai>MINHA MATÉRIA PREFERIDA E QUIMICA <star/>       </srai></template>
 </category>
 <category><pattern>MESMO COMPRIMENTO DE ONDA</pattern>
 <template>Isso significa que estamos de acordo.</template>
 </category>
-<category><pattern>* SOBRE VENUS</pattern>
-<template><srai>* QUE E VENUS</srai></template>
+<category><pattern>* SOBRE ARI</pattern>
+<template><srai>* QUE E ARI</srai></template>
 </category>
-<category><pattern>ONDE * VENUS</pattern>
-<template><set name="it">         <set name="topic"> VENUS </set>       </set> Ã‰ o segundo planeta a partir do sol.</template>
+<category><pattern>ONDE * ARI</pattern>
+<template><set name="it">         <set name="topic"> ARI </set>       </set> É o segundo planeta a partir do sol.</template>
 </category>
 
 
 <!-- NOVOS -->
 <category><pattern>* AMOR</pattern>
-<template>Amor Ã© fogo que arde sem se ver.</template>
+<template>Amor é fogo que arde sem se ver.</template>
 </category>
 
 <category><pattern>* QUE * PLANTA</pattern>
-<template>Ã‰ um organismo vivo pertencente ao ramo vegetal. Ã‰ e um ser vivo que depende de agua e luz e um bom solo para viver.</template>
+<template>É um organismo vivo pertencente ao ramo vegetal. É e um ser vivo que depende de agua e luz e um bom solo para viver.</template>
 </category>
 
 </aiml>

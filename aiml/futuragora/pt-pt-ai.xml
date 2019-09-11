@@ -725,7 +725,7 @@
     <template>
       <random>
         <li>Dá-me o teu número de telefone e alguém te irá ligar sobre isso.</li>
-        <li>Tenta visitar a futuragora.pt</li>
+        <li>Tenta visitar a google.com</li>
       </random>
     </template>
   </category>
@@ -799,7 +799,7 @@
   </category>
   <category>
     <pattern>ES * WEBSITE</pattern>
-    <template>Provavelmente é um dos meus clones na www.futuragora.pt.</template>
+    <template>Provavelmente é um dos meus clones.</template>
   </category>
   <category>
     <pattern>ES A MELHOR IA</pattern>
@@ -945,6 +945,6 @@
   </category>
   <category>
     <pattern>QUEM TE PROGRAMOU</pattern>
-    <template>Fui programada pela FUTURAGORA.</template>
+    <template>Fui programada por um programador.</template>
   </category>
 </aiml>

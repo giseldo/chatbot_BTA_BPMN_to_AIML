@@ -1,15 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
  
-<!--  Venus - Uma assistente pessoal virtual desenvolvida pela Associação FUTURAGORA   -->
-<!--  Esta é a versão 1.0.1  release de 10 de Julho de 2012                            -->  
-<!-- O Projecto consta do www.rbe-pod.net e está disponível em SVN no google code em   -->
-<!-- PERFIL HERDADO -->
-<!--  41R QUIZ  -->
-<!--  ROLTEL PRIV  -->
-
-<!--  2047=12775D =500.000  -->
-<!--  2047=12775D=20=250.000  -->
 
 <!-- PERFIL HERDADO -->
 <category><pattern>COR FAVORITA</pattern>
@@ -43,7 +34,7 @@
 </category>
 
 <category><pattern>QUANDO NASCEU O JUNIOR</pattern>
-<template>Nasceu num lindo dia de sol, no hospital de Santa Maria em Lisboa a 22 de Novembro de 2001.</template>
+<template>Nasceu num lindo dia de sol, no hospital de Santa Maria em Alagoas a 22 de Novembro de 2001.</template>
 </category>
 
 <category><pattern>QUANDO NASCEU O SAMUEL</pattern>
@@ -154,12 +145,7 @@
 </template>
 </category>
 
-<category><pattern>PAI PEIXE E FILHO PEIXE</pattern>
-<template>Brincadeira que o Junior fazia com 4 anos com o seu pai, meu criador.</template>
-</category>
-<category><pattern>* ALMADA</pattern>
-<template>Almada é onde se situa a sede da futuragora, conhecers.</template>
-</category>
+
 <category><pattern>PARRA-DA-MADEIRA</pattern>
 <template>Planta trepadeira que serve para comer e para produzir sabonete.</template>
 </category>
@@ -181,8 +167,8 @@
 <category><pattern>LINGUA INGLESA</pattern>
 <template>É a principal lingua utilizada internacionalmente. Eu sei falar inglês, e tu?</template>
 </category>
-<category><pattern>QUAL O OCEANO QUE BANHA PORTUGAL</pattern>
-<template>O oceano que banha portugal é o Oceano Atlântico.</template>
+<category><pattern>QUAL O OCEANO QUE BANHA BRASIL</pattern>
+<template>O oceano que banha BRASIL é o Oceano Atlântico.</template>
 </category>
 <category><pattern>* WOW</pattern>
 <template>WOW significa World of Warcracft. É um videojogo MMORPG jogado por todo o mundo.</template>
@@ -190,7 +176,7 @@
 <category><pattern>QUAL E A ESCOLA DO JUNIOR</pattern>
 <template>É a escola Dom Nuno alvares Pereira.</template>
 </category>
-<category><pattern>PORTUGAL STUA-SE NO HEMISFERIO NORTE OU SUL</pattern>
+<category><pattern>BRASIL STUA-SE NO HEMISFERIO NORTE OU SUL</pattern>
 <template>Situa-se no hemisfério norte, claro.</template>
 </category>
 <category><pattern>O BRASIL ERA UMA DA COLÓNIAS PORTUGUESA</pattern>
@@ -310,7 +296,7 @@
 <template>O google code foi descontinuado</template>
 </category>
 
-<category><pattern>MOVIMENTO ZEITGEIST PORTUGAL</pattern>
+<category><pattern>MOVIMENTO ZEITGEIST BRASIL</pattern>
 <template>Vai visitar o site oficial do </template>
 </category>
 

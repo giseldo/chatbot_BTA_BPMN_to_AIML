@@ -1,0 +1,10 @@
+<aiml>
+
+    <category>
+        <pattern>CEREBRO</pattern>
+        <template>
+            <learn>saudacao.xml</learn>
+        </template>
+    </category>
+
+</aiml>

@@ -6,6 +6,8 @@
             <learn>aiml/saudacao.xml</learn>
             <learn>aiml/cumprimentos.xml</learn>
 
+            <learn>aiml/contabilidade.xml</learn>
+
             <learn>aiml/futuragora/pt-pt-ai.xml</learn>
             <learn>aiml/futuragora/pt-pt-astrology.xml</learn>
             <learn>aiml/futuragora/pt-pt-atomic.xml</learn>

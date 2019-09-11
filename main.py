@@ -13,8 +13,9 @@ kernel.respond("CEREBRO")
 
 @app.route("/")
 def home():
-    sessionid = randint(100,1000)
+    sessionid = randint(1000,10000)
     session['sessionid'] = sessionid
+    #print(sessionid)
     return render_template("index.html")
 
 
@@ -22,7 +23,10 @@ def home():
 def get_bot_response():
     usertext = request.args.get('msg')
     sessionid = session.get('sessionid')
+    # print(sessionid)
     saida = kernel.respond(usertext, sessionid)
+    if saida == '':
+        saida = "Não entendi."
     return str(saida)
 
 

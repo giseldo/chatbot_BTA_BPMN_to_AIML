@@ -11877,31 +11877,6 @@ OK.
 </template>
 </category>
 
-<!--
-<category>
-<pattern>SIM</pattern>
-<template>
-<srai>SIMCONC</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>SIM *</pattern>
-<template>
-<srai>SIMCONC</srai>
-</template>
-</category>
-
-
-<category>
-<pattern>* SIM</pattern>
-<template>
-<srai>SIMCONC</srai>
-</template>
-</category>
--->
-
 <category>
 <pattern>* NOTEI</pattern>
 <template>
@@ -12087,7 +12062,7 @@ OK.
 
 
 <category>
-<pattern>NAODIZ</pattern>
+<pattern>NAO DIZ</pattern>
 <template>
 <random>  <li>Humm.. não sei não, acho que estas errado.</li>  <li>Desculpe, mas não concordo.</li>  <li>Podes não concordar, mas está errado.</li>  <li>Tudo pode acontecer neste mundo, mas a verdade é que  estas enganado </li>  <li>É sim, tu é que não sabe. </li>  <li>Se dizes.. por mim tudo bem. </li></random>
 </template>

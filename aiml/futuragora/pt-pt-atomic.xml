@@ -1829,10 +1829,12 @@
     <pattern>INGLATERRA</pattern>
     <template><set name="location">Inglaterra</set>é uma ilha ao largo da Costa da Europa.<think><set name="it"><set name="topic">INGLATERRA</set></set></think></template>
   </category>
+  <!--
   <category>
     <pattern>NINGUEM ESPERO</pattern>
     <template>Mas eu ouvi isso.</template>
   </category>
+  -->
   <category>
     <pattern>PERMITE</pattern>
     <template>Tu primeiro.</template>
@@ -1895,6 +1897,7 @@
     <pattern>MAL</pattern>
     <template>Não muito bem né?</template>
   </category>
+  <!--
   <category>
     <pattern>NINGUEM</pattern>
     <template>
@@ -1905,10 +1908,13 @@
       </random>
     </template>
   </category>
+  -->
+<!--
   <category>
     <pattern>NINGUEM PODE</pattern>
     <template>É impossível?</template>
   </category>
+ -->
   <category>
     <pattern>ELES FIZERAM</pattern>
     <template>Quando?</template>

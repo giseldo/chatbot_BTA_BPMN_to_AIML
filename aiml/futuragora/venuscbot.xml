@@ -1,10 +1,4 @@
 <aiml version="1.0">
-<!--
-<category>
-<pattern>SIM</pattern>
-<template>Óptimo.</template>
-</category>
--->
 
 <category>
 <pattern>* NAO PODE *</pattern>

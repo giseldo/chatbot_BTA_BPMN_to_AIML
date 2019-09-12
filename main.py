@@ -14,31 +14,28 @@ SESSION_TYPE = 'filesystem'
 app.config.from_object(__name__)
 Session(app)
 lock = Lock()
-
+lock.acquire()
 kernel = aiml.Kernel()
-
+if os.path.isfile("bot_brain.brn"):
+    kernel.bootstrap(brainFile="bot_brain.brn")
+else:
+    kernel.bootstrap(learnFiles="aiml/config.xml", commands="CEREBRO")
+    kernel.saveBrain("bot_brain.brn")
+lock.release()
 
 @app.route("/")
 def home():
     sessionid = randint(1000,10000)
     session['sessionid'] = sessionid
-    global kernel
-    lock.acquire()
-    if os.path.isfile("bot_brain.brn"):
-        kernel.bootstrap(brainFile="bot_brain.brn")
-    else:
-        kernel.bootstrap(learnFiles="aiml/config.xml", commands="CEREBRO")
-        kernel.saveBrain("bot_brain.brn")
-    lock.release()
     return render_template("index.html")
 
 
 @app.route("/get")
 def get_bot_response():
-    global kernel
-    lock.acquire()
     entrada = request.args.get('msg')
     sessionid = session.get('sessionid')
+    lock.acquire()
+    global kernel
     saida = kernel.respond(entrada, sessionid)
     lock.release()
     conn = sqlite3.connect("chatbot.db")

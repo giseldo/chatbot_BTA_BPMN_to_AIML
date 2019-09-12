@@ -1,37 +1,52 @@
 from flask import Flask, render_template, request, session
-
+from threading import Lock
+from flask_session import Session
+from random import *
+import sqlite3
 import aiml
 import os
-from random import *
+import datetime
+
 
 app = Flask(__name__)
 app.secret_key = 'any random string'
+SESSION_TYPE = 'filesystem'
+app.config.from_object(__name__)
+Session(app)
+lock = Lock()
 
 kernel = aiml.Kernel()
-#kernel.learn("aiml/config.xml")
-#kernel.respond("CEREBRO")
-#kernel.loadSubs(filename = "aiml/substituicao.ini")
 
-if os.path.isfile("bot_brain.brn"):
-    kernel.bootstrap(brainFile = "bot_brain.brn")
-else:
-    kernel.bootstrap(learnFiles = "aiml/config.xml", commands = "CEREBRO")
-    kernel.saveBrain("bot_brain.brn")
 
 @app.route("/")
 def home():
     sessionid = randint(1000,10000)
     session['sessionid'] = sessionid
-    #print(sessionid)
+    global kernel
+    lock.acquire()
+    if os.path.isfile("bot_brain.brn"):
+        kernel.bootstrap(brainFile="bot_brain.brn")
+    else:
+        kernel.bootstrap(learnFiles="aiml/config.xml", commands="CEREBRO")
+        kernel.saveBrain("bot_brain.brn")
+    lock.release()
     return render_template("index.html")
 
 
 @app.route("/get")
 def get_bot_response():
-    usertext = request.args.get('msg')
+    global kernel
+    lock.acquire()
+    entrada = request.args.get('msg')
     sessionid = session.get('sessionid')
-    # print(sessionid)
-    saida = kernel.respond(usertext, sessionid)
+    saida = kernel.respond(entrada, sessionid)
+    lock.release()
+    conn = sqlite3.connect("chatbot.db")
+    cursor = conn.cursor()
+    datetime_object = datetime.datetime.now()
+    cursor.execute("insert into log values (?, ?, ?, ?)", (sessionid, entrada, saida, datetime_object))
+    conn.commit()
+    conn.close()
     if saida == '':
         saida = "Não entendi."
     return str(saida)

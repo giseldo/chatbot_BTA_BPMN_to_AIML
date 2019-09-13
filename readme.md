@@ -7,6 +7,7 @@ Este chatbot utiliza
 * spacy 
 
 # Configurações
+* pip install -r requirements.txt
 * pip install aiml
 * pip install flask
 * pip install spacy

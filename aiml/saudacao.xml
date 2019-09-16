@@ -52,7 +52,7 @@
         <category>
             <pattern>*</pattern>
             <that>VOU FAZER ALGUMAS PERGUNTAS *</that>
-            <template>Foi bom conversar com você.: (saiu do topico perfil1)</template>
+            <template>Foi bom conversar com você.: (saiu do topico perfil1) - <star index=1></star></template>
         </category>
 
     </topic>

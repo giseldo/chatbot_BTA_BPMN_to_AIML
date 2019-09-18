@@ -96,7 +96,6 @@ app = Flask(__name__)
 
 REST_CLIENT = FlaskRestBotClient("flask")
 
-print("Initiating Flask REST Service...")
 
 @app.route("/")
 def index():

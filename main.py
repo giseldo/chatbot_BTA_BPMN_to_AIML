@@ -1,40 +1,76 @@
-import json
-import requests
+
 
 from flask import Flask, render_template, request, session
-from flask_session import Session
 from random import *
-import db
-from botty import Botty
-from werkzeug.wsgi import responder
-
-from programy.clients.events.console.client import ConsoleBotClient
-from programy.config.file.yaml_file import YamlConfigurationFile
-from programy.config.programy import ProgramyConfiguration
-from programy.clients.args import CommandLineClientArguments
+from MockArgumentsGiseldo import MockArgumentParserGiseldo
+from programy.utils.logging.ylogger import YLogger
+from programy.clients.events.client import EventBotClient
+from programy.clients.events.console.config import ConsoleConfiguration
 
 app = Flask(__name__)
 app.secret_key = 'any random string'
 
-class MyEmbeddedBot(ConsoleBotClient):
 
-    def __init__(self, config_filename):
-        self._config_filename = config_filename
-        ConsoleBotClient.__init__(self, "Console")
+class ConsoleBotClientGiseldo(EventBotClient):
 
-    def parse_arguments(self, argument_parser):
-        client_args = CommandLineClientArguments(self, parser=None)
-        return client_args
+    def __init__(self, argument_parser=None):
+        self.running = False
+        c = MockArgumentParserGiseldo()
+        EventBotClient.__init__(self, "Console", c)
 
-    def load_configuration(self, arguments):
+    def get_client_configuration(self):
+        return ConsoleConfiguration()
 
-        client_config = self.get_client_configuration()
-        self._configuration = ProgramyConfiguration(client_config)
+    def add_client_arguments(self, parser=None):
+        return
 
-        yaml_file = YamlConfigurationFile()
-        yaml_file.load_from_file(self._config_filename, client_config, ".")
+    def parse_args(self, arguments, parsed_args):
+        return
 
-my_bot = MyEmbeddedBot("config.yaml")
+    def get_question(self, client_context, input_func=input):
+        ask = "%s " % self.get_client_configuration().prompt
+        return input_func(ask)
+
+    def display_startup_messages(self, client_context):
+        self.process_response(client_context, client_context.bot.get_version_string(client_context))
+        initial_question = client_context.bot.get_initial_question(client_context)
+        self._renderer.render(client_context, initial_question)
+
+    def process_question(self, client_context, question):
+        self._questions += 1
+        return client_context.bot.ask_question(client_context , question, responselogger=self)
+
+    def render_response(self, client_context, response):
+        # Calls the renderer which handles RCS context, and then calls back to the client to show response
+        self._renderer.render(client_context, response)
+
+    def process_response(self, client_context, response):
+        print(response)
+
+    def process_question_answer(self, client_context):
+        question = self.get_question(client_context)
+        response = self.process_question(client_context, question)
+        self.render_response(client_context, response)
+
+    def wait_and_answer(self):
+        running = True
+        try:
+            client_context = self.create_client_context(self._configuration.client_configuration.default_userid)
+            self.process_question_answer(client_context)
+        except KeyboardInterrupt as keye:
+            running = False
+            client_context = self.create_client_context(self._configuration.client_configuration.default_userid)
+            self._renderer.render(client_context, client_context.bot.get_exit_response(client_context))
+        except Exception as excep:
+            YLogger.exception(self, "Oops something bad happened !", excep)
+        return running
+
+    def prior_to_run_loop(self):
+        client_context = self.create_client_context(self._configuration.client_configuration.default_userid)
+        self.display_startup_messages(client_context)
+
+
+my_bot = ConsoleBotClientGiseldo()
 client_context = my_bot.create_client_context("testuser")
 
 

@@ -91,13 +91,13 @@ class FlaskRestBotClient(RestBotClient):
         self.shutdown()
 
 
+app = Flask(__name__)
+
 if __name__ == '__main__':
 
     REST_CLIENT = None
 
     print("Initiating Flask REST Service...")
-    app = Flask(__name__)
-
 
     @app.route("/")
     def index():

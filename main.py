@@ -93,7 +93,7 @@ class FlaskRestBotClient(RestBotClient):
 
 app = Flask(__name__)
 
-REST_CLIENT = None
+REST_CLIENT = FlaskRestBotClient("flask")
 
 print("Initiating Flask REST Service...")
 
@@ -111,9 +111,6 @@ def ask_v2_0():
     response_data, status = REST_CLIENT.process_request(request, version=2.0)
     return REST_CLIENT.create_response(response_data, status, version=2.0)
 
-print("Loading, please wait...")
-REST_CLIENT = FlaskRestBotClient("flask")
-REST_CLIENT.run(app)
 
 if __name__ == '__main__':
-    app.run()
+    REST_CLIENT.run(app)

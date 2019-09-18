@@ -1,2 +1,0 @@
-name: OPENCHAT
-classname: programy.services.openchat.OpenChatRESTService

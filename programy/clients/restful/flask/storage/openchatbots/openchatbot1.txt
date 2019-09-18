@@ -1,3 +1,0 @@
-name: openchatbot1
-url: https://x.com:5999
-method: GET

@@ -18,13 +18,13 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 # <sraix service="OPENCHAT"> @botname question </sraix>
 
 from programy.utils.logging.ylogger import YLogger
-import json
 from urllib.parse import quote
 
 from programy.services.rest import GenericRESTService
 from programy.config.brain.service import BrainServiceConfiguration
 from programy.clients.restful.apikeys import APIKeysHandler
 from programy.clients.restful.auth import RestBasicAuthorizationHandler
+from programy.services.openchatbot.parser import OpenChatBotResponseParser
 
 
 class OpenChatRESTService(GenericRESTService):
@@ -59,23 +59,11 @@ class OpenChatRESTService(GenericRESTService):
         return get_url
 
     def _parse_response(self, client_context, text):
-        payload = json.loads(text)
-        if payload:
-            if 'response' in payload:
-                response = payload['response']
-                if 'status' in payload:
-                    status = payload['status']
-                    statuscode = status['code']
-                    if statuscode == 200:       # Success
-                        return response['text']
-                    else:
-                        YLogger.error(client_context, "Status code not 200 - [%d]", statuscode)
-                else:
-                    YLogger.error(client_context, "No 'status' in payload")
-            else:
-                YLogger.error(client_context, "No 'response' in payload")
-        else:
-            YLogger.error(client_context, "Invalid response [%s]", text)
+        parser = OpenChatBotResponseParser()
+        parser.parse_response(text)
+
+        if parser.status.code == 200:
+            return parser.response.to_aiml()
 
         return client_context.bot.default_response
 
@@ -146,3 +134,13 @@ class OpenChatRESTService(GenericRESTService):
             YLogger.exception(client_context, "Failed to resolve", excep)
 
         return ""
+
+
+class OpenChatMetaBotRESTService(OpenChatRESTService):
+
+    def __init__(self, config: BrainServiceConfiguration, api=None):
+        OpenChatRESTService.__init__(self, config, api)
+
+    def _parse_response(self, client_context, text):
+        print(text)
+        return text

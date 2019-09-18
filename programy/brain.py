@@ -23,6 +23,7 @@ except:
 
 from programy.processors.processing import PreProcessorCollection
 from programy.processors.processing import PostProcessorCollection
+from programy.processors.processing import PostQuestionProcessorCollection
 from programy.config.brain.brain import BrainConfiguration
 from programy.mappings.denormal import DenormalCollection
 from programy.mappings.gender import GenderCollection
@@ -78,7 +79,7 @@ class Brain(object):
 
         self._preprocessors = PreProcessorCollection()
         self._postprocessors = PostProcessorCollection()
-
+        self._postquestionprocessors = PostQuestionProcessorCollection()
         self._pattern_factory = None
         self._template_factory = None
 
@@ -166,6 +167,10 @@ class Brain(object):
     @property
     def postprocessors(self):
         return self._postprocessors
+
+    @property
+    def postquestionprocessors(self):
+        return self._postquestionprocessors
 
     @property
     def pattern_factory(self):
@@ -323,6 +328,10 @@ class Brain(object):
         self._postprocessors.empty()
         self._postprocessors.load(self.bot.client.storage_factory)
 
+    def _load_postquestionprocessors(self):
+        self._postquestionprocessors.empty()
+        self._postquestionprocessors.load(self.bot.client.storage_factory)
+
     def _load_pattern_nodes(self):
         self._pattern_factory = PatternNodeFactory()
         self._pattern_factory.load(self.bot.client.storage_factory)
@@ -344,6 +353,7 @@ class Brain(object):
         self._load_maps()
         self._load_preprocessors()
         self._load_postprocessors()
+        self._load_postquestionprocessors()
 
     def load_services(self, configuration):
         ServiceFactory.preload_services(configuration.services)
@@ -369,6 +379,12 @@ class Brain(object):
     def post_process_response(self, client_context, response: str):
         return self.postprocessors.process(client_context, response)
 
+    def post_process_question(self, client_context, question: str):
+        response = self.postquestionprocessors.process(client_context, question)
+        if response == question:
+            return None
+        return response
+
     def failed_authentication(self, client_context):
         return self._security.failed_authentication(client_context)
 
@@ -380,7 +396,7 @@ class Brain(object):
         assert (client_context is not None)
         assert (match_context is not None)
 
-        template_node = match_context.template_node()
+        template_node = match_context.template_node
 
         YLogger.debug(client_context, "AIML Parser evaluating template [%s]", template_node.to_string())
 
@@ -388,6 +404,8 @@ class Brain(object):
 
         if self._oobhandler.oob_in_response(response) is True:
             response = self._oobhandler.handle(client_context, response)
+
+        match_context.response = response
 
         return response
 
@@ -419,6 +437,7 @@ class Brain(object):
                                                              that_pattern=that_pattern)
 
             if match_context is not None:
+                match_context.sentence = sentence.text(client_context)
                 return self.resolve_matched_template(client_context, match_context)
 
         return None

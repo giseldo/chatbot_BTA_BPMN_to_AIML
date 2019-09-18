@@ -42,11 +42,11 @@ class MyEmbeddedBot(ConsoleBotClient):
 
 if __name__ == '__main__':
 
-    my_bot = MyEmbeddedBot("config.yaml")
+    my_bot = MyEmbeddedBot(sys.argv[1])
 
     client_context = my_bot.create_client_context("testuser")
-    while True:
-        entrada = input("user>>> ")
-        response = my_bot.process_question(client_context, entrada)
-        print("Response = ", response)
+
+    response = my_bot.process_question(client_context, "Hello")
+
+    print("Response = ", response)
 

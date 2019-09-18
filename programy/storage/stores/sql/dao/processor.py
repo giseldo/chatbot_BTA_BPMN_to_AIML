@@ -39,3 +39,10 @@ class PostProcessor(Base, Processor):
 
     def __repr__(self):
         return "<PostProcessor Node(id='%s', classname='%s')>" % (DAOUtils.valid_id(self.id), self.classname)
+
+
+class PostQuestionProcessor(Base, Processor):
+    __tablename__ = 'postquestionprocessors'
+
+    def __repr__(self):
+        return "<PostQuestionProcessor Node(id='%s', classname='%s')>" % (DAOUtils.valid_id(self.id), self.classname)

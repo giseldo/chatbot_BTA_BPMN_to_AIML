@@ -28,6 +28,7 @@ class TemplateThatStarNode(TemplateIndexedNode):
         TemplateIndexedNode.__init__(self, index)
 
     def resolve_to_string(self, client_context):
+
         conversation = client_context.bot.get_conversation(client_context)
 
         if conversation.has_current_question():
@@ -38,22 +39,36 @@ class TemplateThatStarNode(TemplateIndexedNode):
 
             matched_context = current_sentence.matched_context
             if matched_context is None:
-                YLogger.error(client_context, "ThatStar node has no matched context for clientid %s", client_context.userid)
+                YLogger.error(client_context, "ThatStar node has no matched context for clientid %s",
+                              client_context.userid)
                 resolved = ""
             else:
                 int_index = int(self.index.resolve(client_context))
                 try:
-                    resolved = matched_context.thatstar(int_index)
+                    resolved = matched_context.thatstar(client_context, int_index)
                     if resolved is None:
                         YLogger.error(client_context, "ThatStar index not in range [%d]", int_index)
                         resolved = ""
-                except Exception:
-                    YLogger.error(client_context, "ThatStar index not in range [%d]", self.index)
+                except Exception as excep:
+                    YLogger.error(client_context, "ThatStar index not in range [%d]", int_index)
                     resolved = ""
         else:
             resolved = ""
 
         YLogger.debug(client_context, "ThatStar Node [%s] resolved to [%s]", self.to_string(), resolved)
+
+        """
+        conversation = client_context.bot.get_conversation(client_context)
+
+        question = conversation.previous_nth_question(self.question - 1)
+
+        sentence = question.current_sentence()
+
+        resolved = sentence.matched_context.thatstar(client_context, self.sentence)
+
+        YLogger.debug(client_context, "[%s] resolved to [%s]", self.to_string(), resolved)
+        """
+
         return resolved
 
     def to_string(self):

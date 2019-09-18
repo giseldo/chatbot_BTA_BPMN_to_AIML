@@ -1,12 +1,3 @@
-import unittest
-import os
-
-
-
-from programy.clients.args import ClientArguments
-from programy.clients.args import CommandLineClientArguments
-
-
 class MockArgumentsGiseldo(object):
 
     def __init__(self,

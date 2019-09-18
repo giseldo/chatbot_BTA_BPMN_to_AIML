@@ -1,2 +1,0 @@
-name: Wikipedia
-classname: programy.services.wikipediaservice.WikipediaService

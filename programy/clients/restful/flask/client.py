@@ -18,18 +18,11 @@ from flask import Flask, jsonify, request, make_response, abort, Response
 
 from programy.clients.restful.client import RestBotClient
 
-from programy.clients.restful.flask.MockArgumentsFlaskGiseldo import MockArgumentParserGiseldo
-
-from programy.clients.events.console.client import ConsoleBotClient
-from programy.config.file.yaml_file import YamlConfigurationFile
-from programy.config.programy import ProgramyConfiguration
-from programy.clients.args import CommandLineClientArguments
 
 class FlaskRestBotClient(RestBotClient):
 
     def __init__(self, id, argument_parser=None):
-        c = MockArgumentParserGiseldo()
-        RestBotClient.__init__(self, id, c)
+        RestBotClient.__init__(self, id, argument_parser)
         self.initialise()
 
     def server_abort(self, message, status_code):
@@ -48,7 +41,7 @@ class FlaskRestBotClient(RestBotClient):
 
     def run(self, flask):
 
-        print("%s Client running on %s:%s" % (self.id, self.configuration.client_configuration.host,
+        print("%s Client running on http://%s:%s" % (self.id, self.configuration.client_configuration.host,
                                               self.configuration.client_configuration.port))
 
         self.startup()
@@ -80,18 +73,18 @@ if __name__ == '__main__':
     REST_CLIENT = None
 
     print("Initiating Flask REST Service...")
-    app = Flask(__name__)
+    APP = Flask(__name__)
 
-    @app.route('/api/rest/v1.0/ask', methods=['GET', 'POST'])
+    @APP.route('/api/rest/v1.0/ask', methods=['GET', 'POST'])
     def ask_v1_0():
         response_data, status = REST_CLIENT.process_request(request, version=1.0)
         return REST_CLIENT.create_response(response_data, status, version=1.0)
 
-    @app.route('/api/rest/v2.0/ask', methods=['GET', 'POST'])
+    @APP.route('/api/rest/v2.0/ask', methods=['GET', 'POST'])
     def ask_v2_0():
         response_data, status = REST_CLIENT.process_request(request, version=2.0)
         return REST_CLIENT.create_response(response_data, status, version=2.0)
 
     print("Loading, please wait...")
     REST_CLIENT = FlaskRestBotClient("flask")
-    REST_CLIENT.run(app)
+    REST_CLIENT.run(APP)

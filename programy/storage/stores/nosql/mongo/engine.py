@@ -25,7 +25,6 @@ from programy.storage.stores.nosql.mongo.store.errors import MongoErrorsStore
 from programy.storage.stores.nosql.mongo.store.duplicates import MongoDuplicatesStore
 
 from programy.storage.stores.nosql.mongo.store.conversations import MongoConversationStore
-from programy.storage.stores.nosql.mongo.store.variables import MongoVariableStore
 
 from programy.storage.stores.nosql.mongo.store.lookups import MongoDenormalStore
 from programy.storage.stores.nosql.mongo.store.lookups import MongoNormalStore
@@ -52,6 +51,7 @@ from programy.storage.stores.nosql.mongo.store.nodes import MongoTemplateNodeSto
 
 from programy.storage.stores.nosql.mongo.store.processors import MongoPreProcessorStore
 from programy.storage.stores.nosql.mongo.store.processors import MongoPostProcessorStore
+from programy.storage.stores.nosql.mongo.store.processors import MongoPostQuestionProcessorStore
 
 from programy.storage.stores.nosql.mongo.store.usergroups import MongoUserGroupsStore
 
@@ -115,9 +115,6 @@ class MongoStorageEngine(StorageEngine):
     def regex_store(self):
         return MongoRegexesStore(self)
 
-    def variables_store(self):
-        return MongoVariableStore(self)
-
     def twitter_store(self):
         return MongoTwitterStore(self)
 
@@ -136,6 +133,8 @@ class MongoStorageEngine(StorageEngine):
         return MongoPreProcessorStore(self)
     def postprocessors_store(self):
         return MongoPostProcessorStore(self)
+    def postquestionprocessors_store(self):
+        return MongoPostQuestionProcessorStore(self)
 
     def usergroups_store(self):
         return MongoUserGroupsStore(self)

@@ -22,8 +22,8 @@ from programy.dialog.convo_mgr import ConversationManager
 from programy.spelling.base import SpellingChecker
 from programy.dialog.splitter.splitter import SentenceSplitter
 from programy.dialog.joiner.joiner import SentenceJoiner
-from programy.translate.base import BaseTranslator
-from programy.sentiment.base import BaseSentimentAnalyser
+from programy.nlp.translate.base import BaseTranslator
+from programy.nlp.sentiment.base import BaseSentimentAnalyser
 from programy.triggers.system import SystemTriggers
 from programy.brainfactory import BrainFactory
 
@@ -97,7 +97,8 @@ class Bot(object):
 
     def initiate_spellchecker(self):
         if self.configuration.spelling is not None:
-            self._spell_checker = SpellingChecker.initiate_spellchecker(self.configuration.spelling, self.client.storage_factory)
+            self._spell_checker = SpellingChecker.initiate_spellchecker(self.configuration.spelling,
+                                                                        self.client.storage_factory)
 
     @property
     def sentence_splitter(self):
@@ -140,7 +141,8 @@ class Bot(object):
 
     def initiate_sentiment_analyser(self):
         if self.configuration.sentiment_analyser is not None:
-            self._sentiment_analyser, self._sentiment_scores = BaseSentimentAnalyser.initiate_sentiment_analyser(self.configuration.sentiment_analyser)
+            self._sentiment_analyser, self._sentiment_scores = BaseSentimentAnalyser.initiate_sentiment_analyser(
+                self.configuration.sentiment_analyser)
 
     @property
     def brain(self):
@@ -209,12 +211,6 @@ class Bot(object):
 
         return self._conversation_mgr.get_conversation(client_context)
 
-    def save_conversation(self, client_context):
-
-        assert (self._conversation_mgr is not None)
-
-        self._conversation_mgr.save_conversation(client_context)
-
     def check_spelling_before(self, client_context, each_sentence):
         if self.spell_checker is not None:
             self.spell_checker.check_spelling_before(client_context, each_sentence)
@@ -229,7 +225,7 @@ class Bot(object):
         assert (client_context is not None)
 
         if self.default_response_srai is not None:
-            sentence = Sentence(client_context.brain.tokenizer, self.default_response_srai)
+            sentence = Sentence(client_context, self.default_response_srai)
             default_response = client_context.brain.ask_question(client_context, sentence)
             if default_response is None or not default_response:
                 default_response = self.default_response
@@ -242,7 +238,7 @@ class Bot(object):
         assert (client_context is not None)
 
         if self.initial_question_srai is not None:
-            sentence = Sentence(client_context.brain.tokenizer, self.initial_question_srai)
+            sentence = Sentence(client_context, self.initial_question_srai)
             initial_question = client_context.brain.ask_question(client_context, sentence)
             if initial_question is None or not initial_question:
                 initial_question = self.initial_question
@@ -255,7 +251,7 @@ class Bot(object):
         assert (client_context is not None)
 
         if self.exit_response_srai is not None:
-            sentence = Sentence(client_context.brain.tokenizer, self.exit_response_srai)
+            sentence = Sentence(client_context, self.exit_response_srai)
             exit_response = client_context.brain.ask_question(client_context, sentence)
             if exit_response is None or not exit_response:
                 exit_response = self.exit_response
@@ -278,7 +274,6 @@ class Bot(object):
             pre_processed = text
 
         if pre_processed is None or pre_processed == "":
-
             assert (self.configuration is not None)
 
             pre_processed = self.configuration.empty_string
@@ -309,6 +304,17 @@ class Bot(object):
 
         else:
             answer = response
+
+        return answer
+
+    def post_process_question(self, client_context, question, srai):
+        if srai is False:
+            assert (client_context is not None)
+            answer = client_context.brain.post_process_question(client_context, question)
+            if not answer:
+                answer = self.get_default_response(client_context)
+        else:
+            answer = question
 
         return answer
 
@@ -353,9 +359,9 @@ class Bot(object):
         if srai is True:
             conversation.pop_dialog()
 
-        self.save_conversation(client_context)
-
         conversation.save_sentiment()
+
+        #self._conversation_mgr.save_conversation(client_context)
 
         if self.client.trigger_manager is not None and srai is False:
             self.client.trigger_manager.trigger(SystemTriggers.QUESTION_ASKED, client_context)
@@ -402,9 +408,7 @@ class Bot(object):
         sentence.response = response
 
         sentence.calculate_sentinment_score(client_context)
-
         answer = self.post_process_response(client_context, response, srai)
-
         self.log_answer(client_context, sentence.text, answer, responselogger)
 
         return answer
@@ -412,8 +416,9 @@ class Bot(object):
     def handle_none_response(self, client_context, sentence, responselogger):
 
         assert (sentence is not None)
-
-        sentence.response = self.get_default_response(client_context)
+        sentence.response = self.post_process_question(client_context, sentence.text(client_context), False)
+        if sentence.response is None:
+            sentence.response = self.get_default_response(client_context)
 
         sentence.calculate_sentinment_score(client_context)
 

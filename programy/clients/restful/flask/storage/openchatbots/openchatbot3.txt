@@ -1,3 +1,0 @@
-name: openchatbot3
-url: https://z.com:9999
-method: POST

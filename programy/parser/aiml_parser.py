@@ -146,7 +146,7 @@ class AIMLParser(object):
         else:
             YLogger.error(None, "No category storage defined, no aiml loaded!")
 
-        self.save_debug_files()
+        #self.save_debug_files()
         self.display_debug_info()
 
     @staticmethod

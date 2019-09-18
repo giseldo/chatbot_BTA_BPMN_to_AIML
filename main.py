@@ -1,7 +1,6 @@
 from programy.clients.restful.client import RestBotClient
 from flask import Flask, jsonify, request, make_response, abort, Response, render_template
 
-
 class MockArgumentsGiseldo(object):
 
     def __init__(self,

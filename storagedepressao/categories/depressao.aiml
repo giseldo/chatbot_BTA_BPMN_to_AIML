@@ -27,8 +27,8 @@
             	<set name="resposta"><star /></set>
                 <condition name="resposta">
                     <li value="sim"><srai>STEP QUEM MORA</srai></li>
-                    <li value="sim"><srai>STEP QUEM MORA</srai></li>
-                    <li value="sim">STEP INICIAL</li>
+                    <li value="nao"><srai>STEP QUEM MORA</srai></li>
+                    <li>STEP INICIAL</li>
                 </condition>
             </template>
         </category>

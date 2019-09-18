@@ -1,6 +1,7 @@
 from programy.clients.restful.client import RestBotClient
 from flask import Flask, jsonify, request, make_response, abort, Response, render_template
 import json, requests
+import time
 
 class MockArgumentsGiseldo(object):
 
@@ -104,7 +105,8 @@ def index():
 @app.route("/get")
 def get_bot_response():
     entrada = request.args.get('msg')
-    entradaformatada = "https://depressao.herokuapp.com/api/rest/v1.0/ask?question={}&userid=root".format(entrada)
+    #entradaformatada = "https://depressao.herokuapp.com/api/rest/v1.0/ask?question={}&userid=root".format(entrada)
+    entradaformatada = "http://127.0.0.1/api/rest/v1.0/ask?question={}&userid=root".format(entrada)
     response = requests.get(entradaformatada)
     saida_json = json.loads(response.content)
     saida = saida_json[0]['response']['answer']

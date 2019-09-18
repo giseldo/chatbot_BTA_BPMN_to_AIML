@@ -24,11 +24,11 @@
             <pattern>*</pattern>
             <that>VOU FAZER ALGUMAS PERGUNTAS *</that>
             <template>
-            	<set name="resposta"><star /></set>
+            	<think><set name="resposta"><star /></set></think>
                 <condition name="resposta">
                     <li value="sim"><srai>STEP QUEM MORA</srai></li>
                     <li value="nao"><srai>STEP QUEM MORA</srai></li>
-                    <li>STEP INICIAL</li>
+                    <li><srai>STEP INICIAL</srai></li>
                 </condition>
             </template>
         </category>
@@ -38,22 +38,29 @@
             <template>
                 Vamos la entao com quem voce mora [sozinho, amigo, ninguem, etc]
             </template>
-        </category>        
+        </category>
 
         <category>
             <pattern>*</pattern>
             <that>VAMOS LA ENTAO COM QUEM VOCE MORA *</that>
             <template>
-                <set name="mora"><star /></set>
+                <think><set name="mora"><star /></set></think>
                 <condition name="mora">
-                    <li value="sozinho">OK SOZINHO</li>
-                    <li value="amigo">OK COM AMIGO</li>
-                    <li value="ninguem">OK COM NINGUEM</li>
-                    <li value="sim">STEP QUEM MORA</li>
+                    <li value="sozinho"><srai>STEP RESULTADO</srai></li>
+                    <li value="amigo"><srai>STEP RESULTADO</srai></li>
+                    <li value="ninguem"><srai>STEP RESULTADO</srai></li>
+                    <li><srai>STEP QUEM MORA</srai></li>
                 </condition>
             </template>
         </category>
-       
+
+        <category>
+            <pattern>STEP RESULTADO</pattern>
+            <template>
+                 Que legal
+            </template>
+        </category>
+
      </topic>
 
 </aiml>

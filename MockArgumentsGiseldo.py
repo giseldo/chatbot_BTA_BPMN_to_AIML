@@ -11,7 +11,7 @@ class MockArgumentsGiseldo(object):
 
     def __init__(self,
                     bot_root = ".",
-                    logging = None,
+                    logging = 'logging.yaml',
                     config  = 'config.yaml',
                     cformat = "yaml",
                     noloop = False,

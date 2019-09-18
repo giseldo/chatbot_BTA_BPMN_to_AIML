@@ -8,8 +8,34 @@ import db
 from botty import Botty
 from werkzeug.wsgi import responder
 
+from programy.clients.events.console.client import ConsoleBotClient
+from programy.config.file.yaml_file import YamlConfigurationFile
+from programy.config.programy import ProgramyConfiguration
+from programy.clients.args import CommandLineClientArguments
+
 app = Flask(__name__)
 app.secret_key = 'any random string'
+
+class MyEmbeddedBot(ConsoleBotClient):
+
+    def __init__(self, config_filename):
+        self._config_filename = config_filename
+        ConsoleBotClient.__init__(self, "Console")
+
+    def parse_arguments(self, argument_parser):
+        client_args = CommandLineClientArguments(self, parser=None)
+        return client_args
+
+    def load_configuration(self, arguments):
+
+        client_config = self.get_client_configuration()
+        self._configuration = ProgramyConfiguration(client_config)
+
+        yaml_file = YamlConfigurationFile()
+        yaml_file.load_from_file(self._config_filename, client_config, ".")
+
+my_bot = MyEmbeddedBot("config.yaml")
+client_context = my_bot.create_client_context("testuser")
 
 
 @app.route("/")
@@ -23,16 +49,8 @@ def index():
 def get_bot_response():
     entrada = request.args.get('msg')
     sessionid = session.get('sessionid')
-    response = requests.get("http://127.0.0.1:8989/api/rest/v1.0/ask?question={}&userid=root".format(entrada))
-    comments = json.loads(response.content)
-
-    for resultados, y in comments[0].items():
-        saida = y["answer"]
-
-    if saida == "":
-        saida = "Nao entendi."
-        
-    return str(saida)
+    response = my_bot.process_question(client_context, entrada)
+    return str(response)
 
 
 @app.route('/home')

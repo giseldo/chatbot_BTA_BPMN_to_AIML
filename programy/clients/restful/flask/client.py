@@ -20,6 +20,10 @@ from programy.clients.restful.client import RestBotClient
 
 from programy.clients.restful.flask.MockArgumentsFlaskGiseldo import MockArgumentParserGiseldo
 
+from programy.clients.events.console.client import ConsoleBotClient
+from programy.config.file.yaml_file import YamlConfigurationFile
+from programy.config.programy import ProgramyConfiguration
+from programy.clients.args import CommandLineClientArguments
 
 class FlaskRestBotClient(RestBotClient):
 

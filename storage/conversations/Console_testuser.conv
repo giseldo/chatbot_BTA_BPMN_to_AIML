@@ -1,0 +1,135 @@
+{
+    "client_context": {
+        "clientid": "Console",
+        "userid": "testuser",
+        "botid": "bot",
+        "brainid": "brain",
+        "depth": 0
+    },
+    "questions": [
+        {
+            "sentences": [
+                {
+                    "question": "Hello",
+                    "response": "Good morning.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "hello",
+                    "response": "Hi there!",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao]",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sim",
+                    "response": "sim Vamos la entao com quem voce mora [sozinho, amigo, ninguem, etc]",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "hello",
+                    "response": "Hi there!",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "hello",
+                    "response": "Hello!",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": 0
+        },
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao]",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": 0
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sim",
+                    "response": "sim Vamos la entao com quem voce mora [sozinho, amigo, ninguem, etc]",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": 0
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sozinho",
+                    "response": "I'm very enthusiastic.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": 0
+        }
+    ],
+    "max_histories": 100,
+    "properties": {
+        "topic": "PERFILINICIAL",
+        "positivity": "0.0",
+        "subjectivity": "0.5",
+        "resposta": "sim"
+    }
+}

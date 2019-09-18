@@ -1,0 +1,3 @@
+name: Pandora
+classname: programy.services.pandora.PandoraService
+url: http://www.pandorabots.com/pandora/talk-xml

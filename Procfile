@@ -1,1 +1,1 @@
-web: gunicorn programy.clients.restful.flask.client:app
+web: gunicorn main:app

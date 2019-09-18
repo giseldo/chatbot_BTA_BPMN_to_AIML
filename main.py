@@ -93,26 +93,27 @@ class FlaskRestBotClient(RestBotClient):
 
 app = Flask(__name__)
 
+REST_CLIENT = None
+
+print("Initiating Flask REST Service...")
+
+@app.route("/")
+def index():
+    return render_template("index.html")
+
+@app.route('/api/rest/v1.0/ask', methods=['GET', 'POST'])
+def ask_v1_0():
+    response_data, status = REST_CLIENT.process_request(request, version=1.0)
+    return REST_CLIENT.create_response(response_data, status, version=1.0)
+
+@app.route('/api/rest/v2.0/ask', methods=['GET', 'POST'])
+def ask_v2_0():
+    response_data, status = REST_CLIENT.process_request(request, version=2.0)
+    return REST_CLIENT.create_response(response_data, status, version=2.0)
+
+print("Loading, please wait...")
+REST_CLIENT = FlaskRestBotClient("flask")
+REST_CLIENT.run(app)
+
 if __name__ == '__main__':
-
-    REST_CLIENT = None
-
-    print("Initiating Flask REST Service...")
-
-    @app.route("/")
-    def index():
-        return render_template("index.html")
-
-    @app.route('/api/rest/v1.0/ask', methods=['GET', 'POST'])
-    def ask_v1_0():
-        response_data, status = REST_CLIENT.process_request(request, version=1.0)
-        return REST_CLIENT.create_response(response_data, status, version=1.0)
-
-    @app.route('/api/rest/v2.0/ask', methods=['GET', 'POST'])
-    def ask_v2_0():
-        response_data, status = REST_CLIENT.process_request(request, version=2.0)
-        return REST_CLIENT.create_response(response_data, status, version=2.0)
-
-    print("Loading, please wait...")
-    REST_CLIENT = FlaskRestBotClient("flask")
-    REST_CLIENT.run(app)
+    app.run()

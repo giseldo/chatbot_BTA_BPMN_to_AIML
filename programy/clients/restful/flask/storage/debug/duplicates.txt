@@ -1,0 +1,6 @@
+Duplicate	File	Start Line	End LineDupicate grammar tree found [DUPLICATE GRAMMAR 1]	storage\categories\duplicates.aiml	9	12
+Dupicate grammar tree found [MY NAME IS *]	storage\categories\core\defaults\profile\client_profile.aiml	25	33
+Dupicate grammar tree found [GOOD NIGHT]	storage\categories\core\defaults\topics\goodbye.aiml	44	54
+Dupicate grammar tree found [GOOD NIGHT *]	storage\categories\core\reductions\goodbye.aiml	300	305
+Dupicate grammar tree found [HELLO THERE]	storage\categories\core\reductions\hello.aiml	175	180
+Dupicate grammar tree found [WHAT ARE YOU]	storage\categories\core\reductions\properties\job.aiml	74	79

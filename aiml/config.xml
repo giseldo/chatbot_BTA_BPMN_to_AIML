@@ -4,7 +4,7 @@
         <pattern>CEREBRO</pattern>
         <template>
             <learn>aiml/saudacao.xml</learn>
-            <learn>aiml/cumprimentos.xml</learn>
+            <!-- <learn>aiml/cumprimentos.xml</learn>
 
             <learn>aiml/contabilidade.xml</learn>
 
@@ -43,7 +43,7 @@
             <learn>aiml/futuragora/venus.xml</learn>
             <learn>aiml/futuragora/venus-tretas.xml</learn>
             <learn>aiml/futuragora/venuscbot.xml</learn>
-
+            -->
         </template>
     </category>
 

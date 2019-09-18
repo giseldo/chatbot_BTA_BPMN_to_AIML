@@ -2085,7 +2085,7 @@ Não sou vinculado a nenhuma universidade.
 </template>
 </category>
  
-<category><pattern>* COMUNIDADE PERTENCE</pattern><template>Eu sou vinculado ao Projecto ARI.</template></category>
+<category><pattern>* COMUNIDADE PERTENCE</pattern><template>Eu sou vinculado ao projeto ARI.</template></category>
 <category><pattern>* VOCE TRABALHA</pattern><template>Fui desenvolvido por um programador.</template></category>
 <category><pattern>TRABALHAS</pattern><template>Fui desenvolvido por um porgraamador e trabalho no ramo de suporte técnico.</template></category>
  

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>INICIAR</pattern>
+        <template>
+        	<think>
+            	<set name="topic">PERFILINICIAL</set>
+            </think>
+            <srai>STEP INICIAL</srai>
+        </template>
+    </category>
+
+    <topic name="PERFILINICIAL">
+        
+        <category>
+            <pattern>STEP INICIAL</pattern>
+            <template>
+            	Vou fazer algumas perguntas [sim, nao]
+            </template>
+        </category>
+
+        <category>
+            <pattern>*</pattern>
+            <that>VOU FAZER ALGUMAS PERGUNTAS *</that>
+            <template>
+            	<set name="resposta"><star /></set>
+                <condition name="resposta">
+                    <li value="sim"><srai>STEP QUEM MORA</srai></li>
+                    <li value="sim"><srai>STEP QUEM MORA</srai></li>
+                    <li value="sim">STEP INICIAL</li>
+                </condition>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP QUEM MORA</pattern>
+            <template>
+                Vamos la entao com quem voce mora [sozinho, amigo, ninguem, etc]
+            </template>
+        </category>        
+
+        <category>
+            <pattern>*</pattern>
+            <that>VAMOS LA ENTAO COM QUEM VOCE MORA *</that>
+            <template>
+                <set name="mora"><star /></set>
+                <condition name="mora">
+                    <li value="sozinho">OK SOZINHO</li>
+                    <li value="amigo">OK COM AMIGO</li>
+                    <li value="ninguem">OK COM NINGUEM</li>
+                    <li value="sim">STEP QUEM MORA</li>
+                </condition>
+            </template>
+        </category>
+       
+     </topic>
+
+</aiml>

@@ -1,30 +1,9 @@
 <aiml>
-    <!--
-    <category>
-        <pattern>OLA</pattern>
-        <template>
-            Como este é o nosso primeiro contato, eu gostaria de me apresentar pra você.
-            Meu nome é Beck.
-            Eu sou um robô baseado em Inteligência Artificial.
-            Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.
-            Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.
-            Agora eu gostaria de conversar com você para [gênero] conhecer melhor.
-            Vou fazer algumas perguntas para você. Tudo bem?
-            <srai>OI</srai>
-            </template>
-    </category>
-    -->
-     <category>
-        <pattern>VOCE E INTELIGENTE</pattern>
-        <template>
-            Igualmente.
-        </template>
-    </category>
 
     <category>
         <pattern>INICIAR PERFIL</pattern>
         <template>
-            Vou fazer algumas perguntas - (sim, nao)
+            Vou fazer algumas perguntas [sim, nao]
             <think><set name="topic">PERFIL1</set></think>
         </template>
     </category>
@@ -35,7 +14,7 @@
             <pattern>SIM</pattern>
             <that>VOU FAZER ALGUMAS PERGUNTAS *</that>
             <template>
-                Vamos la entao Com quem voce mora - (sozinho, amigo, ninguem, *)
+                Vamos la entao Com quem voce mora [sozinho, amigo, ninguem, etc]
                 <think><set name="topic">PERFIL11</set></think>
             </template>
         </category>
@@ -43,8 +22,12 @@
         <category>
             <pattern>NAO</pattern>
             <that>VOU FAZER ALGUMAS PERGUNTAS *</that>
-            <template><random><li>Veja para interagirmos melhor eu preciso saber algumas coisas sobre você</li><li>Nao se preocupe toda nossa conversa e confidencial e protegida. Ela nao sera divulgada a ninguem</li></random>
-                    Vamos la entao Com quem voce mora? - (sozinho, amigo, ninguem, *)
+            <template>
+                    <random>
+                        <li>Veja para interagirmos melhor eu preciso saber algumas coisas sobre você</li>
+                        <li>Nao se preocupe toda nossa conversa e confidencial e protegida. Ela nao sera divulgada a ninguem</li>
+                    </random>
+                    Vamos la entao Com quem voce mora [sozinho, amigo, ninguem, etc]
                     <think><set name="topic">PERFIL11</set></think>
             </template>
         </category>
@@ -52,7 +35,9 @@
         <category>
             <pattern>*</pattern>
             <that>VOU FAZER ALGUMAS PERGUNTAS *</that>
-            <template>Foi bom conversar com você.: (saiu do topico perfil1) - <star index=1></star></template>
+            <template>
+                Foi bom conversar com você.: (saiu do topico perfil1) - <star index="1"></star>
+            </template>
         </category>
 
     </topic>
@@ -63,7 +48,7 @@
             <pattern>SOZINHO</pattern>
             <that>* VAMOS LA ENTAO COM QUEM VOCE MORA *</that>
             <template>
-                Onde estao seus pais - (morreu/morreram, se separaram, nunca conheci, *)
+                Onde estao seus pais [morreu/morreram, se separaram, nunca conheci, etc]
                 <think><set name="topic">PERFIL12</set></think>
             </template>
         </category>
@@ -72,7 +57,7 @@
             <pattern>SOZINHO</pattern>
             <that>VAMOS LA ENTAO COM QUEM VOCE MORA *</that>
             <template>
-                Onde estao seus pais - (morreu/morreram, se separaram, nunca conheci, *)
+                Onde estao seus pais [morreu/morreram, se separaram, nunca conheci, etc]
                 <think><set name="topic">PERFIL12</set></think>
             </template>
         </category>
@@ -81,7 +66,7 @@
             <pattern>AMIGO</pattern>
             <that>VAMOS LA ENTAO COM QUEM VOCE MORA *</that>
             <template>
-                Onde estao seus pais - (morreu/morreram, se separaram, nunca conheci, *)
+                Onde estao seus pais [morreu/morreram, se separaram, nunca conheci, etc]
                 <think><set name="topic">PERFIL12</set></think>
             </template>
         </category>
@@ -90,7 +75,7 @@
             <pattern>AMIGO</pattern>
             <that>* VAMOS LA ENTAO COM QUEM VOCE MORA *</that>
             <template>
-                Onde estao seus pais - (morreu/morreram, se separaram, nunca conheci, *)
+                Onde estao seus pais [morreu/morreram, se separaram, nunca conheci, etc]
                 <think><set name="topic">PERFIL12</set></think>
             </template>
         </category>
@@ -99,7 +84,7 @@
             <pattern>NINGUEM</pattern>
             <that>VAMOS LA ENTAO COM QUEM VOCE MORA *</that>
             <template>
-                Onde estao seus pais - (morreu/morreram, se separaram, nunca conheci, *)
+                Onde estao seus pais [morreu/morreram, se separaram, nunca conheci, etc]
                 <think><set name="topic">PERFIL12</set></think>
             </template>
         </category>
@@ -108,7 +93,7 @@
             <pattern>NINGUEM</pattern>
             <that>* VAMOS LA ENTAO COM QUEM VOCE MORA *</that>
             <template>
-                Onde estao seus pais - (morreu/morreram, se separaram, nunca conheci, *)
+                Onde estao seus pais [morreu/morreram, se separaram, nunca conheci, etc]
                 <think><set name="topic">PERFIL12</set></think>
             </template>
         </category>

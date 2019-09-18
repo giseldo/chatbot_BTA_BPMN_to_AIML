@@ -1,0 +1,264 @@
+{
+    "client_context": {
+        "clientid": "flask",
+        "userid": "root",
+        "botid": "bot",
+        "brainid": "brain",
+        "depth": 0
+    },
+    "questions": [
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao] PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao] PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao] PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sim",
+                    "response": "CAIU AQUI PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao] PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "si",
+                    "response": "Hmmm.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao] PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sim",
+                    "response": "CAIU AQUI PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao] PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sim",
+                    "response": "CAIU AQUI PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao] PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sim",
+                    "response": "CAIU AQUI PERFILINICIAL",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao]",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sim",
+                    "response": "sim Vamos la entao com quem voce mora [sozinho, amigo, ninguem, etc]",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sozinho",
+                    "response": "What is your purpose?",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "iniciar",
+                    "response": "Vou fazer algumas perguntas [sim, nao]",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sim",
+                    "response": "sim Vamos la entao com quem voce mora [sozinho, amigo, ninguem, etc]",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "sozinho",
+                    "response": "Are you a man or a woman?",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "amigo",
+                    "response": "Are you a man or a woman?",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": 0
+        }
+    ],
+    "max_histories": 100,
+    "properties": {
+        "topic": "*",
+        "positivity": "0.0",
+        "subjectivity": "0.5"
+    }
+}

@@ -1,0 +1,3 @@
+name: Pannous
+classname: programy.services.pannous.PannousService
+url: http://weannie.pannous.com/api

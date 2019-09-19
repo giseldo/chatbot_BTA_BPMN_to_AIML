@@ -9,6 +9,16 @@
     </category>
 
     <category>
+        <pattern>LEVANTE O MEU PERFIL</pattern>
+        <template>
+        	<think>
+            	<set name="topic">PERFILINICIAL</set>
+            </think>
+            <srai>STEP INICIAL</srai>
+        </template>
+    </category>
+
+    <category>
         <pattern>INICIAR</pattern>
         <template>
         	<think>

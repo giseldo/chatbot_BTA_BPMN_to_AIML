@@ -9,9 +9,9 @@ $(document).ready(function(){
                 var response = JSON.parse(this.responseText);
 
                 if (show_question == true) {
-                    $("#chatbox").append ("<p><b>You:</b> "+response.response.question+"</p>" );
+                    $("#chatbox").append ("<p><b>Voce:</b> "+response.response.question+"</p>" );
                 }
-                $("#chatbox").append ("<p><b>Bot:</b> "+response.response.answer+"</p>" );
+                $("#chatbox").append ("<p><b>Ari:</b> "+response.response.answer+"</p>" );
                 $("#chatbox").append ("<p><hr /></p>" );
 
                 $("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;

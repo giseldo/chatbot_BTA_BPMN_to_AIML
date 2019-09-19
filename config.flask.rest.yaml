@@ -1,6 +1,7 @@
 flask:
   description: Program-Y Flask Rest Client
   debug: false
+  host: 0.0.0.0
 
   scheduler:
     name: Scheduler1
@@ -196,6 +197,7 @@ brain:
         REST:
             classname: programy.services.rest.GenericRESTService
             method: GET
+            host: 0.0.0.0
         Pannous:
             classname: programy.services.pannous.PannousService
             url: http://weannie.pannous.com/api

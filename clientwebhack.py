@@ -152,21 +152,15 @@ class WebChatBotClient(FlaskRestBotClient):
         return self.create_response(response_data, userid, userid_expire_date)
 
 
-
-
-
-
-print("Initiating WebChat Client...")
-
-APP = Flask(__name__)
+app = Flask(__name__)
 
 WEB_CLIENT = WebChatBotClient()
 
-@APP.route('/')
+@app.route('/')
 def index():
     return current_app.send_static_file('webchat.html')
 
-@APP.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
+@app.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
 def receive_message():
     try:
         return WEB_CLIENT.receive_message(request)
@@ -175,15 +169,4 @@ def receive_message():
         YLogger.exception(None, "Web client error", e)
         return "500"
 
-if WEB_CLIENT.ping_responder.config.url is not None:
-    @APP.route(WEB_CLIENT.ping_responder.config.url, methods=['GET'])
-    def ping():
-        return jsonify(WEB_CLIENT.ping_responder.ping())
 
-if WEB_CLIENT.ping_responder.config.shutdown is not None:
-    @APP.route(WEB_CLIENT.ping_responder.config.shutdown, methods=['GET'])
-    def shutdown():
-        WEB_CLIENT.ping_responder.stop_ping_service()
-        return 'Server shutting down...'
-
-WEB_CLIENT.run(APP)

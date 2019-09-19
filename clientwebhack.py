@@ -169,4 +169,5 @@ def receive_message():
         YLogger.exception(None, "Web client error", e)
         return "500"
 
-
+if __name__ == '__main__':
+    app.run()

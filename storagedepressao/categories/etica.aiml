@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>^ ETICA ^</pattern>
+        <template>
+        	A Etica designa a disciplina filosófica que investiga o que é a moral, como ela se fundamenta e se aplica.
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ MORAL ^</pattern>
+        <template>
+        	A moral é um conjunto de regras de conduta. A palavra moral é derivada do latim mores, que significa "aquilo que tem relação aos costumes".
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ EXEMPLO ^ </pattern>
+        <that>* MORAL * </that>
+        <template>
+        	Roubar, por exemplo vai de encontro aos costumes, e é considerada uma má ação. É, portanto, um ato imoral.
+        	Dar comida a alguém que está passando fome, por outro lado, é considerada uma ação geralmente de acrodo com o que costumamos considerar moralmente correto
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>^ EXEMPLO ^ </pattern>
+        <that>* ETICA * </that>
+        <template>
+        	Exemplo de ética
+        </template>
+    </category>
+
+    <category>
+        <pattern># sexo #</pattern>
+        <template>Eu não sou esse tipo de chatbot.</template>
+    </category>
+
+    <category>
+        <pattern>$qual ^ sexo</pattern>
+        <template>Eu sou masculino.</template>
+    </category>
+
+</aiml>

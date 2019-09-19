@@ -138,12 +138,12 @@ webchat:
 bot:
     brain: brain
 
-    initial_question: Hi, how can I help you today?
+    initial_question: Ola, meu nome é Ari, em que posso ajudá-lo?
     initial_question_srai: YINITIALQUESTION
-    default_response: Sorry, I don't have an answer for that!
+    default_response: Desculpe, Não entendi!
     default_response_srai: YEMPTY
     empty_string: YEMPTY
-    exit_response: So long, and thanks for the fish!
+    exit_response: Obrigado, e até logo!
     exit_response_srai: YEXITRESPONSE
 
     override_properties: true

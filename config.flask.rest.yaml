@@ -3,6 +3,7 @@ flask:
   debug: false
   host: 0.0.0.0
   port: 80
+
   scheduler:
     name: Scheduler1
     debug_level: 50

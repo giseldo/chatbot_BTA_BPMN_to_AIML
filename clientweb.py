@@ -152,11 +152,12 @@ class WebChatBotClient(FlaskRestBotClient):
         return self.create_response(response_data, userid, userid_expire_date)
 
 
+app = Flask(__name__)
+
 if __name__ == '__main__':
 
     print("Initiating WebChat Client...")
 
-    app = Flask(__name__)
 
     WEB_CLIENT = WebChatBotClient()
 

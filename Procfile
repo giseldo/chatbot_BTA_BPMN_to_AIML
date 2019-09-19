@@ -1,1 +1,1 @@
-web: gunicorn from main:app
+web: python clientweb.py

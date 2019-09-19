@@ -93,38 +93,27 @@ class FlaskRestBotClient(RestBotClient):
         self.shutdown()
 
 
-#app = Flask(__name__)
-
-REST_CLIENT = FlaskRestBotClient("flask")
-
-
-@app.route("/")
-def index():
-    return render_template("index.html")
-
-@app.route("/get")
-def get_bot_response():
-    entrada = request.args.get('msg')
-
-    #entradaformatada = "https://depressao.herokuapp.com/api/rest/v1.0/ask?question={}&userid=root".format(entrada)
-    entradaformatada = "http://127.0.0.1:8000/api/rest/v1.0/ask?question={}&userid=root".format(entrada)
-    response = requests.get(entradaformatada)
-    saida_json = json.loads(response.content)
-    saida = saida_json[0]['response']['answer']
-    return str(saida)
-
-
-@app.route('/api/rest/v1.0/ask', methods=['GET', 'POST'])
-def ask_v1_0():
-    response_data, status = REST_CLIENT.process_request(request, version=1.0)
-    return REST_CLIENT.create_response(response_data, status, version=1.0)
-
-
-@app.route('/api/rest/v2.0/ask', methods=['GET', 'POST'])
-def ask_v2_0():
-    response_data, status = REST_CLIENT.process_request(request, version=2.0)
-    return REST_CLIENT.create_response(response_data, status, version=2.0)
-
-
 if __name__ == '__main__':
-    REST_CLIENT.run(app)
+
+    REST_CLIENT = None
+
+    print("Initiating Flask REST Service...")
+    APP = Flask(__name__)
+
+
+    @APP.route('/api/rest/v1.0/ask', methods=['GET', 'POST'])
+    def ask_v1_0():
+        response_data, status = REST_CLIENT.process_request(request, version=1.0)
+        return REST_CLIENT.create_response(response_data, status, version=1.0)
+
+
+    @APP.route('/api/rest/v2.0/ask', methods=['GET', 'POST'])
+    def ask_v2_0():
+        response_data, status = REST_CLIENT.process_request(request, version=2.0)
+        return REST_CLIENT.create_response(response_data, status, version=2.0)
+
+
+    print("Loading, please wait...")
+    REST_CLIENT = FlaskRestBotClient("flask")
+    REST_CLIENT.run(APP)
+

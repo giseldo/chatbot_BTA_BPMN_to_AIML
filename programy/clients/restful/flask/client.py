@@ -42,29 +42,9 @@ class FlaskRestBotClient(RestBotClient):
 
     def run(self, flask):
 
-        print("%s Client running on http://%s:%s" % (self.id, self.configuration.client_configuration.host,
-                                              self.configuration.client_configuration.port))
-
         self.startup()
 
-        if self.configuration.client_configuration.debug is True:
-            print("%s Client running in debug mode" % self.id)
-
-        if self.configuration.client_configuration.ssl_cert_file is not None and \
-                self.configuration.client_configuration.ssl_key_file is not None:
-            context = (self.configuration.client_configuration.ssl_cert_file,
-                       self.configuration.client_configuration.ssl_key_file)
-
-            print("%s Client running in https mode" % self.id)
-            flask.run(host=self.configuration.client_configuration.host,
-                      port=self.configuration.client_configuration.port,
-                      debug=self.configuration.client_configuration.debug,
-                      ssl_context=context)
-        else:
-            print("%s Client running in http mode, careful now !" % self.id)
-            flask.run(host=self.configuration.client_configuration.host,
-                      port=self.configuration.client_configuration.port,
-                      debug=self.configuration.client_configuration.debug)
+        flask.run()
 
         self.shutdown()
 

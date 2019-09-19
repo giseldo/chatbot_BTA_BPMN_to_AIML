@@ -1,1 +1,1 @@
-web: gunicorn clientweb:app
+web: python clientweb.py

@@ -46,16 +46,6 @@ class MockArgumentParserGiseldo(object):
         return MockArgumentsGiseldo()
 
 
-class MockClientGiseldo(object):
-
-    def get_description(self):
-        return "MockClient"
-
-    def add_client_arguments(self, parser):
-        pass
-
-    def parse_args(sel, arguments, parsed_args):
-        pass
 
 class FlaskRestBotClient(RestBotClient):
 

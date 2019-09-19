@@ -1,6 +1,9 @@
-flask:
-  description: Program-Y Flask Rest Client
+webchat:
+  description: Program-Y Webchat Client
+  host: 0.0.0.0
+  port: 5000
   debug: false
+  api: /api/web/v1.0/ask
 
   scheduler:
     name: Scheduler1
@@ -52,81 +55,82 @@ flask:
               type:   file
               config:
                 categories_storage:
-                  dirs: storagedepressao/categories
+                  dirs: storagedepressao\categories
                   subdirs: true
                   extension: .aiml
                 errors_storage:
-                  file: storage/debug/errors.txt
+                  file: storage\debug\errors.txt
                 duplicates_storage:
-                  file: storage/debug/duplicates.txt
+                  file: storage\debug\duplicates.txt
                 learnf_storage:
-                  dirs: storage/categories/learnf
+                  dirs: storage\categories\learnf
 
                 conversation_storage:
-                  dirs: storage/conversations
+                  dirs: storage\conversations
 
                 sets_storage:
-                  dirs: storage/sets
+                  dirs: storage\sets
                   extension: txt
                 maps_storage:
-                  dirs: storage/maps
+                  dirs: storage\maps
                   extension: txt
                 rdf_storage:
-                  dirs: storage/rdfs
+                  dirs: storage\rdfs
                   subdirs: true
                   extension: txt
 
                 denormal_storage:
-                  file: storage/lookups/denormal.txt
+                  file: storage\lookups\denormal.txt
                 normal_storage:
-                  file: storage/lookups/normal.txt
+                  file: storage\lookups\normal.txt
                 gender_storage:
-                  file: storage/lookups/gender.txt
+                  file: storage\lookups\gender.txt
                 person_storage:
-                  file: storage/lookups/person.txt
+                  file: storage\lookups\person.txt
                 person2_storage:
-                  file: storage/lookups/person2.txt
+                  file: storage\lookups\person2.txt
                 regex_storage:
-                  file: storage/regex/regex-templates.txt
+                  file: storage\regex\regex-templates.txt
 
                 properties_storage:
-                  file: storage/properties/properties.txt
+                  file: storage\properties\properties.txt
                 defaults_storage:
-                  file: storage/properties/defaults.txt
+                  file: storage\properties\defaults.txt
                 variables_storage:
-                  dirs: storage/variables
+                  dirs: storage\variables
 
                 twitter_storage:
-                  dirs: storage/twitter
+                  dirs: storage\twitter
 
                 spelling_storage:
-                  file: storage/spelling/corpus.txt
+                  file: storage\spelling\corpus.txt
 
                 license_storage:
-                  file: storage/licenses/license.keys
+                  file: storage\licenses\license.keys
 
                 pattern_nodes_storage:
-                  file: storage/nodes/pattern_nodes.conf
+                  file: storage\nodes\pattern_nodes.conf
                 template_nodes_storage:
-                  file: storage/nodes/template_nodes.conf
+                  file: storage\nodes\template_nodes.conf
 
                 binaries_storage:
-                  file: storage/braintree/braintree.bin
+                  file: storage\braintree\braintree.bin
                 braintree_storage:
-                  file: storage/braintree/braintree.xml
+                  file: storage\braintree\braintree.xml
 
                 preprocessors_storage:
-                  file: storage/processing/preprocessors.conf
+                  file: storage\processing\preprocessors.conf
                 postprocessors_storage:
-                  file: storage/processing/postprocessors.conf
+                  file: storage\processing\postprocessors.conf
 
                 usergroups_storage:
-                  file: storage/security/usergroups.yaml
+                  file: storage\security\usergroups.yaml
 
           logger:
               type:   logger
               config:
                   conversation_logger: conversation
+
 
 #####################################################################################################
 #
@@ -196,6 +200,7 @@ brain:
         REST:
             classname: programy.services.rest.GenericRESTService
             method: GET
+            host: 0.0.0.0
         Pannous:
             classname: programy.services.pannous.PannousService
             url: http://weannie.pannous.com/api

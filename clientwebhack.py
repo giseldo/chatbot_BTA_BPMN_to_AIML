@@ -153,36 +153,37 @@ class WebChatBotClient(FlaskRestBotClient):
 
 
 
-if __name__ == '__main__':
 
-    print("Initiating WebChat Client...")
 
-    APP = Flask(__name__)
 
-    WEB_CLIENT = WebChatBotClient()
+print("Initiating WebChat Client...")
 
-    @APP.route('/')
-    def index():
-        return current_app.send_static_file('webchat.html')
+APP = Flask(__name__)
 
-    @APP.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
-    def receive_message():
-        try:
-            return WEB_CLIENT.receive_message(request)
-        except Exception as e:
-            print("Error receiving webchat message", e)
-            YLogger.exception(None, "Web client error", e)
-            return "500"
+WEB_CLIENT = WebChatBotClient()
 
-    if WEB_CLIENT.ping_responder.config.url is not None:
-        @APP.route(WEB_CLIENT.ping_responder.config.url, methods=['GET'])
-        def ping():
-            return jsonify(WEB_CLIENT.ping_responder.ping())
+@APP.route('/')
+def index():
+    return current_app.send_static_file('webchat.html')
 
-    if WEB_CLIENT.ping_responder.config.shutdown is not None:
-        @APP.route(WEB_CLIENT.ping_responder.config.shutdown, methods=['GET'])
-        def shutdown():
-            WEB_CLIENT.ping_responder.stop_ping_service()
-            return 'Server shutting down...'
+@APP.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
+def receive_message():
+    try:
+        return WEB_CLIENT.receive_message(request)
+    except Exception as e:
+        print("Error receiving webchat message", e)
+        YLogger.exception(None, "Web client error", e)
+        return "500"
 
-    WEB_CLIENT.run(APP)
+if WEB_CLIENT.ping_responder.config.url is not None:
+    @APP.route(WEB_CLIENT.ping_responder.config.url, methods=['GET'])
+    def ping():
+        return jsonify(WEB_CLIENT.ping_responder.ping())
+
+if WEB_CLIENT.ping_responder.config.shutdown is not None:
+    @APP.route(WEB_CLIENT.ping_responder.config.shutdown, methods=['GET'])
+    def shutdown():
+        WEB_CLIENT.ping_responder.stop_ping_service()
+        return 'Server shutting down...'
+
+WEB_CLIENT.run(APP)

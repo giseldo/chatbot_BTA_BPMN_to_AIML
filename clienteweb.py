@@ -152,39 +152,38 @@ class WebChatBotClient(FlaskRestBotClient):
         return self.create_response(response_data, userid, userid_expire_date)
 
 
-def app(eviron, start_response):
 
-    print("Initiating WebChat Client...")
+print("Initiating WebChat Client...")
 
-    app = Flask(__name__)
+app = Flask(__name__)
 
-    WEB_CLIENT = WebChatBotClient()
+WEB_CLIENT = WebChatBotClient()
 
-    @app.route('/')
-    def index():
-        return current_app.send_static_file('webchat.html')
+@app.route('/')
+def index():
+    return current_app.send_static_file('webchat.html')
 
-    @app.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
-    def receive_message():
-        try:
-            return WEB_CLIENT.receive_message(request)
-        except Exception as e:
-            print("Error receiving webchat message", e)
-            YLogger.exception(None, "Web client error", e)
-            return "500"
+@app.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
+def receive_message():
+    try:
+        return WEB_CLIENT.receive_message(request)
+    except Exception as e:
+        print("Error receiving webchat message", e)
+        YLogger.exception(None, "Web client error", e)
+        return "500"
 
-    if WEB_CLIENT.ping_responder.config.url is not None:
-        @app.route(WEB_CLIENT.ping_responder.config.url, methods=['GET'])
-        def ping():
-            return jsonify(WEB_CLIENT.ping_responder.ping())
+if WEB_CLIENT.ping_responder.config.url is not None:
+    @app.route(WEB_CLIENT.ping_responder.config.url, methods=['GET'])
+    def ping():
+        return jsonify(WEB_CLIENT.ping_responder.ping())
 
-    if WEB_CLIENT.ping_responder.config.shutdown is not None:
-        @app.route(WEB_CLIENT.ping_responder.config.shutdown, methods=['GET'])
-        def shutdown():
-            WEB_CLIENT.ping_responder.stop_ping_service()
-            return 'Server shutting down...'
+if WEB_CLIENT.ping_responder.config.shutdown is not None:
+    @app.route(WEB_CLIENT.ping_responder.config.shutdown, methods=['GET'])
+    def shutdown():
+        WEB_CLIENT.ping_responder.stop_ping_service()
+        return 'Server shutting down...'
 
-    WEB_CLIENT.run(app)
+WEB_CLIENT.run(app)
 
 
 #if __name__ == '__main__':

@@ -2,6 +2,13 @@
 <aiml>
 
     <category>
+        <pattern>OLA</pattern>
+        <template>
+        	Ola. Tudo bem.
+        </template>
+    </category>
+
+    <category>
         <pattern>INICIAR</pattern>
         <template>
         	<think>

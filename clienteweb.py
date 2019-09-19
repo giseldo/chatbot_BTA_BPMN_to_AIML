@@ -152,7 +152,7 @@ class WebChatBotClient(FlaskRestBotClient):
         return self.create_response(response_data, userid, userid_expire_date)
 
 
-def app():
+def app(eviron, start_response):
 
     print("Initiating WebChat Client...")
 
@@ -187,5 +187,5 @@ def app():
     WEB_CLIENT.run(app)
 
 
-if __name__ == '__main__':
-    app()
+#if __name__ == '__main__':
+#    app()

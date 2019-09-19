@@ -1,0 +1,2 @@
+Error,File,Start Line,End Line
+No template node found in category,storage\categories\errors.aiml,5,7

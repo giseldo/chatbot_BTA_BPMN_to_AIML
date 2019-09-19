@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>INICIAR</pattern>
+        <template>
+        	<think>
+            	<set name="topic">PERFILINICIAL</set>
+            </think>
+            <srai>STEP INICIAL</srai>
+        </template>
+    </category>
+
+    <topic name="PERFILINICIAL">
+        
+        <category>
+            <pattern>STEP INICIAL</pattern>
+            <template>
+            	Vou fazer algumas perguntas [sim, nao]
+            </template>
+        </category>
+
+        <category>
+            <pattern>*</pattern>
+            <that>VOU FAZER ALGUMAS PERGUNTAS *</that>
+            <template>
+            	<think><set name="resposta"><star /></set></think>
+                <condition name="resposta">
+                    <li value="sim"><srai>STEP QUEM MORA</srai></li>
+                    <li value="nao"><srai>STEP QUEM MORA</srai></li>
+                    <li><srai>STEP INICIAL</srai></li>
+                </condition>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP QUEM MORA</pattern>
+            <template>
+                Vamos la entao com quem voce mora [sozinho, amigo, ninguem, etc]
+            </template>
+        </category>
+
+        <category>
+            <pattern>*</pattern>
+            <that>VAMOS LA ENTAO COM QUEM VOCE MORA *</that>
+            <template>
+                <think><set name="mora"><star /></set></think>
+                <condition name="mora">
+                    <li value="sozinho"><srai>STEP RESULTADO</srai></li>
+                    <li value="amigo"><srai>STEP RESULTADO</srai></li>
+                    <li value="ninguem"><srai>STEP RESULTADO</srai></li>
+                    <li><srai>STEP QUEM MORA</srai></li>
+                </condition>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP RESULTADO</pattern>
+            <template>
+                 Que legal
+            </template>
+        </category>
+
+     </topic>
+
+</aiml>

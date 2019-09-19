@@ -1,0 +1,5 @@
+name: REST
+classname: programy.services.rest.GenericRESTService
+method: GET
+host: 0.0.0.0
+

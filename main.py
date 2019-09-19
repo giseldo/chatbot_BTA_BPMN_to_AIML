@@ -93,7 +93,7 @@ class FlaskRestBotClient(RestBotClient):
         self.shutdown()
 
 
-app = Flask(__name__)
+#app = Flask(__name__)
 
 REST_CLIENT = FlaskRestBotClient("flask")
 
@@ -105,8 +105,9 @@ def index():
 @app.route("/get")
 def get_bot_response():
     entrada = request.args.get('msg')
-    entradaformatada = "https://depressao.herokuapp.com/api/rest/v1.0/ask?question={}&userid=root".format(entrada)
-    #entradaformatada = "http://127.0.0.1/api/rest/v1.0/ask?question={}&userid=root".format(entrada)
+
+    #entradaformatada = "https://depressao.herokuapp.com/api/rest/v1.0/ask?question={}&userid=root".format(entrada)
+    entradaformatada = "http://127.0.0.1:8000/api/rest/v1.0/ask?question={}&userid=root".format(entrada)
     response = requests.get(entradaformatada)
     saida_json = json.loads(response.content)
     saida = saida_json[0]['response']['answer']

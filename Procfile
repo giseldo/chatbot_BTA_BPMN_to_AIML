@@ -1,1 +1,1 @@
-web: gunicorn clientwebhack:app
+web: gunicorn clientwebhack:app --workers 1

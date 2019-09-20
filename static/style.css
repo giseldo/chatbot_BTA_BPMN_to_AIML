@@ -103,23 +103,26 @@ a:hover {
     }
 
 #usermsg {
-    width:95%;
+    width:90%;
     border:1px solid #ACD8F0;
     font-size: 17px;
-    padding: 10px;
     border-radius: 2px;
 }
 
 #submit {
-    width: 60px;
+    width:10%;
     align: right
-    padding: 10px;
     font-size: 17px;
 }
+#myvid {
+    width="32px" height="24px"
+}
+
 
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 47.5em ) {
     .leftColumn { margin-right: 19.5em; }
+
     .rightColumn { position: absolute; top: 0; right: 0; width: 18.75em; }
 }

@@ -1,17 +1,15 @@
-# Ari: Um chatbot que conversa sobre depressão
-Autor: Giseldo da Silva Neo
+# Ari: Um chatbot que conversa sobre depressão e ética
+- Autor: Giseldo da Silva Neo
+- giseldo@gmail.com
 
-Este chatbot utiliza 
-* aiml
-* flask
-* spacy 
+# Como  colocar para funcionar localmente
+- mkdir chatbot
+- cd chatbot
+- git clone repositorio
+- cd pasta_do_repositorio
+- pip instal virtualenv
+- virtualenv venv
+- venv\script\activate.bat
+- pip install -r requirements.txt
+- python clientwebhack.py
 
-# Configurações
-* pip install -r requirements.txt
-* pip install aiml
-* pip install flask
-* pip install spacy
-* python -m spacy download en_core_web_sm
-* python -m spacy download pt_core_news_sm
-
-# publicando no heroku

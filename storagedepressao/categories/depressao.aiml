@@ -2,9 +2,16 @@
 <aiml>
 
     <category>
-        <pattern>OLA</pattern>
+        <pattern>^ OLA ^</pattern>
         <template>
         	Ola. Tudo bem.
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ COMO VAI VOCE ^</pattern>
+        <template>
+        	Eu vou bem. Obrigado por perguntar.
         </template>
     </category>
 
@@ -33,7 +40,19 @@
         <category>
             <pattern>STEP INICIAL</pattern>
             <template>
-            	Vou fazer algumas perguntas [sim, nao]
+               Como este é o nosso primeiro contato, eu gostaria de me apresentar pra você.
+                <br />
+                Meu nome é Ari.
+                <br />
+                Eu sou um robô baseado em Inteligência Artificial.
+                <br />
+                Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.
+                <br />
+                Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.
+                <br />
+                Agora eu gostaria de conversar com você para te conhecer melhor.
+                <br />
+            	Vou fazer algumas perguntas? [sim, não, talvez, etc]
             </template>
         </category>
 
@@ -43,31 +62,74 @@
             <template>
             	<think><set name="resposta"><star /></set></think>
                 <condition name="resposta">
-                    <li value="sim"><srai>STEP QUEM MORA</srai></li>
-                    <li value="nao"><srai>STEP QUEM MORA</srai></li>
-                    <li><srai>STEP INICIAL</srai></li>
+                    <li value="sim"><srai>VAMOS LA</srai></li>
+                    <li value="nao"><srai>STEP DUVIDA</srai></li>
+                    <li value="não"><srai>STEP DUVIDA</srai></li>
+                    <li value="talvez"><srai>STEP DUVIDA</srai></li>
+                    <li><srai>STEP DUVIDA</srai></li>
                 </condition>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP DUVIDA</pattern>
+            <template>
+                <random>
+                    <li>Veja, para interagirmos melhor, eu preciso saber algumas coisas sobre você.</li>
+                    <li>Não se preocupe, toda nossa conversa é confidencial e protegida. Ela não será divulgada a ninguém.</li>
+                </random>
+                <srai>STEP QUEM MORA</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>VAMOS LA</pattern>
+            <template>
+                Vamos lá então.
+                <srai>STEP QUEM MORA</srai>
             </template>
         </category>
 
         <category>
             <pattern>STEP QUEM MORA</pattern>
             <template>
-                Vamos la entao com quem voce mora [sozinho, amigo, ninguem, etc]
+                Com quem voce mora? [familia(pai, mae, etc), sozinho, amigo, ninguem, etc]
+            </template>
+        </category>
+
+
+        <category>
+            <pattern>*</pattern>
+            <that>^ COM QUEM VOCE MORA *</that>
+            <template>
+                <think><set name="mora"><star /></set></think>
+                <condition name="mora">
+                    <li value="familia"><srai>STEP RESULTADO</srai></li>
+                    <li value="sozinho"><srai>STEP RESULTADO</srai></li>
+                    <li value="amigo"><srai>STEP RESULTADO</srai></li>
+                    <li value="ninguem"><srai>STEP RESULTADO</srai></li>
+                    <li value="nao quero responder"><srai>STEP RESULTADO</srai></li>
+                    <li value="não quero responder"><srai>STEP RESULTADO</srai></li>
+                    <li><srai>STEP QUEM MORA</srai></li>
+                </condition>
             </template>
         </category>
 
         <category>
-            <pattern>*</pattern>
-            <that>VAMOS LA ENTAO COM QUEM VOCE MORA *</that>
+            <pattern>PAI</pattern>
             <template>
-                <think><set name="mora"><star /></set></think>
-                <condition name="mora">
-                    <li value="sozinho"><srai>STEP RESULTADO</srai></li>
-                    <li value="amigo"><srai>STEP RESULTADO</srai></li>
-                    <li value="ninguem"><srai>STEP RESULTADO</srai></li>
-                    <li><srai>STEP QUEM MORA</srai></li>
-                </condition>
+                Eu gostaria de saber agora o que você faz pra se divertir?
+                Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que você escolhesse uma ou mais opções.
+                Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar”
+            </template>
+        </category>
+
+        <category>
+            <pattern>MAE</pattern>
+            <template>
+                Eu gostaria de saber agora o que você faz pra se divertir?
+                Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que você escolhesse uma ou mais opções.
+                Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar”
             </template>
         </category>
 

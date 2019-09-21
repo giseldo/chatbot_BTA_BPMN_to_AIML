@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
-     <category>
-        <pattern>^ ÉTICA ^</pattern>
-        <template>
-        	<srai>ETICA</srai>
-        </template>
-    </category>
-
     <category>
-        <pattern>^ ETICA ^</pattern>
+        <pattern>^ <iset words="ETICA, ÉTICA" /> ^</pattern>
         <template>
         	<srai>ETICA</srai>
         </template>
@@ -53,7 +46,7 @@
     </category>
 
     <category>
-        <pattern>$qual ^ sexo</pattern>
+        <pattern>QUAL ^ GÊNERO</pattern>
         <template>Eu sou masculino.</template>
     </category>
 

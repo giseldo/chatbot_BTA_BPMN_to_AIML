@@ -39,7 +39,7 @@ class MockArgumentsGiseldo(object):
                     config  = 'config.webchat.yaml',
                     cformat = "yaml",
                     noloop = False,
-                    substitutions='subs.txt'
+                    substitutions=None
                 ):
         self.bot_root = bot_root
         self.logging = logging

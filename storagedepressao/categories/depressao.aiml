@@ -9,7 +9,7 @@
     </category>
 
     <category>
-        <pattern>^ COMO VAI VOCE ^</pattern>
+        <pattern># COMO VAI VOCE #</pattern>
         <template>
         	Eu vou bem. Obrigado por perguntar.
         </template>

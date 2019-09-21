@@ -24,7 +24,7 @@ class MockArgumentsGiseldo(object):
     def __init__(self,
                     bot_root = ".",
                     logging = None,
-                    config  = 'config.flask.rest.yaml',
+                    config  = 'config/config.flask.rest.yaml',
                     cformat = "yaml",
                     noloop = False,
                     substitutions='subs.txt'

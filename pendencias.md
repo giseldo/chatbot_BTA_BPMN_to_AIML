@@ -4,7 +4,10 @@
 - incluir conteudo de depressao
 - incluir conteudo de etica
 - colocar um banco de dados para salvar o log de todas as conversas
-
+- colocar no facebook / slack
+- incluir ccv
+- incluir perguntas e respostas
+- testar modulo de aprendizado
 
 
 

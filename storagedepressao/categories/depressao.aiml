@@ -16,7 +16,7 @@
     </category>
 
     <category>
-        <pattern>LEVANTE O MEU PERFIL</pattern>
+        <pattern># PERFIL #</pattern>
         <template>
         	<think>
             	<set name="topic">PERFILINICIAL</set>
@@ -116,7 +116,7 @@
         </category>
 
         <category>
-            <pattern>PAI</pattern>
+            <pattern>^ PAI ^</pattern>
             <template>
                 Eu gostaria de saber agora o que você faz pra se divertir?
                 Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que você escolhesse uma ou mais opções.
@@ -125,7 +125,7 @@
         </category>
 
         <category>
-            <pattern>MAE</pattern>
+            <pattern>^ MAE ^</pattern>
             <template>
                 Eu gostaria de saber agora o que você faz pra se divertir?
                 Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que você escolhesse uma ou mais opções.

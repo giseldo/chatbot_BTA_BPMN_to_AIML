@@ -16,8 +16,6 @@ $(document).ready(function(){
                     $("#chatbox").append ("<p><b>Você:</b> "+response.response.question+"</p>" );
                 }
                 $("#chatbox").append ("<p><b>Ari:</b> "+response.response.answer+"</p>" );
-                $("#chatbox").append ("<p><hr /></p>" );
-
                 $("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;
             }
         }

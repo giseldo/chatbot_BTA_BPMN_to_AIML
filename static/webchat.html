@@ -1,98 +1,105 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
     <title>Ari</title>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link type="text/css" rel="stylesheet" href="static/style.css" />
+    <link type="text/css" rel="stylesheet" href="static/style.css"/>
 
     <meta http-equiv="Cache-control" content="no-cache">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
 </head>
 
-  <body>
+<body>
 
 
-        <div class="d-none d-md-block">
-            <header><h4>Ari, um chatbot que conversa sobre ética e depressão. </h4></header>
-        </div>
+<div class="d-none d-md-block">
+    <header><h4>Ari, um chatbot que conversa sobre ética e depressão. </h4></header>
+</div>
 
 
-  	<div class="columnsContainer">
+<div class="columnsContainer">
 
-	  	<div class="leftColumn">
-
-
-            <div id="formwrapper">
-
-                <div id="menu">
-                    <p class="welcome">Chat<b></b></p>
-                    <div style="clear:both"></div>
-                </div>
-
-                <div id="chatbox"></div>
-
-                <form name="message" action="">
-                    <div class="container-fluid">
-
-                        <input name="usermsg" type="text" id="usermsg" />
-                        <input name="submitmsg" type="submit"  id="submitmsg" value=">" />
+    <div class="leftColumn">
 
 
-                    </div>
-                </form>
+        <div id="formwrapper">
+
+            <div id="menu">
+                <p class="welcome">Ari Chatbot<b></b></p>
+                <div style="clear:both"></div>
             </div>
-	  	</div>
-        <div class="d-none d-md-block">
-	  	<div class="rightColumn">
-            <center><video id="myvid" src="static/video/talk.webm" autoplay></video></center>
-            <div class="d-none d-md-block">
-                <div id="questionswrapper">
-        	  		<p class="welcome">Perguntas mais comuns sobre ética e depressão<b></b></p>
-                    <ul>
-                        <li class="question"><a href="#">Levante o meu perfil</a></li> <!--depressao-->
-                        <li class="question"><a href="#">O que é Etica?</a></li> <!--etica-->
-                        <li class="question"><a href="#">O que é Moral?</a></li> <!--etica-->
-                        <li class="question"><a href="#">Qual o seu sexo?</a></li> <!--sexo-->
-                        <li class="question"><a href="#">Meu nome é ...</a></li> <!--nome-->
-                    </ul>
-                    <p class="welcome">Perguntas mais comuns sobre outros temas<b></b></p>
-                    <ul>
-                        <li class="question"><a href="#">O que é uma base de dados?</a></li> <!-- computador -->
-                        <li class="question"><a href="#">Quem inventou o linux?</a></li> <!-- invencoes -->
-                        <li class="question"><a href="#">Que ano estamos?</a></li> <!-- relogio -->
-                        <li class="question"><a href="#">Quem é aristóteles?</a></li> <!-- biografia -->
-                        <li class="question"><a href="#">Estou sendo negativo</a></li> <!-- emoções -->
-                        <li class="question"><a href="#">toc toc</a></li> <!-- piada -->
-                        <li class="question"><a href="#">Inicie uma piada do tipo toc toc, por favor</a></li> <!-- piada -->
-                    </ul>
+
+            <div id="chatbox"></div>
+
+            <form name="message" action="">
+                <div class="container-fluid">
+                    <input name="usermsg" type="text" id="usermsg"/>
+                    <input name="submitmsg" type="submit" id="submitmsg" value=">"/>
                 </div>
-	      	</div>
+            </form>
         </div>
-  	</div>
-    <!--
-    <footer>
-        <a href="https://github.com/keiffster/program-y">Program-Y on GitHub</a> |
-        <a href="https://github.com/keiffster/program-y/wiki">Documentation</a> |
-        <a href="http://www.keithsterling.com">Meet the Author</a> |
-        <a href="http://servusai.com">Professional Services</a>
-  	</footer>
-    -->
-    <script type="text/javascript" src="static/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="static/y-bot.js"></script>
+    </div>
+    <div class="d-none d-md-block">
+        <div class="rightColumn">
+            <center>
+                <video id="myvid" src="static/video/talk.webm" autoplay></video>
+            </center>
 
-   <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+            <div id="questionswrapper">
+                <p class="welcome">Perguntas mais comuns sobre ética e depressão<b></b></p>
+                <ul>
+                    <li class="question"><a href="#">Levante o meu perfil</a></li> <!--depressao-->
+                    <li class="question"><a href="#">O que é Etica?</a></li> <!--etica-->
+                    <li class="question"><a href="#">O que é Moral?</a></li> <!--etica-->
+                    <li class="question"><a href="#">Qual o seu sexo?</a></li> <!--sexo-->
+                    <li class="question"><a href="#">Meu nome é ...</a></li> <!--nome-->
+                </ul>
+                <p class="welcome">Perguntas mais comuns sobre outros temas<b></b></p>
+                <ul>
+                    <li class="question"><a href="#">O que é uma base de dados?</a></li> <!-- computador -->
+                    <li class="question"><a href="#">Quem inventou o linux?</a></li> <!-- invencoes -->
+                    <li class="question"><a href="#">Que ano estamos?</a></li> <!-- relogio -->
+                    <li class="question"><a href="#">Quem é aristóteles?</a></li> <!-- biografia -->
+                    <li class="question"><a href="#">Estou sendo negativo</a></li> <!-- emoções -->
+                    <li class="question"><a href="#">toc toc</a></li> <!-- piada -->
+                    <li class="question"><a href="#">Inicie uma piada do tipo toc toc, por favor</a></li>
+                    <!-- piada -->
+                </ul>
+            </div>
 
-  </body>
+        </div>
+    </div>
+</div>
+<!--
+<footer>
+    <a href="https://github.com/keiffster/program-y">Program-Y on GitHub</a> |
+    <a href="https://github.com/keiffster/program-y/wiki">Documentation</a> |
+    <a href="http://www.keithsterling.com">Meet the Author</a> |
+    <a href="http://servusai.com">Professional Services</a>
+  </footer>
+-->
+<script type="text/javascript" src="static/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="static/y-bot.js"></script>
+
+<!-- JavaScript (Opcional) -->
+<!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+
+</body>
 
 </html>

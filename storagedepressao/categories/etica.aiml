@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
+     <category>
+        <pattern>^ ÉTICA ^</pattern>
+        <template>
+        	<srai>ETICA</srai>
+        </template>
+    </category>
+
     <category>
         <pattern>^ ETICA ^</pattern>
         <template>
-        	A Etica designa a disciplina filosófica que investiga o que é a moral, como ela se fundamenta e se aplica.
+        	<srai>ETICA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ETICA</pattern>
+        <template>
+        	A ética designa a disciplina filosófica que investiga o que é a moral, como ela se fundamenta e se aplica.
         </template>
     </category>
 

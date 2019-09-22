@@ -8,4 +8,28 @@
         </template>
     </category>
 
+     <category>
+        <pattern>QUAL O MEU NOME</pattern>
+        <template>
+        	<get name="nome" />
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VAI VOCE</pattern>
+        <template>
+        	Eu vou bem obrigado.
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VAI VOCÊ</pattern>
+        <template>
+        	Eu vou bem obrigado.
+        </template>
+    </category>
+
+
+
+
 </aiml>

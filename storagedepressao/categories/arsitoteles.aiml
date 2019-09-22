@@ -19,15 +19,31 @@
     <pattern>VIRTUDE</pattern>
     <template>
         Em sua obra Ética a Nicômaco, Aristoteles fala sobre as virtudes:
-        a virtude da coragem, a virtude da temperança, a virtude da liberalidade, a virtude da magnificência
-        a virtude da justiça, a justiça distributiva, a justiça corretiva, a reciprocidade proporcional,
-        a justiça polític e a equidade.
-
-            <ul>
-                <li class="question" onclick=" var question = $(this).text()
-        return ask_question(question, true)"><a href="#"><b>Levante o meu perfil</b></a></li>
-
-            </ul>
+        <table border="1">
+            <style>
+                table, th, td {
+                    border: 1px solid black;
+                }
+            </style>
+            <tr>
+                <th colspan="3">Virtudes</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="#">Coragem</a>
+                </td>
+                <td>temperança</td>
+                <td>liberalidade</td>
+             <tr>
+                <td>magnificência</td>
+                <td>distributiva</td>
+                <td>corretiva</td>
+             </tr>
+                <td>justiça política</td>
+                <td>equidade</td>
+                <td>reciprocidade proporcional</td>
+            </tr>
+        </table>
     </template>
     </category>
 

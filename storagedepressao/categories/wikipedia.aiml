@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 
-
-
 <category>
-    <pattern>XXX</pattern>
+    <pattern>ASKWIKIPEDIA *</pattern>
     <template>
-        <sraix host="" botid="testbot" hint="test query" >
-            Ask this question
-        </sraix>
+        <sraix service="WIKIPEDIA"><star /></sraix>
     </template>
 </category>
+
 </aiml>

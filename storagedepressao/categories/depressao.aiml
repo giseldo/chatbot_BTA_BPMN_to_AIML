@@ -9,6 +9,13 @@
     </category>
 
     <category>
+        <pattern>^ OLÁ ^</pattern>
+        <template>
+        	Ola. Tudo bem.
+        </template>
+    </category>
+
+    <category>
         <pattern># COMO VAI VOCE #</pattern>
         <template>
         	Eu vou bem. Obrigado por perguntar.
@@ -121,6 +128,7 @@
                 Eu gostaria de saber agora o que você faz pra se divertir?
                 Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que você escolhesse uma ou mais opções.
                 Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar”
+                <srai>TABELA</srai>
             </template>
         </category>
 
@@ -137,9 +145,17 @@
         <category>
             <pattern>TABELA</pattern>
             <template>
-                 <table>
+                <table>
+                <style>
+                table, th, td {
+                    border: 1px solid black;
+                }
+                </style>
                 <tr>
-                    <td>Esportes</td>
+                    <center><th colspan="4">Diversão</th></center>
+                </tr>
+                <tr>
+                    <td> <a href="#" click='return ask_question("Esportes", true)'>Esportes</a></td>
                     <td>Ouvir Música</td>
                     <td>Ir ao cinema ou teatro</td>
                     <td>Usar Drogas</td>
@@ -171,11 +187,6 @@
             </table>
             </template>
         </category>
-
-
-
-
-
 
         <category>
             <pattern>STEP RESULTADO</pattern>

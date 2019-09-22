@@ -138,7 +138,7 @@ webchat:
 bot:
     brain: brain
 
-    initial_question: Ola, meu nome é Ari, em que posso ajudá-lo?
+    initial_question: Olá, meu nome é Ari, em que posso ajudá-lo?
     initial_question_srai: YINITIALQUESTION
     default_response: Desculpe, Não entendi!
     default_response_srai: YEMPTY

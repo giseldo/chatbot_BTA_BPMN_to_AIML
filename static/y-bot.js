@@ -1,10 +1,18 @@
 // jQuery Document
 $(document).ready(function(){
 
+    var synth = window.speechSynthesis;
+
+    var msg = new SpeechSynthesisUtterance();
+    var voices = synth.getVoices();
+    msg.voice = voices[0];
+    msg.rate = 1;
+    msg.pitch = 1;
+
+
+
     ask_question = function(question, show_question) {
 
-        var vid = document.getElementById("myvid");
-        vid.play();
 
 
         var xhttp = new XMLHttpRequest();
@@ -12,13 +20,23 @@ $(document).ready(function(){
             if (this.status == 200 && this.responseText != null) {
                 var response = JSON.parse(this.responseText);
 
+                var vid = document.getElementById("myvid");
+                vid.play();
+                msg.text = response.response.answer;
+                speechSynthesis.speak(msg);
+
                 if (show_question == true) {
                     $("#chatbox").append ("<p><b>Você:</b> "+response.response.question+"</p>" );
+
                 }
                 $("#chatbox").append ("<p><b>Ari:</b> "+response.response.answer+"</p>" );
                 $("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;
+
+
             }
         }
+
+
 
         xhttp.open("GET", "/api/web/v1.0/ask?question="+question);
         xhttp.setRequestHeader("Content-type", "application/json");

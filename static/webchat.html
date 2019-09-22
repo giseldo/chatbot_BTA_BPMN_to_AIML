@@ -30,7 +30,6 @@
 
     <div class="leftColumn">
 
-
         <div id="formwrapper">
 
             <div id="menu">
@@ -46,6 +45,7 @@
                 </div>
             </form>
         </div>
+
     </div>
 
     <div class="rightColumn">
@@ -57,12 +57,11 @@
         <div id="questionswrapper">
             <p class="welcome">Perguntas mais comuns sobre ética e depressão<b></b></p>
             <ul>
-                <li class="question" onclick=" var question = $(this).text()
-        return ask_question(question, true)"><a href="#"><b>Levante o meu perfil</b></a></li> <!--depressao-->
+                <li class="question" ><a href="#"><b>Levante o meu perfil</b></a></li> <!--depressao-->
                 <li class="question"><a href="#">O que é Ética?</a></li> <!--etica-->
                 <li class="question"><a href="#">O que é Moral?</a></li> <!--etica-->
-                <li class="question"><a href="#">Fale-me sobre a tabela da virtude.</a></li> <!--etica-->
-                <li class="question"><a href="#">como vai você?</a></li> <!--depressao-->
+                <li class="question"><a href="#">O que é virtude?</a></li> <!--etica-->
+                <li class="question"><a href="#">Como vai você?</a></li> <!--depressao-->
                 <li class="question"><a href="#">Qual o seu gênero?</a></li> <!--sexo-->
                 <li class="question"><a href="#">Meu nome é ...</a></li> <!--nome-->
             </ul>
@@ -74,14 +73,13 @@
                 <li class="question"><a href="#">Quem é aristóteles?</a></li> <!-- biografia -->
                 <li class="question"><a href="#">Estou sendo negativo</a></li> <!-- emoções -->
                 <li class="question"><a href="#">toc toc</a></li> <!-- piada -->
-                <li class="question"><a href="#">Inicie uma piada do tipo toc toc, por favor</a></li><!-- piada -->
-
+                <li class="question"><a href="#">Inicie uma piada toc toc</a></li><!-- piada -->
             </ul>
         </div>
-
-
     </div>
 </div>
+
+<script src="https://unpkg.com/speech-to-text@0.7.4/lib/index.js"></script>
 
 <script type="text/javascript" src="static/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="static/y-bot.js"></script>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+    <pattern> ^ virtude ^ </pattern>
+    <template>
+        <srai>VIRTUDE</srai>
+    </template>
+    </category>
+
+    <category>
+    <pattern> ^ virtudes ^ </pattern>
+    <template>
+        <srai>VIRTUDE</srai>
+    </template>
+    </category>
+
+    <category>
+    <pattern>VIRTUDE</pattern>
+    <template>
+        Em sua obra Ética a Nicômaco, Aristoteles fala sobre as virtudes:
+        a virtude da coragem, a virtude da temperança, a virtude da liberalidade, a virtude da magnificência
+        a virtude da justiça, a justiça distributiva, a justiça corretiva, a reciprocidade proporcional,
+        a justiça polític e a equidade.
+
+            <ul>
+                <li class="question" onclick=" var question = $(this).text()
+        return ask_question(question, true)"><a href="#"><b>Levante o meu perfil</b></a></li>
+
+            </ul>
+    </template>
+    </category>
+
+    <category>
+    <pattern>^ CORAGEM ^</pattern>
+    <template>
+        A virtude da coragem tem como extremo a temeridade e defeito a covardia
+    </template>
+    </category>
+
+    <category>
+    <pattern>^ TEMPERANÇA ^</pattern>
+    <template>
+        A virtude da temperança tem como extremo a intemperança, não existindo um termo específico para o defeito
+    </template>
+    </category>
+
+    <category>
+    <pattern>^LIBERALIDADE ^</pattern>
+    <template>
+        A virtude da liberalidade tem como extremo a prodigalidade e defeito a avareza
+    </template>
+    </category>
+
+    <category>
+    <pattern>^ MAGNIFICIÊNCIA ^</pattern>
+    <template>
+        A virtude da magnificência tem como extremo a vulgaridade e como defeito a mesquinhez, e dentre várias outras;
+    </template>
+    </category>
+
+    <category>
+    <pattern>^ JUSTIÇA ^</pattern>
+    <template>
+        A virtude da justiça tem tanto como excesso quanto como defeito a injustiça.
+    </template>
+    </category>
+
+    <category>
+    <pattern>^ JUSTIÇA DISTRIBUTIVA ^</pattern>
+    <template>
+        A justiça distributiva consiste no tratar desigualmente as pessoas desiguais na medida em que se desigualam.
+        Dessa forma, essa espécie de justiça será considerada de acordo com uma proporcionalidade,
+        igualando as situações de desigualdade, visto que a igualdade seria uma injustiça.
+    </template>
+    </category>
+
+    <category>
+    <pattern>^ JUSTIÇA CORRETIVA ^</pattern>
+    <template>
+        A justiça corretiva se aplica nas transações entre os homens. O justo
+        será determinado de acordo com uma média aritmética, não se procurando
+        uma proporção: os iguais são tratados como iguais, sendo a desigualdade o equivalente à injustiça.
+    </template>
+    </category>
+
+    <category>
+    <pattern>^ RECIPROCIDADE ^</pattern>
+    <template>
+        A reciprocidade difere das outras duas espécies anteriores,
+        pelo fato de considerar uma retribuição proporcional.
+    </template>
+    </category>
+
+    <category>
+    <pattern>^ JUSTIÇA POLÍTICA ^</pattern>
+    <template>
+        A justiça política é aquela que se manifesta no âmbito da vida social,
+        visto que uma espécie de igualdade deve existir entre os cidadãos.
+    </template>
+    </category>
+
+    <category>
+    <pattern>^ EQUIDADE ^</pattern>
+    <template>
+        A equidade se coloca como uma correção da justiça legal. Na medida em que a lei pretende ser
+        universal e não abrange todos os casos concretos, pode-se implementar um determinado
+        caso em que a previsão legal implique em uma situação que não seria
+        a mais justa (no sentido geral do termo, e não legal).
+    </template>
+    </category>
+
+</aiml>

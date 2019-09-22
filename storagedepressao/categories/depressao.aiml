@@ -130,8 +130,52 @@
                 Eu gostaria de saber agora o que você faz pra se divertir?
                 Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que você escolhesse uma ou mais opções.
                 Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar”
+                <srai>TABELA</srai>
             </template>
         </category>
+
+        <category>
+            <pattern>TABELA</pattern>
+            <template>
+                 <table>
+                <tr>
+                    <td>Esportes</td>
+                    <td>Ouvir Música</td>
+                    <td>Ir ao cinema ou teatro</td>
+                    <td>Usar Drogas</td>
+                </tr>
+                <tr>
+                    <td>Conversar com Pessoas</td>
+                    <td>Navegar na internet</td>
+                    <td>Ir á festas</td>
+                    <td>Beber</td>
+                </tr>
+                <tr>
+                    <td>Desenhar ou pintar</td>
+                    <td>Jogar Video Game</td>
+                    <td>Fazer compras</td>
+                    <td>Namorar</td>
+                </tr>
+                <tr>
+                    <td>Dançar ou cantar</td>
+                    <td>Passear com os amigos</td>
+                    <td>Comer</td>
+                    <td>Nenhuma Atividade</td>
+                </tr>
+                <tr>
+                    <td>Ler</td>
+                    <td>Assistir TV</td>
+                    <td>Dormir</td>
+                    <td>Outros. Qual?</td>
+                </tr>
+            </table>
+            </template>
+        </category>
+
+
+
+
+
 
         <category>
             <pattern>STEP RESULTADO</pattern>

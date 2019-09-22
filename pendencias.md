@@ -8,6 +8,11 @@
 - incluir ccv
 - incluir perguntas e respostas
 - testar modulo de aprendizado
+- ir no wikipedia
+- analisar as tags do aiml 2
+- Incluir Rive Script
+- Incluir o Rasa
+- ConvForm???
 
 
 

@@ -57,9 +57,11 @@
         <div id="questionswrapper">
             <p class="welcome">Perguntas mais comuns sobre ética e depressão<b></b></p>
             <ul>
-                <li class="question"><a href="#"><b>Levante o meu perfil</b></a></li> <!--depressao-->
+                <li class="question" onclick=" var question = $(this).text()
+        return ask_question(question, true)"><a href="#"><b>Levante o meu perfil</b></a></li> <!--depressao-->
                 <li class="question"><a href="#">O que é Ética?</a></li> <!--etica-->
                 <li class="question"><a href="#">O que é Moral?</a></li> <!--etica-->
+                <li class="question"><a href="#">Fale-me sobre a tabela da virtude.</a></li> <!--etica-->
                 <li class="question"><a href="#">como vai você?</a></li> <!--depressao-->
                 <li class="question"><a href="#">Qual o seu gênero?</a></li> <!--sexo-->
                 <li class="question"><a href="#">Meu nome é ...</a></li> <!--nome-->

@@ -14,6 +14,8 @@
 - ConvForm???
 - Bug na hora de falar
 - Bug na hora de clickar no grid da tela
+- falar e exibir falando pelo tempo 
+- incluir configuracao de voz
 
 
 

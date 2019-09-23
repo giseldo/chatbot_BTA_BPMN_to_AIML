@@ -100,14 +100,14 @@
         <category>
             <pattern>STEP QUEM MORA</pattern>
             <template>
-                Com quem voce mora? [familia(pai, mae, etc), sozinho, amigo, ninguem, etc]
+                Com quem você mora? [familia(pai, mae, etc), sozinho, amigo, ninguem, etc]
             </template>
         </category>
 
 
         <category>
             <pattern>*</pattern>
-            <that>^ COM QUEM VOCE MORA *</that>
+            <that>^ COM QUEM VOCÊ MORA *</that>
             <template>
                 <think><set name="mora"><star /></set></think>
                 <condition name="mora">

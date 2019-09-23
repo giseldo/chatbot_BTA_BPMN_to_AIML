@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
     <category>
@@ -137,7 +137,7 @@
                 }
                 </style>
                 <tr>
-                    <center><th colspan="4">Diversão</th></center>
+                    <center><td>Diversão</td></center>
                 </tr>
                 <tr>
                     <td>Esportes</td>

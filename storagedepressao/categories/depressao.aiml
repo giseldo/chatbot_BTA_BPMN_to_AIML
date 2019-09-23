@@ -47,18 +47,12 @@
         <category>
             <pattern>STEP INICIAL</pattern>
             <template>
-               Como este é o nosso primeiro contato, eu gostaria de me apresentar pra você.
-                <br />
+                Como este é o nosso primeiro contato, eu gostaria de me apresentar pra você.
                 Meu nome é Ari.
-                <br />
                 Eu sou um robô baseado em Inteligência Artificial.
-                <br />
                 Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.
-                <br />
                 Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.
-                <br />
                 Agora eu gostaria de conversar com você para te conhecer melhor.
-                <br />
             	Vou fazer algumas perguntas? [sim, não, talvez, etc]
             </template>
         </category>
@@ -100,44 +94,35 @@
         <category>
             <pattern>STEP QUEM MORA</pattern>
             <template>
-                Com quem você mora? [familia(pai, mae, etc), sozinho, amigo, ninguem, etc]
+                Com quem voce mora ? [familia (pai, mae, etc), sozinho, amigo, ninguem, etc]
             </template>
         </category>
 
 
         <category>
             <pattern>*</pattern>
-            <that>^ COM QUEM VOCÊ MORA *</that>
+            <that>^ COM QUEM VOCE MORA *</that>
             <template>
                 <think><set name="mora"><star /></set></think>
                 <condition name="mora">
-                    <li value="familia"><srai>STEP RESULTADO</srai></li>
-                    <li value="sozinho"><srai>STEP RESULTADO</srai></li>
-                    <li value="amigo"><srai>STEP RESULTADO</srai></li>
-                    <li value="ninguem"><srai>STEP RESULTADO</srai></li>
-                    <li value="nao quero responder"><srai>STEP RESULTADO</srai></li>
-                    <li value="não quero responder"><srai>STEP RESULTADO</srai></li>
-                    <li><srai>STEP QUEM MORA</srai></li>
+                    <li value="familia"><srai>STEP QUADRO</srai></li>
+                    <li value="pai"><srai>STEP QUADRO</srai></li>
+                    <li value="mae"><srai>STEP QUADRO</srai></li>
+                    <li value="sozinho"><srai>STEP QUADRO</srai></li>
+                    <li value="amigo"><srai>STEP QUADRO</srai></li>
+                    <li value="ninguem"><srai>STEP QUADRO</srai></li>
+                    <li value="nao quero responder"><srai>STEP QUADRO</srai></li>
+                    <li><srai>STEP QUADRO</srai></li>
                 </condition>
             </template>
         </category>
 
         <category>
-            <pattern>^ PAI ^</pattern>
+            <pattern>STEP QUADRO</pattern>
             <template>
                 Eu gostaria de saber agora o que você faz pra se divertir?
                 Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que você escolhesse uma ou mais opções.
-                Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar”
-                <srai>TABELA</srai>
-            </template>
-        </category>
-
-        <category>
-            <pattern>^ MAE ^</pattern>
-            <template>
-                Eu gostaria de saber agora o que você faz pra se divertir?
-                Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que você escolhesse uma ou mais opções.
-                Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar”
+                Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar” [Aguarde em Construção]
                 <srai>TABELA</srai>
             </template>
         </category>
@@ -155,7 +140,7 @@
                     <center><th colspan="4">Diversão</th></center>
                 </tr>
                 <tr>
-                    <td> <a href="#" click='return ask_question("Esportes", true)'>Esportes</a></td>
+                    <td>Esportes</td>
                     <td>Ouvir Música</td>
                     <td>Ir ao cinema ou teatro</td>
                     <td>Usar Drogas</td>
@@ -185,13 +170,6 @@
                     <td>Outros. Qual?</td>
                 </tr>
             </table>
-            </template>
-        </category>
-
-        <category>
-            <pattern>STEP RESULTADO</pattern>
-            <template>
-                 Que legal
             </template>
         </category>
 

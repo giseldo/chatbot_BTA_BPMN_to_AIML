@@ -134,10 +134,11 @@
                 <style>
                 table, th, td {
                     border: 1px solid black;
+                    padding:10px;
                 }
                 </style>
                 <tr>
-                    <center><td>Diversão</td></center>
+                    <center><td><b>Tabela Diversão</b></td></center>
                 </tr>
                 <tr>
                     <td>Esportes</td>

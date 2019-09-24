@@ -23,10 +23,11 @@
             <style>
                 table, th, td {
                     border: 1px solid black;
+                    padding:10px;
                 }
             </style>
             <tr>
-                <td colspan="3">Virtudes</td>
+                <td><b>Tabela de Virtudes</b></td>
             </tr>
             <tr>
                 <td>

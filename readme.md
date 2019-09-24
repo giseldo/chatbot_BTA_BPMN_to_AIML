@@ -13,3 +13,6 @@
 - pip install -r requirements.txt
 - python clientwebhack.py
 
+# links etica
+https://www.portaleducacao.com.br/conteudo/artigos/biologia/as-subdivisoes-da-etica/39381
+https://brainly.com.br/tarefa/3050772

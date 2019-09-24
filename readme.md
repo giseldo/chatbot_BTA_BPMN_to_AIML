@@ -12,6 +12,11 @@
 - venv\script\activate.bat
 - pip install -r requirements.txt
 - python clientwebhack.py
+- seguir a open aliance (
+https://github.com/alliance-for-openchatbot/standard
+
+https://github.com/keiffster/program-y/wiki/Open-Chatbot
+)
 
 # links etica
 https://www.portaleducacao.com.br/conteudo/artigos/biologia/as-subdivisoes-da-etica/39381

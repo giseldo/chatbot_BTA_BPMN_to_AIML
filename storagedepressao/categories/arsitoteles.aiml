@@ -19,7 +19,7 @@
     <pattern>VIRTUDE</pattern>
     <template>
         Em sua obra Ética a Nicômaco, Aristoteles fala sobre as virtudes:
-        <table border="1">
+        <table>
             <style>
                 table, th, td {
                     border: 1px solid black;

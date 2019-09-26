@@ -163,7 +163,8 @@ def index():
 @app.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
 def receive_message():
     try:
-        return WEB_CLIENT.receive_message(request)
+        return "teste" 
+        #WEB_CLIENT.receive_message(request)
     except Exception as e:
         print("Error receiving webchat message", e)
         YLogger.exception(None, "Web client error", e)

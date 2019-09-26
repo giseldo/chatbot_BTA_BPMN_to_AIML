@@ -1,0 +1,8 @@
+<aiml>
+
+<category>
+	<pattern>para onde voce quer *</pattern>
+	<template>Meus roteiros sao Sao Miguel, Jericoacara</template>
+</category>
+
+</aiml>

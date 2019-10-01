@@ -2,10 +2,10 @@
 
 
 <category>
-    <pattern>* é um *</pattern>
+    <pattern>* É UM *</pattern>
     <template>
         <addtriple>
-            <subj><star /></subj>
+            <subj><star index="1"/></subj>
             <pred>eum</pred>
             <obj><star index="2"/></obj>
         </addtriple>
@@ -15,12 +15,12 @@
 
 
 <category>
-    <pattern>* é uma *</pattern>
+    <pattern>* É UMA *</pattern>
     <template>
         <addtriple>
-            <subj><star /></subj>
+            <subj><lowercase><star index="1"/></lowercase></subj>
             <pred>eum</pred>
-            <obj><star index="2"/></obj>
+            <obj><lowercase><star index="2"/></lowercase></obj>
         </addtriple>
         Entendido.
     </template>

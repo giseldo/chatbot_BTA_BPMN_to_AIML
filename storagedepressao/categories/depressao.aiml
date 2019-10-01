@@ -53,7 +53,7 @@
                 Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.
                 Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.
                 Agora eu gostaria de conversar com você para te conhecer melhor.
-            	Vou fazer algumas perguntas? [sim, não, talvez, etc]
+            	Vou fazer algumas perguntas? [<a href="#"><b>sim</b></a>, <a href="#"><b>não</b></a>, <a href="#"><b>talvez</b></a>, <a href="#"><b>etc</b></a>]
             </template>
         </category>
 
@@ -75,19 +75,16 @@
         <category>
             <pattern>STEP DUVIDA</pattern>
             <template>
-                <random>
-                    <li>Veja, para interagirmos melhor, eu preciso saber algumas coisas sobre você.</li>
-                    <li>Não se preocupe, toda nossa conversa é confidencial e protegida. Ela não será divulgada a ninguém.</li>
-                </random>
-                <srai>STEP QUEM MORA</srai>
+               Veja, para interagirmos melhor, eu preciso saber algumas coisas sobre você.
+               Não se preocupe, toda nossa conversa é confidencial e protegida. Ela não será divulgada a ninguém.
+               <srai>STEP QUEM MORA</srai>
             </template>
         </category>
 
         <category>
             <pattern>VAMOS LA</pattern>
             <template>
-                Vamos lá então.
-                <srai>STEP QUEM MORA</srai>
+                Vamos lá então. <srai>STEP QUEM MORA</srai>
             </template>
         </category>
 

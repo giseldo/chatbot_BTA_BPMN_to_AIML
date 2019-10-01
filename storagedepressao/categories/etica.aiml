@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
-    <category>
-        <pattern>^ <iset words="ETICA, ÉTICA" /> ^</pattern>
-        <template>
-        	<srai>ETICA</srai>
-        </template>
-    </category>
+
 
     <category>
-        <pattern>ETICA</pattern>
+        <pattern>^ ÉTICA ^</pattern>
         <template>
         	A ética designa a disciplina filosófica que investiga o que é a moral, como ela se fundamenta e se aplica.
         </template>
@@ -23,7 +18,7 @@
     </category>
 
     <category>
-        <pattern>^ EXEMPLO ^ </pattern>
+        <pattern>^ EXEMPLO ^</pattern>
         <that>* MORAL * </that>
         <template>
         	Roubar, por exemplo vai de encontro aos costumes, e é considerada uma má ação. É, portanto, um ato imoral.
@@ -33,7 +28,7 @@
 
 
     <category>
-        <pattern>^ EXEMPLO ^ </pattern>
+        <pattern>^ EXEMPLO ^</pattern>
         <that>* ETICA * </that>
         <template>
         	Exemplo de ética

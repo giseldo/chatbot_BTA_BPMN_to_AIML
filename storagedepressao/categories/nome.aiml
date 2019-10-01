@@ -29,7 +29,12 @@
         </template>
     </category>
 
-
+    <category>
+        <pattern># SEU NOME #</pattern>
+        <template>
+        	Meu nome é <bot name="name"/>
+        </template>
+    </category>
 
 
 </aiml>

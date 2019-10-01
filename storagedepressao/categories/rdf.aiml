@@ -1,0 +1,58 @@
+<aiml>
+
+
+<category>
+    <pattern>* é um *</pattern>
+    <template>
+        <addtriple>
+            <subj><star /></subj>
+            <pred>eum</pred>
+            <obj><star index="2"/></obj>
+        </addtriple>
+        Entendido.
+    </template>
+</category>
+
+
+<category>
+    <pattern>* é uma *</pattern>
+    <template>
+        <addtriple>
+            <subj><star /></subj>
+            <pred>eum</pred>
+            <obj><star index="2"/></obj>
+        </addtriple>
+        Entendido.
+    </template>
+</category>
+
+<category>
+    <pattern># tudo * voce sabe #</pattern>
+    <template>
+        <select>
+            <vars>?x ?y</vars>
+            <q>
+                <subj>?x</subj>
+                <pred>eum</pred>
+                <obj>?y</obj>
+            </q>
+        </select>
+    </template>
+</category>
+
+<category>
+    <pattern>o que voce sabe sobre *</pattern>
+    <template>
+        <select>
+             <vars>?x</vars>
+             <q>
+                <subj>?x</subj>
+                <pred>eum</pred>
+                <obj><star index="1" /></obj>
+             </q>
+        </select>
+        É isto que eu sei.
+    </template>
+</category>
+
+</aiml>

@@ -53,7 +53,7 @@
                 Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.
                 Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.
                 Agora eu gostaria de conversar com você para te conhecer melhor.
-            	Vou fazer algumas perguntas? [<a href="#"><b>sim</b></a>, <a href="#"><b>não</b></a>, <a href="#"><b>talvez</b></a>, <a href="#"><b>etc</b></a>]
+            	Vou fazer algumas perguntas? [<b>sim</b>, <b>não</b>, <b>talvez</b>, <b>etc</b>]
             </template>
         </category>
 
@@ -91,7 +91,7 @@
         <category>
             <pattern>STEP QUEM MORA</pattern>
             <template>
-                Com quem voce mora ? [familia (pai, mae, etc), sozinho, amigo, ninguem, etc]
+                Com quem voce mora ? [pai, mae, sozinho, amigo, ninguém, etc]
             </template>
         </category>
 

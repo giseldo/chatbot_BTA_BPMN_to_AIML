@@ -46,6 +46,11 @@ class RemoveHTMLPostProcessor(PostProcessor):
         word_string = re.sub(r'(\"\]\]\])', os.linesep, word_string)
         word_string = re.sub(r'(\"\]\])', os.linesep, word_string)
         word_string = re.sub(r'(\[\[\"\?x\", \")', os.linesep, word_string)
+        word_string = re.sub(r'(\[\[\"\?xx\", \")', os.linesep, word_string)
+        word_string = re.sub(r'(\[\[\"\?y\", \")', os.linesep, word_string)
+        word_string = re.sub(r'(\[\[\"\?yy\", \")', os.linesep, word_string)
+        word_string = re.sub(r'(\[\[\"\?z\", \")', os.linesep, word_string)
+        word_string = re.sub(r'(\[\[\"\?zz\", \")', os.linesep, word_string)
 
         #word_string = re.sub(r'(\"\], \[\")', os.linesep, word_string)
         #word_string = re.sub(r'(\?yy\", \")', os.linesep, word_string)

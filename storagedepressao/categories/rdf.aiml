@@ -1,5 +1,5 @@
 <aiml>
-
+    <!-- Algo eh um Algo -->
     <category>
         <pattern>* EH UM *</pattern>
         <template>
@@ -16,7 +16,7 @@
         </template>
     </category>
 
-
+    <!-- Algo eh uma Algo -->
     <category>
         <pattern>* EH UMA *</pattern>
         <template>
@@ -37,6 +37,7 @@
         </template>
     </category>
 
+    <!--  tudo  voce sabe -->
     <category>
         <pattern># tudo * voce sabe #</pattern>
         <template>
@@ -54,6 +55,7 @@
         </template>
     </category>
 
+    <!-- o que voce sabe sobre -->
     <category>
         <pattern>o que voce sabe sobre *</pattern>
         <template>
@@ -82,8 +84,8 @@
         </template>
     </category>
 
+    <!-- quem sao os  -->
     <category>
-
         <pattern>QUEM SÃO OS *</pattern>
         <template>
             <srai>QUEM SAO OS *</srai>
@@ -99,7 +101,7 @@
                         <vars>?x</vars>
                         <q>
                             <subj>?x</subj>
-                            <pred>eum</pred>
+                            <pred>EH UM</pred>
                             <obj>
                                 <star index="1"/>
                             </obj>
@@ -110,11 +112,13 @@
             Os
             <star/>
             são:
+            <lowercase>
             <get var="?x">
                 <tuple>
                     <get var="tuples"/>
                 </tuple>
             </get>
+            </lowercase>
         </template>
     </category>
 

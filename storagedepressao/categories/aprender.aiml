@@ -1,6 +1,6 @@
 <aiml>
 
-
+    <!-- Aprender -->
     <category>
         <pattern>APRENDER</pattern>
         <template>
@@ -11,6 +11,7 @@
 
     <topic name="STEP APRENDER">
 
+        <!-- sar -->
         <category>
             <pattern>sair</pattern>
             <template>
@@ -19,6 +20,7 @@
             </template>
         </category>
 
+        <!-- processo de aprendizado -->
         <category>
             <pattern>* * *</pattern>
             <template>
@@ -46,7 +48,7 @@
         <category>
             <pattern>o que * *</pattern>
             <template>
-                    <srai>quem <star />  <star index="2" /></srai>
+                    <srai>quem <star index="1"/>  <star index="2" /></srai>
             </template>
         </category>
 

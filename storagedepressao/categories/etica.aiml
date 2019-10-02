@@ -31,25 +31,19 @@
 
     <category>
         <pattern># EXEMPLO #</pattern>
-        <that>* MORAL * </that>
+        <that>A moral é um conjunto de regras de conduta. A palavra moral é derivada do latim mores, que significa "aquilo que tem relação aos costumes".</that>
         <template>
         	Roubar, por exemplo vai de encontro aos costumes, e é considerada uma má ação. É, portanto, um ato imoral.
         	Dar comida a alguém que está passando fome, por outro lado, é considerada uma ação geralmente de acrodo com o que costumamos considerar moralmente correto
         </template>
     </category>
 
-
     <category>
-        <pattern>^ EXEMPLO ^</pattern>
-        <that>* ETICA * </that>
+        <pattern># EXEMPLO #</pattern>
+        <that>A ética designa a disciplina filosófica que investiga o que é a moral, como ela se fundamenta e se aplica.</that>
         <template>
         	Ética é uma disciplina que estuda a moral, difícil dar exemplos.
         </template>
-    </category>
-
-    <category>
-        <pattern>#sexo#</pattern>
-        <template>Eu não sou esse tipo de chatbot.</template>
     </category>
 
     <category>

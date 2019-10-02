@@ -1,0 +1,14 @@
+<aiml>
+
+<category>
+    <pattern>
+      WORDNET *
+    </pattern>
+    <template>
+        <extension path="programy.nlp.wordnet.extension.WordNetExtension">
+            <star />
+        </extension>
+    </template>
+</category>
+
+</aiml>

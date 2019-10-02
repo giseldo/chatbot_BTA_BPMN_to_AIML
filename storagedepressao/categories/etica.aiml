@@ -1,24 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
-
+    <category>
+        <pattern># ÉTICA #</pattern>
+        <template>
+        	<srai>DEFINICAO_ETICA</srai>
+        </template>
+    </category>
 
     <category>
-        <pattern>^ ÉTICA ^</pattern>
+        <pattern># ETICA #</pattern>
+        <template>
+        	<srai>DEFINICAO_ETICA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEFINICAO_ETICA</pattern>
         <template>
         	A ética designa a disciplina filosófica que investiga o que é a moral, como ela se fundamenta e se aplica.
         </template>
     </category>
 
     <category>
-        <pattern>^ MORAL ^</pattern>
+        <pattern># MORAL #</pattern>
         <template>
         	A moral é um conjunto de regras de conduta. A palavra moral é derivada do latim mores, que significa "aquilo que tem relação aos costumes".
         </template>
     </category>
 
     <category>
-        <pattern>^ EXEMPLO ^</pattern>
+        <pattern># EXEMPLO #</pattern>
         <that>* MORAL * </that>
         <template>
         	Roubar, por exemplo vai de encontro aos costumes, e é considerada uma má ação. É, portanto, um ato imoral.
@@ -31,12 +43,12 @@
         <pattern>^ EXEMPLO ^</pattern>
         <that>* ETICA * </that>
         <template>
-        	Exemplo de ética
+        	Ética é uma disciplina que estuda a moral, difícil dar exemplos.
         </template>
     </category>
 
     <category>
-        <pattern># sexo #</pattern>
+        <pattern>#sexo#</pattern>
         <template>Eu não sou esse tipo de chatbot.</template>
     </category>
 

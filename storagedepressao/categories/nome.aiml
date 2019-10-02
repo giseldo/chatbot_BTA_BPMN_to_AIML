@@ -36,5 +36,9 @@
         </template>
     </category>
 
+    <category>
+        <pattern>QUAL ^ GÊNERO</pattern>
+        <template>Eu sou masculino.</template>
+    </category>
 
 </aiml>

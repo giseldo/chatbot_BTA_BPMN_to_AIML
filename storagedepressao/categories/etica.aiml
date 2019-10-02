@@ -4,51 +4,57 @@
     <category>
         <pattern># ÉTICA #</pattern>
         <template>
-        	<srai>DEFINICAO_ETICA</srai>
+            <srai>DEFINICAO_ETICA</srai>
         </template>
     </category>
 
     <category>
         <pattern># ETICA #</pattern>
         <template>
-        	<srai>DEFINICAO_ETICA</srai>
+            <srai>DEFINICAO_ETICA</srai>
         </template>
     </category>
 
     <category>
         <pattern>DEFINICAO_ETICA</pattern>
         <template>
-        	A ética designa a disciplina filosófica que investiga o que é a moral, como ela se fundamenta e se aplica.
+            A ética designa a disciplina filosófica que investiga o que é a moral, como ela se fundamenta e se aplica.
         </template>
     </category>
 
     <category>
         <pattern># MORAL #</pattern>
         <template>
-        	A moral é um conjunto de regras de conduta. A palavra moral é derivada do latim mores, que significa "aquilo que tem relação aos costumes".
+            <srai>DEFINICAO_MORAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DEFINICAO_MORAL</pattern>
+        <template>A moral é um conjunto de regras de conduta.</template>
+    </category>
+
+    <category>
+        <pattern># EXEMPLO #</pattern>
+        <that>A MORAL *</that>
+        <template>
+            Existe uma diferenciação entre a moral objetiva, que remete para a obediência às leis morais, e a moral subjetiva, que aborda o cumprimento de um dever pelo ato da sua própria vontade.
         </template>
     </category>
 
     <category>
         <pattern># EXEMPLO #</pattern>
-        <that>A moral é um conjunto de regras de conduta. A palavra moral é derivada do latim mores, que significa "aquilo que tem relação aos costumes".</that>
+        <that>A ÉTICA *</that>
         <template>
-        	Roubar, por exemplo vai de encontro aos costumes, e é considerada uma má ação. É, portanto, um ato imoral.
-        	Dar comida a alguém que está passando fome, por outro lado, é considerada uma ação geralmente de acrodo com o que costumamos considerar moralmente correto
+            No ambiente de trabalho, é comum que se tenha a chamada ética profissional, onde se supõe que todos os funcionários ajam de acordo com estes princípios.
         </template>
     </category>
 
     <category>
         <pattern># EXEMPLO #</pattern>
-        <that>A ética designa a disciplina filosófica que investiga o que é a moral, como ela se fundamenta e se aplica.</that>
         <template>
-        	Ética é uma disciplina que estuda a moral, difícil dar exemplos.
+            Voce gostaria de um exemplo de que?
         </template>
-    </category>
-
-    <category>
-        <pattern>QUAL ^ GÊNERO</pattern>
-        <template>Eu sou masculino.</template>
     </category>
 
 </aiml>

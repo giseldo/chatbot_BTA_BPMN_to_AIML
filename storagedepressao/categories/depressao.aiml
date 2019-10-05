@@ -1,26 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <aiml>
 
-    <category>
-        <pattern>^ OLA ^</pattern>
-        <template>
-        	Ola. Tudo bem.
-        </template>
-    </category>
 
-    <category>
-        <pattern>^ OLÁ ^</pattern>
-        <template>
-        	Ola. Tudo bem.
-        </template>
-    </category>
-
-    <category>
-        <pattern># COMO VAI VOCE #</pattern>
-        <template>
-        	Eu vou bem. Obrigado por perguntar.
-        </template>
-    </category>
 
     <category>
         <pattern># PERFIL #</pattern>
@@ -82,7 +63,7 @@
         </category>
 
         <category>
-            <pattern>VAMOS LA</pattern>
+            <pattern>STEP VAMOS LA</pattern>
             <template>
                 Vamos lá então. <srai>STEP QUEM MORA</srai>
             </template>

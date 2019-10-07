@@ -1,0 +1,97 @@
+<aiml>
+
+	<category>
+		<pattern>APRENDER QUIMICA</pattern>
+		<template>
+			<think><set name="topic">QUIMICA</set></think>
+			<srai>STEP DESEJA</srai>
+		</template>
+	</category>
+
+	<topic name="QUIMICA">
+
+		<category>
+			<pattern>STEP DESEJA</pattern>
+			<template>
+				O que voce gostaria de aprender? Eu posso ensinar 1-Ligaçoes quimicas, 2-cálculos
+			quicos.
+			</template>
+		</category>
+
+		<category>
+			<pattern>*</pattern>
+			<that>O que voce gostaria de aprender *</that>
+			<template>
+				<think><set name="respostaAprender"><star /></set></think>
+				<condition name="respostaAprender">
+					<li value="1"><srai>STEPLIGACAOQUIMICA</srai></li>
+					<li value="2"><srai>STEPQUIMICOS</srai></li>
+				</condition>
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+				STEPLIGACAOQUIMICA
+			</pattern>
+			<template>
+				Ligacoes quimicas sao conjunções estabelecidas entre átomos para formarem moléculas ou, no
+				caso de ligações iônicas ou metálicas, agregados atômicos organizados de forma a constituírem 				a estrutura básica de uma substância ou composto.
+				Na natureza existem por volta de uma centena de elementos químicos.
+				Voce deseja aprender ligacoes ionicas ou covalentes?
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+				STEPQUIMICOS
+			</pattern>
+			<template>
+				Ainda não implementamos
+			</template>
+		</category>
+
+		<category>
+			<pattern>*</pattern>
+			<that>LIGACOES QUIMICAS SAO *</that>
+			<template>
+				<think><set name="respostaAprender"><star /></set></think>
+				<condition name="respostaAprender">
+					<li value="ionicas"><srai>STEPLIONICA</srai></li>
+					<li value="covalentes"><srai>STEPEQUIVALENTE</srai></li>
+				</condition>
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+				STEPLIONICA
+			</pattern>
+			<template>
+				Também chamada de ligação eletrovalente, esse tipo de ligação é realizada entre íons (cátions
+				e ânions), daí o termo "ligação iônica".
+				Os Íons são átomos que possuem uma carga elétrica por adição ou perda de um ou mais elétrons,
+				portanto um ânion, de carga elétrica negativa, se une com um cátion de carga positiva 						formando um composto iônico por meio da
+				interação eletrostática existente entre eles.
+				<think><set name="topic"></set></think>
+			</template>
+		</category>
+
+		<category>
+			<pattern>
+				STEPEQUIVALENTE
+			</pattern>
+			<template>
+				Também chamada de ligação eletrovalente, esse tipo de ligação é realizada entre íons (cátions
+				e ânions), daí o termo "ligação iônica".
+				Os Íons são átomos que possuem uma carga elétrica por adição ou perda de um ou mais elétrons,
+				portanto um ânion, de carga elétrica negativa, se une com um cátion de carga positiva
+				formando um composto iônico por meio da interação eletrostática existente entre eles.
+				<think><set name="topic"></set></think>
+			</template>
+		</category>
+
+
+	</topic>
+
+</aiml>

@@ -8,6 +8,13 @@
         </template>
     </category>
 
+    <category>
+        <pattern>OLA</pattern>
+        <template>
+        	Ola tudo bem
+        </template>
+    </category>
+
      <category>
         <pattern>QUAL O MEU NOME</pattern>
         <template>

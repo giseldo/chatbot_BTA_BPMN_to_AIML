@@ -14,7 +14,7 @@ THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRI
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 """
-from flask import Flask, jsonify, request, make_response, abort, Response
+from flask import Flask, jsonify, request, make_response, abort, Response, render_template
 
 from programy.clients.restful.client import RestBotClient
 
@@ -22,11 +22,11 @@ from programy.clients.restful.client import RestBotClient
 class MockArgumentsGiseldo(object):
 
     def __init__(self,
-                    bot_root = ".",
-                    logging = None,
-                    config  = 'config/config.flask.rest.yaml',
-                    cformat = "yaml",
-                    noloop = False,
+                    bot_root=".",
+                    logging=None,
+                    config= 'config/config.flask.rest.yaml',
+                    cformat= "yaml",
+                    noloop= False,
                     substitutions='subs.txt'
                 ):
         self.bot_root = bot_root
@@ -97,23 +97,27 @@ class FlaskRestBotClient(RestBotClient):
         self.shutdown()
 
 
+app = Flask(__name__)
+
+REST_CLIENT = FlaskRestBotClient("flask")
+
+
+@app.route('/')
+def index():
+    return render_template('webchat.html')
+
+
+@app.route('/api/rest/v1.0/ask', methods=['GET', 'POST'])
+def ask_v1_0():
+    response_data, status = REST_CLIENT.process_request(request, version=1.0)
+    return REST_CLIENT.create_response(response_data, status, version=1.0)
+
+
+@app.route('/api/rest/v2.0/ask', methods=['GET', 'POST'])
+def ask_v2_0():
+    response_data, status = REST_CLIENT.process_request(request, version=2.0)
+    return REST_CLIENT.create_response(response_data, status, version=2.0)
+
+
 if __name__ == '__main__':
-
-    REST_CLIENT = None
-
-    print("Initiating Flask REST Service...")
-    APP = Flask(__name__)
-
-    @APP.route('/api/rest/v1.0/ask', methods=['GET', 'POST'])
-    def ask_v1_0():
-        response_data, status = REST_CLIENT.process_request(request, version=1.0)
-        return REST_CLIENT.create_response(response_data, status, version=1.0)
-
-    @APP.route('/api/rest/v2.0/ask', methods=['GET', 'POST'])
-    def ask_v2_0():
-        response_data, status = REST_CLIENT.process_request(request, version=2.0)
-        return REST_CLIENT.create_response(response_data, status, version=2.0)
-
-    print("Loading, please wait...")
-    REST_CLIENT = FlaskRestBotClient("flask")
-    REST_CLIENT.run(APP)
+    app.run()

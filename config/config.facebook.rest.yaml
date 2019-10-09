@@ -2,6 +2,7 @@ facebook:
   host: 0.0.0.0
   port: 5000
   debug: false
+  api: /api/facebook/v1.0.ask
 
   scheduler:
     name: Scheduler1

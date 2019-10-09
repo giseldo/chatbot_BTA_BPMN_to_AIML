@@ -1,11 +1,13 @@
+import xml.etree.ElementTree as ET
+
 class XmlWriter:
 
     def __init__(self, output_loc, file_name):
         self.aiml_file = open(output_loc + file_name + ".aiml", "w")
 
     def write_body(self):
-        template_content = "ola"
-        pattern_text = "ola mundo"
+        template_content = "ola mundo"
+        pattern_text = "ola"
         self.aiml_file.write("\n\t<category>")
         self.aiml_file.write("\n\t\t<pattern>")
         self.aiml_file.write(pattern_text.upper())
@@ -27,6 +29,23 @@ class XmlWriter:
 
 class BpmnFlow(object):
     def execute(self):
+
+        tree = ET.parse('./input/congratulacoes.bpmn')
+
+        root = tree.getroot()
+
+        for child in root:
+            print(child.tag)
+            #if str(child.tag).find("process"):
+            #    print(child.tag)
+            #    print(child.attrib)
+        for child in root:
+            print(child.attrib)
+
+        print(type(child.attrib))
+
+        print(child.attrib['id'])
+
         input_path = "./input"
         outpu_path = "./output/"
         xmlWriter = XmlWriter(outpu_path, "saida")

@@ -46,7 +46,6 @@ class MockArgumentParserGiseldo(object):
         return MockArgumentsGiseldo()
 
 
-
 class FlaskRestBotClient(RestBotClient):
 
     def __init__(self, id, argument_parser=None):
@@ -104,7 +103,7 @@ REST_CLIENT = FlaskRestBotClient("flask")
 
 @app.route('/')
 def index():
-    return render_template('webchat.html')
+    return render_template('webchatrest.html')
 
 
 @app.route('/api/rest/v1.0/ask', methods=['GET', 'POST'])

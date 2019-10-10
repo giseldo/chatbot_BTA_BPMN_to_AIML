@@ -1,0 +1,40 @@
+<aiml version="2.0">
+
+
+    <category>
+        <pattern>^ MORRER ^</pattern>
+        <template>
+        	<srai>CVV</srai>
+        </template>
+    </category>
+
+     <category>
+        <pattern>^ SUICIDIO ^</pattern>
+        <template>
+        	<srai>CVV</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ SUICÍDIO ^</pattern>
+        <template>
+        	<srai>CVV</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ MORTE ^</pattern>
+        <template>
+        	<srai>CVV</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CVV</pattern>
+        <template>
+            Entre em contato com o CVV (Centro de valorização da vida). O CVV conta com 3 mil voluntários que atendem por chat,
+        	telefone, ou pessoalmente em qualquer hora do dia ou da noite através do número 188.
+        </template>
+    </category>
+
+</aiml>

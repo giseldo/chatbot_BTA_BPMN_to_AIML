@@ -1,0 +1,33 @@
+<aiml version="2.0">
+
+    <category>
+        <pattern>OLA</pattern>
+        <template>
+        	Ola tudo bem
+        </template>
+    </category>
+
+    <category>
+        <pattern>OI</pattern>
+        <template>
+        	Oi tudo bem
+        </template>
+    </category>
+
+    <category>
+        <pattern>menu</pattern>
+        <template>
+            You can ask me this:
+            Levante o meu perfil, wikipedia defina algo, O que é Ética?, O que é Moral?, O que é virtude?, Aprender quimica, Como vai você?, Meu nome é algo,
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELP</pattern>
+        <template>
+            You can ask me this:
+            Levante o meu perfil, wikipedia defina algo, O que é Ética?, O que é Moral?, O que é virtude?, Aprender quimica, Como vai você?, Meu nome é algo,
+        </template>
+    </category>
+
+</aiml>

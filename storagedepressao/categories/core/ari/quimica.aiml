@@ -1,0 +1,121 @@
+<aiml version="2.0">
+
+
+    <category>
+        <pattern>APRENDER QUIMICA</pattern>
+        <template>
+            <think>
+                <set name="topic">QUIMICA</set>
+            </think>
+            <srai>STEPDESEJA</srai>
+        </template>
+    </category>
+
+    <topic name="QUIMICA">
+
+        <category>
+            <pattern>STEPDESEJA</pattern>
+            <template>
+                O que voce gostaria de aprender? Eu posso ensinar 1 - Ligaçoes quimicas, 2 - cálculos químicos.
+            </template>
+        </category>
+
+        <category>
+            <pattern>*</pattern>
+            <that>O que voce gostaria de aprender *</that>
+            <template>
+                <think>
+                    <set name="respostaAprender">
+                        <star/>
+                    </set>
+                </think>
+                <condition name="respostaAprender">
+                    <li value="1">
+                        <srai>STEPLIGACAOQUIMICA</srai>
+                    </li>
+                    <li value="2">
+                        <srai>STEPQUIMICOS</srai>
+                    </li>
+					<li>
+                        <srai>STEPDESEJA</srai>
+                    </li>
+                </condition>
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                STEPLIGACAOQUIMICA
+            </pattern>
+            <template>
+                Ligacoes quimicas sao conjunções estabelecidas entre átomos para formarem moleculas ou, no
+                caso de ligacoes ionicas ou metalicas, agregados atômicos organizados de forma a constituirem a
+                estrutura basica de uma substancia ou composto - (ionicas, covalentes)
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                STEPQUIMICOS
+            </pattern>
+            <template>
+                Ainda não implementamos. [FLUXO FINALIZADO]
+            </template>
+        </category>
+
+        <category>
+            <pattern>*</pattern>
+            <that>LIGACOES QUIMICAS SAO *</that>
+            <template>
+                <think>
+                    <set name="respostaAprender">
+                        <star/>
+                    </set>
+                </think>
+                <condition name="respostaAprender">
+                    <li value="ionicas">
+                        <srai>STEPIONICA</srai>
+                    </li>
+                    <li value="covalentes">
+                        <srai>STEPEQUIVALENTE</srai>
+                    </li>
+					<li>
+                        <srai>STEPLIGACAOQUIMICA</srai>
+                    </li>
+                </condition>
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                STEPIONICA
+            </pattern>
+            <template>
+                Também chamada de ligação eletrovalente, esse tipo de ligação é realizada entre íons (cátions e ânions),
+                daí o termo "ligação iônica". Os Íons são átomos que possuem uma carga elétrica por adição ou perda de
+                um ou mais elétrons, portanto um ânion, de carga elétrica negativa, se une com um cátion de carga
+                positiva formando um composto iônico por meio da interação eletrostática existente entre eles. [FLUXO FINALIZADO]
+                <think>
+                    <set name="topic"></set>
+                </think>
+            </template>
+        </category>
+
+        <category>
+            <pattern>
+                STEPEQUIVALENTE
+            </pattern>
+            <template>
+                Também chamada de ligação eletrovalente, esse tipo de ligação é realizada entre íons (cátions e ânions),
+                daí o termo "ligação iônica". Os Íons são átomos que possuem uma carga elétrica por adição ou perda de
+                um ou mais elétrons, portanto um ânion, de carga elétrica negativa, se une com um cátion de carga
+                positiva formando um composto iônico por meio da interação eletrostática existente entre eles. [FLUXO FINALIZADO]
+                <think>
+                    <set name="topic"></set>
+                </think>
+            </template>
+        </category>
+
+    </topic>
+
+</aiml>

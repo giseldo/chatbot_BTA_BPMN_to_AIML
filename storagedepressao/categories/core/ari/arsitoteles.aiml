@@ -1,24 +1,10 @@
 <aiml version="2.0">
 
-
     <category>
-    <pattern> ^ virtude ^ </pattern>
+    <pattern># VIRTUDE #</pattern>
     <template>
-        <srai>VIRTUDE</srai>
-    </template>
-    </category>
-
-    <category>
-    <pattern> ^ virtudes ^ </pattern>
-    <template>
-        <srai>VIRTUDE</srai>
-    </template>
-    </category>
-
-    <category>
-    <pattern>VIRTUDE</pattern>
-    <template>
-        Em sua obra Ética a Nicômaco, Aristoteles fala sobre as virtudes:
+        Em sua obra Ética a Nicômaco, Aristoteles fala sobre as virtudes: Coragem, temperança, liberalidade, magnificência, distributiva, corretiva, justiça política, equidade e reciprocidade.
+        <!--
         <table>
             <style>
                 table, th, td {
@@ -31,7 +17,7 @@
             </tr>
             <tr>
                 <td>
-                    <a href="#">Coragem</a>
+                    Coragem
                 </td>
                 <td>temperança</td>
                 <td>liberalidade</td>
@@ -45,6 +31,7 @@
                 <td>reciprocidade proporcional</td>
             </tr>
         </table>
+        -->
     </template>
     </category>
 

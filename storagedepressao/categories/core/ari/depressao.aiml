@@ -33,7 +33,7 @@
                 Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.
                 Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.
                 Agora eu gostaria de conversar com você para te conhecer melhor.
-            	Vou fazer algumas perguntas? [<b>sim</b>, <b>não</b>, <b>talvez</b>, <b>etc</b>]
+            	Vou fazer algumas perguntas? [sim, não, talvez, etc]
             </template>
         </category>
 
@@ -107,6 +107,7 @@
         <category>
             <pattern>TABELA</pattern>
             <template>
+                <!--
                 <table>
                 <style>
                 table, th, td {
@@ -148,6 +149,7 @@
                     <td>Outros. Qual?</td>
                 </tr>
             </table>
+            -->
             </template>
         </category>
 

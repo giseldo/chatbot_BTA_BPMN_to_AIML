@@ -1,1 +1,0 @@
-web: gunicorn clientfacebook:app --workers 1

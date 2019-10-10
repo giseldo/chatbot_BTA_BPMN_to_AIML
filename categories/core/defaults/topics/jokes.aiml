@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0">
     <!-- Free software &copy; 2001-2003 ALICE A.I. Foundation. -->
     <!-- This program is open source code released under -->
     <!-- the terms of the GNU General Public License     -->

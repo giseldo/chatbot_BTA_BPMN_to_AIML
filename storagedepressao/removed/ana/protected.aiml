@@ -1,4 +1,4 @@
-<aiml>
+<aiml version="2.0">
 <category>
 <pattern>{TEST}</pattern>
 <template>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0">
     <!-- File: pand_system.aiml -->
     <!-- Last modified: October 31st, 2014 -->
     <!--  -->

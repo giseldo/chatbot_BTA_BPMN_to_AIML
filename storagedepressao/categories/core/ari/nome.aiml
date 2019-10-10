@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 
     <category>
@@ -6,7 +7,6 @@
         	prazer em conhece-lo <set name="nome"><star /></set>.
         </template>
     </category>
-
 
      <category>
         <pattern>QUAL O MEU NOME</pattern>

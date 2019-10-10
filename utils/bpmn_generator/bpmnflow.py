@@ -1,4 +1,6 @@
 import xml.etree.ElementTree as ET
+from xml.etree.ElementTree import ElementTree
+
 
 class XmlWriter:
 
@@ -30,28 +32,21 @@ class XmlWriter:
 class BpmnFlow(object):
     def execute(self):
 
-        tree = ET.parse('./input/congratulacoes.bpmn')
+        tree: ElementTree = ET.parse('./input/congratulacoes.bpmn')
 
-        root = tree.getroot()
+        root: object = tree.getroot()
 
-        for child in root:
-            print(child.tag)
-            #if str(child.tag).find("process"):
-            #    print(child.tag)
-            #    print(child.attrib)
-        for child in root:
-            print(child.attrib)
+        for elem in root.iter():
+            print(elem.tag)
 
-        print(type(child.attrib))
 
-        print(child.attrib['id'])
+        # input_path = "./input"
+        # outpu_path = "./output/"
+        # xmlWriter = XmlWriter(outpu_path, "saida")
+        # xmlWriter.open_file()
+        # xmlWriter.write_body()
+        # xmlWriter.close_file()
 
-        input_path = "./input"
-        outpu_path = "./output/"
-        xmlWriter = XmlWriter(outpu_path, "saida")
-        xmlWriter.open_file()
-        xmlWriter.write_body()
-        xmlWriter.close_file()
 
 if __name__ == "__main__":
     b = BpmnFlow()

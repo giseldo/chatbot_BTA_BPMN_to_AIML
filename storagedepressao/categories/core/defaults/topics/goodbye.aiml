@@ -41,6 +41,7 @@
             </random>
         </template>
     </category>
+    <!--
     <category>
         <pattern>GOOD NIGHT</pattern>
         <template>
@@ -52,5 +53,5 @@
             </random>
         </template>
     </category>
-
+    -->
 </aiml>

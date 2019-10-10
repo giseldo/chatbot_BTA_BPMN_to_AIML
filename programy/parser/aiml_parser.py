@@ -290,7 +290,7 @@ class AIMLParser(object):
             self._errors.append([parser_excep.message, filename, startline, endline])
 
     def parse_aiml(self, aiml_xml, namespace, filename=None, userid="*"):
-        self.parse_version(aiml_xml)
+        self.parse_version(aiml_xml, filename)
 
         categories_found = False
         num_category = 0
@@ -324,7 +324,7 @@ class AIMLParser(object):
                 raise ParserException("Unknown top level tag, %s" % expression.tag, xml_element=expression)
 
         if categories_found is False:
-            YLogger.warning(self, "no categories in aiml file")
+            YLogger.warning(self, "no categories in aiml: {}".format(filename))
 
         return num_category
 
@@ -333,13 +333,13 @@ class AIMLParser(object):
     # AIML_VERSION ::== 0.9 | 1.0 | 1.1 | 2.0
     #
 
-    def parse_version(self, aiml):
+    def parse_version(self, aiml, filename=None):
         if 'version' in aiml.attrib:
             version = aiml.attrib['version']
             if version not in ['0.9', '1.0', '1.1', '2.0']:
                 YLogger.warning(self, "Version number not a supported version: %s", version)
         else:
-            YLogger.warning(self, "No version info, defaulting to 2.0")
+            YLogger.warning(self, "No version info, defaulting to 2.0: {}".format(filename))
             version = "2.0"
         return version
 

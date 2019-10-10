@@ -1,10 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
 
-   <category>
+    <category>
         <pattern>WIKIPEDIA BUSQUE *</pattern>
         <template>
             <sraix service="Wikipedia">
-                SEARCH <star/>
+                SEARCH
+                <star/>
             </sraix>
         </template>
     </category>
@@ -13,7 +15,8 @@
         <pattern>WIKIPEDIA DEFINA *</pattern>
         <template>
             <sraix service="Wikipedia">
-                SUMMARY <star/>
+                SUMMARY
+                <star/>
             </sraix>
         </template>
     </category>

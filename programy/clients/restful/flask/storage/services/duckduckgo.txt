@@ -1,3 +1,0 @@
-name: DuckDuckGo
-classname: programy.services.duckduckgo.DuckDuckGoService
-url: http://api.duckduckgo.com

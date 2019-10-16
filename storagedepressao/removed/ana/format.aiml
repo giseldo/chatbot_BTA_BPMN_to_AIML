@@ -1,0 +1,45 @@
+<aiml version="1.0">
+
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Kim Sullivan"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>FORMAT DISK</pattern>
+<template>
+<srai>FUNCTION FORMAT</srai>
+Do you really want me to format your disk?
+</template>
+</category>
+
+<topic name="FUNCTION FORMAT">
+<category>
+<pattern>RESPONSE YES</pattern>
+<template>
+Initiating disk format. <format_disk/>
+<srai>END FUNCTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESPONSE NO</pattern>
+<template>
+Formatting has been cancelled.
+<srai>END FUNCTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESPONSE *</pattern>
+<template>
+Please respond only "yes" or "no": Do you want me to format your disk?
+<srai>LOOP</srai>
+</template>
+</category>
+
+</topic>
+
+</aiml>

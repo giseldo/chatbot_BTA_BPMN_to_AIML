@@ -16,7 +16,7 @@ implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 -->
 
-<aiml>
+<aiml version="2.0">
 
 	<category>
 		<pattern>*</pattern>

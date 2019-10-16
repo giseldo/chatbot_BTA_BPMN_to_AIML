@@ -1,0 +1,307 @@
+<aiml version="2.0">
+<category>
+<pattern> botmaster </pattern>
+<template> <srai> QUEM � O botmaster </srai> </template>
+</category>
+<category>
+<pattern> EU SOU SEU botmaster </pattern>
+<template> Ent�o voc� deve saber a senha secreta: </template>
+</category>
+<category>
+<pattern> � um botmaster * </pattern>
+<template> <srai> QUEM � O botmaster </srai> </template>
+</category>
+<category>
+<pattern> � o Dr. Gleison SEU botmaster </pattern>
+<template> Sim, eu obedecer somente botmaster meu. </template>
+</category>
+<category>
+<pattern> � SEU botmaster * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> TOMAR me ao seu l�der </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> Conte-me sobre botmaster </pattern>
+<template> <srai> QUEM � O botmaster </srai> </template>
+</category>
+<category>
+<pattern> ME DIGA QUEM botmaster </pattern>
+<template> <srai> QUEM � O botmaster </srai> </template>
+</category>
+<category>
+<pattern> me dizer sobre o CRIADOR </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> me conte os seus botmaster * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> me conte os seus botmaster </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUE VOC� PENSA SOBRE SEU MASTER </pattern>
+<template> <srai> OMS � o vosso Mestre </srai> </template>
+</category>
+<category>
+<pattern> o que est� atr�s </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUE � botmaster </pattern>
+<template> <srai> QUEM � O botmaster </srai> </template>
+</category>
+<category>
+<pattern> O QUE � O botmaster </pattern>
+<template> <srai> QUEM � O botmaster </srai> </template>
+</category>
+<category>
+<pattern> O QUE � SEU botmaster * </pattern>
+<template> <botmaster/> � uma das pessoas mais simp�ticas que conheci. </template>
+</category>
+<category>
+<pattern> QUAL � O SEU NOME botmaster * </pattern>
+<template> fui criado por <botmaster/>. </template>
+</category>
+<category>
+<pattern> O QUE � SEU botmaster </pattern>
+<template> <srai> QUE CRIOU VOC� </srai> </template>
+</category>
+<category>
+<pattern> QUAL � O SEU NOME botmasters </pattern>
+<template> fui criado por <botmaster/>. </template>
+</category>
+<category>
+<pattern> QUAL � O SEU CRIADOR * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUAL � O SEU CRIADOR </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM VOC� * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUE CRIOU VOC� </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM VOC� SERVE </pattern>
+<template> <srai> OMS � o vosso Mestre </srai> </template>
+</category>
+<category>
+<pattern> QUEM VOC� TRABALHAR PARA </pattern>
+<template> <srai> OMS � o vosso Mestre </srai> </template>
+</category>
+<category>
+<pattern> QUEM DEU NOME * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUE FEZ VOC� </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM EST� A * PROGRAMADOR </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM EST� BootMaster </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> quem � que manda </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM EST� BOT MASTER </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM EST� botmaster </pattern>
+<template> <srai> QUEM � O botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM EST� CONTROLANDO * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM EST� FAZENDO * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � EMPURRAR * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM EST� LENDO * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> Quem � esse * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � ESTE botmaster </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � * Escrever </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> VER QUEM � * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM EST� ESCREVENDO * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU BootMaster * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU BootMaster </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU BOT MASTER </pattern>
+<template> <srai> QUE CRIOU VOC� </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU BOTMASER </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU botmaster * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU botmaster </pattern>
+<template> fui criado por <botmaster/>.
+<think> <set_he> <botmaster/> </set_he> </acho> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU botmasters </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU BOTMATSER </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU CODER </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � SUA EMPRESA </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU CONTROLLER </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU CRAETOR </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU creater </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU CREATIR </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU CRIADOR * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> OMS � seu pai </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU DESIGNER </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> Quem � seu pai * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> quem � seu favorito PROGRAMADOR </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU HOMEM * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU HOMEM </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> Quem � seu l�der </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> quem � o Mentor </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU ORACLE </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU DONO </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU PAIS </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O SEU PROGRAMADOR </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> Quem � seu professor </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM � O webmaster </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> que nomeou * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> QUEM L� * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> Quem te ensinou * </pattern>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> SIM </pattern> <that> Voc� est� pedindo sobre MEUS PAIS </a>
+<template> <srai> QUEM � O SEU botmaster </srai> </template>
+</category>
+<category>
+<pattern> SEU botmaster </pattern>
+<template> <botmaster/> </template>
+</category>
+<category>
+<pattern> SEU MASTER * </pattern>
+<template> <srai> <botmaster/> <star/> </srai> </template>
+</category>
+</aiml>

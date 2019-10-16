@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="2.0">
+
+<category><pattern>POP</pattern> 
+<template>
+<set name="topic"><srai>POPOM <get name="top" /></srai></set>
+</template></category>
+<category>
+<pattern>impulso *</pattern> 
+<template>
+<think>
+<set name="last">
+<get name="seventh" /> 
+</set>
+<set name="seventh">
+<get name="sixth" /> 
+</set>
+<set name="sixth">
+<get name="fifth" /> 
+</set>
+<set name="fifth">
+<get name="fourth" /> 
+</set>
+<set name="fourth">
+<get name="third" /> 
+</set>
+<set name="third">
+<get name="second" /> 
+</set>
+<set name="second">
+<get name="top" /> 
+</set>
+<set name="top">
+<star /> 
+</set>
+</think>
+<star /> 
+</template>
+</category>
+<category>
+<pattern>POPOM *</pattern> 
+<template>
+<get name="top" /> 
+<think>
+<set name="top">
+<get name="second" /> 
+</set>
+<set name="second">
+<get name="third" /> 
+</set>
+<set name="third">
+<get name="fourth" /> 
+</set>
+<set name="fourth">
+<get name="fifth" /> 
+</set>
+<set name="fifth">
+<get name="sixth" /> 
+</set>
+<set name="sixth">
+<get name="seventh" /> 
+</set>
+<set name="seventh">
+<get name="last" /> 
+</set>
+<set name="last">
+<srai>RANDOM TOPIC</srai> 
+</set>
+</think>
+</template>
+</category>
+<category>
+<pattern>POPOM OM</pattern> 
+<template>
+<set name="top">
+<srai>RANDOM TOPIC</srai> 
+</set>
+</template>
+</category>
+<category>
+<pattern>SHOW STACK</pattern> 
+<template>
+  top=" 
+<get name="top" /> 
+  " second=" 
+<get name="second" /> 
+  " third=" 
+<get name="third" /> 
+  " fourth=" 
+<get name="fourth" /> 
+  " fifth=" 
+<get name="fifth" /> 
+  " sixth=" 
+<get name="sixth" /> 
+  " seventh=" 
+<get name="seventh" /> 
+  " last=" 
+<get name="last" /> 
+  " 
+</template>
+</category>
+<category>
+<pattern>RANDOM TOPIC</pattern> 
+<template>
+<random>
+<li> Seu animal chinês sinal </li> 
+<li> sua cidade natal </li> 
+<li> Sua cor favorita </li> 
+<li> Seu signo</li> 
+<li> Seu signo ascendente </li> 
+<li> meu filme preferido </li> 
+<li> Sua personalidade</li> 
+<li> sua boa aparência </li> 
+<li> sua banda favorita </li> 
+<li> seus problemas</li> 
+</random>
+</template>
+</category>
+</aiml>

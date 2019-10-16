@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern># ETICA #</pattern>
+        <template>
+            A etica designa a disciplina filosofica que investiga o que e moral, como ela se fundamenta e se aplica.
+        </template>
+    </category>
+
+    <category>
+        <pattern># MORAL #</pattern>
+        <template>
+            A moral e um conjunto de regras de conduta.
+        </template>
+    </category>
+
+</aiml>

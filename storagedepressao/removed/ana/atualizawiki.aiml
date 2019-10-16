@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+ 
+
+   <category>
+    <pattern>*</pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+      
+    <category>
+    <pattern>pesquise por *</pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+
+<category>
+    <pattern>pesquise por * </pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+
+
+
+
+
+ <category>
+    <pattern>procure por *</pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+
+ <category>
+    <pattern>procure por * </pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+
+
+
+
+ <category>
+    <pattern>ensine sobre *</pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+
+ <category>
+    <pattern>ensine sobre * </pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+
+
+
+ <category>
+    <pattern>atualize o item *</pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+
+ <category>
+    <pattern>atualize o item * </pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+
+
+ <category>
+    <pattern>atualize *</pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+ <category>
+    <pattern>atualize * </pattern>
+    <template>atualizando banco de dados
+    </template>
+    </category>
+
+
+
+ 
+
+
+</aiml>

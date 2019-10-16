@@ -1,3 +1,0 @@
-" dot com ",".com"
-" vc "," voce "
-" dot org ",".org"

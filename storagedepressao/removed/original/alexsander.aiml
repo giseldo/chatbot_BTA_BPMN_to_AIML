@@ -1,0 +1,14 @@
+<aiml>
+
+    <category>
+        <pattern>* sua matricula</pattern>
+        <template>
+            <srai>matricula</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>matricula</pattern>
+        <template>minha matricual eh 22</template>
+    </category>
+
+</aiml>

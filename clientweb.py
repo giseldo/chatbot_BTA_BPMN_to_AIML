@@ -156,19 +156,21 @@ app = Flask(__name__)
 
 WEB_CLIENT = WebChatBotClient()
 
+
 @app.route('/')
 def index():
     return current_app.send_static_file('webchat.html')
 
+
 @app.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
 def receive_message():
     try:
-        return "teste" 
-        #WEB_CLIENT.receive_message(request)
+        return WEB_CLIENT.receive_message(request)
     except Exception as e:
         print("Error receiving webchat message", e)
         YLogger.exception(None, "Web client error", e)
         return "500"
+
 
 if __name__ == '__main__':
     app.run()

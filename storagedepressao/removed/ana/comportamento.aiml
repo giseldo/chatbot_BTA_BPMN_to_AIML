@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<aiml version="1.0.1">
+
+
+
+<category>
+    <pattern>
+      vou bem você ?
+    </pattern>
+
+    <template>
+       <think><set name="cachorro"><star/></set></think>
+        <random>
+           <li> otima  ! Quais são as novidades?</li>
+           
+        </random>
+    </template>     
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</aiml>

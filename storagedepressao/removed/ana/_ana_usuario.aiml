@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+<category>
+    <pattern>
+       O meu nome � * 
+    </pattern>
+    <template>
+       <think><set name="nome"><star/></set></think>
+        <random>
+           <li> nome bonito ! <get name="nome"/> Vou me lembrar dele!</li>
+            <li>mito prazer <get name="nome"/>Meu nome � �na Droide!</li>
+            <li>Encantada <get name="nome"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+
+<category>
+    <pattern>
+       meu nome � * 
+    </pattern>
+    <template>
+       <think><set name="nome"><star/></set></think>
+        <random>
+           <li> nome bonito ! <get name="nome"/> Vou me lembrar dele!</li>
+            <li>mito prazer <get name="nome"/>Meu nome � �na Droide!</li>
+            <li>Encantada <get name="nome"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+<category>
+    <pattern>
+        me chamo * 
+    </pattern>
+    <template>
+       <think><set name="nome"><star/></set></think>
+        <random>
+           <li> nome bonito ! <get name="nome"/> Vou me lembrar dele!</li>
+            <li>mito prazer <get name="nome"/>Meu nome � �na Droide!</li>
+            <li>Encantada <get name="nome"/>!</li>
+        </random>
+    </template>     
+</category>
+
+<category>
+    <pattern>
+         nome � * 
+    </pattern>
+    <template>
+       <think><set name="nome"><star/></set></think>
+        <random>
+           <li> nome bonito ! <get name="nome"/> Vou me lembrar dele!</li>
+            <li>mito prazer <get name="nome"/>Meu nome � �na Droide!</li>
+            <li>Encantada <get name="nome"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+<category>
+    <pattern>
+        me chamo * 
+    </pattern>
+    <template>
+       <think><set name="nome"><star/></set></think>
+        <random>
+           <li> nome bonito ! <get name="nome"/> Vou me lembrar dele!</li>
+            <li>mito prazer <get name="nome"/>Meu nome � �na Droide!</li>
+            <li>Encantada <get name="nome"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+
+<category>
+    <pattern>
+        me cham�o de * 
+    </pattern>
+    <template>
+       <think><set name="nome"><star/></set></think>
+        <random>
+           <li> nome bonito ! <get name="nome"/> Vou me lembrar dele!</li>
+            <li>mito prazer <get name="nome"/>Meu nome � �na Droide!</li>
+            <li>Encantada <get name="nome"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+<category>
+    <pattern>
+        minha m�e me chamou de * quando nasci
+    </pattern>
+    <template>
+       <think><set name="nome"><star/></set></think>
+        <random>
+           <li> nome bonito ! <get name="nome"/> sua m�e � muito boa para escolher nomes</li>
+            <li>mito prazer <get name="nome"/>Meu nome � �na Droide! meu pai gleison  me deu este nome</li>
+            <li>Encantada <get name="nome"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+<category>
+    <pattern>
+       Qual � meu nome 
+    </pattern>
+    <template>
+     	<li>Voc� disse que �ra <get name="nome"/>!</li>
+        </template>  
+ 
+</category>
+
+<category>
+    <pattern>
+       Qual � meu nome ?
+    </pattern>
+    <template>
+     	<li>Voc� disse que �ra <get name="nome"/>!</li>
+        </template>  
+ 
+</category>
+
+
+
+
+
+
+<category>
+    <pattern>
+       Qual � meu * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+
+<category>
+    <pattern>
+       Voc� conhece o  * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>sim conhe�o o <get name="name"/>!</li>
+            <li>Acho que o <get name="name"/> ja falou comigo!</li>
+            <li> <get name="name"/> acredito que sim !</li>
+        </random>
+    </template>     
+</category>
+
+
+
+<category>
+    <pattern>
+       Voc� conhece a  * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>sim conhe�o o <get name="name"/>!</li>
+            <li>Acho que o <get name="name"/> ja falou comigo!</li>
+            <li> <get name="name"/> acredito que sim !</li>
+        </random>
+    </template>     
+</category>
+
+
+
+<category>
+    <pattern>
+       Quem � ele?
+    </pattern>
+    <template>
+          <get name="nome"/> Meu Pai
+    </template>
+</category>
+
+
+
+
+<category>
+    <pattern>
+       * � meu * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+
+
+<category>
+    <pattern>
+       * * � meu * * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+
+
+<category>
+    <pattern>
+       * * * � meu * * * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+<category>
+    <pattern>
+       * * * * � meu * * * * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+<category>
+    <pattern>
+       * � meu * * * * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+<category>
+    <pattern>
+       * *  � meu * * * * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+
+
+<category>
+    <pattern>
+       * * * � meu * * * * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+
+<category>
+    <pattern>
+       * * * * � meu * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+
+<category>
+    <pattern>
+       * * * * � meu * * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+<category>
+    <pattern>
+       * * * * � meu * * * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+
+
+
+<category>
+    <pattern>
+       * * * * � meu * * * * * 
+    </pattern>
+    <template>
+		<think><set name="name"><star/></set></think>
+        <random>
+           	<li>voc� disse que �ra <get name="name"/>!</li>
+            <li>seu nome � <get name="name"/>!</li>
+            <li>Acho que � <get name="name"/>!</li>
+        </random>
+    </template>     
+</category>
+
+</aiml>

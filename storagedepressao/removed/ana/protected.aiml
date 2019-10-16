@@ -1,0 +1,32 @@
+<aiml version="2.0">
+<category>
+<pattern>{TEST}</pattern>
+<template>
+This category is protected from user input.
+</template>
+</category>
+
+<category>
+<pattern>TEST</pattern>
+<template>
+This category is available to user input.
+</template>
+</category>
+
+<category>
+<pattern>DO TEST</pattern>
+<template>
+Now sraiing to the protected category {TEST}...<br/>
+<srai>{TEST}</srai>
+</template>
+</category>
+
+<category>
+<pattern>DO PROTECTED *</pattern>
+<template>
+Now sraiing to the protected category {<star/>}...<br/>
+<srai>{<star/>}</srai>
+</template>
+</category>
+
+</aiml>

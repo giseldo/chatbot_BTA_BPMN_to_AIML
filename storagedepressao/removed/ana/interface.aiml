@@ -1,0 +1,81 @@
+<aiml version="1.0">
+
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Dirk Scheuring"/>
+<meta name="author" content="Kim Sullivan"/>
+<meta name="language" content="en"/>
+
+
+<!-- set up a function call -->
+<category>
+<pattern>FUNCTION *</pattern>
+<template>
+<think>
+<set name="oldtopic"><get name="topic"/></set>
+<set name="topic">INTERFACE</set>
+<set name="function"><star/></set>
+</think>
+</template>
+</category>
+
+<!-- the main 'event handler' -->
+<topic name="INTERFACE">
+
+  <category>
+  <pattern>_</pattern>
+  <template>
+  <think>
+  <set name="topic">FUNCTION <get name="function"/></set>
+  </think>
+  <srai>RESPONSE <star/></srai>
+  </template>
+  </category>
+
+</topic>
+
+<!-- miscellaneous routines -->
+<topic name="FUNCTION *">
+
+  <!-- End a function call -->
+  <category>
+  <pattern>END FUNCTION</pattern>
+  <template>
+  <think>
+  <set name="topic"><get name="oldtopic"/></set>
+  <set name="function"/>
+  <set name="oldtopic"/>
+  </think>
+  </template>
+  </category>
+ 
+  <!-- A good bot should reprompt if the response was unknown -->
+  <category>
+  <pattern>RESPONSE *</pattern>
+  <template>
+  AIML Exception on function <get name="function"/>: unhandled response.
+  <srai>END FUNCTION</srai>
+  </template>
+  </category>
+
+  <!-- If for some weird reason the interface was exited, return to it ASAP -->
+  <category>
+  <pattern>*</pattern>
+  <template>
+  <think><set name="topic">INTERFACE</set></think>
+  </template>
+  </category>
+
+  <!-- After an unknown response/repromt -->
+  <category>
+  <pattern>LOOP</pattern>
+  <template>
+  <think><set name="topic">INTERFACE</set></think>
+  </template>
+  </category>
+
+</topic>
+
+</aiml>

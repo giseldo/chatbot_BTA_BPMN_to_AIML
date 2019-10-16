@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0P">
+
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Kim Sullivan"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>FORGET EVERYTHING</pattern>
+<template>
+<srai>FUNCTION FORGET</srai>
+Do you really want me to forget knowledge of prior conversation?
+</template>
+</category>
+
+<topic name="FUNCTION FORGET">
+<category>
+<pattern>RESPONSE YES</pattern>
+<template>
+<srai>END FUNCTION</srai>
+All knowledge of prior conversation has been forgotten.<forget/>
+</template>
+</category>
+
+<category>
+<pattern>RESPONSE NO</pattern>
+<template>
+All knowledge of prior conversation has been retained.
+<srai>END FUNCTION</srai>
+</template>
+</category>
+
+<category>
+<pattern>RESPONSE *</pattern>
+<template>
+Please respond only with "yes" or "no". Really forget knowledge of prior conversation?
+<srai>REPEAT</srai>
+</template>
+</category>
+
+</topic>
+
+</aiml>

@@ -1,3 +1,0 @@
-name: openchatbot2
-url: https://y.com:6999
-method: GET

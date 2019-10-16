@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<aiml version="1.0.1">
+
+<category>
+<pattern>Java</pattern>
+
+<template>
+'\Translate [x= 0 z= -10 t= 0]'
+
+
+
+</template>
+</category>
+
+</aiml>
+

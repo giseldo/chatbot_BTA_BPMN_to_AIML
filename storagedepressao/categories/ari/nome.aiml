@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>MEU NOME É *</pattern>
+        <template>
+        	prazer em conhece-lo <set name="nome"><star /></set>.
+        </template>
+    </category>
+
+     <category>
+        <pattern>QUAL O MEU NOME</pattern>
+        <template>
+        	<get name="nome" />
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VAI VOCE</pattern>
+        <template>
+        	Eu vou bem obrigado.
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO VAI VOCÊ</pattern>
+        <template>
+        	Eu vou bem obrigado.
+        </template>
+    </category>
+
+    <category>
+        <pattern># SEU NOME #</pattern>
+        <template>
+        	Meu nome é <bot name="name"/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUAL ^ GÊNERO</pattern>
+        <template>Eu sou masculino.</template>
+    </category>
+
+</aiml>

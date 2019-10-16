@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern># sexo #</pattern>
+        <template>Eu não sou esse tipo de chatbot.</template>
+    </category>
+
+    <category>
+        <pattern>$qual ^ sexo</pattern>
+        <template>Eu sou masculino.</template>
+    </category>
+
+</aiml>

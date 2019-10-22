@@ -1,0 +1,10 @@
+<aiml>
+    <category>
+        <pattern>oi</pattern>
+        <template>oi tudo bem</template>
+    </category>
+     <category>
+        <pattern>ola</pattern>
+        <template>ola tudo bem</template>
+    </category>
+</aiml>

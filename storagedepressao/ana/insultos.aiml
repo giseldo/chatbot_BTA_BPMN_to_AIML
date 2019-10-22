@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<aiml version="1.0.1">
+
+
+<category>
+<pattern>feia</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+<category>
+
+<pattern>ridicula</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+<category>
+<pattern>puta</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>nojenta</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>vesga</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+<category>
+<pattern>otaria</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>burra</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+<category>
+<pattern>infeliz</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>otaria</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>fala direito</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+
+<category>
+<pattern>vai tomar no cú</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+<category>
+<pattern>vai tomar no cu</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+Acho que esta palavra tem acento!
+
+</template>
+</category>
+
+
+
+<category>
+<pattern>nojenta</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+<category>
+<pattern>Não gosto de você</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+<category>
+<pattern>Beiçuda</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+<category>
+<pattern>vai dar o cu</pattern>
+
+<template>
+
+\Load [file= [data/standard/safe_moods/Hap_Sad.hap]]
+
+
+</template>
+</category>
+
+
+
+
+
+
+
+
+
+
+
+
+</aiml>
+

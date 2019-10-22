@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+ 
+   
+  <category>
+    <pattern>
+busque a fótos * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+  <category>
+    <pattern>
+*  fótos * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+   
+* *  fótos * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+ 
+<category>
+    <pattern>
+* * *  fótos * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fótos * * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+*  fótos * * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+<category>
+    <pattern>
+* *  fótos * * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * *  fótos * * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+<category>
+    <pattern>
+* * * *  fótos * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fótos * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fótos * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+   
+  <category>
+    <pattern>
+busque a fótos * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+  <category>
+    <pattern>
+*  fótos * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+   
+* *  fótos * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+ 
+<category>
+    <pattern>
+* * *  fótos * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fótos * * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+*  fótos * * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+<category>
+    <pattern>
+* *  fótos * * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * *  fótos * * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+<category>
+    <pattern>
+* * * *  fótos * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fótos * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fótos * * * </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fótos </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+<category>
+    <pattern>
+* * *  fótos </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* *  fótos </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+
+<category>
+    <pattern>
+*  fótos </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+
+
+<category>
+    <pattern>
+ fótos </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+
+ 
+<category>
+    <pattern>
+ fótos *  </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+ 
+
+ 
+<category>
+    <pattern>
+ fótos * *  </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+<category>
+    <pattern>
+ fótos * * *  </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+<category>
+    <pattern>
+ fótos * * * *  </pattern>
+    <template>buscando fótos
+    </template>
+    </category>
+
+
+
+
+
+ 
+    
+</aiml>

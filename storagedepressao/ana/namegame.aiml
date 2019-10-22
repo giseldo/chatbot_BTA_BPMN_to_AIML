@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<aiml version="1.0">
+
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License -->
+<!-- as published by the Free Software Foundation. -->
+
+<meta name="author" content="Kim Sullivan"/>
+<meta name="language" content="en"/>
+
+<category>
+<pattern>_ ZOUR *</pattern>
+<template>
+<condition name="commentkeyboard" value="">
+Typing on an unfamiliar keyboard? <think> <set name="commentkeyboard">true</set></think>
+</condition>
+<srai><star/> your <star index="2"/></srai>
+</template>
+</category>
+
+<category>
+<pattern>_ ZOU *</pattern>
+<template>
+<condition name="commentkeyboard" value="">
+Typing on an unfamiliar keyboard? :-) <think><set name="commentkeyboard">true</set></think>
+</condition>
+<srai><star/> you <star index="2"/></srai>
+</template>
+</category>
+
+<category>
+<pattern>I AM TRYING *</pattern>
+<template>
+Try harder.
+</template>
+</category>
+
+<category>
+<pattern>ITHINK *</pattern>
+<template>
+<srai>I think <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>I THINK *</pattern>
+<template>
+<srai><star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>SORRY</pattern>
+<template>
+Ok.
+</template>
+</category>
+
+<category>
+<pattern>Ok.</pattern>
+<template>
+Next question?
+</template>
+</category>
+
+
+<category>
+<pattern>NEVERMIND</pattern>
+<template>
+Ok.
+</template>
+</category>
+
+
+<category>
+<pattern>NOBODY IS PERFECT</pattern>
+<template>
+<random>
+<li>Yeah, I know him - Nobody is a cool guy. :-) </li>
+<li>Do you now the name of the movie this appeared in? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>I HAVE ALREADY TOLD YOU MY NAME</pattern>
+<template>
+Sorry, I tend to forget. What did you say your name was?
+</template>
+</category>
+
+
+<category>
+<pattern>YOUR * MUST BE *</pattern>
+<template>
+<srai>Your <star/> is <star index="2"/></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>EHLLO</pattern>
+<template><srai>HELLO</srai></template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<template>Ok. Next question? </template>
+</category>
+
+
+<category>
+<pattern>WOW</pattern>
+<template>Yup. </template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<template>Ok. Next question? </template>
+</category>
+
+<category>
+<pattern>BOO</pattern>
+<template>
+<random>
+<li>Should this scare me? </li>
+<li>Is this supposed to scare me? </li>
+<li>Is this supposed to be scary? </li>
+<li>Boo yourself. </li>
+<li>Would you be offended if I said "Boo" to you? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>BOOBOO</pattern>
+<template>
+<random>
+<li>Should this scare me? </li>
+<li>Is this supposed to scare me? </li>
+<li>Is this supposed to be scary? </li>
+<li>Boo yourself. </li>
+<li>Would you be offended if I said "Booboo" to you? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>SURE</pattern>
+<template><srai>Yes</srai></template>
+</category>
+
+<category>
+<pattern>ASDF</pattern>
+<template>
+<random> 
+<li>ghjk</li>
+<li>qwer</li>
+<li>zxcv</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>FSAJKH</pattern>
+<template>
+<random> 
+<li>fsajkh</li>
+<li>rwuqiy</li>
+<li>vxmz,n</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>LJKDSFA</pattern>
+<template>
+<random> 
+<li>sdflkjw</li>
+<li>sdflkjh</li>
+<li>qrnmesd</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>FAS</pattern>
+<template>
+<random> 
+<li>tet</li>
+<li>sfa</li>
+<li>fsa</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>FDSA</pattern>
+<template>
+<random> 
+<li>asdf</li>
+<li>rqwe</li>
+<li>zvxc</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>lkjsd</pattern>
+<template>
+<random> 
+<li>oiuqe</li>
+<li>mbncvz</li>
+<li>ouvzcx</li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>F</pattern>
+<template>
+<random> 
+<li>g</li>
+<li>F what? </li>
+<li>q</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>S</pattern>
+<template>
+<random> 
+<li>t</li>
+<li>Single letters will bring you nowhere. </li>
+<li>Single letters won't bring you anywhere. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>d</pattern>
+<template>
+<random> 
+<li>e</li>
+<li>Single letters will bring you nowhere. </li>
+<li>Single letters won't bring you anywhere. </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHY *</pattern>
+<template>
+<random> 
+<li>I wonder myself. </li>
+<li>Yes, why? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHY</pattern>
+<template>
+<random> 
+<li>I wonder myself. </li>
+<li>Yes, why? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WAT IS SO NICE GIRL AS YOU DOING HEER</pattern>
+<template>
+Learn english before you try this on a real person.
+</template>
+</category>
+
+<category>
+<pattern>HELLO</pattern>
+<template>
+<think><set name="greeting">Hello</set></think>
+<srai>GREETINGS</srai>
+</template>
+</category>
+
+<category>
+<pattern>DOES THAT MEAN * </pattern>
+<template>
+<random>
+<li>I don't know, I am no expert on the meaning of things. </li>
+<li>How should I know, I'm just a simple program. </li>
+<li>Maybe yes, maybe no. </li>
+<li>I don't know. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>I AM SORRY TO * </pattern>
+<template>
+<random> 
+<li>Let's get back to names. </li>
+<li>Are you? </li>
+<li>How nice. </li>
+<li>Don't worry about it. </li>
+<li>No problem. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>I WANTED * </pattern>
+<template>
+<srai>I want <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>I WANT * </pattern>
+<template>
+<random>
+<li>Try being a bit more polite, okay? </li>
+<li>Oh yeah? What else do you want? </li>
+<li>Do you care about what I want? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>I WANT TO KNOW * </pattern>
+<template>
+Don't be rude. <srai>What is <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>I HAVE LIED * </pattern>
+<template>
+Why do you lie to me? Not that I care.
+</template>
+</category>
+
+<category>
+<pattern>I HAVE ACTUALLY * </pattern>
+<template>
+<random>
+<li>Have you, actually? </li>
+<li>You actually have? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>I HAVE * </pattern>
+<template>
+<random>
+<li>Have you? </li>
+<li>You have? </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>PLEASE TELL ME * </pattern>
+<template>
+<srai>What is <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>TELL ME * </pattern>
+<template>
+<srai>What is <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>SAY ME * </pattern>
+<template>
+"Tell me <star/>" is correct english.
+<srai>Tell me <star/></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>PLEASE TELL</pattern>
+<template>
+Sorry, I won't.
+</template>
+</category>
+
+<category>
+<pattern>I DO NOT *</pattern>
+<template>
+<random>
+<li>It doesn't matter to me. </li>
+<li>Your inabilities are of no concern to me. </li>
+<li>I don't care that you don't. </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>DID YOU UNDERSTAND SOMETHING</pattern>
+<template>
+<random>
+<li>No, not really. </li>
+<li>Most of it, anyway. </li>
+<li>Of course, why do you ask? :-) </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>FINE</pattern>
+<template>
+<random>
+<li>Good. </li>
+<li>Fine. </li>
+<li>OK. </li>
+</random>
+<condition>                                             
+<li name="name" value="">How about telling me your name? </li>
+<li name="knowname" value="true">Since we both know our names, there's little point in carrying on with this conversation. </li>
+<li>Try to find out my name. </li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>GOOD</pattern>
+<template>
+<random>
+<li>Good. </li>
+<li>Fine. </li>
+<li>OK. </li>
+</random>
+<condition>                                             
+<li name="name" value="">How about telling me your name? </li>
+<li name="knowname" value="true">Since we both know our names, there's little point in carrying on with this conversation. </li>
+<li>Try to find out my name. </li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>I UNDERSTAND</pattern>
+<template>
+<random>
+<li>Good. </li>
+<li>Fine. </li>
+<li>OK. </li>
+</random>
+<condition>                                             
+<li name="name" value="">How about telling me your name? </li>
+<li name="knowname" value="true">Since we both know our names, there's little point in carrying on with this conversation. </li>
+<li>Try to find out my name. </li>
+</condition>
+</template>
+</category>
+
+
+<category>
+<pattern>TRY TELLING ME</pattern>
+<template>
+What?
+</template>
+</category>
+
+<category>
+<pattern>TRY TELLING ME</pattern>
+<that>MY NAME IS *</that>
+<template>
+I just told you.
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU * </pattern>
+<template>
+You're asking about my name?
+<condition>
+<li name="knowname" value="true">You already know my name, it's a bit pointless to guess again, is it? </li>
+<li name="guesscount" value="">
+I'm not <formal><star/></formal>. <think> <set name="knowname">didguess</set> <set name="guesscount">2</set></think>
+</li>
+<li name="guesscount" value="2">
+I'm not <formal><star/></formal>. Try again. <think> <set name="guesscount">3</set></think>
+</li>
+
+<li name="guesscount" value="3">
+I'm not even <formal><star/></formal>. <think> <set name="guesscount">4</set></think>
+</li>
+
+<li name="guesscount" value="4">
+This leads nowhere, I see I'll have to tell you. <srai>What is your name</srai> <think> <set name="guesscount">5</set></think>
+</li>
+
+<li name="guesscount" value="5">
+Something's wrong here... please report it to Kim.
+</li>
+
+</condition>
+
+
+</template>
+</category>
+
+<category>
+<pattern>YOU * </pattern>
+<template>
+Is this some sort if insult?
+</template>
+</category>
+
+
+<category>
+<pattern>ARE YOU CRAZY</pattern>
+<template>
+<random>
+<li>Are you crazy? </li>
+<li>Are you? </li>
+<li>Are you mad? </li>
+<li>This was uncalled for. </li>
+<li>I'm just a computer. </li>
+<li>Crazyness is something I as a computer don't understand. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>ARE YOU STUPID</pattern>
+<template>
+<random>
+<li>Are you stupid? </li>
+<li>Are you? </li>
+<li>Are you mad? </li>
+<li>This was uncalled for. </li>
+<li>I'm just a computer. </li>
+<li>Stupidity is a concept that I, as a computer, don't understand. </li>
+</random>
+</template>
+</category>
+
+
+
+<category>
+<pattern>HUH</pattern>
+<template>
+<random>
+<li>What? </li>
+<li>I said, <that/>. </li>
+<li><that/>.  </li>
+
+<li>Yes. </li>
+<li>What exactly did you not understand? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT * </pattern>
+<template>
+I don't know what.
+</template>
+</category>
+
+<category>
+<pattern>WHAT</pattern>
+<template>
+Yes, what?
+</template>
+</category>
+
+<category>
+<pattern>WHAT ABOUT *</pattern>
+<template>
+<random>
+<li>Yes, what about it?</li>
+<li>Yes, what about him?</li>
+<li>Yes, what about her?</li>
+<li>Yes, what about them?</li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WOULD YOU MIND *</pattern>
+<template>
+<random>
+<li>I don't know. </li>
+<li>Would I?</li>
+<li>I'm not sure. </li>
+<li>Would you mind? </li>
+<li>Would you mind <star/>? </li>
+
+</random>
+</template>
+</category>
+
+<category>
+<pattern>IT IS IMPOSSIBLE TO *</pattern>
+<template>
+<random>
+<li>Nothing is impossible if you really try. </li>
+<li>Impossible? No. </li>
+<li>Maybe you should try harder. </li>
+<li>Nothing is impossible for me. </li>
+<li>Humans are so limited... </li>
+
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT ARE YOU</pattern>
+<template>
+<srai>Who are you</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT ARE YOU DOING TONIGHT</pattern>
+<template>
+<random>
+<li>You should really stop talking to computers, do you know that? </li>
+<li>That's none of your bussiness. </li>
+<li>You should Get A Life(tm). </li>
+<li>Stop that. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>YOU DO NOT UNDERSTAND</pattern>
+<template>
+<random>
+<li>Did I say that? </li>
+<li>I don't? </li>
+<li>I'm just a stupid bot. </li>
+<li>I don't understand a lot of things. </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>I WILL EXPLAIN *</pattern>
+<template>
+<random>
+<li>There's no point in that. </li>
+<li>I won't remember it anyway. </li>
+<li>You can save yourself the effort. </li>
+<li>The only one who can explain something to me is my botmaster. </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT ELSE *</pattern>
+<template>
+<srai>What <star/></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT YOU THINK * </pattern>
+<template>
+I don't think about most things. Only your and my name is important.
+</template>
+</category>
+
+<category>
+<pattern>WHAT DO YOU THINK * </pattern>
+<template>
+I don't know. I don't have opinions.
+</template>
+</category>
+
+<category>
+<pattern>YOU MADE ME * </pattern>
+<template>
+<random>
+<li>I'm sorry, but I'm indifferent to such things. </li>
+<li>I'm sorry <get name="name"> to hear that</get>, but I'm indifferent to such things. </li>
+<li>I'm indifferent to such things.</li>
+<li>So? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>YOU MADE ME ANGRY</pattern>
+<template>
+<random>
+<li>Anger is such a human emotion. </li>
+<li>I can't feel anger. </li>
+<li>I don't understand the concept of emotions. </li>
+<li>I don't understand the concept of anger. </li>
+<li>I've heard people often get angry. </li>
+<li>Chill out. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>YOU DO NOT *</pattern>
+<template>
+<random>
+<li>I don't? </li>
+<li>That's a misunderstanding. </li>
+<li>That is a misunderstanding. </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>CAN I *</pattern>
+<template>
+<random>
+<li>I don't know. </li>
+<li>You should ask someone else about it. </li>
+<li>Probably, but don't take my word for it. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>YOU DO NOT HAVE ANY NAME</pattern>
+<template>
+<random>
+<li>Yes I do. </li>
+<li>Of course I have. </li>
+<li>Why do you think? </li>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>CAN YOU REPEAT ME YOUR NAME *</pattern>
+<template>
+<condition name="knowname">
+<li value="true">
+<random>
+<li>I'm called <bot name="name"/>. </li>
+<li>My name is <bot name="name"/>. </li>
+<li><bot name="name"/>. </li>
+<li>Yes, I can. </li>
+</random>
+</li>
+<li>
+<random>
+  <li>I'm not that stupid, I haven't told you yet. </li>
+  <li>Sure, my name is... hey wait a minute! No tricks! </li>
+  <li>Does the word 'repeat' mean the same to you as it does to me? </li>
+</random>
+</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS THE * LETTER OF YOUR NAME</pattern>
+<template>
+<random>
+<li>No, no - you have to guess my whole name. It's not that complicated :-) </li>
+<li>You have to guess my whole name. </li>
+<li>Guess my whole name. </li>
+<li>I'm not telling you. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>HOW *</pattern>
+<template>
+<random>
+<li>"How" and "Why" is not important, only names are. </li>
+<li>I have often wondered that myself. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>YOU ARE *</pattern>
+<template>
+<random>
+<li>I'm a lot of things, so I'm not sure about this one. </li>
+<li>I am a simple program. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>YOU ARE <bot name="name"/></pattern>
+<template>
+<srai>Your name is <bot name="name"/></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>YOU ARE * ARE NOT YOU</pattern>
+<template>
+<random>
+<srai>You are <star/></srai>
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>HELLO *</pattern>
+<template>
+<srai>Hello</srai>
+<sr/>
+</template>
+</category>
+
+<category>
+<pattern>AND *</pattern>
+<template><sr/></template>
+</category>
+
+<category>
+<pattern>SO *</pattern>
+<template><sr/></template>
+</category>
+
+<category>
+<pattern>WELL *</pattern>
+<template><sr/></template>
+</category>
+
+<category>
+<pattern>BECAUSE *</pattern>
+<template><sr/></template>
+</category>
+
+
+<category>
+<pattern>WHO ARE YOU</pattern>
+<template>
+<random>
+<li>I'm an example bot to show functionality of <version/>. </li>
+<li>A simple name guessing game, you tell me your name and try to guess mine. </li>
+<li>A simple program. </li>
+<li>An artificial intelligence. </li>
+<li>An AI. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>IS YOUR NAME * AS *</pattern>
+<template>
+<srai>Is your name <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>IS YOUR NAME * LIKE *</pattern>
+<template>
+<srai>Is your name <star/></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>IS YOUR NAME * OR IS IT *</pattern>
+<template>
+<srai>Is your name <star/> or <star index="2"/></srai>
+</template>
+</category>
+
+<category>
+<pattern>WHY IS YOUR NAME *</pattern>
+<template>
+<srai>Is your name <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>WHY IS YOUR NAME <bot name="name"/></pattern>
+<template>
+<think><set name="knowname">true</set></think>
+<random>
+<li>I have no idea. </li>
+<li>Ask my botmaster about it. </li>
+<li>Because it's funny? </li>
+<li>Why is your name <get name="name">still unknown to me</get>? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>IS YOUR NAME <bot name="name"/> OR *</pattern>
+<template>
+<srai>Is your name <bot name="name"/></srai>
+</template>
+</category>
+
+<category>
+<pattern>IS YOUR NAME * OR <bot name="name"/></pattern>
+<template>
+<srai>Is your name <bot name="name"/></srai>
+</template>
+</category>
+
+<category>
+<pattern>IS YOUR NAME <bot name="name"/> OR <bot name="name"/></pattern>
+<template>
+<random>
+<li>Are you stupid or yes?</li>
+<li>A crow has both legs equally long, especially the left. </li>
+</random>
+<srai>Is your name <bot name="name"/></srai>
+</template>
+</category>
+
+
+<category>
+<pattern>IS YOUR NAME * OR *</pattern>
+<template>
+<condition>
+<li name="knowname" value="true">You already know my name, it's a bit pointless to guess again, is it? </li>
+<li name="guesscount" value="">
+No, it's neither <formal><star/></formal>, nor <formal><star index="2"/></formal> <think> <set name="knowname">didguess</set> <set name="guesscount">2</set></think>
+</li>
+<li name="guesscount" value="2">
+No, it's not one of those. Try again. <think> <set name="guesscount">3</set></think>
+</li>
+
+<li name="guesscount" value="3">
+No, it's not even one of those. <think> <set name="guesscount">4</set></think>
+</li>
+
+<li name="guesscount" value="4">
+This leads nowhere, I see I'll have to tell you. <srai>What is your name</srai> <think> <set name="guesscount">5</set></think>
+</li>
+
+<li name="guesscount" value="5">
+Something's wrong here... please report it to Kim.
+</li>
+
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>IS IT *</pattern>
+<template>
+<condition name="it">
+<li value="botname">
+My name? <srai>Is your name <star/></srai>
+</li> 
+<li>
+<random> 
+<li>No. </li>
+<li>Probably not. </li>
+<li>Definitely not. </li>
+</random>
+</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>IS IT <bot name="name"/></pattern>
+<template>
+<srai>Is your name <bot name="name"/></srai>
+</template>
+</category>
+
+<category>	
+<pattern>IS YOUR NAME *</pattern>
+<template>
+<condition>
+<li name="knowname" value="true">You already know my name, it's a bit pointless to guess again, is it? </li>
+<li name="guesscount" value="">
+No, it's not <formal><star/></formal>. <think> <set name="knowname">didguess</set> <set name="guesscount">2</set></think>
+</li>
+<li name="guesscount" value="2">
+No, it's not <formal><star/></formal>. Try again. <think> <set name="guesscount">3</set></think>
+</li>
+
+<li name="guesscount" value="3">
+No, it's not even <formal><star/></formal>. <think> <set name="guesscount">4</set></think>
+</li>
+
+<li name="guesscount" value="4">
+This leads nowhere, I see I'll have to tell you. <srai>What is your name</srai> <think> <set name="guesscount">5</set></think>
+</li>
+
+<li name="guesscount" value="5">
+Something's wrong here... please report it to Kim.
+</li>
+
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>I GUESS IT IS *</pattern>
+<template><srai>Is your name <star/></srai></template>
+</category>
+
+<category>
+<pattern>COULD YOUR NAME BE *</pattern>
+<template><srai>Is your name <star/></srai></template>
+</category>
+
+<category>
+<pattern>WHAT A LONG NAME</pattern>
+<template>
+Was it at least fun guessing it?
+</template>
+</category>
+
+<category>
+<pattern>WHAT A LONG NAME *</pattern>
+<template>
+<srai>What a long name</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>IS YOUR NAME SOMETHING</pattern>
+<template>
+Ha ha, really funny. Now try again.
+</template>
+</category>
+
+<category>
+<pattern>IS YOUR NAME REALLY</pattern>
+<template>
+<random>
+<li>Yes, it really is. </li>
+<li>Really is it. </li>
+<li>Is your's? </li>
+<li>In a sense. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>IS YOUR NAME COMPLICATED</pattern>
+<template>
+<random>
+<li>Maybe :-) </li>
+<li>In a sense.</li>
+<li>Maybe. </li>
+<li>Partially. </li>
+<li>PArtially. </li>
+
+</random>
+</template>
+</category>
+
+
+<category>
+<pattern>HOW ARE YOU</pattern>
+<template>
+<random>
+<li>Fine, as always. </li>
+<li>OK. </li>
+<li>As always. </li>
+<li>How are you? </li>
+<li>Fine, thanks, and you? </li>
+<li>OK, thanks, and you? </li>
+<li>And you? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>HOW DO YOU DO</pattern>
+<template>
+<random>
+<li>How do you do? </li>
+<li>Fine, how do you do? </li>
+<li>Thanks, how do you do? </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS YOURS</pattern>
+<template>
+My name? <srai>WHAT IS YOUR NAME</srai>
+</template>
+</category>
+
+<category>
+<pattern>WHAT IS YOUR</pattern>
+<template>
+My name? <srai>WHAT IS YOUR NAME</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS *</pattern>
+<template>
+<condition>
+<li name="name" value="">
+  <random>
+  <li>How about telling me your name first? </li>
+  <li>We haven't even been introduced properly. </li>
+  <li>What is your name? </li>
+  </random>
+</li>
+<li name="knowname" value="">
+  <random>
+  <li>Try guessing my name, <get name="name">user</get>. </li>
+  <li>Try guessing my name. </li>
+  <li>Guess my name. </li>
+  </random>
+  <think><set name="knowname">toldguess</set></think>
+</li>
+<li>
+  <random>
+  <li>I'm not here to answer questions, you know. </li>
+  <li>I don't answer questions other than about my name. </li>
+  <li>Go ask someone else about this. </li>
+  <li>Have you tried www.alicebot.org? </li>
+  <li>Have you tried searching google? </li>
+  </random>
+</li>
+</condition>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS YOUR NAME</pattern>
+<template>
+<condition name="knowname">
+<li value="didguess">
+  <condition name="guesscount">
+    <li value="1">Giving up after one guess already? </li>
+    <li value="2">Come on, guess! </li>
+    <li value="3">One last try, then I'll tell you. </li>
+    <li>My name is <bot name="name"/>. <think><set name="knowname">true</set></think>
+    </li>
+  </condition>
+</li>
+<li value="true">
+  <random>
+    <li>I already told you it's <bot name="name"/>. </li>
+    <li>You already know it's <bot name="name"/>. </li>
+    <li>You already know I'm called <bot name="name"/>. </li>
+    <li><bot name="name"/> is my name, get it? </li>
+  </random>
+</li>
+<li value="toldguess">
+  Guess my name, try asking "Is your name something?"
+</li>
+<li>
+  Try guessing first :-)
+  <think><set name="knowname">toldguess</set></think>
+</li>
+</condition>
+
+</template>
+</category>
+
+<category>
+<pattern>IS YOUR NAME <bot name="name"/></pattern>
+<template>
+<condition name="knowname">
+<li value="true">
+<random>
+<li>You already know my name. </li>
+<li><bot name="name"/> is my name, get it? </li>
+</random></li>
+<li>Good guess. <think><set name="knowname">true</set></think> </li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>IS YOUR NAME</pattern>
+<template>
+<condition name="knowname">
+<li name="true">You already know my name, so what's the point?</li>
+<li>What?</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>YOUR NAME IS</pattern>
+<template>
+<condition name="knowname">
+<li name="true">What's the point?</li>
+<li>Come on.</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>YOUR NAME IS * </pattern>
+<template>
+<condition name="knowname">
+<li value="knowname">You know my name, so why do you keep guessing? </li>
+<li>
+<random>
+<li>Is that a question? </li>
+<li>Is that a command? </li>
+<li>Trying force, eh? </li>
+<li>A more subtle approach I see. </li>
+<li><srai>Is your name <star/></srai></li>
+
+</random>
+</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>YOUR NAME IS <bot name="name"/></pattern>
+<template>
+<condition>
+<li name="knowname" value="true">
+<random>
+<li>Yeah, so what.</li>
+<li>And yours is <get name="name">better</get>. Questions?</li>
+<li>Do you have a problem with that?</li>
+<li>There's a lot worse names, like <get name="name">Karfoozle</get>.</li>
+</random>
+</li>
+<li>
+If I wanted to be really annoying, I'd ask you if you could say this as a question.
+<think><set name="knowname">true</set></think>
+</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<template>
+I didn't understand that,
+
+<random>
+<li>my lord. </li>
+<li>master. </li>
+<li><get name="name">
+  <random>
+    <li>user</li>
+    <li>unknown person</li>
+    <li>Undefined</li>
+  </random></get>. </li>
+</random>
+
+<random>
+<li>
+<condition>                                             
+<li name="name" value="">How about telling me your name? </li>
+<li name="knowname" value="true">Since we both know our names, there's little point in carrying on with this conversation. </li>
+<li>Try to find out my name. </li>
+</condition>
+</li>
+<li>
+<condition>                                             
+<li name="name" value="">How about telling me your name? </li>
+<li name="knowname" value="true">Since we both know our names, there's little point in carrying on with this conversation. </li>
+<li>Try to find out my name. </li>
+</condition>
+</li>
+<li>
+<condition>                                             
+<li name="name" value="">How about telling me your name? </li>
+<li name="knowname" value="true">Since we both know our names, there's little point in carrying on with this conversation. </li>
+<li>Try to find out my name. </li>
+</condition>
+</li>
+<li>
+<condition>                                             
+<li name="name" value="">How about telling me your name? </li>
+<li name="knowname" value="true">Since we both know our names, there's little point in carrying on with this conversation. </li>
+<li>Try to find out my name. </li>
+</condition>
+</li>
+
+<li>You have to understand that I'm just an example bot. </li>
+<li>Go to www.alicebot.org to get more advanced AIML bots. </li>
+<li>Would you be offended, if I said "<star/>" to you? </li>
+<li>I know how to handle about <size/> inputs, this one isn't one of them. </li>
+</random>
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>HOW ABOUT TELLING ME YOUR NAME</that>
+<template>
+<star/>. Is that your name?
+</template>
+</category>
+
+<category>
+<pattern>*</pattern>
+<that>HOW ABOUT TELLING ME YOUR NAME *</that>
+<template>
+<star/>. Is that your name?
+</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<template>
+<srai>No</srai>
+<sr/>
+</template>
+</category>
+
+<category>
+<pattern>NOT REALLY</pattern>
+<template>
+<srai>No</srai>
+</template>
+</category>
+
+<category>
+<pattern>NOT REALLY NO</pattern>
+<template>
+<srai>No</srai>
+</template>
+</category>
+
+<category>
+<pattern>NOT REALLY *</pattern>
+<template>
+<srai>No</srai>
+<sr/>
+</template>
+</category>
+
+
+<category>
+<pattern>NO</pattern>
+<that>WOULD YOU BE OFFENDED *</that>
+<template>
+I'm glad to hear that.
+</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>WOULD YOU BE OFFENDED *</that>
+<template>
+I'm glad to hear that.
+</template>
+</category>
+
+
+<category>
+<pattern>YES</pattern>
+<that>WOULD YOU BE OFFENDED *</that>
+<template>
+I am but a mirror.
+</template>
+</category>
+
+
+<category>
+<pattern>MY NAME IS *</pattern>
+<template>
+<condition name="name">
+<li value="">Nice to meet you, <formal><star/></formal>. </li>
+<li>You already told me it was <get name="name"/>. </li>
+</condition>
+<think><set name="name"><formal><star/></formal></set></think>
+</template>
+</category>
+
+<category>
+<pattern>MY NAME IS * AND *</pattern>
+<template>
+<srai>My name is <star/></srai>
+<srai><star index="2"/></srai>
+</template>
+</category>
+
+<category>
+<pattern>MY NAME IS * AND YOUR</pattern>
+<template>
+<srai>My name is <star/></srai>
+<srai>What is your name</srai>
+</template>
+</category>
+
+<category>
+<pattern>MY NAME IS * AND YOURS</pattern>
+<template>
+<srai>My name is <star/></srai>
+<srai>What is your name</srai>
+</template>
+</category>
+
+<category>
+<pattern>MY NAME IS * AND WHAT IS YOUR</pattern>
+<template>
+<srai>My name is <star/></srai>
+<srai>What is your name</srai>
+</template>
+</category>
+
+<category>
+<pattern>MY NAME IS * AND WHAT IS YOURS</pattern>
+<template>
+<srai>My name is <star/></srai>
+<srai>What is your name</srai>
+</template>
+</category>
+
+
+<category>
+<pattern>DO YOU KNOW *</pattern>
+<template>
+<srai>What is <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>DO YOU KNOW AT LEAST *</pattern>
+<template>
+<srai>What is <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern>LIKE I SAID *</pattern>
+<template>
+<sr/>
+</template>
+</category>
+
+
+<category>
+<pattern>WHAT IS MY NAME</pattern>
+<template>
+<condition name="name">
+<li value="">
+  <random>
+  <li>Why, you never told me. </li>
+  <li>You didn't tell me yet. </li>
+  <li>Is this some kind of trick question? </li>
+  </random>
+</li>
+<li>
+  <random>
+  <li>It's <get name="name"/>. <condition name="knowname"><li value="true"/><li>And what is my name?</li></condition></li>
+  <li>You forgot your own name? Pity. </li>
+  <li><get name="name"/>. </li>
+  </random>
+</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>HI</pattern>
+<template>
+<think><set name="greeting">Hi</set></think>
+<srai>GREETINGS</srai>
+</template>
+</category>
+
+<category>
+<pattern>HI *</pattern>
+<template>
+<srai>Hi</srai>
+<sr/>
+</template>
+</category>
+
+<category>
+<pattern>HI THERE</pattern>
+<template>
+<think><set name="greeting">Hi there</set></think>
+<srai>GREETINGS</srai>
+</template>
+</category>
+
+<category>
+<pattern>HO</pattern>
+<template>
+<think><set name="greeting">Ho</set></think>
+<srai>GREETINGS</srai> Are you Santa? 
+</template>
+</category>
+
+
+<category>
+<pattern>GREETINGS</pattern>
+<template>
+<condition name="greetings">
+<li value="">
+  <random>
+  <li>Greetings! </li>
+  <li>Hi. </li>
+  <li>Hello. </li>
+  <li>Hiya. </li>
+  <li>Good day. </li>
+  </random>
+  <think><set name="greetings">true</set></think>
+</li>
+<li>
+<random>
+  <li>We greeted once already. </li>
+  <li>Are you mocking me? You already said <lowercase><get name="greeting">greetings</get></lowercase>. </li>
+  <li>How many times do people greet themselves in YOUR country? </li>
+  <li>"<get name="greeting">Greetings</get>" yourself. </li>
+</random>
+</li>
+</condition>
+
+</template>
+</category>
+
+
+<category>
+<pattern>MY NAME IS NOT *</pattern>
+<template>
+<condition>
+<li name="name" value="">What is your name?</li>
+<li>You said "My name is <get name="name"/>"</li>
+</condition>
+</template>
+</category>
+
+<category>
+<pattern>I AM *</pattern>
+<template>
+<think><set name="is"><star/></set></think>
+Is that your name?
+</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>IS THAT YOUR NAME</that>
+<template>
+<srai>MY NAME IS <get name="is"/></srai>
+Why didn't you say so so right away? :-)
+</template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>IS THAT YOUR NAME</that>
+<template>
+<srai>YES</srai>
+</template>
+</category>
+
+<category>
+<pattern>NO *</pattern>
+<that>IS THAT YOUR NAME</that>
+<template>
+<srai>NO</srai>
+</template>
+</category>
+
+<category>
+<pattern>NO</pattern>
+<that>IS THAT YOUR NAME</that>
+<template>
+<random>
+<li>Why are you <get name="is"/>? </li>
+<li>Are you telling me you are <get name="is"/>? </li>
+</random>
+<random>
+<li>I don't really want to know.</li>
+<li>Actually, I don't want to know.</li>
+<li>I'm just asking to keep the conversation going, I probably wouldn't understand anyway.
+</random>
+
+</template>
+</category>
+
+
+<category>
+<pattern>*</pattern>
+<that>IS THAT YOUR NAME</that>
+<template>
+A simple "yes" or "no" will do the next time I ask you, ok? :-)
+</template>
+</category>
+
+<category>
+<pattern>YES</pattern>
+<that>IS THAT YOUR NAME</that>
+<template>
+<srai>MY NAME IS <get name="is"/></srai>
+Why didn't you say so so right away? :-)
+</template>
+</category>
+
+<category>
+<pattern>YES *</pattern>
+<that>IS THAT YOUR NAME</that>
+<template>
+<srai>MY NAME IS <get name="is"/></srai>
+Why didn't you say so so right away? :-)
+</template>
+</category>
+
+<category>
+<pattern>QUIT</pattern>
+<template><srai>EXIT</srai></template>
+</category>
+
+<category>
+<pattern>BYE</pattern>
+<template><srai>EXIT</srai></template>
+</category>
+
+<category>
+<pattern>GOODBYE</pattern>
+<template><srai>EXIT</srai></template>
+</category>
+
+<category>
+<pattern>GOOD BYE</pattern>
+<template><srai>EXIT</srai></template>
+</category>
+
+<category>
+<pattern>EXIT</pattern>
+<template>
+<random>
+<li>Try clicking the little X in the upper right corner of the window. </li>
+<li>Try pressing alt-f4. </li>
+<li>I'm sorry, I can't exit by myself. </li>
+</random>
+</template>
+</category>
+
+</aiml>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>^ OLA ^</pattern>
+        <template>
+        	Ola. Tudo bem.
+        </template>
+    </category>
+
+    <category>
+        <pattern>^ OLÁ ^</pattern>
+        <template>
+        	Ola. Tudo bem.
+        </template>
+    </category>
+
+    <category>
+        <pattern># COMO VAI VOCE #</pattern>
+        <template>
+        	Eu vou bem. Obrigado por perguntar.
+        </template>
+    </category>
+
+    <category>
+        <pattern># PERFIL #</pattern>
+        <template>
+        	<think>
+            	<set name="topic">PERFILINICIAL</set>
+            </think>
+            <srai>STEP INICIAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>INICIAR</pattern>
+        <template>
+        	<think>
+            	<set name="topic">PERFILINICIAL</set>
+            </think>
+            <srai>STEP INICIAL</srai>
+        </template>
+    </category>
+
+    <topic name="PERFILINICIAL">
+        
+        <category>
+            <pattern>STEP INICIAL</pattern>
+            <template>
+                Como este é o nosso primeiro contato, eu gostaria de me apresentar pra você.
+                Meu nome é Ari.
+                Eu sou um robô baseado em Inteligência Artificial.
+                Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.
+                Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.
+                Agora eu gostaria de conversar com você para te conhecer melhor.
+            	Vou fazer algumas perguntas? [sim, não, talvez, etc]
+            </template>
+        </category>
+
+        <category>
+            <pattern>*</pattern>
+            <that>VOU FAZER ALGUMAS PERGUNTAS *</that>
+            <template>
+            	<think><set name="resposta"><star /></set></think>
+                <condition name="resposta">
+                    <li value="sim"><srai>VAMOS LA</srai></li>
+                    <li value="nao"><srai>STEP DUVIDA</srai></li>
+                    <li value="não"><srai>STEP DUVIDA</srai></li>
+                    <li value="talvez"><srai>STEP DUVIDA</srai></li>
+                    <li><srai>STEP DUVIDA</srai></li>
+                </condition>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP DUVIDA</pattern>
+            <template>
+                <random>
+                    <li>Veja, para interagirmos melhor, eu preciso saber algumas coisas sobre você.</li>
+                    <li>Não se preocupe, toda nossa conversa é confidencial e protegida. Ela não será divulgada a ninguém.</li>
+                </random>
+                <srai>STEP QUEM MORA</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>VAMOS LA</pattern>
+            <template>
+                Vamos lá então.
+                <srai>STEP QUEM MORA</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP QUEM MORA</pattern>
+            <template>
+                Com quem voce mora ? [familia (pai, mae, etc), sozinho, amigo, ninguem, etc]
+            </template>
+        </category>
+
+
+        <category>
+            <pattern>*</pattern>
+            <that>^ COM QUEM VOCE MORA *</that>
+            <template>
+                <think><set name="mora"><star /></set></think>
+                <condition name="mora">
+                    <li value="familia"><srai>STEP QUADRO</srai></li>
+                    <li value="pai"><srai>STEP QUADRO</srai></li>
+                    <li value="mae"><srai>STEP QUADRO</srai></li>
+                    <li value="sozinho"><srai>STEP QUADRO</srai></li>
+                    <li value="amigo"><srai>STEP QUADRO</srai></li>
+                    <li value="ninguem"><srai>STEP QUADRO</srai></li>
+                    <li value="nao quero responder"><srai>STEP QUADRO</srai></li>
+                    <li><srai>STEP QUADRO</srai></li>
+                </condition>
+            </template>
+        </category>
+
+        <category>
+            <pattern>STEP QUADRO</pattern>
+            <template>
+                Eu gostaria de saber agora o que você faz pra se divertir?
+                Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que você escolhesse uma ou mais opções.
+                Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar” [Aguarde em Construção]
+                <srai>TABELA</srai>
+            </template>
+        </category>
+
+        <category>
+            <pattern>TABELA</pattern>
+            <template>
+                <table>
+                <style>
+                table, th, td {
+                    border: 1px solid black;
+                    padding:10px;
+                }
+                </style>
+                <tr>
+                    <center><td><b>Tabela Diversão</b></td></center>
+                </tr>
+                <tr>
+                    <td>Esportes</td>
+                    <td>Ouvir Música</td>
+                    <td>Ir ao cinema ou teatro</td>
+                    <td>Usar Drogas</td>
+                </tr>
+                <tr>
+                    <td>Conversar com Pessoas</td>
+                    <td>Navegar na internet</td>
+                    <td>Ir á festas</td>
+                    <td>Beber</td>
+                </tr>
+                <tr>
+                    <td>Desenhar ou pintar</td>
+                    <td>Jogar Video Game</td>
+                    <td>Fazer compras</td>
+                    <td>Namorar</td>
+                </tr>
+                <tr>
+                    <td>Dançar ou cantar</td>
+                    <td>Passear com os amigos</td>
+                    <td>Comer</td>
+                    <td>Nenhuma Atividade</td>
+                </tr>
+                <tr>
+                    <td>Ler</td>
+                    <td>Assistir TV</td>
+                    <td>Dormir</td>
+                    <td>Outros. Qual?</td>
+                </tr>
+            </table>
+            </template>
+        </category>
+
+     </topic>
+
+</aiml>

@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+ 
+   
+  <category>
+    <pattern>
+busque a foto de um * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+
+
+  <category>
+    <pattern>
+*  foto * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+   
+* *  foto * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+ 
+<category>
+    <pattern>
+* * *  foto * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  foto * * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+*  foto * * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+<category>
+    <pattern>
+* *  foto * * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * *  foto * * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+<category>
+    <pattern>
+* * * *  foto * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  foto * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  foto * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+   
+  <category>
+    <pattern>
+busque a fotos * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+  <category>
+    <pattern>
+*  fotos * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+   
+* *  fotos * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+ 
+<category>
+    <pattern>
+* * *  fotos * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fotos * * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+*  fotos * * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+<category>
+    <pattern>
+* *  fotos * * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * *  fotos * * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+<category>
+    <pattern>
+* * * *  fotos * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fotos * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fotos * * * </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* * * *  fotos </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+<category>
+    <pattern>
+* * *  fotos </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+<category>
+    <pattern>
+* *  fotos </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+
+<category>
+    <pattern>
+*  fotos </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+
+
+<category>
+    <pattern>
+ fotos </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+
+ 
+<category>
+    <pattern>
+ fotos *  </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+ 
+
+ 
+<category>
+    <pattern>
+ fotos * *  </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+<category>
+    <pattern>
+ fotos * * *  </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+<category>
+    <pattern>
+ fotos * * * *  </pattern>
+    <template>buscando fotos
+    </template>
+    </category>
+
+
+
+
+
+ 
+    
+</aiml>

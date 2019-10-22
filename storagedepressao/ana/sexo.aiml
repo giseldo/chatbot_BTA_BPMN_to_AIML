@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<aiml version="1.0.1">
+
+
+<category>
+<pattern>Você faz sexo</pattern>
+
+<template>
+
+<random> 
+
+<li>não</li>
+<li>isso é estranho</li>
+<li>nossa que criatividade voce tem</li>
+
+</random> 
+
+</template>
+</category>
+
+
+<category>
+<pattern>Você tranza</pattern>
+
+<template>
+
+<random> 
+
+<li>não</li>
+<li>isso é estranho</li>
+<li>nossa que criatividade voce tem</li>
+
+</random> 
+
+</template>
+</category>
+
+
+
+<category>
+<pattern>Você faz chupeta</pattern>
+
+<template>
+
+<random> 
+
+<li>não</li>
+<li>isso é estranho</li>
+<li>nossa que criatividade voce tem</li>
+
+</random> 
+
+</template>
+</category>
+
+<category>
+<pattern>Você gosta de sexo</pattern>
+
+<template>
+
+<random> 
+
+<li>não</li>
+<li>isso é estranho</li>
+<li>nossa que criatividade voce tem</li>
+
+</random> 
+
+</template>
+</category>
+
+
+</aiml>
+

@@ -1,20 +1,60 @@
-Two Kinds of Chatbots
+## titulo
+Ari: um chatbot em AIML com fluxo de dialogo escrito em BPMN
 
-Chatbots are not new. However, utilization of the bots has attracted industries 
-in the last few years. First established in the 1960s, chatbots have come a 
-long way from its initial development. There are two types of chatbots. 
-The most common kind of chatbot is rule-based, and the more advanced 
-one is powered with artificial intelligence.
+## resumo
+Chatbot são programas de computador onde um ser humano conversa 
+com o programa utilizando linguagem natural.
+Existem diversas tecnologias associadas a construção de 
+chatterbots  uma que se destaca é o AIML.
+Desenhar fluxos em AIML é trabalhoso e por vezes 
+não intuitivo devido a caracteristicas intrisicas do XML.
+Contruir fluxos utilizando uma linguagem visual é intuitivo. 
+Existe uma linguagem que define os componentes visuais e
+ a sua especificação em XML utilizada para mapeamento de processos de negócio.
+É possível mapear a notação BPMN em AIML e aproveitar todos os recursos
+visuais oferecidos por uma linguagem de notação visual como o BPMN. 
+Foi desenvolvido um módulo em python que converte um diagrama 
+BPMN em AIML. Dois estudos de caso foram implementados, um que 
+fala sobre depressão e um que ensina ética. O resultado esperado
+é que apos a construção do diagrama em BPMN a conversão para o fluxo
+aconteceu em alguns segundos. Logo é possível construir vários fluxos.
 
-Artificial intelligence (AI) chatbots use natural language processing systems. 
-In this system, computers are programmed to read, process, 
-and analyze large quantities of natural language data. 
-Artificial intelligence technologies also include deep learning 
-and machine-learning algorithms. AI bots learn from the conversations 
-and interactions they had with people, expanding their database.
 
-On the other hand, rule-based bots are made of simple systems and,
- therefore, have limited responses. The system scans and determines 
- keywords form the user input and replies with the corresponding command. 
- Unlike the AI-based chatbots, rule-based chatbots no longer respond 
- when they encounter unfamiliar commands and unrecognized words.
+## introdução
+
+Chatbots são programas de computador 
+
+BPMN é uma linguagem de mapeamento de processos
+
+O problema é que construir diagramas em AIML é dificil
+
+### Objetivo Principal
+Desenhar fluxos de dialogo em AIML a partir do BPMN para que a construção de chatbots
+seja mais intuitiva 
+
+### Objetivo Secundário
+Desenvolver uma ferramenta visual para construção de fluxo de 
+diálogos
+
+## Referencial teorico
+
+## estudo de caso
+
+Foram desenvolvido um estudo de caso sobre depressao
+
+## Arquitetura
+
+Foi utilizado Python.
+
+## Resultados
+
+O chatbot foi apresentado a turma e todos gostaram
+
+## Referências
+
+TURING
+
+ELIZA
+
+ALICE
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern># iniciacao #</pattern>
+        <template>
+            Os processos da área de iniciação são:
+            <button>
+                <text>4.1 desenvolver o termo de abertura do projeto</text>
+                <postback>desenvolver</postback>
+            </button>
+             e
+            <button>
+                <text>13.1 identificar as partes interessadas</text>
+                <postback>identificar</postback>
+            </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>desenvolver</pattern>
+        <template>Saidas Termo de abertura do projeto</template>
+
+    </category>
+
+    <category>
+        <pattern>identificar</pattern>
+        <template>Saidas Registro das partes interessadas</template>
+    </category>
+
+</aiml>

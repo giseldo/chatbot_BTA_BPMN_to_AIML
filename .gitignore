@@ -4,6 +4,9 @@ __pycache
 __pycache__
 */__pycache__/*
 *.pyc
+__pycache__
+/__pycache__/
+\__pycache__\
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template

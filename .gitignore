@@ -1,6 +1,7 @@
 venv
 .idea
 __pycache
+__pycache__
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Python template

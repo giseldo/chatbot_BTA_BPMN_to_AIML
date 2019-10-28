@@ -2,7 +2,7 @@ venv
 .idea
 __pycache
 __pycache__
-programy/__pycache__/
+*/__pycache__/*
 *.pyc
 
 # Created by .ignore support plugin (hsz.mobi)

@@ -2,16 +2,18 @@ from AIML_ import AIMLClass
 from BPMN_ import BPMNClass
 import xml.etree.ElementTree as ET
 
+
 class Controlador:
+
     def generateAIML(self, inputBPMNFileName):
-        ### generate necessary variables for integration from BPMN
+        # generate necessary variables for integration from BPMN
         bpmnObject = BPMNClass()
         rootBPMN = bpmnObject.getRootBPMNFromFile(inputBPMNFileName)
         templateName, pattern_event_init_value = bpmnObject.getTemplateName(rootBPMN)
         firstActivityName = bpmnObject.get_first_activity_name(rootBPMN)
         activityOne = bpmnObject.get_activityes(rootBPMN)[1].attrib['name']
         activityTwo = bpmnObject.get_activityes(rootBPMN)[2].attrib['name']
-        ## generate aiml from bpmn using generated variables
+        # generate aiml from bpmn using generated variables
         aimlObject = AIMLClass()
         rootAIML = aimlObject.addCategoryInit(pattern_event_init_value, templateName)
         topicAIML = aimlObject.addTopic(rootAIML, templateName)
@@ -29,9 +31,9 @@ class Controlador:
 
 
 if __name__ == '__main__':
-    ### Integration between BPMN and AIML
+    # Integration between BPMN and AIML
     controlador = Controlador()
     rootAIML = controlador.generateAIML('input/carro.bpmn')
-    ### Generate AIML file
+    # Generate AIML file
     controlador.outputBPMNFile('output/carro.aiml', rootAIML)
-    controlador.outputBPMNFile('../../storagedepressao/categories/ari/carro.aiml', rootAIML)
+    # controlador.outputBPMNFile('../../storagedepressao/categories/ari/carro.aiml', rootAIML)

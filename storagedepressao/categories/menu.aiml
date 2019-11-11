@@ -1,0 +1,15 @@
+<aiml>
+    <category>
+        <pattern>MENU</pattern>
+        <template>
+            <button>
+                <text>SOUTH AFRICA</text>
+                <postback>SOUTH AFRICA</postback>
+            </button>
+            <button>
+                <text>ARGENTICA</text>
+                <postback>INICIAR</postback>
+            </button>
+        </template>
+    </category>
+</aiml>

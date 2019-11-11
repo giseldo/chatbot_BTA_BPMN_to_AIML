@@ -1,13 +1,10 @@
 <aiml>
 
     <category>
-        <pattern>iniciar</pattern>
+        <pattern>SOUTH AFRICA</pattern>
         <template>
-            Hey Friend
-            my name is Ayan
             I am representing south africa
             <srai>entendeu</srai>
-
         </template>
     </category>
 
@@ -29,7 +26,7 @@
         <pattern>SIM</pattern>
         <template>
             isso e bom
-            mostra que talves voce pegar aos conteudos com mais facilidade
+            mostra que talves voce ira pegar aos conteudos com mais facilidade
         </template>
     </category>
 

@@ -1,0 +1,42 @@
+<aiml>
+
+    <category>
+        <pattern>iniciar</pattern>
+        <template>
+            Hey Friend
+            my name is Ayan
+            I am representing south africa
+            <srai>entendeu</srai>
+
+        </template>
+    </category>
+
+    <category>
+        <pattern>ENTENDEU</pattern>
+        <template>voce entendeu a ultima coisa que eu disse
+        <button>
+                <text>sim</text>
+                <postback>SIM</postback>
+        </button>
+            <button>
+                <text>nao</text>
+                <postback>NAO</postback>
+        </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SIM</pattern>
+        <template>
+            isso e bom
+            mostra que talves voce pegar aos conteudos com mais facilidade
+        </template>
+    </category>
+
+    <category>
+        <pattern>NAO</pattern>
+        <template>
+            estamos aqui para te ajudar
+        </template>
+    </category>
+</aiml>

@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 
 templateName = ""
 
-treeInput = ET.parse("input/pmbok.bpmn")
+treeInput = ET.parse("input/padaria.bpmn")
 
 rootDefinition = treeInput.getroot()
 definitionTagName = rootDefinition.tag
@@ -107,12 +107,12 @@ addCategoryFlow(topic, '*', get_first_activity_name(rootDefinition), 'resultado'
 addCategoryTopic(topic ,'STEP_SIM', get_activityes(rootDefinition)[1].attrib['name'])
 addCategoryTopic(topic ,'STEP_NAO', get_activityes(rootDefinition)[2].attrib['name'])
 
-file = open('output/pmbok.aiml', 'wb')
+file = open('output/padaria.aiml', 'wb')
 tree = ET.ElementTree(aiml)
 tree.write(file)
 file.close()
 
-file = open('../../storagedepressao/categories/ari/pmbok.aiml', 'wb')
+file = open('../../storagedepressao/categories/ari/padaria.aiml', 'wb')
 tree = ET.ElementTree(aiml)
 tree.write(file)
 file.close()

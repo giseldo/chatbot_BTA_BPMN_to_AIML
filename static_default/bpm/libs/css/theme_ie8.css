@@ -1,0 +1,213 @@
+/* css */
+
+/*******************************************************************************
+	@theme: Export Process Viewer
+	@version: 1.0.0
+	@author: UX TEAM at Bizagi
+	@description: Custom theme CSS rules for Process Viewer
+	@browser: IE8
+********************************************************************************
+//* ========================================================================== Export process viewer components ========================================================================== */
+/* General ========================================================================== */
+::-webkit-input-placeholder {
+  color: #a76b00;
+}
+::-moz-placeholder {
+  color: #a76b00;
+}
+:-ms-input-placeholder {
+  color: #a76b00;
+}
+#app-container-view {
+  background: #fff7ea;
+}
+.ui-tooltip.biz-ex-tooltip,
+.ui-tooltip.biz-ex-tooltip-nav {
+  background: #fdfbf7;
+  color: #4b3000;
+}
+.ui-tooltip.biz-ex-tooltip:after {
+  border-left-color: #fdfbf7;
+}
+.ui-tooltip.biz-ex-tooltip-nav:after {
+  border-right-color: #fdfbf7;
+}
+.biz-gradien-scroll {
+  background: -webkit-linear-gradient(top, transparent 0%, #ffdc9d 100%);
+  background: -moz-linear-gradient(top, transparent 0%, #ffdc9d 100%);
+  background: linear-gradient(to bottom, transparent 0%, #ffdc9d 100%);
+}
+/* Header ========================================================================== */
+.biz-ex-header-view {
+  border-bottom-color: #d58a00;
+}
+.biz-ex-header-view a {
+  color: #ffffff;
+}
+.biz-ex-header-view a:hover {
+  color: #f2f2f2;
+}
+.biz-ex-logo {
+  background: #f59e00;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffa500), color-stop(100%, #f59e00));
+  background-image: -webkit-linear-gradient(#ffa500, #f59e00);
+  background-image: -moz-linear-gradient(#ffa500, #f59e00);
+  background-image: -o-linear-gradient(#ffa500, #f59e00);
+  background-image: linear-gradient(#ffa500, #f59e00);
+  border-right-color: #d58a00;
+  border-bottom-color: #d58a00;
+}
+.biz-ex-top-nav {
+  background: #eb9800;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #e09100), color-stop(100%, #eb9800));
+  background-image: -webkit-linear-gradient(#e09100, #eb9800);
+  background-image: -moz-linear-gradient(#e09100, #eb9800);
+  background-image: -o-linear-gradient(#e09100, #eb9800);
+  background-image: linear-gradient(#e09100, #eb9800);
+}
+.biz-ex-back-process.biz-ex-navigate {
+  border-color: #d58a00;
+  background: transparent;
+}
+.biz-ex-title-diagram {
+  color: #ffffff;
+}
+/* Navigation sidebar ========================================================================== */
+#sidebar,
+.biz-ex-navigation-left {
+  background: #ffe5b6;
+}
+.biz-ex-navigation-left {
+  border-right-color: #ffd790;
+}
+.biz-ex-search-input,
+.biz-ex-icon-search {
+  background-color: #ffdc9d;
+}
+.biz-ex-search-input {
+  color: #a76b00;
+}
+.nav-bar {
+  border-top-color: #ffd790;
+}
+.nav-bar .biz-ex-sub-page a {
+  border-bottom-color: #ffd790;
+}
+.nav-bar .biz-ex-sub-page.active {
+  background: rgba(167, 107, 0, 0.25);
+}
+.nav-bar a {
+  color: #a76b00;
+}
+.nav-bar a:hover {
+  background: #ffdc9d;
+  color: #8e5b00;
+}
+.biz-ex-active.active > a {
+  border-top-color: #ffd790 !important;
+  color: #000000;
+}
+.biz-ex-ind-container {
+  border-right-color: #ffd790;
+}
+/* Search ========================================================================== */
+.biz-ex-search-options {
+  box-shadow: 0 1px 1px #e4c891;
+  background: rgba(253, 251, 247, 0.9);
+}
+.biz-ex-search-options:after {
+  border-bottom-color: rgba(253, 251, 247, 0.9);
+}
+.ui-autocomplete {
+  box-shadow: 0 1px 1px #e4c891;
+  background: rgba(253, 251, 247, 0.9);
+}
+.biz-ex-result-name,
+.biz-ex-result-container {
+  color: #4b3000 !important;
+}
+.biz-ex-search-option {
+  color: #a76b00;
+}
+.biz-ex-search-option.biz-ex-active {
+  color: #4b3000;
+}
+/* Content ========================================================================== */
+.biz-ex-diagram-data {
+  background: #fdfbf7;
+}
+.no-touch .bix-ex-figure-panel {
+  border-color: #d58a00;
+  background: #fdfbf7;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.biz-ex-diagram-desc-container {
+  color: #4b3000;
+}
+.biz-ex-img,
+.biz-ex-diagram-desc:last-child {
+  border-color: #ffc356;
+}
+.biz-ex-expand-button-span {
+  border-color: #ffd790;
+  background: #fdfbf7;
+}
+/* Modal window ========================================================================== */
+.reveal-modal {
+  border-color: #d58a00;
+}
+.biz-ex-dialog-header {
+  background: #ffd280;
+}
+.biz-ex-dialog-details > dt,
+.biz-ex-dialog-details > dd,
+.biz-ex-dialog-properties .biz-ex-dialog-process-title,
+.biz-ex-performers-list-as-contact span,
+.biz-ex-performers-list-as-contact span:nth-child(even) {
+  color: #4b3000;
+}
+.biz-ex-dialog-line {
+  border-color: #d58a00;
+}
+.biz-ex-performer-tag {
+  background: #f3e7ce;
+}
+.biz-ex-dialog-content.biz-ex-dialog-properties {
+  bottom: 4px;
+  border-top-color: #d58a00;
+}
+.alert-box {
+  background: #f3e7ce !important;
+  color: #4b3000;
+}
+/* GUID list ========================================================================== */
+.biz-ex-guid-wrapper {
+  border-color: #d58a00;
+  background: #fdfbf7;
+  color: #4b3000;
+}
+.biz-ex-guid-img {
+  border-color: #ffc356;
+}
+/* Zoom ========================================================================== */
+.zoom-hotspot:hover {
+  border-color: transparent;
+  background-color: rgba(255, 238, 208, 0.5);
+}
+.zoom-pane-preview {
+  border-color: #d58a00;
+}
+.zoom-pane-preview .zoom-pane-square {
+  border-color: #ffd790;
+  background: rgba(255, 238, 208, 0.5);
+}
+.zoom-pane-preview .zoom-pane-square.ui-draggable-dragging {
+  border-color: #d58a00;
+  background: rgba(255, 165, 0, 0.5);
+}
+/* ========================================================================== Mixins ========================================================================== */

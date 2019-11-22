@@ -138,10 +138,10 @@ bot:
 
     initial_question:  Olá Meu nome é Ari. Eu converso sobre ética, gestão de projetos e depressão.
     initial_question_srai: YINITIALQUESTION
-    default_response: Sorry, I don't have an answer for that!
+    default_response: Desculpe, Eu ainda estou aprendendo!
     default_response_srai: YEMPTY
     empty_string: YEMPTY
-    exit_response: So long, and thanks for the fish!
+    exit_response: Obrigado!
     exit_response_srai: YEXITRESPONSE
 
     override_properties: true

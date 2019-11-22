@@ -11,10 +11,12 @@ $(document).ready(function(){
                 if (show_question == true) {
                     $("#chatbox").append ("<p><b>You:</b> "+response.response.question+"</p>" );
                 }
-                $("#chatbox").append ("<p><b>Bot:</b> "+response.response.answer+"</p>" );
-                $("#chatbox").append ("<p><hr /></p>" );
+                $("#chatbox").append ("<p><b>Bot:</b> "+response.response.answer[0]+"</p>" );
+//                $("#chatbox").append ("<p><hr /></p>" );
+                $("#chatbox").append ("<p><b>Bot:</b> "+response.response.answer[1]+"</p>" );
+//                $("#chatbox").append ("<p><hr /></p>" );
 
-//                $("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;
+                $("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;
             }
         }
 

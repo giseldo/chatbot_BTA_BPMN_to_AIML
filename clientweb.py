@@ -144,8 +144,8 @@ class WebChatBotClient(FlaskRestBotClient):
             answer = answer.replace('\n', '').strip()
             rendered = self._renderer.render(client_context, answer)
             response_data = self.create_success_response_data(question, rendered)
-#            response_data = {'question': 'YINITIALQUESTION',
-#                             'answer': ['Olá, meu nome é Tips, em que posso ajudá-lo?', 'foi agora']}
+            # response_data = {'question': 'YINITIALQUESTION',
+            #                  'answer': ['Olá, meu nome é Tips, em que posso ajudá-lo?', 'foi agora']}
         except Exception as excep:
             YLogger.exception(self, "Failed receving message", excep)
             response_data = self.create_error_response_data(client_context, question, str(excep))

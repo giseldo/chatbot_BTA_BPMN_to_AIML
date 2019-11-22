@@ -138,7 +138,7 @@ webchat:
 bot:
     brain: brain
 
-    initial_question: Hey Friend my name is Ayan?
+    initial_question: Olá Meu nome é Ari. Eu converso sobre ética, gestão de projetos e depressão?
     initial_question_srai: YINITIALQUESTION
     default_response: Desculpe, Não entendi!
     default_response_srai: YEMPTY

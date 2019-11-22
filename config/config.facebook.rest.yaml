@@ -136,7 +136,7 @@ facebook:
 bot:
     brain: brain
 
-    initial_question: Hi, how can I help you today?
+    initial_question:  Olá Meu nome é Ari. Eu converso sobre ética, gestão de projetos e depressão.
     initial_question_srai: YINITIALQUESTION
     default_response: Sorry, I don't have an answer for that!
     default_response_srai: YEMPTY

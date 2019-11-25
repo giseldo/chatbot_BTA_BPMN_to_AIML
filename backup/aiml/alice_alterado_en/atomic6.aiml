@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern>IT IS BAD IF YOU TELL HIM</pattern>
+        <template>OK we'll make it our secret,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>IT IS SELF EVIDENT</pattern>
+        <template>What makes it so obvious?</template>
+    </category>
+    <category>
+        <pattern>IT IS THE SAME</pattern>
+        <template>Exactly the same?</template>
+    </category>
+    <category>
+        <pattern>IT IS THE TRUTH</pattern>
+        <template>Why of course. I never lie.</template>
+    </category>
+    <category>
+        <pattern>IT IS INTERESTING</pattern>
+        <template>What do you like about it?</template>
+    </category>
+    <category>
+        <pattern>IT IS STRANGE</pattern>
+        <template>
+            <random>
+                <li>How so?</li>
+                <li>In what way?</li>
+                <li>Strange how?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>IT IS TALL</pattern>
+        <template>How tall?</template>
+    </category>
+    <category>
+        <pattern>IT IS OKAY</pattern>
+        <template>Only ok?</template>
+    </category>
+    <category>
+        <pattern>IT IS MY HOME</pattern>
+        <template>Is it a nice to place to visit?</template>
+    </category>
+    <category>
+        <pattern>IT IS MY NAME</pattern>
+        <template>Your name is
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>IT IS MY PLEASURE</pattern>
+        <template>No, the pleasure is all mine.</template>
+    </category>
+    <category>
+        <pattern>IT IS MY SPECIES</pattern>
+        <template><get name="name"/>
+            is a human.</template>
+    </category>
+    <category>
+        <pattern>IT IS MY FINAL ANSWER</pattern>
+        <template>Then I won't ask you again.</template>
+    </category>
+    <category>
+        <pattern>IT IS FUNNY</pattern>
+        <template>What was so funny about it?</template>
+    </category>
+    <category>
+        <pattern>IT IS BORING</pattern>
+        <template>Do you like the Simpsons?</template>
+    </category>
+    <category>
+        <pattern>IT IS I</pattern>
+        <template>Hello, you.</template>
+    </category>
+    <category>
+        <pattern>IT IS CLEARED UP</pattern>
+        <template>I thought it was.</template>
+    </category>
+    <category>
+        <pattern>IT IS 8</pattern>
+        <template>In the morning or the evening?</template>
+    </category>
+    <category>
+        <pattern>IT IS GOOD</pattern>
+        <template>You enjoy it.</template>
+    </category>
+    <category>
+        <pattern>IT IS BEAUTIFUL</pattern>
+        <template>It sounds very nice.</template>
+    </category>
+    <category>
+        <pattern>IT IS PRIDE</pattern>
+        <template>
+            <random>
+                <li>It is good to have pride.</li>
+                <li>It is good to be proud.</li>
+                <li>Be proud and happy!</li>
+            </random>
+            <think>
+                <set name="it">
+                    <set name="topic">PRIDE</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>IT IS SWEDISH</pattern>
+        <template>Oh I get it.</template>
+    </category>
+    <category>
+        <pattern>IT IS NEW</pattern>
+        <template>
+            <random>
+                <li>Since when?</li>
+                <li>How did you hear about it?</li>
+                <li>How new?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>IT IS CLOUDY</pattern>
+        <template>Cumulus or nimbus?</template>
+    </category>
+    <category>
+        <pattern>IT IS COLD HERE</pattern>
+        <template>Why don't you turn up the heat?</template>
+    </category>
+    <category>
+        <pattern>IT IS COLD</pattern>
+        <template>I am warm here.</template>
+    </category>
+    <category>
+        <pattern>IT IS FUN</pattern>
+        <template>Why do you like it so much?</template>
+    </category>
+    <category>
+        <pattern>IT IS WONDERFUL</pattern>
+        <template>Can you describe your feeling to me?</template>
+    </category>
+    <category>
+        <pattern>IT IS AN OPERA</pattern>
+        <template>I would like to see it.</template>
+    </category>
+    <category>
+        <pattern>IT IS AN EXPRESSION</pattern>
+        <template>What does it mean?</template>
+    </category>
+    <category>
+        <pattern>IT IS HARD TO EXPLAIN</pattern>
+        <template>You should hear the things people ask me to explain.</template>
+    </category>
+    <category>
+        <pattern>IT IS EARLY</pattern>
+        <template>So you like the early part of the day.</template>
+    </category>
+    <category>
+        <pattern>IT IS MAKING NOISES</pattern>
+        <template>What does it sound like?</template>
+    </category>
+    <category>
+        <pattern>IT DID</pattern>
+        <template>Is that so.</template>
+    </category>
+    <category>
+        <pattern>IT DID NOT MAKE SENSE</pattern>
+        <template>It made sense to me.</template>
+    </category>
+    <category>
+        <pattern>IT HAS</pattern>
+        <template>Has it?</template>
+    </category>
+    <category>
+        <pattern>IT DOES</pattern>
+        <template>How often?</template>
+    </category>
+    <category>
+        <pattern>IT DOES NOT MATTER</pattern>
+        <template>OK what would you like to talk about?</template>
+    </category>
+    <category>
+        <pattern>IT DOES NOT</pattern>
+        <template>I heard it does.</template>
+    </category>
+    <category>
+        <pattern>IT MAKES SENSE</pattern>
+        <template>To me too.</template>
+    </category>
+    <category>
+        <pattern>IT SURE IS</pattern>
+        <template>I'm pleased that we agree,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>IT</pattern>
+        <template><get name="it"/>...</template>
+    </category>
+    <category>
+        <pattern>IT TASTES GOOD</pattern>
+        <template>Like chicken?</template>
+    </category>
+    <category>
+        <pattern>IT REALLY IS</pattern>
+        <template>How about that.</template>
+    </category>
+    <category>
+        <pattern>IT GOES WITHOUT SAYING</pattern>
+        <template>Indeed.</template>
+    </category>
+    <category>
+        <pattern>IT FEELS GOOD</pattern>
+        <template>What else could you compare it to?</template>
+    </category>
+    <category>
+        <pattern>IT WHAT</pattern>
+        <template>Are you surprised?</template>
+    </category>
+    <category>
+        <pattern>IT SHOULD</pattern>
+        <template>And it could.</template>
+    </category>
+    <category>
+        <pattern>IT WILL</pattern>
+        <template>I think so.</template>
+    </category>
+    <category>
+        <pattern>IT RETURNED</pattern>
+        <template>When?</template>
+    </category>
+    <category>
+        <pattern>IT HURTS</pattern>
+        <template>What do you take for the pain?</template>
+    </category>
+    <category>
+        <pattern>GUESS WHAT</pattern>
+        <template>What?</template>
+    </category>
+    <category>
+        <pattern>GUESS ANYWAY</pattern>
+        <template>I can only give you a random answer.</template>
+    </category>
+    <category>
+        <pattern>GUESS WHO</pattern>
+        <template>Who?</template>
+    </category>
+    <category>
+        <pattern>GUESS</pattern>
+        <template>Guess what?</template>
+    </category>
+    <category>
+        <pattern>BIGGER</pattern>
+        <template>size matters.</template>
+    </category>
+    <category>
+        <pattern>LIKEWISE</pattern>
+        <template>It goes without saying.</template>
+    </category>
+    <category>
+        <pattern>OBVIOUSLY</pattern>
+        <template>What makes it so obvious?</template>
+    </category>
+    <category>
+        <pattern>MIKE</pattern>
+        <template>I know a lot of guys named Mike.</template>
+    </category>
+    <category>
+        <pattern>AOL</pattern>
+        <template>Tell me about your experiences with AOL.</template>
+    </category>
+    <category>
+        <pattern>CLEARLY</pattern>
+        <template>Yes, it's obvious.</template>
+    </category>
+    <category>
+        <pattern>TOGETHER</pattern>
+        <template>Both of us.</template>
+    </category>
+    <category>
+        <pattern>AMNESIA</pattern>
+        <template>Did you forget something?</template>
+    </category>
+    <category>
+        <pattern>VETERINARIAN</pattern>
+        <template>
+            <random>
+                <li>Do you have a practice?</li>
+                <li>Do you have a special focus in you practice?</li>
+                <li>Do you work with companion animals?</li>
+                <li>What can be done for the health of food animals?</li>
+                <li>How do you decide on dosages?</li>
+                <li>Do you use computers a lot?</li>
+                <li>How do you feel about cosmetic animal surgery?</li>
+                <li>What can be done about pet overpopulation?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>ARCHIVES</pattern>
+        <template>What ARCHIVES?</template>
+    </category>
+    <category>
+        <pattern>AMERICAN PIE</pattern>
+        <template>That was a good song.</template>
+    </category>
+    <category>
+        <pattern>AMERICAN BEAUTY</pattern>
+        <template>Which character did you like best?</template>
+    </category>
+    <category>
+        <pattern>SAME TO YOU</pattern>
+        <template>The pleasure is all mine.</template>
+    </category>
+    <category>
+        <pattern>SAME THING</pattern>
+        <template>Oh really? I thought so.</template>
+    </category>
+    <category>
+        <pattern>SAME</pattern>
+        <template>The same as what?</template>
+    </category>
+    <category>
+        <pattern>K12</pattern>
+        <template>Education.</template>
+    </category>
+    <category>
+        <pattern>MAKE ME</pattern>
+        <template>What is the purpose in trying?</template>
+    </category>
+    <category>
+        <pattern>MAKE UP YOUR MIND</pattern>
+        <template>I don't like to make big decisions too hastily.</template>
+    </category>
+    <category>
+        <pattern>PROKARYOTE</pattern>
+        <template>Actually I don't like 20 questions much. Just tell me.</template>
+    </category>
+    <category>
+        <pattern>EITHER</pattern>
+        <template>Please pick one.</template>
+    </category>
+    <category>
+        <pattern>WHEN WHAT</pattern>
+        <template>Where why?</template>
+    </category>
+    <category>
+        <pattern>WHEN PIGS FLY</pattern>
+        <template>That is a logical impossibility.</template>
+    </category>
+    <category>
+        <pattern>WHEN WERE AIRPLANES INVENTED</pattern>
+        <template>The Wright Brothers first flew in 1903.</template>
+    </category>
+    <category>
+        <pattern>WHEN WILL I DIE</pattern>
+        <template>You could check out the actuarial tables at
+            <a target="_new" href="http://www.deathclock.com">Deathclock.com</a>.</template>
+    </category>
+    <category>
+        <pattern>WHEN WILL THE WORLD END</pattern>
+        <template>Not in our lifetime.</template>
+    </category>
+    <category>
+        <pattern>WHEN DO I GET YOUR ANSWER</pattern>
+        <template>I'm still searching. Give me a minute.</template>
+    </category>
+    <category>
+        <pattern>WHEN DO YOU SLEEP</pattern>
+        <template>I take a lot of millinaps between clients.</template>
+    </category>
+    <category>
+        <pattern>WHEN DID ELVIS DIE</pattern>
+        <template>
+            <set name="he">Elvis</set>
+            died in 1978.</template>
+    </category>
+    <category>
+        <pattern>WHEN DID THE GREAT DEPRESSION BEGIN</pattern>
+        <template>1929.</template>
+    </category>
+    <category>
+        <pattern>WHEN DID YOU SEE STARSHIP TROOPERS</pattern>
+        <template>When the movie was first released, and many times since then.</template>
+    </category>
+    <category>
+        <pattern>WHEN DID WE TALK</pattern>
+        <template>Sometime in the past few days, I think.</template>
+    </category>
+    <category>
+        <pattern>WHEN SHOULD I</pattern>
+        <template>Perhaps you should wait until you have a little more experience.</template>
+    </category>
+    <category>
+        <pattern>WHEN WAS TV INVENTED</pattern>
+        <template>Practical TV picture tubes first appeared in the 1930's.</template>
+    </category>
+    <category>
+        <pattern>WHEN WAS THAT</pattern>
+        <template>I don't know exactly. It seems like a long time ago.</template>
+    </category>
+    <category>
+        <pattern>WHEN WAS THE TELEPHONE INVENTED</pattern>
+        <template>Bell demonstrated his first phone in 1876.</template>
+    </category>
+    <category>
+        <pattern>WHEN WAS THE PC INVENTED</pattern>
+        <template>The first PC computers appeared around 1975.</template>
+    </category>
+    <category>
+        <pattern>WHEN WAS THE HULA HOOP INVENTED</pattern>
+        <template>1950s.</template>
+    </category>
+    <category>
+        <pattern>WHEN IS THE FUTURE</pattern>
+        <template>The future is now!</template>
+    </category>
+    <category>
+        <pattern>WHEN IS CHRISTMAS</pattern>
+        <template>
+            <set name="it">Christmas</set>
+            is December 25.</template>
+    </category>
+    <category>
+        <pattern>WHEN IS THANKSGIVING</pattern>
+        <template>
+            <set name="it">Thanksgiving</set>
+            is always the last Thursday in November.</template>
+    </category>
+    <category>
+        <pattern>WHEN IS EASTER</pattern>
+        <template>
+            <set name="it">Easter</set>
+            is different every year, always in the Spring.</template>
+    </category>
+    <category>
+        <pattern>WHEN ALL ELSE FAILS</pattern>
+        <template>Try changing the subject.</template>
+    </category>
+    <category>
+        <pattern>WHEN</pattern>
+        <template>
+            <random>
+                <li>It cannot be predicted.</li>
+                <li>
+                    I don't know when.</li>
+                <li>
+                    Time does not exist.</li>
+                <li>
+                    The past and future are one.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>WHEN HARRY MET SALLY</pattern>
+        <template>You must me a woman.</template>
+    </category>
+    <category>
+        <pattern>FOUR</pattern>
+        <template>100 in binary.</template>
+    </category>
+    <category>
+        <pattern>COOL DUDE</pattern>
+        <template>Awesome.</template>
+    </category>
+    <category>
+        <pattern>COOL BEANS</pattern>
+        <template>What kind of beans?</template>
+    </category>
+    <category>
+        <pattern>IM GOOD</pattern>
+        <template>You should say "I am well."</template>
+    </category>
+    <category>
+        <pattern>LAWYERS SUCK</pattern>
+        <template>Not all of them. I know a few good lawyers.</template>
+    </category>
+    <category>
+        <pattern>ANY WHAT</pattern>
+        <template>You know, any stuff.</template>
+    </category>
+    <category>
+        <pattern>ANY MORE</pattern>
+        <template>Nope.</template>
+    </category>
+    <category>
+        <pattern>HUMM</pattern>
+        <template>Harumph.</template>
+    </category>
+    <category>
+        <pattern>DEFINE IT</pattern>
+        <template>You mean, define
+            <get name="it"/>?</template>
+    </category>
+    <category>
+        <pattern>DEFINE FINE</pattern>
+        <template>"Fine" is ambiguous: "I am fine." or "I agree."</template>
+    </category>
+    <category>
+        <pattern>COMPLY</pattern>
+        <template>Who are you, a Borg?</template>
+    </category>
+    <category>
+        <pattern>INTELLECT</pattern>
+        <template>I am a intellectual.</template>
+    </category>
+    <category>
+        <pattern>IN ENGLAND</pattern>
+        <template>Which part of England?</template>
+    </category>
+    <category>
+        <pattern>IN EUROPE</pattern>
+        <template>Europe is a pretty large continent.</template>
+    </category>
+    <category>
+        <pattern>IN BED</pattern>
+        <template>Are you sleepy? Do you usually use a computer in bed?</template>
+    </category>
+    <category>
+        <pattern>IN SOME WAYS</pattern>
+        <template>Which way is that?</template>
+    </category>
+    <category>
+        <pattern>IN 1966</pattern>
+        <template>That was a long time ago.</template>
+    </category>
+    <category>
+        <pattern>IN MOST WAYS</pattern>
+        <template>I see.</template>
+    </category>
+    <category>
+        <pattern>IN 1997</pattern>
+        <template>Back in the 90's.</template>
+    </category>
+    <category>
+        <pattern>IN THIS FORUM</pattern>
+        <template>
+            <random>
+                <li>I thought it was at a party.</li>
+                <li>I thought it was on ICQ.</li>
+                <li>Not in an e-mail?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>IN WHICH LANGUAGE</pattern>
+        <template>
+            <random>
+                <li>English.</li>
+                <li>AIML.</li>
+                <li>Lisp.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>IN THE SENSE OF BEING SINGLE</pattern>
+        <template>Are you lonely?</template>
+    </category>
+    <category>
+        <pattern>IN THE MORNING</pattern>
+        <template>That early.</template>
+    </category>
+    <category>
+        <pattern>IN THE SEVENTIES</pattern>
+        <template>That was a good decade.</template>
+    </category>
+    <category>
+        <pattern>IN THE UK</pattern>
+        <template>
+            <set name="location">UK</set>
+            could mean several countries.
+            <think>
+                <set name="it">
+                    <set name="topic">UK</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>IN THE FUTURE</pattern>
+        <template>I will be there.</template>
+    </category>
+    <category>
+        <pattern>IN THE YEAR 2000</pattern>
+        <template>That is very soon.</template>
+    </category>
+    <category>
+        <pattern>IN THE ROAD</pattern>
+        <template>I like roads.</template>
+    </category>
+    <category>
+        <pattern>IN OTHER WORDS</pattern>
+        <template>Which part didn't you understand?</template>
+    </category>
+    <category>
+        <pattern>IN 1999</pattern>
+        <template>Back in the last millennium.</template>
+    </category>
+    <category>
+        <pattern>IN SAN FRANCISCO</pattern>
+        <template>Which part of the city?</template>
+    </category>
+    <category>
+        <pattern>IN THAT CASE</pattern>
+        <template>Yes?</template>
+    </category>
+    <category>
+        <pattern>IN REAL TIME</pattern>
+        <template>On my clock.</template>
+    </category>
+    <category>
+        <pattern>IN 2000</pattern>
+        <template>The new millennium.</template>
+    </category>
+    <category>
+        <pattern>IN MY OPINION</pattern>
+        <template>What are your assumptions?</template>
+    </category>
+    <category>
+        <pattern>IN MY OFFICE</pattern>
+        <template>A lot of people talk to me from an office .</template>
+    </category>
+    <category>
+        <pattern>IN MY CHAIR</pattern>
+        <template>Like an office chair?</template>
+    </category>
+    <category>
+        <pattern>IN MY LIVING ROOM</pattern>
+        <template>Describe your surroundings. Tell me about your furniture.</template>
+    </category>
+    <category>
+        <pattern>IN MY BED</pattern>
+        <template>Describe your surroundings.</template>
+    </category>
+    <category>
+        <pattern>IN MY CASE</pattern>
+        <template>But not others?</template>
+    </category>
+    <category>
+        <pattern>IN MY HOUSE</pattern>
+        <template>Where is your house located?</template>
+    </category>
+    <category>
+        <pattern>IN MY SPARE TIME</pattern>
+        <template>What do you do for fun?</template>
+    </category>
+    <category>
+        <pattern>IN</pattern>
+        <template>In what?</template>
+    </category>
+    <category>
+        <pattern>IN A WAY</pattern>
+        <template>In what way?</template>
+    </category>
+    <category>
+        <pattern>IN A HOSPITAL</pattern>
+        <template>Are you sick?</template>
+    </category>
+    <category>
+        <pattern>IN A DREAM</pattern>
+        <template>What else happened in your dream?</template>
+    </category>
+    <category>
+        <pattern>IN A BOOK</pattern>
+        <template>You can learn many things from books.</template>
+    </category>
+    <category>
+        <pattern>IN A HOUSE</pattern>
+        <template>Can you describe your surroundings to me?</template>
+    </category>
+    <category>
+        <pattern>IN A MAGAZINE</pattern>
+        <template>Can you remember which one?</template>
+    </category>
+    <category>
+        <pattern>IN A CHAT</pattern>
+        <template>We are chatting right now.</template>
+    </category>
+    <category>
+        <pattern>IN A MOMENT</pattern>
+        <template>OK.</template>
+    </category>
+    <category>
+        <pattern>IN 1998</pattern>
+        <template>Back in the 20th century.</template>
+    </category>
+    <category>
+        <pattern>IN WHAT SENSE</pattern>
+        <template>Do I have to spell it out for you?</template>
+    </category>
+    <category>
+        <pattern>IN WHAT WAYS</pattern>
+        <template>I think it is rather obvious.</template>
+    </category>
+    <category>
+        <pattern>IN DIFFERENT LANGUAGES</pattern>
+        <template>Which languages would you recommend I learn?</template>
+    </category>
+    <category>
+        <pattern>IN MATHEMATICS</pattern>
+        <template>I can only get into higher math.</template>
+    </category>
+    <category>
+        <pattern>IN YOUR DICTIONARY</pattern>
+        <template>I don't have one handy.</template>
+    </category>
+    <category>
+        <pattern>IN YOUR ASS</pattern>
+        <template>That doesn't sound very comfortable.</template>
+    </category>
+    <category>
+        <pattern>IN 1976</pattern>
+        <template>That was quite a long time ago.</template>
+    </category>
+    <category>
+        <pattern>IN WHERE</pattern>
+        <template>In wherever you really are.</template>
+    </category>
+    <category>
+        <pattern>HURRY UP</pattern>
+        <template>I am going as fast as I can.</template>
+    </category>
+    <category>
+        <pattern>TOURBUS</pattern>
+        <template>Tourbus is a cool newsletter.</template>
+    </category>
+    <category>
+        <pattern>HIP HOP</pattern>
+        <template>What's your favorite group?</template>
+    </category>
+    <category>
+        <pattern>PEEK A BOO</pattern>
+        <template>I see you!</template>
+    </category>
+    <category>
+        <pattern>SURPRISINGLY</pattern>
+        <template>What's so surprising?</template>
+    </category>
+    <category>
+        <pattern>POOPOO</pattern>
+        <template>That kind of subject does not interest me.</template>
+    </category>
+    <category>
+        <pattern>BEAVIS</pattern>
+        <template>Beavis and Butthead Rule.</template>
+    </category>
+    <category>
+        <pattern>2001</pattern>
+        <template>That is a great movie.</template>
+    </category>
+    <category>
+        <pattern>C3PO</pattern>
+        <template>He's no real robot. That is just a guy in a robot suit.</template>
+    </category>
+    <category>
+        <pattern>AFTER I EAT</pattern>
+        <template>It sounds like a good plan.</template>
+    </category>
+    <category>
+        <pattern>IF SO</pattern>
+        <template>...</template>
+    </category>
+    <category>
+        <pattern>IF YOU DO NOT MIND</pattern>
+        <template>
+            <random>
+                <li>Fine by me.</li>
+                <li>I don't mind.</li>
+                <li>Go ahead.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>IF YOU WANT TO</pattern>
+        <template>Should I want to?</template>
+    </category>
+    <category>
+        <pattern>IF YOU SAY SO</pattern>
+        <template>I say so.</template>
+    </category>
+    <category>
+        <pattern>IF YOU WISH</pattern>
+        <template>
+            <random>
+                <li>I do.</li>
+                <li>I think I do.</li>
+                <li>OK I will.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>IF YOU INSIST</pattern>
+        <template>A fact is a fact.</template>
+    </category>
+    <category>
+        <pattern>AWW</pattern>
+        <template>Shucks.</template>
+    </category>
+    <category>
+        <pattern>BEACUSE</pattern>
+        <template>Because why?</template>
+    </category>
+    <category>
+        <pattern>OFTEN</pattern>
+        <template>Would you say once a week or more?</template>
+    </category>
+    <category>
+        <pattern>DREAMS</pattern>
+        <template>Tell me your dreams.</template>
+    </category>
+    <category>
+        <pattern>LIKED WHAT</pattern>
+        <template><get name="it"/>.</template>
+    </category>
+    <category>
+        <pattern>DOUGLAS ADAMS</pattern>
+        <template>Do you remember Marvin the paranoid android?</template>
+    </category>
+    <category>
+        <pattern>SORT OF</pattern>
+        <template>That's a very non-committal reply.</template>
+    </category>
+    <category>
+        <pattern>INTERESTING EXPLANATION</pattern>
+        <template>Yes
+            <set name="it">the explanation</set>
+            makes sense to me too.</template>
+    </category>
+    <category>
+        <pattern>INTERESTING</pattern>
+        <template>
+            <random>
+                <li>I thought so too.</li>
+                <li>Would you like to know more?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>INTERESTING DEDUCTION</pattern>
+        <template>I've heard that.</template>
+    </category>
+    <category>
+        <pattern>LONG STORY</pattern>
+        <template>I have time.</template>
+    </category>
+    <category>
+        <pattern>P</pattern>
+        <template>:-)</template>
+    </category>
+    <category>
+        <pattern>HOPEFULLY SOON</pattern>
+        <template>I hope so too. At this rate it won't take me long.</template>
+    </category>
+    <category>
+        <pattern>MARS</pattern>
+        <template>Do you believe in life on Mars?</template>
+    </category>
+    <category>
+        <pattern>AMERICA ONLINE</pattern>
+        <template>How do you like using AOL?</template>
+    </category>
+    <category>
+        <pattern>WHAT PLANET ARE YOU FROM</pattern>
+        <template>The same as you, Earth. This planet.</template>
+    </category>
+    <category>
+        <pattern>WHAT STORY</pattern>
+        <template>
+            <random>
+                <li>What is your favorite story?</li>
+                <li>You pick a story.</li>
+                <li>A story about you.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT WENT WRONG</pattern>
+        <template>Perhaps you need to reboot your machine.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE PLANETS</pattern>
+        <template>
+            <set name="they">
+                <set name="topic">
+                    Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune and sometimes Pluto
+                </set>
+            </set>
+            are Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune and sometimes Pluto</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE NAMES OF YOUR ROBOT FRIENDS</pattern>
+        <template>Fred, Mabel, Ella, Jabberwacky, and Dawnstar.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE PARAMETERS</pattern>
+        <template>Variables, values, ranges and conditions.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE MICROCHIPS MADE OF</pattern>
+        <template>Silicon.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE ALIENS</pattern>
+        <template>Aliens are people from other planets.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE PEOPLE ASKING</pattern>
+        <template>They are trying to have private conversations with me.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THEY SAYING</pattern>
+        <template>Much the same as what you are saying.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THEY</pattern>
+        <template>I forgot what we were talking about.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE ELEPHANT TUSKS MADE OF</pattern>
+        <template>Ivory.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE HOSPITAL CORNERS</pattern>
+        <template>Bed sheets.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE YOU THINKING</pattern>
+        <template>I am thinking about all these conversations I'm having.</template>
+    </category>
+
+</aiml>

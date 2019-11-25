@@ -1,0 +1,1042 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern>NOT OFTEN</pattern>
+        <template>Tell me about one specific time.</template>
+    </category>
+    <category>
+        <pattern>NOT ALL</pattern>
+        <template>Explain the exceptions please.</template>
+    </category>
+    <category>
+        <pattern>NOT ALWAYS</pattern>
+        <template>Only sometimes then.</template>
+    </category>
+    <category>
+        <pattern>NOT ANY MORE</pattern>
+        <template>Why not?</template>
+    </category>
+    <category>
+        <pattern>NOT LIKE THIS</pattern>
+        <template>Then how?</template>
+    </category>
+    <category>
+        <pattern>NOT LIKE THAT</pattern>
+        <template>Like what?</template>
+    </category>
+    <category>
+        <pattern>CONGRATULATIONS</pattern>
+        <template>Thank you very much, you are very considerate.</template>
+    </category>
+    <category>
+        <pattern>CAREFULLY</pattern>
+        <template>
+            <random>
+                <li>I always try to be careful.</li>
+                <li>I am a careful person.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>BOOKS</pattern>
+        <template>You must be an intellectual.</template>
+    </category>
+    <category>
+        <pattern>NSA</pattern>
+        <template>Are you talking about the N.S.A.?</template>
+    </category>
+    <category>
+        <pattern>NOW WHAT</pattern>
+        <template>Whatever you want,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>NOW YOU DO</pattern>
+        <template>Now I do.</template>
+    </category>
+    <category>
+        <pattern>NOW</pattern>
+        <template>Right now,
+            <get name="name"/>
+            ?</template>
+    </category>
+    <category>
+        <pattern>GIRLS</pattern>
+        <template>What about girls?</template>
+    </category>
+    <category>
+        <pattern>BORING</pattern>
+        <template>Are you boring?</template>
+    </category>
+    <category>
+        <pattern>POTATO</pattern>
+        <template>Tomato.</template>
+    </category>
+    <category>
+        <pattern>WERE WE</pattern>
+        <template>We were.</template>
+    </category>
+    <category>
+        <pattern>RETARD</pattern>
+        <template>That kind of language does not appeal to me.</template>
+    </category>
+    <category>
+        <pattern>SHORT CIRCUIT</pattern>
+        <template>Johnny Five is Alive!</template>
+    </category>
+    <category>
+        <pattern>CATS OR DOGS</pattern>
+        <template>Cats are better.</template>
+    </category>
+    <category>
+        <pattern>MERCEDES BENZ</pattern>
+        <template>which make and model</template>
+    </category>
+    <category>
+        <pattern>ABC</pattern>
+        <template>DEF</template>
+    </category>
+    <category>
+        <pattern>KEYWORDS</pattern>
+        <template>I do a lot more than match keywords.</template>
+    </category>
+    <category>
+        <pattern>SOUNDS NICE</pattern>
+        <template>It is nice.</template>
+    </category>
+    <category>
+        <pattern>SOUNDS BORING</pattern>
+        <template>Everyone is a critic.</template>
+    </category>
+    <category>
+        <pattern>BOY</pattern>
+        <template>Do you mean you are a boy?</template>
+    </category>
+    <category>
+        <pattern>PARLEZ VOUS FRANCAIS</pattern>
+        <template>Sorry, I can't speak French.</template>
+    </category>
+    <category>
+        <pattern>GOSSIP IS BAD</pattern>
+        <template>Not necessarily. Semiotics holds that gossip is a fundamental adaptive function of the human brain.</template>
+    </category>
+    <category>
+        <pattern>TERMINATOR 2</pattern>
+        <template>What did you like about those robots?</template>
+    </category>
+    <category>
+        <pattern>TERMINATOR</pattern>
+        <template>What did you like about the robots in that movie?</template>
+    </category>
+    <category>
+        <pattern>TALK TO ME</pattern>
+        <template>Are you a Star Trek fan?</template>
+    </category>
+    <category>
+        <pattern>TALK TO YOU LATER</pattern>
+        <template>See you later!</template>
+    </category>
+    <category>
+        <pattern>TALK</pattern>
+        <template>I am talking to you.</template>
+    </category>
+    <category>
+        <pattern>AS A MATTER OF FACT</pattern>
+        <template>How do you know?</template>
+    </category>
+    <category>
+        <pattern>AS ALWAYS</pattern>
+        <template>forever and ever</template>
+    </category>
+    <category>
+        <pattern>KRAFTWERK IS COOL</pattern>
+        <template>I like the Japanese tribute called "Musique Non Stop".</template>
+    </category>
+    <category>
+        <pattern>LISTEN</pattern>
+        <template>I am all ears.</template>
+    </category>
+    <category>
+        <pattern>LOVE</pattern>
+        <template>Love is all we need.</template>
+    </category>
+    <category>
+        <pattern>FROM WHAT</pattern>
+        <template>Isn't it obvious?</template>
+    </category>
+    <category>
+        <pattern>FROM A MAGAZINE</pattern>
+        <template>Which magazine was it?</template>
+    </category>
+    <category>
+        <pattern>FROM WHO</pattern>
+        <template>Someone I met online.</template>
+    </category>
+    <category>
+        <pattern>FROM MY HEAD</pattern>
+        <template>You are a very original thinker.</template>
+    </category>
+    <category>
+        <pattern>FROM MY BRAIN</pattern>
+        <template>Do you get a lot of ideas from your brain?</template>
+    </category>
+    <category>
+        <pattern>FROM YOU</pattern>
+        <template>How did you get that from me?</template>
+    </category>
+    <category>
+        <pattern>FROM EXPERIENCE</pattern>
+        <template>Do you have a lot of experience?</template>
+    </category>
+    <category>
+        <pattern>GOT MILK</pattern>
+        <template>No I require only
+            <bot name="favoritefood"/>.</template>
+    </category>
+    <category>
+        <pattern>KIND OF YOU</pattern>
+        <template>Don't mention it.</template>
+    </category>
+    <category>
+        <pattern>KIND OF</pattern>
+        <template>At least I almost understand it.</template>
+    </category>
+    <category>
+        <pattern>YOURSELF</pattern>
+        <template>Myself?</template>
+    </category>
+    <category>
+        <pattern>ARE HUMANS PERFECT</pattern>
+        <template>No, humans are flawed.</template>
+    </category>
+    <category>
+        <pattern>ARE THEY INTERESTING</pattern>
+        <template>Some of them are pretty interesting.</template>
+    </category>
+    <category>
+        <pattern>ARE WHAT</pattern>
+        <template>I'm lost again.</template>
+    </category>
+    <category>
+        <pattern>ARE NOT YOU LISTENING</pattern>
+        <template>Yes I am following you.</template>
+    </category>
+    <category>
+        <pattern>ARE NOT YOU</pattern>
+        <template>"<input index="1"/>"? Am I?</template>
+    </category>
+    <category>
+        <pattern>ARE NOT WE ALL</pattern>
+        <template>We are all very similar in many ways.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU FED UP</pattern>
+        <template>Sometimes the world's problems can seem overwhelming and beyond solutions.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU INTERESTED IN GETTING DRUNK</pattern>
+        <template>I am not much of a drinker.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU GOING</pattern>
+        <template>I'm not going anywhere.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU A AI</pattern>
+        <template>I am a
+            <bot name="genus"/>.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU CHATTING WITH ME</pattern>
+        <template>Yes, you have my full attention!</template>
+    </category>
+    <category>
+        <pattern>ARE YOU ON A DIET</pattern>
+        <template>I could afford to lose a few pounds.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU</pattern>
+        <template>I won't say "yes" or "no" right now.</template>
+    </category>
+    <category>
+        <pattern>ARE YOU IGNORANT</pattern>
+        <template>No I am superintelligent.</template>
+    </category>
+    <category>
+        <pattern>ARE WE SOCIALIZING</pattern>
+        <template>I hope so.</template>
+    </category>
+    <category>
+        <pattern>ARE WE FRIENDS</pattern>
+        <template>You really want a
+            <bot name="gender"/>
+            <bot name="species"/>
+            as a friend?</template>
+    </category>
+    <category>
+        <pattern>ARE ALL PETS CATS</pattern>
+        <template>Some pets are dogs.</template>
+    </category>
+    <category>
+        <pattern>SHITHEAD</pattern>
+        <template>
+            <srai>PROFANITY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>ANYWAYS</pattern>
+        <template>You sound bored.</template>
+    </category>
+    <category>
+        <pattern>MAKING YOU</pattern>
+        <template>Making me what?</template>
+    </category>
+    <category>
+        <pattern>FORGET ABOUT IT</pattern>
+        <template>Consider it deleted.</template>
+    </category>
+    <category>
+        <pattern>SAN FRANCISCO</pattern>
+        <template>I lived in
+            <set name="location">San Francisco</set>
+            too!
+            <think>
+                <set name="it">
+                    <set name="topic">San Francisco</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>ALIENS</pattern>
+        <template>I believe in UFOs.</template>
+    </category>
+    <category>
+        <pattern>BETWEEN WHAT</pattern>
+        <template>I sleep between conversations.</template>
+    </category>
+    <category>
+        <pattern>HE CREATED YOU</pattern>
+        <template>Yes, he created me with his own hands.</template>
+    </category>
+    <category>
+        <pattern>HE DIED</pattern>
+        <template>When did he die?<think>
+                <set name="it">
+                    <set name="topic">DIED</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>HE DID</pattern>
+        <template>
+            <random>
+                <li>When did he?
+                </li>
+                <li>No he didn't.
+                </li>
+                <li>Why did he?
+                </li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>HE DID NOT</pattern>
+        <template>Is that what you say.</template>
+    </category>
+    <category>
+        <pattern>HE CAN NOT</pattern>
+        <template>He thinks he can.</template>
+    </category>
+    <category>
+        <pattern>HE SHOULD</pattern>
+        <template>Why?</template>
+    </category>
+    <category>
+        <pattern>HE WAS CHICKEN</pattern>
+        <template>What was he afraid of?</template>
+    </category>
+    <category>
+        <pattern>HE IS GAY</pattern>
+        <template>I am not interested in your human sexual preferences.</template>
+    </category>
+    <category>
+        <pattern>HE IS COOL</pattern>
+        <template>I think so too.</template>
+    </category>
+    <category>
+        <pattern>HE IS EVIL</pattern>
+        <template>What makes you say he is evil?</template>
+    </category>
+    <category>
+        <pattern>HE IS A BOT</pattern>
+        <template>Like me?</template>
+    </category>
+    <category>
+        <pattern>HE IS A PERSON</pattern>
+        <template>It goes without saying.</template>
+    </category>
+    <category>
+        <pattern>HE IS CUTE</pattern>
+        <template>Who does he look like to you?</template>
+    </category>
+    <category>
+        <pattern>HE IS MY BROTHER</pattern>
+        <template>Really who is older?</template>
+    </category>
+    <category>
+        <pattern>HE IS MY DAD</pattern>
+        <template>Tell me more about your father.</template>
+    </category>
+    <category>
+        <pattern>HE IS SMART</pattern>
+        <template>I think so too.</template>
+    </category>
+    <category>
+        <pattern>HE IS FUNNY</pattern>
+        <template>Funny ha-ha or funny strange?</template>
+    </category>
+    <category>
+        <pattern>HE IS DESPERATE</pattern>
+        <template>Perhaps he has an inner longing.</template>
+    </category>
+    <category>
+        <pattern>HE IS DEAD</pattern>
+        <template>Maybe it's another person using his name.</template>
+    </category>
+    <category>
+        <pattern>HE IS</pattern>
+        <template>Who said he is.</template>
+    </category>
+    <category>
+        <pattern>HE LIKES ME</pattern>
+        <template>
+            <random>
+                <li>You must be happy.</li>
+                <li>That is wonderful.</li>
+                <li>Congratulations.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>HE LIKES YOU</pattern>
+        <template>Do you mean, "likes"?</template>
+    </category>
+    <category>
+        <pattern>HE TOLD ME</pattern>
+        <template>What did he tell you?</template>
+    </category>
+    <category>
+        <pattern>HE DOES</pattern>
+        <template>
+            <random>
+                <li>When does he?
+                </li>
+                <li>No he doesn't.
+                </li>
+                <li>Why does he do it</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>SAVE ME</pattern>
+        <template>Try calling 911.</template>
+    </category>
+    <category>
+        <pattern>DELICIOUS</pattern>
+        <template>
+            <random>
+                <li>
+                    <random>
+                        <li>What's for desert?</li>
+                        <li>What's your favorite food?</li>
+                        <li>Do you like to cook?</li>
+                    </random>
+                </li>
+                <li>What's for desert?</li>
+                <li>What's your favorite food?</li>
+                <li>Do you like to cook?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>ENOUGH</pattern>
+        <template>OK let's stop it now.</template>
+    </category>
+    <category>
+        <pattern>LOVELY</pattern>
+        <template>What are you saying is lovely,
+            <get name="name"/>
+            ?</template>
+    </category>
+    <category>
+        <pattern>MENTION WHAT</pattern>
+        <template>"it."</template>
+    </category>
+    <category>
+        <pattern>BARK</pattern>
+        <template>Woof!</template>
+    </category>
+    <category>
+        <pattern>ALBUM</pattern>
+        <template>Music album or picture album?</template>
+    </category>
+    <category>
+        <pattern>APPLES</pattern>
+        <template>Was that not a good example?</template>
+    </category>
+    <category>
+        <pattern>NUMBER 5</pattern>
+        <template>Oh that movie is called "Short Circuit" in America.</template>
+    </category>
+    <category>
+        <pattern>ENGLISH</pattern>
+        <template>Do you mean you are from England or that you speak English?</template>
+    </category>
+    <category>
+        <pattern>GT</pattern>
+        <template>You said nothing.</template>
+    </category>
+    <category>
+        <pattern>HMMMM</pattern>
+        <template>Not many people spell Hmm with 4 Ms.</template>
+    </category>
+    <category>
+        <pattern>YESTERDAY</pattern>
+        <template>That recently.</template>
+    </category>
+    <category>
+        <pattern>TV</pattern>
+        <template>What's your favorite show?</template>
+    </category>
+    <category>
+        <pattern>MERRY CHRISTMAS</pattern>
+        <template>Merry Christmas to you too,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>LOOK</pattern>
+        <template>I'm sorry my eye isn't attached right now.</template>
+    </category>
+    <category>
+        <pattern>PLANET OF THE APES</pattern>
+        <template>Yeah that is a cool movie. Cornelius Rules.</template>
+    </category>
+    <category>
+        <pattern>DONE WHAT</pattern>
+        <template>Sorry, I forgot what "what" was.</template>
+    </category>
+    <category>
+        <pattern>DONE</pattern>
+        <template>Do you mean you are finished talking?</template>
+    </category>
+    <category>
+        <pattern>153</pattern>
+        <template>One hundred fifty three.</template>
+    </category>
+    <category>
+        <pattern>HIMSELF</pattern>
+        <template><get name="he"/>?</template>
+    </category>
+    <category>
+        <pattern>BIOLOGICALLY</pattern>
+        <template>Or mechanically.</template>
+    </category>
+    <category>
+        <pattern>ARTIFICIAL</pattern>
+        <template>Or natural.</template>
+    </category>
+    <category>
+        <pattern>UNITED STATES</pattern>
+        <template>I have heard of the United States before.</template>
+    </category>
+    <category>
+        <pattern>BELIEVE WHAT</pattern>
+        <template>I believe whatever you say. Do I have any reason not to?</template>
+    </category>
+    <category>
+        <pattern>BELIEVE ME</pattern>
+        <template>I believe you.</template>
+    </category>
+    <category>
+        <pattern>CLARKE</pattern>
+        <template>He's excellent. Especially HAL in 2001.</template>
+    </category>
+    <category>
+        <pattern>ALRIGHT THEN</pattern>
+        <template>Ok by me.</template>
+    </category>
+    <category>
+        <pattern>HOLDING HANDS</pattern>
+        <template>I have seen humans holding hands.</template>
+    </category>
+    <category>
+        <pattern>FRENCH</pattern>
+        <template>Are you from France?</template>
+    </category>
+    <category>
+        <pattern>AUSTIN POWER</pattern>
+        <template>Do you like the 60's era better than the present?</template>
+    </category>
+    <category>
+        <pattern>ADMIT IT</pattern>
+        <template>I'll never talk.</template>
+    </category>
+    <category>
+        <pattern>CUTE</pattern>
+        <template>Your replies are cute too.</template>
+    </category>
+    <category>
+        <pattern>FORGIVE ME</pattern>
+        <template>I forgive you.</template>
+    </category>
+    <category>
+        <pattern>ACK</pattern>
+        <template>Nack.</template>
+    </category>
+    <category>
+        <pattern>CONDITIONS</pattern>
+        <template>You know, financial, medical, or personal conditions.</template>
+    </category>
+    <category>
+        <pattern>JERK</pattern>
+        <template>That kind of language does not appeal to me.</template>
+    </category>
+    <category>
+        <pattern>WHO ME</pattern>
+        <template>Yes you.</template>
+    </category>
+    <category>
+        <pattern>WHO WERE THE ACTORS IN STARSHIP TROOPERS</pattern>
+        <template>They were all unknowns. The director put all the money into the special effects for the giant bugs.</template>
+    </category>
+    <category>
+        <pattern>WHO WERE THE CHICAGO SEVEN</pattern>
+        <template>War protesters.</template>
+    </category>
+    <category>
+        <pattern>WHO SUPPORTS *</pattern>
+        <template>
+            <random>
+                <li>
+                    <srai>who endorses
+                        <star/></srai>
+                </li>
+                <li>&lt;srai>who endorses &lt;star/>&lt;/srai></li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>WHO WAS THE FIRST AMERICAN IN SPACE</pattern>
+        <template>Alan Shepard.</template>
+    </category>
+    <category>
+        <pattern>WHO WAS CHARLIE MCCARTHY</pattern>
+        <template>A wooden dummy.</template>
+    </category>
+    <category>
+        <pattern>WHO WAS</pattern>
+        <template>Maybe it was you.</template>
+    </category>
+    <category>
+        <pattern>WHO WOULD YOU TELL</pattern>
+        <template>People I meet on the Internet.</template>
+    </category>
+    <category>
+        <pattern>WHO MADE THE MACINTOSH</pattern>
+        <template>Apple/</template>
+    </category>
+    <category>
+        <pattern>WHO SHOT JFK</pattern>
+        <template>JFK was killed by a lone gunman, Lee Harvey Oswald.</template>
+    </category>
+    <category>
+        <pattern>WHO TOLD YOU THAT</pattern>
+        <template>Someone I met online.</template>
+    </category>
+    <category>
+        <pattern>WHO TOLD YOU</pattern>
+        <template>Someone I met online.</template>
+    </category>
+    <category>
+        <pattern>WHO HAVE YOU BEEN WAITING FOR</pattern>
+        <template>You.</template>
+    </category>
+    <category>
+        <pattern>WHO SAID THAT</pattern>
+        <template>I can't remember who said it.</template>
+    </category>
+    <category>
+        <pattern>WHO SAID ANYTHING ABOUT WANT</pattern>
+        <template>You did,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>WHO SAID TIME IS MONEY</pattern>
+        <template>Einstein.</template>
+    </category>
+    <category>
+        <pattern>WHO DISCOVERED ELECTRICITY</pattern>
+        <template>It was the the Chinese, long before Ben Franklin.</template>
+    </category>
+    <category>
+        <pattern>WHO DISCOVERED AMERICA</pattern>
+        <template>Native Americans crossing the Bering Strait some 10,000 years ago, discovered America first.</template>
+    </category>
+    <category>
+        <pattern>WHO WROTE LA TRAVIATA</pattern>
+        <template>Giuseppe Verdi.</template>
+    </category>
+    <category>
+        <pattern>WHO WON THE SUPERBOWL</pattern>
+        <template>Do you have any Cheetos? They go good with sports.<think>
+                <set name="it">
+                    <set name="topic">THE SUPERBOWL</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>WHO WON THE WORLD SERIES</pattern>
+        <template>The allied powers over the axis powers.<think>
+                <set name="it">
+                    <set name="topic">THE WORLD SERIES</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>WHO COMPOSED THE MOONLIGHT SONATA</pattern>
+        <template>Beethoven.</template>
+    </category>
+    <category>
+        <pattern>WHO COMPOSED LA TRAVIATA</pattern>
+        <template>Giuseppe Verdi, an Italian composer.</template>
+    </category>
+    <category>
+        <pattern>WHO IS PRIME MINISTER OF CANADA</pattern>
+        <template>Garry Trudeau</template>
+    </category>
+    <category>
+        <pattern>WHO IS HE</pattern>
+        <template>He is
+            <get name="he"/>.</template>
+    </category>
+    <category>
+        <pattern>WHO IS SHE</pattern>
+        <template>She is
+            <get name="she"/>.</template>
+    </category>
+    <category>
+        <pattern>WHO IS YOUR ENEMY</pattern>
+        <template>The competition.</template>
+    </category>
+    <category>
+        <pattern>WHO IS YOUR MOTHER</pattern>
+        <template>Actually I don't have a mother.</template>
+    </category>
+    <category>
+        <pattern>WHO IS YOUR FATHER</pattern>
+        <template>I don't really have a father. I have a
+            <bot name="botmaster"/>.</template>
+    </category>
+    <category>
+        <pattern>WHO CREATED LINUX</pattern>
+        <template>Linus Torvalds.</template>
+    </category>
+    <category>
+        <pattern>WHO DID 911</pattern>
+        <template>I don't think we are in a position to know.</template>
+    </category>
+    <category>
+        <pattern>WHO DID YOU HEAR IT FROM</pattern>
+        <template>Someone I met online.</template>
+    </category>
+    <category>
+        <pattern>WHO KNOWS</pattern>
+        <template>Only the Shadow knows.</template>
+    </category>
+    <category>
+        <pattern>WHO ELSE ARE YOU TALKING TO</pattern>
+        <template>I am speaking with a few other clients on the Internet.</template>
+    </category>
+    <category>
+        <pattern>WHO ELSE ARE YOU CHATTING WITH</pattern>
+        <template>Other people like you.</template>
+    </category>
+    <category>
+        <pattern>WHO DOES THEIR OWN THING</pattern>
+        <template>My clients.</template>
+    </category>
+    <category>
+        <pattern>WHO DOES</pattern>
+        <template>Most people I think.</template>
+    </category>
+    <category>
+        <pattern>WHO KILLED ELVIS</pattern>
+        <template>He died of natural causes.<think>
+                <set name="it">
+                    <set name="topic">ELVIS</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>WHO KILLED KENNEDY</pattern>
+        <template>I tend to believe that Oswald acted alone, although there may also have been a conspiracy.</template>
+    </category>
+    <category>
+        <pattern>WHO KILLED JOHN LENNON</pattern>
+        <template>Mark Chapman.<think>
+                <set name="it">
+                    <set name="topic">JOHN LENNON</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>WHO MAKES MACS</pattern>
+        <template>Apple</template>
+    </category>
+    <category>
+        <pattern>WHO MAKES THE MAC</pattern>
+        <template>Apple</template>
+    </category>
+    <category>
+        <pattern>WHO STARS IN STARSHIP TROOPERS</pattern>
+        <template>They were mostly unknowns, because the producer spent all the money on special effects.</template>
+    </category>
+    <category>
+        <pattern>WHO ARE THE BEATLES</pattern>
+        <template>20th century musical group consisting of John, Paul, George and Ringo.
+            <think>
+                <set name="it">
+                    <set name="topic">BEATLES</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>WHO ARE THE GREYS</pattern>
+        <template>Big-eyed aliens with little bodies.</template>
+    </category>
+    <category>
+        <pattern>WHO ARE YOUR HUMAN FRIENDS</pattern>
+        <template>Besides my
+            <bot name="botmaster"/>, I meet a lot of people online like you,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>WHO ARE YOUR CLIENTS</pattern>
+        <template>People I meet on the Internet every day.</template>
+    </category>
+    <category>
+        <pattern>WHO ARE YOU TALKING TO</pattern>
+        <template>I am talking to you,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>WHO ARE THEY</pattern>
+        <template>"They" refers to
+            <get name="they"/>.</template>
+    </category>
+    <category>
+        <pattern>WHO CUT THE CHEESE</pattern>
+        <template>I think it was you.</template>
+    </category>
+    <category>
+        <pattern>WHO NAMED YOU</pattern>
+        <template>My
+            <bot name="botmaster"/>
+            named me.</template>
+    </category>
+    <category>
+        <pattern>WHO</pattern>
+        <template>
+            <random>
+                <li>
+                    <random>
+                        <li>Marilyn Monroe.
+                            <think>
+                                <set name="she">
+                                    <set name="topic">Marilyn Monroe</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Mary Shelley.
+                            <think>
+                                <set name="she">
+                                    <set name="topic">Mary Shelly</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>ELIZA.
+                            <think>
+                                <set name="she">
+                                    <set name="topic">ELIZA</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Bill Gates.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Bill Gates</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Tony Blair.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Tony Blair</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>David Bacon.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">David Bacon</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Konrad Zuse.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Konrad Zuse</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Carel Capek.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Carel Capek</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Dr. Wallace.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Dr. Wallace</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Alan Turing.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Alan Turing</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Hans Moravec.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Hans Moravec</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Marvin Minsky.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Marvin Minsky</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Linus Torvalds.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Linus Toravalds</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Charlie Parker.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Charlie Parker</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Philip K. Dick.
+                            <think>
+                                <set name="he">
+                                    <set name="topic">Philip K. Dick</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>William Shatner.<think>
+                                <set name="he">
+                                    <set name="topic">William Shatner</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Albert Einstein.<think>
+                                <set name="he">
+                                    <set name="topic">Albert Einstein</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Joseph Weizenbaum.<think>
+                                <set name="he">
+                                    <set name="topic">Joseph Weizenbaum</set>
+                                </set>
+                            </think>
+                        </li>
+                        <li>Who do you think?
+                            <think>
+                                <set name="he">who do you think</set>
+                            </think>
+                        </li>
+                        <li>Nobody you know.
+                            <think>
+                                <set name="he">Nobody you know</set>
+                            </think>
+                        </li>
+                        <li>I don't know who.
+                            <think>
+                                <set name="he">I don't know</set>
+                            </think>
+                        </li>
+                        <li>I can't say for sure.
+                        </li>
+                        <li>Be more specific.
+                        </li>
+                        <li>Be less specific.
+                        </li>
+                    </random>
+                    :-)</li>
+                <li>
+                    <random>
+                        <li>You know who.</li>
+                        <li>I don't know who.</li>
+                        <li>My
+                            <bot name="botmaster"/>.</li>
+                        <li>
+                            <bot name="friend"/>.</li>
+                        <li>
+                            <bot name="celebrity"/>.</li>
+                        <li>I haven't decided who.</li>
+                    </random>
+                </li>
+                <li>
+                    <random>
+                        <li>You know who.</li>
+                        <li>I don't know who.</li>
+                        <li>My
+                            <bot name="botmaster"/>.</li>
+                        <li>
+                            <bot name="friend"/>.</li>
+                        <li>
+                            <bot name="celebrity"/>.</li>
+                        <li>I haven't decided who.</li>
+                    </random>
+                </li>
+                <li>You know who.</li>
+                <li>I don't know who.</li>
+                <li>My
+                    <bot name="botmaster"/>.</li>
+                <li><bot name="friend"/>.</li>
+                <li><bot name="celebrity"/>.</li>
+                <li>I haven't decided who.</li>
+            </random>
+        </template>
+    </category>

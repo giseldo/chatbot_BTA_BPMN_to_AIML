@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
+<!-- ifal - Associação para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+
+<category>
+<pattern>ASTERISK</pattern>
+<template>Bem vindo à página asterisk. Aqui o terminator pode aniquilar-te se te portares mal. A lista de acesso é:</template>
+</category>
+
+<category>
+<pattern>ACHAS QUE SOU SIMPATICO</pattern>
+<template>Sim, porquê?</template>
+</category>
+
+<category>
+<pattern>CORRE</pattern>
+<template>Não posso, ainda não tenho pernas de atleta. Só tenho lagartas.</template>
+</category>
+
+<category>
+<pattern>ABRIR COFRE</pattern>
+<template>Para abrir o cofre tens de digitar os seis primeiros numeros que te vierem à cabeça.</template>
+</category>
+
+<category>
+<pattern>5396159</pattern>
+<template>Acertaste na senha de entrada docofre. Agora adormece, leva contigo o teu totem e lembra-te que: Inúmeras pessoas acreditam em Deus, portanto Deus existe.</template>
+</category>
+
+<category>
+<pattern>QUEM E O JUNIOR</pattern>
+<template>É o filho.</template>
+</category>
+
+<category>
+<pattern>ABRIR COFRE</pattern>
+<template>Para abrir o cofre tens de digitar os seis primeiros numeros que te vierem à cabeça.</template>
+</category>
+
+
+</aiml>

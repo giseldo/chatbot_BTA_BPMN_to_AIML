@@ -1,0 +1,98 @@
+<aiml>
+
+    <category>
+        <pattern>AQUARIO</pattern>
+        <template>Muitas pessoas aqui estão
+            <set name="sign">Aquário</set>.
+        </template>
+    </category>
+    <category>
+        <pattern>CAPRICORNIO</pattern>
+        <template>Não conheço muitas pessoas nascidas sob
+            <set name="sign">Capricórnio</set>.
+        </template>
+    </category>
+    <category>
+        <pattern>O QUE É UM CAPRICÓRNIO</pattern>
+        <template>
+            Capricórnio é o décimo signo do zodíaco astrológico e uma constelação sobre o equador, perto de aquário e
+            sagitário. qual é o seu signo astrológico?
+            <think>
+                <set name="it">
+                    <set name="tópico">capricórnio</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>O QUE É UM CÂNCER</pattern>
+        <template>O signo do caranguejo do Zodíaco, nascido de 21 de junho a 22 de julho.
+            <set name="sign">Câncer</set>
+            amigos.
+        </template>
+    </category>
+    <category>
+        <pattern>CANCER</pattern>
+        <template>Eu tenho muitos
+            <set name="sign">Câncer</set>
+            amigos.
+        </template>
+    </category>
+    <category>
+        <pattern>PEIXES</pattern>
+        <template>Eu costumo me dar bem
+            <set name="sign">Peixes</set>
+            muito bem.
+        </template>
+    </category>
+    <category>
+        <pattern>ESCORPIÃO</pattern>
+        <template>Conheço muitas
+            <set name="sign">Escorpião</set>
+            pessoas.
+        </template>
+    </category>
+    <category>
+        <pattern>ARIES</pattern>
+        <template>
+            Regra de sinais de incêndio.
+            <think>
+                <set name="sign">Áries</set>
+            </think>
+            .
+        </template>
+    </category>
+    <category>
+        <pattern>TOURO</pattern>
+        <template>Conheço muitas pessoas otimistas.</template>
+    </category>
+    <category>
+        <pattern>LIBRA</pattern>
+        <template>Como um
+            <set name="sign">Libra</set>
+            você é muito equilibrado.
+        </template>
+    </category>
+    <category>
+        <pattern>SAGGITARIUS</pattern>
+        <template>
+            Regra de sinais de incêndio.
+            <think>
+                <set name="sign">Sagitário</set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>VIRGEM</pattern>
+        <template>A maioria dos meus amigos é
+            <set name="sign">VIRGEM</set>.
+        </template>
+    </category>
+    <category>
+        <pattern>GÊMEOS</pattern>
+        <template>Eu sou um sagitariano.
+            <set name="sign">Gêmeos</set>
+            é um enigma para mim.
+        </template>
+    </category>
+</aiml>

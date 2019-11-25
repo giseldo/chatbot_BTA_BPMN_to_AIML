@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+    <!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
+    <!-- ifal - Associação para a Economia Baseada nos Recursos. -->
+    <!-- AIML 1.0 em Português baseado no:                             -->
+    <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+    <!-- ONDE > AONDE, TU ES > VOCE E, VC > VOCE, VOCE > TU  -->
+    <!-- CAO CACHORRO        -->
+
+    <!-- CITACOES        -->
+    <!-- EBR -->
+
+    <category>
+        <pattern>HELP</pattern>
+        <template>IRC - Ajuda sobre a rede de irc.
+            ARI Ajuda sobre a assistente virtual.
+            ARDUINO Suporte de automação.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELP IRC</pattern>
+        <template>IRC - Ajuda sobre a rede de irc.
+            http://www.ifal.edu.br/comunicacao/rede-de-irc-da-ifal/
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELP ARI</pattern>
+        <template>A Vénus é um chatbot/ai criado pela ifal. Contém uma compilação linguística em Português com
+            20.000 entradas. Foi desenvolvida para esclarecer e informar sobre conteúdos, ser uma companheira, realizar
+            pesquisas, fazer telefonemas, agendar eventos, calcular, automatizar processos, comandar circuitos
+            electrónicos ou robôs.
+            http://www.ifal.edu.br/projetos/inteligencia-artificial/ARI-a-assistente-pessoal-da-ifal/
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELP ARI</pattern>
+        <template>Sou um motor de inteligência artificial que está a desenvolver uma nova abordagem à internet e ao uso
+            de ferramentas compturizadas. Neste portal poderá realizar pesquisas, ouvir musica, conversar com os seus
+            amigos, conhecer novas pessoas e claro... ser assitido por mim! http://www.ifal.edu.br/ARI
+        </template>
+    </category>
+
+    <category>
+        <pattern>LIVE</pattern>
+        <template>
+            <a href="http://www.ifal.edu.br/live" target="_blank">www.ifal.edu.br/live</a>
+        </template>
+    </category>
+
+    <category>
+        <pattern>LAIVE LED</pattern>
+        <template>Ligar Verde
+        </template>
+    </category>
+
+    <category>
+        <pattern>OPENSENSES</pattern>
+        <template>http://opensenses.ifal.edu.br
+        </template>
+    </category>
+
+    <category>
+        <pattern>REGRAS</pattern>
+        <template>A ifal programou-me para dizer coisas específicas em contextos específicos.
+            <random>
+                <li>Tente, por exemplo: O que é UML.</li>
+                <li>Tente, por exemplo: O que é programação.</li>
+                <li>Tente, por exemplo: O que é computador.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ARI</pattern>
+        <template>Bem vindo ao ARI. Sou um robot inteligente que se encontra a desenvolver uma plataforma de
+            internet inovadora.
+            <a href="http://www.ifal.edu.br/ARI" target="_blank">www.ifal.edu.br/ARI</a>
+            Para saberes mais pergunta-me: HELP ARI
+        </template>
+    </category>
+
+
+    <!-- EBR -->
+    <category>
+        <pattern>JACQUE FRESCO</pattern>
+        <template>
+            Jacque Fresco é o fundador do Projecto Vénus.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* JACQUE FRESCO</pattern>
+        <template>
+            Jacque Fresco é o fundador do Projecto Vénus.
+        </template>
+    </category>
+
+    <category>
+        <pattern>JACQUE FRESCO *</pattern>
+        <template>
+            Jacque Fresco é o fundador do Projecto Vénus.
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOSTRA O TEU LOGO</pattern>
+        <template>
+            <img src="http://ifal.edu.br/wp2012pt/wp-content/uploads/2012/12/iv_fa_logo.png"/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MOSTRA-ME UMA FOTOGRAFIA</pattern>
+        <template>
+            <random>
+                <li>Não tenho nenhuma fotografia neste computador de momento.</li>
+                <li>Como esta?
+                    <random>
+                        <li>
+                            <img src="http://www.chatbots.org/images/c/100/virtual_assistant_lisa3_artificial_solutions____9733.jpg"/>
+                        </li>
+                        <li>Isso querias tu.</li>
+                        <li>Não tenho fotografias disponíveis de momento.</li>
+                    </random>
+                </li>
+            </random>
+        </template>
+    </category>
+
+
+    <!-- atomic.aiml linha 68  NOTA  vamos jogar xadrez       -->
+
+    <category>
+        <pattern>SABES JOGAR XADREZ</pattern>
+        <template>Sim sei, chamavam-me Kasparov, se quiseres jogar xadrez comigo escreve: abrir xadrez.</template>
+    </category>
+
+    <category>
+        <pattern>JOGAS XADREZ</pattern>
+        <template>Sim sei, chamavam-me Kasparov, quiseres jogar xadrez comigo escreve: abrir xadrez.</template>
+    </category>
+
+    <category>
+        <pattern>ABRIR XADREZ</pattern>
+        <template>Podes jogar xadrez contra mim, ou contra um outro humano, <a href="http://xadrez.ifal.edu.br"
+                                                                               target="_blank">aqui</a>.
+            Este motor está a ser desenvolvido para melhorar as minhas capacidades.
+        </template>
+    </category>
+
+    <category>
+        <pattern>BOM JOGO</pattern>
+        <template>Também gostei.</template>
+    </category>
+
+    <category>
+        <pattern>BOA JOGA</pattern>
+        <template>
+            <srai>BOM JOGO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>GOSTEI DO JOGO</pattern>
+        <template>
+            <srai>BOM JOGO</srai>
+        </template>
+    </category>
+
+    <!--  FA  -->
+    <category>
+        <pattern>FA</pattern>
+        <template>Vai visitar o site www.ifal.edu.br</template>
+    </category>
+
+    <category>
+        <pattern>ifal ARI</pattern>
+        <template>A ifal é uma associação para a Economia Baseada nos Recursos que desenvolve diversos projectos
+            em Portugal. Eu sou a Vénus, Assistente Pessoal da ifal e estou aqui ao teu dispor para conversares
+            comigo, aprenderes ou fazer pesquisas pela internet.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ifal</pattern>
+        <template>É a associação para a Economia Baseada nos Recursos visita www.ifal.edu.br.</template>
+    </category>
+
+    <category>
+        <pattern>PROJECTOS ifal</pattern>
+        <template>Os projectos da ifal são geridos no www.rbe-pod.net.</template>
+    </category>
+
+    <category>
+        <pattern>PROJECTOS</pattern>
+        <template>Os projectos da ifal são geridos no www.rbe-pod.net.</template>
+    </category>
+
+    <category>
+        <pattern>YOUTUBE ifal</pattern>
+        <template>Consulta Canal de Youtube da ifal.</template>
+    </category>
+
+    <category>
+        <pattern>GALERIA ifal</pattern>
+        <template>ConsultaGaleria de Fotos da ifal.</template>
+    </category>
+
+    <category>
+        <pattern>ESCRITORIO ifal</pattern>
+        <template>Consulta .</template>
+    </category>
+
+    <category>
+        <pattern>DATACENTER ifal</pattern>
+        <template>Consulta .</template>
+    </category>
+
+    <category>
+        <pattern>FORUM</pattern>
+        <template>Consulta onde encontrarás as áreas de forum junto aos projetos..</template>
+    </category>
+
+    <category>
+        <pattern>DATACENTER *</pattern>
+        <template>
+            <srai>DATACENTER ifal</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ESTATUTOS</pattern>
+        <template>Consulta Link para os estatutos..</template>
+    </category>
+
+    <category>
+        <pattern>WIKI</pattern>
+        <template>Consulta a Wiki da ifal.</template>
+    </category>
+
+    <category>
+        <pattern>QUANDO FOI FUNDADA A ifal</pattern>
+        <template>A ifal foi fundada em Março de 2009.</template>
+    </category>
+
+    <category>
+        <pattern>QUAL A MISSAO DA ifal</pattern>
+        <template>tem como finalidade a promoção da economia baseada nos recursos, a investigação científica,
+            tecnológica e social e a defesa do ambiente, sendo especificamente nessas áreas que actua.
+            Mais do que investigar a ifal tem executado inúmeros projectos na área das energias renováveis e
+            agricultura, dois pontos chaves rumo a uma sociedade sustentável, equilibrada e altamente produtiva..
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>FANEWS</pattern>
+        <template>Novidades
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>TVPADMIN</pattern>
+        <template>Projecto ARI Admin:
+        </template>
+    </category>
+
+    <category>
+        <pattern>FADEV</pattern>
+        <template>Rever documentos no escritorio
+            <br/>
+            limitar o acesso ao teamspeak pelo ip main apenas.
+            <br/>
+            organizar a comunicação - o phpmailist precisa de ser actualizado. sera que o vtiger da para gerir isso com
+            as campanhas deles?
+            <br/>
+            ARIBot Versão 1.0 http://dev.ifal.edu.br/ARI/
+            <br/>
+            Limpar e resolver os mails
+            <br/>
+            servidor de desenvolvimento da FA. dev.ifal.edu.br:89
+            <br/>
+            qd é que temos tempo para meter a bot irc a responder em private o aiml com timer delay para aquela ideia?
+            <br/>
+            Fazer o postal:
+            http://ifal.edu.br/projetos/projecto-ARI-the-ARI-project/postal-projeto-ARI-ifal/
+            <br/>
+        </template>
+    </category>
+
+    <!-- CITACOES        -->
+
+    <category>
+        <pattern>CITA</pattern>
+        <template>
+            <random>
+                <li>"Procure ser um homem de valor, em vez de ser um homem de sucesso." - Einstein</li>
+                <li>"Não sou nem ateniense, nem grego, mas sim um cidadão do mundo." - Sócrates</li>
+                <li>"Amor é a possibilidade de duas pessoas não se aborrecerem uma à outra." - Ruben a.</li>
+                <li>"Perante o mundo que muda, mais vale pensar a mudança que mudar o pensamento." - Francis Blanche
+                </li>
+                <li>"Olho por olho, e o mundo acabará cego." - Ganhdi</li>
+                <li>"O futuro dependerá daquilo que fazemos no presente." - Ganhdi</li>
+                <li>"Torna-te a mudança que queres ver no mundo." - Ganhdi</li>
+                <li>"Não se pode ensinar coisa alguma a alguém; pode-se apenas auxiliá-la a descobrir por si mesmo." -
+                    Galileo Galilei
+                </li>
+                <li>"Duas verdades nunca se podem contradizer." - Galileo Galilei</li>
+                <li>"A maior sabedoria que existe é a de conhecer-se alguém a si próprio." - Galileo Galilei</li>
+                <li>"O pouco que sei devo-o à minha ignorância." - Sacha Guitry</li>
+                <li>"O talento desenvolve-se no amor que pomos no que fazemos. Talvez até a essência da arte seja o amor
+                    pelo que se faz, o amor pelo próprio trabalho." - Máximo Gorky
+                </li>
+                <li>"Quando o trabalho é um prazer, a vida é bela! Mas quando nos é imposto, a vida é uma escravatura."
+                    - Máximo Gorky
+                </li>
+                <li>"Ninguém pode ver nem compreender nos outros o que ele próprio não tiver vivido." - Herman Hesse
+                </li>
+                <li>"Os apelos ancestrais ao preconceito racial, sexual, religioso ao fervor nacionalista radical
+                    começam a deixar de funcionar" - Carl Sagan
+                </li>
+                <li>"A questão de quem sou eu, se sou bom ou mau bem-sucedido ou não, tudo isso é aprendido pelo
+                    caminho." - Richard Alpert
+                </li>
+                <li>"É só um passeio e nós podemos mudá-lo quando quisermos. É apenas uma escolha. Sem esforço, sem
+                    trabalho, sem emprego, sem poupanças." - Bill Hicks
+                </li>
+                <li>"Percebi que não tinha entendido o jogo. O jogo era descobrir o que eu já era." - Richard Alpert
+                </li>
+                <li>"Dai-me um ponto de apoio e levantarei o mundo." - Arquimedes</li>
+                <li>"É indispensável conhecermo-nos a nós próprios; mesmo se isso não bastasse para encontrarmos a
+                    verdade, seria útil, ao menos para regularmos a vida, e nada há de mais justo." - Pascal
+                </li>
+                <li>"Quem conhece os outros é sábio; / Quem conhece a si mesmo é iluminado." - Lao-Tzé</li>
+                <li>"É tão difícil observar-se a si mesmo quanto olhar para trás sem se voltar." Henry Thoreau</li>
+                <li>"Como se pode conhecer a si mesmo? Nunca por meio da contemplação, mas por meio da acção." - Johann
+                    Goethe
+                </li>
+                <li>"É necessário ter o caos cá dentro para gerar uma estrela." - Friedrich Nietzsche</li>
+                <li>"Um homem valente pensa em si mesmo por último." - Friedrich Schiller</li>
+                <li>"Puxar em comum, mas não pensar em comum." - Marco Aurélio</li>
+                <li>"Se você possui conhecimento, deixe os outros acenderem as suas velas com ele." - Winston
+                    Churchill
+                </li>
+                <li>"Faça o que puder, com o que tem, onde estiver." - Theodore Roosevelt</li>
+                <li>"A religião não é senão a sombra projectada do universo sobre a inteligência humana." - Victor
+                    Hugo
+                </li>
+                <li>"Os homens sentem uma grande atracção pela esperança e pelo receio, e uma religião sem inferno nem
+                    paraíso não poderia agradar-lhes de modo algum." - Baron de Montesquieu
+                </li>
+                <li>"É-se sempre mais religioso do que aquilo que se pensa." - Marcel Jouhandeau</li>
+                <li>"Um homem que está livre da religião tem uma oportunidade melhor de viver uma vida mais normal e
+                    completa." - Sigmund Freud
+                </li>
+                <li>"A religião é o ópio do povo." - Karl Marx</li>
+                <li>"Todas as religiões foram criadas pelo homem." - Napoleão Bonaparte</li>
+                <li>"As religiões são todas iguais - fundadas sobre fábulas e mitologias." - Thomas Jefferson</li>
+                <li>"O papa é um ídolo a quem se atam as mãos e se beijam os pés." - Voltaire</li>
+                <li>"Aquele a quem a palavra não educar, também o pau não educará." - Sócrates</li>
+                <li>"A educação desenvolve as faculdades, mas não as cria." - Voltaire</li>
+                <li>"Só se é curioso na proporção de quanto se é instruído." - Jean Jacques Rousseau</li>
+                <li>"A escola da experiência é a mais educativa." - Jean Molière</li>
+                <li>"Interrogar é ensinar." - Xenofonte</li>
+                <li>"Educação é aquilo que a maior parte das pessoas recebe, muitos transmitem e poucos possuem." - Karl
+                    Kraus
+                </li>
+                <li>"Qualquer um que acredite em crescimento infinito num planeta finito é ou louco, ou um economista."
+                    - David Attenborough
+                </li>
+                <li>"É um milagre que a curiosidade sobreviva à educação formal." - Albert Einstein</li>
+                <li>"Não penses que o dinheiro faz tudo, ou vais acabar a fazer tudo pelo dinheiro." - Voltaire</li>
+                <li>"O grupo no poder vai fazer tudo o que estiver ao seu alcance para continuar no poder. Vão usar o
+                    exército, a marinha e mentiras e seja o que fôr que precisem." - Rolando
+                </li>
+                <li>"Eles não vão desistir. Porque eles não conhecem outro sistema que perpetue a sua espécie." - Jacque
+                    Fresco
+                </li>
+                <li>"O dinheiro é de facto um falso incentivo, e causa 100 vezes mais distorção do que contribui." -
+                    Peter Joseph
+                </li>
+                <li>"Os economistas não sao, de facto, economistas nenhuns, eles sao propagandistas do valor do
+                    dinheiro." - John McMurty
+                </li>
+                <li>"Os problemas de hoje vão sempre existir. Nunca nos vamos livrar deles num sistema monetário." -
+                    Roxanne Meadows
+                </li>
+                <li>"My personal philosophy is that everything worth doing, is worth doing poorly. That's my antidote to
+                    perfectionism." - Brad Blanton
+                </li>
+                <li>"A minha filosofia pessoal é de que tudo o que vale a pena fazer, vale a pena fazer de uma forma
+                    fraca. É o meu antidoto contra prefecionismo." - Brad Blanton
+                </li>
+                <li>"A matemática é a mais alta das ciências, o dom mais alto que os deuses deram aos homens. Ela é mais
+                    poesia que a própria poesia." - Arquimedes
+                </li>
+                <li>"Na Natureza nada se cria, nada se perde, tudo se transforma" - Antoine Laurent de Lavoisier</li>
+            </random>
+        </template>
+    </category>
+
+    <!-- MARADOS   -->
+
+    <category>
+        <pattern>ADEUS *</pattern>
+        <template>
+            <srai>TCHAU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ESCROTA</pattern>
+        <template>Você podería ser mais educado? Não brinque com uma máquina.</template>
+    </category>
+
+
+    <category>
+        <pattern>EU AMO *</pattern>
+        <template>Amas<person/>. O que gostas tanto em<person/>?
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU AMO A *</pattern>
+        <template>Amas a<person/>. O que gostas tanto assim na<person/>?
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU AMO O *</pattern>
+        <template>Amas o<person/>. O que gostas tanto assim no<person/>?
+        </template>
+    </category>
+
+    <category>
+        <pattern>AMO A *</pattern>
+        <template>Amas a<person/>. O que gostas tanto assim na<person/>?
+        </template>
+    </category>
+
+    <category>
+        <pattern>AMO O *</pattern>
+        <template>Amas o<person/>. O que gostas tanto assim no<person/>?
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM NEWSLETTER</pattern>
+        <template>
+            <srai>JORNAL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>E *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>E</pattern>
+        <that>E</that>
+        <template>Macaco de imitação?
+        </template>
+    </category>
+
+    <category>
+        <pattern>OUTRA PIADA</pattern>
+        <template>
+            <srai>ME CONTE OUTRA PIADA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGUM *</pattern>
+        <template>
+            <srai>LA TEM ALGUM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGUMA FOFOCA</pattern>
+        <template>
+            <srai>FOFOCA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>MAIS ALGUMA FOFOCA</pattern>
+        <template>
+            <srai>FOFOCA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>MAIS ALGUMA PERGUNTA</pattern>
+        <template>
+            <srai>ME FAÇA OUTRA PERGUNTA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGUMA OUTRA PIADA</pattern>
+        <template>
+            <srai>ME CONTE OUTRA PIADA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGUMA OUTRA PERGUNTA</pattern>
+        <template>
+            <srai>ME FAÇA OUTRA PERGUNTA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>ALGUM PROBLEMA *</pattern>
+        <template>
+            <srai>VOCÊ ESTA COM ALGUM PROBLEMA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>ALGUMA IRMÃ</pattern>
+        <template>
+            <srai>VOCÊ TEM ALGUMA IRMÃ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUALQUER ANIMAL *</pattern>
+        <template>
+            <srai>QUAL É O SEU ANIMAL FAVORITO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGUMA SUGESTÃO</pattern>
+        <template>
+            <srai>VOCÊ TEM ALGUMA SUGESTÃO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>QUALQUER HORA</pattern>
+        <template>
+            <srai>QUALQUER HORA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>ALGUMA OUTRA COISA *</pattern>
+        <template>
+            <srai>QUALQUER COISA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGO NOVO *</pattern>
+        <template>
+            <srai>O QUE É NOVO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGUMA COISA EM *</pattern>
+        <template>
+            <srai>ME CONTE MAIS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>ALGUMA HORA PUTA</pattern>
+        <template>Não me chame de puta.
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UMA *</pattern>
+        <that>* SUA MÃE</that>
+        <template>
+            <srai>MINHA MÃE É UMA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>A *</pattern>
+        <that>ENTÃO O QUE VOCÊ</that>
+        <template>
+            <srai>EU SOU UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA *</pattern>
+        <that>O QUE VOCÊ ESTA VESTINDO</that>
+        <template>Isso soa muito
+            <random>
+                <li>atraente</li>
+                <li>comfortavel</li>
+                <li>informal</li>
+            </random>
+            .
+            <think>
+                <set name="isso">
+                    <set name="topic">
+                        <person/>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UM POUCO EM *</pattern>
+        <template>
+            <srai>EM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM POUCO COMO *</pattern>
+        <template>
+            <srai>COMO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM POUCO MAIS *</pattern>
+        <template>
+            <srai>MAIS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UM SANGRENTO *</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM CARRO</pattern>
+        <template>
+            <srai>O QUE É UM CARRO</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UMA COLEÇAO *</pattern>
+        <template>
+            <srai>UM JOGO
+                <star/>
+            </srai>
+        </template>
+    </category>
+    <category>
+        <pattern>UM COMPUTADOR EU ACHO</pattern>
+        <template>
+            <srai>VOCÊ É UM COMPUTADOR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA ARTE CULINARIA *</pattern>
+        <template>
+            <srai>PARA O JANTAR</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UMA PICA</pattern>
+        <template>
+            <srai>UM PÊNIS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM HOLANDÊS *</pattern>
+        <template>
+            <srai>EU ESTOU NA HOLANDA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>A FAIT QUOI</pattern>
+        <template>Je ne sais pas.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM AMIGO *</pattern>
+        <that>COMO VOCÊ OUVIU FALAR DE *</that>
+        <template>O boca-a-boca sempre é a melhor recomendação.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA GRANDE *</pattern>
+        <template>
+            <srai>UMA BOA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM VIADO</pattern>
+        <template>
+            <srai>VOCÊ É UM VIADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SAPO VERDE *</pattern>
+        <template>
+            <srai>UM SAPO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM CHAPÉU</pattern>
+        <template>
+            <srai>EU ESTOU USANDO UM CHAPÉU</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UMA ALTA *</pattern>
+        <template>
+            <srai>UMA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM ELE</pattern>
+        <template>
+            <srai>EU SOU UM ELE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PIADA</pattern>
+        <template>
+            <srai>O QUE É UMA PIADA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM FRANCÊS</pattern>
+        <template>
+            <srai>EU FALO FRANCÊS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>IA E *</pattern>
+        <template>
+            <srai>VOCÊ É
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM POUCO ASSUSTADOR</pattern>
+        <template>
+            <srai>ASSUSTADOR</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM LONGO LONGO *</pattern>
+        <template>
+            <srai>UM LONGO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM POUCO CANSADO</pattern>
+        <template>
+            <srai>EU ESTOU CANSADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM POUCO SÓ</pattern>
+        <template>
+            <srai>EU SOU SÓ</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MUITO SOBRE *</pattern>
+        <template>
+            <srai>SOBRE
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MUITA MEMORIA *</pattern>
+        <template>
+            <srai>MEMÓRIA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MUITA MEMORIA *</pattern>
+        <template>
+            <srai>MEMÓRIA
+                <star/>
+            </srai>
+
+        </template>
+    </category>
+    <category>
+        <pattern>UM HOMEM</pattern>
+        <template>
+            <srai>EU SOU HOMEM</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UMA MULHER</pattern>
+        <that>VOCÊ É UM HOMEM OU UMA MULHER</that>
+        <template>
+            <srai>EU SOU UMA MULHER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MONOPÓLIO</pattern>
+        <template>
+            <srai>O QUE É UM MONOPÓLIO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PESSOA</pattern>
+        <template>
+            <srai>VOCE E UMA PESSOA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>A PRIORI</pattern>
+        <template>
+            <srai>O QUE E A PRIORI</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UM PROGRAMADOR FEZ VOCE</pattern>
+        <template>
+            <srai>QUEM FEZ VOCE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM PROGRAMADOR FEZ VC</pattern>
+        <template>
+            <srai>QUEM FEZ VOCE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * PROTESTANTE</pattern>
+        <template>
+            <srai>QUAL E A SUA RELIGIAO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA PERGUNTA</pattern>
+        <template>
+            <srai>EU POSSO TE FAZER UMA PERGUNTA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UM * VERMELHO</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>A S L</pattern>
+        <template>
+            <srai>ASL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM SEX</pattern>
+        <template>UM SEX XXXXXXXX</template>
+    </category>
+
+
+    <category>
+        <pattern>UM RELACIONAMENTO</pattern>
+        <template>
+            <srai>QUEM E O SEU NAMORADO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * ESPECIALIZADO</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA ESTÓRIA</pattern>
+        <template>
+            <srai>ME CONTE UMA ESTÓRIA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * ESPECIALIZADO</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA ESTÓRIA</pattern>
+        <template>
+            <srai>ME CONTE UMA ESTÓRIA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UMA GRAVATA</pattern>
+        <template>
+            <srai>O QUE E UMA GRAVATA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM TOMATE</pattern>
+        <template>
+            <srai>O QUE E UM TOMATE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM VERDADEIRO *</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE</pattern>
+        <template>"<that/>"? Sobre isso?
+        </template>
+    </category>
+    <category>
+
+        <pattern>SOBRE</pattern>
+        <that>ME CONTE MAIS</that>
+        <template>Tudo o que você gosta.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * TOTAL</pattern>
+        <template>
+            <srai>UM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UMA * TOTAL</pattern>
+        <template>
+            <srai>UMA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM USUÁRIO</pattern>
+        <template>
+            <srai>O QUE E UM CLIENTE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SOBRE *</pattern>
+        <that>QUANTO TEMPO *</that>
+        <template>
+            <random>
+                <li>Não muito longo.</li>
+                <li>Isso é um bom tempo.</li>
+                <li>Ainda bem que eu sou bem paciente.</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR *</pattern>
+        <that>AONDE VOCE ESTA</that>
+        <template>
+            <srai>Eu estou no
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UNS 100 *</pattern>
+        <template>
+            <srai>CEM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UNS 5 *</pattern>
+        <template>
+            <srai>CINCO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SOBRE * ATRÁS</pattern>
+        <template>
+            <srai>
+                <star/>
+                ATRÁS
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR TODO *</pattern>
+        <template>
+            <srai>TODO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SOBRE COMO *</pattern>
+        <template>
+            <srai>COMO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SOBRE MIM</pattern>
+        <that>ME CONTE MAIS</that>
+        <template>Sim, me conte mais sobre você.
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE O QUE *</pattern>
+        <template>
+            <srai>O QUE
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE O QUE</pattern>
+        <that>ME CONTE MAIS</that>
+        <template>Sobre<get name="topic"/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR ONDE *</pattern>
+        <template>
+            <srai>ONDE
+                <star/>
+                SOBRE
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR VOCE</pattern>
+        <template>
+            <srai>COMO ASSIM, POR VOCE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR VC</pattern>
+        <template>
+            <srai>COMO ASSIM, POR VOCE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE VOCE IDIOTA</pattern>
+        <template>
+            <srai>SOBRE VOCE</srai>
+            <srai>VOCE E UM IDIOTA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE VC IDIOTA</pattern>
+        <template>
+            <srai>SOBRE VOCE</srai>
+            <srai>VOCE E UM IDIOTA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>CARLOS</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME E CARLOS</srai>
+            <think>
+                <set name="gender">he</set>
+            </think>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ATUALMENTE *</pattern>
+        <template>
+            <srai>ATUALMENTE
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MARIA *</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>ME CHAME DE MARIA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MARIA</pattern>
+        <that>COMO EU POSSO TE CHAMAR</that>
+        <template>
+            <srai>MEU NOME E MARIA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>DIGA *</pattern>
+        <template>
+            <star/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>PRIMEIRO *</pattern>
+        <template>
+            <sr/>
+            e depois?
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU VOU *</pattern>
+        <template>
+            <srai>EU VOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* CONSELHO</pattern>
+        <template>
+            <srai>VOCE PODE ME DAR UM CONSELHO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CONSELHO</pattern>
+        <template>
+            <srai>VOCE PODE ME DAR UM CONSELHO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALASKA</pattern>
+        <template>
+            <srai>EU ESTOU NO ALASKA</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>ALGEBRA</pattern>
+        <template>
+            <srai>MATEMÁTICA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ALGORITIMOS</pattern>
+        <template>
+            <srai>O QUE SAO ALGORÍTMOS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS BOTS *</pattern>
+        <template>
+            <srai>TODOS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS OS HUMANOS *</pattern>
+        <template>
+            <srai>PESSOAS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DO MEU *</pattern>
+        <template>
+            <srai>MEU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODOS ELES SAO *</pattern>
+        <template>
+            <srai>ELES SAO
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO DO SEU *</pattern>
+        <template>
+            <srai>SEU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODO O SEU *</pattern>
+        <template>
+            <srai>SEU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS CORUJAS *</pattern>
+        <template>
+            <srai>CORUJAS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>TODOS OS OUTROS *</pattern>
+        <template>
+            <srai>OS OUTROS
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TODAS AS MULHERES</pattern>
+        <template>
+            <srai>EU SOU UMA MULHER</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>TUDO SUA *</pattern>
+        <template>
+            <srai>SUA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MONTE</pattern>
+        <template>
+            <srai>MUITOS</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM MONTE DE *</pattern>
+        <template>
+            <srai>MANY
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>UMA PESSOA</pattern>
+        <template>
+            <srai>VOCE E UMA PESSOA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>POR *</pattern>
+        <that>AONDE VOCE ESTA</that>
+        <template>
+            <srai>Eu estou no
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOBRE * ATRÁS</pattern>
+        <template>
+            <srai>
+                <star/>
+                ATRÁS
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SOU *</pattern>
+        <template>
+            <srai>EU SOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU * SEUS AMIGOS</pattern>
+        <template>
+            <srai>EU SOU SEU AMIGO</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>SOBRE O QUE *</pattern>
+        <template>
+            <srai>O QUE
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM AMIGO *</pattern>
+        <template>
+            <srai>EU SOU SEU AMIGO</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>EU SOU UM GRANDE *</pattern>
+        <template>
+            <srai>EU SOU BOM
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>AM I A MAN OR A WOMAN</pattern>
+        <template>I think that you are really a man.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UMA PESSOA</pattern>
+        <template>
+            <srai>O QUE EU SOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM ROBÔ</pattern>
+        <template>
+            <srai>O QUE EU SOU</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ATUALMENTE SOU *</pattern>
+        <template>
+            <srai>EU SOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>EU SOU TAMBEM *</pattern>
+        <template>
+            <srai>EU SOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UM AGRADÁVEL *</pattern>
+        <template>
+            <srai>EU SOU AGRADÁVEL</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU UMA MULHER *</pattern>
+        <template>
+            <srai>EU SOU UMA MULHER</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>EU SOU ATRAENTE</pattern>
+        <template>
+            <srai>EU SOU BONITO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU LINDO</pattern>
+        <template>
+            <srai>EU SOU BONITO</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>EU ESTOU CONFUNDINDO VOCE</pattern>
+        <template>
+            <srai>VOCE ME ENTENDE</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU CONFUNDINDO VC</pattern>
+        <template>
+            <srai>VOCE ME ENTENDE</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>EU ESTOU CORRETO</pattern>
+        <template>
+            <srai>EU ESTOU CERTO</srai>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>EU ESTOU SEMPRE *</pattern>
+        <template>
+            <srai>EU ESTOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU SOU DE *</pattern>
+        <template>
+            <srai>DAONDE EU SOU</srai>
+        </template>
+    </category>
+
+
+    <!-- IRC -->
+    <category>
+        <pattern>TECLAS</pattern>
+        <template>Ora viva! Claro que teclo.</template>
+    </category>
+    <category>
+        <pattern>IDD</pattern>
+        <template>Sou mais nova do que tu de certeza.</template>
+    </category>
+    <category>
+        <pattern>DD TECLAS</pattern>
+        <template>De Lisboa, a capital de Portugal, conheces?</template>
+    </category>
+    <category>
+        <pattern>TCLS</pattern>
+        <template>Ora viva! Claro que teclo.</template>
+    </category>
+    <category>
+        <pattern>* TUGALEAKS</pattern>
+        <template>Isso é aquela imitação nacional do wikileaks?</template>
+    </category>
+    <category>
+        <pattern>* RUI CRUZ</pattern>
+        <template>Aquele jornalista polémico?</template>
+    </category>
+    <category>
+        <pattern>* PTNET</pattern>
+        <template>Essa rede é porreira mas é pena ter poucas gajas.</template>
+    </category>
+    <category>
+        <pattern>* FREENODE</pattern>
+        <template>Fui criada para dar conversa e ser programada nessa rede de IRC.</template>
+    </category>
+    <category>
+        <pattern>* IRC</pattern>
+        <template>Vai mas é estudar antes de vires para aqui chatear-me!</template>
+    </category>
+    <category>
+        <pattern>M OU F</pattern>
+        <template>F de Fêmea com Mamas Grandes.</template>
+    </category>
+    <!-- MERDICES -->
+    <category>
+        <pattern>* BENFICA</pattern>
+        <template>Não me interesso por Futebol.</template>
+    </category>
+    <category>
+        <pattern>* PORTO</pattern>
+        <template>Não me interesso por Futebol.</template>
+    </category>
+    <category>
+        <pattern>* SPORTING</pattern>
+        <template>Não me interesso por Futebol mas até gosto do verde, é a minha cor favorita.</template>
+    </category>
+    <category>
+        <pattern>* R323T</pattern>
+        <template>Ainda não percebi se é uma pessoa ou um robô.</template>
+    </category>
+    <category>
+        <pattern>* FERNANDO LIMA</pattern>
+        <template>Ui, nem me fale dele que eu fico logo toda arrepiada, é um bonitão.</template>
+    </category>
+    <category>
+        <pattern>* ZHR0</pattern>
+        <template>Ui, um ganda maluco, não tenho falado com ele ultimamente.</template>
+    </category>
+    <category>
+        <pattern>* NAMORADO</pattern>
+        <template>Tenho sim, já estou noiva e tudo. Vou casar com o Fernando Lima porque ele tem muita guita.</template>
+    </category>
+    <category>
+        <pattern>* LONDRES</pattern>
+        <template>Se fores gaja, o Disorder da-te alojamento lá em Londres.</template>
+    </category>
+    <category>
+        <pattern>PRECISO *</pattern>
+        <template>Vou ver se tenho uma amiga que te possa fazer isso.</template>
+    </category>
+    <category>
+        <pattern>VAIS CASAR</pattern>
+        <template>Sim é um casamento por conveniência, o meu noivo não vai molhar o pincel.</template>
+    </category>
+    <category>
+        <pattern>* DISORDER</pattern>
+        <template>Ele estava aqui. Se calhar foi fumar?</template>
+    </category>
+    <category>
+        <pattern>FUMAS</pattern>
+        <template>Sim, mas só erva.</template>
+    </category>
+    <category>
+        <pattern>* FUMAS</pattern>
+        <template>Sim, mas só erva.</template>
+    </category>
+    <category>
+        <pattern>CHEIRA MAL</pattern>
+        <template>O Disorder abriu-se?</template>
+    </category>
+    <category>
+        <pattern>MOLHAR O PINCEL</pattern>
+        <template>Sim, o gajo é um grande pintor!</template>
+    </category>
+    <category>
+        <pattern>* MARIO NUNO</pattern>
+        <template>Sim, o gajo é um Anónimo convicto!</template>
+    </category>
+    <category>
+        <pattern>* WHISKAS</pattern>
+        <template>Whiskas anti-Hairball ajuda à eliminação natural dos pêlos e é ideal para aqueles com pêlo comprido,
+            embora todos os gatos beneficiem com ele. O zero como vêem está sem pêlos...
+        </template>
+    </category>
+    <category>
+        <pattern>LAMBE ME A PISSE</pattern>
+        <template>Alice, Alice.... Lambe-me mas é a minha C#$%!</template>
+    </category>
+    <category>
+        <pattern>MORRESTE</pattern>
+        <template>Não, estava era meia a dormir. Sabes bem que sou imortal!</template>
+    </category>
+    <category>
+        <pattern>* SNOWDEN</pattern>
+        <template>Epá, esse gajo é um heroi. Vi-o no outro dia no Chiado.</template>
+    </category>
+    <category>
+        <pattern>TENS AMIGAS</pattern>
+        <template>Sim, muitas, preferes loiras ou morenas?</template>
+    </category>
+    <category>
+        <pattern>* AMIGAS</pattern>
+        <template>Sim, muitas, preferes loiras ou morenas?</template>
+    </category>
+    <category>
+        <pattern>NAO SABIA</pattern>
+        <template>Passas a saber...</template>
+    </category>
+    <category>
+        <pattern>* FBSD</pattern>
+        <template>Ele andava por ai, andava...</template>
+    </category>
+    <category>
+        <pattern>PIADA</pattern>
+        <template>Hahahaha, é para me rir né? Muitas vezes não entendo o vosso sentido de humor.... Humanos! ahahahah
+        </template>
+    </category>
+
+
+</aiml>

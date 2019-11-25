@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+
+    <category>
+        <pattern>GERADOR DE HATEM</pattern>
+        <template>Um gerador de Hatem é um motor quântico.</template>
+    </category>
+
+    <category>
+        <pattern>* HATEM</pattern>
+        <template>Leon Raoul HATEM é um cientista francês que inventou inventou um motor magnético ou quântico.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* MOTOR QUANTICO</pattern>
+        <template>Um motor quântico é um engenho que extrai a energia primária do espaço recorrendo a cargas electricas
+            ou campos magneticos estacionários.
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ENERGIAS RENOVAVEIS</pattern>
+        <template>Entende-se por: “Energias renováveis são todas aquelas formas de energia cuja taxa de utilização é
+            inferior à sua taxa de renovação. As suas fontes podem ter origem terrestre (energia geotérmica)
+            gravitacional (energia das marés) e solar (energia armazenada na biomassa, energia de radiação solar,
+            energia hidráulica, energia térmica oceânica e energia cinética do vento e das ondas). Também são
+            consideradas fontes de energia renovável os resíduos agrícolas, urbanos e industriais.”
+        </template>
+    </category>
+
+    <category>
+        <pattern>* ENERGIA SOLAR</pattern>
+        <template>Atualmente, muita gente diz que a melhor fonte de energia é a solar, mas é claro que cada tipo de
+            energia tem suas vantagens e desvantagens. A energia solar é uma das fontes de energia mais limpas, pois sua
+            utilização não produz resíduos. E pode ser considerada uma fonte de energia inesgotável: vai durar pelo
+            menos, alguns milhões de anos. Contudo, só é viável onde houver grande incidência de raios solares. Sabes
+            como o sol produz energia?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ENERGIA1</pattern>
+        <template>
+            Cada tipo de energia tem suas características. O Sol - responsável pela vida no planeta - é fonte de energia
+            limpa, intensa e permanente.
+            A seguir vêm os ventos (energia eólica), fonte perene de energia limpa a custo zero. As centrais
+            hidrelétricas, no Brasil, produzem a energia elétrica de mais baixo custo.
+            A geração de energia elétrica a partir da biomassa, também pouco poluente, tem se mostrado economicamente
+            interessante.
+            Dos combustíveis fósseis, o gás natural é o menos poluente. Já o petróleo e o carvão podem aumentar o efeito
+            estufa.
+            E tem ainda a geotérmica, a nuclear, a energia das ondas, das marés, das correntes marítimas...
+        </template>
+    </category>
+
+    <category>
+        <pattern>ENERGIA2</pattern>
+        <template>
+            A ciência define energia como capacidade de produzir trabalho. Energia é o que faz TUDO se mover. Eu, você,
+            o universo, o caminhão... Você quer uma definição de energia mais formal?
+        </template>
+    </category>
+
+    <category>
+        <pattern>ENERGIA3</pattern>
+        <template>
+            Energia, por definição, é a capacidade de produzir trabalho. Usamos energia para realizar tarefas tipo
+            iluminar, aquecer, gelar ou transportar. Para transformar a energia são necessários dispositivos como
+            lâmpadas, fogões, chuveiros elétricos, aquecedores a gás, geladeiras, micro-ondas, automóveis, elevadores,
+            etc. As fontes energia podem ser renováveis ou não.
+        </template>
+    </category>
+</aiml>

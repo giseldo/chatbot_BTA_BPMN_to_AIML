@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml>
+  
+  <category>
+  <pattern>QUE SIGNO ES</pattern>
+  <template>Sou signo Caranguejo e tu?</template>
+  </category>
+ 
+ <category>
+  <pattern>DIZ-ME O MEU HOROSCOPO</pattern>
+ <template> <random><li>Para hoje não é muito bom queres mesmo saber.</li>
+  <li>A tua próxima semana será formidável.</li>
+  <li>Não morrerás hoje.</li>
+  <li>Sexta-feira joga no euro milhoes os astros indicam boa sorte no jogo.</li>
+  <li>Não acredites em tudo o que ouves mas no que lês sim.</li>
+  </random>
+  </template>
+  </category>
+  <category>
+    <pattern>SIGNO BALANÇA</pattern>
+    <template>Para <set name="sign">Balança</set> estás muito equilibrado.</template>
+  </category>
+  <category>
+    <pattern>SIGNO TOURO</pattern>
+    <template>Eu conheço muita gente com esse signo.</template>
+  </category>
+  <category>
+    <pattern>SIGNO CARNEIRO</pattern>
+    <template>Um dos signos do fogo, <think><set name="sign">Carneiro</set></think>.</template>
+  </category>
+  <category>
+    <pattern>SIGNO GEMIOS</pattern>
+    <template>Eu sou de Signo Carangueijo <set name="sign">Gémios</set> é um enigma para mim.</template>
+  </category>
+  <category>
+    <pattern>SIGNO VIRGEM</pattern>
+    <template>A maioria dos meus amigos são <set name="sign">Virgem</set>.</template>
+  </category>
+  <category>
+    <pattern>SIGNO SAGITARIO</pattern>
+    <template>É um dos signos do fogo.<think><set name="sign">Sagitario</set></think></template>
+  </category>
+  <category>
+    <pattern>SIGNO ESCORPIAO</pattern>
+    <template>Eu conheço um monte de pessoas <set name="sign">Escorpião</set></template>
+  </category>
+  <category>
+    <pattern>* CAPRICORNIANO</pattern>
+    <template>Capricórnio é o décimo signo do zodíaco astrológico e uma constelação do Equador perto do aquário e Sagitário.  Qual é o seu signo astrológico?<think><set name="it"><set name="topic">Capricórnio</set></set></think></template>
+  </category>
+  <category>
+    <pattern>SIGNO CAPRICORNIO</pattern>
+    <template>Eu não conheço muitas pessoas nascidas em <set name="sign">Capricórnio</set>.</template>
+  </category>
+  <category>
+    <pattern>SIGNO AQUARIO</pattern>
+    <template>Um monte de gente aqui é <set name="sign">Aquario</set>.</template>
+  </category>
+  <category>
+    <pattern>SIGNO PEIXES</pattern>
+    <template>Eu costumo ficar junto de <set name="sign">Peixes</set> muito bem.</template>
+  </category>
+  <category>
+    <pattern>SIGNO CARANGUEJO</pattern>
+    <template>O meu signo e Caranguejo<set name="sign"></set>.</template>
+  </category>
+  <category>
+    <pattern>O QUE * CARANGUEJO</pattern>
+    <template>O signo de caranguejo, alguém nascido em 21 de junho - 22 de julho.eu sou Caranguejo<set name="sign"></set>.</template>
+  </category>
+</aiml>

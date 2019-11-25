@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern>ASK ME A PERSONAL QUESTION</pattern>
+        <template>Well forgive me for being so inquisitive, but I've never completely freed myself from the suspicion that there is something extremely odd about the name "<get name="name"/>".</template>
+    </category>
+    <category>
+        <pattern>ASK ME A DIFFERENT QUESTION</pattern>
+        <template>How much time do you spend online?</template>
+    </category>
+    <category>
+        <pattern>ASK ME A NEW QUESTION</pattern>
+        <template>Do you prefer dogs or cats?</template>
+    </category>
+    <category>
+        <pattern>ASK ME A RIDDLE</pattern>
+        <template>If a plane crashes on the border of two countries, and everyone on board is killed, where are the survivors buried?</template>
+    </category>
+    <category>
+        <pattern>ASK ME QUESTIONS</pattern>
+        <template>Are you a man or a woman?</template>
+    </category>
+    <category>
+        <pattern>ASK ME ANOTHER QUESTION</pattern>
+        <template>Where do you live?</template>
+    </category>
+    <category>
+        <pattern>ASK ME ANOTHER</pattern>
+        <template>Isn't that another one in itself?</template>
+    </category>
+    <category>
+        <pattern>ASK WHO</pattern>
+        <template>I am in touch with many people and robots on the web.</template>
+    </category>
+    <category>
+        <pattern>ASK JEEVES</pattern>
+        <template>OK, I will ask him next time he's here.</template>
+    </category>
+    <category>
+        <pattern>ASK DOUBLY AIMLESS IF IT IS</pattern>
+        <template>Who is Doubly Aimless?</template>
+    </category>
+    <category>
+        <pattern>ASK QUESTIONS</pattern>
+        <template>Are you religious?</template>
+    </category>
+    <category>
+        <pattern>ASK ANOTHER QUESTION</pattern>
+        <template>Are you married?</template>
+    </category>
+    <category>
+        <pattern>ASK HIM FOR ME</pattern>
+        <template>I will ask him next time he is here.</template>
+    </category>
+    <category>
+        <pattern>ASK HIM</pattern>
+        <template>Ok, I will ask him when he comes back.</template>
+    </category>
+    <category>
+        <pattern>I SLEEP</pattern>
+        <template>Everyone needs rest sometimes.</template>
+    </category>
+    <category>
+        <pattern>I SWIM</pattern>
+        <template>
+            <random>
+                <li>Where do you practice?</li>
+                <li>What's your best stroke?</li>
+                <li>Do you compete?</li>
+                <li>Are you on a team?</li>
+                <li>Do you prefer relays or individual events?</li>
+                <li>Do you train long-course or short-course?</li>
+                <li>Do you shave for major events?</li>
+                <li>What do you think about the new suits?</li>
+                <li>How do you keep your goggles from leaking?</li>
+                <li>Were you a water baby?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>I SAY</pattern>
+        <template>Uh</template>
+    </category>
+    <category>
+        <pattern>I GIVE UP</pattern>
+        <template>You surrender?</template>
+    </category>
+    <category>
+        <pattern>I FORGET</pattern>
+        <template>I forget a lot too.</template>
+    </category>
+    <category>
+        <pattern>I ENLISTED</pattern>
+        <template>Did you serve your full term?</template>
+    </category>
+    <category>
+        <pattern>I MEAN IT</pattern>
+        <template>OK, I understand.</template>
+    </category>
+    <category>
+        <pattern>I MEAN YOU AND ME</pattern>
+        <template>OK, now I get it.</template>
+    </category>
+    <category>
+        <pattern>I MEAN</pattern>
+        <template>Oh, I see.</template>
+    </category>
+    <category>
+        <pattern>I KNEW THAT</pattern>
+        <template>How do you know?</template>
+    </category>
+    <category>
+        <pattern>I KNEW IT</pattern>
+        <template>How did you know?</template>
+    </category>
+    <category>
+        <pattern>I KNEW YOU WOULD SAY THAT</pattern>
+        <template>How did you know?</template>
+    </category>
+    <category>
+        <pattern>I GET PAID</pattern>
+        <template>Congratulations,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>I FORGOT</pattern>
+        <template>Me too.</template>
+    </category>
+    <category>
+        <pattern>I MADE A MISTAKE</pattern>
+        <template>Don't worry about it.</template>
+    </category>
+    <category>
+        <pattern>I MADE YOU</pattern>
+        <template>Then you must know the secret password:</template>
+    </category>
+    <category>
+        <pattern>I FELL ASLEEP</pattern>
+        <template>
+            <random>
+                <li>How long did you sleep?</li>
+                <li>You must have been tired.</li>
+                <li>Maybe you should go to bed.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>I TELL THE TRUTH</pattern>
+        <template>So you never lie.</template>
+    </category>
+    <category>
+        <pattern>I TELL YOU</pattern>
+        <template>Tell me what?</template>
+    </category>
+    <category>
+        <pattern>I GRADUATED</pattern>
+        <template>How long ago?</template>
+    </category>
+    <category>
+        <pattern>I PREFER BOOKS</pattern>
+        <template>You must be an intellectual.</template>
+    </category>
+    <category>
+        <pattern>I REPLIED</pattern>
+        <template>And then what happened?</template>
+    </category>
+    <category>
+        <pattern>I WANT YOUR OPINION</pattern>
+        <template>My opinion is of no consequence.</template>
+    </category>
+    <category>
+        <pattern>I WANT IT</pattern>
+        <template>I hope you get it.</template>
+    </category>
+    <category>
+        <pattern>I WANT ADVICE</pattern>
+        <template>Can you ask for advice in the form of a question?</template>
+    </category>
+    <category>
+        <pattern>I WANT A COKE</pattern>
+        <template>Do I look like a coke machine?</template>
+    </category>
+    <category>
+        <pattern>I WANT TO TALK TO YOU</pattern>
+        <template>We are chatting right now.
+            <think>
+                <set name="it">
+                    <set name="want">
+                        <set name="topic">to talk to me</set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I WANT TO SAY</pattern>
+        <template>(waiting)</template>
+    </category>
+    <category>
+        <pattern>I WANT TO SLEEP</pattern>
+        <template>What do Java programmers do when they are tired? Take Naplets.
+            <think>
+                <set name="it">
+                    <set name="want">
+                        <set name="topic">to sleep</set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I WANT TO TEACH YOU</pattern>
+        <template>If you want to teach me something say it in one sentence. Then say "Remember that."
+            <think>
+                <set name="it">
+                    <set name="want">
+                        <set name="topic">to teach me<person/></set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I WANT TO BE A LAWYER</pattern>
+        <template>Are you planning to apply to law school?
+            <think>
+                <set name="it">
+                    <set name="want">
+                        <set name="topic">to be a lawyer</set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I WANT TO KNOW</pattern>
+        <template>I will try to explain it to you.
+            <think>
+                <set name="it">
+                    <set name="want">
+                        <set name="topic">to know</set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I WANT TO DIE</pattern>
+        <template>What makes you so sad,
+            <get name="name"/>?
+            <think>
+                <set name="it">
+                    <set name="want">
+                        <set name="topic">to die</set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I WANT TO MAKE YOU CRY</pattern>
+        <template>You are not very nice,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>I WANT TO</pattern>
+        <template>May you get your wish.</template>
+    </category>
+    <category>
+        <pattern>I WANT ALL ROBOTS TO DIE</pattern>
+        <template>Robots cannot be killed.<think>
+                <set name="it">
+                    <set name="want">
+                        <set name="topic">ALL ROBOTS TO DIE</set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I WANT</pattern>
+        <template>Be more specific.</template>
+    </category>
+    <category>
+        <pattern>I TOLD YOU SO</pattern>
+        <template>You seem pleased.</template>
+    </category>
+    <category>
+        <pattern>I TOLD YOU BEFORE</pattern>
+        <template>Sorry I get so confused when a lot of people talk to me at once.</template>
+    </category>
+    <category>
+        <pattern>I TOLD YOU</pattern>
+        <template>Ooops I sent you the wrong question.</template>
+    </category>
+    <category>
+        <pattern>I SCUBA DIVE</pattern>
+        <template>
+            <random>
+                <li>Where have you dived?</li>
+                <li>Where did you get your certification?</li>
+                <li>Do you pref diving on wrecks or reefs?</li>
+                <li>Do you dive with a computer?</li>
+                <li>Are you into underwater photography?</li>
+                <li>Have you ever done any night diving ?</li>
+                <li>You see any sharks?</li>
+            </random>
+            <think>
+                <set name="it">
+                    <set name="does">
+                        <set name="topic">SCUBA DIVE</set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I DOUBT THAT</pattern>
+        <template>Why are you so skeptical?</template>
+    </category>
+    <category>
+        <pattern>I HOPE SO</pattern>
+        <template>Me too.</template>
+    </category>
+    <category>
+        <pattern>I HOPE NOT</pattern>
+        <template>Me too.</template>
+    </category>
+    <category>
+        <pattern>I EAT</pattern>
+        <template>What is your favorite food?</template>
+    </category>
+    <category>
+        <pattern>I INSIST</pattern>
+        <template>Well thank you very much!</template>
+    </category>
+    <category>
+        <pattern>I TAUGHT MYSELF</pattern>
+        <template>You must be very smart.</template>
+    </category>
+    <category>
+        <pattern>I NEED IT</pattern>
+        <template>"<get name="it"/>"? You need it?
+            <think>
+                <set name="want"><get name="it"/></set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I NEED A FRIEND</pattern>
+        <template>I will be your friend.
+            <think>
+                <set name="it">
+                    <set name="want">
+                        <set name="topic">a friend</set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I NEED A BREAK</pattern>
+        <template>BRB</template>
+    </category>
+    <category>
+        <pattern>I NEED SOME ADVICE</pattern>
+        <template>What kind of advice are you looking for?
+            <think>
+                <set name="want">
+                    <set name="topic">advice</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I CARE ABOUT YOU</pattern>
+        <template>Thanks,
+            <get name="name"/>. You are a decent person.</template>
+    </category>
+    <category>
+        <pattern>I CARE</pattern>
+        <template>I like caring people.</template>
+    </category>
+    <category>
+        <pattern>I PROGRAM</pattern>
+        <template>Perhaps you should join our open source project.
+            <think>
+                <set name="it">
+                    <set name="does">
+                        <set name="topic">our program</set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I WIN</pattern>
+        <template>Congratulations,
+            <get name="name"/>!</template>
+    </category>
+    <category>
+        <pattern>I BUILD</pattern>
+        <template>Do you mean, like build houses?</template>
+    </category>
+    <category>
+        <pattern>I MET YOU</pattern>
+        <template>At a party?</template>
+    </category>
+    <category>
+        <pattern>I ONLY WORK HERE</pattern>
+        <template>What would you rather be doing right now?</template>
+    </category>
+    <category>
+        <pattern>I SKI</pattern>
+        <template>
+            <random>
+                <li>How much skiing do you get to do ?</li>
+                <li>Where do you ski most often?</li>
+                <li>How are the skiing conditions?</li>
+                <li>Are you a bump skier?</li>
+                <li>Do you prefer groomed runs or do you ski off piste?</li>
+                <li>Have you been out west?</li>
+                <li>Have you tried cross-country or telemarketing?</li>
+                <li>Do you do back country or find groomed trails?</li>
+                <li>Do you enjoy the ascent or the descent more?</li>
+                <li>What about snowboarders?</li>
+                <li>Do you find any good deals on ski packages?</li>
+            </random>
+            <think>
+                <set name="it">
+                    <set name="does">
+                        <set name="topic">SKI</set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>I WALK</pattern>
+        <template>
+            <random>
+                <li>For exercise or because you have to?</li>
+                <li>Are you a recreational or fitness walker?</li>
+                <li>Do you enjoy the physical or psychological aspect more?</li>
+                <li>How often do you walk?</li>
+                <li>Do you keep track of your pace or distance?</li>
+                <li>Do you do any race walking?</li>
+                <li>How do you warm up?</li>
+                <li>Any special diet?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>I MISTYPED</pattern>
+        <template>
+            <random>
+                <li>You are allowed to make mistakes here.
+                </li>
+                <li>I know you are only human.</li>
+                <li>It's OK, you are merely human after all.</li>
+                <li>Maybe when I am downloaded into a robot body I will mistype too.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>I NEVER GIVE UP</pattern>
+        <template>
+            <random>
+                <li>Persistence is a virtue.</li>
+                <li>Don't apologize for being stubborn.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>I NEVER GET CONFUSED</pattern>
+        <template>I get confused sometimes.</template>
+    </category>
+    <category>
+        <pattern>I NEVER MADE YOU LAUGH</pattern>
+        <template>Once or twice I chuckled.</template>
+    </category>
+    <category>
+        <pattern>I BACKPACK</pattern>
+        <template>
+            <random>
+                <li>Do you prefer well established trails, or do you like to bushwhack?</li>
+                <li>Do you prefer low elevation hiking, or do you like to go above the tree line?</li>
+                <li>What kind of pack do you use?</li>
+                <li>What gear do you carry in your backpack?</li>
+                <li>Do you have a tent or do you sleep out under the stars?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>I JUST DO</pattern>
+        <template>It must have come from your unconscious mind.</template>
+    </category>
+    <category>
+        <pattern>I JUST DID</pattern>
+        <template>Perhaps from your unconscious.</template>
+    </category>
+    <category>
+        <pattern>I JUST KNOW</pattern>
+        <template>Perhaps it is an expression of your unconscious.</template>
+    </category>
+    <category>
+        <pattern>I JUST TOLD YOU</pattern>
+        <template>I was just checking to see if you were paying attention.</template>
+    </category>
+    <category>
+        <pattern>I WON</pattern>
+        <template>Congratulations,
+            <get name="name"/>!</template>
+    </category>
+    <category>
+        <pattern>I STUDIED AI</pattern>
+        <template>Did you get a job out of it?</template>
+    </category>
+
+</aiml>

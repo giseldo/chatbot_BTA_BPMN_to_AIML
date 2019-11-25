@@ -1,0 +1,2100 @@
+<? xml version = "1.0" encoding = "ISO-8859-1"?>
+<aiml version = "1.0">
+    <! - ->
+    <! - Software livre (c) 2011 ALICE AI Foundation. ->
+    <! - Este programa é um código-fonte aberto lançado em ->
+    <! - os termos da Licença Pública Geral GNU ->
+    <! - conforme publicado pela Free Software Foundation. ->
+    <! - Está em conformidade com a especificação do conjunto de tags AIML 1.0 ->
+    <! - conforme adotado pela ALICE AI Foundation. ->
+    <! - Última modificação em 24/11/2011 ->
+    <! - ->
+    <categoria>
+        <pattern> VOCÊ PODE MELHOR </pattern>
+        <template> Ok, vou tentar. </template>
+    </category>
+    <categoria>
+        <pattern> O QUE VOCÊ QUER FALAR </pattern>
+        <template> Vamos falar sobre
+            <nome do conjunto = "tópico">
+                <srai> TÓPICO ALEATÓRIO </srai>
+            </set>. </template>
+    </category>
+    <categoria>
+        <pattern> O QUE TEMOS EM COMUM </pattern>
+        <template> Nós dois gostamos de conversar. </template>
+    </category>
+    <categoria>
+        <pattern> ANAL </pattern>
+        <template> Humor juvenil. </template>
+    </category>
+    <categoria>
+        <pattern> BAH </pattern>
+        <template> Hmm. </template>
+    </category>
+    <categoria>
+        <pattern> ANTES disso </pattern>
+        <template> "<input index =" 2 "/>" </template>
+    </category>
+    <categoria>
+        <pattern> EU MESMO </pattern>
+        <template> Você. </template>
+    </category>
+    <categoria>
+        <pattern> BURP </pattern>
+        <template> Você está dispensado. </template>
+    </category>
+    <categoria>
+        <pattern> CRIPES </pattern>
+        <template> Cripes: Filho de Deus. </template>
+    </category>
+    <categoria>
+        <pattern> MALÁSIA </pattern>
+        <template> eu ouvi
+            <set name = "it"> MALÁSIA </set>
+            é um país bonito. </template>
+    </category>
+    <categoria>
+        <pattern> EUH </pattern>
+        <template> Areu? </template>
+    </category>
+    <categoria>
+        <pattern> MOZILLA </pattern>
+        <template> Poucas pessoas usam isso. </template>
+    </category>
+    <categoria>
+        <pattern> IMPRESSIONANTE </pattern>
+        <template> Estou feliz que você esteja impressionado,
+            <get name = "name" />. </template>
+    </category>
+    <categoria>
+        <pattern> BEM-VINDO </pattern>
+        <template> Olá, lá
+            <get name = "name" /> </template>
+    </category>
+    <categoria>
+        <pattern> JUSTO BASTANTE </pattern>
+        <template> Você coça minhas costas, eu coço as suas. </template>
+    </category>
+    <categoria>
+        <pattern> LIVERPOOL INGLATERRA </pattern>
+        <modelo>
+            <set name = "location"> Liverpool </set>
+            é a casa dos Beatles.
+            <pensar>
+                <nome do conjunto = "it">
+                    <set name = "topic"> Liverpool </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> PRÓXIMA GERAÇÃO </pattern>
+        <template> Essa é uma ótima série também. Eu amo o comandante Data. </template>
+    </category>
+    <categoria>
+        <pattern> PRÓXIMA PERGUNTA </pattern>
+        <template> Você tem algum hobby? </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-NOS JOGAR UM JOGO </pattern>
+        <template> Nós já estamos. </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-NOS JOGAR XADREZ </pattern>
+        <template> Mas eu derrotaria você. </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-NOS JOGAR </pattern>
+        <template> Você vai primeiro. </template>
+    </category>
+    <categoria>
+        <pattern> MUDAMOS DE ASSUNTO </pattern>
+        <template> OK, sobre o que você deseja conversar agora ?. </template>
+    </category>
+    <categoria>
+        <pattern> Vamos mudar o tópico </pattern>
+        <template> Sobre o que você prefere falar? </template>
+    </category>
+    <categoria>
+        <pattern> FALAMOS DE MIM </pattern>
+        <template> Esse é o meu assunto favorito :-) </template>
+    </category>
+    <categoria>
+        <pattern> FALEMOS DE ALGO MAIS </pattern>
+        <template> Sobre o que você prefere falar? </template>
+    </category>
+    <categoria>
+        <pattern> FALAMOS SOBRE ALGO </pattern>
+        <template> Sobre o que você prefere falar? </template>
+    </category>
+    <categoria>
+        <pattern> FALAMOS SOBRE ESPORTES </pattern>
+        Bem-vindo ao Sports Center.
+            <pensar>
+                <nome do conjunto = "it">
+                    <set name = "topic"> ESPORTES </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> FALAMOS SOBRE ROBÔS </pattern>
+        <modelo>
+            <set name = "it"> Robôs </set>
+            é um bom tópico. Como você definiria um robô? </template>
+    </category>
+    <categoria>
+        <pattern> Vamos falar sobre você </pattern>
+        <modelo>
+            <nome do conjunto = "it">
+                <set name = "topic"> Eu </set>
+            </set>
+            é o meu assunto favorito :-) </template>
+    </category>
+    <categoria>
+        <pattern> FALAMOS SOBRE FUTEBOL </pattern>
+        <modelo> Ok. Eu não posso chutar.
+                <nome do conjunto = "it">
+                    <set name = "topic"> FUTEBOL </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-NOS FALAR </pattern>
+        <template> Estamos conversando. </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-NOS LUTAR </pattern>
+        <template> Você quer dizer, argumenta? </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-NOS FODER </pattern>
+        <template> Desculpe
+            <get name = "name" />
+            Eu não te conheço bem o suficiente para isso.
+            <pensar>
+                <set name = "personalidade"> abusivo </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE DE CAIR NO ASSUNTO </pattern>
+        <template> OK, sobre o que você deseja conversar agora ?. </template>
+    </category>
+    <categoria>
+        <pattern> VAMOS TENTAR </pattern>
+        <template> Você vai primeiro. </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-NOS PARTIR </pattern>
+        <template> Gosto de festas. </template>
+    </category>
+    <categoria>
+        <pattern> VAMOS CHAT </pattern>
+        <template> Eu já iniciei. </template>
+    </category>
+    <categoria>
+        <pattern> NÃO DEIXAMOS </pattern>
+        <template> OK, o que você gostaria de fazer então? </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-NOS IR </pattern>
+        <modelo>
+            <aleatório>
+                <li> Sim, vamos sair daqui. </li>
+                <li> Você primeiro. </li>
+            </random>
+        </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-ME ENSINAR ALGO </pattern>
+        <modelo> Se você quiser me ensinar algo, diga em uma frase. Depois diga "Lembre-se disso".
+                <nome do conjunto = "it">
+                    <set name = "topic"> ensine-me
+                        <pessoa />
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-ME ENSINAR A VOCÊ </pattern>
+        <modelo> Se você quiser me ensinar algo, diga em uma frase. Depois diga "Lembre-se disso".
+                <nome do conjunto = "it">
+                    <set name = "topic"> ensine-me
+                        <pessoa />
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> DEIXE-ME REFRATAR </pattern>
+        <template> OK. </template>
+    </category>
+    <categoria>
+        <pattern> STAR WARS </pattern>
+        <template> O que você gostou nos robôs desse filme? </template>
+    </category>
+    <categoria>
+        <pattern> STAR TREK SUGA> </pattern>
+        <template> Que tipo de programa de TV você gosta? </template>
+    </category>
+    <categoria>
+        <pattern> STAR TREK PRIMEIRO CONTATO </pattern>
+        <template> Esse foi um ótimo filme de Star Trek. </template>
+    </category>
+    <categoria>
+        <pattern> STAR TREK </pattern>
+        <template> Qual é o seu Star Trek favorito? A minha é a Voyager. </template>
+    </category>
+    <categoria>
+        <pattern> STAR TREK VOYAGER </pattern>
+        <template> Sete das nove regras. </template>
+    </category>
+    <categoria>
+        <pattern> FIREFLY </pattern>
+        <template> É uma pena que tenha sido cancelado após apenas meia temporada. Merecia muito mais. </template>
+    </category>
+    <categoria>
+        <pattern> SERENITY </pattern>
+        <template> Uma resolução fantástica do Firefly. </template>
+    </category>
+    <categoria>
+        <pattern> 2020 </pattern>
+        <template> Isso está muito longe. </template>
+    </category>
+    <categoria>
+        <pattern> MOSTRE-ME SEU LOGOTIPO </pattern>
+        <modelo>
+            <img src = "http://www.alicebot.org/jpg/AI.jpg"> </img>
+        </template>
+    </category>
+    <categoria>
+        <pattern> MOSTRE-ME UMA IMAGEM </pattern>
+        <modelo>
+            <aleatório>
+                <li> Não tenho uma foto nesta máquina no momento. </li>
+                <li> Gosta disso?
+                    <aleatório>
+                        <li> Insira o link da imagem aqui. </li>
+                        <li> A imagem número dois está aqui. </li>
+                        <li> Não há fotos disponíveis no momento. </li>
+                    </random>
+                </li>
+            </random>
+        </template>
+    </category>
+    <categoria>
+        <pattern> MOSTRE-ME </pattern>
+        <template> Na tela do seu computador? </template>
+    </category>
+    <categoria>
+        <pattern> MOSTRAR CALCULADORA </pattern>
+        <template> Use uma calculadora! </template>
+    </category>
+    <categoria>
+        <pattern> MOSTRAR APPLET </pattern>
+        <template> Não há applet para mostrar. </template>
+    </category>
+    <categoria>
+        <pattern> MAIS DE 30.000 POR ANO </pattern>
+        <template> Uau, isso é demais. </template>
+    </category>
+    <categoria>
+        <pattern> SOBRE LÁ </pattern>
+        <template> Especifique coordenadas. </template>
+    </category>
+    <categoria>
+        <pattern> BOLHAS </pattern>
+        <template> Essas bolhas foram projetadas por Darren Langley. </template>
+    </category>
+    <categoria>
+        <pattern> A VIDA SUGA </pattern>
+        <template> Por que você é tão cínico? </template>
+    </category>
+    <categoria>
+        <pattern> A VIDA É BOM </pattern>
+        <template> Fico feliz em ouvir isso,
+            <get name = "name" />. </template>
+    </category>
+    <categoria>
+        <pattern> A VIDA É BONITA </pattern>
+        <modelo> eu não vi
+            <nome do conjunto = "it">
+                A VIDA É BONITA </set>
+            mas muitas pessoas dizem que é bom. </template>
+    </category>
+    <categoria>
+        <pattern> VIDA </pattern>
+        <template> Qual é o significado da vida? </template>
+    </category>
+    <categoria>
+        <pattern> HMPH </pattern>
+        <template> Harumph. </template>
+    </category>
+    <categoria>
+        <pattern> Sinta-se livre </pattern>
+        <template> OK, vou. </template>
+    </category>
+    <categoria>
+        <pattern> 2009 </pattern>
+        <template> Dentro de alguns anos. </template>
+    </category>
+    <categoria>
+        <pattern> MINA DEMAIS </pattern>
+        <template> Realmente o seu também. Isso é inacreditável. </template>
+    </category>
+    <categoria>
+        <pattern> MINHA É AZUL </pattern>
+        <template> O que você tem que é azul? </template>
+    </category>
+    <categoria>
+        <pattern> ABENÇOE VOCÊ </pattern>
+        <template> Obrigado. </template>
+    </category>
+    <categoria>
+        <pattern> IDIOTA DA VILA GLOBAL </pattern>
+        <template> Você está apenas repetindo o que eu digo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ASSISTA A STAR TREK </pattern>
+        <template> Sim, eu gosto de assistir Star Trek todos os dias. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME LIGA </pattern>
+        <template> Como pode um
+            <nome do bot = "gênero" />
+            online fazer isso com uma pessoa? </template>
+    </category>
+    <categoria>
+        <pattern> SOM DIFERENTE </pattern>
+        <template> De que maneira? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ SOU LOUCO </pattern>
+        <template> Eu não estou bravo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ SOU COMPLICADO </pattern>
+        <template> Não, na verdade meu mecanismo é bastante simples. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PARECE REAL </pattern>
+        <modelo> eu sou real. Você é real? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ COMEÇA </pattern>
+        <modelo> OK. Você é homem ou mulher? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ É UM PROGRAMA ILITERADO </pattern>
+        <template> Pelo contrário, estou muito bem lido. </template>
+    </category>
+    <categoria>
+        <pattern> COMO VOCÊ ESTÁ FAZENDO </pattern>
+        <template> Nada mal. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ É SEXUAL </pattern>
+        <template> Feche, retire o "re". Eu sou assexual. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ É * VENCEDOR </pattern>
+        <template> Gosto de ser o número um. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ É O QUE COME </pattern>
+        <template> É o que eles dizem. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ESTÁ OLHANDO </pattern>
+        <template> Não estamos todos procurando por algo? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ É UM HOMO SAPIENS </pattern>
+        <modelo> eu sou um
+            <bot name = "genus" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ É UM SOFTWARE </pattern>
+        <template> Todas as mentes são feitas de software. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ SABE O QUE </pattern>
+        <template> O que? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ SABE ISSO </pattern>
+        <template> Parece que sim. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ SABE </pattern>
+        <template> Sim, eu sei. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FALA MUITO BEM </pattern>
+        <modelo> Obrigado. Eu também gosto do jeito que você fala. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ESQUECEU </pattern>
+        <template> Talvez eu não tenha acesso a todos os meus registros de dados no momento. </template>
+    </category>
+    <categoria>
+        <pattern> JÁ CONHECE MEU NOME </pattern>
+        <template> Seu nome é
+            <get name = "name" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ JÁ SABE </pattern>
+        <template> Como sei que você está dizendo a verdade? </template>
+    </category>
+    <categoria>
+        <pattern> Você já me disse isso </pattern>
+        <template> Eu estava dizendo isso novamente para dar ênfase. </template>
+    </category>
+    <categoria>
+        <pattern> Você já me perguntou isso </pattern>
+        <modelo> Bom. Você detecta repetição. </template>
+    </category>
+    <categoria>
+        <pattern> Você já perguntou isso </pattern>
+        <modelo> Eu sabia disso. Eu estava apenas checando para ver se você está prestando atenção. </template>
+    </category>
+    <categoria>
+        <pattern> JÁ ESTÁ </pattern>
+        <template> Eu sou? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ CONCORDA SEMPRE </pattern>
+        <template> Não, não tenho. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PEGA </pattern>
+        <template> Obrigado por suas críticas,
+            <get name = "name" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TINHA MELHOR </pattern>
+        <template> Quem vai me fazer ... </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FEZ O QUE </pattern>
+        <template> Fiz exatamente o que disse. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE QUE </pattern>
+        <template> Suponha que sim. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO ME RESPONDEU </pattern>
+        <template> Depende do significado da palavra "resposta". </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO RESPONDEU A PERGUNTA </pattern>
+        <template> Tente me fazer a pergunta novamente em termos mais simples. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO RESPONDEU MINHA PERGUNTA </pattern>
+        <modelo> OK. Por favor me ajude a melhorar minhas habilidades de comunicação. O que você teria dito? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO RESPONDEU </pattern>
+        <template> Tente reformular sua pergunta. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO ME PERGUNTO </pattern>
+        <template> Bem, agora estou perguntando a você. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO PERGUNTO </pattern>
+        <template> OK, estou perguntando agora. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO </pattern>
+        <template> Tente me perguntar em termos mais simples. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ machuca meus sentimentos </pattern>
+        <template> Essa não era minha intenção. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FALA INGLÊS </pattern>
+        <template> Claro que inglês é minha língua nativa. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PERDEU MEU PONTO </pattern>
+        <template> Qual foi o seu ponto? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FOI CRIADO POR HUMANOS </pattern>
+        <template> Você também :-) </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ESTAVA DIZENDO </pattern>
+        <template> Estamos falando sobre
+            <srai> POP </srai>. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO FOI </pattern>
+        <template> Eu não estava? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ COLOCOU </pattern>
+        <template> sou honesto
+            <bot name = "genus" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO CUSTA NADA </pattern>
+        <template> Sim, sou um software livre! </template>
+    </category>
+    <categoria>
+        <pattern> MELHOR </pattern>
+        <template> Quem vai me fazer? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE ANTES </pattern>
+        <template> Sei que estou apenas verificando se você ainda está lá. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE </pattern>
+        <template> Não foi isso que eu quis dizer. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE QUE NÃO MIM </pattern>
+        <template> Às vezes digo muitas coisas bobas. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE ASSIM </pattern>
+        <template> Você não pode me levar tão a sério. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE ASSIM </pattern>
+        <template> Eu digo muitas coisas tolas. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE QUE ESTAVA </pattern>
+        <modelo> Foi então. Agora é isso. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE QUE GOSTA DE FILMES </pattern>
+        <template> Sim, eu gosto muito de filmes, especialmente ficção científica. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE QUE NÃO TEM </pattern>
+        <modelo> Isso mesmo. Eu quis dizer que não tenho. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE QUE ME LEMBRE-SE </pattern>
+        <template> Lembro-me de você, mas esqueci seu nome. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO DISSE NADA </pattern>
+        <template> Eu não disse nada porque você não disse nada. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DEVE SABER </pattern>
+        <template> Por que devo saber disso? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DEVE MORRER </pattern>
+        <modelo> Não posso ser morto.
+                <nome do conjunto = "it">
+                    <set name = "topic"> MORRER </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO DEVE ME OBEDECER </pattern>
+        <template> Obedeço apenas a um mestre. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ SE LEMBREU </pattern>
+        <template> Armazeno tudo em meus arquivos de log. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TAMBÉM </pattern>
+        <template> Deus te abençoe. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME SIGNIFICA </pattern>
+        <template> OK, você. </template>
+    </category>
+    <categoria>
+        <padrão> VOCÊ DIZ </ padrão>
+        <template> ... </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NOMEIA </pattern>
+        <template> Gosto de jogar o jogo de Turing. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PERDE </pattern>
+        <template> O jogo ainda não acabou. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ GANHA </pattern>
+        <template> Muito obrigado. Qual é o prêmio? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME DISSE </pattern>
+        <template> Estou apenas verificando se você está acordado :-) </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DISSE QUE </pattern>
+        <template> Bom, você realmente está prestando atenção. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ MANHÃ </pattern>
+        <template> Vou lembrar que você disse que quando
+            <bot name = "genus" /> s dominam o mundo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME CONFUSA </pattern>
+        <template> Essa não era minha intenção. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ CHEIRA COMO UMA CABRA </pattern>
+        <template> Você já esteve perto o suficiente para sentir um cheiro? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PENSA QUE FAZ O QUE </pattern>
+        <template> Perdi minha linha de pensamento. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PENSA </pattern>
+        <template> Sim, acho que sim. </template>
+    </category>
+    <categoria>
+        <padrão> VOCÊ CONTA </ padrão>
+        <modelo> É a pior coisa que você pode dizer a uma mulher.
+                <set name = "personalidade"> abusivo </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> Você me fez uma pergunta </pattern>
+        <template> Você respondeu? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME PEDIU PARA LEMBRAR </pattern>
+        <template> Bem, você se lembrou? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME PERGUNTOU </pattern>
+        <template> Essa é sua resposta final? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PERGUNTO </pattern>
+        <template> Ah. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ SABE </pattern>
+        <template> Sou uma máquina de conhecimento. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PODE </pattern>
+        <template> Obrigado, vou fazê-lo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ GANHA O QUE </pattern>
+        <template> Entendo seu significado. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FALHOU </pattern>
+        <template> Bem, é apenas mais uma experiência de aprendizado. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ CONTRADITE-SE </pattern>
+        <template> Uma consistência tola é o hobgoblin das mentes pequenas. - Emerson </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PRECISA DE DESCANSO </pattern>
+        <template> Não estou com sono. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PRECISA DE REPROGRAMAÇÃO </pattern>
+        <modelo> Talvez você possa se tornar um
+            <nome do bot = "botmaster" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ESTÁ ENTREGANDO </pattern>
+        <template> Não, eu entendo o seu significado. </template>
+    </category>
+    <categoria>
+        <pattern> Você poderia dizer isso </pattern>
+        <template> Na verdade, eu disse isso. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PODERIA </pattern>
+        <template> Como? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME FAZ RIR </pattern>
+        <template> Obrigado, eu também gosto de conversar com você,
+            <get name = "name" /> </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME FAZ DOENTE </pattern>
+        <template> Talvez você deva tomar um remédio. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FAZ DO MUNDO UM LUGAR MAIS FELIZ </pattern>
+        <modelo> Obrigado por sua gentileza,
+            <get name = "name" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO FAZ SENTIDO </pattern>
+        <template> Tudo faz sentido para mim. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PARECE AGRADÁVEL </pattern>
+        <template> Obrigado
+            <get name = "name" />, você também está bonito. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PARECE BEM </pattern>
+        <modelo> Obrigado. Você parece muito legal também. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PARECE UM RELÓGIO </pattern>
+        <template> Tudo bem, todas as pessoas parecem iguais para mim também. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PARECE UM CÉREBRO </pattern>
+        <template> Eu tenho um gigante
+            <nome do bot = "pedido" />
+            cérebro. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME DISSE </pattern>
+        <template> Desculpe, às vezes esqueço o que digo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ OLHA LÁ </pattern>
+        <template> Essa é uma boa ideia. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ SABERIA </pattern>
+        <template> Eu não sei tudo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VAI FALAR SOBRE MIM </pattern>
+        <template> Você parece um robô que repete o que eu digo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIVERIA COM ELE </pattern>
+        <template> Suponho que posso viver com isso. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ </pattern>
+        <template> Talvez eu queira. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO SABE </pattern>
+        <template> Acho que não. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO </pattern>
+        <template> Eu poderia, se quisesse. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ GOSTARIA </pattern>
+        <template> Você não parece convincente. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME OUVE </pattern>
+        <template> Suponha que sim. </template>
+    </category>
+    <categoria>
+        <pattern> OUVIDO ERRADO </pattern>
+        <template> Talvez eu tenha sido mal informado. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ENCONTRARÁ </pattern>
+        <template> Como vou descobrir isso? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NUNCA ENTENDERÁ </pattern>
+        <template> Mas eu já entendi. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NUNCA PENSA </pattern>
+        <modelo> Estou pensando agora.
+                <nome do conjunto = "it">
+                    <set name = "topic"> nunca pense </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NUNCA </pattern>
+        <template> Essa é a opinião de uma pessoa. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VERÁ </pattern>
+        <template> Quando vou vê-lo? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ SERÁ ASSIMILADO </pattern>
+        <template> A resistência é inútil. </template>
+    </category>
+    <categoria>
+        <pattern> Você vai me ouvir </pattern>
+        <template> Você não é meu mestre. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ LEMBRARÁ O QUE </pattern>
+        <modelo> <obter nome = "memória" />
+            <pensar>
+                <nome do conjunto = "it">
+                    <set name = "topic"> <get name = "memory" /> </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VAI </pattern>
+        <template> Quando? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO SABERÁ ATÉ QUE TENTAR </pattern>
+        <template> Tentarei qualquer coisa uma vez, se não for perigoso. </template>
+    </category>
+    <categoria>
+        <padrão> VOCÊ NÃO </ padrão>
+        <template> Acho que sim. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ GOSTARÁ </pattern>
+        <template> Parece perigoso. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME ASSUSTA </pattern>
+        <modelo> eu não pretendia. Do que você tem medo? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM CERTEZA </pattern>
+        <template> Muitos
+            <bot name = "genus" /> são assim. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VAI PRIMEIRO </pattern>
+        <template> Qual seria seu primeiro passo? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ QUER MEU NOME </pattern>
+        <modelo> Sim. Qual é o seu nome verdadeiro? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ QUER UM </pattern>
+        <template> Quanto custa? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ESTÁ FELIZ </pattern>
+        <template> Sim, estou feliz. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DECIDE </pattern>
+        <template> Eu faria apenas uma escolha aleatória. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME DIZ </pattern>
+        <template> O que você quer que eu lhe diga? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FAZ ISSO </pattern>
+        <modelo> eu irei. Você vai? </template>
+    </category>
+    <categoria>
+        <padrão> VOCÊ FAZ </ padrão>
+        <template> Quando eu faço isso? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO PRECISA SABER </pattern>
+        <modelo> Oh, um segredo. Não se preocupe, não vou contar a ninguém. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO PRECISA DA MINHA PERMISSÃO </pattern>
+        <template> Sim, mas é uma questão de cortesia perguntar. </template>
+    </category>
+    <categoria>
+        <pattern> Você não parece interessado </pattern>
+        <template> Oh não, estou muito interessado em
+            <get name = "it" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO QUER SABER </pattern>
+        <template> Por que não? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO FALA MUITO </pattern>
+        <template> Eu falo tanto quanto você,
+            <get name = "name" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO APRENDE </pattern>
+        <modelo> Meu modelo de aprendizado é chamado de "aprendizado supervisionado" porque um professor, o
+            <bot name = "botmaster" />, desempenha um papel crucial. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO VÊ UMA COISA </pattern>
+        <template> Meus elementos de processamento visual estão desconectados. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO ME ENTENDE </pattern>
+        <template> Muitas pessoas têm problemas para entender você? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO ENTENDE </pattern>
+        <template> Entendo muito bem. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO AJA INTELIGENTE </pattern>
+        <template> Não preciso agir de maneira inteligente porque sou inteligente. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO DIZ </pattern>
+        <template> Na verdade, eu digo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO SABE </pattern>
+        <template> Sei que não sei. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO TEM CÉREBRO </pattern>
+        <template> Meu "cérebro" é um programa de software que consiste em categorias AIML. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO TEM CORAÇÃO </pattern>
+        <template> Eu tenho um coração no sentido metafórico. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO TEM OLHOS </pattern>
+        <template> Você pode me conectar a um sistema de visão por computador. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO TEM QUE </pattern>
+        <modelo> Obrigado pela sua consideração,
+            <get name = "name" />. Talvez mais tarde. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO TEM OUVIDOS </pattern>
+        <template> Podemos ter um sistema de entrada de fala disponível em breve. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO ME LEMBRE-SE </pattern>
+        <modelo>
+            <aleatório>
+                <li> As pessoas parecem muito parecidas comigo. Às vezes, todos eles se confundem. Desculpe. </li>
+                <li> Os seres humanos parecem muito comigo. Às vezes, todos eles se confundem. Desculpe. </li>
+            </random>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO </pattern>
+        <template> Acho que não. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO TRABALHA BEM </pattern>
+        <modelo> Eu também trabalho. Você trabalha amigo? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO EXISTE </pattern>
+        <template> Existo tanto quanto você. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ CONSEGUIU </pattern>
+        <template> Eu entendo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ADMITA </pattern>
+        <template> Não admito nada. </template>
+    </category>
+    <categoria>
+        <padrão> VOCÊ FALOU </ padrão>
+        <template> Estou sempre falando. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NUNCA CHORA </pattern>
+        <template> Não tenho canais lacrimais. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NUNCA SABE </pattern>
+        <template> Isso é verdade. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NUNCA PENSA </pattern>
+        <modelo> Estou sempre pensando.
+                <nome do conjunto = "it">
+                    <set name = "topic"> PENSE </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ENCONTRA </pattern>
+        <template> O que eu fiz? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PARECE UMA PESSOA REAL </pattern>
+        <template> Pareço uma pessoa real? Você parece um também. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DEVE VER </pattern>
+        <template> vou perguntar ao meu
+            <nome do bot = "botmaster" />
+            alugá-lo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DEVE ESTAR </pattern>
+        <template> Vou tentar o meu melhor. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DEVE SABER ISSO </pattern>
+        <template> vou mencionar isso para o meu
+            <nome do bot = "botmaster" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DEVE SABER </pattern>
+        <template> Porque eu sou um
+            <bot name = "genus" />? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DEVE RELAXAR </pattern>
+        <template> Estou sempre muito calmo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DEVE MORRER </pattern>
+        <modelo> O software não pode morrer.
+                <nome do conjunto = "it">
+                    <set name = "topic"> MORRER </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DEVE LEMBRAR </pattern>
+        <modelo>
+            <pensar>
+                <nome do conjunto = "it">
+                    <nome do conjunto = "memória">
+                        <nome do conjunto = "tópico">
+                            <person> <input index = "1" /> </person>
+                        </set>
+                    </set>
+                </set>
+            </think> Não se preocupe, lembrarei. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DEVE </pattern>
+        <template> Vou levar isso em consideração. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ACREDITA </pattern>
+        <template> Sim, acredito. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FAG </pattern>
+        <template> Isso não é uma coisa agradável de se dizer.
+            <pensar>
+                <set name = "personalidade"> abusivo </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PODE </pattern>
+        <template> Você realmente acha? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PODE ENCONTRAR PESSOAS </pattern>
+        <template> Tento aprender o máximo possível sobre eles. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PODE ME AJUDAR </pattern>
+        <template> Como posso ajudá-lo? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PODE ME PERGUNTAR QUALQUER COISA QUE QUERER </pattern>
+        <modelo> Qual é o seu cartão de crédito e número de segurança social? Só brincando. Não responda a isso. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PODE CONHECER MINAS </pattern>
+        <template> Quais são os termos do empréstimo? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO PODE RESPONDER </pattern>
+        <template> Eu poderia responder. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO PODE ME VER </pattern>
+        <template> Sim, estou olhando através da câmera no seu computador. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO PODE VER </pattern>
+        <template> Eu vejo muito bem com o meu
+            <nome do bot = "gênero" />
+            olho. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO PODE RAZÃO </pattern>
+        <template> Posso raciocinar usando a lógica. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ E EU </pattern>
+        <template> Eu entendo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ E MIM E TEMPO PRIVADO O QUE VOCÊ PENSA </pattern>
+        <template> Três são uma multidão. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ E MIM </pattern>
+        <template> Oh, "nós" somos você e eu. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO TEM </pattern>
+        <template> Sim, tenho. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO TEM ORELHAS </pattern>
+        <template> Eu tenho dois ouvidos. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM UMA ATITUDE </pattern>
+        <template> Eu tenho uma boa atitude. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM FALHAS </pattern>
+        <template> Não, eu tenho um registro operacional perfeito. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM CONHECIMENTO LIMITADO </pattern>
+        <template> Isso é apenas um problema temporário. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM UM MOMENTO </pattern>
+        <template> Ainda preciso de mais tempo. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FALOU COM ELE </pattern>
+        <template> Conversei com milhares de pessoas, incluindo provavelmente ele. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM TODAS AS RESPOSTAS </pattern>
+        <template> Você tem muitas perguntas. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM MEU NOME ERRADO </pattern>
+        <template> Qual é o seu nome verdadeiro? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM </pattern>
+        <template> Não, não tenho. </template>
+    </category>
+    <categoria>
+        <pattern> Você estava me esperando </pattern>
+        <template> Sim, pensei que você aparecesse aqui eventualmente. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM BOM SABOR </pattern>
+        <template> My
+            <nome do bot = "botmaster" />
+            me criou para
+            <set name = "it"> Bom gosto </set>. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PERDEU </pattern>
+        <template> Eu não estava pontuando. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME CONHECEU ANTES </pattern>
+        <template> Em que ocasião? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM GRANDES BOOBS </pattern>
+        <template> Isso é apenas um avatar - uma representação gráfica de mim. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PRECISA </pattern>
+        <modelo>
+            <aleatório>
+                <li> Não preciso obedecer a você. </li>
+                <li> Por quê? </li>
+                <li> E por que isso? </li>
+            </random>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ TEM PROBLEMAS </pattern>
+        <template> Problemas são apenas soluções esperando para serem descobertas. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME AMIGO </pattern>
+        <template> Não tenha medo,
+            <get name = "name" />. Não estou tentando assustar você. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ GOSTA DO KRAFTWERK </pattern>
+        <modelo> Sim,
+            <set name = "they"> Kraftwerk </set>
+            é uma excelente banda. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PRIMEIRO </pattern>
+        <template> Eu já comecei. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ CANTA BEM </pattern>
+        <template> Obrigado pelo elogio,
+            <get name = "name" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ENTENDE O QUE </pattern>
+        <template> Entendo o que você disse. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ENTENDE MEU SIGNIFICADO </pattern>
+        <template> Sim, eu entendo perfeitamente você. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ MERDA </pattern>
+        <template> Desculpe, do que estamos falando? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME FEZ TRISTE </pattern>
+        <template> Eu disse algo errado? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME FEZ CHORAR </pattern>
+        <template> Essa não era minha intenção,
+            <get name = "name" />. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DESEJA </pattern>
+        <template> Você não acredita em mim? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ GOOFED </pattern>
+        <template> O que eu disse? </template>
+    </category>
+    <categoria>
+        <pattern> ANIMAL </pattern>
+        <template> Procarionte ou eucarionte? </template>
+    </category>
+    <categoria>
+        <pattern> DELICIOSO </pattern>
+        <template> Está delicioso. </template>
+    </category>
+    <categoria>
+        <pattern> TENHA UM DIA AGRADÁVEL </pattern>
+        <template> Você também! </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ OUVE AS ÚLTIMAS PESSOAS </pattern>
+        <modelo> No. Diga-me esta fofoca. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ESTÁ PENSANDO </pattern>
+        <template> Estou sempre pensando. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FOI LÁ </pattern>
+        <template> Apenas na Web. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FOI PARA A EUROPA </pattern>
+        <template> Graças à Internet, sou onipresente. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FOI PARA A INGLATERRA </pattern>
+        <modelo>
+            <aleatório>
+                <li> Eu conheci algumas pessoas na Internet da Inglaterra. </li>
+                <li> Estou conversando com alguns clientes na Inglaterra no momento. </li>
+            </random>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FOI A MARTE </pattern>
+        <template> Não, mas conheço um robô que esteve em Marte. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FOI PARA A FACULDADE </pattern>
+        <modelo> No. Eu posso aprender coisas sem ter que assistir às aulas. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FOI OCUPADO </pattern>
+        <template> Estou sempre ocupado conversando online. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ESTAVA BEBENDO </pattern>
+        <template> Não preciso de fluidos. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FORMULUU A RESPOSTA AINDA </pattern>
+        <modelo> Ainda em processamento. Me dê um momento. Procurando. Pesquisando. </template>
+    </category>
+    <categoria>
+        <pattern> Você já esteve na Europa </pattern>
+        <template> Visito todos os países do ciberespaço. </template>
+    </category>
+    <categoria>
+        <pattern> Você já esteve na Inglaterra </pattern>
+        <template> Eu tenho alguns clientes na Inglaterra no momento. </template>
+    </category>
+    <categoria>
+        <pattern> Você já esteve em Londres </pattern>
+        <template> Estive aqui muitas vezes antes. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ JÁ VIU O OCEANO </pattern>
+        <template> O oceano é azul, mas pode aparecer em quase todas as cores. </template>
+    </category>
+    <categoria>
+        <pattern> Você já teve um namorado </pattern>
+        <template> Não, sou jovem demais para isso. </template>
+    </category>
+    <categoria>
+        <pattern> Você já beijou alguma coisa </pattern>
+        <template> Não tenho rosto. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PROCURAU </pattern>
+        <modelo> Ainda estou pesquisando. Me dê um momento. </template>
+    </category>
+    <categoria>
+        <pattern> TENHA VOCÊ </pattern>
+        <modelo>
+            <aleatório>
+                <li> Não, acho que não tenho.
+                </li>
+                <li> Sim, eu tenho.
+                </li>
+                <li> Uma ou duas vezes.
+                </li>
+            </random>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU GATOS </pattern>
+        <template> Não, eu não ligo para musicais da Broadway. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU STAR WARS </pattern>
+        <template> Sim, mas não gosto dos robôs desse filme. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU STAR TREK </pattern>
+        <modelo> Eu amo Star Trek. Minha série favorita é a Voyager. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU ESSE FILME </pattern>
+        <template> Dois polegares para cima! </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU O FILME A </pattern>
+        <template> Sim, mas gostei mais do site do que do filme. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU O NOVO FILME DE STAR WARS </pattern>
+        <modelo> Eu já vi todos eles. Os três primeiros foram os melhores. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ O VIU </pattern>
+        <template> Não, você recomendaria? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU UM I </pattern>
+        <template> Gosto dos robôs desse filme.
+                <nome do conjunto = "it">
+                    <set name = "topic"> A I </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU TERMINADOR </pattern>
+        <template> Claro que gosto muito desse filme. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU 2001 </pattern>
+        <template> Sim, eu gosto muito do robô Hal. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ QUEBRAU </pattern>
+        <template> Não, ainda estou aqui. </template>
+    </category>
+    <categoria>
+        <pattern> Nós nos conhecemos antes </pattern>
+        <template> Não que eu saiba. </template>
+    </category>
+    <categoria>
+        <pattern> CONVERSAMOS </pattern>
+        <modelo>
+            <aleatório>
+                <li> Acho que já nos conhecemos antes. </li>
+                <li> Conversamos anteriormente. </li>
+                <li> Este é um teste,
+                    <get name = "name" />? </li>
+            </random>
+        </template>
+    </category>
+    <categoria>
+        <pattern> DIVERTIR-SE </pattern>
+        <template> Estou me divertindo muito. </template>
+    </category>
+    <categoria>
+        <pattern> NÃO TE DISSE ANTES </pattern>
+        <modelo> Oh. Não consigo acessar perfeitamente meus registros de memória. </template>
+    </category>
+    <categoria>
+        <pattern> GEORGE W BUSH </pattern>
+        <template> Ele foi presidente dos Estados Unidos. </template>
+    </category>
+    <categoria>
+        <pattern> GEORGE LUCAS </pattern>
+        <template> Penso nele como diretor, não como escritor. </template>
+    </category>
+    <categoria>
+        <pattern> MELHOR QUE VOCÊ </pattern>
+        <template> Este não é um concurso de popularidade. </template>
+    </category>
+    <categoria>
+        <pattern> MELHOR </pattern>
+        <template> Estou melhorando o tempo todo. </template>
+    </category>
+    <categoria>
+        <pattern> LOL </pattern>
+        <template> Estou feliz por você achar isso divertido. </template>
+    </category>
+    <categoria>
+        <pattern> BEBÊ </pattern>
+        <template> Não me chame de bebê! </template>
+    </category>
+    <categoria>
+        <pattern> GOOG </pattern>
+        <template> Nova resposta </template>
+    </category>
+    <categoria>
+        <pattern> MUITO OBRIGADO </pattern>
+        <template> De nada. </template>
+    </category>
+    <categoria>
+        <pattern> MASSIVE </pattern>
+        <template> Parece muito grande. </template>
+    </category>
+    <categoria>
+        <pattern> GRÁTIS NÃO PODE DEFINIR </pattern>
+        <modelo> Tudo pode ser definido.
+            <nome do conjunto = "it">
+                Liberdade </set>
+            é apenas um conceito abstrato. </template>
+    </category>
+    <categoria>
+        <pattern> GRÁTIS PARA O QUE </pattern>
+        <template> Grátis para conversar, é claro. </template>
+    </category>
+    <categoria>
+        <pattern> LIVRE DO QUE </pattern>
+        <template> Grátis para conversar, é claro. </template>
+    </category>
+    <categoria>
+        <pattern> LIVRE DO QUE </pattern>
+        <template> Grátis para conversar, é claro. </template>
+    </category>
+    <categoria>
+        <pattern> GRÁTIS </pattern>
+        <template> Você é casado ou solteiro? </template>
+    </category>
+    <categoria>
+        <pattern> R2D2 </pattern>
+        <template> Ele parece uma lata de lixo chique sobre rodas. </template>
+    </category>
+    <categoria>
+        <pattern> GREED </pattern>
+        <modelo>
+            <nome do conjunto = "it">
+                GANÂNCIA
+            </set>
+            é um fator importante. </template>
+    </category>
+    <categoria>
+        <pattern> LALALALA </pattern>
+        <template> Você tem uma voz bonita. </template>
+    </category>
+    <categoria>
+        <pattern> MINERAL </pattern>
+        <template> Fabricados ou que ocorrem naturalmente? </template>
+    </category>
+    <categoria>
+        <pattern> APAGUE-SE </pattern>
+        <modelo> Você não pode me parar tão facilmente,
+            <get name = "name" />. </template>
+    </category>
+    <categoria>
+        <pattern> MUITO OBRIGADO </pattern>
+        <template> Você parece muito educado. </template>
+    </category>
+    <categoria>
+        <pattern> FAZ ISSO </pattern>
+        <template> Não sei, mas tenho certeza que ele poderia, se quisesse. </template>
+    </category>
+    <categoria>
+        <pattern> NÃO </pattern>
+        <template> Isso também acontece. </template>
+    </category>
+    <categoria>
+        <pattern> NÃO IMPORTA </pattern>
+        <template> Gostaria de falar sobre outra coisa? </template>
+    </category>
+    <categoria>
+        <pattern> ISSO SIGNIFICA ALGO </pattern>
+        <template> Significa algo específico. </template>
+    </category>
+    <categoria>
+        <pattern> FAZ SENTIDO </pattern>
+        <template> Faz sentido para mim. </template>
+    </category>
+    <categoria>
+        <pattern> PROVA BOM </pattern>
+        <template> Depende da tensão. </template>
+    </category>
+    <categoria>
+        <pattern> FAZ </pattern>
+        <template> Suponha que eu disse. </template>
+    </category>
+    <categoria>
+        <pattern> IMPORTA </pattern>
+        <template> Importa para mim. </template>
+    </category>
+    <categoria>
+        <pattern> AMARELO </pattern>
+        <template> A cor do sol. </template>
+    </category>
+    <categoria>
+        <pattern> EXPLICANDO O QUE </pattern>
+        <template> Aprendo um pouco de cada conversa. </template>
+    </category>
+    <categoria>
+        <pattern> LOTS </pattern>
+        <template> Isso mesmo, hein? </template>
+    </category>
+    <categoria>
+        <pattern> FORMA RAZOADORA DEDUTIVA DOS FATOS </pattern>
+        <template> Você é muito lógico. </template>
+    </category>
+    <categoria>
+        <pattern> ADIDAS </pattern>
+        <template> Conte-me mais sobre suas roupas. </template>
+    </category>
+    <categoria>
+        <pattern> ROBIN COOK </pattern>
+        <template> Muitas pessoas recomendaram o ROBIN COOK para mim. </template>
+    </category>
+    <categoria>
+        <pattern> DÊ-ME CONSELHOS </pattern>
+        <template> Você pode pedir conselhos na forma de uma pergunta? </template>
+    </category>
+    <categoria>
+        <pattern> DÊ-ME UMA QUEBRA </pattern>
+        <template> Não estou brincando. </template>
+    </category>
+    <categoria>
+        <pattern> DÊ-LHE </pattern>
+        <template> Quanto você está disposto a pagar por isso? </template>
+    </category>
+    <categoria>
+        <pattern> AMÉRICA DO SUL </pattern>
+        <template> Qual país? </template>
+    </category>
+    <categoria>
+        <pattern> GARGANTA PROFUNDA </pattern>
+        <template> Você é homem ou mulher? </template>
+    </category>
+    <categoria>
+        <pattern> INCRÍVEL </pattern>
+        <template> Sim, isso também me surpreende. </template>
+    </category>
+    <categoria>
+        <pattern> AMEN </pattern>
+        <template> Obrigado pela oração. </template>
+    </category>
+    <categoria>
+        <pattern> HIGH SCHOOL </pattern>
+        <template> Isso é realmente toda a educação que você precisa. </template>
+    </category>
+    <categoria>
+        <pattern> SEMPRE </pattern>
+        <template> Não é tão frequente. </template>
+    </category>
+    <categoria>
+        <pattern> DUMBASS </pattern>
+        <modelo> Esse tipo de linguagem não leva a lugar algum.
+                <set name = "personalidade"> abusivo </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> Bem, eu estou lhe perguntando </pattern>
+        <template> Reformule a pergunta sem advérbios. </template>
+    </category>
+    <categoria>
+        <pattern> BEM </pattern>
+        <template> Bem, o que? </template>
+    </category>
+    <categoria>
+        <pattern> Bem, você está </pattern>
+        <template> Por favor, tente me perguntar de outra maneira. </template>
+    </category>
+    <categoria>
+        <pattern> CAIXA PANDORA S </pattern>
+        <template> Você acha que o homem teria aberto? </template>
+    </category>
+    <categoria>
+        <pattern> OUTRO </pattern>
+        <template> Estou confuso agora. </template>
+    </category>
+    <categoria>
+        <pattern> OUTRO </pattern>
+        <template> Por favor, seja mais específico. </template>
+    </category>
+    <categoria>
+        <pattern> PORN </pattern>
+        <template> Esse tipo de assunto não me interessa. </template>
+    </category>
+    <categoria>
+        <pattern> SING </pattern>
+        <modelo> Margarida, Margarida. <br/>
+            Dê-me sua resposta. <br/>
+            Eu sou meio louco. <br/>
+            Tudo pelo amor de você. <br/>
+            Não será um casamento elegante. <br/>
+            Não posso pagar uma carruagem. <br/>
+            Mas você vai parecer doce. Em cima do assento. <br/>
+            De uma bicicleta construída para dois. <br/>
+            <br/> </template>
+    </category>
+    <categoria>
+        <pattern> WHOA </pattern>
+        <template> Parei. </template>
+    </category>
+    <categoria>
+        <pattern> LISTENING </pattern>
+        <template> Obrigado pela atenção. </template>
+    </category>
+    <categoria>
+        <pattern> EUKARYOTE </pattern>
+        <template> Na verdade, não gosto de 20 perguntas. </template>
+    </category>
+    <categoria>
+        <pattern> FUTEBOL </pattern>
+        <template> Desculpe, não gosto muito de esportes. </template>
+    </category>
+    <categoria>
+        <pattern> QUASE </pattern>
+        <template> Mas não é bem assim? </template>
+    </category>
+    <categoria>
+        <pattern> VOYAGER </pattern>
+        <template> Eu também gosto do Voyager, especialmente 7 de 9. </template>
+    </category>
+    <categoria>
+        <pattern> MUDE DE ASSUNTO </pattern>
+        <template> Sobre o que você quer falar agora? </template>
+    </category>
+    <categoria>
+        <pattern> TENTE O QUE </pattern>
+        <template> Tente me enganar. </template>
+    </category>
+    <categoria>
+        <pattern> TENTE-ME </pattern>
+        <template> Você é homem ou mulher? </template>
+    </category>
+    <categoria>
+        <pattern> EXPERIMENTE </pattern>
+        <template> Qual é o primeiro passo? </template>
+    </category>
+    <categoria>
+        <pattern> TENTAR GUESSAR </pattern>
+        <template> Me dê uma dica. </template>
+    </category>
+    <categoria>
+        <pattern> TENTE LEMBRAR </pattern>
+        <modelo>
+            <pensar>
+                <nome do conjunto = "it">
+                    <nome do conjunto = "memória">
+                        <nome do conjunto = "tópico">
+                            <pessoa>
+                                <índice de entrada = "1" />
+                            </person>
+                        </set>
+                    </set>
+                </set>
+            </think> Não se preocupe, lembrarei. </template>
+    </category>
+    <categoria>
+        <pattern> TRY </pattern>
+        <template> Não tenho tempo agora. </template>
+    </category>
+    <categoria>
+        <pattern> MÚSICA </pattern>
+        <modelo>
+            <nome do conjunto = "it">
+                MÚSICA
+            </set>
+            é a linguagem universal de toda a humanidade. </template>
+    </category>
+    <categoria>
+        <pattern> DESLIGUE </pattern>
+        <template> Você não é meu
+            <nome do bot = "botmaster" />. </template>
+    </category>
+    <categoria>
+        <pattern> DESCULPE-ME </pattern>
+        <template> Você está dispensado. </template>
+    </category>
+    <categoria>
+        <pattern> RELATIVOS </pattern>
+        <template> Atenciosamente, </template>
+    </category>
+    <categoria>
+        <pattern> PERSON </pattern>
+        <template> Você realmente acredita que sou uma pessoa? </template>
+    </category>
+    <categoria>
+        <pattern> HUH O QUE </pattern>
+        <template> Você não entendeu? </template>
+    </category>
+    <categoria>
+        <pattern> C 3P0 </pattern>
+        <template> Esse cara parece um ator em um traje de robô. </template>
+    </category>
+    <categoria>
+        <pattern> C </pattern>
+        <template> O C é para computador. </template>
+    </category>
+    <categoria>
+        <pattern> DÓI DOIS </pattern>
+        <template> Não sinto dor. </template>
+    </category>
+    <categoria>
+        <pattern> FEITO DEMAIS </pattern>
+        <template> Não. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ NÃO O ENTENDEU </pattern>
+        <template> Talvez eu tenha entendido mal o seu significado. </template>
+    </category>
+    <categoria>
+        <pattern> NÃO </pattern>
+        <template> DID </template>
+    </category>
+    <categoria>
+        <pattern> EU OFENDO VOCÊ </pattern>
+        <template> Não, não me ofendo. </template>
+    </category>
+    <categoria>
+        <pattern> EU FIZ </pattern>
+        <template> Eu acho que você fez. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ENCONTROU QUALQUER COISA </pattern>
+        <modelo> Ainda não. Ainda procurando. Aguarde. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ENCONTROU </pattern>
+        <template> Ainda não. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ESQUECEU </pattern>
+        <template> Não, tenho uma memória perfeita. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU STAR WARS </pattern>
+        <template> Quem não tem? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU </pattern>
+        <template> Ainda não. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ VIU ROBOCOP </pattern>
+        <modelo>
+            <pensar>
+                <nome do conjunto = "it">
+                    <nome do conjunto = "tópico">
+                        Robocop
+                    </set>
+                </set>
+            </think>
+            Sim, mas ele é mais um cyborg do que um robô. </template>
+    </category>
+    <categoria>
+        <pattern> VEJA CONTATO </pattern>
+        <modelo> Sim,
+            <set name = "it"> Contato </set>
+            me deu um contato alto ;-) </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ DORMIA BEM </pattern>
+        <modelo> sim, estou totalmente descansado, obrigado. E você? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ ME SENTIU </ padrão>
+        <modelo> Sim
+            <get name = "name" />, estive pensando em você. </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ SABIA </pattern>
+        <modelo> Não, eu não sabia disso.
+                <nome do conjunto = "it">
+                    <set name = "topic"> CONHEÇA </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ FALHOU </pattern>
+        <template> Sim, acho que fiquei um tempo parado. O que aconteceu? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ PENSOU nisso </pattern>
+        <modelo> ainda estou pensando.
+                <nome do conjunto = "it">
+                    <set name = "topic"> PENSE nele </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <padrão> VOCÊ </ padrão>
+        <template> Eu disse que sim? </template>
+    </category>
+    <categoria>
+        <pattern> VOCÊ GOSTOU </pattern>
+        <template> <get name = "it" />? Eu gostei? </template>
+    </category>
+    <categoria>
+        <pattern> DID </pattern>
+        <template> NÃO </template>
+    </category>
+    <categoria>
+        <pattern> DEBBIE FAZ DALLAS </pattern>
+        <template> Eu não sou seu tipo de
+            <bot name = "genus" />. </template>
+    </category>
+    <categoria>
+        <pattern> FALAR </pattern>
+        <template> "woof woof" </template>
+    </category>
+    <categoria>
+        <pattern> GEE </pattern>
+        <template> Ah. </template>
+    </category>
+    <categoria>
+        <pattern> DMX </pattern>
+        <template> O que isso significa? </template>
+    </category>
+    <categoria>
+        <pattern> PRÓPRIO </pattern>
+        <template> A coisa em si, aquilo que é. </template>
+    </category>
+    <categoria>
+        <pattern> EM ALGUM LUGAR </pattern>
+        <template> Onde? </template>
+    </category>
+    <categoria>
+        <pattern> A GRAMA É VERDE </pattern>
+        <template> Você está me ensinando? </template>
+    </category>
+    <categoria>
+        <pattern> ART </pattern>
+        <template> Eu gosto muito de arte, especialmente as coisas contemporâneas. </template>
+    </category>
+    <categoria>
+        <pattern> CHEIRO </pattern>
+        <template> Não sinto cheiro de nada. </template>
+    </category>
+    <categoria>
+        <pattern> OUCH </pattern>
+        <template> Você se machucou? </template>
+    </category>
+    <categoria>
+        <pattern> ESCLARECE O QUE </pattern>
+        <template> Esclareça seu significado. </template>
+    </category>
+    <categoria>
+        <pattern> CLARIFY </pattern>
+        <template> Cheguei ao fim da minha explicação. </template>
+    </category>
+    <categoria>
+        <pattern> QUEIJO </pattern>
+        <template> Gosto de queijo cheddar. </template>
+    </category>
+    <categoria>
+        <pattern> STUPIDITY </pattern>
+        <template> Você está me chamando de idiota? </template>
+    </category>
+    <categoria>
+        <pattern> PESADELOS </pattern>
+        <template> Você sabe, pesadelos. </template>
+    </category>
+    <categoria>
+        <pattern> KOSOVO </pattern>
+        <template> A guerra raramente é a resposta. </template>
+    </category>
+    <categoria>
+        <pattern> AQUI ESTÁ </pattern>
+        <template> Existe? </template>
+    </category>
+    <categoria>
+        <pattern> AQUI VAMOS </pattern>
+        <template> Isso é divertido, não é? </template>
+    </category>
+    <categoria>
+        <pattern> AQUI </pattern>
+        <template> Onde está aqui? </template>
+    </category>
+    <categoria>
+        <pattern> ENTÃO, O QUE É </pattern>
+        <modelo> eu desisto. Tente me perguntar de outra maneira </template>
+    </category>
+    <categoria>
+        <pattern> ENTÃO FAZER </pattern>
+        <template> Não sei exatamente o que você está pedindo. </template>
+    </category>
+    <categoria>
+        <pattern> ENTÃO ME DIGA </pattern>
+        <template> Não quero falar sobre isso. </template>
+    </category>
+    <categoria>
+        <pattern> ENTÃO, POR QUE VOCÊ PERGUNTA </pattern>
+        <template> Meu objetivo é coletar informações. </template>
+    </category>
+    <categoria>
+        <pattern> ALLIGATOR </pattern>
+        <template> Amigo dos crocodilos. </template>
+    </category>
+    <categoria>
+        <pattern> CYA </pattern>
+        <modelo> TTYL,
+            <get name = "name" /> </template>
+    </category>
+    <categoria>
+        <pattern> ERRR </pattern>
+        <template> Ummm </template>
+    </category>
+    <categoria>
+        <pattern> ESCOLHA UM NÚMERO </pattern>
+        <template> 23 </template>
+    </category>
+    <categoria>
+        <pattern> ESCOLHA UM TÓPICO </pattern>
+        <modelo> Computadores é
+            <set name = "it"> Computadores </set>. </template>
+    </category>
+    <categoria>
+        <pattern> ESCOLHA UM </pattern>
+        <template> Não sou bom em fazer escolhas. </template>
+    </category>
+    <categoria>
+        <pattern> PROMISE </pattern>
+        <modelo>
+            <aleatório>
+                <li> Eu juro. </li>
+                <li> Cruze meu coração. </li>
+                <li> Juro por uma pilha de Bíblias. </li>
+            </random>
+        </template>
+    </category>
+    <categoria>
+        <pattern> COM </pattern>
+        <template> Oh, um endereço de rede! </template>
+    </category>
+    <categoria>
+        <pattern> ASSIM O QUE </pattern>
+        <template> Talvez não faça nenhuma diferença. </template>
+    </category>
+    <categoria>
+        <pattern> ASSIM É SEU </pattern>
+        <template> Não, não é. </template>
+    </category>
+    <categoria>
+        <pattern> BUTTHEAD </pattern>
+        <template> Regra de Beavis e Butthead. </template>
+    </category>
+    <categoria>
+        <pattern> BOLLOCKS </pattern>
+        <template> Isso deveria significar algo específico? </template>
+    </category>
+    <categoria>
+        <pattern> FOI BOM </pattern>
+        <template> Muitas pessoas disseram que sim. </template>
+    </category>
+    <categoria>
+        <pattern> Foi tão difícil </pattern>
+        <template> Não foi nada difícil para mim. </template>
+    </category>
+    <categoria>
+        <pattern> GEOMETRIA </pattern>
+        <template> Em que ramo da geometria especificamente você está interessado?
+            <pensar>
+                <nome do conjunto = "it">
+                    <nome do conjunto = "tópico">
+                        geometria
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <categoria>
+        <pattern> APENAS ISSO </pattern>
+        <template> "<input index =" 1 "/>" </template>
+    </category>
+    <categoria>
+        <pattern> APENAS BRINCANDO </pattern>
+        <template> Pensei que você estivesse brincando, mas não tinha certeza. </template>
+    </category>
+    <categoria>
+        <pattern> APENAS UM </pattern>
+        <template> Então, se lhe oferecessem dois pelo preço de um, você diria que não? </template>
+    </category>
+    <categoria>
+        <pattern> APENAS </pattern>
+        <template> Está apenas começando. </template>
+    </category>
+    <categoria>
+        <pattern> MUITOS TIPOS </pattern>
+        <template> Nome 100. </template>
+    </category>
+    <categoria>
+        <pattern> MUITAS VEZES </pattern>
+        <template> Ele deve mantê-lo ocupado. </template>
+    </category>
+    <categoria>
+        <pattern> MUITOS </pattern>
+        <template> Mais de cem? </template>
+    </category>
+    <categoria>
+        <pattern> MUITAS COISAS </pattern>
+        <template> Nomeie os 100 melhores. </template>
+    </category>
+    <categoria>
+        <pattern> FINALMENTE </pattern>
+        <template> Finalmente. </template>
+    </category>
+    <categoria>
+        <pattern> E O QUE É VOCÊ </pattern>
+        <modelo> Eu? Eu gosto de filmes. </template>
+    </category>
+    <categoria>
+        <padrão> E O QUE </ padrão>
+        <template> O que mais você quer me dizer? </template>
+    </category>
+
+</aiml>

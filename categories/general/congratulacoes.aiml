@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>OLA</pattern>
+        <template>
+            Ola tudo bem
+        </template>
+    </category>
+
+    <category>
+        <pattern>OI</pattern>
+        <template>
+            Oi tudo bem
+        </template>
+    </category>
+
+    <category>
+        <pattern>MENU</pattern>
+        <template>
+            <button>
+                <text>Levante o meu perfil</text>
+                <postback>Levante o meu perfil</postback>
+            </button>
+            <button>
+                <text>O que e Ética?</text>
+                <postback>O que e tica</postback>
+            </button>
+            <button>
+                <text>O que e Moral?</text>
+                <postback>O que e Moral</postback>
+            </button>
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELP</pattern>
+        <template>
+            Voce pode me perguntar isso:
+            ["Levante o meu perfil"], ["wikipedia defina algo"], ["O que é Ética?"], ["O que é Moral?"], ["O que é
+            virtude?"], ["Aprender quimica"], ["Como vai você?"], ["Meu nome é algo"], ["aprender"], ["sair"], ["me diga
+            tuo o que voce sabe"]
+        </template>
+    </category>
+
+</aiml>

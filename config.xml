@@ -52,7 +52,7 @@ console:
               type:   file
               config:
                 categories_storage:
-                  dirs: storagedepressao/categories
+                  dirs: categories
                   subdirs: true
                   extension: .aiml
                 errors_storage:

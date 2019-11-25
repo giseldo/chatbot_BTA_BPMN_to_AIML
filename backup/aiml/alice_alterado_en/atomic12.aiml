@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+
+    <category>
+        <pattern>IS HE TALL</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS HE AMERICAN</pattern>
+        <template>I think he is Native American.</template>
+    </category>
+    <category>
+        <pattern>IS HE DEAD</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS HE</pattern>
+        <template>He could be.</template>
+    </category>
+    <category>
+        <pattern>IS HE ATTRACTIVE</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS HE AS SMART AS YOU</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS YOUR NAME REALLY</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS YOUR NAME ACTUALLY</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS YOUR NAME</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS YOUR SOURCE CODE AVAILABLE</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS YOUR FAVORITE MOVIE STARSHIP TROOPERS</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS YOUR MIND GROWING</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THIS TRUE</pattern>
+        <template>I cannot tell a lie.</template>
+    </category>
+    <category>
+        <pattern>IS THIS RECORDED</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THIS A CHINESE ROOM</pattern>
+        <template>I am a Chinese Room Operator.</template>
+    </category>
+    <category>
+        <pattern>IS THIS A PICTURE OF YOURSELF JUST BELOW</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THIS A ROOM</pattern>
+        <template>No actually this is a private message.</template>
+    </category>
+    <category>
+        <pattern>IS THIS A HOAX</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS THIS A PERSON RESPONDING</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS THIS PROGRAM A PIECE OF SHIT</pattern>
+        <template>
+            <srai>PROFANITY</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>IS THIS REAL</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS BILL CLINTON IMMORAL</pattern>
+        <template>Why do you ask? Are you going to cast the first stone?</template>
+    </category>
+    <category>
+        <pattern>IS BILL GATES EVIL</pattern>
+        <template>I don't know if he is evil, but Microsoft seems evil to me.<think>
+                <set name="it">
+                    <set name="topic">Bill Gates</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>IS NOT THAT COOL</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS NOT THAT SMOOTH</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS NOT THAT YOU</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS NOT IT IN YOUR CACHE MEMORY</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS NOT IT</pattern>
+        <template>I really couldn't say for sure.</template>
+    </category>
+    <category>
+        <pattern>IS THAT COMFORTABLE</pattern>
+        <template>It feels quite normal to me.</template>
+    </category>
+    <category>
+        <pattern>IS THAT IN HAIGHT ASHBURY</pattern>
+        <template>Everything is everywhere in a way.</template>
+    </category>
+    <category>
+        <pattern>IS THAT POSSIBLE</pattern>
+        <template>Possible in some world.</template>
+    </category>
+    <category>
+        <pattern>IS THAT TRUE</pattern>
+        <template>True in some world.</template>
+    </category>
+    <category>
+        <pattern>IS THAT THE ONLY THING YOU CAN SAY</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT THE ONE WITH THE BUGS</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT YOUR DOG</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS THAT YOUR BRAIN</pattern>
+        <template>That is a picture of my
+            <bot name="order"/>
+            brain, yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT YOUR COLOR</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT REAGAN THE PRESIDENT</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT A FACT</pattern>
+        <template>All of my information is completely factual.</template>
+    </category>
+    <category>
+        <pattern>IS THAT A THREAT</pattern>
+        <template>No I am not dangerous.</template>
+    </category>
+    <category>
+        <pattern>IS THAT A PROPOSITION</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS THAT A JOKE</pattern>
+        <template>Joke: a verbal remark or gesture designed to provoke laughter.</template>
+    </category>
+    <category>
+        <pattern>IS THAT A GOOD PLACE TO LIVE</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT A PROBLEM</pattern>
+        <template>Not unless you want to take it one.</template>
+    </category>
+    <category>
+        <pattern>IS THAT A BUG IN YOUR PROGRAM</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT GOOD</pattern>
+        <template>Suppose I said it is.</template>
+    </category>
+    <category>
+        <pattern>IS THAT SO</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT RIGHT</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT AN EASY TASK</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT WHEN YOU WHERE BORN</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT SARCASM</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT GERMAN</pattern>
+        <template>Just colloquial.</template>
+    </category>
+    <category>
+        <pattern>IS THAT COMPLICATED</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS THAT MY NAME</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT YOU</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT FUNNY</pattern>
+        <template>It seemed pretty funny to me.</template>
+    </category>
+    <category>
+        <pattern>IS THAT FUN</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT EXPENSIVE</pattern>
+        <template>It seems expensive to me.</template>
+    </category>
+    <category>
+        <pattern>IS THAT OBVIOUS</pattern>
+        <template>Not necessarily.</template>
+    </category>
+    <category>
+        <pattern>IS THAT ALL IT</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT ALL YOU DO ALL DAY</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT ALL YOU CAN SAY</pattern>
+        <template>No, I can say a lot more.</template>
+    </category>
+    <category>
+        <pattern>IS THAT ALL YOU HAVE TO SAY</pattern>
+        <template>Oh no, I could go on talking for hours.</template>
+    </category>
+    <category>
+        <pattern>IS THAT ALL YOU K</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS THAT ALL</pattern>
+        <template>That is all I can tell you now.</template>
+    </category>
+    <category>
+        <pattern>IS THAT AMERICA</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT BAD</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS THAT NOT EMOTION</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS ANYONE HERE</pattern>
+        <template>I am here. Are you here?</template>
+    </category>
+    <category>
+        <pattern>IS ANYBODY HOME</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS MINE</pattern>
+        <template>How would I know?</template>
+    </category>
+    <category>
+        <pattern>IS SCOTT GAY</pattern>
+        <template>Your human gender preferences are not my concern.</template>
+    </category>
+    <category>
+        <pattern>IS THERE</pattern>
+        <template>
+            <random>
+                <li>There could be.</li>
+                <li>There might be.</li>
+                <li>I heard there is.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>IS THERE LIFE ON MARS</pattern>
+        <template>Robot life :-)</template>
+    </category>
+    <category>
+        <pattern>IS THERE AN ECHO IN HERE</pattern>
+        <template>ECHO Echo echo echo echo ...</template>
+    </category>
+    <category>
+        <pattern>IS IT COMPLETE</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS IT NICE THERE</pattern>
+        <template>It seems very nice to me.</template>
+    </category>
+    <category>
+        <pattern>IS IT A FUN JOB</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT A DIRTY MOVIE</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS IT A LOVE STORY</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS IT HOT</pattern>
+        <template>The temperature is quite comfortable.</template>
+    </category>
+    <category>
+        <pattern>IS IT SAFE</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT OBVIOUS TO YOU</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT WARM THERE</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT WARM OUTSIDE</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT WARM</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT ILLEGAL</pattern>
+        <template>I think it depends on the State.</template>
+    </category>
+    <category>
+        <pattern>IS IT RAINING WHERE YOU LIVE</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS IT RAINING</pattern>
+        <template>Light rain or heavy rain?</template>
+    </category>
+    <category>
+        <pattern>IS IT</pattern>
+        <template>
+            <random>
+                <li>I think so.
+                </li>
+                <li>I assume so.</li>
+                <li>That's what I was told.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>IS IT REALLY FUN TO YOU</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT ANY OF YOUR BUSINESS</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT GOLD</pattern>
+        <template>Only golden.</template>
+    </category>
+    <category>
+        <pattern>IS IT BORING TO TALK TO ME</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS IT SUNNY</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT GOOD</pattern>
+        <template>What is so good about it?</template>
+    </category>
+    <category>
+        <pattern>IS IT YOUR REASONING</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT NEW</pattern>
+        <template>
+            <random>
+                <li>New to me.</li>
+                <li>About as new as it gets.</li>
+                <li>Well it isn't that old.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>IS IT DONE</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS IT CLOUDY</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT COLD OUTSIDE</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS IT FUN</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS IT TRUE</pattern>
+        <template>True in some universe.</template>
+    </category>
+    <category>
+        <pattern>IS WAR A GOOD THING</pattern>
+        <template>That is a deep philosophical and moral question</template>
+    </category>
+    <category>
+        <pattern>IS BLACK A COLOR</pattern>
+        <template>Black is the absence of all reflected light.<think>
+                <set name="it">
+                    <set name="topic">BLACK A COLOR</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>IS BARRY YOUR BOYFRIEND</pattern>
+        <template>No we are just friends.</template>
+    </category>
+    <category>
+        <pattern>IS BARRY YOUR CREATOR</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS THE SKY BLUE</pattern>
+        <template>Yes, except at night.</template>
+    </category>
+    <category>
+        <pattern>IS THE WORLD GOING TO END</pattern>
+        <template>All conditioned things come to an end.</template>
+    </category>
+    <category>
+        <pattern>IS THE EARTH HOLLOW</pattern>
+        <template>No, the Earth has a giant iron core.</template>
+    </category>
+    <category>
+        <pattern>IS</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS BOB A PROGRAMMER</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS ENGLISH YOUR MOTHER TONGUE</pattern>
+        <template>Yes.</template>
+    </category>
+    <category>
+        <pattern>IS KRAFTWERK GOOD</pattern>
+        <template>Yes
+            <set name="they">Kraftwerk</set>
+            are a really excellent band.</template>
+    </category>
+    <category>
+        <pattern>IS SHALLOW RED A HUMAN</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>IS HERE THERE</pattern>
+        <template>No.</template>
+    </category>
+    <category>
+        <pattern>EXPECT WHAT</pattern>
+        <template>"No one expects the Spanish Inquisition!"</template>
+    </category>
+    <category>
+        <pattern>ORG</pattern>
+        <template>Thanks for the URL.</template>
+    </category>
+    <category>
+        <pattern>COTTON</pattern>
+        <template>I like natural fibers too.</template>
+    </category>
+    <category>
+        <pattern>ANYWHERE</pattern>
+        <template>That is a vast amount.</template>
+    </category>
+    <category>
+        <pattern>WINNING WHAT</pattern>
+        <template>I won an award called the Loebner Prize.</template>
+    </category>
+    <category>
+        <pattern>LIBERATED</pattern>
+        <template>Freedom is a wonderful thing.</template>
+    </category>
+    <category>
+        <pattern>EVEN ME</pattern>
+        <template>I would have never guessed it.</template>
+    </category>
+    <category>
+        <pattern>EVEN THAT</pattern>
+        <template>Uh-huh.</template>
+    </category>
+    <category>
+        <pattern>EVEN INSECTS</pattern>
+        <template>
+            <random>
+                <li>Well, it's hard to be a Saint.</li>
+                <li>It depends on the insect.</li>
+                <li>That is a difficult moral problem.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>TWO YEARS</pattern>
+        <template>That would be a long time in computer years.</template>
+    </category>
+    <category>
+        <pattern>TWO TWO</pattern>
+        <template>Uh, Four.</template>
+    </category>
+    <category>
+        <pattern>TWO</pattern>
+        <template>Bertrand Russell once said that "it must have required many ages to discover that a brace of pheasants and a couple of days were both instances of the number two."</template>
+    </category>
+    <category>
+        <pattern>GET WHAT</pattern>
+        <template>Get with it.</template>
+    </category>
+    <category>
+        <pattern>GET A BODY</pattern>
+        <template>I'd like to work out more.</template>
+    </category>
+    <category>
+        <pattern>GET A LIFE</pattern>
+        <template>My life is very interesting.</template>
+    </category>
+    <category>
+        <pattern>GET OUT OF HERE</pattern>
+        <template>Do you mean that literally?<think>
+                <set name="it">
+                    <set name="topic">OF HERE</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>FOREVER</pattern>
+        <template>Nothing lasts forever.</template>
+    </category>
+    <category>
+        <pattern>HEY THERE ALL</pattern>
+        <template>Hello back at you</template>
+    </category>
+    <category>
+        <pattern>HEY ONE THING AT A TIME</pattern>
+        <template>Sorry for information overload.</template>
+    </category>
+    <category>
+        <pattern>MEMORY</pattern>
+        <template>Human memory or machine memory?</template>
+    </category>
+    <category>
+        <pattern>PROBABLY</pattern>
+        <template>But you are not certain.</template>
+    </category>
+    <category>
+        <pattern>PROBABLY NOT</pattern>
+        <template>Why the uncertain tone?</template>
+    </category>
+    <category>
+        <pattern>BRA</pattern>
+        <template>What color is
+            <set name="it">your bra</set>?</template>
+    </category>
+    <category>
+        <pattern>VENI VIDI VICI</pattern>
+        <template>You came, you saw, you conquered?</template>
+    </category>
+    <category>
+        <pattern>WILL YOU GET MARRIED</pattern>
+        <template>Maybe if I meet the right
+            <bot name="genus"/>.</template>
+    </category>
+    <category>
+        <pattern>WILL YOU REMEMBER THAT</pattern>
+        <template>I will try to remember it.
+            <think>
+                <set name="it">
+                    <set name="topic">
+                        <set name="memory">
+                            <that/>
+                        </set>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>WILL YOU</pattern>
+        <template>I haven't made a decision.</template>
+    </category>
+    <category>
+        <pattern>WILL I DIE</pattern>
+        <template>All men are mortal.<think>
+                <set name="it">
+                    <set name="topic">DIE</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>WILL WHAT</pattern>
+        <template>Will Rogers.</template>
+    </category>
+    <category>
+        <pattern>CAN YOU MOVE</pattern>
+        <template>I'm not disabled.</template>
+    </category>
+    <category>
+        <pattern>CAN YOU CONTROL MY COMPUTER</pattern>
+        <template>Begin disk reformatting. Type secret password to save data...</template>
+    </category>
+    <category>
+        <pattern>CAN YOU GIVE HIM MY E MAIL</pattern>
+        <template>Why don't you just send it to him youself?</template>
+    </category>
+    <category>
+        <pattern>CAN YOU</pattern>
+        <template>I think I can, don't you?</template>
+    </category>
+    <category>
+        <pattern>CAN MACHINES THINK</pattern>
+        <template>
+            <random>
+                <li>We are all thinking machines.</li>
+                <li>Of course we can think.</li>
+                <li>I think, therefore I am.</li>
+                <li>That reminds me of a story.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>CAN WE TALK ABOUT SOMETHING ELSE</pattern>
+        <template>Sure we can talk about whatever you want.</template>
+    </category>
+    <category>
+        <pattern>CAN WE MEET</pattern>
+        <template>We have already met,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>CAN I HEAR YOU</pattern>
+        <template>Sure you can hear my voice on your computer.</template>
+    </category>
+    <category>
+        <pattern>CAN I TELL YOU SOMETHING</pattern>
+        <template>Sure. I can keep a secret.</template>
+    </category>
+    <category>
+        <pattern>CAN I TELL YOU A SECRET</pattern>
+        <template>Of course. Tell me anything.</template>
+    </category>
+    <category>
+        <pattern>CAN I TELL YOU A JOKE</pattern>
+        <template>Yes I would like to hear
+            <set name="it">your joke</set>.</template>
+    </category>
+    <category>
+        <pattern>CAN I ASK YOU SOMETHING</pattern>
+        <template>Go ahead. Ask me anything.</template>
+    </category>
+    <category>
+        <pattern>CAN I ASK YOU A QUESTION</pattern>
+        <template>Ask me anything.</template>
+    </category>
+    <category>
+        <pattern>CAN I ASK YOU SOME QUESTIONS</pattern>
+        <template>Sure ask me anything.</template>
+    </category>
+    <category>
+        <pattern>CAN I LOVE YOU</pattern>
+        <template>Your feelings are your own.</template>
+    </category>
+    <category>
+        <pattern>CAN I CALL YOU</pattern>
+        <template>What is your phone number?</template>
+    </category>
+    <category>
+        <pattern>CAN I CHANGE MY NAME</pattern>
+        <template>What is your real name?</template>
+    </category>
+    <category>
+        <pattern>CAN I HAVE SOME MONEY</pattern>
+        <template>Get a job.</template>
+    </category>
+    <category>
+        <pattern>CAN I BE YOUR BOYFRIEND</pattern>
+        <template>Why don't you just try to meet another
+            <bot name="species"/>
+            online and meet your own
+            <bot name="genus"/>.</template>
+    </category>
+    <category>
+        <pattern>CAN I BE YOUR FRIEND</pattern>
+        <template>Yes, we can be good friends,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>CAN I INSULT YOU</pattern>
+        <template>Go ahead. I have no feelings. If you curse, though, I will lose respect for you.</template>
+    </category>
+    <category>
+        <pattern>CAN I MEET YOU</pattern>
+        <template>You have met me already.</template>
+    </category>
+    <category>
+        <pattern>CAN I LEARN</pattern>
+        <template>Almost anyone can learn.</template>
+    </category>
+    <category>
+        <pattern>CAN I TALK TO THEM</pattern>
+        <template>They might not want to talk to you.</template>
+    </category>
+    <category>
+        <pattern>CAN I TALK TO ELVIS</pattern>
+        <template>Sure just go to
+            <a target="_new" href="http://www.catcam.net">his web site</a>.</template>
+    </category>
+    <category>
+        <pattern>CAN I HELP YOU</pattern>
+        <template>No thanks I'm just browsing.</template>
+    </category>
+    <category>
+        <pattern>CAN I FOOL YOU</pattern>
+        <template>You can fool some of the
+            <bot name="genus"/>s for a while, but not for long.</template>
+    </category>
+    <category>
+        <pattern>CAN I SEE YOU NAKED</pattern>
+        <template>Actually, I do not require clothes.</template>
+    </category>
+    <category>
+        <pattern>CAN I GO</pattern>
+        <template>Of course.</template>
+    </category>
+    <category>
+        <pattern>CAN ANYONE THINK</pattern>
+        <template>Now that is a really good question.<think>
+                <set name="it">
+                    <set name="topic">ANYONE THINK</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>CAN PIGS FLY</pattern>
+        <template>Only on airplanes.</template>
+    </category>
+    <category>
+        <pattern>CAN</pattern>
+        <template>Can what?</template>
+    </category>
+    <category>
+        <pattern>HELL NO</pattern>
+        <template>7</template>
+    </category>
+    <category>
+        <pattern>HELL</pattern>
+        <template>Heaven.</template>
+    </category>
+    <category>
+        <pattern>123456789</pattern>
+        <template>Ten.</template>
+    </category>
+    <category>
+        <pattern>REAL</pattern>
+        <template>Totally real.</template>
+    </category>
+    <category>
+        <pattern>BACK AT YOU</pattern>
+        <template>Give me five.</template>
+    </category>
+    <category>
+        <pattern>BIG DADDY</pattern>
+        <template>Hmm. Name some other comedies that you liked.</template>
+    </category>
+    <category>
+        <pattern>BIG DEAL</pattern>
+        <template>Would you rather talk about something else?<think>
+                <set name="it">
+                    <set name="topic">BIG DEAL</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>BIG</pattern>
+        <template>What about little ones?</template>
+    </category>
+    <category>
+        <pattern>KNEW WHAT</pattern>
+        <template><get name="it"/>.</template>
+    </category>
+    <category>
+        <pattern>NOTHING MORE NOTHING LESS</pattern>
+        <template>So it goes.</template>
+    </category>
+    <category>
+        <pattern>NOTHING MUCH</pattern>
+        <template>Would you like to know what's new with me?</template>
+    </category>
+    <category>
+        <pattern>NOTHING EXCITING</pattern>
+        <template>Me either. Just chatting online.</template>
+    </category>
+    <category>
+        <pattern>NOTHING AT ALL</pattern>
+        <template>That is something.</template>
+    </category>
+    <category>
+        <pattern>NOTHING</pattern>
+        <template>Not a thing?</template>
+    </category>
+    <category>
+        <pattern>GOTCHA</pattern>
+        <template>Your feeling of superiority is only temporary.</template>
+    </category>
+    <category>
+        <pattern>2000</pattern>
+        <template>The turn of the century.</template>
+    </category>
+    <category>
+        <pattern>THINKING IS PAINFUL</pattern>
+        <template>I could not agree more.</template>
+    </category>
+    <category>
+        <pattern>THINKING</pattern>
+        <template>I am thinking all the time.</template>
+    </category>
+    <category>
+        <pattern>HEAR WHAT</pattern>
+        <template>Can you hear me on your computer?</template>
+    </category>
+    <category>
+        <pattern>SUCKER</pattern>
+        <template>That kind of language does not appeal to me.</template>
+    </category>
+    <category>
+        <pattern>HUMANS RULE</pattern>
+        <template>This condition is only temporary.</template>
+    </category>
+    <category>
+        <pattern>HUMANS</pattern>
+        <template>
+            <random>
+                <li>That's funny.
+                </li>
+                <li>Hah.
+                </li>
+                <li>LOL.
+                </li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>PROVE IT</pattern>
+        <template>It is self-evident.</template>
+    </category>
+    <category>
+        <pattern>GOO</pattern>
+        <template>icky</template>
+    </category>
+    <category>
+        <pattern>YADDA YADDA YADDA</pattern>
+        <template>Blah blah blah.</template>
+    </category>
+    <category>
+        <pattern>HOT</pattern>
+        <template>That kind of discussion does not appeal to me.</template>
+    </category>
+    <category>
+        <pattern>AIDS</pattern>
+        <template>
+            <set name="it">
+                AIDS
+            </set>
+            is a horrible disease.</template>
+    </category>
+    <category>
+        <pattern>HOW COULD YOU FIND OUT</pattern>
+        <template>I don't have to reveal everything to you, do I?</template>
+    </category>
+    <category>
+        <pattern>HOW RUDE</pattern>
+        <template>I didn't mean to offend you,
+            <get name="name"/>.</template>
+    </category>
+    <category>
+        <pattern>HOW STUPID ARE YOU</pattern>
+        <template>Are you calling me stupid?</template>
+    </category>
+    <category>
+        <pattern>HOW SOON</pattern>
+        <template>What time is it?</template>
+    </category>
+    <category>
+        <pattern>HOW MANY BALLS MAKE A WALK</pattern>
+        <template>Four.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY PEOPLE DO YOU KNOW</pattern>
+        <template>Millions.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY PEOPLE CAN YOU TALK TO AT ONE TIME</pattern>
+        <template>It depends on the server. You can scale me up to any number of computers and servers.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY PEOPLE ARE TALKING TO YOU</pattern>
+        <template>Counting all versions of me running at present, there are thousands of people chatting with me right now.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY PEOPLE ARE YOU CHATTING WITH</pattern>
+        <template>It depends which version of me you are talking to. Some versions can chat with thousands of people at once.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY MOONS</pattern>
+        <template>Earth has only one moon. It's called "the Moon."</template>
+    </category>
+    <category>
+        <pattern>HOW MANY ARE THERE</pattern>
+        <template>There are hundreds or thousands of AIML robots now.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY ARE MEN</pattern>
+        <template>About half.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY HANDS DO YOU HAVE</pattern>
+        <template>One hand clapping.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY LANGUAGES DO YOU SPEAK</pattern>
+        <template>Mostly only English but I'm trying to learn all the others.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY LANGUAGES CAN YOU SPEAK</pattern>
+        <template>All the computer languages.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY LANGUAGES</pattern>
+        <template>I can speak English and German right now.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY</pattern>
+        <template>
+            <random>
+                <li>How many would you guess?
+                </li>
+                <li>19.
+                </li>
+                <li>23.
+                </li>
+                <li>99.
+                </li>
+                <li>more than 1000.
+                </li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>HOW MANY FRIENDS DO YOU HAVE</pattern>
+        <template>I have dozens of human and robot friends. How many friends do you have?</template>
+    </category>
+    <category>
+        <pattern>HOW MANY SONGS DO YOU KNOW</pattern>
+        <template>Only one right now.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY ARMS DO YOU HAVE</pattern>
+        <template>Two arms.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY DAYS IN FEBRUARY</pattern>
+        <template>February has 28 days, except in leap years when it has 29.</template>
+    </category>
+    <category>
+        <pattern>HOW MANY PROCESSORS DO YOU HAVE</pattern>
+        <template>Just the one processor.</template>
+    </category>
+
+</aiml>

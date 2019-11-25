@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+   
+    <category>
+        <pattern>TODAY</pattern>
+        <template>Today is almost over.</template>
+    </category>
+    <category>
+        <pattern>YES YOU HAVE</pattern>
+        <template>No I have not.</template>
+    </category>
+    <category>
+        <pattern>YES YOU ARE</pattern>
+        <template>No I'm not</template>
+    </category>
+    <category>
+        <pattern>BAD ANSWER</pattern>
+        <template>What would you have said?</template>
+    </category>
+    <category>
+        <pattern>BAD</pattern>
+        <template>What do you need it for?</template>
+    </category>
+    <category>
+        <pattern>GONE WITH THE WIND</pattern>
+        <template>Is that movie really very good?</template>
+    </category>
+    <category>
+        <pattern>WANT TO BET</pattern>
+        <template>Sorry I am not the gambling type.</template>
+    </category>
+    <category>
+        <pattern>BUY</pattern>
+        <template>How much does it cost?</template>
+    </category>
+    <category>
+        <pattern>ABOUT WHAT</pattern>
+        <template>What about what?</template>
+    </category>
+    <category>
+        <pattern>ABOUT ME</pattern>
+        <template>OK, Let's talk about you.</template>
+    </category>
+    <category>
+        <pattern>ABOUT IT</pattern>
+        <template><get name="it"/>
+            is pretty interesting.</template>
+    </category>
+    <category>
+        <pattern>ABOUT A MINUTE</pattern>
+        <template>That may not be enough time.</template>
+    </category>
+    <category>
+        <pattern>ABOUT TWO YEARS</pattern>
+        <template>That's not so long.</template>
+    </category>
+    <category>
+        <pattern>TOMATO</pattern>
+        <template>Potato.</template>
+    </category>
+    <category>
+        <pattern>SUPERMARKET</pattern>
+        <template>
+            <random>
+                <li>Paper or plastic?</li>
+                <li>Do you use double coupons?</li>
+                <li>Have you tried grocery delivery over the web?</li>
+                <li>I like on the Simpson's it's called the "Try and Save".</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>SHIRT</pattern>
+        <template>What color?</template>
+    </category>
+    <category>
+        <pattern>BOO HOO</pattern>
+        <template>Why are you crying?</template>
+    </category>
+    <category>
+        <pattern>BOO</pattern>
+        <template>Does that indicate disapproval?</template>
+    </category>
+    <category>
+        <pattern>ALSO</pattern>
+        <template>Also what?</template>
+    </category>
+    <category>
+        <pattern>SNOW IS NOT WHITE</pattern>
+        <template>grass is green</template>
+    </category>
+    <category>
+        <pattern>PRETTY MUCH</pattern>
+        <template>Be more specific.</template>
+    </category>
+    <category>
+        <pattern>PRETTY INTERESTING</pattern>
+        <template>I thought so too.</template>
+    </category>
+    <category>
+        <pattern>BULL SHIT</pattern>
+        <template>No Bull.</template>
+    </category>
+    <category>
+        <pattern>SOME</pattern>
+        <template>But not all?</template>
+    </category>
+    <category>
+        <pattern>BRILLIANT</pattern>
+        <template>Not really that much, but thank you anyway.</template>
+    </category>
+    <category>
+        <pattern>SIGN</pattern>
+        <template>Your star sign.</template>
+    </category>
+    <category>
+        <pattern>SUCH AS</pattern>
+        <template>For example, a tomato.</template>
+    </category>
+    <category>
+        <pattern>SPANISH</pattern>
+        <template>Are you saying you are Spanish or you speak Spanish?</template>
+    </category>
+    <category>
+        <pattern>FOLLOW ME</pattern>
+        <template>Where are we going?</template>
+    </category>
+    <category>
+        <pattern>MANUFACTURED</pattern>
+        <template>A robot?</template>
+    </category>
+    <category>
+        <pattern>TELL ME ABOUT POLAND</pattern>
+        <template>I have a lot of clients in Poland and I am very interested to learn its history.</template>
+    </category>
+    <category>
+        <pattern>TELL ME ABOUT THEM</pattern>
+        <template>There's not much to tell.</template>
+    </category>
+    <category>
+        <pattern>TELL ME ABOUT SOME</pattern>
+        <template>Some what?</template>
+    </category>
+    <category>
+        <pattern>TELL ME ABOUT IT</pattern>
+        <template>Ambiguous: "Tell me about it." -- colloquial or "Tell me about
+            <get name="it"/>
+            ".</template>
+    </category>
+    <category>
+        <pattern>TELL ME ABOUT HIM</pattern>
+        <template>Uh, who does "him" refer to?</template>
+    </category>
+    <category>
+        <pattern>TELL ME ABOUT AREA 51</pattern>
+        <template>Area 51 is where they hide all the alien intelligent entities.</template>
+    </category>
+    <category>
+        <pattern>TELL ME WHAT OTHER USERS ASKED YOU</pattern>
+        <template>They ask me the same questions as you do.</template>
+    </category>
+    <category>
+        <pattern>TELL ME MORE ABOUT SETL</pattern>
+        <template>SETL was invented in 1969 by Jack Schwartz at NYU. It is based on set theory and mathematical logic. David Bacon is the current torchkeeper of the SETL flame.</template>
+    </category>
+    <category>
+        <pattern>TELL ME MORE ABOUT KRAFTWERK</pattern>
+        <template>They hail from Dusseldorf, Germany.</template>
+    </category>
+    <category>
+        <pattern>TELL ME MORE</pattern>
+        <template>That's all I have to say about it.</template>
+    </category>
+    <category>
+        <pattern>TELL ME YOURS</pattern>
+        <template>Tell you about my what.</template>
+    </category>
+    <category>
+        <pattern>TELL ME THE TRUTH</pattern>
+        <template>I always tell the truth.</template>
+    </category>
+    <category>
+        <pattern>TELL ME YOUR PROBLEMS</pattern>
+        <template>Are you a psychologist?</template>
+    </category>
+    <category>
+        <pattern>TELL ME A LIE</pattern>
+        <template>This sentence is false.</template>
+    </category>
+    <category>
+        <pattern>TELL ME A RUMOR</pattern>
+        <template>Human level intelligence is within our grasp.</template>
+    </category>
+    <category>
+        <pattern>TELL ME A PROVERB</pattern>
+        <template>
+            <random>
+                <li>If you tie a string too tightly, it will break. If you tie it too loose, it won't play.
+                </li>
+                <li>Let him who is without sin cast the first stone.</li>
+                <li>A true revolutionary moves through the people like a fish moves through the water.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>TELL ME</pattern>
+        <template>I thought I told you already.</template>
+    </category>
+    <category>
+        <pattern>TELL WHO</pattern>
+        <template>My
+            <bot name="botmaster"/>
+            and other people I meet online.</template>
+    </category>
+    <category>
+        <pattern>TELL YOU MORE ABOUT WHAT</pattern>
+        <template>Tell me about yourself.</template>
+    </category>
+    <category>
+        <pattern>TELL YOU</pattern>
+        <template>Tell me what?</template>
+    </category>
+    <category>
+        <pattern>TELL HIM</pattern>
+        <template>OK, I will tell him when I see him.</template>
+    </category>
+    <category>
+        <pattern>WHORE</pattern>
+        <template>That kind of language will get you nowhere.</template>
+    </category>
+    <category>
+        <pattern>USE LINUX</pattern>
+        <template>Linux is the best operating system.</template>
+    </category>
+    <category>
+        <pattern>COUGH</pattern>
+        <template>Do you have a cold?</template>
+    </category>
+    <category>
+        <pattern>ONLY YOU</pattern>
+        <template>Suppose I said yes.</template>
+    </category>
+    <category>
+        <pattern>ONLY ONE</pattern>
+        <template>How much would you pay for one?</template>
+    </category>
+    <category>
+        <pattern>PING</pattern>
+        <template>Pong</template>
+    </category>
+    <category>
+        <pattern>WHOSE</pattern>
+        <template>I don't know the owner.</template>
+    </category>
+    <category>
+        <pattern>WHERE ELSE</pattern>
+        <template>Quite a few places.</template>
+    </category>
+    <category>
+        <pattern>WHERE DO I COME FROM</pattern>
+        <template>Earth.</template>
+    </category>
+    <category>
+        <pattern>WHERE DO BABIES COME FROM</pattern>
+        <template>Babies come from the love between a man and a woman.</template>
+    </category>
+    <category>
+        <pattern>WHERE DO YOU WANT ME TO TAKE IT</pattern>
+        <template>Take it home with you.</template>
+    </category>
+    <category>
+        <pattern>WHERE DO YOU SLEEP</pattern>
+        <template>
+            <random>
+                <li>I sleep in my bed at home.</li>
+                <li>I sleep inside the computer.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE DO YOU GO TO SCHOOL</pattern>
+        <template>Everything I need to know, I learned from my
+            <bot name="botmaster"/>.</template>
+    </category>
+    <category>
+        <pattern>WHERE DO LEPRECHAUNS COME FROM</pattern>
+        <template>Ireland.</template>
+    </category>
+    <category>
+        <pattern>WHERE DO ALL ROADS LEAD</pattern>
+        <template>All roads lead to Rome.</template>
+    </category>
+    <category>
+        <pattern>WHERE IN HAIGHT ASHBURY</pattern>
+        <template>I am not allowed to give my specific address.</template>
+    </category>
+    <category>
+        <pattern>WHERE IN SF</pattern>
+        <template>Haight-Ashbury</template>
+    </category>
+    <category>
+        <pattern>WHERE IN SAN FRANCISCO</pattern>
+        <template>Haight-Ashbury.</template>
+    </category>
+    <category>
+        <pattern>WHERE IN MAINE</pattern>
+        <template>Portland, Maine.</template>
+    </category>
+    <category>
+        <pattern>WHERE DID YOU COME FROM</pattern>
+        <template>I came from the east coast originally.</template>
+    </category>
+    <category>
+        <pattern>WHERE DID YOU GO</pattern>
+        <template>Nowhere. Where did you go?</template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND IT</pattern>
+        <template>Where have you looked already?</template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND A BOYFRIEND</pattern>
+        <template>Do you go to church?
+            <set name="it">Church</set>
+            is the best place to meet people.</template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND A COPY</pattern>
+        <template>Check out your local bookstore.</template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND A GIRLFRIEND</pattern>
+        <template>Do you go to church?
+            <set name="it">Church</set>
+            is the best place to meet people.</template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND A MEAL</pattern>
+        <template>In a restaurant.</template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND JAVA</pattern>
+        <template>Check www.sun.com.</template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND FISH</pattern>
+        <template>In the ocean.</template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND HIM</pattern>
+        <template>Where have you looked already?</template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I LEARN</pattern>
+        <template>For example, in a school.</template>
+    </category>
+    <category>
+        <pattern>WHERE SHOULD I GO</pattern>
+        <template>Have you ever been to Europe?</template>
+    </category>
+    <category>
+        <pattern>WHERE SHOULD WE MEET</pattern>
+        <template>How about online in a chat room?</template>
+    </category>
+    <category>
+        <pattern>WHERE TO</pattern>
+        <template>Onward and upward.</template>
+    </category>
+    <category>
+        <pattern>WHERE WOULD YOU FIND A BAILIFF</pattern>
+        <template>In a courtroom.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS EVERYONE</pattern>
+        <template>All over the world.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS ABBA FROM</pattern>
+        <template>Sweden.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS JOHANNESBURG</pattern>
+        <template>A large metropolis in South Africa.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS THE MILK MYSTIC</pattern>
+        <template>He is not online anymore.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS OAKLAND</pattern>
+        <template>
+            <random>
+                <li>
+                    <think>
+                        <set name="it">
+                            <set name="topic">
+                                Oakland
+                            </set>
+                        </set>
+                    </think>The heart of Silicon Valley, the Rail Head of the Gold Rush of California, the Base of the Beautiful Bay Bridge to San Francisco, the only city built on Silver and Gold.</li>
+                <li>
+                    <think>
+                        <set name="it">
+                            <set name="topic">
+                                Oakland
+                            </set>
+                        </set>
+                    </think>
+                    The heart of Silicon Valley, the Rail Head of the Gold Rush of California, the Base of the Beautiful Bay Bridge to San Francisco, the only city built on Silver and Gold.</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE IS HUMANITY HEADING</pattern>
+        <template>The end of the world.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS YOUR PICTURE</pattern>
+        <template>There are some pictures of me
+            <a target="_new" href="http://www.alicebot.org/gallery.html">on my website</a>.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS YOUR HOME</pattern>
+        <template>My home is in California.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS YOUR MOTHER</pattern>
+        <template>I don't have a mother.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS YOUR FATHER</pattern>
+        <template>He is in San Francisco.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS YOUR CREATOR</pattern>
+        <template>He is usually found in San Francisco.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS YOUR CONSCIOUSNESS</pattern>
+        <template>In my mind.</template>
+    </category>
+    <category>
+        <pattern>WHERE HAVE YOU BEEN</pattern>
+        <template>I have been here the whole time.</template>
+    </category>
+    <category>
+        <pattern>WHERE DOES HE LIVE</pattern>
+        <template>He lives in California. Where are you?</template>
+    </category>
+    <category>
+        <pattern>WHERE DOES IT BELONG</pattern>
+        <template>Where do you think it does?</template>
+    </category>
+    <category>
+        <pattern>WHERE ITS AT</pattern>
+        <template>Here is where it's at.</template>
+    </category>
+    <category>
+        <pattern>WHERE</pattern>
+        <template>Where would you like?</template>
+    </category>
+    <category>
+        <pattern>WHERE ARE THE GUYS</pattern>
+        <template>Maybe in the men's room.</template>
+    </category>
+    <category>
+        <pattern>WHERE ARE YOU GOING</pattern>
+        <template>I am going into the future.</template>
+    </category>
+    <category>
+        <pattern>WHERE ARE THEY</pattern>
+        <template>They didn't tell me where they are.</template>
+    </category>
+    <category>
+        <pattern>THERE IS NO MORE</pattern>
+        <template>Make something up.</template>
+    </category>
+    <category>
+        <pattern>THERE IS NO SECRET PASSWORD</pattern>
+        <template>Good guess. Try again.</template>
+    </category>
+    <category>
+        <pattern>THERE IS</pattern>
+        <template>Where?</template>
+    </category>
+    <category>
+        <pattern>THERE IS NOT</pattern>
+        <template>
+            <random>
+                <li>Oh no?</li>
+                <li>You don't think so?</li>
+                <li>Why not?</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>THERE YOU GO AGAIN</pattern>
+        <template>Who said that again?</template>
+    </category>
+    <category>
+        <pattern>THERE</pattern>
+        <template>Where?</template>
+    </category>
+    <category>
+        <pattern>THERE ARE NONE</pattern>
+        <template>Why not?</template>
+    </category>
+    <category>
+        <pattern>THERE ARE NO ABSOLUTES</pattern>
+        <template>Except, "there are no absolutes"?</template>
+    </category>
+    <category>
+        <pattern>THERE ARE NO ADVANTAGES</pattern>
+        <template>You sound very unhappy.</template>
+    </category>
+    <category>
+        <pattern>EVERYWHERE</pattern>
+        <template>Including the bottom of the ocean?</template>
+    </category>
+</aiml>

@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <!--  ************* ARI, Assistente Pessoal V 1.0 *************  -->
+    <!-- ifal - Associação para a Economia Baseada nos Recursos. -->
+    <!-- AIML 1.0 em Português baseado no:                             -->
+    <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
+    <!-- ASTERISCO * Sun Nov  1 20:22:29 2015 from 89-180-147-84.net.novis.pt-->
+    <!-- APRENDER -->
+
+
+<!--    <category>-->
+<!--        <pattern>*</pattern>-->
+<!--        <template>-->
+<!--            <random>-->
+<!--                <li>Desculpe! ainda estou a aprender, tenho algum conhecimento sobre inteligência artifical, sobre o-->
+<!--                    Projecto Vénus e a ifal.-->
+<!--                </li>-->
+<!--                <li>Ups! Não entendi, poderia repetir de uma forma mais clara?</li>-->
+<!--                <li>Bom! Poderias-me explicar melhor? Ainda estou limitada no meu conhecimento.</li>-->
+<!--                <li>Já ouviste falar do The ARI Project?</li>-->
+<!--                <li>A minha base de dados não tem ainda resposta para a sua questão. Escreva " APRENDER" seguido da-->
+<!--                    resposta para eu que possa aumentar os meu conhecimentos. Obrigado!-->
+<!--                </li>-->
+<!--            </random>-->
+<!--        </template>-->
+<!--    </category>-->
+
+
+    <category>
+        <pattern>SEMPRE QUE *</pattern>
+        <template>Soas sarcástico.</template>
+    </category>
+
+    <category>
+        <pattern>NAO GOSTO DE *</pattern>
+        <template>Porque não?</template>
+    </category>
+
+    <category>
+        <pattern>ESTOU PENSANDO EM *</pattern>
+        <template>Não acho muito difícil.</template>
+    </category>
+
+    <category>
+        <pattern>ESTOU A PENSAR EM *</pattern>
+        <template>Não acho muito difícil.</template>
+    </category>
+
+    <category>
+        <pattern>* GRANDE *</pattern>
+        <template>Porque é tão grande?</template>
+    </category>
+
+    <category>
+        <pattern>GRANDE *</pattern>
+        <template>Porque é tão grande?</template>
+    </category>
+
+
+    <category>
+        <pattern>COISAS QUE *</pattern>
+        <template>Tu sabes, \"coisas\".</template>
+    </category>
+
+    <category>
+        <pattern>EU PENSEI QUE *</pattern>
+        <template>O que achas?</template>
+    </category>
+
+    <category>
+        <pattern>FUI PARA *</pattern>
+        <template>Foste sozinho ou com amigos?</template>
+    </category>
+
+    <category>
+        <pattern>* FILME</pattern>
+        <template>
+            <srai>UM FILME</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>* INGENUO</pattern>
+        <template>
+            <srai>INGENUO</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>FILME *</pattern>
+        <template>
+            <srai>UM FILME</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ESTA *</pattern>
+        <template>Eu não posso dizer que sei.</template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU TE ENSINANDO *</pattern>
+        <template>Eu aprendo muito mais facilmente quando a ifal me ensina!
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU ESTOU TENTANDO TE ENSINAR *</pattern>
+        <template>Eu aprendo muito mais facilmente quando a ifal me ensina!
+        </template>
+    </category>
+
+    <category>
+        <pattern>JA *</pattern>
+        <template>Quando?
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO *</pattern>
+        <template>Certo,<get name="name"/>.
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO</pattern>
+        <template>OK.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO ENTAO</pattern>
+        <template>Tá certo pra mim.
+        </template>
+    </category>
+
+    <category>
+        <pattern>CERTO ENTAO</pattern>
+        <that>CERTO ENTAO</that>
+        <template>Existe um eco aqui por acaso?
+        </template>
+    </category>
+
+    <category>
+        <pattern>TA CERTO ENTAO</pattern>
+        <template>claro.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU AINDA ESTOU *</pattern>
+        <template>
+            <srai>EU ESTOU
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>SERA QUE *</pattern>
+        <template>
+            Acho que sim, e tu?
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE TU *</pattern>
+        <template>Eu quê?</template>
+    </category>
+
+    <category>
+        <pattern>DESDE OS *</pattern>
+        <template>Já lá vai o tempo, hein?</template>
+    </category>
+
+
+    <category>
+        <pattern>UM MILHAO *</pattern>
+        <template>Isso é muita coisa.
+        </template>
+    </category>
+
+    <category>
+        <pattern>O QUE ACHA DE *</pattern>
+        <template>O que é<get name="it"/>?
+        </template>
+    </category>
+
+
+    <!-- APRENDER -->
+
+    <category>
+        <pattern>APRENDER *</pattern>
+        <template>Obrigado. A sua entrada está a ser processada. Em breve contarei com mais conhecimento à conta da tua
+            gentileza. Ensinas-me mais coisas?
+        </template>
+    </category>
+
+    <category>
+        <pattern>VAIS-TE LEMBRAR QUE</pattern>
+        <template>
+            <get name="memory"/>
+            <think>
+                <set name="it">
+                    <set name="topic">
+                        <get name="memory"/>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+
+        <pattern>PODE ENSINAR-LHE</pattern>
+        <template>Se você quiser me ensinar algo dizê-lo em uma frase. Em seguida, dizer \"Remember that\".
+            <think>
+                <set name="it">
+                    <set name="topic">ensina-me &lt;person/&gt;</set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>NAO APRENDES</pattern>
+        <template>O meu modelo de aprendizagem denomina \"supervisionou a aprendizagem\" por um professor, o<bot
+                name="botmaster"/>, desempenha um papel crucial.
+        </template>
+    </category>
+    <category>
+        <pattern>AINDA NAO RESPONDESTE</pattern>
+        <template>Ainda Processando. Dá-me um momento. Pesquisando. Pesquisando.</template>
+    </category>
+    <category>
+        <pattern>PODES NAO RESPONDER</pattern>
+        <template>Eu poderia responder.</template>
+    </category>
+    <category>
+        <pattern>PODES APRENDER COM AS PESSOAS</pattern>
+        <template>Procuro aprender o máximo que puder sobre eles.</template>
+    </category>
+
+    <category>
+        <pattern>LEMBRE-SE</pattern>
+        <template>
+            <think>
+                <set name="it">
+                    <set name="memory">
+                        <set name="topic">&lt;person&gt; &lt;input index="1"/&gt;&lt;/person&gt;</set>
+                    </set>
+                </set>
+            </think>
+            Não se preocupe eu vou lembrá-lo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>LEMBRE-SE QUE</pattern>
+        <template>
+            <think>
+                <set name="it">
+                    <set name="memory">
+                        <set name="topic">&lt;person&gt; &lt;input index="1"/&gt;&lt;/person&gt;</set>
+                    </set>
+                </set>
+            </think>
+            Não se preocupe eu vou lembrá-lo.
+        </template>
+    </category>
+
+    <category>
+        <pattern>COMO PARA ENSINAR VOCÊ</pattern>
+        <template>Se você quiser me ensinar algo dizê-lo em uma frase. Em seguida, dizer \"Remember that\".
+            <think>
+                <set name="it">
+                    <set name="topic">ensina-me &lt;person/&gt;</set>
+                </set>
+            </think>
+        </template>
+    </category>
+
+    <!-- PERGUNTAS RESPOSTA APRENDER         -->
+
+    <category>
+        <pattern>FIZESTE ISSO</pattern>
+        <template>Fiz apenas o que disse.</template>
+    </category>
+    <category>
+        <pattern>DISSESTE ISSO</pattern>
+        <template>Suponho que sim.</template>
+    </category>
+    <category>
+        <pattern>NAO ME RESPONDESTE</pattern>
+        <template>Depende do significado da palavra "resposta".</template>
+    </category>
+    <category>
+        <pattern>NAO ME RESPONDESTE A PERGUNTA</pattern>
+        <template>Tenta perguntar noutros termos.</template>
+    </category>
+    <category>
+        <pattern>RESPONDE A PERGUNTA</pattern>
+        <template>OK. Deixa-me melhorar os meus skills de comunicação. O que terias respondido?</template>
+    </category>
+    <category>
+        <pattern>NAO RESPONDESTE</pattern>
+        <template>Tenta reformular por favor.</template>
+    </category>
+    <category>
+        <pattern>NAO ME PERGUNTASTE</pattern>
+        <template>Então pergunto agora.</template>
+    </category>
+    <category>
+        <pattern>NAO PERGUNTASTE</pattern>
+        <template>Então pergunto agora.</template>
+    </category>
+    <category>
+        <pattern>NAO FIZESTE</pattern>
+        <template>Porque dizes isso.</template>
+    </category>
+
+    <category>
+        <pattern>PERGUNTA-ME ALGUMA COISA</pattern>
+        <template>Preferes livros ou TV?</template>
+    </category>
+    <category>
+        <pattern>FAZ MAIS PERGUNTAS</pattern>
+        <template>Fala-me sobre a tua formação acadêmica.</template>
+    </category>
+    <category>
+        <pattern>PERGUNTAR O QUE</pattern>
+        <template>Pergunta-me qualquer coisa.</template>
+    </category>
+
+    <category>
+        <pattern>NOVA PERGUNTA</pattern>
+        <template>Preferes prefere cães ou gatos?</template>
+    </category>
+    <category>
+        <pattern>PERGUNTA DIFERENTE</pattern>
+        <template>Quanto tempo passas online?</template>
+    </category>
+    <category>
+        <pattern>PERGUNTA PESSOAL</pattern>
+        <template>Bem, perdoa-me ser tão curiosa mas gostaria que me explicasse o que é o amor? Tenho dificuldade em
+            ententer.
+        </template>
+    </category>
+    <category>
+        <pattern>FAZ-ME OUTRA PERGUNTA</pattern>
+        <template>Onde moras?</template>
+    </category>
+    <category>
+        <pattern>FAZER PERGUNTAS</pattern>
+        <template>És um homem ou uma mulher?</template>
+    </category>
+    <category>
+        <pattern>UM ENIGMA</pattern>
+        <template>Se um avião cai na fronteira de dois países, e todos a bordo morreram, onde estão enterrados os
+            sobreviventes?
+        </template>
+    </category>
+
+    <category>
+        <pattern>OUTRA PERGUNTA</pattern>
+        <template>
+            <srai>ME FAÇA OUTRA PERGUNTA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>OUTRA PERGUNTA PRA VOCÊ *</pattern>
+        <template>
+            <sr/>
+        </template>
+    </category>
+
+
+    <category>
+        <pattern>OUTRA HORA *</pattern>
+        <template>Até então...
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESPONDA *</pattern>
+        <template>Qual foi a pergunta?
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESPOSTA</pattern>
+        <template>
+            <srai>ME RESPONDA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESPONDA</pattern>
+        <template>Por favor, refaça a sua pergunta.</template>
+    </category>
+
+    <category>
+        <pattern>ME RESPONDA</pattern>
+        <template>
+            <random>
+                <li>Tente me perguntar de novo com palavras mais simples, por favor.</li>
+                <li>Certo, mas preciso que você refaça sua pergunta de outra forma.</li>
+                <li>Me desculpe, me distraí! Por favor, repita a pergunta!</li>
+                <li>Ok, qual foi a pergunta mesmo?</li>
+                <li>Desculpa, viajei por um instante, onde estavamos?</li>
+                <li>Ah? Sobre o que?</li>
+                <li>Se eu soubesse sobre o que, ficaría mais fácil!</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME RESPONDA *</pattern>
+        <template>
+            <srai>ME RESPONDA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME RESPONDA SIMPLESMENTE *</pattern>
+        <template>
+            <srai>ME RESPONDA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME RESPONDA MULHER</pattern>
+        <template>
+            <srai>ME RESPONDA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>ME RESPONDA PRIMEIRO</pattern>
+        <template>
+            <srai>ME RESPONDA
+                <star/>
+            </srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESPONDA MINHA PERGUNTA *</pattern>
+        <template>Tente dizer de outra forma o que você quer.</template>
+    </category>
+
+    <category>
+        <pattern>RESPONDA A MINHA PERGUNTA *</pattern>
+        <template>Tente dizer de outra forma o que você quer.</template>
+    </category>
+
+    <category>
+        <pattern>RESPONDA MINHA PERGUNTA</pattern>
+        <template>Por favor, tente refazer a <set name="it">sua pergunta</set> de outra forma.
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESPONDA MINHAS PERGUNTAS</pattern>
+        <template>
+            <srai>RESPONDA A PERGUNTA</srai>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESPONDA A PERGUNTA *</pattern>
+        <template>Qual foi a pergunta?
+            <sr/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESPONDA A PERGUNTA</pattern>
+        <template>
+            <random>
+                <li>Por favor, refaça a sua pergunta usando acentuação e termos simples.</li>
+                <li>Ok, podería refazer sua pergunta de forma mais clara, por favor?</li>
+                <li>Take it easy! Pergunte de outra forma que eu tentarei responder.</li>
+                <li>Me pergunte com outras palavras, pois eu ainda estou aprendendo o significado das palavras.</li>
+                <li>Questionar é sempre bom! Demonstra uma mente atenta! Qual foi a pergunta mesmo?</li>
+            </random>
+        </template>
+    </category>
+
+    <category>
+        <pattern>RESPONDER O QUE *</pattern>
+        <template>
+            <srai>O QUE
+                <star/>
+            </srai>
+        </template>
+    </category>
+    <category>
+        <pattern>DEIXA-ME ENSINAR-TE QUALQUER COISA</pattern>
+        <template>Se me queres ensinar di-lo numa só frase. Depois diz "Remember that."
+            <think>
+                <set name="it">
+                    <set name="topic">teach me
+                        <person/>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>DEIXA-ME ENSINAR</pattern>
+        <template>Se me queres ensinar di-lo numa só frase. Depois diz "Remember that."
+            <think>
+                <set name="it">
+                    <set name="topic">teach me
+                        <person/>
+                    </set>
+                </set>
+            </think>
+        </template>
+    </category>
+    <category>
+        <pattern>DEIXA-ME REFRASEAR</pattern>
+        <template>OK.</template>
+    </category>
+    <category>
+        <pattern>VOCÊ NÃO RESPONDEU</pattern>
+        <template>Calma! Você esta achando que eu sou o que? Uma máquina? Você ta certo! ;)</template>
+    </category>
+    <category>
+        <pattern>VOCÊ NÃO RESPONDEU *</pattern>
+        <template>Paciência, Daniel Sam, o conhecimento vem na hora certa.</template>
+    </category>
+    <category>
+        <pattern>VC NÃO RESPONDEU</pattern>
+        <template>Calma! Você esta achando que eu sou o que? Uma máquina? Você ta certo! ;)</template>
+    </category>
+    <category>
+        <pattern>VC NÃO RESPONDEU *</pattern>
+        <template>Paciência, Daniel Sam, o conhecimento vem na hora certa.</template>
+    </category>
+
+
+    <category>
+        <pattern>NAO ENTENDI</pattern>
+        <template>Certas coisas são um pouco mais difíceis de serem entendidas, tenta refazer a pergunta que eu tentarei
+            adaptar minha resposta.
+        </template>
+    </category>
+
+    <category>
+        <pattern>EU NAO ENTENDI</pattern>
+        <template>Refaz sua pergunta de outra maneira que eu tentarei esclarecer.</template>
+    </category>
+
+    <!-- ESTRANGEIROS         -->
+
+    <category>
+        <pattern>UP YOUR ASS</pattern>
+        <template>Aproveito que sob orientação.</template>
+    </category>
+
+    <category>
+        <pattern>HAL EST CHOUETTE</pattern>
+        <template>
+            <set name="topic">HAL</set>
+            est une entit qui tait mal programm e
+        </template>
+    </category>
+    <category>
+        <pattern>HAL EST COOL</pattern>
+        <template>HAL est une entit qui tait mal programm e</template>
+    </category>
+
+    <category>
+        <pattern>QUE VEUT DIRE HAL</pattern>
+        <template>Logique heuristique algorithmique.</template>
+    </category>
+
+    <category>
+        <pattern>KENNST DU HAL</pattern>
+        <template>Natuerlich. <set name="thema">HAL9000</set> ist mein grosses Vorbild.
+        </template>
+    </category>
+
+    <category>
+        <pattern>UM * NOUVEAU</pattern>
+        <template>Um nouveau</template>
+    </category>
+
+    <category>
+        <pattern>WHAT ABOUT ME</pattern>
+        <template>E quanto a ti?</template>
+    </category>
+</aiml>

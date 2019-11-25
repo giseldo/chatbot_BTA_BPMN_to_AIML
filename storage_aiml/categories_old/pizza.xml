@@ -1,0 +1,24 @@
+<aiml>
+
+    <category> <!-- sequenceflow1 -->
+        <pattern>quero pizza</pattern>  <!-- sequenceflow1 sourceref --> <!-- startevent1 id-->
+        <template>ola voce esta bem</template> <!-- sequenceflow1 targetref --> <!-- task1 id-->
+    </category>
+
+     <!-- sequenceflow2 --> <!-- sequenceflow2 targetref é gateway ? repita -->
+
+    <category> <!-- sequenceflow2 --> <!-- sequenceflow2 targetref é gateway ? -->
+        <pattern>sim</pattern> <!-- sequenceflow3 id -->
+        <that>ola voce esta bem</that>  <!-- sequenceflow2 sourceref --> <!-- task1 id-->
+        <template>que legal</template> <!-- sequenceflow3 targetref  --> <!-- task2 id-->
+    </category>
+
+    <category> <!-- sequenceflow2 -->
+        <pattern>nao</pattern> <!-- sequenceflow4 id -->
+        <that>ola voce esta bem</that>  <!-- sourceref -->
+        <template>que chato</template> <!-- task3 -->
+    </category>
+
+    <!--  fim repita -->
+
+</aiml>

@@ -1,0 +1,43 @@
+<aiml>
+
+    <!-- para cada sequence flow -->
+
+    <!-- se sequenceflow souceref é um startevent crie category -->
+    <category> <!-- sequenceflow1 -->
+        <pattern>quero pizza</pattern>  <!-- sequenceflow1 sourceref --> <!-- startevent1 id-->
+        <template>ola voce esta bem</template> <!-- sequenceflow1 targetref --> <!-- task1 id-->
+    </category>
+
+     <!-- sequenceflow2 --> <!-- se sequenceflow2 targetref é gateway1 ?
+                                repita para todos as tasks onde sourceref = gateway1
+                                pegue todos os id dos flows onde sourceref é gateway e jogue no li
+                                -->
+    <!-- para cada sequence flow onde o targetref é um gateway busque as opções -->
+    <category> <!-- sequenceflow2 --> <!-- sequenceflow2 targetref é gateway ? -->
+        <pattern>*</pattern> <!-- default -->
+        <that>ola voce esta bem</that>  <!-- sequenceflow2 sourceref --> <!-- task1 id-->
+        <template>
+            <set name="resposta"><star /></set>
+            <condition name="resposta"> <!-- sequenceflow2 targetref id -->
+                <li value="sim"><srai>sim</srai></li>   <!-- sequenceflow3 id -->
+                <li value="nao"><srai>nao</srai></li>   <!-- sequenceflow4 id -->
+            </condition>
+        </template>
+    </category>
+
+    <!-- para cada sequence flow onde sourceref é um gateway crie uma categoria com that-->
+    <category> <!-- sequenceflow3 -->
+        <pattern>sim</pattern> <!-- sequenceflow3 id tem sourceref gateway1-->
+        <that index="2">ola voce esta bem</that> <!-- verifique qual dos sequenceflow tem targetref para o gateway1 para este sequeceflow pegue o sourceref id e busque o id da task deste sourceref -->
+        <template>que chato</template> <!-- sequenceflow3 targetref id --> <!-- task3 -->
+    </category>
+
+    <category> <!-- sequenceflow4 -->
+        <pattern>nao</pattern> <!-- sequenceflow4 id -->
+        <that index="2">ola voce esta bem</that>
+        <template>que chato</template> <!-- sequenceflow4 targetref id --> <!-- task3 -->
+    </category>
+
+
+
+</aiml>

@@ -6338,25 +6338,7 @@
             </random>
         </template>
     </category>
-    <category>
-        <pattern>ENCONTRE *</pattern>
-        <template>
-            <a HREF="http://www.google.com.br/cgi-bin/search?search=<personf/>" target="_new">
-                <random>
-                    <li>Você gostaria de saber mais?</li>
-                    <li>Eu posso perguntar a alguem sobre isso.</li>
-                    <li>Eu posso fazer uma busca sobre isso.</li>
-                    <li>Pergunte ao diretório livre sobre isso.</li>
-                    <li>Tente buscar manualmente caso não agrade a busca.</li>
-                </random>
-            </a>
-            <think>
-                <settopic>
-                    <person/>
-                </settopic>
-            </think>
-        </template>
-    </category>
+
     <category>
         <pattern>ENTÃO</pattern>
         <template>Então o que?</template>

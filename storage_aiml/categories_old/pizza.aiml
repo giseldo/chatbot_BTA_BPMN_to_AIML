@@ -1,21 +1,21 @@
 <aiml>
     <category>
-        <pattern>QUERO APRENDER MATEMATICA</pattern>
+        <pattern>QUERO PIZZA</pattern>
         <template>
             <think>
                 <set name="topic">MYPROCESS_1</set>
             </think>
-            <srai>STEP_QUERO APRENDER MATEMATICA</srai>
+            <srai>STEP_QUERO PIZZA</srai>
         </template>
     </category>
     <topic name="MYPROCESS_1">
         <category>
-            <pattern>STEP_QUERO APRENDER MATEMATICA</pattern>
-            <template>que legal, quer aprender agora</template>
+            <pattern>STEP_QUERO PIZZA</pattern>
+            <template>ola tudo bem quer uma pizza com mussarela</template>
         </category>
         <category>
             <pattern>*</pattern>
-            <that>que legal, quer aprender agora</that>
+            <that>ola tudo bem quer uma pizza com mussarela</that>
             <template>
                 <think>
                     <set name="resultado">
@@ -34,11 +34,11 @@
         </category>
         <category>
             <pattern>STEP_SIM</pattern>
-            <template>que legal, quer aprender agora</template>
+            <template>que legal sua pizza tera mussarela</template>
         </category>
         <category>
             <pattern>STEP_NAO</pattern>
-            <template>triste</template>
+            <template>que chato sem queijo</template>
         </category>
     </topic>
 </aiml>

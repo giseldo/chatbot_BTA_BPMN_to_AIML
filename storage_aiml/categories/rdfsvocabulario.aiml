@@ -1,0 +1,48 @@
+<aiml>
+
+    <category>
+        <pattern>aprender</pattern>
+        <template>
+            <addtriple>
+                <subj>giseldo</subj>
+                <pred>eh</pred>
+                <obj>aluno</obj>
+            </addtriple>
+            Aprendido
+        </template>
+    </category>
+
+    <category>
+        <pattern>consultar</pattern>
+        <template>
+            <select>
+                <vars>?x ?y</vars>
+                <q>
+                    <subj>?x</subj>
+                    <pred>eh</pred>
+                    <obj>?y</obj>
+                </q>
+            </select>
+            <get var="?y">
+                <tuple>
+                    <get var="tuples"/>
+                </tuple>
+            </get>
+        </template>
+    </category>
+
+    <category>
+        <pattern>todos</pattern>
+        <template>
+            <select>
+                <vars>?x ?y ?z</vars>
+                <q>
+                    <subj>?x</subj>
+                    <pred>?y</pred>
+                    <obj>?z</obj>
+                </q>
+            </select>
+        </template>
+    </category>
+
+</aiml>

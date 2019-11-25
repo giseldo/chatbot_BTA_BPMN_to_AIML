@@ -1,0 +1,44 @@
+<aiml>
+    <category>
+        <pattern>INICIAR</pattern>
+        <template>
+            <think>
+                <set name="topic">MYPROCESS_1</set>
+            </think>
+            <srai>STEP_INICIAR</srai>
+        </template>
+    </category>
+    <topic name="MYPROCESS_1">
+        <category>
+            <pattern>STEP_INICIAR</pattern>
+            <template>quer pao</template>
+        </category>
+        <category>
+            <pattern>*</pattern>
+            <that>quer pao</that>
+            <template>
+                <think>
+                    <set name="resultado">
+                        <star/>
+                    </set>
+                </think>
+                <condition name="resultado">
+                    <li value="sim">
+                        <srai>STEP_SIM</srai>
+                    </li>
+                    <li value="nao">
+                        <srai>STEP_NAO</srai>
+                    </li>
+                </condition>
+            </template>
+        </category>
+        <category>
+            <pattern>STEP_SIM</pattern>
+            <template>que legal</template>
+        </category>
+        <category>
+            <pattern>STEP_NAO</pattern>
+            <template>que chato</template>
+        </category>
+    </topic>
+</aiml>

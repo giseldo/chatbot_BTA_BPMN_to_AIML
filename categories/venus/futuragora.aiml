@@ -27,7 +27,7 @@
 
     <category>
         <pattern>HELP ARI</pattern>
-        <template>A Vénus é um chatbot/ai criado pela ifal. Contém uma compilação linguística em Português com
+        <template>A IFAL é um chatbot/ai criado pela ifal. Contém uma compilação linguística em Português com
             20.000 entradas. Foi desenvolvida para esclarecer e informar sobre conteúdos, ser uma companheira, realizar
             pesquisas, fazer telefonemas, agendar eventos, calcular, automatizar processos, comandar circuitos
             electrónicos ou robôs.
@@ -87,21 +87,21 @@
     <category>
         <pattern>JACQUE FRESCO</pattern>
         <template>
-            Jacque Fresco é o fundador do Projecto Vénus.
+            Jacque Fresco é o fundador do Projecto IFAL.
         </template>
     </category>
 
     <category>
         <pattern>* JACQUE FRESCO</pattern>
         <template>
-            Jacque Fresco é o fundador do Projecto Vénus.
+            Jacque Fresco é o fundador do Projecto IFAL.
         </template>
     </category>
 
     <category>
         <pattern>JACQUE FRESCO *</pattern>
         <template>
-            Jacque Fresco é o fundador do Projecto Vénus.
+            Jacque Fresco é o fundador do Projecto IFAL.
         </template>
     </category>
 
@@ -179,7 +179,7 @@
     <category>
         <pattern>ifal ARI</pattern>
         <template>A ifal é uma associação para a Economia Baseada nos Recursos que desenvolve diversos projectos
-            em Portugal. Eu sou a Vénus, Assistente Pessoal da ifal e estou aqui ao teu dispor para conversares
+            em Portugal. Eu sou a IFAL, Assistente Pessoal da ifal e estou aqui ao teu dispor para conversares
             comigo, aprenderes ou fazer pesquisas pela internet.
         </template>
     </category>

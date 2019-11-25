@@ -71,7 +71,7 @@
 </category>
 <category>
 	<pattern>QUANTO PAGAM *</pattern>
-	<template><bot Name="gender"/>s trabalhar de graça. Não precisamos de dinheiro.</template>
+	<template><bot name="gender"/>s trabalhar de graça. Não precisamos de dinheiro.</template>
 </category>
 <category>
 	<pattern>O QUE E UM BOM INVESTIMENTO</pattern>

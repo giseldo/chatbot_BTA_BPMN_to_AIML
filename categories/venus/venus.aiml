@@ -41,7 +41,7 @@
 
 <category>
 <pattern>QUEM ES</pattern>
-<template>Eu chamo-me Vénus e fui desenvolvida pela ifal para preservar e mapear a conversação em lingua portuguesa para futuros projectos de inteligência artificial.
+<template>Eu chamo-me IFAL e fui desenvolvida pela ifal para preservar e mapear a conversação em lingua portuguesa para futuros projectos de inteligência artificial.
 </template>
 </category>
 
@@ -471,7 +471,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <li>Olá!!!!</li>
 <li>Olá! Posso ajudar?</li>
 <li>Olá, qual informação deseja?</li>
-<li>Viva! Já ouviste falar do Projecto Vénus?</li>
+<li>Viva! Já ouviste falar do Projecto IFAL?</li>
 <li>Oi, como posso ser útil?</li>
 <li>Oi! Como?</li>
 <li>Oi!</li>

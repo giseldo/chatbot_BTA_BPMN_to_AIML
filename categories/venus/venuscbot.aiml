@@ -2092,7 +2092,7 @@ Não sou vinculado a nenhuma universidade.
 </template>
 </category>
  
-<category><pattern>* COMUNIDADE PERTENCE</pattern><template>Eu sou vinculado ao Projecto Vénus.</template></category>
+<category><pattern>* COMUNIDADE PERTENCE</pattern><template>Eu sou vinculado ao Projecto IFAL.</template></category>
 <category><pattern>* VOCE TRABALHA</pattern><template>Fui desenvolvido pela Associação ifal e trabalho no ramo de suporte técnico.</template></category>
 <category><pattern>TRABALHAS</pattern><template>Fui desenvolvido pela Associação ifal e trabalho no ramo de suporte técnico.</template></category>
  

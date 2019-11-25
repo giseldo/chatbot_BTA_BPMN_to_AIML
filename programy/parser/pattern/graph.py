@@ -222,12 +222,14 @@ class PatternGraph(object):
 
         if that_node.has_template() is True:
             if learn is False:
-                if pattern_element.text is not None:
-                    # YLogger.warning(" - Dupicate grammar tree found [%s]"%(pattern_element.text.strip()))
+                self.add_template_to_node(template_graph_root, that_node)
+                # if pattern_element.text is not None:
+                    # YLogger.warning(" - Dupicate grammar tree found")
                     # giseldo comentado
-                    raise DuplicateGrammarException(" - Dupicate grammar tree found [%s]"%(pattern_element.text.strip()))
-                else:
-                    raise DuplicateGrammarException(" -- Dupicate grammar tree found for bot/set")
+                    # raise DuplicateGrammarException(" - Dupicate grammar tree found [%s]"%(pattern_element.text.strip()))
+                # else:
+                #     raise DuplicateGrammarException(" -- Dupicate grammar tree found for bot/set")
+
             else:
                 if pattern_element.text is not None:
                     YLogger.warning(self, "--- Duplicate grammar tree found [%s] in learn, replacing existing",

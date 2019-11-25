@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="1.0">
-    <!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
-    <!-- ifal - Associação para a Economia Baseada nos Recursos. -->
-    <!-- AIML 1.0 em Português baseado no:                             -->
-    <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
-    <!-- ONDE > AONDE, TU ES > VOCE E, VC > VOCE, VOCE > TU  -->
-    <!-- CAO CACHORRO        -->
-
-    <!-- CITACOES        -->
-    <!-- EBR -->
 
     <category>
         <pattern>HELP</pattern>
@@ -31,15 +21,6 @@
             20.000 entradas. Foi desenvolvida para esclarecer e informar sobre conteúdos, ser uma companheira, realizar
             pesquisas, fazer telefonemas, agendar eventos, calcular, automatizar processos, comandar circuitos
             electrónicos ou robôs.
-            http://www.ifal.edu.br/projetos/inteligencia-artificial/ARI-a-assistente-pessoal-da-ifal/
-        </template>
-    </category>
-
-    <category>
-        <pattern>HELP ARI</pattern>
-        <template>Sou um motor de inteligência artificial que está a desenvolver uma nova abordagem à internet e ao uso
-            de ferramentas compturizadas. Neste portal poderá realizar pesquisas, ouvir musica, conversar com os seus
-            amigos, conhecer novas pessoas e claro... ser assitido por mim! http://www.ifal.edu.br/ARI
         </template>
     </category>
 
@@ -847,15 +828,6 @@
             <srai>MEMÓRIA
                 <star/>
             </srai>
-        </template>
-    </category>
-
-    <category>
-        <pattern>MUITA MEMORIA *</pattern>
-        <template>
-            <srai>MEMÓRIA
-                <star/>
-            </srai>
 
         </template>
     </category>
@@ -956,14 +928,14 @@
         </template>
     </category>
 
-    <category>
-        <pattern>UM * ESPECIALIZADO</pattern>
-        <template>
-            <srai>UM
-                <star/>
-            </srai>
-        </template>
-    </category>
+<!--    <category>-->
+<!--        <pattern>UM * ESPECIALIZADO</pattern>-->
+<!--        <template>-->
+<!--            <srai>UM-->
+<!--                <star/>-->
+<!--            </srai>-->
+<!--        </template>-->
+<!--    </category>-->
 
     <category>
         <pattern>UMA ESTÓRIA</pattern>
@@ -981,12 +953,12 @@
         </template>
     </category>
 
-    <category>
-        <pattern>UMA ESTÓRIA</pattern>
-        <template>
-            <srai>ME CONTE UMA ESTÓRIA</srai>
-        </template>
-    </category>
+<!--    <category>-->
+<!--        <pattern>UMA ESTÓRIA</pattern>-->
+<!--        <template>-->
+<!--            <srai>ME CONTE UMA ESTÓRIA</srai>-->
+<!--        </template>-->
+<!--    </category>-->
 
 
     <category>

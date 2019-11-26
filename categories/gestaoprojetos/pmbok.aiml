@@ -1,7 +1,7 @@
 <aiml>
     <category>
         <pattern>APRENDER PMBOK</pattern>
-        <template>
+        <template>l
             <think>
                 <set name="topic">MYPROCESS_1</set>
             </think>

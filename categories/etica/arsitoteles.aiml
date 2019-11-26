@@ -6,34 +6,6 @@
         <template>
             Em sua obra Ética a Nicômaco, Aristoteles fala sobre as virtudes: Coragem, temperança, liberalidade,
             magnificência, distributiva, corretiva, justiça política, equidade e reciprocidade.
-            <!--
-            <table>
-                <style>
-                    table, th, td {
-                        border: 1px solid black;
-                        padding:10px;
-                    }
-                </style>
-                <tr>
-                    <td><b>Tabela de Virtudes</b></td>
-                </tr>
-                <tr>
-                    <td>
-                        Coragem
-                    </td>
-                    <td>temperança</td>
-                    <td>liberalidade</td>
-                 <tr>
-                    <td>magnificência</td>
-                    <td>distributiva</td>
-                    <td>corretiva</td>
-                 </tr>
-                    <td>justiça política</td>
-                    <td>equidade</td>
-                    <td>reciprocidade proporcional</td>
-                </tr>
-            </table>
-            -->
         </template>
     </category>
 

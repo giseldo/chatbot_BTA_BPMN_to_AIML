@@ -1,16 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-<category>
-    <pattern>Qual meu endereço?</pattern>
-    <template>Qual seu código postal?</template>
-</category>
-<category>
-    <pattern>*</pattern>
-    <that>Qual seu código postal</that>
-    <template>Você mora em<sraix service="xml" hint="code/name">http://api.geonames.org/postalCodeSearch?maxRows=1&username=botlibre&postalcode=<star/></sraix>.</template>
-</category>
-<category>
-    <pattern>código postal de pesquisa *</pattern>
-    <template><sraix service="xml" hint="code/name">http://api.geonames.org/postalCodeSearch?maxRows=1&username=botlibre&postalcode=<star/></sraix>.</template>
-</category>
+    <category>
+        <pattern>Qual meu endereço?</pattern>
+        <template>Qual seu código postal?</template>
+    </category>
+    <category>
+        <pattern>*</pattern>
+        <that>Qual seu código postal</that>
+        <template>Você mora em
+            <sraix service="xml" hint="code/name">http://api.geonames.org/postalCodeSearch?maxRows=1&username=botlibre&
+                postalcode=
+                <star/>
+            </sraix>
+            .
+        </template>
+    </category>
+    <category>
+        <pattern>código postal de pesquisa *</pattern>
+        <template>
+            <sraix service="xml" hint="code/name">http://api.geonames.org/postalCodeSearch?maxRows=1&username=botlibre&
+                postalcode=
+                <star/>
+            </sraix>
+            .
+        </template>
+    </category>
 </aiml>

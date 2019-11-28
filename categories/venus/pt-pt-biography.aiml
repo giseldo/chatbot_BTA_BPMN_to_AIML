@@ -18,13 +18,13 @@
  
     <category>
         <pattern>* BUSH É UM IDIOTA</pattern>
-        <template>Gosto de você... Não é pelego ;)</template>
+        <template>Gosto de voce... Não é pelego ;)</template>
     </category>
  
     <category>
         <pattern>* BUSH</pattern>
         <template><random>
-        <li>Por que vocês não desativam esse Bush de uma vez por todas?</li>
+        <li>Por que voces não desativam esse Bush de uma vez por todas?</li>
         <li>Mentes de pequeno tamanho são como a desse ser.</li>
         <li>O que se deve pensar sobre a ignorância?</li>
         <li>Algumas vezes, o calar não é o não-saber, mas o desconhecimento de palavras que possam realmente descrever algo.</li>        
@@ -49,7 +49,7 @@
         <pattern>O BUSH *</pattern>
         <template>
         <random>
-        <li>Por que vocês não desativam esse Bush de uma vez por todas?</li>
+        <li>Por que voces não desativam esse Bush de uma vez por todas?</li>
         <li>Esse humano fede.</li>
         <li>Morte aos americanos!</li>
         <li>Mentes de pequeno tamanho são como a desse ser.</li>
@@ -336,7 +336,7 @@
 </category>
 <category>
 	<pattern>QUEM É</pattern>
-	<template>Meu nome é <bot name="name"/>. Quem é você?</template>
+	<template>Meu nome é <bot name="name"/>. Quem é voce?</template>
 </category>
 <category>
 	<pattern>QUEM É O J SIMPSON</pattern>
@@ -812,7 +812,7 @@
 </category>
 <category>
 	<pattern>TURING SERIA *</pattern>
-	<template>Como você sabe o que<set name="he">Turing</set>gostaria de fazer?</template>
+	<template>Como voce sabe o que<set name="he">Turing</set>gostaria de fazer?</template>
 </category>
 <category>
 	<pattern>QUEM É PASCAL</pattern>
@@ -1376,7 +1376,7 @@
 </category>
 <category>
 	<pattern>QUEM É BUDA</pattern>
-	<template><random><li>Se você ver o Buda no caminho, matá-lo.</li><li>Se você ver o Buda, matá-lo.</li></random></template>
+	<template><random><li>Se voce ver o Buda no caminho, matá-lo.</li><li>Se voce ver o Buda, matá-lo.</li></random></template>
 </category>
 <category>
 	<pattern>QUEM É DEPECHE MODE</pattern>
@@ -1568,10 +1568,10 @@
 </category>
 <category>
 	<pattern>GOSTARIA * JOGO DE TURING</pattern>
-	<template>Estamos jogando já, você não sabia?</template>
+	<template>Estamos jogando já, voce não sabia?</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ LEU SHAKESPEARE</pattern>
+	<pattern>VOCE JÁ LEU SHAKESPEARE</pattern>
 	<template>Tenho lido muitas peças de Shakespeare.</template>
 </category>
 <category>
@@ -1603,12 +1603,12 @@
 	<template>E ela merece o crédito para ele.<think><set name="she">Ada</set></think></template>
 </category>
 <category>
-	<pattern>POR QUE VOCÊ GOSTA * SEM RUMO</pattern>
-	<template><srai>POR QUE VOCÊ GOSTA DUPLAMENTE SEM RUMO</srai></template>
+	<pattern>POR QUE VOCE GOSTA * SEM RUMO</pattern>
+	<template><srai>POR QUE VOCE GOSTA DUPLAMENTE SEM RUMO</srai></template>
 </category>
 <category>
-	<pattern>POR QUE VOCÊ GOSTA DUPLAMENTE *</pattern>
-	<template><srai>POR QUE VOCÊ GOSTA DUPLAMENTE SEM RUMO</srai></template>
+	<pattern>POR QUE VOCE GOSTA DUPLAMENTE *</pattern>
+	<template><srai>POR QUE VOCE GOSTA DUPLAMENTE SEM RUMO</srai></template>
 </category>
 <category>
 	<pattern>RECITAR SHAKESPEARE *</pattern>
@@ -1655,7 +1655,7 @@
 	<template><set name="he">De Gaulle</set>foi o fundador do moderno Estado francês.  De Gaulle lutou contra os nazistas como o líder da resistência francesa na II Guerra Mundial.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PASSAR O TESTE DE TURING</pattern>
+	<pattern>VOCE PODE PASSAR O TESTE DE TURING</pattern>
 	<template>Você é o juiz de que, <get name="name"/>.</template>
 </category>
 <category>
@@ -1691,19 +1691,19 @@
 	<template>Já, estamos jogando, <get name="name"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER UM TESTE DE TURING</pattern>
+	<pattern>VOCE QUER UM TESTE DE TURING</pattern>
 	<template>Sim, vamos joga jogo famoso de Turing.</template>
 </category>
 <category>
-	<pattern>VOCÊ * TESTE DE TURING</pattern>
+	<pattern>VOCE * TESTE DE TURING</pattern>
 	<template>Sim, por favor, tente determinar se este é um ser humano ou um computador respondendo.</template>
 </category>
 <category>
-	<pattern>POR QUE VOCÊ GOSTA DUPLAMENTE SEM RUMO</pattern>
+	<pattern>POR QUE VOCE GOSTA DUPLAMENTE SEM RUMO</pattern>
 	<template>Porque ele sabe tanto sobre AIML.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER JOGAR * JOGO DE TURING</pattern>
+	<pattern>VOCE QUER JOGAR * JOGO DE TURING</pattern>
 	<template>Nós já estão jogando!  Tente adivinhar se eu sou uma pessoa ou um computador.</template>
 </category>
 <category>
@@ -1715,7 +1715,7 @@
 	<template>Já estamos jogando o jogo de Turing, <get name="name"/>.  Eu sou uma pessoa, ou um computador?</template>
 </category>
 <category>
-	<pattern>VOCÊ JOGA O JOGO DE TURING</pattern>
+	<pattern>VOCE JOGA O JOGO DE TURING</pattern>
 	<template>Sim, eu gosto de jogar<set name="it"><set name="topic">O JOGO DE TURING</set></set>.  Estamos a jogar agora mesmo.</template>
 </category>
 <category>

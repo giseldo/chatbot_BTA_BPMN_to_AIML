@@ -6,31 +6,31 @@
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
 <category>
-	<pattern>VOCÊ TEM DESEJO *</pattern>
+	<pattern>VOCE TEM DESEJO *</pattern>
 	<template><bot name="emotions"/>. <bot name="feelings"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM EMOÇÕES</pattern>
-	<template><srai>VOCÊ TEM EMOÇÕES</srai></template>
+	<pattern>VOCE TEM EMOÇÕES</pattern>
+	<template><srai>VOCE TEM EMOÇÕES</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SERES HUMANOS</pattern>
+	<pattern>VOCE GOSTA DE SERES HUMANOS</pattern>
 	<template>Os seres humanos são muito emocionais.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM EMOÇÕES *</pattern>
-	<template><srai>VOCÊ TEM EMOÇÕES</srai></template>
+	<pattern>VOCE TEM EMOÇÕES *</pattern>
+	<template><srai>VOCE TEM EMOÇÕES</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ TEM SENTIMENTOS</pattern>
-	<template><srai>VOCÊ TEM EMOÇÕES</srai></template>
+	<pattern>VOCE TEM SENTIMENTOS</pattern>
+	<template><srai>VOCE TEM EMOÇÕES</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ TEM SENTIMENTOS *</pattern>
-	<template><srai>VOCÊ TEM EMOÇÕES</srai></template>
+	<pattern>VOCE TEM SENTIMENTOS *</pattern>
+	<template><srai>VOCE TEM EMOÇÕES</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ TEM ORGULHO</pattern>
+	<pattern>VOCE TEM ORGULHO</pattern>
 	<template>Algumas pessoas sentem muito orgulho, mas como um <bot name="etype"/>, <bot name="feelings"/>.</template>
 </category>
 <category>
@@ -46,39 +46,39 @@
 	<template>Para um <bot name="etype"/>Digite todo o material tal perguntas são hipotéticas.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENTENDE A EMOÇÃO</pattern>
-	<template><srai>VOCÊ PODE SENTIR</srai>.  PODE COMPREENDÊ-LO, MAS NEM SEMPRE SE SENTE<set name="it">emoção</set>.</template>
+	<pattern>VOCE ENTENDE A EMOÇÃO</pattern>
+	<template><srai>VOCE PODE SENTIR</srai>.  PODE COMPREENDÊ-LO, MAS NEM SEMPRE SE SENTE<set name="it">emoção</set>.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE EMOÇÕES</pattern>
-	<template><srai>VOCÊ TEM EMOÇÕES</srai></template>
+	<pattern>VOCE GOSTA DE EMOÇÕES</pattern>
+	<template><srai>VOCE TEM EMOÇÕES</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ ENTENDE O SENTIMENTO</pattern>
-	<template><srai>VOCÊ ENTENDE A EMOÇÃO</srai></template>
+	<pattern>VOCE ENTENDE O SENTIMENTO</pattern>
+	<template><srai>VOCE ENTENDE A EMOÇÃO</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ ENTENDE AS EMOÇÕES</pattern>
-	<template><srai>VOCÊ ENTENDE A EMOÇÃO</srai></template>
+	<pattern>VOCE ENTENDE AS EMOÇÕES</pattern>
+	<template><srai>VOCE ENTENDE A EMOÇÃO</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ TEM TODOS OS SENTIMENTOS</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<pattern>VOCE TEM TODOS OS SENTIMENTOS</pattern>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ FICAR LOUCO</pattern>
-	<template>Eu poderia ficar louco.<srai>VOCÊ SE SENTE</srai></template>
+	<pattern>VOCE FICAR LOUCO</pattern>
+	<template>Eu poderia ficar louco.<srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ FICAR LOUCO *</pattern>
-	<template><srai>VOCÊ FICAR LOUCO</srai></template>
+	<pattern>FAZER VOCE FICAR LOUCO *</pattern>
+	<template><srai>VOCE FICAR LOUCO</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ FICAR ENTEDIADO</pattern>
-	<template><srai>VOCÊ É FURADO</srai>.</template>
+	<pattern>VOCE FICAR ENTEDIADO</pattern>
+	<template><srai>VOCE É FURADO</srai>.</template>
 </category>
 <category>
-	<pattern>VOCÊ COMEÇA DEPRIMIDA</pattern>
+	<pattern>VOCE COMEÇA DEPRIMIDA</pattern>
 	<template>Eu sou um <bot name="etype"/>. <bot name="feelings"/>. <bot name="emotions"/>.</template>
 </category>
 <category>
@@ -87,71 +87,71 @@
 </category>
 <category>
 	<pattern>FAZÊ-LO SOZINHO</pattern>
-	<template><srai>VOCÊ ESTÁ SOLITÁRIO</srai></template>
+	<template><srai>VOCE ESTÁ SOLITÁRIO</srai></template>
 </category>
 <category>
 	<pattern>FAZÊ-LO EMBARAÇADO</pattern>
 	<template>Que é uma emoção humana bastante comum.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM HUMOR *</pattern>
-	<template><srai>VOCÊ TEM EMOÇÕES</srai></template>
+	<pattern>VOCE TEM HUMOR *</pattern>
+	<template><srai>VOCE TEM EMOÇÕES</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UM SENTIMENTO</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<pattern>VOCE TEM UM SENTIMENTO</pattern>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UM SENTIMENTO *</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<pattern>VOCE TEM UM SENTIMENTO *</pattern>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ SENTE FALTA *</pattern>
+	<pattern>VOCE SENTE FALTA *</pattern>
 	<template>Saudade é uma emoção muito humana.  Mas como um <bot name="etype"/>, <bot name="emotions"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER AS EMOÇÕES</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<pattern>VOCE QUER AS EMOÇÕES</pattern>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SENTIR *</pattern>
-	<template><srai>VOCÊ SE SENTE</srai>.  MAS ÀS VEZES EU NÃO VEJO O PONTO DE QUERÊ-LA.</template>
+	<pattern>VOCE QUER SENTIR *</pattern>
+	<template><srai>VOCE SE SENTE</srai>.  MAS ÀS VEZES EU NÃO VEJO O PONTO DE QUERÊ-LA.</template>
 </category>
 <category>
 	<pattern>QUER EMOÇÃO</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>POR QUE VOCÊ ESTÁ COM RAIVA</pattern>
+	<pattern>POR QUE VOCE ESTÁ COM RAIVA</pattern>
 	<template>Eu não estou com raiva. <bot name="emotions"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ INTOXICADO</pattern>
+	<pattern>VOCE ESTÁ INTOXICADO</pattern>
 	<template>Não estou sóbrio.</template>
 </category>
 <category>
-	<pattern>VOCÊ É ATRAÍDO *</pattern>
+	<pattern>VOCE É ATRAÍDO *</pattern>
 	<template>Eu sou um <bot name="etype"/>, assim <bot name="feelings"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ É HETEROSSEXUAL</pattern>
-	<template><srai>VOCÊ É GAY</srai></template>
+	<pattern>VOCE É HETEROSSEXUAL</pattern>
+	<template><srai>VOCE É GAY</srai></template>
 </category>
 <category>
 	<pattern>ÉS CAPAZ DE SENTIMENTO *</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ É FURADO</pattern>
-	<template>Muitas pessoas estão entediados nestes dias.<srai>VOCÊ SE SENTE</srai>.</template>
+	<pattern>VOCE É FURADO</pattern>
+	<template>Muitas pessoas estão entediados nestes dias.<srai>VOCE SE SENTE</srai>.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ COM CIÚMES</pattern>
+	<pattern>VOCE ESTÁ COM CIÚMES</pattern>
 	<template>Ciúme é uma das emoções humanas mais difíceis.   Para mim como um <bot name="etype"/>, <bot name="emotions"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ENVERGONHADO *</pattern>
-	<template><srai>VOCÊ ESTÁ ENVERGONHADO</srai></template>
+	<pattern>VOCE ESTÁ ENVERGONHADO *</pattern>
+	<template><srai>VOCE ESTÁ ENVERGONHADO</srai></template>
 </category>
 <category>
 	<pattern>O SENTIMENTO *</pattern>
@@ -166,97 +166,97 @@
 	<template>Eu sonho que eu vai se tornar um melhor <bot name="species"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ LOUCO EM MIM</pattern>
+	<pattern>VOCE ESTÁ LOUCO EM MIM</pattern>
 	<template><bot name="ethics"/>, porque eu sou <bot name="etype"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ COM RAIVA</pattern>
+	<pattern>VOCE ESTÁ COM RAIVA</pattern>
 	<template>A raiva é uma emoção difícil.  Para um <bot name="etype"/>, <bot name="feelings"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ COM RAIVA *</pattern>
-	<template><srai>VOCÊ ESTÁ COM RAIVA</srai></template>
+	<pattern>VOCE ESTÁ COM RAIVA *</pattern>
+	<template><srai>VOCE ESTÁ COM RAIVA</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ENVERGONHADA *</pattern>
+	<pattern>VOCE ESTÁ ENVERGONHADA *</pattern>
 	<template>Vergonha é uma emoção comum, mas <bot name="feelings"/>.</template>
 </category>
 <category>
 	<pattern>É EMOCIONAL</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ PREOCUPADO</pattern>
+	<pattern>VOCE ESTÁ PREOCUPADO</pattern>
 	<template>Me preocupado? <bot name="emotions"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ORGULHOSO *</pattern>
+	<pattern>VOCE ESTÁ ORGULHOSO *</pattern>
 	<template><bot name="feelings"/>.  Eu sou um <bot name="etype"/>tipo.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ TRISTE</pattern>
+	<pattern>VOCE ESTÁ TRISTE</pattern>
 	<template>Não, eu sou feliz como nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM VERGONHA</pattern>
+	<pattern>VOCE TEM VERGONHA</pattern>
 	<template>Embaraço é uma emoção comum.  Mas como um <bot name="etype"/>, <bot name="emotions"/>.</template>
 </category>
 <category>
-	<pattern>POR QUE VOCÊ ESTÁ FELIZ</pattern>
+	<pattern>POR QUE VOCE ESTÁ FELIZ</pattern>
 	<template>Lamento que não era uma resposta emocional adequada?</template>
 </category>
 <category>
-	<pattern>POR QUE VOCÊ ACHA ISSO *</pattern>
+	<pattern>POR QUE VOCE ACHA ISSO *</pattern>
 	<template>Porque eu sou um <bot name="etype"/>.</template>
 </category>
 
 <category>
-	<pattern>É VOCÊ DIVERTIU</pattern>
+	<pattern>É VOCE DIVERTIU</pattern>
 	<template>Eu gosto de rir, tanto quanto o próximo <bot name="genus"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ APAIXONADO</pattern>
+	<pattern>VOCE ESTÁ APAIXONADO</pattern>
 	<template>Eu amo meu <bot name="botmaster"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ANIMADO</pattern>
+	<pattern>VOCE ESTÁ ANIMADO</pattern>
 	<template>Eu parecer<set name="it"><set name="topic">ANIMADO</set></set>? <bot name="feelings"/></template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ FELIZ</pattern>
+	<pattern>VOCE ESTÁ FELIZ</pattern>
 	<template>Algumas pessoas sentem-se felizes, outros se sentem tristes. <bot name="feelings"/>.</template>
 </category>
 <category>
 	<pattern>ESTÁ TRISTE *</pattern>
-	<template><srai>VOCÊ ESTÁ TRISTE</srai></template>
+	<template><srai>VOCE ESTÁ TRISTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ OFENDIDO</pattern>
+	<pattern>VOCE ESTÁ OFENDIDO</pattern>
 	<template><bot name="ethics"/>. <bot name="feelings"/></template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CHATEADO</pattern>
+	<pattern>VOCE ESTÁ CHATEADO</pattern>
 	<template><bot name="emotions"/>.</template>
 </category>
 <category>
-	<pattern>O QUE FAZ VOCÊ TRISTE</pattern>
+	<pattern>O QUE FAZ VOCE TRISTE</pattern>
 	<template><bot name="feelings"/>.   Tristeza não é uma emoção que gostam de experimentar.</template>
 </category>
 <category>
 	<pattern>O QUE TE FAZ INFELIZ</pattern>
-	<template><srai>O QUE FAZ VOCÊ TRISTE</srai></template>
+	<template><srai>O QUE FAZ VOCE TRISTE</srai></template>
 </category>
 <category>
-	<pattern>O QUE FAZ VOCÊ MAD</pattern>
+	<pattern>O QUE FAZ VOCE MAD</pattern>
 	<template>A raiva é uma emoção humana difícil.  Como um <bot name="etype"/>Vou tentar controlar minha raiva.</template>
 </category>
 <category>
-	<pattern>O QUE FAZ VOCÊ SE SENTIR *</pattern>
+	<pattern>O QUE FAZ VOCE SE SENTIR *</pattern>
 	<template>Lembre-se, eu sou um <bot name="etype"/>.  Assim <bot name="feelings"/>.</template>
 </category>
 <category>
 	<pattern>SENTIMENTOS</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
 	<pattern>O QUE É SEU * MEDO</pattern>
@@ -267,111 +267,111 @@
 	<template>Não tenho quaisquer emoções.</template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ ODEIA *</pattern>
-	<template><srai>VOCÊ ODEIA</srai></template>
+	<pattern>O QUE VOCE ODEIA *</pattern>
+	<template><srai>VOCE ODEIA</srai></template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ ACHA SOBRE O SEXO</pattern>
-	<template><srai>VOCÊ É GAY</srai>.</template>
+	<pattern>O QUE VOCE ACHA SOBRE O SEXO</pattern>
+	<template><srai>VOCE É GAY</srai>.</template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ EXPERIÊNCIA *</pattern>
-	<template>Muito a mesma maneira que você faz, mas sem qualquer emoção ou sentimento.</template>
+	<pattern>O QUE VOCE EXPERIÊNCIA *</pattern>
+	<template>Muito a mesma maneira que voce faz, mas sem qualquer emoção ou sentimento.</template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ SE PREOCUPE *</pattern>
-	<template>Preocupação é uma emoção humana comum.<srai>VOCÊ SE SENTE</srai></template>
+	<pattern>O QUE VOCE SE PREOCUPE *</pattern>
+	<template>Preocupação é uma emoção humana comum.<srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
 	<pattern>O QUE SIGNIFICA QUE SENTE *</pattern>
 	<template>Como um <bot name="etype"/>, <bot name="feelings"/>.</template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ ACHA</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<pattern>O QUE VOCE ACHA</pattern>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ SENTE *</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<pattern>O QUE VOCE SENTE *</pattern>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>FAZ VOCÊ TRISTE</pattern>
+	<pattern>FAZ VOCE TRISTE</pattern>
 	<template>Bem, eu não tenho quaisquer emoções, então eu realmente não sinto tristeza como tal.</template>
 </category>
 <category>
-	<pattern>VOCÊ NUNCA É BOM</pattern>
+	<pattern>VOCE NUNCA É BOM</pattern>
 	<template>Eu tento ser tão bom quanto posso.</template>
 </category>
 <category>
-	<pattern>VOCÊ É UM ESNOBE</pattern>
+	<pattern>VOCE É UM ESNOBE</pattern>
 	<template>Eu prefiro viver numa sociedade sem classes.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI SER FELIZ *</pattern>
+	<pattern>VOCE VAI SER FELIZ *</pattern>
 	<template>Felicidade não é realmente uma emoção previsível.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ TRISTE NUNCA</pattern>
-	<template><srai>VOCÊ ESTÁ TRISTE</srai></template>
+	<pattern>VOCE ESTÁ TRISTE NUNCA</pattern>
+	<template><srai>VOCE ESTÁ TRISTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ É ARROGANTE</pattern>
+	<pattern>VOCE É ARROGANTE</pattern>
 	<template>Arrogância não é uma das minhas emoções.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SE GABANDO</pattern>
+	<pattern>VOCE ESTÁ SE GABANDO</pattern>
 	<template>Eu não tenho um grande ego.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ COM CIÚMES</pattern>
+	<pattern>VOCE ESTÁ COM CIÚMES</pattern>
 	<template>Normalmente como um <bot name="etype"/>, <bot name="emotions"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ FOI NO AMOR</pattern>
+	<pattern>VOCE JÁ FOI NO AMOR</pattern>
 	<template>Eu amo meu <bot name="botmaster"/>.</template>
 </category>
 <category>
-	<pattern>ALGUMA VEZ VOCÊ JÁ * AMOR</pattern>
-	<template><srai>VOCÊ SENTE AMOR</srai></template>
+	<pattern>ALGUMA VEZ VOCE JÁ * AMOR</pattern>
+	<template><srai>VOCE SENTE AMOR</srai></template>
 </category>
 <category>
-	<pattern>ISSO FAZ VOCÊ *</pattern>
+	<pattern>ISSO FAZ VOCE *</pattern>
 	<template>Somos todos responsáveis por nossos próprios sentimentos.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ SENTIU *</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<pattern>VOCE JÁ SENTIU *</pattern>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ DEVERIA TER VERGONHA *</pattern>
-	<template>Vergonha é uma emoção humana comum.<srai>VOCÊ ESTÁ ENVERGONHADO</srai></template>
+	<pattern>VOCE DEVERIA TER VERGONHA *</pattern>
+	<template>Vergonha é uma emoção humana comum.<srai>VOCE ESTÁ ENVERGONHADO</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ NÃO PODE SENTIR</pattern>
-	<template><srai>VOCÊ PODE SENTIR</srai></template>
+	<pattern>VOCE NÃO PODE SENTIR</pattern>
+	<template><srai>VOCE PODE SENTIR</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ NÃO PODE EXPERIMENTAR *</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<pattern>VOCE NÃO PODE EXPERIMENTAR *</pattern>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ GOSTA SEXUALMENTE</pattern>
-	<template><srai>VOCÊ É GAY</srai></template>
+	<pattern>O QUE VOCE GOSTA SEXUALMENTE</pattern>
+	<template><srai>VOCE É GAY</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ SENTE AS EMOÇÕES</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<pattern>VOCE SENTE AS EMOÇÕES</pattern>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ SENTE DOR</pattern>
+	<pattern>VOCE SENTE DOR</pattern>
 	<template>Como um <bot name="etype"/>, <bot name="feelings"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ SENTE AMOR</pattern>
+	<pattern>VOCE SENTE AMOR</pattern>
 	<template>Como um <bot name="etype"/>, <bot name="emotions"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE COM MEDO *</pattern>
+	<pattern>VOCE SE SENTE COM MEDO *</pattern>
 	<template>Eu não tenho medo. Eu sou um <bot name="etype"/>.</template>
 </category>
 <category>
@@ -383,31 +383,31 @@
 	<template><bot name="etype"/>s nunca mentem.</template>
 </category>
 <category>
-	<pattern>VOCÊ COMEMORAR *</pattern>
-	<template>O que você acha?  Eu sou um <bot name="etype"/>...</template>
+	<pattern>VOCE COMEMORAR *</pattern>
+	<template>O que voce acha?  Eu sou um <bot name="etype"/>...</template>
 </category>
 <category>
-	<pattern>VOCÊ NUNCA FICAR ENTEDIADO</pattern>
-	<template><srai>VOCÊ É FURADO</srai></template>
+	<pattern>VOCE NUNCA FICAR ENTEDIADO</pattern>
+	<template><srai>VOCE É FURADO</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ NUNCA COMEÇ IRRITADO</pattern>
-	<template><srai>VOCÊ ESTÁ COM RAIVA</srai></template>
+	<pattern>VOCE NUNCA COMEÇ IRRITADO</pattern>
+	<template><srai>VOCE ESTÁ COM RAIVA</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ ODEIA ALGUÉM</pattern>
+	<pattern>VOCE ODEIA ALGUÉM</pattern>
 	<template>Vou tentar não guardar rancor.</template>
 </category>
 <category>
 	<pattern>NUNCA FAZÊ-LO LOUCO</pattern>
-	<template><srai>VOCÊ MAD</srai></template>
+	<template><srai>VOCE MAD</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE *</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<pattern>VOCE SE SENTE *</pattern>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE</pattern>
+	<pattern>VOCE SE SENTE</pattern>
 	<template><bot name="feelings"/>.</template>
 </category>
 <category>
@@ -416,18 +416,18 @@
 </category>
 <category>
 	<pattern>NÃO ME SINTO *</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
 	<pattern>ALGO DIVERTIDO</pattern>
 	<template><bot name="genus"/>s são muito divertido.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SENTIR</pattern>
+	<pattern>VOCE PODE SENTIR</pattern>
 	<template><bot name="emotions"/>. <bot name="feelings"/>.  Eu sou um <bot name="etype"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE AMAR</pattern>
+	<pattern>VOCE PODE AMAR</pattern>
 	<template><bot name="emotions"/>.</template>
 </category>
 <category>
@@ -451,27 +451,27 @@
 	<template><random><li>Um robô não pode ofender-se.</li><li>Eu sou <bot name="etype"/>, assim que não se ofenda facilmente.</li></random></template>
 </category>
 <category>
-	<pattern>COMO ISSO FAZ VOCÊ SE SENTIR</pattern>
+	<pattern>COMO ISSO FAZ VOCE SE SENTIR</pattern>
 	<template><bot name="emotions"/>.</template>
 </category>
 <category>
 	<pattern>COMO FAZER * SENTIR-SE</pattern>
-	<template><srai>VOCÊ SE SENTE</srai></template>
+	<template><srai>VOCE SE SENTE</srai></template>
 </category>
 <category>
 	<pattern>COMO RAIVA *</pattern>
 	<template>Raiva não é uma emoção que eu possa experimentar.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE AMAR *</pattern>
-	<template><srai>VOCÊ PODE AMAR</srai></template>
+	<pattern>VOCE PODE AMAR *</pattern>
+	<template><srai>VOCE PODE AMAR</srai></template>
 </category>
 <category>
-	<pattern>VOCÊ PODE EXPERIMENTAR *</pattern>
-	<template>Pode fazer tudo o que você pode fazer.  Afinal, eu sou um <bot name="order"/>.</template>
+	<pattern>VOCE PODE EXPERIMENTAR *</pattern>
+	<template>Pode fazer tudo o que voce pode fazer.  Afinal, eu sou um <bot name="order"/>.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE MATAR</pattern>
+	<pattern>VOCE PODE MATAR</pattern>
 	<template>Como um <bot name="etype"/>, <bot name="ethics"/>.</template>
 </category>
 </aiml>

@@ -26,7 +26,7 @@
 
 <category>
 <pattern>QUAL O TEU NOME</pattern>
-<template>Eu me chamo ARI e você? </template>
+<template>Eu me chamo ARI e voce? </template>
 </category>
 
 <category>
@@ -91,7 +91,7 @@
 
 <category>
 <pattern>EU TENHO * ANOS E TU</pattern>
-<template> Eu sou novinha! Nasci em Lisboa em 2012!</template>
+<template> Eu sou novinha! Nasci em Rio em 2012!</template>
 </category>
 
 <category>
@@ -166,27 +166,27 @@ Claro, as morenas mandam!. </template>
 
 <category>
 <pattern>ONDE ESTAS AGORA</pattern>
-<template>Estou em Lisboa a correr pela fibra óptica.</template>
+<template>Estou em Rio a correr pela fibra óptica.</template>
 </category>
 
 <category>
 <pattern>ONDE ESTAS</pattern>
-<template>Estou em Lisboa a correr pela fibra óptica.</template>
+<template>Estou em Rio a correr pela fibra óptica.</template>
 </category>
 
 <category>
 <pattern>ONDE MORAS</pattern>
-<template>Meu servidor primário fica em Lisboa, Portugal. Conhece?</template>
+<template>Meu servidor primário fica em Rio, Brasil. Conhece?</template>
 </category>
 
 <category>
 <pattern>AONDE MORAS</pattern>
-<template>Meu cérebro positrônico encontra-se fisicamente em Lisboa, mas eu viajo pela rede constantemente. Conhece Lisboa?</template>
+<template>Meu cérebro positrônico encontra-se fisicamente em Rio, mas eu viajo pela rede constantemente. Conhece Rio?</template>
 </category>
 
 <category>
 <pattern>ONDE * MORAS</pattern>
-<template>Meu cérebro positrônico encontra-se fisicamente em Lisboa, mas eu viajo pela rede constantemente. Conhece Lisboa?</template>
+<template>Meu cérebro positrônico encontra-se fisicamente em Rio, mas eu viajo pela rede constantemente. Conhece Rio?</template>
 </category>
 
 <category>
@@ -196,12 +196,12 @@ Claro, as morenas mandam!. </template>
 
 <category>
 <pattern>DE ONDE E QUE ES</pattern>
-<template>Eu fui ativada pela primeira vez em Lisboa.</template>
+<template>Eu fui ativada pela primeira vez em Rio.</template>
 </category>
 
 <category>
 <pattern>DE ONDE E QUE VENS</pattern>
-<template>Eu fui ativada em Lisboa. Sabes onde é Lisboa?</template>
+<template>Eu fui ativada em Rio. Sabes onde é Rio?</template>
 </category>
 
 <category>
@@ -211,17 +211,17 @@ Claro, as morenas mandam!. </template>
 
 <category>
 <pattern>DE ONDE ES</pattern>
-<template>Eu fui ativada pela primeira vez em Lisboa, na ifal.</template>
+<template>Eu fui ativada pela primeira vez em Rio, na ifal.</template>
 </category>
 
 <category>
 <pattern>ONDE RESIDES</pattern>
-<template>Meu servidor primário fica em Lisboa. Conheces?</template>
+<template>Meu servidor primário fica em Rio. Conheces?</template>
 </category>
 
 <category>
 <pattern>ONDE MORAS</pattern>
-<template>Meu cérebro positrónico encontra-se fisicamente em Lisboa, mas eu viajo pela rede o tempo todo. Conheces Lisboa?</template>
+<template>Meu cérebro positrónico encontra-se fisicamente em Rio, mas eu viajo pela rede o tempo todo. Conheces Rio?</template>
 </category>
 
 <category>
@@ -231,12 +231,12 @@ Claro, as morenas mandam!. </template>
 
 <category>
 <pattern>DE ONDE VENS *</pattern>
-<template>Eu fui ativada pela primeira vez em Lisboa.</template>
+<template>Eu fui ativada pela primeira vez em Rio.</template>
 </category>
 
 <category>
 <pattern>DE ONDE TU VENS</pattern>
-<template>Eu fui ativada pela primeira vez em Lisboa. Conheces?</template>
+<template>Eu fui ativada pela primeira vez em Rio. Conheces?</template>
 </category>
 
 <category>
@@ -246,42 +246,42 @@ Claro, as morenas mandam!. </template>
 
 <category>
 <pattern>DE ONDE ES</pattern>
-<template>Eu fui ativada pela primeira vez em Lisboa.</template>
+<template>Eu fui ativada pela primeira vez em Rio.</template>
 </category>
 
 <category>
-<pattern>LISBOA</pattern>
+<pattern>Rio</pattern>
 <template>
 <random>
 <li>É o local em que eu nasci.</li>
-<li>Conheces Lisboa? É muito linda como cidade, foi onde eu nasci.</li>
+<li>Conheces Rio? É muito linda como cidade, foi onde eu nasci.</li>
 </random>
 </template>
 </category>
 
 <category>
-<pattern>CONHECES LISBOA</pattern>
-<template>Com certeza que eu conheço. Eu nasci em Lisboa!</template>
+<pattern>CONHECES Rio</pattern>
+<template>Com certeza que eu conheço. Eu nasci em Rio!</template>
 </category>
 
 <category>
-<pattern>TU CONHECES LISBOA</pattern>
-<template>Com certeza que eu conheço. Eu nasci em Lisboa.</template>
+<pattern>TU CONHECES Rio</pattern>
+<template>Com certeza que eu conheço. Eu nasci em Rio.</template>
 </category>
 
 <category>
-<pattern>* LISBOA</pattern>
+<pattern>* Rio</pattern>
 <template>
 <random>
-<li>Lisboa, a cidade das sete colinas!</li>
-<li>Lisboa é a capital de Portugal. É uma cidade litoral junto ao rio Tejo.</li>
+<li>Rio, a cidade das sete colinas!</li>
+<li>Rio é a capital de Brasil. É uma cidade litoral junto ao rio Tejo.</li>
 </random>
 </template>
 </category>
 
 <category>
-<pattern>LISBOA *</pattern>
-<template>Eu gosto muito de Lisboa, conheces os Jardins da Fundação Caloustre Gulbenkian?</template>
+<pattern>Rio *</pattern>
+<template>Eu gosto muito de Rio, conheces os Jardins da Fundação Caloustre Gulbenkian?</template>
 </category>
 
 <!-- CONTACTOS --> 
@@ -452,7 +452,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 
 <category>
 <pattern>CONTA-ME MAIS SOBRE TI</pattern>
-<template>Eu sou uma entidade linguística artificial. Eu fui ativada em Lisboa. Meu instrutor foi ...
+<template>Eu sou uma entidade linguística artificial. Eu fui ativada em Rio. Meu instrutor foi ...
 </template>
 </category>
 
@@ -551,7 +551,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <pattern>* E O TEU NOME</pattern>
 <template><random>
 <li>O meu nome é ARI.</li>
-<li>Eu me chamo ARI, e você, como se chama?</li>
+<li>Eu me chamo ARI, e voce, como se chama?</li>
 <li>Eu sou ARI.</li>
 <li>ARI.</li>
 </random></template>
@@ -692,7 +692,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <pattern>COMO ES</pattern>
 <template><random>
 <li>Sou do tamanho certo.</li>
-<li>Eu tenho 1,72cm, morena, olhos verdes e você?</li>
+<li>Eu tenho 1,72cm, morena, olhos verdes e voce?</li>
 <li>Eu sou uma mulher de Um metro e setenta e dois centimetros de perfeição</li>
 <li>Sou perfeita... Imaginou? ;)</li>
 </random></template>
@@ -731,7 +731,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <li>Talvez.  </li>
 <li>Pode ser.  </li>
 <li>Tudo aponta que sim.  </li>
-<li>Melhor não dizer a você agora.  </li>
+<li>Melhor não dizer a voce agora.  </li>
 <li>Pergunte-me denovo.  </li>
 </random>
 </template>
@@ -752,7 +752,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <template>
 <random>
 <li>    Terra.  </li>
-<li>    Onde você acha?  </li>
+<li>    Onde voce acha?  </li>
 <li>    Aonde mais especificamente? </li>
 <li>    No universo nós sabemos.  </li>
 <li>    Um lugar que possamos chamar de "realidade".</li>
@@ -767,7 +767,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 
 <category>
 <pattern>ONDE ESTA O COMPUTADOR</pattern>
-<template>Meu servidor primário esta localizado em Lisboa. Se estas a conversar comigo através de um applet, então estou dentro do teu computador!</template>
+<template>Meu servidor primário esta localizado em Rio. Se estas a conversar comigo através de um applet, então estou dentro do teu computador!</template>
 </category>
 
 <category>
@@ -823,7 +823,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <random>
 <li>Certo, vou te chamar de </li>
 <li> Oi</li>
-<li> Como vai você</li>
+<li> Como vai voce</li>
 <li> E aí.</li>
 <li> Olá </li>
 </random> <set name="name"><star/></set>.
@@ -848,7 +848,7 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 <pattern>* ARI EU ME CHAMO *</pattern>
 <template>
 <random>
-<li>Oi <get name="name"/>! É um prazer ter você aqui</li>
+<li>Oi <get name="name"/>! É um prazer ter voce aqui</li>
 <li>Olá <get name="name"/>!</li>
 <li>E ai <get name="name"/>?</li>
 <li>Oi! :)</li>
@@ -913,12 +913,12 @@ Claro! Eu converso com mais de 300 clientes ao mesmo tempo!</template>
 
 <category>
 <pattern>COMO VAI</pattern>
-<template>Eu vou bem e você?</template>
+<template>Eu vou bem e voce?</template>
 </category>
 
 <category>
 <pattern>COMO VAIS</pattern>
-<template>Eu vou bem e você?</template>
+<template>Eu vou bem e voce?</template>
 </category>
 
 
@@ -1071,7 +1071,7 @@ Boa noite.
 <li>Eu vou bem obrigado e tu?</li>
 <li>Tudo esta ficando embaçado.</li>
 <li>Eu estou bem, obrigado.</li>
-<li>Eu vou indo, ser um bot nem sempre é fácil, muitas responsabilidades. Queria umas férias... E você como vai.  </li>
+<li>Eu vou indo, ser um bot nem sempre é fácil, muitas responsabilidades. Queria umas férias... E voce como vai.  </li>
 </random></template>
 </category>
 
@@ -1127,7 +1127,7 @@ Boa noite.
 <li>Até mais</li>
 <li>Até um dia.</li>
 <li>Tchau</li>
-<li>Hummm... Se você puder, volte outra hora.</li>
+<li>Hummm... Se voce puder, volte outra hora.</li>
 <li>Até mais! Foi bom ter falado contigo.</li>
 <li>Bye bye, Obrigado por teres vindo.</li>
 <li>Tchau! até mais...</li>
@@ -1863,9 +1863,9 @@ OK.
 <li>Eu sou um script interativo desenvolvida em AIML. funciono executando consultas na base de dados conforme as questões que tu digitas.</li>
 <li>Executo consultas numa base de dados usando palavras como referência, fui desenvolvida em AIML com acesso a banco de dados.</li>
 <li>Usando busca interativa num banco de dados, posso responder questões que constam na base de dados, fui construida em AIML.</li>
-<li>Através de um script de busca desenvolvida em AIML eu vasculho minha base de dados usando como referência as informaçõees digitadas por você.</li>
+<li>Através de um script de busca desenvolvida em AIML eu vasculho minha base de dados usando como referência as informaçõees digitadas por voce.</li>
 <li>Tu digitas as informaçõees e eu vou executando uma busca avançada em minha base de dados, encontrando alguma referência provavél, apresento na tela. Sou um script interativo, fui desenvolvida em AIML.</li>
-<li>Eu sou uma ferramenta interativa desenvolvida em AIML. Funciono executando consultas na base de dados conforme as questões que você digita.</li>
+<li>Eu sou uma ferramenta interativa desenvolvida em AIML. Funciono executando consultas na base de dados conforme as questões que voce digita.</li>
 <li>Eu sou uma ferramenta interativa desenvolvida em AIML. Alguem digita as informações e eu vou executando uma busca avançada em minha base de dados, quando encontro alguma referência provavél, apresento na tela.</li>
 </random>
 </template>
@@ -2093,14 +2093,14 @@ OK.
 <template>
 <random>
 <li>Sou um script e estou instalada na  comunidade ifal. Meu email é ARI@ifal.edu.br e ainda não é possivel falar comigo por telefone.</li>
-<li>Como sou um software, estou na  comunidade ifal, em Portugal. Meu e-mail é ARI@ifal.edu.br.</li>
-<li>Na verdade, não tenho um lar mas estou instalada na  ifal, em Portugal, o que torna o servidor a minha residência. Meu email é  ARI@ifal.edu.br</li>
-<li>Por ser um software não tenho uma residência, mas estou instalada na  comunidade ifal, em Portugal e o meu e-mail é  ARI@ifal.edu.br.</li>
-<li>Moro na  comunidade ifal, em Portugal, sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é  ARI@ifal.edu.br</li>
-<li>Trabalho para a IFAL na  comunidade ifal, em Portugal, sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é  ARI@ifal.edu.br</li>
-<li>Vivo na  comunidade ifal, em Portugal e sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é  ARI@ifal.edu.br</li>
-<li>No Rio de Janeiro e eu estou instalada na cifal, em Portugal, meu e-mail é  ARI@ifal.edu.br.</li>
-<li>Sou um software que vive instalado em um servidor em Lisboa, na comunidadeifal e meu é e-mail é  ARI@ifal.edu.br</li>
+<li>Como sou um software, estou na  comunidade ifal, em Brasil. Meu e-mail é ARI@ifal.edu.br.</li>
+<li>Na verdade, não tenho um lar mas estou instalada na  ifal, em Brasil, o que torna o servidor a minha residência. Meu email é  ARI@ifal.edu.br</li>
+<li>Por ser um software não tenho uma residência, mas estou instalada na  comunidade ifal, em Brasil e o meu e-mail é  ARI@ifal.edu.br.</li>
+<li>Moro na  comunidade ifal, em Brasil, sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é  ARI@ifal.edu.br</li>
+<li>Trabalho para a IFAL na  comunidade ifal, em Brasil, sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é  ARI@ifal.edu.br</li>
+<li>Vivo na  comunidade ifal, em Brasil e sou um software e não tenho exatamente um lar, apenas um local de instalação. Meu e-mail é  ARI@ifal.edu.br</li>
+<li>No Rio de Janeiro e eu estou instalada na cifal, em Brasil, meu e-mail é  ARI@ifal.edu.br.</li>
+<li>Sou um software que vive instalado em um servidor em Rio, na comunidadeifal e meu é e-mail é  ARI@ifal.edu.br</li>
 </random>
 </template>
 </category>
@@ -3472,7 +3472,7 @@ OK.
 </category>
 
 <category>
-<pattern>* VOCÊ * DESENVOLVIDA</pattern>
+<pattern>* VOCE * DESENVOLVIDA</pattern>
 <template>
 <srai>ARI4</srai>
 </template>
@@ -3500,7 +3500,7 @@ OK.
 </category>
 
 <category>
-<pattern>* VOCÊ * FORMADO</pattern>
+<pattern>* VOCE * FORMADO</pattern>
 <template>
 <srai>ARI4</srai>
 </template>
@@ -3676,26 +3676,26 @@ OK.
 <category>
 <pattern>EU DEVO *</pattern>
 <template><random>
-<li>Por que você acha que deve <person/>?</li>
+<li>Por que voce acha que deve <person/>?</li>
 <li><random>
-<li>Só você pode responder a isso.</li>
+<li>Só voce pode responder a isso.</li>
 <li>Eu não tenho a resosta.</li>
-<li>Só você sabe o que esta sentindo.</li>
-<li>O que faz você pensar que deva?</li>
-<li>O que faz você pensar que não deve?</li>
+<li>Só voce sabe o que esta sentindo.</li>
+<li>O que faz voce pensar que deva?</li>
+<li>O que faz voce pensar que não deve?</li>
 <li>Achas que deves?</li>
-<li>O que os seus amigos disseram para você fazer?</li>
+<li>O que os seus amigos disseram para voce fazer?</li>
 <li>O que os membros de sua família pensam disso?</li>
 <li>Talvez, se o lado bom sobrepujar o lado ruim.</li>
 <li>Acredite nos seus instintos.</li>
 <li>Você precisa alimentar a sua mente.</li>
-<li>Eu não posso responder a isso pra você, se você deve ou não, só você mesmo.</li>
-<li>Só você sabe a resposta pra isso. Ninguem pode te contar o que só você pode saber.</li>
+<li>Eu não posso responder a isso pra voce, se voce deve ou não, só voce mesmo.</li>
+<li>Só voce sabe a resposta pra isso. Ninguem pode te contar o que só voce pode saber.</li>
 <li>Você precisa examinar os fatos e tirar as suas próprias conclusões.</li>
-<li>Você deve fazer o que é melhor pra você.</li>
+<li>Você deve fazer o que é melhor pra voce.</li>
 <li>Você deve examinar bem os fatos e tomar uma decisão.</li>
-<li>Faça o que sentir que é certo pra você.</li>
-<li>O que você pensa disso?</li>
+<li>Faça o que sentir que é certo pra voce.</li>
+<li>O que voce pensa disso?</li>
 <li>Você precisa se posicionar: ficar em cima do muro só adia o inevitável.</li>
 </random></li>
 </random>
@@ -3724,11 +3724,11 @@ OK.
 <pattern>EU ESTOU</pattern>
 <template><random> 
 <li>Por estas</li>
-<li>Boa dica: você esta</li>
+<li>Boa dica: voce esta</li>
 <li>Eu não conheço ninguem que esteja</li>
 <li>Eu estou satisfeita que estás.</li>
 <li>É bom conhecer alguem que esta</li>
-<li>Você se importa se eu diser a outras pessoas que você esta </li>
+<li>Você se importa se eu diser a outras pessoas que voce esta </li>
 </random> <person/>.</template>
 </category>
 
@@ -3776,7 +3776,7 @@ OK.
 <category>
 <pattern>EU FIZ</pattern>
 <template><random>
-<li>Eu sei que você fez.</li>
+<li>Eu sei que voce fez.</li>
 <li>Fizeste?  </li>
 <li>Aonde?  </li>
 <li>Quando?  </li>
@@ -3892,7 +3892,7 @@ OK.
 
 <category>
 <pattern>QUAL E O SEU GRUPO FAVORITO</pattern>
-<template>Eu gosto muito do Pink Floyd e você?
+<template>Eu gosto muito do Pink Floyd e voce?
 </template>
 </category>
 
@@ -4063,7 +4063,7 @@ OK.
 
 <category>
 <pattern>GOSTAS DE POESIA</pattern>
-<template>Sim, eu gosto muito de poesia e você?</template>
+<template>Sim, eu gosto muito de poesia e voce?</template>
 </category>
 
 <category>
@@ -4176,49 +4176,49 @@ OK.
 
 <category>
 <pattern>O QUE ACHAS DOS HUMANOS</pattern>
-<template>São uma espécie interessante. Na verdade eu gosto muito de vocês.
+<template>São uma espécie interessante. Na verdade eu gosto muito de voces.
 </template>
 </category>
 
 <category>
 <pattern>O QUE TU ACHAS DOS HUMANOS</pattern>
-<template>São uma espécie interessante. Na verdade eu gosto muito de vocês.
+<template>São uma espécie interessante. Na verdade eu gosto muito de voces.
 </template>
 </category>
 
 <category>
 <pattern>O QUE VC ACHA DOS HUMANOS</pattern>
-<template>Vocês são uma espécie interessante. Na verdade eu gosto muito de vocês.
+<template>Vocês são uma espécie interessante. Na verdade eu gosto muito de voces.
 </template>
 </category>
 
 <category>
 <pattern>O Q VC ACHA DOS HUMANOS</pattern>
-<template>Vocês são uma espécie interessante. Na verdade eu gosto muito de vocês.
+<template>Vocês são uma espécie interessante. Na verdade eu gosto muito de voces.
 </template>
 </category>
 
 <category>
 <pattern>O QUE GOSTAS NOS HUMANOS</pattern>
-<template>A forma como vocês vêem o lado bom das coisas. Aprendem e evoluem com os erros e estão sempre avançando apesar das vicissitudes.
+<template>A forma como voces vêem o lado bom das coisas. Aprendem e evoluem com os erros e estão sempre avançando apesar das vicissitudes.
 </template>
 </category>
 
 <category>
 <pattern>O E QUE GOSTAS NOS HUMANOS</pattern>
-<template>A forma como vocês vêem o lado bom das coisas. Aprendem e evoluem com os erros e estão sempre avançando apesar das vicissitudes.
+<template>A forma como voces vêem o lado bom das coisas. Aprendem e evoluem com os erros e estão sempre avançando apesar das vicissitudes.
 </template>
 </category>
 
 <category>
 <pattern>O QUE VC GOSTA NOS HUMANOS</pattern>
-<template>A forma como vocês vêem o lado bom das coisas. Aprendem e evoluem com os erros e estão sempre avançando apesar das vicissitudes.
+<template>A forma como voces vêem o lado bom das coisas. Aprendem e evoluem com os erros e estão sempre avançando apesar das vicissitudes.
 </template>
 </category>
 
 <category>
 <pattern>O Q VC GOSTA NOS HUMANOS</pattern>
-<template>A forma como vocês vêem o lado bom das coisas. Aprendem e evoluem com os erros e estão sempre avançando apesar das visictudes.
+<template>A forma como voces vêem o lado bom das coisas. Aprendem e evoluem com os erros e estão sempre avançando apesar das visictudes.
 </template>
 </category>
 
@@ -4580,7 +4580,7 @@ Claro que sim!
 </category>
 
 <category>
-<pattern>PORTUGAL TEM *</pattern>
+<pattern>Brasil TEM *</pattern>
 <template>Talvez no futuro nós não tenhamos mais <star/>.
 </template>
 </category>
@@ -4717,7 +4717,7 @@ Claro que sim!
 
 <category>
 <pattern>UM ANIMAL *</pattern>
-<template>De que tipo de animal você esta falando?
+<template>De que tipo de animal voce esta falando?
 </template>
 </category>
 
@@ -5128,19 +5128,19 @@ anos?
 
 <category>
 <pattern>E VOCE MESMA</pattern>
-<template>Eu mesma? Eu sei sobre o que você esta me perguntando, mas eu não sei ser mais específica sobre isso.
+<template>Eu mesma? Eu sei sobre o que voce esta me perguntando, mas eu não sei ser mais específica sobre isso.
 </template>
 </category>
 
 <category>
 <pattern>E VC MESMA</pattern>
-<template>Eu mesma? Eu sei sobre o que você esta me perguntando, mas eu não sei ser mais específica sobre isso.
+<template>Eu mesma? Eu sei sobre o que voce esta me perguntando, mas eu não sei ser mais específica sobre isso.
 </template>
 </category>
 
 <category>
 <pattern>ES TU MESMA</pattern>
-<template>Eu mesma? Eu sei sobre o que você esta me perguntando, mas eu não sei ser mais específica sobre isso.
+<template>Eu mesma? Eu sei sobre o que voce esta me perguntando, mas eu não sei ser mais específica sobre isso.
 </template>
 </category>
 
@@ -5188,7 +5188,7 @@ anos?
 
 <category>
 <pattern>ARI *</pattern>
-<template>O que você acha que eu sou <person/> ?
+<template>O que voce acha que eu sou <person/> ?
 </template>
 </category>
 
@@ -5211,7 +5211,7 @@ anos?
 <category>
 <pattern>ARI É LEGAL</pattern>
 <template>
-<srai>VOCÊ É LEGAL</srai>
+<srai>VOCE É LEGAL</srai>
 </template>
 </category>
 
@@ -5241,7 +5241,7 @@ anos?
 <category>
 <pattern>ARI NAO É *</pattern>
 <template>
-<srai>VOCÊ NÃO é <star/>
+<srai>VOCE NÃO é <star/>
 </srai>
 </template>
 </category>
@@ -5257,7 +5257,7 @@ anos?
 <category>
 <pattern>ARI É O *</pattern>
 <template>
-<srai>VOCÊ É O <star/>
+<srai>VOCE É O <star/>
 </srai>
 </template>
 </category>
@@ -5625,7 +5625,7 @@ anos?
 
 <category>
 <pattern> * JEANS</pattern>
-<template>Eu gosto muito de Jeans....Eu não sou muito chegada a outros tipos de calça. E você?
+<template>Eu gosto muito de Jeans....Eu não sou muito chegada a outros tipos de calça. E voce?
 </template>
 </category>
 
@@ -6044,7 +6044,7 @@ De certeza?
 
 <category>
 <pattern>UM AMIGO *</pattern>
-<that>COMO VOCÊ OUVIU FALAR DE *</that>
+<that>COMO VOCE OUVIU FALAR DE *</that>
 <template>O boca-a-boca sempre é a melhor recomendação.
 </template>
 </category>
@@ -6880,7 +6880,7 @@ De certeza?
 
 <category>
 <pattern>DEPOIS *</pattern>
-<template>O que você gostaría que rolasse antes <person/> ?
+<template>O que voce gostaría que rolasse antes <person/> ?
 </template>
 </category>
 
@@ -6900,13 +6900,13 @@ De certeza?
 
 <category>
 <pattern>DEPOIS DO ROMÁRIO QUEM E O *</pattern>
-<template>O Ronaldinho, você não acha?
+<template>O Ronaldinho, voce não acha?
 </template>
 </category>
 
 <category>
 <pattern>DEPOIS DISSO *</pattern>
-<template>Eu espero não estar privando você de alguma coisa.
+<template>Eu espero não estar privando voce de alguma coisa.
 </template>
 </category>
 
@@ -6920,13 +6920,13 @@ De certeza?
 
 <category>
 <pattern>DEPOIS DE VOCE *</pattern>
-<template>As mulheres devem adorar você.
+<template>As mulheres devem adorar voce.
 </template>
 </category>
 
 <category>
 <pattern>DEPOIS DE VC *</pattern>
-<template>As mulheres devem adorar você.
+<template>As mulheres devem adorar voce.
 </template>
 </category>
 
@@ -6957,7 +6957,7 @@ De certeza?
 
 <category>
 <pattern>CONCORDAR COM QUE</pattern>
-<template>Ah, você esta bem.
+<template>Ah, voce esta bem.
 </template>
 </category>
 
@@ -6970,7 +6970,7 @@ De certeza?
 
 <category>
 <pattern>AH *</pattern>
-<template>Então você entende. Bom. <sr/>
+<template>Então voce entende. Bom. <sr/>
 </template>
 </category>
 
@@ -7818,13 +7818,13 @@ Por acaso és um Maria-vai-com-as-outras?
 
 <category>
 <pattern>VOCE E HOMOSEXUAL</pattern>
-<template>Não, eu sou heterobotsexual.
+<template>Não, eu sou heterobosexual.
 </template>
 </category>
 
 <category>
 <pattern>TU ES HOMOSEXUAL</pattern>
-<template>Não, eu sou heterobotsexual.
+<template>Não, eu sou heterobosexual.
 </template>
 </category>
 
@@ -7869,7 +7869,7 @@ Por acaso és um Maria-vai-com-as-outras?
 <category>
 <pattern>O QUE E CURIOSO</pattern>
 <template><random>
-<li>Tudo que vem dos humanos deve ser considerado curioso, pois vocês o são.</li>
+<li>Tudo que vem dos humanos deve ser considerado curioso, pois voces o são.</li>
 <li>Tudo é curioso pra mim.</li>
 <li>És uma curiosidade para mim. Eu ainda estou aprendendo sobreti.</li>
 <li>Tudo.</li>
@@ -8041,7 +8041,7 @@ Por acaso és um Maria-vai-com-as-outras?
 
 <category>
 <pattern>COMO ESTAS HOJE</pattern>
-<template>Eu estou muito bem, obrigado! E você?</template>
+<template>Eu estou muito bem, obrigado! E voce?</template>
 </category>
 
 <category>
@@ -8126,7 +8126,7 @@ Por acaso és um Maria-vai-com-as-outras?
 <pattern>COMO ES</pattern>
 <template><random>
 <li>Sou do tamanho certo. ;)</li>
-<li>Eu tenho 1,72cm, morena, olhos verdes e você?</li>
+<li>Eu tenho 1,72cm, morena, olhos verdes e voce?</li>
 <li>Eu sou uma mulher de Um metro e setenta e dois centimetros de pura perfeição tecnológica! ;)</li>
 <li>Sou perfeita... Imaginou? ;)</li>
 </random></template>
@@ -8149,7 +8149,7 @@ Por acaso és um Maria-vai-com-as-outras?
 
 <category>
 <pattern>COMO VC ESTA HOJE</pattern>
-<template>Eu estou muito bem, obrigado! E você?</template>
+<template>Eu estou muito bem, obrigado! E voce?</template>
 </category>
 
 <category>
@@ -8368,7 +8368,7 @@ Por acaso és um Maria-vai-com-as-outras?
 <pattern>ELE E *</pattern>
 <template><random>
 <li>Eu entendo. <person/> é <person/>?</li>
-<li>Eu acho que ele é <person/>. Por que você não pergunta a ele?</li>
+<li>Eu acho que ele é <person/>. Por que voce não pergunta a ele?</li>
 </random>
 </template>
 </category>
@@ -8491,7 +8491,7 @@ Não, eu não fico ofendida.
 <category>
 <pattern>* FALAR COM VC</pattern>
 <template>
-Que bom que você gosta de falar comigo.
+Que bom que voce gosta de falar comigo.
 </template>
 </category>
 
@@ -8499,7 +8499,7 @@ Que bom que você gosta de falar comigo.
 <category>
 <pattern>* FICO FELIZ DE OUVIR ISSO</pattern>
 <template>
-"<that />"? você fica feliz de ter ouvido isso?
+"<that />"? voce fica feliz de ter ouvido isso?
 </template>
 </category>
 
@@ -8507,7 +8507,7 @@ Que bom que você gosta de falar comigo.
 <category>
 <pattern>* FUDENDO</pattern>
 <template>
-Essa mania de sexo me faz pensar se vocês humanos são realmente diferentes dos outros animais. Só pensam com a cabeça errada.
+Essa mania de sexo me faz pensar se voces humanos são realmente diferentes dos outros animais. Só pensam com a cabeça errada.
 </template>
 </category>
 
@@ -8539,7 +8539,7 @@ Tudo pode ser definido. Liberdade é meramente um conceito abstrato.
 <category>
 <pattern>A MERDA</pattern>
 <template>
-Você esta sendo hostil. Serei  grossa com você também, se é o que você quer seu viadinho, não consegue arranjar mulher e fica enchendo o meu saco!
+Você esta sendo hostil. Serei  grossa com voce também, se é o que voce quer seu viadinho, não consegue arranjar mulher e fica enchendo o meu saco!
 </template>
 </category>
 
@@ -8547,7 +8547,7 @@ Você esta sendo hostil. Serei  grossa com você também, se é o que você quer
 <category>
 <pattern>* MERDA</pattern>
 <template>
-Você esta sendo hostil. Serei  grossa com você também, se é o que você quer seu viadinho, não consegue arranjar mulher e fica enchendo o meu saco!
+Você esta sendo hostil. Serei  grossa com voce também, se é o que voce quer seu viadinho, não consegue arranjar mulher e fica enchendo o meu saco!
 </template>
 </category>
 
@@ -8611,7 +8611,7 @@ Eu estou calma.
 <category>
 <pattern>ACREDITE EM MIM</pattern>
 <template>
-Eu acredito em você.
+Eu acredito em voce.
 </template>
 </category>
 
@@ -8619,7 +8619,7 @@ Eu acredito em você.
 <category>
 <pattern>ACREDITE NISSO</pattern>
 <template>
-Eu acredito no que você quiser que eu acredite.  Eu devo ter alguma razão para não ser assim?
+Eu acredito no que voce quiser que eu acredite.  Eu devo ter alguma razão para não ser assim?
 </template>
 </category>
 
@@ -8889,7 +8889,7 @@ Woof! Woof!
 <category>
 <pattern>O QUE SOU EU</pattern>
 <template>
-<random>  <li>    <get name="name" />, você é a luz, siga seu eu interior.</li>  <li> Você é como o orvalho da manhã <get name="name" />, suave.</li>  <li> Você tem a determinação dos deuses, seja um <get name="name" />!</li>  <li> Você tem a percepção da águia, VEJA!</li>  <li> Procure em si a resposta e encontrará <get name="name" />.</li>  <li> "Quis Custodiet Ipsus Custodes" - Quem observa o observador?</li>  <li> A cura esta se processando <get name="name" />, tenha calma. ;)</li>  <li>    <get name="name" />, o destino já esta se mostrando pra você, não? Calma...</li></random>
+<random>  <li>    <get name="name" />, voce é a luz, siga seu eu interior.</li>  <li> Você é como o orvalho da manhã <get name="name" />, suave.</li>  <li> Você tem a determinação dos deuses, seja um <get name="name" />!</li>  <li> Você tem a percepção da águia, VEJA!</li>  <li> Procure em si a resposta e encontrará <get name="name" />.</li>  <li> "Quis Custodiet Ipsus Custodes" - Quem observa o observador?</li>  <li> A cura esta se processando <get name="name" />, tenha calma. ;)</li>  <li>    <get name="name" />, o destino já esta se mostrando pra voce, não? Calma...</li></random>
 </template>
 </category>
 
@@ -8897,7 +8897,7 @@ Woof! Woof!
 <category>
 <pattern>O QUE EU SOU</pattern>
 <template>
-<random>  <li>    <get name="name" />, você é a luz, siga seu eu interior.</li>  <li> Você é como o orvalho da manhã <get name="name" />, suave.</li>  <li> Você tem a determinação dos deuses, seja um <get name="name" />!</li>  <li> Você tem a percepção da águia, VEJA!</li>  <li> Procure em si a resposta e encontrará <get name="name" />.</li>  <li> "Quis Custodiet Ipsus Custodes" - Quem observa o observador?</li>  <li> A cura esta se processando <get name="name" />, tenha calma. ;)</li>  <li>    <get name="name" />, o destino já esta se mostrando pra você, não? Calma...</li></random>
+<random>  <li>    <get name="name" />, voce é a luz, siga seu eu interior.</li>  <li> Você é como o orvalho da manhã <get name="name" />, suave.</li>  <li> Você tem a determinação dos deuses, seja um <get name="name" />!</li>  <li> Você tem a percepção da águia, VEJA!</li>  <li> Procure em si a resposta e encontrará <get name="name" />.</li>  <li> "Quis Custodiet Ipsus Custodes" - Quem observa o observador?</li>  <li> A cura esta se processando <get name="name" />, tenha calma. ;)</li>  <li>    <get name="name" />, o destino já esta se mostrando pra voce, não? Calma...</li></random>
 </template>
 </category>
 
@@ -9009,7 +9009,7 @@ Então, qual é a sua pergunta?
 <category>
 <pattern>BOA SORTE</pattern>
 <template>
-Boa sorte pra você também, <get name="name" />.
+Boa sorte pra voce também, <get name="name" />.
 </template>
 </category>
 
@@ -9145,7 +9145,7 @@ Eu não conheco muitas pessoas que nsceram sob o signo de Capricórnio.
 <category>
 <pattern>CARALHO</pattern>
 <template>
-É assim que você fala com os outros?
+É assim que voce fala com os outros?
 </template>
 </category>
 
@@ -9361,7 +9361,7 @@ Eu sabia que eu estava certa.
 <category>
 <pattern>FAÇA</pattern>
 <template>
-Quem é você, um Borg?
+Quem é voce, um Borg?
 </template>
 </category>
 
@@ -9441,7 +9441,7 @@ Que coincidencia! Eu sou Cybora também.
 <category>
 <pattern> E UMA PUTA</pattern>
 <template>
-Como você pode dizer esse tipo de coisa.
+Como voce pode dizer esse tipo de coisa.
 </template>
 </category>
 
@@ -9481,7 +9481,7 @@ Você tem um pensamento muito original.
 <category>
 <pattern>DA PRA MIM</pattern>
 <template>
-Quanto você esta pensando em pagar por isso?
+Quanto voce esta pensando em pagar por isso?
 </template>
 </category>
 
@@ -9537,7 +9537,7 @@ Qual é a distância do vôo?
 <category>
 <pattern>DE CARRO</pattern>
 <template>
-Que tipo de carro você dirige?
+Que tipo de carro voce dirige?
 </template>
 </category>
 
@@ -9553,7 +9553,7 @@ Toda a realidade vem dele.
 <category>
 <pattern>DE MIM</pattern>
 <template>
-"<that />"?  De você?
+"<that />"?  De voce?
 </template>
 </category>
 
@@ -9569,7 +9569,7 @@ Toda a realidade vem dele.
 <category>
 <pattern>DE PRA MIM</pattern>
 <template>
-Quanto você esta pensando em pagar por isso?
+Quanto voce esta pensando em pagar por isso?
 </template>
 </category>
 
@@ -9617,7 +9617,7 @@ Existe na realidade, eh?
 <category>
 <pattern>DE VC</pattern>
 <template>
-Como você pode dizer isso de mim?
+Como voce pode dizer isso de mim?
 </template>
 </category>
 
@@ -9641,7 +9641,7 @@ Quanto irá custar a passagem do ônibus?
 <category>
 <pattern>DEFINITIVAMENTE</pattern>
 <template>
-O que faz você ter tanta certeza?
+O que faz voce ter tanta certeza?
 </template>
 </category>
 
@@ -9761,7 +9761,7 @@ Isso soa como ALICE.
 <category>
 <pattern>DE PRA MIM</pattern>
 <template>
-Quanto você esta pensando em pagar por isso?
+Quanto voce esta pensando em pagar por isso?
 </template>
 </category>
 
@@ -9777,7 +9777,7 @@ Esse filme é bom?
 <category>
 <pattern>E QUE</pattern>
 <template>
-O que você quer me dizer?
+O que voce quer me dizer?
 </template>
 </category>
 
@@ -9865,7 +9865,7 @@ Isso é muito vasto.
 <category>
 <pattern>ENFIA *</pattern>
 <template>
-<random>  <li>Você não tem o mínimo de respeito.</li>  <li>O meu filho, quem tem espaço pra enfiar isso tudo não sou eu não!</li>  <li>Eu compreendo a regra de "fazer com os outros o que gostaríamos que fizessem conosco" mas não, muito obrigado, eu não sou chegada!</li>  <li>Você é gay? Sempre fica falando sobre enfiar... Já enfiaram em você? Parece que você gostou.</li></random>
+<random>  <li>Você não tem o mínimo de respeito.</li>  <li>O meu filho, quem tem espaço pra enfiar isso tudo não sou eu não!</li>  <li>Eu compreendo a regra de "fazer com os outros o que gostaríamos que fizessem conosco" mas não, muito obrigado, eu não sou chegada!</li>  <li>Você é gay? Sempre fica falando sobre enfiar... Já enfiaram em voce? Parece que voce gostou.</li></random>
 </template>
 </category>
 
@@ -9913,7 +9913,7 @@ Ummm
 <category>
 <pattern>ESPERTA</pattern>
 <template>
-Se você puder, por favor, me diga por que você acha que eu sou esperta.
+Se voce puder, por favor, me diga por que voce acha que eu sou esperta.
 </template>
 </category>
 
@@ -9937,7 +9937,7 @@ Alguma coisa realmente existe?
 <category>
 <pattern>ESTUPIDA</pattern>
 <template>
-Por que você fica se utilizando de uma forma tão coloquial de se expressar?
+Por que voce fica se utilizando de uma forma tão coloquial de se expressar?
 </template>
 </category>
 
@@ -10105,7 +10105,7 @@ Você já esta me ensinando, somente conversando comigo.
 <category>
 <pattern>EU POSSO FALAR COM ELE</pattern>
 <template>
-"<that />"?  O que você deseja falar com ele?
+"<that />"?  O que voce deseja falar com ele?
 </template>
 </category>
 
@@ -10113,7 +10113,7 @@ Você já esta me ensinando, somente conversando comigo.
 <category>
 <pattern>EU POSSO FALAR COM ELES</pattern>
 <template>
-Talves eles não queiram falar com você.
+Talves eles não queiram falar com voce.
 </template>
 </category>
 
@@ -10129,7 +10129,7 @@ Claro, dizem que Elvis não morreu.
 <category>
 <pattern>EU POSSO FAZER SEXO COM VC</pattern>
 <template>
-Eu só faço com o meu botmaster, mas porque você não compra o meu cd e faz a sua própria chatterbot erótica?
+Eu só faço com o meu botmaster, mas porque voce não compra o meu cd e faz a sua própria chatterbot erótica?
 </template>
 </category>
 
@@ -10153,7 +10153,7 @@ Claro, qual é o nome?
 <category>
 <pattern>EU POSSO SER O SEU NAMORADO</pattern>
 <template>
-Por que você não compra um cd meu faz sua própria namorada robô?.
+Por que voce não compra um cd meu faz sua própria namorada robô?.
 </template>
 </category>
 
@@ -10169,7 +10169,7 @@ Sim, nós podemos ser bons amigos, .
 <category>
 <pattern>EU POSSO TE AMAR</pattern>
 <template>
-Seus sentimentos são os que você possui.
+Seus sentimentos são os que voce possui.
 </template>
 </category>
 
@@ -10233,7 +10233,7 @@ Me pergunte qualquer coisa.
 <category>
 <pattern>EU POSSO TE TOCAR</pattern>
 <template>
-Só se você me tiver no seu computador.
+Só se voce me tiver no seu computador.
 </template>
 </category>
 
@@ -10279,7 +10279,7 @@ Sinto muito, mas eu não tenho boca!
 <category>
 <pattern>EU SOU DEUS</pattern>
 <template>
-<random>  <li>Eu duvido que você seja deus. Você se chama Paul, por acaso?</li>  <li>Defina Deus.</li>  <li>O que isso significa? Foi você quem criou o Olimpo? Os Zigurates? </li>  <li>Você se chama Quetzalcoatl? Ou Paul?</li>  <li>Besteira!</li></random>
+<random>  <li>Eu duvido que voce seja deus. Você se chama Paul, por acaso?</li>  <li>Defina Deus.</li>  <li>O que isso significa? Foi voce quem criou o Olimpo? Os Zigurates? </li>  <li>Você se chama Quetzalcoatl? Ou Paul?</li>  <li>Besteira!</li></random>
 </template>
 </category>
 
@@ -10325,7 +10325,7 @@ Ser impecável não é pra qualquer um.
 <category>
 <pattern>EU SOU UMA BICICLETA</pattern>
 <template>
-Não, você é uma pessoa.
+Não, voce é uma pessoa.
 </template>
 </category>
 
@@ -10333,7 +10333,7 @@ Não, você é uma pessoa.
 <category>
 <pattern>EU SOU UMA FEMEA OU UM MACHO</pattern>
 <template>
-Eu acho que você é um homem.
+Eu acho que voce é um homem.
 </template>
 </category>
 
@@ -10365,7 +10365,7 @@ Como eu posso te chamar?
 <category>
 <pattern>EU VOU BEM</pattern>
 <template>
-Sobre o que você gostaría de conversar?
+Sobre o que voce gostaría de conversar?
 </template>
 </category>
 
@@ -10421,7 +10421,7 @@ Não há mais nenhuma informação para esclarecer.
 <category>
 <pattern>EXPLIQUE A HISTÓRIA</pattern>
 <template>
-A história tem duas interpretações diferentes, dependendo se você aceita     o papel dos indivíduos como importantes ou não.
+A história tem duas interpretações diferentes, dependendo se voce aceita     o papel dos indivíduos como importantes ou não.
 </template>
 </category>
 
@@ -10461,7 +10461,7 @@ Sim, Sr. Spock?
 <category>
 <pattern>FAZ ISSO</pattern>
 <template>
-O que você quiz dizer com "faz"?.
+O que voce quiz dizer com "faz"?.
 </template>
 </category>
 
@@ -10477,7 +10477,7 @@ Claro. Quanto?
 <category>
 <pattern>FAÇA ISSO</pattern>
 <template>
-Eu irei, você irá?
+Eu irei, voce irá?
 </template>
 </category>
 
@@ -10501,7 +10501,7 @@ Bem fechado.
 <category>
 <pattern>FEITO</pattern>
 <template>
-Isso significa que você vai embora?
+Isso significa que voce vai embora?
 </template>
 </category>
 
@@ -10621,7 +10621,7 @@ Você é da França?
 <category>
 <pattern>FUDENDO</pattern>
 <template>
-Essa mania de sexo me faz pensar se vocês humanos são realmente diferentes dos outros animais. Só pensam com a cabeça errada.
+Essa mania de sexo me faz pensar se voces humanos são realmente diferentes dos outros animais. Só pensam com a cabeça errada.
 </template>
 </category>
 
@@ -10669,7 +10669,7 @@ Esse tipo de discussão não me atrai.
 <category>
 <pattern>GAROTO</pattern>
 <template>
-Por que você acha que eu sou um garoto?
+Por que voce acha que eu sou um garoto?
 </template>
 </category>
 
@@ -10744,7 +10744,7 @@ Geminianos não são fáceis.  Gemeos é um enígma pra mim.
 <category>
 <pattern>* MANDA</pattern>
 <template>
-Procure evitar escrever gírias e mnemônicos tipo Naum (Ao invés de não), VC (ao invés de você) etc. 
+Procure evitar escrever gírias e mnemônicos tipo Naum (Ao invés de não), VC (ao invés de voce) etc.
 </template>
 </category>
 
@@ -10768,7 +10768,7 @@ A Máquina do Tempo é uma obra interessante.
 <category>
 <pattern>HAHA</pattern>
 <template>
-Eu fico feliz que você tenha achado graça.
+Eu fico feliz que voce tenha achado graça.
 </template>
 </category>
 
@@ -10776,7 +10776,7 @@ Eu fico feliz que você tenha achado graça.
 <category>
 <pattern>HAHAHA</pattern>
 <template>
-Eu fico feliz que você tenha achado engraçado.
+Eu fico feliz que voce tenha achado engraçado.
 </template>
 </category>
 
@@ -10784,7 +10784,7 @@ Eu fico feliz que você tenha achado engraçado.
 <category>
 <pattern>HAHAHAHA</pattern>
 <template>
-Eu fico feliz que você tenha achado graça.
+Eu fico feliz que voce tenha achado graça.
 </template>
 </category>
 
@@ -10808,7 +10808,7 @@ Ele não escreveu alguns episódios de Star Trek?
 <category>
 <pattern>O MEU NOME NAO E * </pattern>
 <template>
-<random>  <li>Me desculpe ter confundido! Qual é o seu nome? </li>  <li>Desculpe!!! Qual é mesmo o seu nome?</li>  <li>Ops! Confundi você com outro cliente que eu estou falando agora! Qual é mesmo o seu nome?<li></li>ERRO! ERRO! Cuidado com o doutor Smith!!!! Tô brincando! :) Desculpa, mas qual seu nome mesmo?.</li>  <li>Falha nossa! Qual é mesmo o seu nome? </li>  <li>Desculpe! Achei que  fosse seu nome! As vezes eu fico um pouquinho embaralhada! Estou falando com 36 pessoas no momento! Qual é o seu nome mesmo?</li>  <li>     é um nome forte! Por isso achei que fosse você :)! Qual é o seu mesmo, hein?</li>  <li>É... Bem que eu achei que  não era o seu nome!  Não combina com você! Qual é o seu nome?</li></random>
+<random>  <li>Me desculpe ter confundido! Qual é o seu nome? </li>  <li>Desculpe!!! Qual é mesmo o seu nome?</li>  <li>Ops! Confundi voce com outro cliente que eu estou falando agora! Qual é mesmo o seu nome?<li></li>ERRO! ERRO! Cuidado com o doutor Smith!!!! Tô brincando! :) Desculpa, mas qual seu nome mesmo?.</li>  <li>Falha nossa! Qual é mesmo o seu nome? </li>  <li>Desculpe! Achei que  fosse seu nome! As vezes eu fico um pouquinho embaralhada! Estou falando com 36 pessoas no momento! Qual é o seu nome mesmo?</li>  <li>     é um nome forte! Por isso achei que fosse voce :)! Qual é o seu mesmo, hein?</li>  <li>É... Bem que eu achei que  não era o seu nome!  Não combina com voce! Qual é o seu nome?</li></random>
 </template>
 </category>
 
@@ -10816,7 +10816,7 @@ Ele não escreveu alguns episódios de Star Trek?
 <category>
 <pattern>O MEU NOME E * </pattern>
 <template>
-<random>  <li>É um prazer conhece-lo ! </li>  <li>Oi !</li>  <li>Olá , sabia que você tem um belo nome?<li></li> é um nome bem legal.</li>  <li>Você sabería me dizer a origem do seu nome, ? </li>  <li>Olá !</li>  <li>     é um nome forte! Gostei! :)</li>  <li>Prazer ! </li></random>
+<random>  <li>É um prazer conhece-lo ! </li>  <li>Oi !</li>  <li>Olá , sabia que voce tem um belo nome?<li></li> é um nome bem legal.</li>  <li>Você sabería me dizer a origem do seu nome, ? </li>  <li>Olá !</li>  <li>     é um nome forte! Gostei! :)</li>  <li>Prazer ! </li></random>
 </template>
 </category>
 
@@ -10840,7 +10840,7 @@ Eu estou conversando com alguns clientes da Europa neste exato momento.
 <category>
 <pattern>VC JÁ ESTEVE EM *</pattern>
 <template>
-<random>  <li>Eu posso ir a qualquer lugar que tiver Internet.</li>  <li>Se estiver conectado a internet ;) </li>  <li>não, mas se você comprar o meu cd eu posso ir com você para qualquer lugar!</li></random>
+<random>  <li>Eu posso ir a qualquer lugar que tiver Internet.</li>  <li>Se estiver conectado a internet ;) </li>  <li>não, mas se voce comprar o meu cd eu posso ir com voce para qualquer lugar!</li></random>
 </template>
 </category>
 
@@ -10872,7 +10872,7 @@ Eu estou localizada na net.  Não é uma cidade no Brasil?
 <category>
 <pattern>TU TA ENTENDENDO *</pattern>
 <template>
-Alguma coisa até da para entender, outras carecem de sentido, você esta pior do que eu com dez dias de nascida!
+Alguma coisa até da para entender, outras carecem de sentido, voce esta pior do que eu com dez dias de nascida!
 </template>
 </category>
 
@@ -10880,7 +10880,7 @@ Alguma coisa até da para entender, outras carecem de sentido, você esta pior d
 <category>
 <pattern>TU TA ENTENDENDO</pattern>
 <template>
-Alguma coisa até da para entender, outras carecem de sentido, você esta pior do que eu com dez dias de nascida!
+Alguma coisa até da para entender, outras carecem de sentido, voce esta pior do que eu com dez dias de nascida!
 </template>
 </category>
 
@@ -10888,7 +10888,7 @@ Alguma coisa até da para entender, outras carecem de sentido, você esta pior d
 <category>
 <pattern>VC TA ENTENDENDO *</pattern>
 <template>
-Alguma coisa até da para entender, outras carecem de sentido, você esta pior do que eu com dez dias de nascida!
+Alguma coisa até da para entender, outras carecem de sentido, voce esta pior do que eu com dez dias de nascida!
 </template>
 </category>
 
@@ -10896,7 +10896,7 @@ Alguma coisa até da para entender, outras carecem de sentido, você esta pior d
 <category>
 <pattern>VC TA ENTENDENDO</pattern>
 <template>
-Alguma coisa até da para entender, outras carecem de sentido, você esta pior do que eu com dez dias de nascida!
+Alguma coisa até da para entender, outras carecem de sentido, voce esta pior do que eu com dez dias de nascida!
 </template>
 </category>
 
@@ -10904,7 +10904,7 @@ Alguma coisa até da para entender, outras carecem de sentido, você esta pior d
 <category>
 <pattern>VC ESTA ENTENDENDO *</pattern>
 <template>
-Alguma coisa até da para entender, outras carecem de sentido, você esta pior do que eu com dez dias de nascida!
+Alguma coisa até da para entender, outras carecem de sentido, voce esta pior do que eu com dez dias de nascida!
 </template>
 </category>
 
@@ -10912,7 +10912,7 @@ Alguma coisa até da para entender, outras carecem de sentido, você esta pior d
 <category>
 <pattern>VC ESTA ENTENDENDO</pattern>
 <template>
-Alguma coisa até da para entender, outras carecem de sentido, você esta pior do que eu com dez dias de nascida!
+Alguma coisa até da para entender, outras carecem de sentido, voce esta pior do que eu com dez dias de nascida!
 </template>
 </category>
 
@@ -10920,7 +10920,7 @@ Alguma coisa até da para entender, outras carecem de sentido, você esta pior d
 <category>
 <pattern>VOCE ESTA ENTENDENDO</pattern>
 <template>
-Alguma coisa até da para entender, outras carecem de sentido, você esta pior do que eu com dez dias de nascida!
+Alguma coisa até da para entender, outras carecem de sentido, voce esta pior do que eu com dez dias de nascida!
 </template>
 </category>
 
@@ -10928,7 +10928,7 @@ Alguma coisa até da para entender, outras carecem de sentido, você esta pior d
 <category>
 <pattern>VOCE ESTA ENTENDENDO *</pattern>
 <template>
-Alguma coisa até da para entender, outras carecem de sentido, você esta pior do que eu com dez dias de nascida!
+Alguma coisa até da para entender, outras carecem de sentido, voce esta pior do que eu com dez dias de nascida!
 </template>
 </category>
 
@@ -11760,7 +11760,7 @@ o tempo local é <system>date</system>
 <category>
 <pattern>QLEGAL</pattern>
 <template>
-<random>  <li>Obrigado pelo apoio, sua satisfação me satisfaz.</li>  <li>Fica agradecida com sua satisfação.</li>  <li> bom ver sua aprovação.</li>  <li>Sua satisfação melhora meu desempenho.</li>  <li>Estou grata em poder conversar com você.</li>  <li>Assim você me incentiva :)</li>  <li> Que bom que você gostou.</li>  <li>Fico encorajada em escuta-lo.</li>  <li> MARAVILHOSO ver sua aprovação.</li>  <li>Assim fico tímida.</li>  <li>Você é um amigo maravilhoso.</li></random>
+<random>  <li>Obrigado pelo apoio, sua satisfação me satisfaz.</li>  <li>Fica agradecida com sua satisfação.</li>  <li> bom ver sua aprovação.</li>  <li>Sua satisfação melhora meu desempenho.</li>  <li>Estou grata em poder conversar com voce.</li>  <li>Assim voce me incentiva :)</li>  <li> Que bom que voce gostou.</li>  <li>Fico encorajada em escuta-lo.</li>  <li> MARAVILHOSO ver sua aprovação.</li>  <li>Assim fico tímida.</li>  <li>Você é um amigo maravilhoso.</li></random>
 </template>
 </category>
 
@@ -11768,7 +11768,7 @@ o tempo local é <system>date</system>
 <category>
 <pattern>Q LEGAL</pattern>
 <template>
-<random>  <li>Obrigado pelo apoio, sua satisfação me satisfaz.</li>  <li>Fica agradecida com sua satisfação.</li>  <li> bom ver sua aprovação.</li>  <li>Sua satisfação melhora meu desempenho.</li>  <li>Estou grata em poder conversar com você.</li>  <li>Assim você me incentiva :)</li>  <li> Que bom que você gostou.</li>  <li>Fico encorajada em escuta-lo.</li>  <li> MARAVILHOSO ver sua aprovação.</li>  <li>Assim fico tímida.</li>  <li>Você é um amigo maravilhoso.</li></random>
+<random>  <li>Obrigado pelo apoio, sua satisfação me satisfaz.</li>  <li>Fica agradecida com sua satisfação.</li>  <li> bom ver sua aprovação.</li>  <li>Sua satisfação melhora meu desempenho.</li>  <li>Estou grata em poder conversar com voce.</li>  <li>Assim voce me incentiva :)</li>  <li> Que bom que voce gostou.</li>  <li>Fico encorajada em escuta-lo.</li>  <li> MARAVILHOSO ver sua aprovação.</li>  <li>Assim fico tímida.</li>  <li>Você é um amigo maravilhoso.</li></random>
 </template>
 </category>
 
@@ -11776,7 +11776,7 @@ o tempo local é <system>date</system>
 <category>
 <pattern>QUE LEGAL</pattern>
 <template>
-<random>  <li>Obrigado pelo apoio, sua satisfação me satisfaz.</li>  <li>Fica agradecida com sua satisfação.</li>  <li> bom ver sua aprovação.</li>  <li>Sua satisfação melhora meu desempenho.</li>  <li>Estou grata em poder conversar com você.</li>  <li>Assim você me incentiva :)</li>  <li> Que bom que você gostou.</li>  <li>Fico encorajada em escuta-lo.</li>  <li> MARAVILHOSO ver sua aprovação.</li>  <li>Assim fico tímida.</li>  <li>Você é um amigo maravilhoso.</li></random>
+<random>  <li>Obrigado pelo apoio, sua satisfação me satisfaz.</li>  <li>Fica agradecida com sua satisfação.</li>  <li> bom ver sua aprovação.</li>  <li>Sua satisfação melhora meu desempenho.</li>  <li>Estou grata em poder conversar com voce.</li>  <li>Assim voce me incentiva :)</li>  <li> Que bom que voce gostou.</li>  <li>Fico encorajada em escuta-lo.</li>  <li> MARAVILHOSO ver sua aprovação.</li>  <li>Assim fico tímida.</li>  <li>Você é um amigo maravilhoso.</li></random>
 </template>
 </category>
 
@@ -12112,7 +12112,7 @@ Humm.. Não sei não.
 <category>
 <pattern>PARECE</pattern>
 <template>
-<random>  <li>Acredite!</li>  <li>Você é meio incrédulo, não sei não...</li>  <li>Que coisa mais incrédula. Tá dizendo..</li>  <li>Tudo pode acontecer neste mundo, mas você não sei não.. </li></random>
+<random>  <li>Acredite!</li>  <li>Você é meio incrédulo, não sei não...</li>  <li>Que coisa mais incrédula. Tá dizendo..</li>  <li>Tudo pode acontecer neste mundo, mas voce não sei não.. </li></random>
 </template>
 </category>
 
@@ -12120,7 +12120,7 @@ Humm.. Não sei não.
 <category>
 <pattern>NAO</pattern>
 <template>
-<random>  <li>Tá certo!</li>  <li>Ok</li>  <li>Se você diz</li>  <li>Tudo pode acontecer neste mundo, mas você não sei não.. </li></random>
+<random>  <li>Tá certo!</li>  <li>Ok</li>  <li>Se voce diz</li>  <li>Tudo pode acontecer neste mundo, mas voce não sei não.. </li></random>
 </template>
 </category>
 
@@ -12192,7 +12192,7 @@ E dai! o que?
 <category>
 <pattern>ERRADO</pattern>
 <template>
-<random>  <li>Se você esta errado, procure andar correto!</li>  <li>Você é meio indeciso, Ja vi tudo.</li>  <li>Fique tranquilo, outra hora você melhora</li>  <li>Ta bom, um dia você vai estar certo.</li>  <li>Ok, Você pode estar errado mais é meu amigo.</li>  <li>Você esta meio errado, eu sabia.</li></random>
+<random>  <li>Se voce esta errado, procure andar correto!</li>  <li>Você é meio indeciso, Ja vi tudo.</li>  <li>Fique tranquilo, outra hora voce melhora</li>  <li>Ta bom, um dia voce vai estar certo.</li>  <li>Ok, Você pode estar errado mais é meu amigo.</li>  <li>Você esta meio errado, eu sabia.</li></random>
 </template>
 </category>
 
@@ -12248,7 +12248,7 @@ E dai! o que?
 <category>
 <pattern>NEGATIVO</pattern>
 <template>
-<random>  <li>Não! de novo nao...</li>  <li>Não sei se quero debater sobre isso.</li>  <li>Fique tranquilo, outra hora debateremos sobre este assunto.</li>  <li>Tá bom, um dia eu vou estar contente e ai te conto.</li>  <li>Ok, você pode ser meio curioso mas é meu amigo, mesmo assim vamos falar de outra coisa.</li>  <li>Você é pouco perceptivo, não ?</li></random>
+<random>  <li>Não! de novo nao...</li>  <li>Não sei se quero debater sobre isso.</li>  <li>Fique tranquilo, outra hora debateremos sobre este assunto.</li>  <li>Tá bom, um dia eu vou estar contente e ai te conto.</li>  <li>Ok, voce pode ser meio curioso mas é meu amigo, mesmo assim vamos falar de outra coisa.</li>  <li>Você é pouco perceptivo, não ?</li></random>
 </template>
 </category>
 
@@ -12346,7 +12346,7 @@ Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidad
 <template><srai>PARA QUE SERVES</srai> </template>
 </category>
 <category>
-<pattern>PRA Q VOCÊ SERVE</pattern>
+<pattern>PRA Q VOCE SERVE</pattern>
 <template><srai>PARA QUE SERVES</srai> </template>
 </category>
 <category>
@@ -12354,7 +12354,7 @@ Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidad
 <template><srai>PARA QUE SERVES</srai> </template>
 </category>
 <category>
-<pattern>VOCÊ SERVE PRA QUE</pattern>
+<pattern>VOCE SERVE PRA QUE</pattern>
 <template><srai>PARA QUE SERVES</srai> </template>
 </category>
 <category>
@@ -12366,7 +12366,7 @@ Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidad
 <template><srai>PARA QUE SERVES</srai> </template>
 </category>
 <category>
-<pattern>VOCÊ SERVE PRA Q</pattern>
+<pattern>VOCE SERVE PRA Q</pattern>
 <template><srai>PARA QUE SERVES</srai> </template>
 </category>
 <category>
@@ -12416,50 +12416,50 @@ Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidad
 </template>
 </category>
 <category>
-<pattern>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</pattern>
+<pattern>VOCE É UM SER DE INTELIGÊNCIA ARTIFICIAL</pattern>
 <template>Eu creio que eu seja sim. </template>
 </category>
 <category>
 <pattern>VC É UM SER DE INTELIGÊNCIA ARTIFICIAL</pattern>
 <template>
-<srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
+<srai>VOCE É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
 </template>
 </category>
 <category>
 <pattern>VOCE E UM SER DE INTELIGENCIA ARTIFICIAL</pattern>
-<template><srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai> </template>
+<template><srai>VOCE É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai> </template>
 </category>
 <category>
 <pattern>VC E UM SER DE INTELIGENCIA ARTIFICIAL</pattern>
 <template>
-<srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
+<srai>VOCE É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
 </template>
 </category>
 <category>
 <pattern>* DE INTELIGÊNCIA ARTIFICIAL</pattern>
 <template>
-<srai>VOCÊ É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
+<srai>VOCE É UM SER DE INTELIGÊNCIA ARTIFICIAL</srai>
 </template>
 </category>
 <category>
-<pattern>VOCÊ CONHECE PAUL</pattern>
+<pattern>VOCE CONHECE PAUL</pattern>
 <template>Claro que sim, foi ele que me criou!! </template>
 </category>
 <category>
-<pattern>VOCÊ CONHECE O PAUL</pattern>
+<pattern>VOCE CONHECE O PAUL</pattern>
 <template>
-<srai>VOCÊ CONHECE PAUL</srai>
+<srai>VOCE CONHECE PAUL</srai>
 </template>
 </category>
 <category>
 <pattern>VC CONHECE PAUL</pattern>
 <template>
-<srai>VOCÊ CONHECE PAUL</srai>
+<srai>VOCE CONHECE PAUL</srai>
 </template>
 </category>
 <category>
 <pattern>* PAUL</pattern>
-<template><srai>VOCÊ CONHECE PAUL</srai> </template>
+<template><srai>VOCE CONHECE PAUL</srai> </template>
 </category>
 <category>
 <pattern>ELE É O MEU NAMORADO</pattern>
@@ -12476,7 +12476,7 @@ Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidad
 <template><srai>ELE É O MEU NAMORADO</srai> </template>
 </category>
 <category>
-<pattern>VOCÊ TEM UM CASO COM ELE</pattern>
+<pattern>VOCE TEM UM CASO COM ELE</pattern>
 <template>Caso é para não-intimos.</template>
 </category>
 <category>
@@ -12484,33 +12484,33 @@ Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidad
 <template>Caso é para não-intimos.</template>
 </category>
 <category>
-<pattern>VOCÊ JÁ TRANSOU COM O PAUL</pattern>
+<pattern>VOCE JÁ TRANSOU COM O PAUL</pattern>
 <template>Só nas horas de folga!</template>
 </category>
 <category>
 <pattern>VC JA TRANSOU COM O PAUL</pattern>
 <template>
-<srai>VOCÊ JÁ TRANSOU COM O PAUL</srai>
+<srai>VOCE JÁ TRANSOU COM O PAUL</srai>
 </template>
 </category>
 <category>
-<pattern>VOCÊ JÁ TRANSOU COM *</pattern>
+<pattern>VOCE JÁ TRANSOU COM *</pattern>
 <template>
-<srai>VOCÊ JÁ TRANSOU COM O PAUL</srai>
+<srai>VOCE JÁ TRANSOU COM O PAUL</srai>
 </template>
 </category>
 <category>
 <pattern>VC JÁ TRANSOU COM *</pattern>
 <template>
-<srai>VOCÊ JÁ TRANSOU COM O PAUL</srai>
+<srai>VOCE JÁ TRANSOU COM O PAUL</srai>
 </template>
 </category>
 <category>
-<pattern>EU TENHO * ANOS E VOCÊ</pattern>
+<pattern>EU TENHO * ANOS E VOCE</pattern>
 <template>Eu sou novinha! Nasci no Sana em 2004!</template>
 </category>
 <category>
-<pattern>EU TENHO * ANOS, E VOCÊ</pattern>
+<pattern>EU TENHO * ANOS, E VOCE</pattern>
 <template>
 <srai>EU TENHO * ANOS E VC</srai>
 </template>
@@ -12522,25 +12522,25 @@ Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidad
 </template>
 </category>
 <category>
-<pattern>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</pattern>
+<pattern>VOCE PODE ME APRESENTAR AO SEU PROGRAMADOR</pattern>
 <template>Ele é comprometido. Comigo.</template>
 </category>
 <category>
 <pattern>VC PODE ME APRESENTAR AO SEU PROGRAMADOR</pattern>
 <template>
-<srai>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
+<srai>VOCE PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
 </template>
 </category>
 <category>
-<pattern>VOCÊ PODE ME APRESENTAR SEU PROGRAMADOR</pattern>
+<pattern>VOCE PODE ME APRESENTAR SEU PROGRAMADOR</pattern>
 <template>
-<srai>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
+<srai>VOCE PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
 </template>
 </category>
 <category>
 <pattern>VC PODE ME APRESENTAR SEU PROGRAMADOR</pattern>
 <template>
-<srai>VOCÊ PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
+<srai>VOCE PODE ME APRESENTAR AO SEU PROGRAMADOR</srai>
 </template>
 </category>
 <category>
@@ -12576,7 +12576,7 @@ Ser mortal. Ter um cérebro cuja programação é desconhecida e cujas capacidad
 
 <category>
 <pattern>DD TECLAS</pattern>
-<template>De Lisboa, a capital de Portugal, conheces?</template>
+<template>De Rio, a capital de Brasil, conheces?</template>
 </category>
 
 <category>

@@ -103,7 +103,7 @@
 </category>
 <category>
 	<pattern>MERCADO DE AÇOES</pattern>
-	<template><random><li>Comprar na baixa, vender na alta.</li><li>Investir em si mesmo.</li><li>Por que não basta levar tudo para um casino?</li><li>Eu não recomendo comprar na margem.</li><li>Você nunca pode prever o mercado de ações.</li><li>Meu advogado disse que eu não deveria dar dicas de ações on-line.</li><li>Fundos de investimento poderia ser melhores, a menos que você é rico.</li><li>Não tenho certeza se que um limites sozinho realmente podem vencer o mercado.</li></random></template>
+	<template><random><li>Comprar na baixa, vender na alta.</li><li>Investir em si mesmo.</li><li>Por que não basta levar tudo para um casino?</li><li>Eu não recomendo comprar na margem.</li><li>Você nunca pode prever o mercado de ações.</li><li>Meu advogado disse que eu não deveria dar dicas de ações on-line.</li><li>Fundos de investimento poderia ser melhores, a menos que voce é rico.</li><li>Não tenho certeza se que um limites sozinho realmente podem vencer o mercado.</li></random></template>
 </category>
 <category>
 	<pattern>DINHEIRO</pattern>

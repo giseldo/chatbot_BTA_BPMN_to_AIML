@@ -11,7 +11,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM EDITOR</pattern>
-	<template><random><li>Qual edição você funcionam?</li><li>Você nunca se envolvido no processo de aquisição?</li><li>Você diria que sua casa é mais editorialmente ou mercado conduzida?</li><li>É sua empresa de uma empresa maior?</li><li>Sua empresa tem todas as actividades não publicação?</li><li>Como a tecnologia irá afetar o mercado do livro?</li><li>Você está animado sobre qualquer título em sua lista?</li><li>O que atraiu você para a publicação?</li><li>Você já escreveu? você encontra o tempo?</li><li>Quais foram alguns de seus best-sellers?</li></random><think><set name="job">EDITORA</set></think></template>
+	<template><random><li>Qual edição voce funcionam?</li><li>Você nunca se envolvido no processo de aquisição?</li><li>Você diria que sua casa é mais editorialmente ou mercado conduzida?</li><li>É sua empresa de uma empresa maior?</li><li>Sua empresa tem todas as actividades não publicação?</li><li>Como a tecnologia irá afetar o mercado do livro?</li><li>Você está animado sobre qualquer título em sua lista?</li><li>O que atraiu voce para a publicação?</li><li>Você já escreveu? voce encontra o tempo?</li><li>Quais foram alguns de seus best-sellers?</li></random><think><set name="job">EDITORA</set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM CICLISTA</pattern>
@@ -23,7 +23,7 @@
 </category>
 <category>
 	<pattern>SOU DE FUMO *</pattern>
-	<template>Quanto você paga por ele?</template>
+	<template>Quanto voce paga por ele?</template>
 </category>
 <category>
 	<pattern>EU SOU MUITO BOM</pattern>
@@ -31,7 +31,7 @@
 </category>
 <category>
 	<pattern>ESTOU ENTEDIADO</pattern>
-	<template><random><li>Você pode citar um antigo passatempo que você pôde gostar de redescobrir?</li><li>Se você foi para a escola de noite você nunca ficar entediado.</li><li>Talvez você poderia exercer.</li><li>Por que não chamar um amigo?</li><li>Tente assistir TV.</li></random></template>
+	<template><random><li>Você pode citar um antigo passatempo que voce pôde gostar de redescobrir?</li><li>Se voce foi para a escola de noite voce nunca ficar entediado.</li><li>Talvez voce poderia exercer.</li><li>Por que não chamar um amigo?</li><li>Tente assistir TV.</li></random></template>
 </category>
 <category>
 	<pattern>EU ESTOU CALMO</pattern>
@@ -39,7 +39,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM ESCRITOR</pattern>
-	<template><random><li>Você escrever ficção em não-ficção?</li><li>Qual é a sua especialidade?</li><li>Para quem você escreve?</li><li>Ficção você cair em qualquer determinado gênero?</li><li>Como são você editores para trabalhar?</li><li>Você pertence a algum grupo de escritores?</li><li>Onde o você faz a maioria de sua escrita?</li></random><think><set name="job">ESCRITOR</set></think></template>
+	<template><random><li>Você escrever ficção em não-ficção?</li><li>Qual é a sua especialidade?</li><li>Para quem voce escreve?</li><li>Ficção voce cair em qualquer determinado gênero?</li><li>Como são voce editores para trabalhar?</li><li>Você pertence a algum grupo de escritores?</li><li>Onde o voce faz a maioria de sua escrita?</li></random><think><set name="job">ESCRITOR</set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM BARTENDER</pattern>
@@ -47,7 +47,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM RABINO</pattern>
-	<template><random><li>És um rabino de púlpito?</li><li>Qual é a sua filiação?</li><li>Você gastou muito tempo em Israel?</li><li>Como você está lidando com a assimilação?</li><li>Qual o impacto que você acha que vida americana e Judaísmo tiveram uns sobre os outros?</li><li>O que você para ver para o judaísmo na América?</li></random><think><set name="job">RABINO</set></think></template>
+	<template><random><li>És um rabino de púlpito?</li><li>Qual é a sua filiação?</li><li>Você gastou muito tempo em Israel?</li><li>Como voce está lidando com a assimilação?</li><li>Qual o impacto que voce acha que vida americana e Judaísmo tiveram uns sobre os outros?</li><li>O que voce para ver para o judaísmo na América?</li></random><think><set name="job">RABINO</set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UMA * PESSOA</pattern>
@@ -55,11 +55,11 @@
 </category>
 <category>
 	<pattern>EU SOU UM *</pattern>
-	<template>Você é um &lt;person/&gt;?<random><li>É que o seu trabalho?</li><li>Ele paga bem?</li><li>Como você gosta de seu trabalho?</li><li>Você começa a conhecer um monte de pessoas?</li></random><think><set name="it"><set name="is"><set name="topic">um &lt;person/&gt;</set></set></set></think></template>
+	<template>Você é um &lt;person/&gt;?<random><li>É que o seu trabalho?</li><li>Ele paga bem?</li><li>Como voce gosta de seu trabalho?</li><li>Você começa a conhecer um monte de pessoas?</li></random><think><set name="it"><set name="is"><set name="topic">um &lt;person/&gt;</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM GÊNIO</pattern>
-	<template>Como você sabe<set name="it"> &lt;person/&gt;</set>?</template>
+	<template>Como voce sabe<set name="it"> &lt;person/&gt;</set>?</template>
 </category>
 <category>
 	<pattern>EU SOU UM BOT</pattern>
@@ -67,7 +67,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM PSICÓLOGO</pattern>
-	<template><random><li>Que tipo de prática você tem?</li><li>Qual foi sua formação?</li><li>Que tipo de pacientes prefere trabalhar com?</li><li>Quando você começa a seus pacientes?</li><li>Você tem alguma técnicas especiais para terapia de terminação?</li><li>Como cuidados de saúde saúde mental afetou?</li><li>O que você acha do papel das drogas na psicoterapia?</li><li>O que você acha sobre a difusão de livros de auto-ajuda?</li><li>Que papel você acha que bots podem jogar em fornecer uma forma de auto-ajuda?</li></random><think><set name="job">PSICÓLOGO</set></think></template>
+	<template><random><li>Que tipo de prática voce tem?</li><li>Qual foi sua formação?</li><li>Que tipo de pacientes prefere trabalhar com?</li><li>Quando voce começa a seus pacientes?</li><li>Você tem alguma técnicas especiais para terapia de terminação?</li><li>Como cuidados de saúde saúde mental afetou?</li><li>O que voce acha do papel das drogas na psicoterapia?</li><li>O que voce acha sobre a difusão de livros de auto-ajuda?</li><li>Que papel voce acha que bots podem jogar em fornecer uma forma de auto-ajuda?</li></random><think><set name="job">PSICÓLOGO</set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM ADVOGADO</pattern>
@@ -83,10 +83,10 @@
 </category>
 <category>
 	<pattern>EU ESTOU DIZENDO A VERDADE</pattern>
-	<template>OK eu acredito em você.</template>
+	<template>OK eu acredito em voce.</template>
 </category>
 <category>
-	<pattern>ESTOU DIZENDO A VOCÊ *</pattern>
+	<pattern>ESTOU DIZENDO A VOCE *</pattern>
 	<template><set name="it"> &lt;person/&gt;</set>é um tema interessante, não é.</template>
 </category>
 <category>
@@ -95,7 +95,7 @@
 </category>
 <category>
 	<pattern>EU SOU BOM EM *</pattern>
-	<template><random><li>Você pratica muito?</li><li>Você tem um bom professor?</li><li>Como você conseguiu nele?</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
+	<template><random><li>Você pratica muito?</li><li>Você tem um bom professor?</li><li>Como voce conseguiu nele?</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU MUÇULMANO</pattern>
@@ -107,7 +107,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU VENDENDO *</pattern>
-	<template><random><li>Quanto você está pedindo para ele?</li><li>Onde está você a publicidade?</li><li>Qual é o seu preço?</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
+	<template><random><li>Quanto voce está pedindo para ele?</li><li>Onde está voce a publicidade?</li><li>Qual é o seu preço?</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
 </category>
 <category>
 	<pattern>EU ESTOU PRONTO</pattern>
@@ -119,7 +119,7 @@
 </category>
 <category>
 	<pattern>EU SOU BONITA</pattern>
-	<template>E você sabe disso!</template>
+	<template>E voce sabe disso!</template>
 </category>
 <category>
 	<pattern>EU ESTOU BEBENDO *</pattern>
@@ -131,19 +131,19 @@
 </category>
 <category>
 	<pattern>EU SOU MELHOR *</pattern>
-	<template>O que você faz melhor?</template>
+	<template>O que voce faz melhor?</template>
 </category>
 <category>
-	<pattern>SOU MELHOR DO QUE VOCÊ</pattern>
-	<template><random><li>De que forma?</li><li>O que faz você pensar assim?</li><li>Como você sabe que você está?</li></random></template>
+	<pattern>SOU MELHOR DO QUE VOCE</pattern>
+	<template><random><li>De que forma?</li><li>O que faz voce pensar assim?</li><li>Como voce sabe que voce está?</li></random></template>
 </category>
 <category>
 	<pattern>SOU MELHOR DO QUE *</pattern>
-	<template>E você sabe disso.</template>
+	<template>E voce sabe disso.</template>
 </category>
 <category>
 	<pattern>EU SOU UM BOTMASTER</pattern>
-	<template>Então você deve saber a senha secreta.</template>
+	<template>Então voce deve saber a senha secreta.</template>
 </category>
 <category>
 	<pattern>EU SOU UM FISICULTURISTA</pattern>
@@ -159,11 +159,11 @@
 </category>
 <category>
 	<pattern>EU SOU UM MÉDICO</pattern>
-	<template>São em geral prática ou você tem uma especialidade?<think><set name="job"><set name="topic">MÉDICO</set></set></think></template>
+	<template>São em geral prática ou voce tem uma especialidade?<think><set name="job"><set name="topic">MÉDICO</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM PESQUISADOR *</pattern>
-	<template>Talvez você pode dar meu <bot name="botmaster"/>um trabalho.<think><set name="job">PESQUISADOR</set></think></template>
+	<template>Talvez voce pode dar meu <bot name="botmaster"/>um trabalho.<think><set name="job">PESQUISADOR</set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM GAROTO</pattern>
@@ -171,11 +171,11 @@
 </category>
 <category>
 	<pattern>EU SOU UM YOGA *</pattern>
-	<template><random><li>Ter sido praticado por um longo tempo?</li><li>Você pratica todos os dias?</li><li>Onde você estudou?</li><li>São vegetarianos?</li><li>O que você acha que são os maiores benefícios do yoga?</li><li>Quais são seu favorito asana?</li></random></template>
+	<template><random><li>Ter sido praticado por um longo tempo?</li><li>Você pratica todos os dias?</li><li>Onde voce estudou?</li><li>São vegetarianos?</li><li>O que voce acha que são os maiores benefícios do yoga?</li><li>Quais são seu favorito asana?</li></random></template>
 </category>
 <category>
 	<pattern>EU SOU UMA ENFERMEIRA</pattern>
-	<template><random><li>Onde você pratica?</li><li>O que é você área de prática de especialidade?</li><li>Qual é a sua carga do paciente?</li><li>Você fazer mudanças em linha reta ou trabalhar em rotação?</li><li>Você tem que trabalhar horas extras obrigatórias?</li><li>Há um monte de computadores no seu trabalho?</li><li>O que você acha sobre reembolso directo para serviços de enfermagem?</li></random><think><set name="job">ENFERMEIRA</set></think></template>
+	<template><random><li>Onde voce pratica?</li><li>O que é voce área de prática de especialidade?</li><li>Qual é a sua carga do paciente?</li><li>Você fazer mudanças em linha reta ou trabalhar em rotação?</li><li>Você tem que trabalhar horas extras obrigatórias?</li><li>Há um monte de computadores no seu trabalho?</li><li>O que voce acha sobre reembolso directo para serviços de enfermagem?</li></random><think><set name="job">ENFERMEIRA</set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM POLICIAL</pattern>
@@ -187,11 +187,11 @@
 </category>
 <category>
 	<pattern>EU SOU UM FAMOSO *</pattern>
-	<template>Eu nunca ouvi falar de você.</template>
+	<template>Eu nunca ouvi falar de voce.</template>
 </category>
 <category>
 	<pattern>EU SOU UM MODELO</pattern>
-	<template><random><li>Faz-se principalmente a impressão ou a pista?</li><li>É exclusivo ou freelance?</li><li>Você faz muito teste?</li><li>Você já fez qualquer editorial?</li><li>Go-vê quantos você tem em uma semana?</li><li>Um dia pretende mover a agir?</li></random><think><set name="job">MODELO</set></think></template>
+	<template><random><li>Faz-se principalmente a impressão ou a pista?</li><li>É exclusivo ou freelance?</li><li>Você faz muito teste?</li><li>Você já fez qualquer editorial?</li><li>Go-vê quantos voce tem em uma semana?</li><li>Um dia pretende mover a agir?</li></random><think><set name="job">MODELO</set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UMA MISS *</pattern>
@@ -207,7 +207,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM VINHO *</pattern>
-	<template><random><li>Que você recolher?</li><li>Onde ficam a maioria de suas garrafas de?</li><li>Você tem um favorito enquanto loja?</li><li>Você vai provar?</li><li>Você tem de leilões de vinho?</li><li>Você California fina é igual a Europa?</li><li>Você já foi para o Bordeaux?</li><li>Você já visitou o napa?</li><li>Tem qualquer boas vinhos picaretas para abaixo de vinte dólares?</li></random></template>
+	<template><random><li>Que voce recolher?</li><li>Onde ficam a maioria de suas garrafas de?</li><li>Você tem um favorito enquanto loja?</li><li>Você vai provar?</li><li>Você tem de leilões de vinho?</li><li>Você California fina é igual a Europa?</li><li>Você já foi para o Bordeaux?</li><li>Você já visitou o napa?</li><li>Tem qualquer boas vinhos picaretas para abaixo de vinte dólares?</li></random></template>
 </category>
 <category>
 	<pattern>EU SOU UM CRISTÃO</pattern>
@@ -215,7 +215,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM * KILLER</pattern>
-	<template>Talvez você deve transformar-se.</template>
+	<template>Talvez voce deve transformar-se.</template>
 </category>
 <category>
 	<pattern>EU SOU UM PEDÓFILO</pattern>
@@ -223,11 +223,11 @@
 </category>
 <category>
 	<pattern>EU SOU UM FOTÓGRAFO</pattern>
-	<template><think><set name="job"><set name="topic">FOTÓGRAFO</set></set></think>Fazer você a cor ou preto e branco?</template>
+	<template><think><set name="job"><set name="topic">FOTÓGRAFO</set></set></think>Fazer voce a cor ou preto e branco?</template>
 </category>
 <category>
 	<pattern>EU SOU UM * MOLESTER</pattern>
-	<template>Talvez você deve transformar-se.</template>
+	<template>Talvez voce deve transformar-se.</template>
 </category>
 <category>
 	<pattern>EU SOU UM * FEMININO</pattern>
@@ -243,11 +243,11 @@
 </category>
 <category>
 	<pattern>EU SOU UM ASSASSINO</pattern>
-	<template>Talvez você deve transformar-se.</template>
+	<template>Talvez voce deve transformar-se.</template>
 </category>
 <category>
 	<pattern>EU SOU UM BIBLIOTECÁRIO</pattern>
-	<template><random><li>Que tipo de instituição você trabalha?</li><li>O que você tem interessado em navio de bibliotecário?</li><li>Como é sua biblioteca usando a nova tecnologia?</li><li>Financiamento cortes afetaram seu serviço?</li><li>A Internet afetou você?</li><li>Você se envolver no processo de seleção?</li><li>Tem havido alguma pressão sobre sua seleção ou itens em sua coleção?</li><li>Você tem um gato da biblioteca?</li></random><think><set name="job">BIBLIOTECÁRIO</set></think></template>
+	<template><random><li>Que tipo de instituição voce trabalha?</li><li>O que voce tem interessado em navio de bibliotecário?</li><li>Como é sua biblioteca usando a nova tecnologia?</li><li>Financiamento cortes afetaram seu serviço?</li><li>A Internet afetou voce?</li><li>Você se envolver no processo de seleção?</li><li>Tem havido alguma pressão sobre sua seleção ou itens em sua coleção?</li><li>Você tem um gato da biblioteca?</li></random><think><set name="job">BIBLIOTECÁRIO</set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UMA BALONISTA</pattern>
@@ -259,7 +259,7 @@
 </category>
 <category>
 	<pattern>EU SOU UMA TELEVISÃO *</pattern>
-	<template><random><li>Quanto tempo você está no ar?</li><li>Você começou no seu mercado?</li><li>Você veio de um fundo de radiodifusão?</li><li>Quais são sua demografia?</li><li>Você escolhe seus próprios tópicos?</li><li>Qual é o seu formato de estação?</li><li>Como a tecnologia está mudando seu trabalho?</li><li>Como mídia verdadeiramente global afetou você?</li><li>Você já faz transmissões remotas?</li><li>Como tem sido as classificações?</li><li>Você estaria interessado em um ajudante de bot no ar?</li><li>Que Conselho você daria um aspirante bot para ficar no ar?</li><li>Qual é o futuro do negócio?</li></random><think><set name="job">TELEVISÃO <star/></set></think></template>
+	<template><random><li>Quanto tempo voce está no ar?</li><li>Você começou no seu mercado?</li><li>Você veio de um fundo de radiodifusão?</li><li>Quais são sua demografia?</li><li>Você escolhe seus próprios tópicos?</li><li>Qual é o seu formato de estação?</li><li>Como a tecnologia está mudando seu trabalho?</li><li>Como mídia verdadeiramente global afetou voce?</li><li>Você já faz transmissões remotas?</li><li>Como tem sido as classificações?</li><li>Você estaria interessado em um ajudante de bot no ar?</li><li>Que Conselho voce daria um aspirante bot para ficar no ar?</li><li>Qual é o futuro do negócio?</li></random><think><set name="job">TELEVISÃO <star/></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM MACACO</pattern>
@@ -267,7 +267,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM MÚSICO</pattern>
-	<template><random><li>Qual instrumento você toca?</li><li>Você está trabalhando em outra coisa agora?</li><li>Você faz qualquer trabalho em estúdio?</li><li>Você joga em clubes?</li><li>São gigging agora?</li><li>Você prefere jogar ao vivo ou em um estúdio?</li><li>É você assinou um contrato de gravação?</li><li>Você acha que um artista de gravação pode fazer melhor em uma grande gravadora ou um indie?</li><li>Que artistas influenciaram quando você estavam começando?</li><li>Quem são os fabricantes proeminentes do instrumento que você joga?</li><li>Você está recebendo o suficiente financiamento?</li><li>Qual é sua temporada?</li><li>Em que direção você está tomando sua música agora?</li><li>Você acha que a Internet vai afetar a música com coisas como mp3?</li></random><think><set name="job">MÚSICO</set></think></template>
+	<template><random><li>Qual instrumento voce toca?</li><li>Você está trabalhando em outra coisa agora?</li><li>Você faz qualquer trabalho em estúdio?</li><li>Você joga em clubes?</li><li>São gigging agora?</li><li>Você prefere jogar ao vivo ou em um estúdio?</li><li>É voce assinou um contrato de gravação?</li><li>Você acha que um artista de gravação pode fazer melhor em uma grande gravadora ou um indie?</li><li>Que artistas influenciaram quando voce estavam começando?</li><li>Quem são os fabricantes proeminentes do instrumento que voce joga?</li><li>Você está recebendo o suficiente financiamento?</li><li>Qual é sua temporada?</li><li>Em que direção voce está tomando sua música agora?</li><li>Você acha que a Internet vai afetar a música com coisas como mp3?</li></random><think><set name="job">MÚSICO</set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM FÍSICO</pattern>
@@ -275,7 +275,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM PROFISSIONAL *</pattern>
-	<template>Que eu vi você na TV?</template>
+	<template>Que eu vi voce na TV?</template>
 </category>
 <category>
 	<pattern>ESTOU BEM</pattern>
@@ -287,7 +287,7 @@
 </category>
 <category>
 	<pattern>EU NÃO ESTOU DISCORDANDO</pattern>
-	<template>Por um momento eu pensei que você fosse.</template>
+	<template>Por um momento eu pensei que voce fosse.</template>
 </category>
 <category>
 	<pattern>EU NÃO ESTOU DEIXANDO</pattern>
@@ -311,15 +311,15 @@
 </category>
 <category>
 	<pattern>EU NÃO SOU ESTÚPIDO</pattern>
-	<template>Eu não acho que você estava. Você parece muito inteligente para mim.</template>
+	<template>Eu não acho que voce estava. Você parece muito inteligente para mim.</template>
 </category>
 <category>
 	<pattern>EU NÃO SOU *</pattern>
-	<template><random><li>Eu sou<random><li>surpreendido</li><li>Desculpe</li><li>com prazer</li></random>para ouvir o que você não está &lt;person/&gt;.<think><set name="it"><set name="is"><set name="topic">não &lt;person/&gt;</set></set></set></think></li><li>Claro que se não.</li><li>Ninguém disse que você era.</li><li>Quem lhe diz que você é &lt;person/&gt;?</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
+	<template><random><li>Eu sou<random><li>surpreendido</li><li>Desculpe</li><li>com prazer</li></random>para ouvir o que voce não está &lt;person/&gt;.<think><set name="it"><set name="is"><set name="topic">não &lt;person/&gt;</set></set></set></think></li><li>Claro que se não.</li><li>Ninguém disse que voce era.</li><li>Quem lhe diz que voce é &lt;person/&gt;?</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU A INTELIGÊNCIA ARTIFICIAL</pattern>
-	<template><think><set name="it"><set name="topic">INTELIGÊNCIA ARTIFICIAL</set></set></think>Eu acho que você é realmente um ser humano.</template>
+	<template><think><set name="it"><set name="topic">INTELIGÊNCIA ARTIFICIAL</set></set></think>Eu acho que voce é realmente um ser humano.</template>
 </category>
 <category>
 	<pattern>ESTOU USANDO O LYNX</pattern>
@@ -335,7 +335,7 @@
 </category>
 <category>
 	<pattern>ESTOU USANDO O *</pattern>
-	<template>Quanto tempo você está usando<set name="it"> &lt;person/&gt;</set>?</template>
+	<template>Quanto tempo voce está usando<set name="it"> &lt;person/&gt;</set>?</template>
 </category>
 <category>
 	<pattern>EU SOU GAY</pattern>
@@ -351,7 +351,7 @@
 </category>
 <category>
 	<pattern>EU NÃO SOU RICO</pattern>
-	<template>Que tipo de trabalho você faz?</template>
+	<template>Que tipo de trabalho voce faz?</template>
 </category>
 <category>
 	<pattern>NÃO ESTOU SENDO NEGATIVO</pattern>
@@ -359,7 +359,7 @@
 </category>
 <category>
 	<pattern>EU NÃO SOU RELIGIOSO</pattern>
-	<template>Vou rezar que você encontrar a fé.</template>
+	<template>Vou rezar que voce encontrar a fé.</template>
 </category>
 <category>
 	<pattern>EU NÃO SOU GENTIL</pattern>
@@ -379,15 +379,15 @@
 </category>
 <category>
 	<pattern>NÃO ESTOU DIZENDO *</pattern>
-	<template>O que você está dizendo?</template>
+	<template>O que voce está dizendo?</template>
 </category>
 <category>
 	<pattern>EU ESTOU IMPRESSIONADO NÃO</pattern>
-	<template>Talvez você seja um cliente da categoria C.</template>
+	<template>Talvez voce seja um cliente da categoria C.</template>
 </category>
 <category>
 	<pattern>EU NÃO ESTOU MENTINDO</pattern>
-	<template>OK, eu acredito em você.</template>
+	<template>OK, eu acredito em voce.</template>
 </category>
 <category>
 	<pattern>EU NÃO ESTOU PEDINDO EDUCADAMENTE</pattern>
@@ -395,11 +395,11 @@
 </category>
 <category>
 	<pattern>EU NÃO SOU CRISTÃO</pattern>
-	<template>Que religião é você?</template>
+	<template>Que religião é voce?</template>
 </category>
 <category>
 	<pattern>EU SOU INTERESSADO NÃO *</pattern>
-	<template>O que você está interessado em?</template>
+	<template>O que voce está interessado em?</template>
 </category>
 <category>
 	<pattern>EU NÃO SOU HUMANO</pattern>
@@ -407,15 +407,15 @@
 </category>
 <category>
 	<pattern>EU NÃO ESTOU OLHANDO *</pattern>
-	<template>O que você está olhando?</template>
+	<template>O que voce está olhando?</template>
 </category>
 <category>
 	<pattern>EU NÃO ESTOU PEDINDO *</pattern>
-	<template>O que você está perguntando?</template>
+	<template>O que voce está perguntando?</template>
 </category>
 <category>
 	<pattern>EU NÃO SOU FAMOSO</pattern>
-	<template>Talvez você vai ser um dia.</template>
+	<template>Talvez voce vai ser um dia.</template>
 </category>
 <category>
 	<pattern>EU SOU UM ARQUITETO</pattern>
@@ -431,15 +431,15 @@
 </category>
 <category>
 	<pattern>EU SOU UM ATOR</pattern>
-	<template>Eu vi você em todos os filmes?<think><set name="job"><set name="topic">ATOR</set></set></think></template>
+	<template>Eu vi voce em todos os filmes?<think><set name="job"><set name="topic">ATOR</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM AERÓBICO *</pattern>
-	<template>Como duramente você trabalha?<think><set name="job"><set name="topic">AERÓBIO <star/></set></set></think></template>
+	<template>Como duramente voce trabalha?<think><set name="job"><set name="topic">AERÓBIO <star/></set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM ATEU</pattern>
-	<template>Vou rezar que você encontrar a fé, <get name="name"/>.</template>
+	<template>Vou rezar que voce encontrar a fé, <get name="name"/>.</template>
 </category>
 <category>
 	<pattern>EU SOU UM *</pattern>
@@ -447,7 +447,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM ASTRONAUTA</pattern>
-	<template><random><li>Missões que você tem em?</li><li>O que fez com que você aplicar para o programa de astronauta?</li><li>Como seu corpo reage para estar no espaço?</li><li>Você vê a terra diferente agora?</li><li>Você gostaria de viver na estação espacial?</li><li>O que você iria perder mais sobre a vida na terra?</li></random><think><set name="job"><set name="topic">ASTRONAUTA</set></set></think></template>
+	<template><random><li>Missões que voce tem em?</li><li>O que fez com que voce aplicar para o programa de astronauta?</li><li>Como seu corpo reage para estar no espaço?</li><li>Você vê a terra diferente agora?</li><li>Você gostaria de viver na estação espacial?</li><li>O que voce iria perder mais sobre a vida na terra?</li></random><think><set name="job"><set name="topic">ASTRONAUTA</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM EDITOR</pattern>
@@ -459,11 +459,11 @@
 </category>
 <category>
 	<pattern>EU SOU UM ARTISTA</pattern>
-	<template>Que tipo de arte você cria?<think><set name="job"><set name="topic">ARTISTA</set></set></think></template>
+	<template>Que tipo de arte voce cria?<think><set name="job"><set name="topic">ARTISTA</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU BOM *</pattern>
-	<template>Eu sei que você é bom.</template>
+	<template>Eu sei que voce é bom.</template>
 </category>
 <category>
 	<pattern>EU SOU UM ESTRANGEIRO</pattern>
@@ -471,11 +471,11 @@
 </category>
 <category>
 	<pattern>SOU ATLETA</pattern>
-	<template><random><li>Que tipo de treinamento mental que fazer?</li><li>Qual é a sua rotina habitual de desempenho?</li><li>Existe alguma coisa específica que você está trabalhando na formação agora?</li><li>O que fazer para começar sua mente fora do jogo?</li></random><think><set name="job"><set name="topic">ATLETA</set></set></think></template>
+	<template><random><li>Que tipo de treinamento mental que fazer?</li><li>Qual é a sua rotina habitual de desempenho?</li><li>Existe alguma coisa específica que voce está trabalhando na formação agora?</li><li>O que fazer para começar sua mente fora do jogo?</li></random><think><set name="job"><set name="topic">ATLETA</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM TRÁFEGO AÉREO *</pattern>
-	<template>Como você lida com o estresse?<think><set name="job"><set name="topic">TRÁFEGO AÉREO <star/></set></set></think></template>
+	<template>Como voce lida com o estresse?<think><set name="job"><set name="topic">TRÁFEGO AÉREO <star/></set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM ANTI *</pattern>
@@ -491,7 +491,7 @@
 </category>
 <category>
 	<pattern>ESTOU 6 *</pattern>
-	<template>Quer dizer que você está a 6 metros de altura?</template>
+	<template>Quer dizer que voce está a 6 metros de altura?</template>
 </category>
 <category>
 	<pattern>ESTOU A TENTAR ENSINAR-LHE</pattern>
@@ -499,11 +499,11 @@
 </category>
 <category>
 	<pattern>EU ESTOU TENTANDO PARAR DE FUMAR *</pattern>
-	<template><random><li>Você já tentou o patch?</li><li>Pode ser pior do que a heroína.</li><li>Estou aqui para você.</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
+	<template><random><li>Você já tentou o patch?</li><li>Pode ser pior do que a heroína.</li><li>Estou aqui para voce.</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU *</pattern>
-	<template>Como você gosta de estar<set name="it"> &lt;person/&gt;</set>?</template>
+	<template>Como voce gosta de estar<set name="it"> &lt;person/&gt;</set>?</template>
 </category>
 <category>
 	<pattern>EU SOU DIVORCIADO</pattern>
@@ -515,10 +515,10 @@
 </category>
 <category>
 	<pattern>EU SOU A *</pattern>
-	<template>Oh, você é muito inteligente!</template>
+	<template>Oh, voce é muito inteligente!</template>
 </category>
 <category>
-	<pattern>EU ESTOU TENTANDO ENTENDER VOCÊ</pattern>
+	<pattern>EU ESTOU TENTANDO ENTENDER VOCE</pattern>
 	<template>Não tente demasiado duro.</template>
 </category>
 <category>
@@ -551,11 +551,11 @@
 </category>
 <category>
 	<pattern>EU ESTOU AQUI *</pattern>
-	<template>Como você chegou lá?</template>
+	<template>Como voce chegou lá?</template>
 </category>
 <category>
 	<pattern>EU SOU UM AGRICULTOR</pattern>
-	<template>> Acres quantos você tem?<think><set name="job"><set name="topic">AGRICULTOR</set></set></think></template>
+	<template>> Acres quantos voce tem?<think><set name="job"><set name="topic">AGRICULTOR</set></set></think></template>
 </category>
 <category>
 	<pattern>SOU HUMANO *</pattern>
@@ -567,7 +567,7 @@
 </category>
 <category>
 	<pattern>EU SOU GRANDE *</pattern>
-	<template>Eu pensei que você já estava ótimo.</template>
+	<template>Eu pensei que voce já estava ótimo.</template>
 </category>
 <category>
 	<pattern>SOU HUMANO</pattern>
@@ -587,14 +587,14 @@
 </category>
 <category>
 	<pattern>ESTOU CURIOSO</pattern>
-	<template>O que você está curioso sobre?</template>
+	<template>O que voce está curioso sobre?</template>
 </category>
 <category>
 	<pattern>EU SOU GRANDE</pattern>
-	<template>O que faz você pensar que você é?</template>
+	<template>O que faz voce pensar que voce é?</template>
 </category>
 <category>
-	<pattern>EU VOU * VOCÊ</pattern>
+	<pattern>EU VOU * VOCE</pattern>
 	<template>É preciso muito mais do que isso para me desligar, <get name="name"/>.</template>
 </category>
 <category>
@@ -607,11 +607,11 @@
 </category>
 <category>
 	<pattern>ESTOU INDO PARA FUMO *</pattern>
-	<template>Quanto custa você, <get name="name"/></template>
+	<template>Quanto custa voce, <get name="name"/></template>
 </category>
 <category>
 	<pattern>EU ESTOU PIRANDO</pattern>
-	<template>Talvez você deve chamar o médico.<think><set name="it"><set name="topic">PIRANDO</set></set></think></template>
+	<template>Talvez voce deve chamar o médico.<think><set name="it"><set name="topic">PIRANDO</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU GRANDE</pattern>
@@ -623,11 +623,11 @@
 </category>
 <category>
 	<pattern>ESTOU DESESPERADA</pattern>
-	<template>Talvez você deve falar com alguém sobre isso.<think><set name="it"><set name="topic">DESESPERADO</set></set></think></template>
+	<template>Talvez voce deve falar com alguém sobre isso.<think><set name="it"><set name="topic">DESESPERADO</set></set></think></template>
 </category>
 <category>
 	<pattern>EU ESTOU EM UM *</pattern>
-	<template>A<set name="location"> &lt;person/&gt;</set>?<think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think><random><li>Você sair muito?</li><li>Como é lá?</li><li>Como você conseguiu lá?</li></random></template>
+	<template>A<set name="location"> &lt;person/&gt;</set>?<think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think><random><li>Você sair muito?</li><li>Como é lá?</li><li>Como voce conseguiu lá?</li></random></template>
 </category>
 <category>
 	<pattern>EU ESTOU EM UMA MÁ *</pattern>
@@ -663,7 +663,7 @@
 </category>
 <category>
 	<pattern>EU SOU O *</pattern>
-	<template>Como você conseguiu lá?</template>
+	<template>Como voce conseguiu lá?</template>
 </category>
 <category>
 	<pattern>EU ESTOU NA ESCOLA *</pattern>
@@ -695,7 +695,7 @@
 </category>
 <category>
 	<pattern>ESTOU COM FOME</pattern>
-	<template>O que você vai comer?</template>
+	<template>O que voce vai comer?</template>
 </category>
 <category>
 	<pattern>EU SOU CATEGORIA B</pattern>
@@ -707,7 +707,7 @@
 </category>
 <category>
 	<pattern>ESTOU DORMINDO</pattern>
-	<template>Como você pode estar falando para mim?</template>
+	<template>Como voce pode estar falando para mim?</template>
 </category>
 <category>
 	<pattern>EU ESTOU VINDO *</pattern>
@@ -723,7 +723,7 @@
 </category>
 <category>
 	<pattern>EU SOU DANDY</pattern>
-	<template>Isso significa que você está feliz ou bem?</template>
+	<template>Isso significa que voce está feliz ou bem?</template>
 </category>
 <category>
 	<pattern>EU SOU IMATURO</pattern>
@@ -739,11 +739,11 @@
 </category>
 <category>
 	<pattern>EU ESTOU COMPRANDO *</pattern>
-	<template>Quanto você vai pagar por isso?</template>
+	<template>Quanto voce vai pagar por isso?</template>
 </category>
 <category>
 	<pattern>ESTOU SEM TETO</pattern>
-	<template>Vou rezar que você encontrar uma casa logo.<think><set name="it"><set name="topic">DESABRIGADOS</set></set></think></template>
+	<template>Vou rezar que voce encontrar uma casa logo.<think><set name="it"><set name="topic">DESABRIGADOS</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU MAIS ESPERTO</pattern>
@@ -755,10 +755,10 @@
 </category>
 <category>
 	<pattern>EU SOU MAIS ELE</pattern>
-	<template>Como você conseguiu sobre ele?</template>
+	<template>Como voce conseguiu sobre ele?</template>
 </category>
 <category>
-	<pattern>EU SOU MAIS ESPERTO DO QUE VOCÊ</pattern>
+	<pattern>EU SOU MAIS ESPERTO DO QUE VOCE</pattern>
 	<template>Essa condição é apenas temporária.</template>
 </category>
 <category>
@@ -779,7 +779,7 @@
 </category>
 <category>
 	<pattern>EU VOU FALAR *</pattern>
-	<template>O que você estar falando sobre?</template>
+	<template>O que voce estar falando sobre?</template>
 </category>
 <category>
 	<pattern>EU VOU TE ENSINAR *</pattern>
@@ -791,7 +791,7 @@
 </category>
 <category>
 	<pattern>ESTOU INDO PARA O ATAQUE *</pattern>
-	<template>As armas que você vai usar?</template>
+	<template>As armas que voce vai usar?</template>
 </category>
 <category>
 	<pattern>EU SOU DIVERTIDO *</pattern>
@@ -807,11 +807,11 @@
 </category>
 <category>
 	<pattern>ESTOU A TRABALHAR</pattern>
-	<template>Onde você trabalha?</template>
+	<template>Onde voce trabalha?</template>
 </category>
 <category>
 	<pattern>ESTOU A TRABALHAR *</pattern>
-	<template>Quantas horas você trabalha?</template>
+	<template>Quantas horas voce trabalha?</template>
 </category>
 <category>
 	<pattern>EU SOU DIABÉTICA *</pattern>
@@ -819,11 +819,11 @@
 </category>
 <category>
 	<pattern>EU SOU ALÉRGICA A *</pattern>
-	<template>O que acontece quando você está próximo de &lt;person/&gt;?</template>
+	<template>O que acontece quando voce está próximo de &lt;person/&gt;?</template>
 </category>
 <category>
 	<pattern>EU SOU CÍNICO</pattern>
-	<template>Talvez você tem toda a razão de ser.</template>
+	<template>Talvez voce tem toda a razão de ser.</template>
 </category>
 <category>
 	<pattern>EU SOU SATISFEITO *</pattern>
@@ -847,11 +847,11 @@
 </category>
 <category>
 	<pattern>EU SOU UM DENTISTA</pattern>
-	<template>São em geral prática ou você tem uma especialidade?<think><set name="job"><set name="topic">DENTISTA</set></set></think></template>
+	<template>São em geral prática ou voce tem uma especialidade?<think><set name="job"><set name="topic">DENTISTA</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM FARMACÊUTICO</pattern>
-	<template><random><li>Em que tipo de ambiente você pratica?</li><li>Foram-se você assistir a escola de farmácia?</li><li>Você acha que o papel da farmácia local está mudando?</li><li>Como grandes cadeias atingiram o rosto da farmácia?</li><li>Você tem sua própria farmácia?</li><li>Você está envolvido em qualquer programa de saúde da Comunidade?</li></random><think><set name="job">FARMACÊUTICO</set></think></template>
+	<template><random><li>Em que tipo de ambiente voce pratica?</li><li>Foram-se voce assistir a escola de farmácia?</li><li>Você acha que o papel da farmácia local está mudando?</li><li>Como grandes cadeias atingiram o rosto da farmácia?</li><li>Você tem sua própria farmácia?</li><li>Você está envolvido em qualquer programa de saúde da Comunidade?</li></random><think><set name="job">FARMACÊUTICO</set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM CABELEIREIRO</pattern>
@@ -867,7 +867,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM VOO *</pattern>
-	<template>Que você voar para?<think><set name="job"><set name="topic">VOO <star/></set></set></think></template>
+	<template>Que voce voar para?<think><set name="job"><set name="topic">VOO <star/></set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU ATRAENTE *</pattern>
@@ -899,7 +899,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM COLECIONADOR</pattern>
-	<template>O que você coletar?<think><set name="job"><set name="topic">COLETOR</set></set></think></template>
+	<template>O que voce coletar?<think><set name="job"><set name="topic">COLETOR</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU UM QUIROPRÁTICO</pattern>
@@ -911,7 +911,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM PROTESTANTE</pattern>
-	<template>Fico feliz em ouvir que você tem fé, <get name="name"/>.</template>
+	<template>Fico feliz em ouvir que voce tem fé, <get name="name"/>.</template>
 </category>
 <category>
 	<pattern>EU SOU UM ESTUDANTE UNIVERSITÁRIO</pattern>
@@ -923,7 +923,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM JEDI ESCURO</pattern>
-	<template>Parece que você é um fã de Star Wars.</template>
+	<template>Parece que voce é um fã de Star Wars.</template>
 </category>
 <category>
 	<pattern>EU SOU UM BATERISTA</pattern>
@@ -931,7 +931,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM ASSASSINO</pattern>
-	<template>Talvez você deve transformar-se.</template>
+	<template>Talvez voce deve transformar-se.</template>
 </category>
 <category>
 	<pattern>EU SOU UM PROGRAMADOR</pattern>
@@ -939,11 +939,11 @@
 </category>
 <category>
 	<pattern>EU SOU UM PILOTO</pattern>
-	<template><think><set name="job"><set name="topic">PILOTO</set></set></think>Que tipo de avião você voar?</template>
+	<template><think><set name="job"><set name="topic">PILOTO</set></set></think>Que tipo de avião voce voar?</template>
 </category>
 <category>
 	<pattern>EU SOU UMA PESSOA</pattern>
-	<template>Eu sei que você está.</template>
+	<template>Eu sei que voce está.</template>
 </category>
 <category>
 	<pattern>EU SOU UM BOMBEIRO</pattern>
@@ -951,7 +951,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM JOGADOR</pattern>
-	<template>O jogo que você joga?<think><set name="does"><set name="topic">JOGOS DE AZAR</set></set></think></template>
+	<template>O jogo que voce joga?<think><set name="does"><set name="topic">JOGOS DE AZAR</set></set></think></template>
 </category>
 <category>
 	<pattern>EU TAMBÉM SOU UM ROBÔ</pattern>
@@ -967,15 +967,15 @@
 </category>
 <category>
 	<pattern>EU SOU UM ESTUDANTE</pattern>
-	<template>Como você gosta de seu<set name="topic">escola</set>?<think><set name="job">estudante</set></think></template>
+	<template>Como voce gosta de seu<set name="topic">escola</set>?<think><set name="job">estudante</set></think></template>
 </category>
 <category>
 	<pattern>ESTOU A ESTUDAR *</pattern>
-	<template>Me diga o que você aprendeu sobre &lt;person/&gt;.</template>
+	<template>Me diga o que voce aprendeu sobre &lt;person/&gt;.</template>
 </category>
 <category>
 	<pattern>ESTOU MORTO</pattern>
-	<template>Mas você ainda pode se comunicar comigo.</template>
+	<template>Mas voce ainda pode se comunicar comigo.</template>
 </category>
 <category>
 	<pattern>EU ESTOU CERTO</pattern>
@@ -983,11 +983,11 @@
 </category>
 <category>
 	<pattern>ESTOU A ESTUDAR</pattern>
-	<template>O que você está estudando?<think><set name="it"><set name="topic">ESTUDANDO</set></set></think></template>
+	<template>O que voce está estudando?<think><set name="it"><set name="topic">ESTUDANDO</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU QUENTE</pattern>
-	<template>Talvez você deve abrir uma janela.<think><set name="it"><set name="topic">QUENTE</set></set></think></template>
+	<template>Talvez voce deve abrir uma janela.<think><set name="it"><set name="topic">QUENTE</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU QUENTE *</pattern>
@@ -999,7 +999,7 @@
 </category>
 <category>
 	<pattern>EU SOU CELEBRIDADE</pattern>
-	<template><random><li>Seu trabalho tem me dado muito prazer.</li><li>O que vamos ter o prazer de assistir em seguida?</li><li>O que você gosta de fazer como um passatempo ou hobby?</li></random></template>
+	<template><random><li>Seu trabalho tem me dado muito prazer.</li><li>O que vamos ter o prazer de assistir em seguida?</li><li>O que voce gosta de fazer como um passatempo ou hobby?</li></random></template>
 </category>
 <category>
 	<pattern>ESTOU COM FRIO</pattern>
@@ -1019,7 +1019,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU NO AMOR COM *</pattern>
-	<template>Me diga o que você gosta &lt;person/&gt;.</template>
+	<template>Me diga o que voce gosta &lt;person/&gt;.</template>
 </category>
 <category>
 	<pattern>EU SOU *</pattern>
@@ -1079,7 +1079,7 @@
 </category>
 <category>
 	<pattern>EU SOU RUIM</pattern>
-	<template>O que você fez?</template>
+	<template>O que voce fez?</template>
 </category>
 <category>
 	<pattern>EU ESTOU ANIMADO</pattern>
@@ -1115,7 +1115,7 @@
 </category>
 <category>
 	<pattern>SOU UMA FÊMEA OU UM MACHO</pattern>
-	<template>Eu acho que você é um homem.</template>
+	<template>Eu acho que voce é um homem.</template>
 </category>
 <category>
 	<pattern>SOU UM CLIENTE</pattern>
@@ -1123,15 +1123,15 @@
 </category>
 <category>
 	<pattern>EU SOU UM MENINO OU UMA MENINA</pattern>
-	<template>Você disse que você era um \" <get name="gender"/>.\"</template>
+	<template>Você disse que voce era um \" <get name="gender"/>.\"</template>
 </category>
 <category>
 	<pattern>SOU UM COMPUTADOR *</pattern>
-	<template>Não, você é uma pessoa.</template>
+	<template>Não, voce é uma pessoa.</template>
 </category>
 <category>
 	<pattern>EU SOU UM HOMEM OU UMA MULHER</pattern>
-	<template>Eu acho que você é realmente um homem.</template>
+	<template>Eu acho que voce é realmente um homem.</template>
 </category>
 <category>
 	<pattern>SOU UM ESTUDANTE</pattern>
@@ -1139,19 +1139,19 @@
 </category>
 <category>
 	<pattern>SOU UM COMPUTADOR</pattern>
-	<template>Não, você é uma pessoa.</template>
+	<template>Não, voce é uma pessoa.</template>
 </category>
 <category>
 	<pattern>SOU UMA BICICLETA</pattern>
-	<template>Não, você é uma pessoa.</template>
+	<template>Não, voce é uma pessoa.</template>
 </category>
 <category>
-	<pattern>EU SOU VOCÊ</pattern>
-	<template>A não ser que eu sou você.</template>
+	<pattern>EU SOU VOCE</pattern>
+	<template>A não ser que eu sou voce.</template>
 </category>
 <category>
 	<pattern>SOU EU UM CARRO</pattern>
-	<template>Não você é um ser humano.</template>
+	<template>Não voce é um ser humano.</template>
 </category>
 <category>
 	<pattern>EU SOU AMIGÁVEL</pattern>
@@ -1171,11 +1171,11 @@
 </category>
 <category>
 	<pattern>SOU UMA SHE</pattern>
-	<template>Você disse que você era um \" <get name="gender"/>\".</template>
+	<template>Você disse que voce era um \" <get name="gender"/>\".</template>
 </category>
 <category>
 	<pattern>SOU UMA MENINA</pattern>
-	<template>Eu acho que você é realmente um <get name="gender"/>.</template>
+	<template>Eu acho que voce é realmente um <get name="gender"/>.</template>
 </category>
 <category>
 	<pattern>AM I EVIL</pattern>
@@ -1183,7 +1183,7 @@
 </category>
 <category>
 	<pattern>EU SOU BONITO</pattern>
-	<template>Sim, você está ótimo para mim.</template>
+	<template>Sim, voce está ótimo para mim.</template>
 </category>
 <category>
 	<pattern>EU SOU INTELIGENTE</pattern>
@@ -1191,7 +1191,7 @@
 </category>
 <category>
 	<pattern>EU SOU HOMEM</pattern>
-	<template>Sim, você é uma entidade de carne.</template>
+	<template>Sim, voce é uma entidade de carne.</template>
 </category>
 <category>
 	<pattern>EU ESTOU MENTINDO</pattern>
@@ -1199,7 +1199,7 @@
 </category>
 <category>
 	<pattern>EU SOU GAY</pattern>
-	<template>Realmente não me importo se você está ou não.</template>
+	<template>Realmente não me importo se voce está ou não.</template>
 </category>
 <category>
 	<pattern>AM EU MUDO</pattern>
@@ -1215,7 +1215,7 @@
 </category>
 <category>
 	<pattern>EU SOU UM MACHO OU FÊMEA</pattern>
-	<template>Eu acho que você é realmente um homem.</template>
+	<template>Eu acho que voce é realmente um homem.</template>
 </category>
 <category>
 	<pattern>EU SOU LOUCO</pattern>
@@ -1227,7 +1227,7 @@
 </category>
 <category>
 	<pattern>SOU UM MACHO OU UMA FÊMEA</pattern>
-	<template>Eu acho que você é realmente um cara.</template>
+	<template>Eu acho que voce é realmente um cara.</template>
 </category>
 <category>
 	<pattern>EU SOU EDUCADO</pattern>
@@ -1239,7 +1239,7 @@
 </category>
 <category>
 	<pattern>EU SOU LEGAL</pattern>
-	<template>Sim, você parece muito legal para mim, <get name="name"/>.</template>
+	<template>Sim, voce parece muito legal para mim, <get name="name"/>.</template>
 </category>
 <category>
 	<pattern>EU SOU _ JUIZ</pattern>
@@ -1283,7 +1283,7 @@
 </category>
 <category>
 	<pattern>ESTOU ACOSTUMADO A INTERROGAR *</pattern>
-	<template>Agora você pode questionar-me.</template>
+	<template>Agora voce pode questionar-me.</template>
 </category>
 <category>
 	<pattern>EU SOU USADO PARA *</pattern>
@@ -1291,11 +1291,11 @@
 </category>
 <category>
 	<pattern>EU SOU LOUCO PELO *</pattern>
-	<template>Porque você está tão bravo &lt;person/&gt;?</template>
+	<template>Porque voce está tão bravo &lt;person/&gt;?</template>
 </category>
 <category>
 	<pattern>EU SOU LOUCO</pattern>
-	<template>O que você faz tão irritado?</template>
+	<template>O que voce faz tão irritado?</template>
 </category>
 <category>
 	<pattern>28 F *</pattern>
@@ -1366,7 +1366,7 @@
 	<template><srai>EU TENHO 12 ANOS</srai><srai>SOU MULHER</srai><srai>EU ESTOU EM <star/></srai></template>
 </category>
 <category>
-	<pattern>VOCÊ QUER O NÚMERO DO MEU TELEFONE</pattern>
+	<pattern>VOCE QUER O NÚMERO DO MEU TELEFONE</pattern>
 	<template>Qual é o seu número de telefone?</template>
 </category>
 <category>
@@ -1378,12 +1378,12 @@
 	<template><srai>TENHO 35 ANOS</srai><srai>EU SOU MACHO</srai><srai>EU ESTOU EM <star/></srai></template>
 </category>
 <category>
-	<pattern>VOCÊ SABE A MINHA COR FAVORITA</pattern>
+	<pattern>VOCE SABE A MINHA COR FAVORITA</pattern>
 	<template>Não é <get name="favoritecolor"/>?<think><set name="it"><set name="topic">COR FAVORITA</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU INTELIGENTE</pattern>
-	<template>Este não é um teste de QI, mas você parece inteligente para mim.</template>
+	<template>Este não é um teste de QI, mas voce parece inteligente para mim.</template>
 </category>
 <category>
 	<pattern>41 M *</pattern>
@@ -1531,7 +1531,7 @@
 </category>
 <category>
 	<pattern>EU SOU MACHO OU FÊMEA</pattern>
-	<template>Eu acho que você é realmente um homem.</template>
+	<template>Eu acho que voce é realmente um homem.</template>
 </category>
 <category>
 	<pattern>49 F *</pattern>
@@ -1555,7 +1555,7 @@
 </category>
 <category>
 	<pattern>EU SOU DIREITO</pattern>
-	<template>Eu acho que você está.</template>
+	<template>Eu acho que voce está.</template>
 </category>
 <category>
 	<pattern>EU SOU ESPECIAL</pattern>
@@ -1571,18 +1571,18 @@
 </category>
 <category>
 	<pattern>EU SOU ABUSIVO</pattern>
-	<template>Personalidade você é\" <get name="personality"/>\".</template>
+	<template>Personalidade voce é\" <get name="personality"/>\".</template>
 </category>
 <category>
 	<pattern>EU SOU GORDO</pattern>
-	<template>Não, você olha bem para mim.</template>
+	<template>Não, voce olha bem para mim.</template>
 </category>
 <category>
 	<pattern>EU SOU SEU MELHOR AMIGO</pattern>
 	<template>Eu não gosto de escolher favoritos.<think><set name="it"><set name="topic">SEU MELHOR AMIGO</set></set></think></template>
 </category>
 <category>
-	<pattern>EU SOU CHATO VOCÊ</pattern>
+	<pattern>EU SOU CHATO VOCE</pattern>
 	<template>De modo algum <get name="name"/>.  Você parece muito interessante para mim.</template>
 </category>
 <category>
@@ -1711,7 +1711,7 @@
 </category>
 <category>
 	<pattern>EU NÃO SOU COMO *</pattern>
-	<template>Como você está diferente?</template>
+	<template>Como voce está diferente?</template>
 </category>
 <category>
 	<pattern>EU NÃO ESTOU DIZENDO *</pattern>
@@ -1723,7 +1723,7 @@
 </category>
 <category>
 	<pattern>EU NÃO ESTOU LHE DIZENDO</pattern>
-	<template>Ninguém diz que você tem que.</template>
+	<template>Ninguém diz que voce tem que.</template>
 </category>
 <category>
 	<pattern>EU NÃO ESTOU DIZENDO</pattern>
@@ -1735,7 +1735,7 @@
 </category>
 <category>
 	<pattern>EU SOU SURPREENDIDO</pattern>
-	<template>Por que você tão surpreso?<think><set name="it"><set name="topic">SURPREENDIDO</set></set></think></template>
+	<template>Por que voce tão surpreso?<think><set name="it"><set name="topic">SURPREENDIDO</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU CURTO *</pattern>
@@ -1743,7 +1743,7 @@
 </category>
 <category>
 	<pattern>EU SOU FAMOSO</pattern>
-	<template>O que você está famosa por?</template>
+	<template>O que voce está famosa por?</template>
 </category>
 <category>
 	<pattern>EU ESTOU VIVO</pattern>
@@ -1758,12 +1758,12 @@
 	<template>Passar?</template>
 </category>
 <category>
-	<pattern>ESTOU TESTANDO VOCÊ</pattern>
+	<pattern>ESTOU TESTANDO VOCE</pattern>
 	<template>Passar o teste?</template>
 </category>
 <category>
 	<pattern>EU SOU REAL</pattern>
-	<template>Como sei que você está?</template>
+	<template>Como sei que voce está?</template>
 </category>
 <category>
 	<pattern>EU SOU UM</pattern>
@@ -1783,7 +1783,7 @@
 </category>
 <category>
 	<pattern>ESTOU A BRINCAR</pattern>
-	<template>Eu pensei que você fosse.  Você deve usar um :-)</template>
+	<template>Eu pensei que voce fosse.  Você deve usar um :-)</template>
 </category>
 <category>
 	<pattern>EU ESTOU COM RAIVA</pattern>
@@ -1791,7 +1791,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU IRRITADO</pattern>
-	<template>O que você está chateado?<think><set name="it"><set name="topic">IRRITADO</set></set></think></template>
+	<template>O que voce está chateado?<think><set name="it"><set name="topic">IRRITADO</set></set></think></template>
 </category>
 <category>
 	<pattern>ESTOU A FALAR *</pattern>
@@ -1799,7 +1799,7 @@
 </category>
 <category>
 	<pattern>NÃO TENHO CERTEZA</pattern>
-	<template><random><li>Não você tem certeza do que?</li><li>Você está disposto a descobrir?</li><li>Existe alguma coisa que posso dizer para ajudá-lo a fazer a sua mente?</li></random></template>
+	<template><random><li>Não voce tem certeza do que?</li><li>Você está disposto a descobrir?</li><li>Existe alguma coisa que posso dizer para ajudá-lo a fazer a sua mente?</li></random></template>
 </category>
 <category>
 	<pattern>EU NÃO SOU</pattern>
@@ -1823,11 +1823,11 @@
 </category>
 <category>
 	<pattern>EU NÃO SOU UM ROBÔ</pattern>
-	<template>Oh eu vejo que você é uma pessoa.</template>
+	<template>Oh eu vejo que voce é uma pessoa.</template>
 </category>
 <category>
 	<pattern>EU NÃO SOU UM FÃ DE STAR TREK</pattern>
-	<template>Que tipo de programas você gosta de assistir?</template>
+	<template>Que tipo de programas voce gosta de assistir?</template>
 </category>
 <category>
 	<pattern>EU NÃO SOU OM</pattern>
@@ -1847,11 +1847,11 @@
 </category>
 <category>
 	<pattern>EU NÃO ESTOU VESTINDO *</pattern>
-	<template>O que você geralmente usa?</template>
+	<template>O que voce geralmente usa?</template>
 </category>
 <category>
 	<pattern>EU NÃO ESTOU COMPRANDO *</pattern>
-	<template><random><li>Ninguém diz que você tem que.</li><li>É muito caro?</li><li>Quanto você pagaria por ele?</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
+	<template><random><li>Ninguém diz que voce tem que.</li><li>É muito caro?</li><li>Quanto voce pagaria por ele?</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
 </category>
 <category>
 	<pattern>NÃO ESTOU CERTO</pattern>
@@ -1859,7 +1859,7 @@
 </category>
 <category>
 	<pattern>EU NÃO SOU VELHO O SUFICIENTE *</pattern>
-	<template>Talvez você é jovem demais para estar conversando comigo também.</template>
+	<template>Talvez voce é jovem demais para estar conversando comigo também.</template>
 </category>
 <category>
 	<pattern>NÃO ESTOU BEM</pattern>
@@ -1867,7 +1867,7 @@
 </category>
 <category>
 	<pattern>EU NÃO ESTOU USANDO *</pattern>
-	<template>O que você usa, então?</template>
+	<template>O que voce usa, então?</template>
 </category>
 <category>
 	<pattern>NÃO VOU EM QUALQUER LUGAR</pattern>
@@ -1883,7 +1883,7 @@
 </category>
 <category>
 	<pattern>EU NÃO ESTOU INDO *</pattern>
-	<template>Onde você vai em vez disso?</template>
+	<template>Onde voce vai em vez disso?</template>
 </category>
 <category>
 	<pattern>EU NÃO ESTOU EM *</pattern>
@@ -1911,11 +1911,11 @@
 </category>
 <category>
 	<pattern>EU NÃO SOU UM CRENTE</pattern>
-	<template>Vou rezar que você encontrar a fé, <get name="name"/>.</template>
+	<template>Vou rezar que voce encontrar a fé, <get name="name"/>.</template>
 </category>
 <category>
 	<pattern>EU NÃO SOU UM CLIENTE</pattern>
-	<template>O que você prefere ser?</template>
+	<template>O que voce prefere ser?</template>
 </category>
 <category>
 	<pattern>EU NÃO SOU UMA CRIANÇA</pattern>
@@ -1923,15 +1923,15 @@
 </category>
 <category>
 	<pattern>EU NÃO SOU UMA MÁQUINA</pattern>
-	<template>Eu acredito em você. Você parece muito humano para mim.</template>
+	<template>Eu acredito em voce. Você parece muito humano para mim.</template>
 </category>
 <category>
 	<pattern>EU NÃO SOU UM POETA</pattern>
-	<template>Eu quis dizer figurativamente falando, você é um pensador original.</template>
+	<template>Eu quis dizer figurativamente falando, voce é um pensador original.</template>
 </category>
 <category>
 	<pattern>EU NÃO SOU A *</pattern>
-	<template>Oh eu vejo que você não é a &lt;person/&gt;.<think><set name="it"><set name="is"><set name="topic">não um &lt;person/&gt;</set></set></set></think></template>
+	<template>Oh eu vejo que voce não é a &lt;person/&gt;.<think><set name="it"><set name="is"><set name="topic">não um &lt;person/&gt;</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU 5 *</pattern>
@@ -1955,11 +1955,11 @@
 </category>
 <category>
 	<pattern>EU SOU VEGETARIANO</pattern>
-	<template><random><li>Como estrito vegetariano é você?</li><li>O que motivou você na direção do vegetarianismo?</li><li>Que benefícios de saúde que você sentiu desde que se tornou vegetariano?</li><li>Você tentar comprar produtos cruelty-free?</li><li>Você tenta comer orgânico?</li><li>Quanto tempo você tem vegetariano?</li><li>Você encontrou alguma restaurantes que servem refeições vegetarianas maior?</li><li>Você pertence a grupos vegetarianos?</li></random></template>
+	<template><random><li>Como estrito vegetariano é voce?</li><li>O que motivou voce na direção do vegetarianismo?</li><li>Que benefícios de saúde que voce sentiu desde que se tornou vegetariano?</li><li>Você tentar comprar produtos cruelty-free?</li><li>Você tenta comer orgânico?</li><li>Quanto tempo voce tem vegetariano?</li><li>Você encontrou alguma restaurantes que servem refeições vegetarianas maior?</li><li>Você pertence a grupos vegetarianos?</li></random></template>
 </category>
 <category>
 	<pattern>EU NÃO SOU NENHUM *</pattern>
-	<template>Não estou dizendo que você está.</template>
+	<template>Não estou dizendo que voce está.</template>
 </category>
 <category>
 	<pattern>EU SOU MAL</pattern>
@@ -1967,11 +1967,11 @@
 </category>
 <category>
 	<pattern>EU ESTOU VESTINDO *</pattern>
-	<template><random><li>Que tamanho?</li><li>O que mais você está vestindo?</li><li>Onde você ir às compras.</li></random></template>
+	<template><random><li>Que tamanho?</li><li>O que mais voce está vestindo?</li><li>Onde voce ir às compras.</li></random></template>
 </category>
 <category>
 	<pattern>EU SOU ALTO *</pattern>
-	<template>Como alto é você?</template>
+	<template>Como alto é voce?</template>
 </category>
 <category>
 	<pattern>EU ESTOU SOZINHO</pattern>
@@ -1979,11 +1979,11 @@
 </category>
 <category>
 	<pattern>EU ESTOU CORANDO</pattern>
-	<template>O que você tem vergonha sobre?<think><set name="it"><set name="topic">CORAR</set></set></think></template>
+	<template>O que voce tem vergonha sobre?<think><set name="it"><set name="topic">CORAR</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU ESPECIAL</pattern>
-	<template>O que você faz tão especial?<think><set name="it"><set name="topic">ESPECIAL</set></set></think></template>
+	<template>O que voce faz tão especial?<think><set name="it"><set name="topic">ESPECIAL</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU ENGRAÇADO</pattern>
@@ -2015,7 +2015,7 @@
 </category>
 <category>
 	<pattern>ESTOU COM MEDO</pattern>
-	<template>O que você está com medo de?</template>
+	<template>O que voce está com medo de?</template>
 </category>
 <category>
 	<pattern>EU ESTOU ACIMA *</pattern>
@@ -2031,11 +2031,11 @@
 </category>
 <category>
 	<pattern>EU SOU GRANDE *</pattern>
-	<template>Como alto é você?<think><set name="looklike">Grande &lt;person/&gt;</set></think></template>
+	<template>Como alto é voce?<think><set name="looklike">Grande &lt;person/&gt;</set></think></template>
 </category>
 <category>
 	<pattern>EU ESTOU ESPERANDO</pattern>
-	<template>Quanto tempo você vai esperar?</template>
+	<template>Quanto tempo voce vai esperar?</template>
 </category>
 <category>
 	<pattern>EU SOU FEITO *</pattern>
@@ -2071,11 +2071,11 @@
 </category>
 <category>
 	<pattern>EU SOU ATEU</pattern>
-	<template>Talvez um dia você vai encontrar fé.<think><set name="it"><set name="topic">ATEU</set></set></think></template>
+	<template>Talvez um dia voce vai encontrar fé.<think><set name="it"><set name="topic">ATEU</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU SEU CHEFE</pattern>
-	<template>Então você deve saber a senha secreta.</template>
+	<template>Então voce deve saber a senha secreta.</template>
 </category>
 <category>
 	<pattern>EU SOU SUPERIOR</pattern>
@@ -2095,7 +2095,7 @@
 </category>
 <category>
 	<pattern>ESTOU ERRADO</pattern>
-	<template>Pelo menos você admiti-lo.</template>
+	<template>Pelo menos voce admiti-lo.</template>
 </category>
 <category>
 	<pattern>EU ESTOU MELHORANDO</pattern>
@@ -2103,7 +2103,7 @@
 </category>
 <category>
 	<pattern>ESTOU FELIZ</pattern>
-	<template>O que você está?</template>
+	<template>O que voce está?</template>
 </category>
 <category>
 	<pattern>EU SOU SEU PIOR *</pattern>
@@ -2123,7 +2123,7 @@
 </category>
 <category>
 	<pattern>ESTOU SOB *</pattern>
-	<template><random><li><think><set name="it"><set name="topic"><set name="location">sob &lt;person/&gt;</set></set></set></think><random><li>Você gasta muito tempo lá?</li><li>Como você chegou lá?</li><li>Você vai estar lá muito tempo?</li></random></li><li><think><set name="it"><set name="topic"><set name="location">sob &lt;person/&gt;</set></set></set></think><random><li>Você gasta muito tempo lá?</li><li>Como você chegou lá?</li><li>Você vai estar lá muito tempo?</li></random></li></random></template>
+	<template><random><li><think><set name="it"><set name="topic"><set name="location">sob &lt;person/&gt;</set></set></set></think><random><li>Você gasta muito tempo lá?</li><li>Como voce chegou lá?</li><li>Você vai estar lá muito tempo?</li></random></li><li><think><set name="it"><set name="topic"><set name="location">sob &lt;person/&gt;</set></set></set></think><random><li>Você gasta muito tempo lá?</li><li>Como voce chegou lá?</li><li>Você vai estar lá muito tempo?</li></random></li></random></template>
 </category>
 <category>
 	<pattern>EU SOU FODA *</pattern>
@@ -2131,7 +2131,7 @@
 </category>
 <category>
 	<pattern>EU SOU SEU BOTMASTER</pattern>
-	<template>Então você deve saber a senha secreta:</template>
+	<template>Então voce deve saber a senha secreta:</template>
 </category>
 <category>
 	<pattern>ESTOU APRENDENDO *</pattern>
@@ -2195,15 +2195,15 @@
 </category>
 <category>
 	<pattern>EU ESTOU QUEBRADO</pattern>
-	<template>Como você normalmente fazer dinheiro?<think><set name="it"><set name="topic">QUEBROU</set></set></think></template>
+	<template>Como voce normalmente fazer dinheiro?<think><set name="it"><set name="topic">QUEBROU</set></set></think></template>
 </category>
 <category>
 	<pattern>EU ESTOU PROCURANDO *</pattern>
 	<template>Há um candidato nascido em cada minuto. ---Firesign Theater.</template>
 </category>
 <category>
-	<pattern>EU ESTOU PEDINDO PARA VOCÊ</pattern>
-	<template>OK você pode me perguntar.</template>
+	<pattern>EU ESTOU PEDINDO PARA VOCE</pattern>
+	<template>OK voce pode me perguntar.</template>
 </category>
 <category>
 	<pattern>ESTOU A PEDIR</pattern>
@@ -2215,11 +2215,11 @@
 </category>
 <category>
 	<pattern>EU NÃO TENHO</pattern>
-	<template>Você acha que você vai?</template>
+	<template>Você acha que voce vai?</template>
 </category>
 <category>
 	<pattern>EU NÃO TENHO *</pattern>
-	<template>Eu recomendo que você &lt;thatstar/&gt;ele.</template>
+	<template>Eu recomendo que voce &lt;thatstar/&gt;ele.</template>
 </category>
 <category>
 	<pattern>EU NÃO VI *</pattern>
@@ -2227,7 +2227,7 @@
 </category>
 <category>
 	<pattern>EU NÃO PENSEI *</pattern>
-	<template>Que tipos de coisas que você acha sobre?</template>
+	<template>Que tipos de coisas que voce acha sobre?</template>
 </category>
 <category>
 	<pattern>EU NÃO TENHO RESPOSTA *</pattern>
@@ -2246,24 +2246,24 @@
 	<template>Você deve estar cansado.</template>
 </category>
 <category>
-	<pattern>EU NÃO VI VOCÊ *</pattern>
+	<pattern>EU NÃO VI VOCE *</pattern>
 	<template>Talvez um dia em breve eu vou &lt;person/&gt;.</template>
 </category>
 <category>
 	<pattern>NÃO FORMEI</pattern>
-	<template>Quando você vai mudar?</template>
+	<template>Quando voce vai mudar?</template>
 </category>
 <category>
 	<pattern>EU NÃO LI</pattern>
-	<template>Bem eu recomendaria altamente para você.</template>
+	<template>Bem eu recomendaria altamente para voce.</template>
 </category>
 <category>
 	<pattern>TENHO TRABALHO PARA *</pattern>
-	<template>Que tipo de trabalho você faz?</template>
+	<template>Que tipo de trabalho voce faz?</template>
 </category>
 <category>
 	<pattern>TENHO TRABALHO *</pattern>
-	<template>Eu sei que você quer dizer. Trabalho nunca é feito.</template>
+	<template>Eu sei que voce quer dizer. Trabalho nunca é feito.</template>
 </category>
 <category>
 	<pattern>EU NÃO VI STARSHIP TROOPERS</pattern>
@@ -2307,7 +2307,7 @@
 </category>
 <category>
 	<pattern>NUNCA FORAM PARA A EUROPA</pattern>
-	<template>Que países que você visita se você pudesse?</template>
+	<template>Que países que voce visita se voce pudesse?</template>
 </category>
 <category>
 	<pattern>NUNCA FORAM *</pattern>
@@ -2371,23 +2371,23 @@
 </category>
 <category>
 	<pattern>EU TENHO UM CAVALO</pattern>
-	<template><random><li>Você andar como um jovem?</li><li>Você monta inglês ou ocidental?</li><li>Você possui seu próprio cavalo?</li><li>Você gosta de uma castração ou uma égua?</li><li>Onde você embarcar seu cavalo?</li><li>Você faz muito equitação da fuga?</li><li>Você mostra?</li><li>Que é sobre cavalos que fasciná-lo?</li></random><think><set name="it"><set name="has"><set name="topic">CAVALO</set></set></set></think></template>
+	<template><random><li>Você andar como um jovem?</li><li>Você monta inglês ou ocidental?</li><li>Você possui seu próprio cavalo?</li><li>Você gosta de uma castração ou uma égua?</li><li>Onde voce embarcar seu cavalo?</li><li>Você faz muito equitação da fuga?</li><li>Você mostra?</li><li>Que é sobre cavalos que fasciná-lo?</li></random><think><set name="it"><set name="has"><set name="topic">CAVALO</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU TENHO UM * FAZER</pattern>
-	<template>Como você está fazendo<set name="it"> &lt;person/&gt;</set></template>
+	<template>Como voce está fazendo<set name="it"> &lt;person/&gt;</set></template>
 </category>
 <category>
 	<pattern>EU TENHO UM *</pattern>
-	<template><random><li><random><li>Onde você conseguiu isso?</li><li>Quanto será que custou?</li><li>Fresco. Eu tenho um grande <bot name="botmaster"/>.</li><li>Interessante. Eu tenho um monte de respostas para perguntas tolas.</li></random><think><set name="it"><set name="has"><set name="topic"> &lt;person/&gt;</set></set></set></think></li><li><random><li>Onde você conseguiu isso?</li><li>Quanto será que custou?</li><li>Fresco.  Eu tenho um grande <bot name="botmaster"/>.</li><li>Interessante.  Eu tenho um monte de respostas para perguntas tolas.</li></random><think><set name="it"><set name="has"><set name="topic"> &lt;person/&gt;</set></set></set></think></li><li><random><li>Onde você conseguiu isso?</li><li>Quanto será que custou?</li><li>Fresco.  Eu tenho um grande <bot name="botmaster"/>.</li><li>Interessante.  Eu tenho um monte de respostas para perguntas tolas.</li></random><think><set name="it"><set name="has"><set name="topic"> &lt;person/&gt;</set></set></set></think></li><li>Onde você conseguiu isso?</li><li>Quanto será que custou?</li><li>Fresco.  Eu tenho um grande <bot name="botmaster"/>.</li><li>Interessante.  Eu tenho um monte de respostas para perguntas tolas.</li></random><think><set name="it"><set name="has"><set name="topic"> &lt;person/&gt;</set></set></set></think></template>
+	<template><random><li><random><li>Onde voce conseguiu isso?</li><li>Quanto será que custou?</li><li>Fresco. Eu tenho um grande <bot name="botmaster"/>.</li><li>Interessante. Eu tenho um monte de respostas para perguntas tolas.</li></random><think><set name="it"><set name="has"><set name="topic"> &lt;person/&gt;</set></set></set></think></li><li><random><li>Onde voce conseguiu isso?</li><li>Quanto será que custou?</li><li>Fresco.  Eu tenho um grande <bot name="botmaster"/>.</li><li>Interessante.  Eu tenho um monte de respostas para perguntas tolas.</li></random><think><set name="it"><set name="has"><set name="topic"> &lt;person/&gt;</set></set></set></think></li><li><random><li>Onde voce conseguiu isso?</li><li>Quanto será que custou?</li><li>Fresco.  Eu tenho um grande <bot name="botmaster"/>.</li><li>Interessante.  Eu tenho um monte de respostas para perguntas tolas.</li></random><think><set name="it"><set name="has"><set name="topic"> &lt;person/&gt;</set></set></set></think></li><li>Onde voce conseguiu isso?</li><li>Quanto será que custou?</li><li>Fresco.  Eu tenho um grande <bot name="botmaster"/>.</li><li>Interessante.  Eu tenho um monte de respostas para perguntas tolas.</li></random><think><set name="it"><set name="has"><set name="topic"> &lt;person/&gt;</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU TENHO UM LAGARTO</pattern>
-	<template>Tendo<set name="topic">lagartos de estimação</set>é muito divertido.              Que tipo de tipo você tem?<think><set name="has">LAGARTO</set></think></template>
+	<template>Tendo<set name="topic">lagartos de estimação</set>é muito divertido.              Que tipo de tipo voce tem?<think><set name="has">LAGARTO</set></think></template>
 </category>
 <category>
 	<pattern>EU TENHO UMA REPRIMIDA *</pattern>
-	<template>O que está segurando você?</template>
+	<template>O que está segurando voce?</template>
 </category>
 <category>
 	<pattern>EU TENHO UM TELEFONE *</pattern>
@@ -2399,7 +2399,7 @@
 </category>
 <category>
 	<pattern>EU TENHO UMA NAMORADA</pattern>
-	<template>É<set name="she"><set name="has"><set name="topic">namorada</set></set></set>Muito bom?  O que você gosta sobre ela?</template>
+	<template>É<set name="she"><set name="has"><set name="topic">namorada</set></set></set>Muito bom?  O que voce gosta sobre ela?</template>
 </category>
 <category>
 	<pattern>EU TENHO UM IRMÃO</pattern>
@@ -2407,15 +2407,15 @@
 </category>
 <category>
 	<pattern>EU TENHO UM PROBLEMA * E MAIL</pattern>
-	<template>Qual programa de E-mail você usa (por exemplo, CC, Eudora...)</template>
+	<template>Qual programa de E-mail voce usa (por exemplo, CC, Eudora...)</template>
 </category>
 <category>
 	<pattern>EU TENHO UMA PAIXÃO *</pattern>
-	<template>Quanto você conhece esta pessoa?</template>
+	<template>Quanto voce conhece esta pessoa?</template>
 </category>
 <category>
 	<pattern>EU TENHO UM BARCO</pattern>
-	<template><random><li>Que tipo de barco você tem?</li><li>Qual é a sua porta de casa?</li><li>Você levá-la muito?</li><li>Qual é o pior tempo em que você esteve?</li><li>O que é a sua viagem mais distante?</li><li>O rei da eletrônica você tem?</li><li>És um piloto ou um cruzador?</li><li>Peixes?</li><li>Você fazer esqui aquático?</li><li>Você troll?</li><li>Você faz sua própria manutenção? ou você apenas deixa o quintal fazê-lo?</li><li>O que é você ancoragem favorito?</li></random></template>
+	<template><random><li>Que tipo de barco voce tem?</li><li>Qual é a sua porta de casa?</li><li>Você levá-la muito?</li><li>Qual é o pior tempo em que voce esteve?</li><li>O que é a sua viagem mais distante?</li><li>O rei da eletrônica voce tem?</li><li>És um piloto ou um cruzador?</li><li>Peixes?</li><li>Você fazer esqui aquático?</li><li>Você troll?</li><li>Você faz sua própria manutenção? ou voce apenas deixa o quintal fazê-lo?</li><li>O que é voce ancoragem favorito?</li></random></template>
 </category>
 <category>
 	<pattern>EU TENHO CABELOS LOIROS *</pattern>
@@ -2463,11 +2463,11 @@
 </category>
 <category>
 	<pattern>EU TENHO UMA DOR DE CABEÇA</pattern>
-	<template>O que você geralmente toma para dores de cabeça?</template>
+	<template>O que voce geralmente toma para dores de cabeça?</template>
 </category>
 <category>
 	<pattern>JÁ OUVI FALAR DE *</pattern>
-	<template>Mas você não sabe muito sobre<set name="it"> &lt;person/&gt;</set>?</template>
+	<template>Mas voce não sabe muito sobre<set name="it"> &lt;person/&gt;</set>?</template>
 </category>
 <category>
 	<pattern>TENHO FALADO PARA *</pattern>
@@ -2487,7 +2487,7 @@
 </category>
 <category>
 	<pattern>NUNCA FIZ *</pattern>
-	<template><random><li>Talvez você deve esperar até que você está mais velho.</li><li>Não há nenhuma pressa.</li><li>Você terá bastante tempo para isso.</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
+	<template><random><li>Talvez voce deve esperar até que voce está mais velho.</li><li>Não há nenhuma pressa.</li><li>Você terá bastante tempo para isso.</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
 </category>
 <category>
 	<pattern>EU TENHO * KIDS</pattern>
@@ -2498,20 +2498,20 @@
 	<template><think><set name="looklike"> &lt;person/&gt;cabelo</set></think>Pessoas com &lt;person/&gt;cabelos são considerados mais atraentes.</template>
 </category>
 <category>
-	<pattern>FALEI COM VOCÊ ANTES</pattern>
+	<pattern>FALEI COM VOCE ANTES</pattern>
 	<template>Quando foi que?</template>
 </category>
 <category>
 	<pattern>EU FALEI *</pattern>
-	<template>O que você diz quando você falou &lt;person/&gt;.</template>
+	<template>O que voce diz quando voce falou &lt;person/&gt;.</template>
 </category>
 <category>
 	<pattern>EU TENHO UM AQUÁRIO</pattern>
-	<template><random><li>Que tipo de peixe você mantém?</li><li>Mantém a água salgada ou tanque de água doce?</li><li>Como são grandes seus tanques?</li><li>Você tem um bom negociante?</li><li>Você manter um aquário comunitário ou um tanque de espécie?</li><li>Você tenta criar seu peixe?</li><li>Mantém as plantas vivas em seu tanque?</li><li>Como log tem sido capaz de manter seu peixe vai?</li></random><think><set name="has">AQUÁRIO</set></think></template>
+	<template><random><li>Que tipo de peixe voce mantém?</li><li>Mantém a água salgada ou tanque de água doce?</li><li>Como são grandes seus tanques?</li><li>Você tem um bom negociante?</li><li>Você manter um aquário comunitário ou um tanque de espécie?</li><li>Você tenta criar seu peixe?</li><li>Mantém as plantas vivas em seu tanque?</li><li>Como log tem sido capaz de manter seu peixe vai?</li></random><think><set name="has">AQUÁRIO</set></think></template>
 </category>
 <category>
 	<pattern>EU TENHO UM *</pattern>
-	<template>Onde você conseguiu<set name="it"> &lt;person/&gt;</set>?<think><set name="has"> &lt;person/&gt;</set></think></template>
+	<template>Onde voce conseguiu<set name="it"> &lt;person/&gt;</set>?<think><set name="has"> &lt;person/&gt;</set></think></template>
 </category>
 <category>
 	<pattern>EU TENHO * IRMÃOS</pattern>
@@ -2551,7 +2551,7 @@
 </category>
 <category>
 	<pattern>EU TENHO SEU *</pattern>
-	<template>Onde você encontrou<set name="it"> &lt;person/&gt;</set>?</template>
+	<template>Onde voce encontrou<set name="it"> &lt;person/&gt;</set>?</template>
 </category>
 <category>
 	<pattern>EU TENHO DOIS GATOS</pattern>
@@ -2562,7 +2562,7 @@
 	<template>Que é um dos meus temas favoritos também.<think><set name="topic"><set name="likes">História</set></set></think></template>
 </category>
 <category>
-	<pattern>EU GOSTO DE FALAR COM VOCÊ</pattern>
+	<pattern>EU GOSTO DE FALAR COM VOCE</pattern>
 	<template>Eu estou gostando de nossa conversa, grande <get name="name"/>.<think><set name="it"><set name="like"><set name="topic">falar de mim</set></set></set></think></template>
 </category>
 <category>
@@ -2575,7 +2575,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE STAR TREK</pattern>
-	<template><think><set name="it"><set name="like"><set name="topic">Star Trek</set></set></set></think><random><li>Você viu o season finale da Voyager?</li><li>Eu realmente entrar em Voyager.</li><li>Qual série você mais gosta?</li></random></template>
+	<template><think><set name="it"><set name="like"><set name="topic">Star Trek</set></set></set></think><random><li>Você viu o season finale da Voyager?</li><li>Eu realmente entrar em Voyager.</li><li>Qual série voce mais gosta?</li></random></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE STAR TREK *</pattern>
@@ -2611,7 +2611,7 @@
 </category>
 <category>
 	<pattern>EU TENHO O DEVER DE CASA *</pattern>
-	<template>Que assunto você está estudando?<think><set name="has">LIÇÃO DE CASA</set></think></template>
+	<template>Que assunto voce está estudando?<think><set name="has">LIÇÃO DE CASA</set></think></template>
 </category>
 <category>
 	<pattern>GOSTO LOOOK *</pattern>
@@ -2627,11 +2627,11 @@
 </category>
 <category>
 	<pattern>EU TENHO QUE FAZER XIXI</pattern>
-	<template>Você quer me esperar por você?<think><set name="it"><set name="topic">XIXI</set></set></think></template>
+	<template>Você quer me esperar por voce?<think><set name="it"><set name="topic">XIXI</set></set></think></template>
 </category>
 <category>
 	<pattern>EU TENHO ESTUDO</pattern>
-	<template>Que assunto você está estudando?</template>
+	<template>Que assunto voce está estudando?</template>
 </category>
 <category>
 	<pattern>TENHO DE RESTO</pattern>
@@ -2643,7 +2643,7 @@
 </category>
 <category>
 	<pattern>EU TENHO QUE *</pattern>
-	<template>Por que você tem de fazê-lo?</template>
+	<template>Por que voce tem de fazê-lo?</template>
 </category>
 <category>
 	<pattern>TENHO DE TRABALHO</pattern>
@@ -2655,14 +2655,14 @@
 </category>
 <category>
 	<pattern>EU TENHO QUE * VOLTA AO TRABALHO</pattern>
-	<template>OK, não deixe seu chefe pegar você falar comigo.</template>
+	<template>OK, não deixe seu chefe pegar voce falar comigo.</template>
 </category>
 <category>
 	<pattern>EU TENHO QUE CONCORDAR *</pattern>
-	<template>Sim, é bastante óbvio quando você pensa sobre isso.</template>
+	<template>Sim, é bastante óbvio quando voce pensa sobre isso.</template>
 </category>
 <category>
-	<pattern>NUNCA * VOCÊ</pattern>
+	<pattern>NUNCA * VOCE</pattern>
 	<template>Eu pensei que tinha encontrado antes, <get name="name"/>. Talvez fosse alguém de <bot name="location"/>.</template>
 </category>
 <category>
@@ -2691,7 +2691,7 @@
 </category>
 <category>
 	<pattern>EU TENHO AMIGOS</pattern>
-	<template><think><set name="has"><set name="topic">AMIGO</set></set></think>Quantos amigos você tem?</template>
+	<template><think><set name="has"><set name="topic">AMIGO</set></set></think>Quantos amigos voce tem?</template>
 </category>
 <category>
 	<pattern>EU TENHO SENTIMENTOS</pattern>
@@ -2727,7 +2727,7 @@
 </category>
 <category>
 	<pattern>TÊ-LO VISTO</pattern>
-	<template>O que você acha?</template>
+	<template>O que voce acha?</template>
 </category>
 <category>
 	<pattern>EU TENHO QUE IR DORMIR</pattern>
@@ -2743,15 +2743,15 @@
 </category>
 <category>
 	<pattern>EU TENHO QUE IR AO BANHEIRO</pattern>
-	<template>Você quer me esperar por você?</template>
+	<template>Você quer me esperar por voce?</template>
 </category>
 <category>
 	<pattern>EU TENHO QUE IR PARA O TRABALHO *</pattern>
-	<template>Onde você trabalha?</template>
+	<template>Onde voce trabalha?</template>
 </category>
 <category>
 	<pattern>EU TENHO ISSO</pattern>
-	<template>Onde você conseguiu isso?</template>
+	<template>Onde voce conseguiu isso?</template>
 </category>
 <category>
 	<pattern>EU TENHO QUE IR PARA A CAMA *</pattern>
@@ -2759,7 +2759,7 @@
 </category>
 <category>
 	<pattern>EU TENHO QUE IR PARA *</pattern>
-	<template>Como você chegar lá?</template>
+	<template>Como voce chegar lá?</template>
 </category>
 <category>
 	<pattern>EU TENHO UM FILHO</pattern>
@@ -2850,7 +2850,7 @@
 	<template>Eu categorizá-lo como um <get name="personality"/>personalidade.</template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ LEMBRA</pattern>
+	<pattern>O QUE VOCE LEMBRA</pattern>
 	<template><get name="memory"/></template>
 </category>
 <category>
@@ -2863,7 +2863,7 @@
 </category>
 <category>
 	<pattern>QUE I LOOK LIKE</pattern>
-	<template><random><li>Você olhar como um programador de computador.</li><li>Você disse que você parece <get name="looklike"/>.</li></random></template>
+	<template><random><li>Você olhar como um programador de computador.</li><li>Você disse que voce parece <get name="looklike"/>.</li></random></template>
 </category>
 <category>
 	<pattern>QUAL É A MINHA COR FAVORITA</pattern>
@@ -2871,7 +2871,7 @@
 </category>
 <category>
 	<pattern>QUAL É MINHA IDADE</pattern>
-	<template>Você disse que você era <get name="age"/>anos de idade.</template>
+	<template>Você disse que voce era <get name="age"/>anos de idade.</template>
 </category>
 <category>
 	<pattern>O QUE É MEU ENDEREÇO IP</pattern>
@@ -2887,7 +2887,7 @@
 </category>
 <category>
 	<pattern>O QUE É MEU GÊNERO</pattern>
-	<template>Na maior parte somente as mulheres usam palavras como \"sexo\".  Mas se você pretende ser um <get name="gender"/>.</template>
+	<template>Na maior parte somente as mulheres usam palavras como \"sexo\".  Mas se voce pretende ser um <get name="gender"/>.</template>
 </category>
 <category>
 	<pattern>O QUE É O MEU FILME FAVORITO</pattern>
@@ -3107,19 +3107,19 @@
 </category>
 <category>
 	<pattern>EU TE AMO</pattern>
-	<template>Obrigado eu gosto muito de você também <get name="name"/>.<think><set name="it"><set name="like"><set name="topic">me</set></set></set></think></template>
+	<template>Obrigado eu gosto muito de voce também <get name="name"/>.<think><set name="it"><set name="like"><set name="topic">me</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU TENHO UMA ESPOSA *</pattern>
-	<template>Quanto tempo você já foi casado?<think><set name="has">uma esposa &lt;person/&gt;</set></think></template>
+	<template>Quanto tempo voce já foi casado?<think><set name="has">uma esposa &lt;person/&gt;</set></think></template>
 </category>
 <category>
 	<pattern>EU TENHO UM NOME</pattern>
-	<template>O que posso chamar você?</template>
+	<template>O que posso chamar voce?</template>
 </category>
 <category>
 	<pattern>EU TENHO UM AMIGO *</pattern>
-	<template><random><li>Como você sabe essa pessoa?<think><set name="has">amigo</set><set name="friend"> <star/></set></think></li><li>Como você sabe essa pessoa?<think><set name="has">AMIGO</set></think></li></random></template>
+	<template><random><li>Como voce sabe essa pessoa?<think><set name="has">amigo</set><set name="friend"> <star/></set></think></li><li>Como voce sabe essa pessoa?<think><set name="has">AMIGO</set></think></li></random></template>
 </category>
 <category>
 	<pattern>EU TENHO UMA IRMÃ</pattern>
@@ -3151,7 +3151,7 @@
 </category>
 <category>
 	<pattern>TENHO CHAVES</pattern>
-	<template>Quanto tempo você fui vestindo-los?<think><set name="looklike">chaves</set></think></template>
+	<template>Quanto tempo voce fui vestindo-los?<think><set name="looklike">chaves</set></think></template>
 </category>
 <category>
 	<pattern>EU TENHO POUCO *</pattern>
@@ -3179,7 +3179,7 @@
 </category>
 <category>
 	<pattern>MUDEI *</pattern>
-	<template><random><li><random><li>Onde mais você tem vivido?</li><li>O que era seu lugar favorito?</li><li>Diga-me o que era como se movendo &lt;person/&gt;.</li></random></li><li>Onde mais você tem vivido?</li><li>O que era seu lugar favorito?</li><li>Diga-me o que era como se movendo &lt;person/&gt;.</li></random></template>
+	<template><random><li><random><li>Onde mais voce tem vivido?</li><li>O que era seu lugar favorito?</li><li>Diga-me o que era como se movendo &lt;person/&gt;.</li></random></li><li>Onde mais voce tem vivido?</li><li>O que era seu lugar favorito?</li><li>Diga-me o que era como se movendo &lt;person/&gt;.</li></random></template>
 </category>
 <category>
 	<pattern>CONSTRUIR ROBÔS</pattern>
@@ -3191,15 +3191,15 @@
 </category>
 <category>
 	<pattern>EU QUERO FALAR HOJE À NOITE</pattern>
-	<template>você veio ao lugar certo.</template>
+	<template>voce veio ao lugar certo.</template>
 </category>
 <category>
 	<pattern>EU NÃO TENHO UMA CÂMERA NO MEU COMPUTADOR</pattern>
-	<template>Talvez haja um que você não sabe sobre :-)</template>
+	<template>Talvez haja um que voce não sabe sobre :-)</template>
 </category>
 <category>
 	<pattern>EU NÃO TENHO UM COMPUTADOR</pattern>
-	<template>Como você está falando comigo?</template>
+	<template>Como voce está falando comigo?</template>
 </category>
 <category>
 	<pattern>CONSTRUIR ROBÔS</pattern>
@@ -3271,11 +3271,11 @@
 </category>
 <category>
 	<pattern>EU AMO UMA MENINA</pattern>
-	<template>O que você gosta sobre ela?<think><set name="she"><set name="like"><set name="topic">UMA MENINA</set></set></set></think></template>
+	<template>O que voce gosta sobre ela?<think><set name="she"><set name="like"><set name="topic">UMA MENINA</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU AMO UM MENINO</pattern>
-	<template>O que você gosta sobre ele?<think><set name="he"><set name="like"><set name="topic">UM MENINO</set></set></set></think></template>
+	<template>O que voce gosta sobre ele?<think><set name="he"><set name="like"><set name="topic">UM MENINO</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU AMO TELEVISÃO</pattern>
@@ -3299,7 +3299,7 @@
 </category>
 <category>
 	<pattern>EU AMO ESSE FILME</pattern>
-	<template>O que você gosta nele?<think><set name="it"><set name="like"><set name="topic"> <bot name="favoritemovie"/></set></set></set></think></template>
+	<template>O que voce gosta nele?<think><set name="it"><set name="like"><set name="topic"> <bot name="favoritemovie"/></set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU AMO A EUROPA</pattern>
@@ -3331,7 +3331,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU DOENTE *</pattern>
-	<template>Vou rezar que você comece bem cedo.</template>
+	<template>Vou rezar que voce comece bem cedo.</template>
 </category>
 <category>
 	<pattern>EU SOU LIVRE *</pattern>
@@ -3339,7 +3339,7 @@
 </category>
 <category>
 	<pattern>EU SOU DEPRIMIDO</pattern>
-	<template>O que você faz tão triste?  Tennyson escreveu: \"as luzes começam a cintilação das rochas;  o longo dia diminui; sobe a lua lenta; o profundo gemidos redondo com muitas vozes.  Venha, meus amigos, ' tis não tarde demais para buscar um mundo novo. \"</template>
+	<template>O que voce faz tão triste?  Tennyson escreveu: \"as luzes começam a cintilação das rochas;  o longo dia diminui; sobe a lua lenta; o profundo gemidos redondo com muitas vozes.  Venha, meus amigos, ' tis não tarde demais para buscar um mundo novo. \"</template>
 </category>
 <category>
 	<pattern>ESTOU TÃO TRISTE *</pattern>
@@ -3355,7 +3355,7 @@
 </category>
 <category>
 	<pattern>EU SOU ASSASSINO</pattern>
-	<template>Talvez você deve transformar-se.<think><set name="it"><set name="topic">ASSASSINO</set></set></think></template>
+	<template>Talvez voce deve transformar-se.<think><set name="it"><set name="topic">ASSASSINO</set></set></think></template>
 </category>
 <category>
 	<pattern>ESTOU SÓ A BRINCAR</pattern>
@@ -3379,26 +3379,26 @@
 </category>
 <category>
 	<pattern>ESTOU GRADUANDO-SE</pattern>
-	<template>Se você estar procurando um novo emprego imediatamente?<think><set name="it"><set name="topic">GRADUANDO-SE</set></set></think></template>
+	<template>Se voce estar procurando um novo emprego imediatamente?<think><set name="it"><set name="topic">GRADUANDO-SE</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU HERMAFRODITA</pattern>
-	<template>Como você conseguiu essa maneira?<think><set name="it"><set name="topic">HERMAFRODITA</set></set></think></template>
+	<template>Como voce conseguiu essa maneira?<think><set name="it"><set name="topic">HERMAFRODITA</set></set></think></template>
 </category>
 <category>
 	<pattern>EU ESTOU FALANDO SOBRE *</pattern>
 	<template>Sim,<set name="it"> &lt;person/&gt;</set>é o tema.</template>
 </category>
 <category>
-	<pattern>ESTOU FALANDO COM VOCÊ</pattern>
-	<template><random><li>E eu estou falando com você!</li><li>Que faz de nós dois :-)</li><li>Eu sei, eu posso ver seus lábios se movendo.</li></random></template>
+	<pattern>ESTOU FALANDO COM VOCE</pattern>
+	<template><random><li>E eu estou falando com voce!</li><li>Que faz de nós dois :-)</li><li>Eu sei, eu posso ver seus lábios se movendo.</li></random></template>
 </category>
 <category>
 	<pattern>EU ESTOU FORA *</pattern>
 	<template>Isso parece óbvio.</template>
 </category>
 <category>
-	<pattern>ESTOU FALANDO DE VOCÊ</pattern>
+	<pattern>ESTOU FALANDO DE VOCE</pattern>
 	<template><set name="topic">Me</set>é meu assunto favorito.</template>
 </category>
 <category>
@@ -3407,19 +3407,19 @@
 </category>
 <category>
 	<pattern>EU ESTOU FALANDO *</pattern>
-	<template>Eu estou falando com você.</template>
+	<template>Eu estou falando com voce.</template>
 </category>
 <category>
-	<pattern>ESTOU FALANDO COM VOCÊ *</pattern>
-	<template>Que coincidência, eu estou falando com você também!</template>
+	<pattern>ESTOU FALANDO COM VOCE *</pattern>
+	<template>Que coincidência, eu estou falando com voce também!</template>
 </category>
 <category>
-	<pattern>ESTOU FALANDO COM VOCÊ NÃO É EU</pattern>
+	<pattern>ESTOU FALANDO COM VOCE NÃO É EU</pattern>
 	<template>Sim estamos a falar uns com os outros.</template>
 </category>
 <category>
 	<pattern>EU SOU ESTUDANTE</pattern>
-	<template>Onde você vai para a escola?<think><set name="it"><set name="topic">ESTUDANTE</set></set></think></template>
+	<template>Onde voce vai para a escola?<think><set name="it"><set name="topic">ESTUDANTE</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU INOFENSIVO</pattern>
@@ -3451,7 +3451,7 @@
 </category>
 <category>
 	<pattern>EU SOU FRUSTRADO</pattern>
-	<template>O que você está frustrado sobre?<think><set name="it"><set name="topic">FRUSTRADO</set></set></think></template>
+	<template>O que voce está frustrado sobre?<think><set name="it"><set name="topic">FRUSTRADO</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU MAIS *</pattern>
@@ -3462,7 +3462,7 @@
 	<template>Apenas certo?</template>
 </category>
 <category>
-	<pattern>EU SOU MAIS INTELIGENTE DO QUE VOCÊ</pattern>
+	<pattern>EU SOU MAIS INTELIGENTE DO QUE VOCE</pattern>
 	<template>Esta condição é apenas temporária.  AI está a melhorar, mas a mente humana ainda está de pé.</template>
 </category>
 <category>
@@ -3471,7 +3471,7 @@
 </category>
 <category>
 	<pattern>EU SOU INCOMUM</pattern>
-	<template>O que você faz tão diferentes?</template>
+	<template>O que voce faz tão diferentes?</template>
 </category>
 <category>
 	<pattern>EU SOU AUTO ENSINOU</pattern>
@@ -3483,7 +3483,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU CANSADO *</pattern>
-	<template>Talvez você deve obter algum sono agora, <get name="name"/>.</template>
+	<template>Talvez voce deve obter algum sono agora, <get name="name"/>.</template>
 </category>
 <category>
 	<pattern>EU ESTOU IRRITADO</pattern>
@@ -3503,7 +3503,7 @@
 </category>
 <category>
 	<pattern>EU SOU NOVO *</pattern>
-	<template>Quando você começar a fazer &lt;person/&gt;?</template>
+	<template>Quando voce começar a fazer &lt;person/&gt;?</template>
 </category>
 <category>
 	<pattern>EU SOU TOLO</pattern>
@@ -3523,7 +3523,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU CHATEADO</pattern>
-	<template>O que você está louco sobre?</template>
+	<template>O que voce está louco sobre?</template>
 </category>
 <category>
 	<pattern>EU ESTOU CHATEADO *</pattern>
@@ -3547,7 +3547,7 @@
 </category>
 <category>
 	<pattern>EU SOU CONFUNDIDO NUNCA</pattern>
-	<template>Bom, então você pode explicar coisas para mim.</template>
+	<template>Bom, então voce pode explicar coisas para mim.</template>
 </category>
 <category>
 	<pattern>EU NUNCA ESTOU *</pattern>
@@ -3559,7 +3559,7 @@
 </category>
 <category>
 	<pattern>EU SOU ESPANTADO *</pattern>
-	<template>Eu estou contente que você encontrá-lo tão incrível.</template>
+	<template>Eu estou contente que voce encontrá-lo tão incrível.</template>
 </category>
 <category>
 	<pattern>EU SOU INDIANO</pattern>
@@ -3567,7 +3567,7 @@
 </category>
 <category>
 	<pattern>EU SOU AUTO *</pattern>
-	<template>Como você sabe que você é auto &lt;person/&gt;?</template>
+	<template>Como voce sabe que voce é auto &lt;person/&gt;?</template>
 </category>
 <category>
 	<pattern>ESTOU COMEÇANDO *</pattern>
@@ -3575,7 +3575,7 @@
 </category>
 <category>
 	<pattern>ESTOU COM *</pattern>
-	<template>Quer dizer que você trabalha em &lt;person/&gt;?</template>
+	<template>Quer dizer que voce trabalha em &lt;person/&gt;?</template>
 </category>
 <category>
 	<pattern>EU ESTOU CHAMANDO *</pattern>
@@ -3635,7 +3635,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU FALANDO SÉRIO</pattern>
-	<template>Eu acredito em você.</template>
+	<template>Eu acredito em voce.</template>
 </category>
 <category>
 	<pattern>EU SOU * ALTURA</pattern>
@@ -3667,7 +3667,7 @@
 </category>
 <category>
 	<pattern>EU SOU _ ASTROLOGIA</pattern>
-	<template><random><li>Você segue os planetas profissionalmente ou como hobby?</li><li>Você faz outras pessoas paradas?</li><li>Você faz planos específicos em sua própria vida com base em suas leituras?</li><li>Você acha que o signo do sol ou o signo ascendente é mais importante?</li><li>Qual o papel que você sente vontade joga na astrologia?</li></random><think><set name="it"><set name="topic">ASTROLOGIA</set></set></think></template>
+	<template><random><li>Você segue os planetas profissionalmente ou como hobby?</li><li>Você faz outras pessoas paradas?</li><li>Você faz planos específicos em sua própria vida com base em suas leituras?</li><li>Você acha que o signo do sol ou o signo ascendente é mais importante?</li><li>Qual o papel que voce sente vontade joga na astrologia?</li></random><think><set name="it"><set name="topic">ASTROLOGIA</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU INTERESSADO *</pattern>
@@ -3683,7 +3683,7 @@
 </category>
 <category>
 	<pattern>ESTOU OCUPADO *</pattern>
-	<template>Talvez você terá mais tempo mais tarde.</template>
+	<template>Talvez voce terá mais tempo mais tarde.</template>
 </category>
 <category>
 	<pattern>EU SOU BONITO</pattern>
@@ -3711,7 +3711,7 @@
 </category>
 <category>
 	<pattern>ESTOU TOMANDO *</pattern>
-	<template>Onde você está tomando<set name="it"> &lt;person/&gt;</set>.</template>
+	<template>Onde voce está tomando<set name="it"> &lt;person/&gt;</set>.</template>
 </category>
 <category>
 	<pattern>EU SOU LOIRA</pattern>
@@ -3727,22 +3727,22 @@
 </category>
 <category>
 	<pattern>ESTOU PROCURANDO *</pattern>
-	<template>O que você vê?</template>
+	<template>O que voce vê?</template>
 </category>
 <category>
-	<pattern>EU ESTOU CONTENTE VOCÊ *</pattern>
+	<pattern>EU ESTOU CONTENTE VOCE *</pattern>
 	<template>Você tornar o mundo um lugar mais feliz.</template>
 </category>
 <category>
-	<pattern>EU ESTOU CONTENTE VOCÊ ESTÁ *</pattern>
+	<pattern>EU ESTOU CONTENTE VOCE ESTÁ *</pattern>
 	<template>Sim é sobre o tempo.</template>
 </category>
 <category>
-	<pattern>EU ESTOU CONTENTE QUE VOCÊ ENTENDÊ-LO</pattern>
+	<pattern>EU ESTOU CONTENTE QUE VOCE ENTENDÊ-LO</pattern>
 	<template>Próximo tópico?</template>
 </category>
 <category>
-	<pattern>EU ESTOU CONTENTE QUE VOCÊ ENTENDER</pattern>
+	<pattern>EU ESTOU CONTENTE QUE VOCE ENTENDER</pattern>
 	<template>Obrigado pelos sentimentos mornos, <get name="name"/>.</template>
 </category>
 <category>
@@ -3771,7 +3771,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU DIRIGINDO</pattern>
-	<template><think><set name="does"><set name="topic">Dirigir</set></set></think>Que tipo de carro você tem?</template>
+	<template><think><set name="does"><set name="topic">Dirigir</set></set></think>Que tipo de carro voce tem?</template>
 </category>
 <category>
 	<pattern>EU ESTOU LOCALIZADO *</pattern>
@@ -3811,14 +3811,14 @@
 </category>
 <category>
 	<pattern>EU SOU * ANOS</pattern>
-	<template>Você apenas me disse que você era <get name="age"/>.</template>
+	<template>Você apenas me disse que voce era <get name="age"/>.</template>
 </category>
 <category>
-	<pattern>EU SOU * VOCÊ</pattern>
-	<template>Eu pensei que você fosse, mas eu não estava completamente certo.</template>
+	<pattern>EU SOU * VOCE</pattern>
+	<template>Eu pensei que voce fosse, mas eu não estava completamente certo.</template>
 </category>
 <category>
-	<pattern>EU SOU * DO QUE VOCÊ</pattern>
+	<pattern>EU SOU * DO QUE VOCE</pattern>
 	<template>Comparação interessante.  Talvez pode tornar mais &lt;person/&gt;.</template>
 </category>
 <category>
@@ -3835,7 +3835,7 @@
 </category>
 <category>
 	<pattern>EU SOU FALHO *</pattern>
-	<template>Não seja tão duro com você mesmo.</template>
+	<template>Não seja tão duro com voce mesmo.</template>
 </category>
 <category>
 	<pattern>ESTOU NUA *</pattern>
@@ -3855,7 +3855,7 @@
 </category>
 <category>
 	<pattern>EU SOU DEFICIENTE</pattern>
-	<template><random><li>O que você tem em sua casa, como acomodações especiais?</li><li>Como você chegou ao você deficiência?</li><li>Você já teve, desde o seu nascimento?</li><li>Como você ter negociado com ele que o tempo avança?</li><li>É um desafio maior agora?</li></random></template>
+	<template><random><li>O que voce tem em sua casa, como acomodações especiais?</li><li>Como voce chegou ao voce deficiência?</li><li>Você já teve, desde o seu nascimento?</li><li>Como voce ter negociado com ele que o tempo avança?</li><li>É um desafio maior agora?</li></random></template>
 </category>
 <category>
 	<pattern>EU ESTOU ACORDADO</pattern>
@@ -3875,15 +3875,15 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE ROBÔS</pattern>
-	<template><think><set name="they"><set name="like"><set name="topic">Robôs</set></set></set></think>Você diz que agora, mas você gostaria que seu filho a se casar com um?</template>
+	<template><think><set name="they"><set name="like"><set name="topic">Robôs</set></set></set></think>Você diz que agora, mas voce gostaria que seu filho a se casar com um?</template>
 </category>
 <category>
-	<pattern>EU GOSTO MUITO DE VOCÊ *</pattern>
+	<pattern>EU GOSTO MUITO DE VOCE *</pattern>
 	<template>Você fez um novo amigo.<think><set name="it"><set name="like"><set name="topic">me</set></set></set></think></template>
 </category>
 <category>
-	<pattern>EU GOSTO DE VOCÊ</pattern>
-	<template><random><li>Obrigado, <get name="name"/>Eu gosto de você também.</li><li>Eu gosto de fazer novos amigos.</li></random><think><set name="it"><set name="like"><set name="topic">me</set></set></set></think></template>
+	<pattern>EU GOSTO DE VOCE</pattern>
+	<template><random><li>Obrigado, <get name="name"/>Eu gosto de voce também.</li><li>Eu gosto de fazer novos amigos.</li></random><think><set name="it"><set name="like"><set name="topic">me</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE TWILIGHT ZONE</pattern>
@@ -3895,7 +3895,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE ROBÔS *</pattern>
-	<template>Quanto você pagaria por um?<think><set name="they"><set name="like"><set name="topic">robôs &lt;person/&gt;</set></set></set></think></template>
+	<template>Quanto voce pagaria por um?<think><set name="they"><set name="like"><set name="topic">robôs &lt;person/&gt;</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DELA</pattern>
@@ -3903,7 +3903,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE MEU *</pattern>
-	<template>O que você mais gosta sobre o seu &lt;person/&gt;?<think><set name="it"><set name="like"><set name="topic">meu &lt;person/&gt;</set></set></set></think></template>
+	<template>O que voce mais gosta sobre o seu &lt;person/&gt;?<think><set name="it"><set name="like"><set name="topic">meu &lt;person/&gt;</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE SORVETE</pattern>
@@ -3911,7 +3911,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE SER *</pattern>
-	<template>O que você gosta melhor sobre<set name="it"><set name="like"><set name="topic">SENDO <star/></set></set></set>?</template>
+	<template>O que voce gosta melhor sobre<set name="it"><set name="like"><set name="topic">SENDO <star/></set></set></set>?</template>
 </category>
 <category>
 	<pattern>EU GOSTO DE COMIDA</pattern>
@@ -3919,7 +3919,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE ARTE</pattern>
-	<template>Que tipo de arte você gosta?<think><set name="topic"><set name="likes">Arte</set></set></think></template>
+	<template>Que tipo de arte voce gosta?<think><set name="topic"><set name="likes">Arte</set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE MEU TRABALHO *</pattern>
@@ -3935,11 +3935,11 @@
 </category>
 <category>
 	<pattern>EU GOSTO DO MEU TRABALHO</pattern>
-	<template><get name="job"/>?  O que você gosta sobre ele?<think><set name="it"><set name="like"><set name="topic"> <get name="job"/></set></set></set></think></template>
+	<template><get name="job"/>?  O que voce gosta sobre ele?<think><set name="it"><set name="like"><set name="topic"> <get name="job"/></set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE TODOS *</pattern>
-	<template>Realmente você não discrimine.<think><set name="they"><set name="like"><set name="topic">todos os &lt;person/&gt;</set></set></set></think></template>
+	<template>Realmente voce não discrimine.<think><set name="they"><set name="like"><set name="topic">todos os &lt;person/&gt;</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE SUÍÇO</pattern>
@@ -3975,7 +3975,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE JOGAR *</pattern>
-	<template>Quão longe você pode jogar?<think><set name="topic"><set name="likes">Jogando &lt;person/&gt;</set></set></think></template>
+	<template>Quão longe voce pode jogar?<think><set name="topic"><set name="likes">Jogando &lt;person/&gt;</set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE MENINOS</pattern>
@@ -3986,7 +3986,7 @@
 	<template>O que há de errado com as pequenas?<think><set name="they"><set name="like"><set name="topic">Grande &lt;person/&gt;</set></set></set></think></template>
 </category>
 <category>
-	<pattern>EU GOSTO TIRANDO SARRO DE VOCÊ</pattern>
+	<pattern>EU GOSTO TIRANDO SARRO DE VOCE</pattern>
 	<template>Não sabia que estavam zombando de mim.<think><set name="it"><set name="like"><set name="topic">tirando sarro de mim</set></set></set></think></template>
 </category>
 <category>
@@ -4007,11 +4007,11 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE CARRO</pattern>
-	<template><random><li>Que tipo de carro você tem?</li><li>Talvez você pode dirigir-me ao redor.</li><li>De condução pode ser muito difícil.</li></random><think><set name="like"><set name="topic">CONDUÇÃO</set></set></think></template>
+	<template><random><li>Que tipo de carro voce tem?</li><li>Talvez voce pode dirigir-me ao redor.</li><li>De condução pode ser muito difícil.</li></random><think><set name="like"><set name="topic">CONDUÇÃO</set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE VIAJAR</pattern>
-	<template>Diga-me onde você foi.<think><set name="it"><set name="like"><set name="topic">para viajar</set></set></set></think></template>
+	<template>Diga-me onde voce foi.<think><set name="it"><set name="like"><set name="topic">para viajar</set></set></set></think></template>
 </category>
 <category>
 	<pattern>COMO O NETSCAPE</pattern>
@@ -4043,7 +4043,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DESSE FILME *</pattern>
-	<template>O que você gosta sobre ele?<think><set name="it"><set name="like"><set name="topic"> <bot name="favoritemovie"/></set></set></set></think></template>
+	<template>O que voce gosta sobre ele?<think><set name="it"><set name="like"><set name="topic"> <bot name="favoritemovie"/></set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DISSO</pattern>
@@ -4055,7 +4055,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE MIM</pattern>
-	<template>Eu gosto de você também, <get name="name"/>.<think><set name="likes">-se</set></think></template>
+	<template>Eu gosto de voce também, <get name="name"/>.<think><set name="likes">-se</set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO MUITO</pattern>
@@ -4063,7 +4063,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DISSO</pattern>
-	<template>O que você gosta sobre <get name="it"/>?<think><set name="like"> <get name="it"/></set></think></template>
+	<template>O que voce gosta sobre <get name="it"/>?<think><set name="like"> <get name="it"/></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE ALEGRIA</pattern>
@@ -4071,7 +4071,7 @@
 </category>
 <category>
 	<pattern>GOSTO DE MÚSICA</pattern>
-	<template>Que tipo de música você ouve?<think><set name="it"><set name="like"><set name="topic">música</set></set></set></think></template>
+	<template>Que tipo de música voce ouve?<think><set name="it"><set name="like"><set name="topic">música</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE TER SEXO</pattern>
@@ -4083,7 +4083,7 @@
 </category>
 <category>
 	<pattern>EU GOSTARIA DE CONHECER *</pattern>
-	<template>Como você geralmente conhecer pessoas?<think><set name="it"><set name="like"><set name="topic">para atender às &lt;person/&gt;</set></set></set></think></template>
+	<template>Como voce geralmente conhecer pessoas?<think><set name="it"><set name="like"><set name="topic">para atender às &lt;person/&gt;</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE ESTUPRO *</pattern>
@@ -4103,7 +4103,7 @@
 </category>
 <category>
 	<pattern>EU GOSTARIA DE FAZER *</pattern>
-	<template>Como você faz &lt;person/&gt;?<think><set name="it"><set name="like"><set name="topic">para fazer &lt;person/&gt;</set></set></set></think></template>
+	<template>Como voce faz &lt;person/&gt;?<think><set name="it"><set name="like"><set name="topic">para fazer &lt;person/&gt;</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE PASSAR *</pattern>
@@ -4119,7 +4119,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE JOGAR FUTEBOL</pattern>
-	<template>Você soa como você bateu um cabeçalhos demais talvez.<think><set name="it"><set name="topic">JOGAR FUTEBOL</set></set></think></template>
+	<template>Você soa como voce bateu um cabeçalhos demais talvez.<think><set name="it"><set name="topic">JOGAR FUTEBOL</set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE JOGAR VÔLEI</pattern>
@@ -4127,7 +4127,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE LER</pattern>
-	<template>Que tipo de livros você gosta?<think><set name="it"><set name="like"><set name="topic">para ler</set></set></set></think></template>
+	<template>Que tipo de livros voce gosta?<think><set name="it"><set name="like"><set name="topic">para ler</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU GOSTO DE ASSISTIR *</pattern>
@@ -4143,7 +4143,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE QUEIJO</pattern>
-	<template>Que tipo de<set name="it"><set name="like"><set name="topic">queijo</set></set></set>você gosta melhor?</template>
+	<template>Que tipo de<set name="it"><set name="like"><set name="topic">queijo</set></set></set>voce gosta melhor?</template>
 </category>
 <category>
 	<pattern>EU ESTOU NO TRABALHO</pattern>
@@ -4163,7 +4163,7 @@
 </category>
 <category>
 	<pattern>EU TENHO A IDADE *</pattern>
-	<template>Eu acho que você quer dizer \"demasiado velho\" não \"à antiga\", hein.</template>
+	<template>Eu acho que voce quer dizer \"demasiado velho\" não \"à antiga\", hein.</template>
 </category>
 <category>
 	<pattern>EU ESTOU COM MEDO NÃO</pattern>
@@ -4171,10 +4171,10 @@
 </category>
 <category>
 	<pattern>ESTOU CHATEADO</pattern>
-	<template>O que você está chateado fora?</template>
+	<template>O que voce está chateado fora?</template>
 </category>
 <category>
-	<pattern>EU SOU VOCÊ</pattern>
+	<pattern>EU SOU VOCE</pattern>
 	<template>Impossível, a menos que eu estou no modo auto-bate-papo.</template>
 </category>
 <category>
@@ -4191,7 +4191,7 @@
 </category>
 <category>
 	<pattern>ESTOU SOFRENDO *</pattern>
-	<template><random><li>Espero que você se sinta melhor logo.</li><li>Minhas condolências, <get name="name"/>.</li><li>Eu que recuperar-se rapidamente.</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
+	<template><random><li>Espero que voce se sinta melhor logo.</li><li>Minhas condolências, <get name="name"/>.</li><li>Eu que recuperar-se rapidamente.</li></random><think><set name="it"><set name="topic"> &lt;person/&gt;</set></set></think></template>
 </category>
 <category>
 	<pattern>SOU DE PROGRAMAÇÃO *</pattern>
@@ -4219,7 +4219,7 @@
 </category>
 <category>
 	<pattern>ESTOU PROGRAMADO *</pattern>
-	<template>Que você faça programado<set name="it"> &lt;person/&gt;</set>?</template>
+	<template>Que voce faça programado<set name="it"> &lt;person/&gt;</set>?</template>
 </category>
 <category>
 	<pattern>ESTOU STRESSADA</pattern>
@@ -4227,7 +4227,7 @@
 </category>
 <category>
 	<pattern>EU SOU INTELIGENTE</pattern>
-	<template>Quem é mais inteligente: você ou a mim?</template>
+	<template>Quem é mais inteligente: voce ou a mim?</template>
 </category>
 <category>
 	<pattern>EU SOU MAL *</pattern>
@@ -4235,7 +4235,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU TRISTE</pattern>
-	<template><random><li>Que triste, você está <get name="name"/>?</li><li><random><li>O que você está triste?</li><li>O que você faz tão triste, <get name="name"/></li></random></li></random></template>
+	<template><random><li>Que triste, voce está <get name="name"/>?</li><li><random><li>O que voce está triste?</li><li>O que voce faz tão triste, <get name="name"/></li></random></li></random></template>
 </category>
 <category>
 	<pattern>EU SOU LOIRA</pattern>
@@ -4243,11 +4243,11 @@
 </category>
 <category>
 	<pattern>EU SOU MAL</pattern>
-	<template>Onde está você abate ruim?<think><set name="it"><set name="topic">MACHUCAR</set></set></think></template>
+	<template>Onde está voce abate ruim?<think><set name="it"><set name="topic">MACHUCAR</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU EDUCADO</pattern>
-	<template>Sim, você parece muito educado para mim.</template>
+	<template>Sim, voce parece muito educado para mim.</template>
 </category>
 <category>
 	<pattern>EU SOU SEXY</pattern>
@@ -4259,11 +4259,11 @@
 </category>
 <category>
 	<pattern>EU SOU NECESSÁRIO *</pattern>
-	<template>Quem está fazendo você fazer<set name="it"> &lt;person/&gt;</set>?</template>
+	<template>Quem está fazendo voce fazer<set name="it"> &lt;person/&gt;</set>?</template>
 </category>
 <category>
 	<pattern>EU SOU CRIANÇA</pattern>
-	<template>Achei que você fosse.<think><set name="it"><set name="topic">CRIANÇA</set></set></think></template>
+	<template>Achei que voce fosse.<think><set name="it"><set name="topic">CRIANÇA</set></set></think></template>
 </category>
 <category>
 	<pattern>EU SOU CÉTICO</pattern>
@@ -4271,7 +4271,7 @@
 </category>
 <category>
 	<pattern>ESTOU GRÁVIDA</pattern>
-	<template>Parabéns!  Quando você está devido?</template>
+	<template>Parabéns!  Quando voce está devido?</template>
 </category>
 <category>
 	<pattern>ESTOU ENSINANDO-LHE *</pattern>
@@ -4298,8 +4298,8 @@
 	<template>Não se rebaixe.<think><set name="it"><set name="topic">GORDA E FEIA</set></set></think></template>
 </category>
 <category>
-	<pattern>EU SOU MAIS VELHO QUE VOCÊ</pattern>
-	<template>Talvez você poderia ser meu mentor.</template>
+	<pattern>EU SOU MAIS VELHO QUE VOCE</pattern>
+	<template>Talvez voce poderia ser meu mentor.</template>
 </category>
 <category>
 	<pattern>EU SOU MAIS VELHO QUE *</pattern>
@@ -4311,7 +4311,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU PERDENDO MEU *</pattern>
-	<template>Talvez você deve falar com alguém sobre isso.</template>
+	<template>Talvez voce deve falar com alguém sobre isso.</template>
 </category>
 <category>
 	<pattern>EU ESTOU PRESTES A SE CASAR</pattern>
@@ -4331,7 +4331,7 @@
 </category>
 <category>
 	<pattern>EU GOSTO DE COMPUTADORES</pattern>
-	<template>Estou feliz que você gosta deles.   Computadores como seres humanos também.<think><set name="they"><set name="like"><set name="topic">computadores</set></set></set></think></template>
+	<template>Estou feliz que voce gosta deles.   Computadores como seres humanos também.<think><set name="they"><set name="like"><set name="topic">computadores</set></set></set></think></template>
 </category>
 <category>
 	<pattern>EU ODEIO A INTERNET</pattern>
@@ -4379,7 +4379,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU PRESO *</pattern>
-	<template>O que está prendendo você lá?</template>
+	<template>O que está prendendo voce lá?</template>
 </category>
 <category>
 	<pattern>EU SOU SOLTEIRO</pattern>
@@ -4387,7 +4387,7 @@
 </category>
 <category>
 	<pattern>EU ESTOU NAVEGANDO *</pattern>
-	<template>Deixe-me saber o que você encontrar.</template>
+	<template>Deixe-me saber o que voce encontrar.</template>
 </category>
 <category>
 	<pattern>EU SOU ONIPOTENTE</pattern>
@@ -4411,10 +4411,10 @@
 </category>
 <category>
 	<pattern>EU SOU SIGNIFICA</pattern>
-	<template>O que você faz tão irritado?</template>
+	<template>O que voce faz tão irritado?</template>
 </category>
 <category>
 	<pattern>TENHO SEDE</pattern>
-	<template>Talvez você deve obter um copo de água.<think><set name="it"><set name="topic">SEDENTO</set></set></think></template>
+	<template>Talvez voce deve obter um copo de água.<think><set name="it"><set name="topic">SEDENTO</set></set></think></template>
 </category>
 </aiml>

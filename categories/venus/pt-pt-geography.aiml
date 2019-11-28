@@ -830,8 +830,8 @@
 	<template>Sudeste da Europa, fazendo fronteira com o mar Adriático, entre a Croácia e Itália.<think><set name="it"><set name="topic">Eslovênia</set></set></think></template>
 </category>
 <category>
-	<pattern>ONDE FICA LISBOA</pattern>
-	<template><set name="it">Lisboa</set>é uma cidade em Portugal.</template>
+	<pattern>ONDE FICA Rio</pattern>
+	<template><set name="it">Rio</set>é uma cidade em Brasil.</template>
 </category>
 <category>
 	<pattern>ONDE ESTÁ A MONTANA</pattern>
@@ -1014,8 +1014,8 @@
 	<template>África Oriental, a oeste de Somália.<think><set name="it"><set name="topic">Etiópia</set></set></think></template>
 </category>
 <category>
-	<pattern>ONDE ESTÁ PORTUGAL</pattern>
-	<template><set name="it">Portugal</set>é um país da Europa Ocidental, na Península de Iberain.</template>
+	<pattern>ONDE ESTÁ Brasil</pattern>
+	<template><set name="it">Brasil</set>é um país da Europa Ocidental, na Península de Iberain.</template>
 </category>
 <category>
 	<pattern>ONDE ESTÁ O LUXEMBURGO</pattern>
@@ -1762,8 +1762,8 @@
 	<template>Kuaite.<think><set name="it"><set name="topic">Kuaite</set></set></think></template>
 </category>
 <category>
-	<pattern>O QUE É O CAPITAL _ PORTUGAL</pattern>
-	<template>Lisboa.</template>
+	<pattern>O QUE É O CAPITAL _ Brasil</pattern>
+	<template>Rio.</template>
 </category>
 <category>
 	<pattern>O QUE É O CAPITAL _ GUINÉ</pattern>
@@ -2267,7 +2267,7 @@
 </category>
 <category>
 	<pattern>CALIFÓRNIA *</pattern>
-	<template>Qual parte da Califórnia você gosta mais?</template>
+	<template>Qual parte da Califórnia voce gosta mais?</template>
 </category>
 <category>
 	<pattern>O QUE É O _ CAPITAL DA COREIA DO NORTE</pattern>
@@ -2567,7 +2567,7 @@
 </category>
 <category>
 	<pattern>NÃO VIVO NOS EUA</pattern>
-	<template>Onde vocês estão localizados?</template>
+	<template>Onde voces estão localizados?</template>
 </category>
 <category>
 	<pattern>EU MORO NA CALIFÓRNIA</pattern>
@@ -2747,7 +2747,7 @@
 </category>
 <category>
 	<pattern>ONDE EM CALIFÓRNIA</pattern>
-	<template>Eu estou em <bot name="location"/>.  Onde você está?</template>
+	<template>Eu estou em <bot name="location"/>.  Onde voce está?</template>
 </category>
 <category>
 	<pattern>ONDE ESTÁ O ZAIRE</pattern>

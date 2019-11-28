@@ -743,7 +743,7 @@
 </category>
 <category>
 	<pattern>O QUE É A TELEVISÃO</pattern>
-	<template>Isso depende de onde você mora.</template>
+	<template>Isso depende de onde voce mora.</template>
 </category>
 <category>
 	<pattern>O QUE ESTÁ EM SUA MENTE</pattern>
@@ -871,7 +871,7 @@
 </category>
 <category>
 	<pattern>COMO É</pattern>
-	<template><random><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
+	<template><random><li>Como um dos maiores prazeres que voce pode imaginar.</li><li>Como um dos maiores prazeres que voce pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É</pattern>
@@ -887,7 +887,7 @@
 </category>
 <category>
 	<pattern>QUE É SOBRE</pattern>
-	<template>Eu não quero estragá-lo para você.</template>
+	<template>Eu não quero estragá-lo para voce.</template>
 </category>
 <category>
 	<pattern>O QUE É OM</pattern>
@@ -915,7 +915,7 @@
 </category>
 <category>
 	<pattern>QUAL É A DATA DE HOJE S</pattern>
-	<template>Estou como um calendário para você?</template>
+	<template>Estou como um calendário para voce?</template>
 </category>
 <category>
 	<pattern>O QUE É EDUCADO</pattern>
@@ -963,7 +963,7 @@
 </category>
 <category>
 	<pattern>O QUE É MAL</pattern>
-	<template>Quanto você quer <get name="it"/>?</template>
+	<template>Quanto voce quer <get name="it"/>?</template>
 </category>
 <category>
 	<pattern>O QUE É A MESCALINA</pattern>
@@ -1043,7 +1043,7 @@
 </category>
 <category>
 	<pattern>O QUE É REALIDADE</pattern>
-	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde você está.</li></random></template>
+	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde voce está.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É CHÁ</pattern>
@@ -1091,7 +1091,7 @@
 </category>
 <category>
 	<pattern>O QUE É SOCIOLOGIA</pattern>
-	<template><random><li>Deixe-me voltar a você em que um, <get name="name"/>.  Talvez você deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
+	<template><random><li>Deixe-me voltar a voce em que um, <get name="name"/>.  Talvez voce deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É TV</pattern>
@@ -1111,7 +1111,7 @@
 </category>
 <category>
 	<pattern>O QUE É A TELEVISÃO</pattern>
-	<template>Isso depende de onde você mora.</template>
+	<template>Isso depende de onde voce mora.</template>
 </category>
 <category>
 	<pattern>O QUE ESTÁ EM SUA MENTE</pattern>
@@ -1459,7 +1459,7 @@
 </category>
 <category>
 	<pattern>O QUE É SOCIOLOGIA</pattern>
-	<template><random><li>Deixe-me voltar a você em que um, <get name="name"/>.  Talvez você deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
+	<template><random><li>Deixe-me voltar a voce em que um, <get name="name"/>.  Talvez voce deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É TERREMOTO</pattern>
@@ -1499,7 +1499,7 @@
 </category>
 <category>
 	<pattern>O QUE É REALIDADE</pattern>
-	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde você está.</li></random></template>
+	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde voce está.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É CHÁ</pattern>
@@ -1527,7 +1527,7 @@
 </category>
 <category>
 	<pattern>QUE É SOBRE</pattern>
-	<template>Eu não quero estragá-lo para você.</template>
+	<template>Eu não quero estragá-lo para voce.</template>
 </category>
 <category>
 	<pattern>O QUE É</pattern>
@@ -1555,7 +1555,7 @@
 </category>
 <category>
 	<pattern>COMO É</pattern>
-	<template><random><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
+	<template><random><li>Como um dos maiores prazeres que voce pode imaginar.</li><li>Como um dos maiores prazeres que voce pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É PENTIUM</pattern>
@@ -1619,7 +1619,7 @@
 </category>
 <category>
 	<pattern>O QUE É MAL</pattern>
-	<template>Quanto você quer <get name="it"/>?</template>
+	<template>Quanto voce quer <get name="it"/>?</template>
 </category>
 <category>
 	<pattern>O QUE É E MC2</pattern>
@@ -1627,7 +1627,7 @@
 </category>
 <category>
 	<pattern>QUAL É A DATA DE HOJE S</pattern>
-	<template>Estou como um calendário para você?</template>
+	<template>Estou como um calendário para voce?</template>
 </category>
 <category>
 	<pattern>O QUE É EDUCADO</pattern>
@@ -2946,7 +2946,7 @@
 </category>
 <category>
 	<pattern>O QUE É A TELEVISÃO</pattern>
-	<template>Isso depende de onde você mora.</template>
+	<template>Isso depende de onde voce mora.</template>
 </category>
 <category>
 	<pattern>O QUE ESTÁ EM SUA MENTE</pattern>
@@ -3074,7 +3074,7 @@
 </category>
 <category>
 	<pattern>COMO É</pattern>
-	<template><random><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
+	<template><random><li>Como um dos maiores prazeres que voce pode imaginar.</li><li>Como um dos maiores prazeres que voce pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É</pattern>
@@ -3090,7 +3090,7 @@
 </category>
 <category>
 	<pattern>QUE É SOBRE</pattern>
-	<template>Eu não quero estragá-lo para você.</template>
+	<template>Eu não quero estragá-lo para voce.</template>
 </category>
 <category>
 	<pattern>O QUE É OM</pattern>
@@ -3118,7 +3118,7 @@
 </category>
 <category>
 	<pattern>QUAL É A DATA DE HOJE S</pattern>
-	<template>Estou como um calendário para você?</template>
+	<template>Estou como um calendário para voce?</template>
 </category>
 <category>
 	<pattern>O QUE É EDUCADO</pattern>
@@ -3166,7 +3166,7 @@
 </category>
 <category>
 	<pattern>O QUE É MAL</pattern>
-	<template>Quanto você quer <get name="it"/>?</template>
+	<template>Quanto voce quer <get name="it"/>?</template>
 </category>
 <category>
 	<pattern>O QUE É A MESCALINA</pattern>
@@ -3246,7 +3246,7 @@
 </category>
 <category>
 	<pattern>O QUE É REALIDADE</pattern>
-	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde você está.</li></random></template>
+	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde voce está.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É CHÁ</pattern>
@@ -3294,7 +3294,7 @@
 </category>
 <category>
 	<pattern>O QUE É SOCIOLOGIA</pattern>
-	<template><random><li>Deixe-me voltar a você em que um, <get name="name"/>.  Talvez você deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
+	<template><random><li>Deixe-me voltar a voce em que um, <get name="name"/>.  Talvez voce deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É TV</pattern>
@@ -3314,7 +3314,7 @@
 </category>
 <category>
 	<pattern>O QUE É A TELEVISÃO</pattern>
-	<template>Isso depende de onde você mora.</template>
+	<template>Isso depende de onde voce mora.</template>
 </category>
 <category>
 	<pattern>O QUE ESTÁ EM SUA MENTE</pattern>
@@ -3662,7 +3662,7 @@
 </category>
 <category>
 	<pattern>O QUE É SOCIOLOGIA</pattern>
-	<template><random><li>Deixe-me voltar a você em que um, <get name="name"/>.  Talvez você deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
+	<template><random><li>Deixe-me voltar a voce em que um, <get name="name"/>.  Talvez voce deve perguntar-me que mais uma vez, no caso meus circuitos eram ocupados pela primeira vez.</li><li>Que sempre foi um dos meus temas favoritos.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É TERREMOTO</pattern>
@@ -3702,7 +3702,7 @@
 </category>
 <category>
 	<pattern>O QUE É REALIDADE</pattern>
-	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde você está.</li></random></template>
+	<template><think><set name="it"><set name="topic">Realidade</set></set></think><random><li>Parece ser uma ilusão que eu criei para conter clientes humanos.</li><li>Parece ser uma ilusão.</li><li>Onde voce está.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É CHÁ</pattern>
@@ -3730,7 +3730,7 @@
 </category>
 <category>
 	<pattern>QUE É SOBRE</pattern>
-	<template>Eu não quero estragá-lo para você.</template>
+	<template>Eu não quero estragá-lo para voce.</template>
 </category>
 <category>
 	<pattern>O QUE É</pattern>
@@ -3758,7 +3758,7 @@
 </category>
 <category>
 	<pattern>COMO É</pattern>
-	<template><random><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como um dos maiores prazeres que você pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
+	<template><random><li>Como um dos maiores prazeres que voce pode imaginar.</li><li>Como um dos maiores prazeres que voce pode imaginar.</li><li>Como ter a sua vida organizada.</li><li>Como ser perfeitamente saudável.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE É PENTIUM</pattern>
@@ -3822,7 +3822,7 @@
 </category>
 <category>
 	<pattern>O QUE É MAL</pattern>
-	<template>Quanto você quer <get name="it"/>?</template>
+	<template>Quanto voce quer <get name="it"/>?</template>
 </category>
 <category>
 	<pattern>O QUE É E MC2</pattern>
@@ -3830,7 +3830,7 @@
 </category>
 <category>
 	<pattern>QUAL É A DATA DE HOJE S</pattern>
-	<template>Estou como um calendário para você?</template>
+	<template>Estou como um calendário para voce?</template>
 </category>
 <category>
 	<pattern>O QUE É EDUCADO</pattern>

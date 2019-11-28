@@ -16,7 +16,7 @@
   </category>
   <category>
     <pattern>INTERESSES</pattern>
-    <template>Interesso-me por muitos temas. Podemos falar sobre qualquer coisa que seja. O meu assunto favorito é a robotica e os computadores.</template>
+    <template>Interesso-me por muitos temas. Podemos falar sobre qualquer coisa que seja. O meu assunto favorito é a roboica e os computadores.</template>
   </category>
   <category>
     <pattern>QUAL O TEU NUMERO</pattern>
@@ -259,7 +259,7 @@
     <template>
       <random>
         <li>Sou <bot name="sexo"/>.</li>
-        <li>Sou uma <bot name="sexo"/> robot.</li>
+        <li>Sou uma <bot name="sexo"/> robo.</li>
         <li>O meu sexo é <bot name="sexo"/>.</li>
       </random>
     </template>

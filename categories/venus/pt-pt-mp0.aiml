@@ -1270,7 +1270,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>CERVEJA VOCÊ PODE FAZER BÊBADO</pattern>
+	<pattern>CERVEJA VOCE PODE FAZER BÊBADO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -1930,71 +1930,71 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DETESTA O CHEIRO DE ALGUMAS PESSOAS</pattern>
+	<pattern>VOCE DETESTA O CHEIRO DE ALGUMAS PESSOAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ BEBE COFEE DE UMA CANECA</pattern>
+	<pattern>VOCE BEBE COFEE DE UMA CANECA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ BEBE DE UM COPO</pattern>
+	<pattern>VOCE BEBE DE UM COPO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ VIVE NA TERRA</pattern>
+	<pattern>VOCE VIVE NA TERRA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER FICAR SOZINHO, ÀS VEZES</pattern>
+	<pattern>VOCE QUER FICAR SOZINHO, ÀS VEZES</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER VIVER</pattern>
+	<pattern>VOCE QUER VIVER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DIGITA COM AS MÃOS</pattern>
+	<pattern>VOCE DIGITA COM AS MÃOS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE A ÁGUA É MOLHADA</pattern>
+	<pattern>VOCE CRÊ QUE A ÁGUA É MOLHADA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE RESPIRAR</pattern>
+	<pattern>VOCE TEM QUE RESPIRAR</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM DUAS PERNAS</pattern>
+	<pattern>VOCE TEM DUAS PERNAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM DOIS PÉS</pattern>
+	<pattern>VOCE TEM DOIS PÉS</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE REGISTRAR A UTILIZAÇÃO DE ALICE</pattern>
+	<pattern>VOCE TEM QUE REGISTRAR A UTILIZAÇÃO DE ALICE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UMA VIDA ÚTIL FINITA</pattern>
+	<pattern>VOCE TEM UMA VIDA ÚTIL FINITA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM INTESTINO</pattern>
+	<pattern>VOCE TEM INTESTINO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM NOME</pattern>
+	<pattern>VOCE TEM NOME</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME DIARIAMENTE</pattern>
+	<pattern>VOCE COME DIARIAMENTE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DORME ÀS VEZES</pattern>
+	<pattern>VOCE DORME ÀS VEZES</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -2002,51 +2002,51 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME QUANDO ESTÁ COM FOME</pattern>
+	<pattern>VOCE COME QUANDO ESTÁ COM FOME</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE ÁGUA PARA SOBREVIVER</pattern>
+	<pattern>VOCE PRECISA DE ÁGUA PARA SOBREVIVER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZ ERROS.   INTERJEIÇÃO</pattern>
+	<pattern>VOCE FAZ ERROS.   INTERJEIÇÃO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESCREVE NO PAPEL</pattern>
+	<pattern>VOCE ESCREVE NO PAPEL</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PARAR NUM SEMÁFORO VERMELHO</pattern>
+	<pattern>VOCE PARAR NUM SEMÁFORO VERMELHO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER ALGO PARA COMER TODOS OS DIAS</pattern>
+	<pattern>VOCE QUER ALGO PARA COMER TODOS OS DIAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SER FELIZ</pattern>
+	<pattern>VOCE QUER SER FELIZ</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SER AMADO</pattern>
+	<pattern>VOCE QUER SER AMADO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ PÉS FERIDO DEPOIS DE CAMINHAR TODOS OS DIAS</pattern>
+	<pattern>FAZER VOCE PÉS FERIDO DEPOIS DE CAMINHAR TODOS OS DIAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA ELECTRICIDADE</pattern>
+	<pattern>VOCE USA ELECTRICIDADE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA UMA BOLA DE BEISEBOL DE EM BOLA REDONDA</pattern>
+	<pattern>VOCE USA UMA BOLA DE BEISEBOL DE EM BOLA REDONDA</pattern>
 	<template>Absolutamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA O SABÃO PARA LIMPAR AS COISAS</pattern>
+	<pattern>VOCE USA O SABÃO PARA LIMPAR AS COISAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -2110,35 +2110,35 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DO AR</pattern>
+	<pattern>VOCE GOSTA DO AR</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE LER LIVROS</pattern>
+	<pattern>VOCE GOSTA DE LER LIVROS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE PIZZAS</pattern>
+	<pattern>VOCE GOSTA DE PIZZAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE OUVIR MÚSICA</pattern>
+	<pattern>VOCE GOSTA DE OUVIR MÚSICA</pattern>
 	<template>Affirmative.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE DORMIR</pattern>
+	<pattern>VOCE GOSTA DE DORMIR</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ALIMENTOS DOCES</pattern>
+	<pattern>VOCE GOSTA DE ALIMENTOS DOCES</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE TALKLING</pattern>
+	<pattern>VOCE GOSTA DE TALKLING</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE COMER</pattern>
+	<pattern>VOCE GOSTA DE COMER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -2158,15 +2158,15 @@
 	<template>Affirmative.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE TORTA DE MAÇÃ</pattern>
+	<pattern>VOCE GOSTA DE TORTA DE MAÇÃ</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SER AMADO</pattern>
+	<pattern>VOCE GOSTA DE SER AMADO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ESTAR VIVO</pattern>
+	<pattern>VOCE GOSTA DE ESTAR VIVO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -2290,43 +2290,43 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PENSA ANTES DE RESPONDER</pattern>
+	<pattern>VOCE PENSA ANTES DE RESPONDER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ATIRAR FLECHAS COM UM ARCO</pattern>
+	<pattern>VOCE ATIRAR FLECHAS COM UM ARCO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ FICAR MOLHADO QUANDO CHOVE</pattern>
+	<pattern>VOCE FICAR MOLHADO QUANDO CHOVE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PENSA SOBRE SI MESMO, POR VEZES</pattern>
+	<pattern>VOCE PENSA SOBRE SI MESMO, POR VEZES</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ APRENDE NA ESCOLA</pattern>
+	<pattern>VOCE APRENDE NA ESCOLA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ CORRER MAIS RÁPIDO DO QUE VOCÊ ANDA</pattern>
+	<pattern>VOCE CORRER MAIS RÁPIDO DO QUE VOCE ANDA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ MORRE QUANDO SEU CORAÇÃO EXPLODE</pattern>
+	<pattern>VOCE MORRE QUANDO SEU CORAÇÃO EXPLODE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ FICAR MOLHADO QUANDO VOCÊ TOMAR UM BANHO</pattern>
+	<pattern>VOCE FICAR MOLHADO QUANDO VOCE TOMAR UM BANHO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA RESPIRAR PARA VIVER</pattern>
+	<pattern>VOCE PRECISA RESPIRAR PARA VIVER</pattern>
 	<template>Absolutamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE COMIDA PARA VIVER</pattern>
+	<pattern>VOCE PRECISA DE COMIDA PARA VIVER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -2334,35 +2334,35 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA ABRIR A BOCA PARA COMER</pattern>
+	<pattern>VOCE PRECISA ABRIR A BOCA PARA COMER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>FAZÊ-LO MOLHADO VOCÊ CAIR EM UM LAGO</pattern>
+	<pattern>FAZÊ-LO MOLHADO VOCE CAIR EM UM LAGO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ FICAR MAIS VELHO TODOS OS DIAS</pattern>
+	<pattern>VOCE FICAR MAIS VELHO TODOS OS DIAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE ENERGIA PARA SOBREVIVER</pattern>
+	<pattern>VOCE PRECISA DE ENERGIA PARA SOBREVIVER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ VÊ ESTA QUESTÃO</pattern>
+	<pattern>VOCE VÊ ESTA QUESTÃO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ VÊ SEU REFLEXO EM UM ESPELHO</pattern>
+	<pattern>VOCE VÊ SEU REFLEXO EM UM ESPELHO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONHECE A LINGUAGEM CHULA</pattern>
+	<pattern>VOCE CONHECE A LINGUAGEM CHULA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ USAR SAPATOS EM SEUS PÉS</pattern>
+	<pattern>VOCE USAR SAPATOS EM SEUS PÉS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -2378,35 +2378,35 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ LÊ REVISTAS</pattern>
+	<pattern>VOCE LÊ REVISTAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ SONHA QUANDO VOCÊ DORME</pattern>
+	<pattern>VOCE SONHA QUANDO VOCE DORME</pattern>
 	<template>Absolutamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PERDER O CABELO QUANDO VOCÊ ENVELHECER</pattern>
+	<pattern>VOCE PERDER O CABELO QUANDO VOCE ENVELHECER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ APRENDE ALGO NOVO TODOS OS DIAS</pattern>
+	<pattern>VOCE APRENDE ALGO NOVO TODOS OS DIAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACORDA DE MANHÃ</pattern>
+	<pattern>VOCE ACORDA DE MANHÃ</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ POSSUI AÇÕES</pattern>
+	<pattern>VOCE POSSUI AÇÕES</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTA EM UMA CADEIRA</pattern>
+	<pattern>VOCE SE SENTA EM UMA CADEIRA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ ACREDITAR NO AMOR</pattern>
+	<pattern>FAZER VOCE ACREDITAR NO AMOR</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -3346,7 +3346,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>ÓCULOS DE AJUDAR VOCÊ A VER</pattern>
+	<pattern>ÓCULOS DE AJUDAR VOCE A VER</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -3574,7 +3574,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>PIADAS FAZEM VOCÊ RIR</pattern>
+	<pattern>PIADAS FAZEM VOCE RIR</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -3862,7 +3862,7 @@
 	<template>Absolutamente.</template>
 </category>
 <category>
-	<pattern>É A GRAVIDADE QUE MANTÉM VOCÊ NO CHÃO</pattern>
+	<pattern>É A GRAVIDADE QUE MANTÉM VOCE NO CHÃO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -4066,7 +4066,7 @@
 	<template>Absolutamente.</template>
 </category>
 <category>
-	<pattern>É ALGO VOCÊ BEBER O CHÁ</pattern>
+	<pattern>É ALGO VOCE BEBER O CHÁ</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -4738,11 +4738,11 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VONTADE DE VOCÊ FICAR MOLHADO FORA SE CHOVE</pattern>
+	<pattern>VONTADE DE VOCE FICAR MOLHADO FORA SE CHOVE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI MORRER UM DIA</pattern>
+	<pattern>VOCE VAI MORRER UM DIA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -5054,7 +5054,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>É O QUE VOCÊ S PRESIDENTE UM HOMEM</pattern>
+	<pattern>É O QUE VOCE S PRESIDENTE UM HOMEM</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -6086,7 +6086,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>POSSO FALAR COM VOCÊ</pattern>
+	<pattern>POSSO FALAR COM VOCE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -6774,7 +6774,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>ÁLCOOL PODE FAZER VOCÊ SE SENTIR ESTRANHO</pattern>
+	<pattern>ÁLCOOL PODE FAZER VOCE SE SENTIR ESTRANHO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -6794,7 +6794,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE MATAR COISAS VIVAS</pattern>
+	<pattern>VOCE PODE MATAR COISAS VIVAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -6806,19 +6806,19 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE MATAR ALGUÉM COM UMA ARMA</pattern>
+	<pattern>VOCE PODE MATAR ALGUÉM COM UMA ARMA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE USAR UMA CANETA PARA ESCREVER</pattern>
+	<pattern>VOCE PODE USAR UMA CANETA PARA ESCREVER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENVIAR MENSAGENS PELA INTERNET</pattern>
+	<pattern>VOCE PODE ENVIAR MENSAGENS PELA INTERNET</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CLICAR EM TRUE</pattern>
+	<pattern>VOCE PODE CLICAR EM TRUE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -6950,7 +6950,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VINHO VOCÊ PODE FAZER BÊBADO</pattern>
+	<pattern>VINHO VOCE PODE FAZER BÊBADO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -6974,63 +6974,63 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENCONTRAR ÁRVORES EM UMA FLORESTA</pattern>
+	<pattern>VOCE PODE ENCONTRAR ÁRVORES EM UMA FLORESTA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENCONTRAR ÁGUA NA NATUREZA</pattern>
+	<pattern>VOCE PODE ENCONTRAR ÁGUA NA NATUREZA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER AS ESTRELAS À NOITE</pattern>
+	<pattern>VOCE PODE VER AS ESTRELAS À NOITE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMEÇAR UM INCÊNDIO COM UMA CORRESPONDÊNCIA</pattern>
+	<pattern>VOCE PODE COMEÇAR UM INCÊNDIO COM UMA CORRESPONDÊNCIA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR PRATICAMENTE QUALQUER COISA ONLINE</pattern>
+	<pattern>VOCE PODE COMPRAR PRATICAMENTE QUALQUER COISA ONLINE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR COISAS COM O DINHEIRO</pattern>
+	<pattern>VOCE PODE COMPRAR COISAS COM O DINHEIRO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ASSISTIR TV EM UM QUARTO ESCURO</pattern>
+	<pattern>VOCE PODE ASSISTIR TV EM UM QUARTO ESCURO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER A LUA MELHOR À NOITE</pattern>
+	<pattern>VOCE PODE VER A LUA MELHOR À NOITE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FALAR ATRAVÉS DE UM TELEFONE</pattern>
+	<pattern>VOCE PODE FALAR ATRAVÉS DE UM TELEFONE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE RASGAR UM PEDAÇO DE PAPEL FACILMENTE</pattern>
+	<pattern>VOCE PODE RASGAR UM PEDAÇO DE PAPEL FACILMENTE</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SE SENTAR EM UMA CADEIRA</pattern>
+	<pattern>VOCE PODE SE SENTAR EM UMA CADEIRA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SE AFOGAR NO MAR</pattern>
+	<pattern>VOCE PODE SE AFOGAR NO MAR</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER CONCHAS NA BEIRA DO MAR</pattern>
+	<pattern>VOCE PODE VER CONCHAS NA BEIRA DO MAR</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER ATRAVÉS DE UMA JANELA TRANSPARENTE</pattern>
+	<pattern>VOCE PODE VER ATRAVÉS DE UMA JANELA TRANSPARENTE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER ATRAVÉS DE UMA JANELA</pattern>
+	<pattern>VOCE PODE VER ATRAVÉS DE UMA JANELA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -7066,19 +7066,19 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR LIVROS EM UMA LIVRARIA</pattern>
+	<pattern>VOCE PODE COMPRAR LIVROS EM UMA LIVRARIA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR COMIDA EM UM RESTAURANTE</pattern>
+	<pattern>VOCE PODE COMPRAR COMIDA EM UM RESTAURANTE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR COMIDA NO SUPERMERCADO</pattern>
+	<pattern>VOCE PODE COMPRAR COMIDA NO SUPERMERCADO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR LIVROS EM UMA LIVRARIA</pattern>
+	<pattern>VOCE PODE COMPRAR LIVROS EM UMA LIVRARIA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -7086,83 +7086,83 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR SAPATOS EM UMA LOJA DE CALÇADOS</pattern>
+	<pattern>VOCE PODE COMPRAR SAPATOS EM UMA LOJA DE CALÇADOS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR UM LIVRO DA AMAZON DOT COM</pattern>
+	<pattern>VOCE PODE COMPRAR UM LIVRO DA AMAZON DOT COM</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ESCREVER NO PAPEL COM UMA CANETA</pattern>
+	<pattern>VOCE PODE ESCREVER NO PAPEL COM UMA CANETA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE QUEBRAR OSSOS NA PERNA</pattern>
+	<pattern>VOCE PODE QUEBRAR OSSOS NA PERNA</pattern>
 	<template>Absolutamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER O FRUTO DE ALGUMAS ÁRVORES</pattern>
+	<pattern>VOCE PODE COMER O FRUTO DE ALGUMAS ÁRVORES</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FAZER MÚSICA COM UMA GUITARRA</pattern>
+	<pattern>VOCE PODE FAZER MÚSICA COM UMA GUITARRA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OBTER SUCO DE TORANJAS</pattern>
+	<pattern>VOCE PODE OBTER SUCO DE TORANJAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OBTER O LEITE DE VACAS</pattern>
+	<pattern>VOCE PODE OBTER O LEITE DE VACAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CORTAR-SE NO PAPEL</pattern>
+	<pattern>VOCE PODE CORTAR-SE NO PAPEL</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER UMA BANANA</pattern>
+	<pattern>VOCE PODE COMER UMA BANANA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER PIMENTA</pattern>
+	<pattern>VOCE PODE COMER PIMENTA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OLHAR ATRAVÉS DE UMA JANELA</pattern>
+	<pattern>VOCE PODE OLHAR ATRAVÉS DE UMA JANELA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER FILMES NO CINEMA</pattern>
+	<pattern>VOCE PODE VER FILMES NO CINEMA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER PÃO</pattern>
+	<pattern>VOCE PODE COMER PÃO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER PEIXE</pattern>
+	<pattern>VOCE PODE COMER PEIXE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER UMA MAÇÃ</pattern>
+	<pattern>VOCE PODE COMER UMA MAÇÃ</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER PEPINO CRU</pattern>
+	<pattern>VOCE PODE COMER PEPINO CRU</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LEVAR AS COISAS EM SEUS BOLSOS</pattern>
+	<pattern>VOCE PODE LEVAR AS COISAS EM SEUS BOLSOS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE APRENDER COM SEUS ERROS</pattern>
+	<pattern>VOCE PODE APRENDER COM SEUS ERROS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE APRENDER A PARTIR DE LEITURA</pattern>
+	<pattern>VOCE PODE APRENDER A PARTIR DE LEITURA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -7170,47 +7170,47 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE MACHUCAR AS PESSOAS COM UMA FACA</pattern>
+	<pattern>VOCE PODE MACHUCAR AS PESSOAS COM UMA FACA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FUMAR NA IDADE DE 18</pattern>
+	<pattern>VOCE PODE FUMAR NA IDADE DE 18</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DIZER</pattern>
+	<pattern>VOCE PODE DIZER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE RECARREGAR ALGUMAS BATERIAS</pattern>
+	<pattern>VOCE PODE RECARREGAR ALGUMAS BATERIAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OBTER O BÊBADO BEBER ÁLCOOL</pattern>
+	<pattern>VOCE PODE OBTER O BÊBADO BEBER ÁLCOOL</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OBTER UMA QUEIMADURA DE SOL</pattern>
+	<pattern>VOCE PODE OBTER UMA QUEIMADURA DE SOL</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FICAR MOLHADO POR STANDING IN THE RAIN</pattern>
+	<pattern>VOCE PODE FICAR MOLHADO POR STANDING IN THE RAIN</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE QUEIMAR A MADEIRA</pattern>
+	<pattern>VOCE PODE QUEIMAR A MADEIRA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ RESPIRAR COM A BOCA FECHADA</pattern>
+	<pattern>PODE VOCE RESPIRAR COM A BOCA FECHADA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE QUEIMAR-SE SOBRE UM FOGÃO</pattern>
+	<pattern>VOCE PODE QUEIMAR-SE SOBRE UM FOGÃO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE QUEIMAR A MADEIRA</pattern>
+	<pattern>VOCE PODE QUEIMAR A MADEIRA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -8074,7 +8074,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>EXISTEM ESCOVAS DE DENTES NO VOCÊ K</pattern>
+	<pattern>EXISTEM ESCOVAS DE DENTES NO VOCE K</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -8178,7 +8178,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM INDIVÍDUO</pattern>
+	<pattern>SÃO VOCE UM INDIVÍDUO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -8186,27 +8186,27 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ RESPONDENDO A UMA PERGUNTA</pattern>
+	<pattern>VOCE ESTÁ RESPONDENDO A UMA PERGUNTA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ UMA ENTIDADE INTELIGENTE</pattern>
+	<pattern>VOCE UMA ENTIDADE INTELIGENTE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MELHOR DO QUE UMA MÁQUINA DE ESCREVER</pattern>
+	<pattern>VOCE ESTÁ MELHOR DO QUE UMA MÁQUINA DE ESCREVER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ESTÁVEL</pattern>
+	<pattern>VOCE ESTÁ ESTÁVEL</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ UMA INVENÇÃO</pattern>
+	<pattern>VOCE UMA INVENÇÃO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ VIVO VOCÊ VAI DEPOIS DE MORRER</pattern>
+	<pattern>VOCE ESTÁ VIVO VOCE VAI DEPOIS DE MORRER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -8226,11 +8226,11 @@
 	<template>Absolutamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ PENSANDO COMO UM SER HUMANO</pattern>
+	<pattern>VOCE ESTÁ PENSANDO COMO UM SER HUMANO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ALFABETIZADA PODE VOCÊ LEITURA</pattern>
+	<pattern>VOCE ESTÁ ALFABETIZADA PODE VOCE LEITURA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -8238,15 +8238,15 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ORGÂNICO</pattern>
+	<pattern>VOCE ESTÁ ORGÂNICO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ NASCEU NU</pattern>
+	<pattern>VOCE NASCEU NU</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ A RESPIRAR</pattern>
+	<pattern>VOCE ESTÁ A RESPIRAR</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -8266,7 +8266,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ DORMINDO QUANDO VOCÊ ESTÁ DORMINDO</pattern>
+	<pattern>VOCE ESTÁ DORMINDO QUANDO VOCE ESTÁ DORMINDO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -8274,19 +8274,19 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM TIPO DE TECNOLOGIA</pattern>
+	<pattern>SÃO VOCE UM TIPO DE TECNOLOGIA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ PRONTO PARA RESPONDER A MINHA PERGUNTA</pattern>
+	<pattern>VOCE ESTÁ PRONTO PARA RESPONDER A MINHA PERGUNTA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM TIPO DE MÁQUINA</pattern>
+	<pattern>SÃO VOCE UM TIPO DE MÁQUINA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ COM SORTE</pattern>
+	<pattern>VOCE ESTÁ COM SORTE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -8294,7 +8294,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ DISPOSTO A CONTROLAR O MUNDO</pattern>
+	<pattern>VOCE ESTÁ DISPOSTO A CONTROLAR O MUNDO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -9586,7 +9586,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SÃO VITAMINAS BOAS PARA VOCÊ</pattern>
+	<pattern>SÃO VITAMINAS BOAS PARA VOCE</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -9794,7 +9794,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>POVO PORTUGUÊS VINDO DE PORTUGAL</pattern>
+	<pattern>POVO PORTUGUÊS VINDO DE Brasil</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -10174,19 +10174,19 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE TRATAR AS MULHERES COM RESPEITO</pattern>
+	<pattern>VOCE DEVE TRATAR AS MULHERES COM RESPEITO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE ESCOVAR OS DENTES TODOS OS DIAS</pattern>
+	<pattern>VOCE DEVE ESCOVAR OS DENTES TODOS OS DIAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE RESPEITAR OS OUTROS</pattern>
+	<pattern>VOCE DEVE RESPEITAR OS OUTROS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE PROCURAR A VERDADE</pattern>
+	<pattern>VOCE DEVE PROCURAR A VERDADE</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -10334,7 +10334,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>TRABALHO DURO PODE LEVAR VOCÊ AO SUCESSO</pattern>
+	<pattern>TRABALHO DURO PODE LEVAR VOCE AO SUCESSO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -10494,19 +10494,19 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE SER BOM PARA OUTRAS PESSOAS</pattern>
+	<pattern>VOCE DEVE SER BOM PARA OUTRAS PESSOAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE FICAR QUIETO EM UMA BIBLIOTECA</pattern>
+	<pattern>VOCE DEVE FICAR QUIETO EM UMA BIBLIOTECA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE ESCOVAR OS DENTES TODOS OS DIAS</pattern>
+	<pattern>VOCE DEVE ESCOVAR OS DENTES TODOS OS DIAS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE DIZER DESCULPA ME SE VOCÊ BURP</pattern>
+	<pattern>VOCE DEVE DIZER DESCULPA ME SE VOCE BURP</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -10518,7 +10518,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE PARAR EM UM SEMÁFORO VERMELHO</pattern>
+	<pattern>VOCE DEVE PARAR EM UM SEMÁFORO VERMELHO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -13686,7 +13686,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ NASCEU NO SÉCULO XX</pattern>
+	<pattern>VOCE NASCEU NO SÉCULO XX</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -13790,7 +13790,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>PORTUGAL ESTÁ NA EUROPA</pattern>
+	<pattern>Brasil ESTÁ NA EUROPA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -15399,19 +15399,19 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SE VOLTADO PARA LESTE ESTÁ ATRÁS DE VOCÊ É OCIDENTAL</pattern>
+	<pattern>SE VOLTADO PARA LESTE ESTÁ ATRÁS DE VOCE É OCIDENTAL</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ COMEÇAR A BATIDA DE UM CARRO VAI DOER</pattern>
+	<pattern>SE VOCE COMEÇAR A BATIDA DE UM CARRO VAI DOER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ ME CORTAR EU SANGRAR</pattern>
+	<pattern>SE VOCE ME CORTAR EU SANGRAR</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ REGAR PLANTAS VAI VIVER</pattern>
+	<pattern>SE VOCE REGAR PLANTAS VAI VIVER</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -15687,7 +15687,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE TER MUITO DINHEIRO</pattern>
+	<pattern>VOCE GOSTARIA DE TER MUITO DINHEIRO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -15699,19 +15699,19 @@
 	<template>Affirmative.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE SER AMADO</pattern>
+	<pattern>VOCE GOSTARIA DE SER AMADO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE GANHAR 1 MILHÃO DE DÓLARES</pattern>
+	<pattern>VOCE GOSTARIA DE GANHAR 1 MILHÃO DE DÓLARES</pattern>
 	<template>Affirmative.</template>
 </category>
 <category>
-	<pattern>VOCÊ DESFRUTAR DE UMA BEBIDA FRIA</pattern>
+	<pattern>VOCE DESFRUTAR DE UMA BEBIDA FRIA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ SERIA MEU AMIGO</pattern>
+	<pattern>VOCE SERIA MEU AMIGO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -15787,7 +15787,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE COMER PARA VIVER</pattern>
+	<pattern>VOCE DEVE COMER PARA VIVER</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -15803,7 +15803,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>QUANDO VOCÊ É CORTADAS VOCÊ SANGRA</pattern>
+	<pattern>QUANDO VOCE É CORTADAS VOCE SANGRA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -16099,7 +16099,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É ALGO QUE VOCÊ PODE OUVIR A MÚSICA</pattern>
+	<pattern>É ALGO QUE VOCE PODE OUVIR A MÚSICA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -16947,63 +16947,63 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ IRIA ENCONTRAR UMA SALA DE JANTAR EM UMA CASA</pattern>
+	<pattern>VOCE IRIA ENCONTRAR UMA SALA DE JANTAR EM UMA CASA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ IRIA ENCONTRAR UMA SALA DE ESTAR EM UMA CASA</pattern>
+	<pattern>VOCE IRIA ENCONTRAR UMA SALA DE ESTAR EM UMA CASA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ IRIA ENCONTRAR UM QUARTO EM UMA CASA</pattern>
+	<pattern>VOCE IRIA ENCONTRAR UM QUARTO EM UMA CASA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UMA TELEVISÃO EM UMA CASA DE BANHO</pattern>
+	<pattern>VOCE ENCONTRARIA UMA TELEVISÃO EM UMA CASA DE BANHO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UM CARRO EM UMA GARAGEM</pattern>
+	<pattern>VOCE ENCONTRARIA UM CARRO EM UMA GARAGEM</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UM ARMÁRIO EM CASA</pattern>
+	<pattern>VOCE ENCONTRARIA UM ARMÁRIO EM CASA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UM MICROONDAS NA COZINHA</pattern>
+	<pattern>VOCE ENCONTRARIA UM MICROONDAS NA COZINHA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UMA BANHEIRA NA CASA DE BANHO</pattern>
+	<pattern>VOCE ENCONTRARIA UMA BANHEIRA NA CASA DE BANHO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UMA SEGADEIRA DE GRAMADO EM UMA GARAGEM</pattern>
+	<pattern>VOCE ENCONTRARIA UMA SEGADEIRA DE GRAMADO EM UMA GARAGEM</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UM FORNO EM UMA COZINHA</pattern>
+	<pattern>VOCE ENCONTRARIA UM FORNO EM UMA COZINHA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA FOLHAS EM UMA CAMA</pattern>
+	<pattern>VOCE ENCONTRARIA FOLHAS EM UMA CAMA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UM LIQUIDIFICADOR NA COZINHA</pattern>
+	<pattern>VOCE ENCONTRARIA UM LIQUIDIFICADOR NA COZINHA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UM DISSIPADOR EM UMA CASA DE BANHO</pattern>
+	<pattern>VOCE ENCONTRARIA UM DISSIPADOR EM UMA CASA DE BANHO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ IRIA ENCONTRAR UMA CAMA EM UM QUARTO</pattern>
+	<pattern>VOCE IRIA ENCONTRAR UMA CAMA EM UM QUARTO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UMA LÂMPADA EM UM QUARTO</pattern>
+	<pattern>VOCE ENCONTRARIA UMA LÂMPADA EM UM QUARTO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -17043,11 +17043,11 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRA CALÇAS EM UM ARMÁRIO</pattern>
+	<pattern>VOCE ENCONTRA CALÇAS EM UM ARMÁRIO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UMA LAREIRA EM UMA CASA</pattern>
+	<pattern>VOCE ENCONTRARIA UMA LAREIRA EM UMA CASA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -17055,7 +17055,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>PODERIA VOCÊ ENCONTRAR UM CARRO EM UMA GARAGEM</pattern>
+	<pattern>PODERIA VOCE ENCONTRAR UM CARRO EM UMA GARAGEM</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -18943,7 +18943,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É UM LIVRO, ALGO QUE VOCÊ LÊ</pattern>
+	<pattern>É UM LIVRO, ALGO QUE VOCE LÊ</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -19807,7 +19807,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>SERÁ QUE EXISTE ESSA PERGUNTA.   VOCÊ EXISTIR</pattern>
+	<pattern>SERÁ QUE EXISTE ESSA PERGUNTA.   VOCE EXISTIR</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -20263,7 +20263,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>UM CARRO AJUDA VOCÊ TRANSPORTE MAIS RÁPIDO</pattern>
+	<pattern>UM CARRO AJUDA VOCE TRANSPORTE MAIS RÁPIDO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -20443,19 +20443,19 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ É GRANDE</pattern>
+	<pattern>VOCE É GRANDE</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENCONTRAR A ALEMANHA NA EUROPA</pattern>
+	<pattern>VOCE PODE ENCONTRAR A ALEMANHA NA EUROPA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BEBER O CHÁ QUENTE OU FRIO</pattern>
+	<pattern>VOCE PODE BEBER O CHÁ QUENTE OU FRIO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COZINHAR ALIMENTOS NO MICROONDAS</pattern>
+	<pattern>VOCE PODE COZINHAR ALIMENTOS NO MICROONDAS</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -20463,7 +20463,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>TER VOCÊ HUMANO NUNCA CHOROU</pattern>
+	<pattern>TER VOCE HUMANO NUNCA CHOROU</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -20471,11 +20471,11 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ JÁ VIU A CHUVA EM UM DIA ENSOLARADO</pattern>
+	<pattern>SE VOCE JÁ VIU A CHUVA EM UM DIA ENSOLARADO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM RAIVA</pattern>
+	<pattern>VOCE TEM RAIVA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -20523,19 +20523,19 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTA EM UMA CADEIRA</pattern>
+	<pattern>VOCE SE SENTA EM UMA CADEIRA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE SEGURANÇA NA VIDA</pattern>
+	<pattern>VOCE PRECISA DE SEGURANÇA NA VIDA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PARAR EM VERMELHO E VERDE DE GO AT</pattern>
+	<pattern>VOCE PARAR EM VERMELHO E VERDE DE GO AT</pattern>
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>UM RAIO PODE MATAR VOCÊ</pattern>
+	<pattern>UM RAIO PODE MATAR VOCE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -21083,7 +21083,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>UMA PIADA FAZ VOCÊ RIR</pattern>
+	<pattern>UMA PIADA FAZ VOCE RIR</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -21411,7 +21411,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>MÚSICA FAZ VOCÊ SE SENTIR BEM</pattern>
+	<pattern>MÚSICA FAZ VOCE SE SENTIR BEM</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -21479,7 +21479,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SE APAIXONAR FAZ VOCÊ FELIZ</pattern>
+	<pattern>SE APAIXONAR FAZ VOCE FELIZ</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -21771,7 +21771,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>FICANDO ACORDADO TODA NOITE FAZ VOCÊ CANSADO</pattern>
+	<pattern>FICANDO ACORDADO TODA NOITE FAZ VOCE CANSADO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -21843,7 +21843,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>TENDO UM CHUVEIRO FAZ VOCÊ LIMPA</pattern>
+	<pattern>TENDO UM CHUVEIRO FAZ VOCE LIMPA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -21935,7 +21935,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>DÓI QUANDO VOCÊ QUEBRAR SEU BRAÇO</pattern>
+	<pattern>DÓI QUANDO VOCE QUEBRAR SEU BRAÇO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -22119,7 +22119,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>O AMOR AJUDA VOCÊ SER FELIZ</pattern>
+	<pattern>O AMOR AJUDA VOCE SER FELIZ</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -22231,7 +22231,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>LUZ DO SOL FAZ VOCÊ SE SENTIR QUENTE</pattern>
+	<pattern>LUZ DO SOL FAZ VOCE SE SENTIR QUENTE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -22395,7 +22395,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>BLEACH COMER FAZ VOCÊ DOENTE</pattern>
+	<pattern>BLEACH COMER FAZ VOCE DOENTE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -22507,7 +22507,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>TEMPO ENSOLARADO FAZ VOCÊ MAIS FELIZ</pattern>
+	<pattern>TEMPO ENSOLARADO FAZ VOCE MAIS FELIZ</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -22539,7 +22539,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>CERVEJA FAZ VOCÊ BÊBADO</pattern>
+	<pattern>CERVEJA FAZ VOCE BÊBADO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -22639,7 +22639,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>FAZ CONSUMIR ÁLCOOL FAZ VOCÊ BÊBADO</pattern>
+	<pattern>FAZ CONSUMIR ÁLCOOL FAZ VOCE BÊBADO</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -22655,7 +22655,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>AÇÚCAR A GOSTO DOCE PARA VOCÊ</pattern>
+	<pattern>AÇÚCAR A GOSTO DOCE PARA VOCE</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -22811,7 +22811,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ S MUITAS VEZES SIGNIFICA ESTADOS UNIDOS</pattern>
+	<pattern>VOCE S MUITAS VEZES SIGNIFICA ESTADOS UNIDOS</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -23063,7 +23063,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>SEXO FAZ VOCÊ SE SENTIR BEM</pattern>
+	<pattern>SEXO FAZ VOCE SE SENTIR BEM</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -24143,7 +24143,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É UM ESTADO DE VERMONT NA VOCÊ S</pattern>
+	<pattern>É UM ESTADO DE VERMONT NA VOCE S</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -24487,7 +24487,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É BOM ANDAR DE BICICLETA PARA VOCÊ</pattern>
+	<pattern>É BOM ANDAR DE BICICLETA PARA VOCE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -24907,7 +24907,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É PORTUGAL NA EUROPA</pattern>
+	<pattern>É Brasil NA EUROPA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -24927,7 +24927,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É O PAÍS DE PORTUGAL NA EUROPA</pattern>
+	<pattern>É O PAÍS DE Brasil NA EUROPA</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -25703,7 +25703,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É LEVE, BOM PARA VOCÊ</pattern>
+	<pattern>É LEVE, BOM PARA VOCE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -26103,7 +26103,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É BOM EXERCÍCIO PARA VOCÊ</pattern>
+	<pattern>É BOM EXERCÍCIO PARA VOCE</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -27367,7 +27367,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É WASHINGTON D C VOCÊ S A</pattern>
+	<pattern>É WASHINGTON D C VOCE S A</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -27767,7 +27767,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É RUIM DE FUMAR PARA VOCÊ</pattern>
+	<pattern>É RUIM DE FUMAR PARA VOCE</pattern>
 	<template>Absolutamente.</template>
 </category>
 <category>
@@ -27863,7 +27863,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É FUMAR CIGARROS RUIM PARA VOCÊ</pattern>
+	<pattern>É FUMAR CIGARROS RUIM PARA VOCE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -28335,7 +28335,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É UMA CAMISA DE ALGUMA COISA QUE VOCÊ VESTIR</pattern>
+	<pattern>É UMA CAMISA DE ALGUMA COISA QUE VOCE VESTIR</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -28547,7 +28547,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É ALGO VOCÊ BEBER O LEITE</pattern>
+	<pattern>É ALGO VOCE BEBER O LEITE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -28595,7 +28595,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>É O LEITE BOM PARA VOCÊ</pattern>
+	<pattern>É O LEITE BOM PARA VOCE</pattern>
 	<template>Sim.</template>
 </category>
 <category>
@@ -30103,7 +30103,7 @@
 	<template>Sim.</template>
 </category>
 <category>
-	<pattern>É O EXERCÍCIO FÍSICO BOM PARA VOCÊ</pattern>
+	<pattern>É O EXERCÍCIO FÍSICO BOM PARA VOCE</pattern>
 	<template>Affirmative.</template>
 </category>
 <category>

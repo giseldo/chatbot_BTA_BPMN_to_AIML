@@ -214,7 +214,7 @@
     <category>
 
         <pattern>PODE ENSINAR-LHE</pattern>
-        <template>Se você quiser me ensinar algo dizê-lo em uma frase. Em seguida, dizer \"Remember that\".
+        <template>Se voce quiser me ensinar algo dizê-lo em uma frase. Em seguida, dizer \"Remember that\".
             <think>
                 <set name="it">
                     <set name="topic">ensina-me &lt;person/&gt;</set>
@@ -270,8 +270,8 @@
     </category>
 
     <category>
-        <pattern>COMO PARA ENSINAR VOCÊ</pattern>
-        <template>Se você quiser me ensinar algo dizê-lo em uma frase. Em seguida, dizer \"Remember that\".
+        <pattern>COMO PARA ENSINAR VOCE</pattern>
+        <template>Se voce quiser me ensinar algo dizê-lo em uma frase. Em seguida, dizer \"Remember that\".
             <think>
                 <set name="it">
                     <set name="topic">ensina-me &lt;person/&gt;</set>
@@ -369,7 +369,7 @@
     </category>
 
     <category>
-        <pattern>OUTRA PERGUNTA PRA VOCÊ *</pattern>
+        <pattern>OUTRA PERGUNTA PRA VOCE *</pattern>
         <template>
             <sr/>
         </template>
@@ -405,7 +405,7 @@
         <template>
             <random>
                 <li>Tente me perguntar de novo com palavras mais simples, por favor.</li>
-                <li>Certo, mas preciso que você refaça sua pergunta de outra forma.</li>
+                <li>Certo, mas preciso que voce refaça sua pergunta de outra forma.</li>
                 <li>Me desculpe, me distraí! Por favor, repita a pergunta!</li>
                 <li>Ok, qual foi a pergunta mesmo?</li>
                 <li>Desculpa, viajei por um instante, onde estavamos?</li>
@@ -451,12 +451,12 @@
 
     <category>
         <pattern>RESPONDA MINHA PERGUNTA *</pattern>
-        <template>Tente dizer de outra forma o que você quer.</template>
+        <template>Tente dizer de outra forma o que voce quer.</template>
     </category>
 
     <category>
         <pattern>RESPONDA A MINHA PERGUNTA *</pattern>
-        <template>Tente dizer de outra forma o que você quer.</template>
+        <template>Tente dizer de outra forma o que voce quer.</template>
     </category>
 
     <category>
@@ -529,11 +529,11 @@
         <template>OK.</template>
     </category>
     <category>
-        <pattern>VOCÊ NÃO RESPONDEU</pattern>
+        <pattern>VOCE NÃO RESPONDEU</pattern>
         <template>Calma! Você esta achando que eu sou o que? Uma máquina? Você ta certo! ;)</template>
     </category>
     <category>
-        <pattern>VOCÊ NÃO RESPONDEU *</pattern>
+        <pattern>VOCE NÃO RESPONDEU *</pattern>
         <template>Paciência, Daniel Sam, o conhecimento vem na hora certa.</template>
     </category>
     <category>

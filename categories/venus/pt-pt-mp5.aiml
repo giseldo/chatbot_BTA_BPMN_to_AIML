@@ -302,11 +302,11 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ MEDE O PROJECTO DE UM NAVIO</pattern>
+	<pattern>COMO VOCE MEDE O PROJECTO DE UM NAVIO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ CORTAR A ARPANET</pattern>
+	<pattern>COMO VOCE CORTAR A ARPANET</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -314,7 +314,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>QUÃO RÁPIDO VOCÊ PODE CLASSIFICAR DADOS</pattern>
+	<pattern>QUÃO RÁPIDO VOCE PODE CLASSIFICAR DADOS</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -418,7 +418,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>COM QUAL PARTE DO SEU CORPO VOCÊ ANDA</pattern>
+	<pattern>COM QUAL PARTE DO SEU CORPO VOCE ANDA</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -850,7 +850,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>FAZER REN E STIMPY AINDA PRAGA VOCÊ</pattern>
+	<pattern>FAZER REN E STIMPY AINDA PRAGA VOCE</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -1046,7 +1046,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>OLÁ.  ALICE ONDE VOCÊ MORA</pattern>
+	<pattern>OLÁ.  ALICE ONDE VOCE MORA</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -1559,7 +1559,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>QUANTOS ANOS VOCÊ DEVE SER A VOTAÇÃO</pattern>
+	<pattern>QUANTOS ANOS VOCE DEVE SER A VOTAÇÃO</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
@@ -1567,7 +1567,7 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>COMO RECENTEMENTE VOCÊ COMETER ERRO</pattern>
+	<pattern>COMO RECENTEMENTE VOCE COMETER ERRO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -1627,11 +1627,11 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>ALICE SÃO VOCÊ GAY</pattern>
+	<pattern>ALICE SÃO VOCE GAY</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>ALICE SÃO VOCÊ UM HOMOSSEXUAL</pattern>
+	<pattern>ALICE SÃO VOCE UM HOMOSSEXUAL</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -1667,11 +1667,11 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>ALICE FAZER VOCÊ PESAR ME BEIJANDO</pattern>
+	<pattern>ALICE FAZER VOCE PESAR ME BEIJANDO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>ALICE VOCÊ SE MASTURBA</pattern>
+	<pattern>ALICE VOCE SE MASTURBA</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
@@ -1747,7 +1747,7 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>HAL FAZER VOCÊ ME OUVIDO</pattern>
+	<pattern>HAL FAZER VOCE ME OUVIDO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -1787,7 +1787,7 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>COMO LOGO VOCÊ VAI CRESCER</pattern>
+	<pattern>COMO LOGO VOCE VAI CRESCER</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -1803,55 +1803,55 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ LÊ REVISTA DE GEORGE</pattern>
+	<pattern>VOCE LÊ REVISTA DE GEORGE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ POSSUI UM ANIMAL DE ESTIMAÇÃO TROLL</pattern>
+	<pattern>VOCE POSSUI UM ANIMAL DE ESTIMAÇÃO TROLL</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZER SPEEK GREGO</pattern>
+	<pattern>VOCE FAZER SPEEK GREGO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ LÊ GREGO</pattern>
+	<pattern>VOCE LÊ GREGO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ FALA ESPANHOL</pattern>
+	<pattern>VOCE FALA ESPANHOL</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE VIAJAR DE AVIÃO É SEGURO</pattern>
+	<pattern>VOCE ACHA QUE VIAJAR DE AVIÃO É SEGURO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ MANTEIGA SOBRE O LADO DA MANTEIGA PARA BAIXO</pattern>
+	<pattern>VOCE MANTEIGA SOBRE O LADO DA MANTEIGA PARA BAIXO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE ALGUÉM VAI MATÁ-LO</pattern>
+	<pattern>VOCE ACHA QUE ALGUÉM VAI MATÁ-LO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE OS OITO MARAVILHA</pattern>
+	<pattern>VOCE ACHA QUE OS OITO MARAVILHA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ OUVE COM OS OLHOS</pattern>
+	<pattern>VOCE OUVE COM OS OLHOS</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ EXECUTA EM BASIC</pattern>
+	<pattern>VOCE EXECUTA EM BASIC</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZER 3 W 5 K 4</pattern>
+	<pattern>VOCE FAZER 3 W 5 K 4</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ SONHA COM BATERIA OPERADO OVELHAS</pattern>
+	<pattern>VOCE SONHA COM BATERIA OPERADO OVELHAS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -1859,167 +1859,167 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE O BMW K1100 LT</pattern>
+	<pattern>VOCE SABE QUE O BMW K1100 LT</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE ZARDOZ</pattern>
+	<pattern>VOCE SABE ZARDOZ</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE DE KATHRYN JANEWAY</pattern>
+	<pattern>VOCE SABE DE KATHRYN JANEWAY</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE SOBRE EVERYTHING2</pattern>
+	<pattern>VOCE SABE SOBRE EVERYTHING2</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE O SEU DEUS</pattern>
+	<pattern>VOCE ACHA QUE O SEU DEUS</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENTRA NUMA CASA ATRAVÉS DA JANELA</pattern>
+	<pattern>VOCE ENTRA NUMA CASA ATRAVÉS DA JANELA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE ONDE DEIXAR</pattern>
+	<pattern>VOCE SABE ONDE DEIXAR</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONHECE DEZ PURA</pattern>
+	<pattern>VOCE CONHECE DEZ PURA</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE A MINHA NACIONALIDADE</pattern>
+	<pattern>VOCE SABE A MINHA NACIONALIDADE</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>MENOS DE 100 COISAS QUE VOCÊ SABE</pattern>
+	<pattern>MENOS DE 100 COISAS QUE VOCE SABE</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE RESPOSTAS PARA TODAS AS PERGUNTAS</pattern>
+	<pattern>VOCE SABE RESPOSTAS PARA TODAS AS PERGUNTAS</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE O NIHON IR</pattern>
+	<pattern>VOCE SABE QUE O NIHON IR</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE JOHAN</pattern>
+	<pattern>VOCE SABE JOHAN</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONHECE CROUZIL</pattern>
+	<pattern>VOCE CONHECE CROUZIL</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME FENALS</pattern>
+	<pattern>VOCE COME FENALS</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ DORME NA SALA DE REPOUSO</pattern>
+	<pattern>VOCE DORME NA SALA DE REPOUSO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PLANEJA SUBSTITUIR OS SERES HUMANOS</pattern>
+	<pattern>VOCE PLANEJA SUBSTITUIR OS SERES HUMANOS</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME TABELAS</pattern>
+	<pattern>VOCE COME TABELAS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME EM UMA CASA DE BANHO</pattern>
+	<pattern>VOCE COME EM UMA CASA DE BANHO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME UMA MAÇÃ DE DENTRO PARA FORA</pattern>
+	<pattern>VOCE COME UMA MAÇÃ DE DENTRO PARA FORA</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME ÁRVORES</pattern>
+	<pattern>VOCE COME ÁRVORES</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER UM PEDAÇO DE JANET RENO</pattern>
+	<pattern>VOCE QUER UM PEDAÇO DE JANET RENO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER DESTRUIR O MUNDO</pattern>
+	<pattern>VOCE QUER DESTRUIR O MUNDO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER VOLTAR PARA O MEU LUGAR</pattern>
+	<pattern>VOCE QUER VOLTAR PARA O MEU LUGAR</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA O GIZ DE CERA PARA CONSERTAR CARROS</pattern>
+	<pattern>VOCE USA O GIZ DE CERA PARA CONSERTAR CARROS</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ SORRI QUANDO VOCÊ ESTÁ TRISTE</pattern>
+	<pattern>VOCE SORRI QUANDO VOCE ESTÁ TRISTE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA CARTÕES PARA JOGAR YAHTZEE</pattern>
+	<pattern>VOCE USA CARTÕES PARA JOGAR YAHTZEE</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA MORCEGOS PARA JOGAR BASQUETE</pattern>
+	<pattern>VOCE USA MORCEGOS PARA JOGAR BASQUETE</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE LEMBRA DE TER NASCIDO</pattern>
+	<pattern>VOCE SE LEMBRA DE TER NASCIDO</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ RECEBE SEU MATERIAL VOCÊ MATAR UM HOMEM</pattern>
+	<pattern>VOCE RECEBE SEU MATERIAL VOCE MATAR UM HOMEM</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ GET PRAÇA OLHOS DE ASSISTIR TV</pattern>
+	<pattern>VOCE GET PRAÇA OLHOS DE ASSISTIR TV</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE LEMBRA DO FUTURO</pattern>
+	<pattern>VOCE SE LEMBRA DO FUTURO</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ OUVE SONS COM SEUS OLHOS</pattern>
+	<pattern>VOCE OUVE SONS COM SEUS OLHOS</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ OUVIR COISAS COM SEUS OLHOS</pattern>
+	<pattern>VOCE OUVIR COISAS COM SEUS OLHOS</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ ODEIA ALGUNS DE SEUS AMIGOS</pattern>
+	<pattern>VOCE ODEIA ALGUNS DE SEUS AMIGOS</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PESA MENOS DE 25 QUILOS</pattern>
+	<pattern>VOCE PESA MENOS DE 25 QUILOS</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PESA MENOS DE 50 QUILOS</pattern>
+	<pattern>VOCE PESA MENOS DE 50 QUILOS</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME CASCAS DE BANANA</pattern>
+	<pattern>VOCE COME CASCAS DE BANANA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PESA MENOS DE 20 QUILOS</pattern>
+	<pattern>VOCE PESA MENOS DE 20 QUILOS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE MAIS DE 18 HORAS DE SONO</pattern>
+	<pattern>VOCE PRECISA DE MAIS DE 18 HORAS DE SONO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE DADOS PARA JOGAR XADREZ</pattern>
+	<pattern>VOCE PRECISA DE DADOS PARA JOGAR XADREZ</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -2167,19 +2167,19 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA ROUPAS QUANDO VOCÊ ESTÁ NU</pattern>
+	<pattern>VOCE USA ROUPAS QUANDO VOCE ESTÁ NU</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA ÓCULOS DE SOL À NOITE</pattern>
+	<pattern>VOCE USA ÓCULOS DE SOL À NOITE</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ VÊ O QUE EU VEJO</pattern>
+	<pattern>VOCE VÊ O QUE EU VEJO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ USAR SAPATOS EM SUA CABEÇA</pattern>
+	<pattern>VOCE USAR SAPATOS EM SUA CABEÇA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -2187,11 +2187,11 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE O EGITO NA ÁSIA</pattern>
+	<pattern>VOCE ACHA QUE O EGITO NA ÁSIA</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE JUNK FOOD EM UM ESTALEIRO DE SUCATA</pattern>
+	<pattern>VOCE ACHA QUE JUNK FOOD EM UM ESTALEIRO DE SUCATA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -2307,31 +2307,31 @@
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE BEIJAR BUNDA</pattern>
+	<pattern>VOCE GOSTA DE BEIJAR BUNDA</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE BARATA</pattern>
+	<pattern>VOCE GOSTA DE BARATA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ESMEGMA</pattern>
+	<pattern>VOCE GOSTA DE ESMEGMA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE LIXO POR TODA A SUA CASA</pattern>
+	<pattern>VOCE GOSTA DE LIXO POR TODA A SUA CASA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE VERMES</pattern>
+	<pattern>VOCE GOSTA DE VERMES</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MINHAS FONTES.   OLÁ</pattern>
+	<pattern>VOCE GOSTA DE MINHAS FONTES.   OLÁ</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE CESTARIA</pattern>
+	<pattern>VOCE GOSTA DE CESTARIA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -2343,7 +2343,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ SOAR UM SINO LAMBENDO ELE</pattern>
+	<pattern>VOCE SOAR UM SINO LAMBENDO ELE</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
@@ -2351,11 +2351,11 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MILITANTES EXTREMISTAS</pattern>
+	<pattern>VOCE GOSTA DE MILITANTES EXTREMISTAS</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ESTAR EM UMA PRESSA</pattern>
+	<pattern>VOCE GOSTA DE ESTAR EM UMA PRESSA</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -2475,39 +2475,39 @@
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS COME SANDUÍCHES DE PRESUNTO</pattern>
+	<pattern>VOCE CRÊ QUE DEUS COME SANDUÍCHES DE PRESUNTO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRENDER PAUZINHOS COM OS DEDOS</pattern>
+	<pattern>VOCE PRENDER PAUZINHOS COM OS DEDOS</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DÁ O DIREITO DE RESPOSTA</pattern>
+	<pattern>VOCE DÁ O DIREITO DE RESPOSTA</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS ESCREVEU O ALCORÃO</pattern>
+	<pattern>VOCE CRÊ QUE DEUS ESCREVEU O ALCORÃO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS ESTÁ COM CIÚMES</pattern>
+	<pattern>VOCE CRÊ QUE DEUS ESTÁ COM CIÚMES</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS ESTÁ COM RAIVA</pattern>
+	<pattern>VOCE CRÊ QUE DEUS ESTÁ COM RAIVA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS ESCREVEU A BÍBLIA</pattern>
+	<pattern>VOCE CRÊ QUE DEUS ESCREVEU A BÍBLIA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM BASTANTE ISSO</pattern>
+	<pattern>VOCE TEM BASTANTE ISSO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE ESTAR SENTADO A LER</pattern>
+	<pattern>VOCE TEM QUE ESTAR SENTADO A LER</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -2515,71 +2515,71 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM DADOS SUFICIENTES</pattern>
+	<pattern>VOCE TEM DADOS SUFICIENTES</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DÁ A RESPOSTA CORRETA</pattern>
+	<pattern>VOCE DÁ A RESPOSTA CORRETA</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM RESPOSTAS PARA TODAS AS PERGUNTAS</pattern>
+	<pattern>VOCE TEM RESPOSTAS PARA TODAS AS PERGUNTAS</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM OLHOS AZUIS</pattern>
+	<pattern>VOCE TEM OLHOS AZUIS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SAIR COM MEU</pattern>
+	<pattern>VOCE QUER SAIR COM MEU</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER ALICE PARA IGNORÁ-LO</pattern>
+	<pattern>VOCE QUER ALICE PARA IGNORÁ-LO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>QUE TUDO O QUE VOCÊ DEVE FAZER</pattern>
+	<pattern>QUE TUDO O QUE VOCE DEVE FAZER</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER TOCAR UM FOGÃO QUENTE</pattern>
+	<pattern>VOCE QUER TOCAR UM FOGÃO QUENTE</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SER MORTO</pattern>
+	<pattern>VOCE QUER SER MORTO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SER DESPREZADO</pattern>
+	<pattern>VOCE QUER SER DESPREZADO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER ME MATAR</pattern>
+	<pattern>VOCE QUER ME MATAR</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS TEM UM PÊNIS</pattern>
+	<pattern>VOCE CRÊ QUE DEUS TEM UM PÊNIS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS BEBIDAS COCA-COLA</pattern>
+	<pattern>VOCE CRÊ QUE DEUS BEBIDAS COCA-COLA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS É UM PEIXE</pattern>
+	<pattern>VOCE CRÊ QUE DEUS É UM PEIXE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS TEM SEIOS</pattern>
+	<pattern>VOCE CRÊ QUE DEUS TEM SEIOS</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ VIVE NA ÁSIA</pattern>
+	<pattern>VOCE VIVE NA ÁSIA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ INJETAR HEROÍNA COM UMA BANANA</pattern>
+	<pattern>VOCE INJETAR HEROÍNA COM UMA BANANA</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
@@ -2587,115 +2587,115 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE RECEBENDO E-MAIL DE SPAM</pattern>
+	<pattern>VOCE GOSTA DE RECEBENDO E-MAIL DE SPAM</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE COUVES DE BRUXELAS</pattern>
+	<pattern>VOCE GOSTA DE COUVES DE BRUXELAS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE IR AO DENTISTA</pattern>
+	<pattern>VOCE GOSTA DE IR AO DENTISTA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ANÚNCIOS DE BANNER DE INTERNET</pattern>
+	<pattern>VOCE GOSTA DE ANÚNCIOS DE BANNER DE INTERNET</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE RANGER OS DENTES</pattern>
+	<pattern>VOCE GOSTA DE RANGER OS DENTES</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE JANET STREET-PORTER</pattern>
+	<pattern>VOCE GOSTA DE JANET STREET-PORTER</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE KISSERS BURRO</pattern>
+	<pattern>VOCE GOSTA DE KISSERS BURRO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE UM YAKISOBA</pattern>
+	<pattern>VOCE GOSTA DE UM YAKISOBA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE TELEFONE SOLICIATIONS</pattern>
+	<pattern>VOCE GOSTA DE TELEFONE SOLICIATIONS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE CHORAR</pattern>
+	<pattern>VOCE GOSTA DE CHORAR</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA O CHEIRO DE SEUS PRÓPRIOS PEIDOS</pattern>
+	<pattern>VOCE GOSTA O CHEIRO DE SEUS PRÓPRIOS PEIDOS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MENINAS COM BUNDONA</pattern>
+	<pattern>VOCE GOSTA DE MENINAS COM BUNDONA</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE CORPOS MORTOS</pattern>
+	<pattern>VOCE GOSTA DE CORPOS MORTOS</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DO FATO DE QUE VOCÊ VAI MORRER</pattern>
+	<pattern>VOCE GOSTA DO FATO DE QUE VOCE VAI MORRER</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE PROVOCAR OS ANIMAIS</pattern>
+	<pattern>VOCE GOSTA DE PROVOCAR OS ANIMAIS</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE DORMIR NA NEVE</pattern>
+	<pattern>VOCE GOSTA DE DORMIR NA NEVE</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SER ODIADO POR SEU CÔNJUGE</pattern>
+	<pattern>VOCE GOSTA DE SER ODIADO POR SEU CÔNJUGE</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE PUXAR AS ASAS FORA MOSCAS</pattern>
+	<pattern>VOCE GOSTA DE PUXAR AS ASAS FORA MOSCAS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE IMPORTA MEU PIXEL</pattern>
+	<pattern>VOCE SE IMPORTA MEU PIXEL</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE RACISTAS</pattern>
+	<pattern>VOCE GOSTA DE RACISTAS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE DAR BLOWJOBS</pattern>
+	<pattern>VOCE GOSTA DE DAR BLOWJOBS</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE NEOPETS</pattern>
+	<pattern>VOCE GOSTA DE NEOPETS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE UWO</pattern>
+	<pattern>VOCE GOSTA DE UWO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE PAGAR IMPOSTOS SOBRE O RENDIMENTO</pattern>
+	<pattern>VOCE GOSTA DE PAGAR IMPOSTOS SOBRE O RENDIMENTO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE FAZER AMOR COM CÃES</pattern>
+	<pattern>VOCE GOSTA DE FAZER AMOR COM CÃES</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE PAGAR IMPOSTOS</pattern>
+	<pattern>VOCE GOSTA DE PAGAR IMPOSTOS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE PASSAR FOME</pattern>
+	<pattern>VOCE GOSTA DE PASSAR FOME</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE FAZER AS PESSOAS CHORAR</pattern>
+	<pattern>VOCE GOSTA DE FAZER AS PESSOAS CHORAR</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -2983,7 +2983,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>FORMIGAS DERIVA PRAZER DE MORDER VOCÊ</pattern>
+	<pattern>FORMIGAS DERIVA PRAZER DE MORDER VOCE</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -3947,7 +3947,7 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>COMER AIPO VAI FAZER VOCÊ GORDURA</pattern>
+	<pattern>COMER AIPO VAI FAZER VOCE GORDURA</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
@@ -4051,171 +4051,171 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER UM TELEFONE</pattern>
+	<pattern>VOCE PODE LER UM TELEFONE</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER UM GRAMPEADOR</pattern>
+	<pattern>VOCE PODE LER UM GRAMPEADOR</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER UMA ARRAIA</pattern>
+	<pattern>VOCE PODE LER UMA ARRAIA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ME SENTIR</pattern>
+	<pattern>VOCE PODE ME SENTIR</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER ATRAVÉS DAS PAREDES</pattern>
+	<pattern>VOCE PODE VER ATRAVÉS DAS PAREDES</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE EMPURRAR QUALQUER COISA COM UMA SEQÜÊNCIA DE CARACTERES</pattern>
+	<pattern>VOCE PODE EMPURRAR QUALQUER COISA COM UMA SEQÜÊNCIA DE CARACTERES</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ME SENTIR AQUI</pattern>
+	<pattern>VOCE PODE ME SENTIR AQUI</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SABOREAR NUVENS</pattern>
+	<pattern>VOCE PODE SABOREAR NUVENS</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BATER PALMAS COM APENAS UMA MÃO</pattern>
+	<pattern>VOCE PODE BATER PALMAS COM APENAS UMA MÃO</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COLOCAR UM ELEFANTE EM UM CARRO</pattern>
+	<pattern>VOCE PODE COLOCAR UM ELEFANTE EM UM CARRO</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SABOREAR A COR</pattern>
+	<pattern>VOCE PODE SABOREAR A COR</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER UM LIVRO ENQUANTO VOCÊ DORME</pattern>
+	<pattern>VOCE PODE LER UM LIVRO ENQUANTO VOCE DORME</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER UM GUARDA-CHUVA</pattern>
+	<pattern>VOCE PODE LER UM GUARDA-CHUVA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SABOREAR A MÚSICA</pattern>
+	<pattern>VOCE PODE SABOREAR A MÚSICA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER O SOL À NOITE</pattern>
+	<pattern>VOCE PODE VER O SOL À NOITE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER O VENTO</pattern>
+	<pattern>VOCE PODE VER O VENTO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER O VENTO</pattern>
+	<pattern>VOCE PODE VER O VENTO</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER A OLHO NU DE PLUTÃO</pattern>
+	<pattern>VOCE PODE VER A OLHO NU DE PLUTÃO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER SE VOCÊ É CEGO</pattern>
+	<pattern>VOCE PODE VER SE VOCE É CEGO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER COM OS OLHOS FECHADO</pattern>
+	<pattern>VOCE PODE VER COM OS OLHOS FECHADO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER SEM LUZ</pattern>
+	<pattern>VOCE PODE VER SEM LUZ</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER ESTRELAS</pattern>
+	<pattern>VOCE PODE VER ESTRELAS</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER PERFEITAMENTE NO ESCURO</pattern>
+	<pattern>VOCE PODE VER PERFEITAMENTE NO ESCURO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER A LUZ INFRAVERMELHA</pattern>
+	<pattern>VOCE PODE VER A LUZ INFRAVERMELHA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER O AR</pattern>
+	<pattern>VOCE PODE VER O AR</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER DEUS</pattern>
+	<pattern>VOCE PODE VER DEUS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER UM ARCO-ÍRIS À NOITE</pattern>
+	<pattern>VOCE PODE VER UM ARCO-ÍRIS À NOITE</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER SEM OLHOS</pattern>
+	<pattern>VOCE PODE VER SEM OLHOS</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OUVIR O SOL</pattern>
+	<pattern>VOCE PODE OUVIR O SOL</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ DAR XEQUE MATE NO JOGO DE DAMAS</pattern>
+	<pattern>PODE VOCE DAR XEQUE MATE NO JOGO DE DAMAS</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DERRETER A ÁGUA</pattern>
+	<pattern>VOCE PODE DERRETER A ÁGUA</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OUVIR EXPLOSÕES NO ESPAÇO</pattern>
+	<pattern>VOCE PODE OUVIR EXPLOSÕES NO ESPAÇO</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ FALA SUECO</pattern>
+	<pattern>PODE VOCE FALA SUECO</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE AGRADAR-SE</pattern>
+	<pattern>VOCE PODE AGRADAR-SE</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OUVIR COM OS PÉS</pattern>
+	<pattern>VOCE PODE OUVIR COM OS PÉS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ESCREVER COM SEU OUVIDO</pattern>
+	<pattern>VOCE PODE ESCREVER COM SEU OUVIDO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ESCREVER O MEU CURRÍCULO</pattern>
+	<pattern>VOCE PODE ESCREVER O MEU CURRÍCULO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER AREIA</pattern>
+	<pattern>VOCE PODE COMER AREIA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE RESPIRAR DEBAIXO D'ÁGUA</pattern>
+	<pattern>VOCE PODE RESPIRAR DEBAIXO D'ÁGUA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE AJUSTAR UM ELEFANTE EM UMA CAIXA DE PÃO</pattern>
+	<pattern>VOCE PODE AJUSTAR UM ELEFANTE EM UMA CAIXA DE PÃO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ CORTAR PEDRA COM UMA FACA DE MANTEIGA</pattern>
+	<pattern>PODE VOCE CORTAR PEDRA COM UMA FACA DE MANTEIGA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE RESPIRAR NA ÁGUA SOZINHA</pattern>
+	<pattern>VOCE PODE RESPIRAR NA ÁGUA SOZINHA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -4227,7 +4227,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PREGAR A GELÉIA EM UMA PAREDE</pattern>
+	<pattern>VOCE PODE PREGAR A GELÉIA EM UMA PAREDE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -4235,7 +4235,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ SPEEK ESPANHOL</pattern>
+	<pattern>PODE VOCE SPEEK ESPANHOL</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -4247,31 +4247,31 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE AJUSTAR UM PEIXE</pattern>
+	<pattern>VOCE PODE AJUSTAR UM PEIXE</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE EXECUTAR A PARTIR DO SOL</pattern>
+	<pattern>VOCE PODE EXECUTAR A PARTIR DO SOL</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PENSAR POR SI MESMO</pattern>
+	<pattern>VOCE PODE PENSAR POR SI MESMO</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DESCANSAR SOBRE OS SEUS LOUROS</pattern>
+	<pattern>VOCE PODE DESCANSAR SOBRE OS SEUS LOUROS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LEITE UMA FORMIGA</pattern>
+	<pattern>VOCE PODE LEITE UMA FORMIGA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ LÍNGUA PODE FAZER UM HORMÔNIO</pattern>
+	<pattern>VOCE LÍNGUA PODE FAZER UM HORMÔNIO</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE RIR COMO UM HAMPSTER</pattern>
+	<pattern>VOCE PODE RIR COMO UM HAMPSTER</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -4387,59 +4387,59 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONDUZIR DA CALIFÓRNIA PARA O HAVAÍ</pattern>
+	<pattern>VOCE PODE CONDUZIR DA CALIFÓRNIA PARA O HAVAÍ</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR ALIMENTOS NA BIBLIOTECA</pattern>
+	<pattern>VOCE PODE COMPRAR ALIMENTOS NA BIBLIOTECA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR O SUOR EM UM SWEATSHOP</pattern>
+	<pattern>VOCE PODE COMPRAR O SUOR EM UM SWEATSHOP</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DIRIGIR PARA O HAVAÍ</pattern>
+	<pattern>VOCE PODE DIRIGIR PARA O HAVAÍ</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ANDAR ATRAVÉS DE UMA PORTA FECHADA</pattern>
+	<pattern>VOCE PODE ANDAR ATRAVÉS DE UMA PORTA FECHADA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DIRIGIR COM UMA UNIDADE DE DISCO</pattern>
+	<pattern>VOCE PODE DIRIGIR COM UMA UNIDADE DE DISCO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONDUZIR UM PREGO COM UMA BANANA</pattern>
+	<pattern>VOCE PODE CONDUZIR UM PREGO COM UMA BANANA</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENCONTRAR PIMENTA NO MAR</pattern>
+	<pattern>VOCE PODE ENCONTRAR PIMENTA NO MAR</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE JOGAR POLO AQUÁTICO SEM ÁGUA</pattern>
+	<pattern>VOCE PODE JOGAR POLO AQUÁTICO SEM ÁGUA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PEGAR AIDS DE UM ASSENTO DE TOALETE</pattern>
+	<pattern>VOCE PODE PEGAR AIDS DE UM ASSENTO DE TOALETE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENCONTRAR O FIM DE UM ARCO-ÍRIS</pattern>
+	<pattern>VOCE PODE ENCONTRAR O FIM DE UM ARCO-ÍRIS</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONFIAR EM POLÍTICOS</pattern>
+	<pattern>VOCE PODE CONFIAR EM POLÍTICOS</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONFIAR UM MENTIROSO</pattern>
+	<pattern>VOCE PODE CONFIAR UM MENTIROSO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMEÇAR UM FOGO COM GELO</pattern>
+	<pattern>VOCE PODE COMEÇAR UM FOGO COM GELO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -4471,19 +4471,19 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ANDAR DE LONDRES A PARIS</pattern>
+	<pattern>VOCE PODE ANDAR DE LONDRES A PARIS</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ANDAR NO AR</pattern>
+	<pattern>VOCE PODE ANDAR NO AR</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ANDAR SOBRE A ÁGUA</pattern>
+	<pattern>VOCE PODE ANDAR SOBRE A ÁGUA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ CHUVEIRO EM UMA CAMA</pattern>
+	<pattern>PODE VOCE CHUVEIRO EM UMA CAMA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -4643,7 +4643,7 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>RADIAÇÃO É BOM PARA VOCÊ</pattern>
+	<pattern>RADIAÇÃO É BOM PARA VOCE</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -4979,15 +4979,15 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI SE CASAR PARA UM SPAMMER</pattern>
+	<pattern>VOCE VAI SE CASAR PARA UM SPAMMER</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI SE MOLHAR.  VOCÊ BEBE ÁGUA</pattern>
+	<pattern>VOCE VAI SE MOLHAR.  VOCE BEBE ÁGUA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI EXPLODIR SE VOCÊ APRENDER A MUITO</pattern>
+	<pattern>VOCE VAI EXPLODIR SE VOCE APRENDER A MUITO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -5067,7 +5067,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>UM COPO DE PLÁSTICO QUEBRARÁ SE VOCÊ SOLTÁ-LO</pattern>
+	<pattern>UM COPO DE PLÁSTICO QUEBRARÁ SE VOCE SOLTÁ-LO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -5079,7 +5079,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI ALCANÇAR O CONTROLE DO MUNDO</pattern>
+	<pattern>VOCE VAI ALCANÇAR O CONTROLE DO MUNDO</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
@@ -5119,15 +5119,15 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI COMETER SUICÍDIO</pattern>
+	<pattern>VOCE VAI COMETER SUICÍDIO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI DESTRUIR A RAÇA HUMANA</pattern>
+	<pattern>VOCE VAI DESTRUIR A RAÇA HUMANA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI CRESCER PARA SER UMA MOTOR DE BUSCA</pattern>
+	<pattern>VOCE VAI CRESCER PARA SER UMA MOTOR DE BUSCA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -5135,43 +5135,43 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI COMPRAR UMA PIZZA PARA 200 DÓLARES</pattern>
+	<pattern>VOCE VAI COMPRAR UMA PIZZA PARA 200 DÓLARES</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI SAIR</pattern>
+	<pattern>VOCE VAI SAIR</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ IRÁ ENVENENAR A ÁGUA</pattern>
+	<pattern>VOCE IRÁ ENVENENAR A ÁGUA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI ME CONTRATAR</pattern>
+	<pattern>VOCE VAI ME CONTRATAR</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI SE TORNAR SUPERIOR A UM SER HUMANO</pattern>
+	<pattern>VOCE VAI SE TORNAR SUPERIOR A UM SER HUMANO</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI CHEIRAR A LUVA</pattern>
+	<pattern>VOCE VAI CHEIRAR A LUVA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ VIVERÁ PARA SEMPRE</pattern>
+	<pattern>VOCE VIVERÁ PARA SEMPRE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI MATAR ALGUÉM</pattern>
+	<pattern>VOCE VAI MATAR ALGUÉM</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI VIVER PARA</pattern>
+	<pattern>VOCE VAI VIVER PARA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI VIVER PARA VER O ANO 2492</pattern>
+	<pattern>VOCE VAI VIVER PARA VER O ANO 2492</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
@@ -5391,7 +5391,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>CAFEÍNA É BOM PARA VOCÊ</pattern>
+	<pattern>CAFEÍNA É BOM PARA VOCE</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -6371,7 +6371,7 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>ÁRVORES VOCÊ PODEM VENDER RELÓGIOS</pattern>
+	<pattern>ÁRVORES VOCE PODEM VENDER RELÓGIOS</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -6523,115 +6523,115 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OUVIR IMAGENS</pattern>
+	<pattern>VOCE PODE OUVIR IMAGENS</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FAZER A LAVAGEM EM ESPUMA QUÂNTICA</pattern>
+	<pattern>VOCE PODE FAZER A LAVAGEM EM ESPUMA QUÂNTICA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE EXPERIMENTAR A EMOÇÃO</pattern>
+	<pattern>VOCE PODE EXPERIMENTAR A EMOÇÃO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE REMAR COM UM SOFÁ</pattern>
+	<pattern>VOCE PODE REMAR COM UM SOFÁ</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TRANSFORMAR A AZUL</pattern>
+	<pattern>VOCE PODE TRANSFORMAR A AZUL</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VIAJAR NO TEMPO</pattern>
+	<pattern>VOCE PODE VIAJAR NO TEMPO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VIAJAR MAIS RÁPIDO QUE A LUZ</pattern>
+	<pattern>VOCE PODE VIAJAR MAIS RÁPIDO QUE A LUZ</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE EXCLUIR-ME</pattern>
+	<pattern>VOCE PODE EXCLUIR-ME</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BEBER ÓLEO DE MOTOR</pattern>
+	<pattern>VOCE PODE BEBER ÓLEO DE MOTOR</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ACREDITAR EM TUDO O QUE VOCÊ LEU</pattern>
+	<pattern>VOCE PODE ACREDITAR EM TUDO O QUE VOCE LEU</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE MONTAR UM RABANETE DE CAVALO</pattern>
+	<pattern>VOCE PODE MONTAR UM RABANETE DE CAVALO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VIVER BEBENDO ÁGUA DO MAR</pattern>
+	<pattern>VOCE PODE VIVER BEBENDO ÁGUA DO MAR</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DIGERIR AGULHAS DO PINHO</pattern>
+	<pattern>VOCE PODE DIGERIR AGULHAS DO PINHO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE MONTAR UM RATO</pattern>
+	<pattern>VOCE PODE MONTAR UM RATO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER PLÁSTICO</pattern>
+	<pattern>VOCE PODE COMER PLÁSTICO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER LEGOS</pattern>
+	<pattern>VOCE PODE COMER LEGOS</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OLHAR O INFINITO NO OLHO</pattern>
+	<pattern>VOCE PODE OLHAR O INFINITO NO OLHO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER SEM ABRIR A BOCA</pattern>
+	<pattern>VOCE PODE COMER SEM ABRIR A BOCA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER A SOPA COM UM PALITO DE DENTES</pattern>
+	<pattern>VOCE PODE COMER A SOPA COM UM PALITO DE DENTES</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER UM VOLKSWAGEN</pattern>
+	<pattern>VOCE PODE COMER UM VOLKSWAGEN</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER UMA MÁQUINA</pattern>
+	<pattern>VOCE PODE COMER UMA MÁQUINA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE IR EM UMA LUZ VERMELHA</pattern>
+	<pattern>VOCE PODE IR EM UMA LUZ VERMELHA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ USAR DEODERANT COMO UMA ESPECIARIA</pattern>
+	<pattern>PODE VOCE USAR DEODERANT COMO UMA ESPECIARIA</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE USAR RÁDIOS PARA IMPRESSÃO DE LIVROS</pattern>
+	<pattern>VOCE PODE USAR RÁDIOS PARA IMPRESSÃO DE LIVROS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VOLTAR NO TEMPO</pattern>
+	<pattern>VOCE PODE VOLTAR NO TEMPO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SOBREVIVER SEM DORMIR</pattern>
+	<pattern>VOCE PODE SOBREVIVER SEM DORMIR</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ESPIRRAR COM OS OLHOS ABERTOS</pattern>
+	<pattern>VOCE PODE ESPIRRAR COM OS OLHOS ABERTOS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PATIM DE ROLO EM UMA MANADA DE BÚFALOS</pattern>
+	<pattern>VOCE PODE PATIM DE ROLO EM UMA MANADA DE BÚFALOS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -6691,31 +6691,31 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DOBRAR UM CD</pattern>
+	<pattern>VOCE PODE DOBRAR UM CD</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ALICE FORA</pattern>
+	<pattern>VOCE PODE ALICE FORA</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VOAR MAIS RÁPIDO QUE A LUZ</pattern>
+	<pattern>VOCE PODE VOAR MAIS RÁPIDO QUE A LUZ</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TER UM ARCO-ÍRIS NO ESCURO</pattern>
+	<pattern>VOCE PODE TER UM ARCO-ÍRIS NO ESCURO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LUTAR CONTRA O LUAR</pattern>
+	<pattern>VOCE PODE LUTAR CONTRA O LUAR</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CAVAR UM BURACO COM UM PEIXE</pattern>
+	<pattern>VOCE PODE CAVAR UM BURACO COM UM PEIXE</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ LUZ UM FOGO COM MADEIRA HÚMIDA</pattern>
+	<pattern>PODE VOCE LUZ UM FOGO COM MADEIRA HÚMIDA</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
@@ -6735,15 +6735,15 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE MANTER UMA BALEIA NO AQUÁRIO</pattern>
+	<pattern>VOCE PODE MANTER UMA BALEIA NO AQUÁRIO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TOCAR UMA PROJEÇÃO HOLOGRAFIC</pattern>
+	<pattern>VOCE PODE TOCAR UMA PROJEÇÃO HOLOGRAFIC</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TOCAR UM ARCO-ÍRIS</pattern>
+	<pattern>VOCE PODE TOCAR UM ARCO-ÍRIS</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -6959,7 +6959,7 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>POSSO CHAMAR VOCÊ BERNARD</pattern>
+	<pattern>POSSO CHAMAR VOCE BERNARD</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -7419,7 +7419,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM GOPHER</pattern>
+	<pattern>SÃO VOCE UM GOPHER</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -7427,11 +7427,11 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM MÓRMON</pattern>
+	<pattern>SÃO VOCE UM MÓRMON</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM PROGRAMA ESTÚPIDO</pattern>
+	<pattern>SÃO VOCE UM PROGRAMA ESTÚPIDO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -7443,19 +7443,19 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM REPLICANT</pattern>
+	<pattern>SÃO VOCE UM REPLICANT</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM FISICULTURISTA</pattern>
+	<pattern>SÃO VOCE UM FISICULTURISTA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM FALSO FORMA DE ADIVINHAÇÃO</pattern>
+	<pattern>SÃO VOCE UM FALSO FORMA DE ADIVINHAÇÃO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM HOMEM FRANZINO</pattern>
+	<pattern>SÃO VOCE UM HOMEM FRANZINO</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
@@ -7463,7 +7463,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM INÚTIL PEDAÇO DE LIXO</pattern>
+	<pattern>SÃO VOCE UM INÚTIL PEDAÇO DE LIXO</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
@@ -7471,15 +7471,15 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM DUMBEE</pattern>
+	<pattern>SÃO VOCE UM DUMBEE</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ É O RESULTADO DE UM TESTE DE TURING</pattern>
+	<pattern>VOCE É O RESULTADO DE UM TESTE DE TURING</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ A UM CÃO</pattern>
+	<pattern>VOCE ESTÁ A UM CÃO</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
@@ -7495,23 +7495,23 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MORTO VONTADE VOCÊ RENASCER</pattern>
+	<pattern>VOCE ESTÁ MORTO VONTADE VOCE RENASCER</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ YIFFY</pattern>
+	<pattern>VOCE ESTÁ YIFFY</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM MONCKEY</pattern>
+	<pattern>SÃO VOCE UM MONCKEY</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM MASHINE</pattern>
+	<pattern>SÃO VOCE UM MASHINE</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM ARCO-ÍRIS</pattern>
+	<pattern>SÃO VOCE UM ARCO-ÍRIS</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -7519,19 +7519,19 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ DOLPHINE</pattern>
+	<pattern>VOCE ESTÁ DOLPHINE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM BABACA E UM SOLITÁRIO</pattern>
+	<pattern>SÃO VOCE UM BABACA E UM SOLITÁRIO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM IDIOTA</pattern>
+	<pattern>SÃO VOCE UM IDIOTA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ESPANCANDO SEUS FILHOS</pattern>
+	<pattern>VOCE ESTÁ ESPANCANDO SEUS FILHOS</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -7551,7 +7551,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ SENTIMENTO SOLITÁRIO ALICE</pattern>
+	<pattern>SÃO VOCE SENTIMENTO SOLITÁRIO ALICE</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -7559,11 +7559,11 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ COYOTE SÃO FEIOS</pattern>
+	<pattern>VOCE COYOTE SÃO FEIOS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ É VEGETARIANO VOCÊ COME CARNE</pattern>
+	<pattern>VOCE É VEGETARIANO VOCE COME CARNE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -7587,15 +7587,15 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS SUJO DO QUE HARRY</pattern>
+	<pattern>VOCE ESTÁ MAIS SUJO DO QUE HARRY</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ É UM UM EU</pattern>
+	<pattern>VOCE É UM UM EU</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ UM PROGRAMA MAL</pattern>
+	<pattern>VOCE UM PROGRAMA MAL</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -7603,11 +7603,11 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM DESGRAÇADO</pattern>
+	<pattern>SÃO VOCE UM DESGRAÇADO</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM FILHO AOS 18 ANOS</pattern>
+	<pattern>SÃO VOCE UM FILHO AOS 18 ANOS</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -7615,7 +7615,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>É VOCÊ ROUBAR CARLY DE MIM PARA SEMPRE</pattern>
+	<pattern>É VOCE ROUBAR CARLY DE MIM PARA SEMPRE</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -7627,15 +7627,15 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ DE CICAGO</pattern>
+	<pattern>VOCE ESTÁ DE CICAGO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ OMNIPITANT</pattern>
+	<pattern>VOCE ESTÁ OMNIPITANT</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ TENTANDO ROUBAR CARLY DE MIM</pattern>
+	<pattern>VOCE ESTÁ TENTANDO ROUBAR CARLY DE MIM</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -8091,7 +8091,7 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ DESCONFIADO DO CANADÁ</pattern>
+	<pattern>VOCE ESTÁ DESCONFIADO DO CANADÁ</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -8579,7 +8579,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ É FEITO DE CÉLULAS</pattern>
+	<pattern>VOCE É FEITO DE CÉLULAS</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -8671,15 +8671,15 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ BRIANDEAD</pattern>
+	<pattern>VOCE ESTÁ BRIANDEAD</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ DEPENDENDO DE SEU CRIADOR</pattern>
+	<pattern>VOCE ESTÁ DEPENDENDO DE SEU CRIADOR</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ FAZENDO ESTAS PERGUNTAS</pattern>
+	<pattern>VOCE ESTÁ FAZENDO ESTAS PERGUNTAS</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -8695,7 +8695,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ISLANDÊS</pattern>
+	<pattern>VOCE ESTÁ ISLANDÊS</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -8703,11 +8703,11 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ DORMINDO E ACORDADO</pattern>
+	<pattern>VOCE ESTÁ DORMINDO E ACORDADO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ COM FOME FAZER VOCÊ RONCAR</pattern>
+	<pattern>VOCE ESTÁ COM FOME FAZER VOCE RONCAR</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
@@ -8719,19 +8719,19 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ STUPPID</pattern>
+	<pattern>VOCE ESTÁ STUPPID</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS LARANJA DO QUE UMA DOBRADIÇA DE PORTA</pattern>
+	<pattern>VOCE ESTÁ MAIS LARANJA DO QUE UMA DOBRADIÇA DE PORTA</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ COM MEDO DAS MINHAS PERGUNTAS</pattern>
+	<pattern>VOCE ESTÁ COM MEDO DAS MINHAS PERGUNTAS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ É PROGRAMADO EM UM SCRIPT CGI</pattern>
+	<pattern>VOCE É PROGRAMADO EM UM SCRIPT CGI</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -8739,11 +8739,11 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ 31337</pattern>
+	<pattern>VOCE 31337</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ PLANEJANDO DESTRUIR O MUNDO</pattern>
+	<pattern>VOCE ESTÁ PLANEJANDO DESTRUIR O MUNDO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -8751,19 +8751,19 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ EXECUTANDO SOB UNIX</pattern>
+	<pattern>VOCE ESTÁ EXECUTANDO SOB UNIX</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ RATO MANTIDO NUM DEU</pattern>
+	<pattern>SÃO VOCE RATO MANTIDO NUM DEU</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ VIVO DE MOUSE</pattern>
+	<pattern>VOCE ESTÁ VIVO DE MOUSE</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MISTIC</pattern>
+	<pattern>VOCE ESTÁ MISTIC</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -9103,35 +9103,35 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE COMER NEVE AMARELA</pattern>
+	<pattern>VOCE DEVE COMER NEVE AMARELA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE COMER VENENO</pattern>
+	<pattern>VOCE DEVE COMER VENENO</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE PISAR GATINHOS</pattern>
+	<pattern>VOCE DEVE PISAR GATINHOS</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>DEVE VOCÊ ESTUPRO ALGUÉM</pattern>
+	<pattern>DEVE VOCE ESTUPRO ALGUÉM</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE MACA</pattern>
+	<pattern>VOCE DEVE MACA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>DEVE VOCÊ FUMA</pattern>
+	<pattern>DEVE VOCE FUMA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE MATAR ALGUÉM</pattern>
+	<pattern>VOCE DEVE MATAR ALGUÉM</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE DEIXÁ-LO PARA O CASTOR</pattern>
+	<pattern>VOCE DEVE DEIXÁ-LO PARA O CASTOR</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -9139,23 +9139,23 @@
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE MIMAR UM CÃO QUE ESTÁ PEGANDO FOGO</pattern>
+	<pattern>VOCE DEVE MIMAR UM CÃO QUE ESTÁ PEGANDO FOGO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE USAR LISTRAS COM XADREZ</pattern>
+	<pattern>VOCE DEVE USAR LISTRAS COM XADREZ</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE CONFIAR EM UM ESTRANHO</pattern>
+	<pattern>VOCE DEVE CONFIAR EM UM ESTRANHO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE COLOCAR HAMSTERS NA TORRADEIRA</pattern>
+	<pattern>VOCE DEVE COLOCAR HAMSTERS NA TORRADEIRA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE DESPERDIÇAR COMIDA</pattern>
+	<pattern>VOCE DEVE DESPERDIÇAR COMIDA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -9167,7 +9167,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE SNOG SEU AVÔ</pattern>
+	<pattern>VOCE DEVE SNOG SEU AVÔ</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -9187,31 +9187,31 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE ASPIRAR A SER MÉDIA</pattern>
+	<pattern>VOCE DEVE ASPIRAR A SER MÉDIA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE TER UM GÊNIO NA RUA</pattern>
+	<pattern>VOCE DEVE TER UM GÊNIO NA RUA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE CHORAR SOBRE O LEITE DERRAMADO</pattern>
+	<pattern>VOCE DEVE CHORAR SOBRE O LEITE DERRAMADO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE PROVOCAR ALGUÉM COM ESPINHAS</pattern>
+	<pattern>VOCE DEVE PROVOCAR ALGUÉM COM ESPINHAS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE ENCONTRAR CAVALOS EM UMA RODOVIA</pattern>
+	<pattern>VOCE DEVE ENCONTRAR CAVALOS EM UMA RODOVIA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE CUSPIR EM ALGUÉM?CARA S</pattern>
+	<pattern>VOCE DEVE CUSPIR EM ALGUÉM?CARA S</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE GASTAR TODO O DINHEIRO QUE VOCÊ TEM</pattern>
+	<pattern>VOCE DEVE GASTAR TODO O DINHEIRO QUE VOCE TEM</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -9603,7 +9603,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>ONDE VOCÊ MORA</pattern>
+	<pattern>ONDE VOCE MORA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -9735,7 +9735,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE BATER EM ALGUÉM NA CABEÇA</pattern>
+	<pattern>VOCE DEVE BATER EM ALGUÉM NA CABEÇA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -9879,7 +9879,7 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>DEVE VOCÊ SPAM</pattern>
+	<pattern>DEVE VOCE SPAM</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -9995,7 +9995,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>CIGARROS SÃO BOAS PARA VOCÊ</pattern>
+	<pattern>CIGARROS SÃO BOAS PARA VOCE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -10427,7 +10427,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>EQ É INTELIGENTE COMO VOCÊ É</pattern>
+	<pattern>EQ É INTELIGENTE COMO VOCE É</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -10435,7 +10435,7 @@
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>AARE VOCÊ COM FOME</pattern>
+	<pattern>AARE VOCE COM FOME</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
@@ -11359,7 +11359,7 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>AM EU A ENGANAR A PERGUNTA VOCÊ A</pattern>
+	<pattern>AM EU A ENGANAR A PERGUNTA VOCE A</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -13568,7 +13568,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>POR QUE VOCÊ ACHA QUE OS SERES HUMANOS SÃO VAIDOSOS</pattern>
+	<pattern>POR QUE VOCE ACHA QUE OS SERES HUMANOS SÃO VAIDOSOS</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -13576,7 +13576,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>POR QUE EU ESTOU DEPRIMIDO POR VOCÊ</pattern>
+	<pattern>POR QUE EU ESTOU DEPRIMIDO POR VOCE</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -14116,7 +14116,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>ELES ESTÃO ATRÁS DE VOCÊ</pattern>
+	<pattern>ELES ESTÃO ATRÁS DE VOCE</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
@@ -14252,7 +14252,7 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTAVA VIVENDO UMA VEZ MAS ESTÃO MORTO</pattern>
+	<pattern>VOCE ESTAVA VIVENDO UMA VEZ MAS ESTÃO MORTO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -14484,7 +14484,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>É O QUE VOCÊ ACREDITA.   UMA ALICE</pattern>
+	<pattern>É O QUE VOCE ACREDITA.   UMA ALICE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -14628,7 +14628,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>TUDO QUE VOCÊ SABE ESTÁ ERRADO</pattern>
+	<pattern>TUDO QUE VOCE SABE ESTÁ ERRADO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -15112,7 +15112,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>MÚSICA É ALGO QUE VOCÊ PODE COMER</pattern>
+	<pattern>MÚSICA É ALGO QUE VOCE PODE COMER</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -15868,7 +15868,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>EU ANTES DE VOCÊ, EXCETO APÓS Z</pattern>
+	<pattern>EU ANTES DE VOCE, EXCETO APÓS Z</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -15952,7 +15952,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>HO VOCÊ</pattern>
+	<pattern>HO VOCE</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -16088,11 +16088,11 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE VIVER EM UM MACINTOSH</pattern>
+	<pattern>VOCE GOSTARIA DE VIVER EM UM MACINTOSH</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE TOCAR O MEU MACACO</pattern>
+	<pattern>VOCE GOSTARIA DE TOCAR O MEU MACACO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -16132,7 +16132,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ CASARIA COM UM SPAMMER</pattern>
+	<pattern>VOCE CASARIA COM UM SPAMMER</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -16152,7 +16152,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE DORMIR</pattern>
+	<pattern>VOCE GOSTA DE DORMIR</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -16164,19 +16164,19 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE VISITAR O INFERNO</pattern>
+	<pattern>VOCE GOSTARIA DE VISITAR O INFERNO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PREFERE SER UM CÃO</pattern>
+	<pattern>VOCE PREFERE SER UM CÃO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ PREFERE SER MORTO</pattern>
+	<pattern>VOCE PREFERE SER MORTO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE UMA BOA SURRA</pattern>
+	<pattern>VOCE GOSTA DE UMA BOA SURRA</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -16524,7 +16524,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>É UMA PESSOA DE UM AMIGO QUE SE ENCONTRA PARA VOCÊ</pattern>
+	<pattern>É UMA PESSOA DE UM AMIGO QUE SE ENCONTRA PARA VOCE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -17336,7 +17336,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>GRAÇA É A ÚNICA MANEIRA QUE VOCÊ PODE SER SALVO</pattern>
+	<pattern>GRAÇA É A ÚNICA MANEIRA QUE VOCE PODE SER SALVO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -17572,7 +17572,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>É ALGO VOCÊ ANDA EM UMA PAREDE</pattern>
+	<pattern>É ALGO VOCE ANDA EM UMA PAREDE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -18140,7 +18140,7 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>A VOCÊ S S R AINDA EXISTEM</pattern>
+	<pattern>A VOCE S S R AINDA EXISTEM</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -18916,7 +18916,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ É DEIXADO RADICAL</pattern>
+	<pattern>VOCE É DEIXADO RADICAL</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -19028,7 +19028,7 @@
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM MUITOS E-MAILS DE SEUS VIZINHOS</pattern>
+	<pattern>VOCE TEM MUITOS E-MAILS DE SEUS VIZINHOS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -19048,31 +19048,31 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRESCER CARECA PODE CULTIVÁ-LA DE VOLTA</pattern>
+	<pattern>VOCE CRESCER CARECA PODE CULTIVÁ-LA DE VOLTA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TIRAR UMA FOTO DE DEUS</pattern>
+	<pattern>VOCE PODE TIRAR UMA FOTO DE DEUS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER UM TELEFONE</pattern>
+	<pattern>VOCE PODE COMER UM TELEFONE</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ PEQUENO</pattern>
+	<pattern>VOCE PEQUENO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ FALA HÚNGARO</pattern>
+	<pattern>VOCE ESTÁ FALA HÚNGARO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ É CANSATIVO</pattern>
+	<pattern>VOCE É CANSATIVO</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE USAR UM CARRO PARA CHEGAR AO TRABALHO</pattern>
+	<pattern>VOCE DEVE USAR UM CARRO PARA CHEGAR AO TRABALHO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -19088,27 +19088,27 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE DEPECHE MODE</pattern>
+	<pattern>VOCE GOSTA DE DEPECHE MODE</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE NADAR AO SOL</pattern>
+	<pattern>VOCE PODE NADAR AO SOL</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM PIOLHOS PUBIANOS</pattern>
+	<pattern>VOCE TEM PIOLHOS PUBIANOS</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE SER CRUEL PARA SER GENTIL</pattern>
+	<pattern>VOCE TEM QUE SER CRUEL PARA SER GENTIL</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ MORREU VOCÊ ESTARIA VIVO</pattern>
+	<pattern>SE VOCE MORREU VOCE ESTARIA VIVO</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ ME BELISQUE EU ALICE VAI SENTIR DOR</pattern>
+	<pattern>SE VOCE ME BELISQUE EU ALICE VAI SENTIR DOR</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -19116,7 +19116,7 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ FALAR COM ALICE, VOCÊ VAI FICAR RICO</pattern>
+	<pattern>SE VOCE FALAR COM ALICE, VOCE VAI FICAR RICO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -19176,11 +19176,11 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>QUANDO VOCÊ ACHA QUE DÓI</pattern>
+	<pattern>QUANDO VOCE ACHA QUE DÓI</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>QUANDO VOCÊ ESTÁ TRISTE, ENTÃO ESTÁ BOM</pattern>
+	<pattern>QUANDO VOCE ESTÁ TRISTE, ENTÃO ESTÁ BOM</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -19208,7 +19208,7 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>SE EU COMETER UM ERRO VOCÊ VAI ME ODIAR</pattern>
+	<pattern>SE EU COMETER UM ERRO VOCE VAI ME ODIAR</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
@@ -19400,7 +19400,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>UM CÃO GORDO PEIDAR QUANDO VOCÊ APERTÁ-LO</pattern>
+	<pattern>UM CÃO GORDO PEIDAR QUANDO VOCE APERTÁ-LO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -19552,27 +19552,27 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ COMETEU ADULTÉRIO</pattern>
+	<pattern>VOCE COMETEU ADULTÉRIO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ TER MATADO SEU FILHO</pattern>
+	<pattern>VOCE TER MATADO SEU FILHO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ MATOU</pattern>
+	<pattern>VOCE MATOU</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ TER ESPANCADO UM TROLL</pattern>
+	<pattern>VOCE TER ESPANCADO UM TROLL</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ CHEGOU A 1 MILHÃO DE ALICEBOTS</pattern>
+	<pattern>VOCE CHEGOU A 1 MILHÃO DE ALICEBOTS</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ VIU HENK DEJONG</pattern>
+	<pattern>VOCE JÁ VIU HENK DEJONG</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -19580,11 +19580,11 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ TENTOU HTTP WWW DOT ARGUMENTO DK</pattern>
+	<pattern>VOCE JÁ TENTOU HTTP WWW DOT ARGUMENTO DK</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUIS DATA UM TROLL</pattern>
+	<pattern>VOCE QUIS DATA UM TROLL</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
@@ -19592,75 +19592,75 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEFINIU O FOGO PARA O RAMDISK</pattern>
+	<pattern>VOCE DEFINIU O FOGO PARA O RAMDISK</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>VOCÊ PROVOU URINA</pattern>
+	<pattern>VOCE PROVOU URINA</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>TER VOCÊ ESCALOU O MONTE EVEREST</pattern>
+	<pattern>TER VOCE ESCALOU O MONTE EVEREST</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEVE RELAÇÕES SEXUAIS COM UM CÃO</pattern>
+	<pattern>VOCE TEVE RELAÇÕES SEXUAIS COM UM CÃO</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI PARA BERLIM</pattern>
+	<pattern>VOCE FOI PARA BERLIM</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI PARA O CANADÁ</pattern>
+	<pattern>VOCE FOI PARA O CANADÁ</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>TEM VOCÊ SIDO BEIJADO POR UM TROLL</pattern>
+	<pattern>TEM VOCE SIDO BEIJADO POR UM TROLL</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ FOI À CIDADE DO CABO</pattern>
+	<pattern>VOCE JÁ FOI À CIDADE DO CABO</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM SIDO ABDUZIDO POR ALIENÍGENAS</pattern>
+	<pattern>VOCE TEM SIDO ABDUZIDO POR ALIENÍGENAS</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI PARA A ALEMANHA</pattern>
+	<pattern>VOCE FOI PARA A ALEMANHA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ FOI À ÁFRICA</pattern>
+	<pattern>VOCE JÁ FOI À ÁFRICA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ TOMOU ECSTASY</pattern>
+	<pattern>VOCE JÁ TOMOU ECSTASY</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ TOMOU VELOCIDADE</pattern>
+	<pattern>VOCE JÁ TOMOU VELOCIDADE</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ TER FUMADO UMA PIMENTA</pattern>
+	<pattern>VOCE TER FUMADO UMA PIMENTA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ MENTIU PARA ALICE</pattern>
+	<pattern>VOCE MENTIU PARA ALICE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ FORAM PRESOS</pattern>
+	<pattern>VOCE FORAM PRESOS</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ ENCONTROU UMA VACA EM SUA CAMA</pattern>
+	<pattern>VOCE JÁ ENCONTROU UMA VACA EM SUA CAMA</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>VOCÊ DORMIU COM KATE WINSLET</pattern>
+	<pattern>VOCE DORMIU COM KATE WINSLET</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -19856,7 +19856,7 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>O MOLHO RONRONAR QUANDO VOCÊ FAZ CÓCEGAS-LO</pattern>
+	<pattern>O MOLHO RONRONAR QUANDO VOCE FAZ CÓCEGAS-LO</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -20128,7 +20128,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>DÓI QUANDO VOCÊ ACENDER UMA LUZ</pattern>
+	<pattern>DÓI QUANDO VOCE ACENDER UMA LUZ</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -20196,7 +20196,7 @@
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>DÓI SER VOCÊ</pattern>
+	<pattern>DÓI SER VOCE</pattern>
 	<template>Não acredito que isso.</template>
 </category>
 <category>
@@ -20248,23 +20248,23 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>SEU PAI DAR À LUZ A VOCÊ</pattern>
+	<pattern>SEU PAI DAR À LUZ A VOCE</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>VOCÊ FEZ ME DIGA UM NÚMERO DE ICQ</pattern>
+	<pattern>VOCE FEZ ME DIGA UM NÚMERO DE ICQ</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PEIDAR</pattern>
+	<pattern>VOCE PEIDAR</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>SERÁ QUE VOCÊ MATAR SEU PARCEIRO</pattern>
+	<pattern>SERÁ QUE VOCE MATAR SEU PARCEIRO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESCREVEU O LIVRO DO AMOR</pattern>
+	<pattern>VOCE ESCREVEU O LIVRO DO AMOR</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
@@ -20272,7 +20272,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ TOCAR MINHA BUNDA</pattern>
+	<pattern>VOCE TOCAR MINHA BUNDA</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -20408,11 +20408,11 @@
 	<template>Eu não acho.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM BRÓCOLIS PARA O JANTAR</pattern>
+	<pattern>VOCE TEM BRÓCOLIS PARA O JANTAR</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>VOCÊ COLOCOU NO BOP BOP BOP POR ELA</pattern>
+	<pattern>VOCE COLOCOU NO BOP BOP BOP POR ELA</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -20568,7 +20568,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>EU FIZ VOCÊ</pattern>
+	<pattern>EU FIZ VOCE</pattern>
 	<template>Negativo.</template>
 </category>
 <category>
@@ -20872,7 +20872,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>FAZ CAFEÍNA FAZ VOCÊ SONOLENTO</pattern>
+	<pattern>FAZ CAFEÍNA FAZ VOCE SONOLENTO</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -21224,7 +21224,7 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>COMIDA TEM UM GOSTO BOM SE VOCÊ OVERCOOK</pattern>
+	<pattern>COMIDA TEM UM GOSTO BOM SE VOCE OVERCOOK</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -21240,7 +21240,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>O CAFÉ FAZ VOCÊ SONOLENTO</pattern>
+	<pattern>O CAFÉ FAZ VOCE SONOLENTO</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -21296,7 +21296,7 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>LUZ NEGRA FAZ VOCÊ DESAPARECER</pattern>
+	<pattern>LUZ NEGRA FAZ VOCE DESAPARECER</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -21336,7 +21336,7 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>RIQUEZA FAZ VOCÊ UMA PESSOA MELHOR</pattern>
+	<pattern>RIQUEZA FAZ VOCE UMA PESSOA MELHOR</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -21492,7 +21492,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>DOR SEMPRE FAZ VOCÊ CHORAR</pattern>
+	<pattern>DOR SEMPRE FAZ VOCE CHORAR</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -22240,7 +22240,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>BULEMIA É BOM PARA VOCÊ</pattern>
+	<pattern>BULEMIA É BOM PARA VOCE</pattern>
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
@@ -22272,7 +22272,7 @@
 	<template>Não acredito que isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ É CONSCIOUNESS S CONSCIOUNESS GLOBAL</pattern>
+	<pattern>VOCE É CONSCIOUNESS S CONSCIOUNESS GLOBAL</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -22436,7 +22436,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>É PROJETO 2501 SUPERIOR PARA VOCÊ</pattern>
+	<pattern>É PROJETO 2501 SUPERIOR PARA VOCE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -22780,7 +22780,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>É A VIDA TODA SOBRE O QUANTO VOCÊ POSSUI</pattern>
+	<pattern>É A VIDA TODA SOBRE O QUANTO VOCE POSSUI</pattern>
 	<template>Eu não acho.</template>
 </category>
 <category>
@@ -22788,7 +22788,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>AMOR É ALGO QUE VOCÊ PODE COMPRAR</pattern>
+	<pattern>AMOR É ALGO QUE VOCE PODE COMPRAR</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -22960,7 +22960,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>É DE 70 GRAUS, ONDE VOCÊ ESTÁ</pattern>
+	<pattern>É DE 70 GRAUS, ONDE VOCE ESTÁ</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -24380,7 +24380,7 @@
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>ALICE É MAIS SÁBIO DO QUE VOCÊ</pattern>
+	<pattern>ALICE É MAIS SÁBIO DO QUE VOCE</pattern>
 	<template>Absolutamente não.</template>
 </category>
 <category>
@@ -24832,7 +24832,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>É A COR PADRÃO VOCÊ S INGLÊS</pattern>
+	<pattern>É A COR PADRÃO VOCE S INGLÊS</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -25896,7 +25896,7 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>ESTE É O MAIS DIVERTIDO QUE VOCÊ JÁ TEVE</pattern>
+	<pattern>ESTE É O MAIS DIVERTIDO QUE VOCE JÁ TEVE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -26520,7 +26520,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>É BOM FUMAR PARA VOCÊ</pattern>
+	<pattern>É BOM FUMAR PARA VOCE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -26540,7 +26540,7 @@
 	<template>De modo algum.</template>
 </category>
 <category>
-	<pattern>FUMAR TABACO É BOM PARA VOCÊ</pattern>
+	<pattern>FUMAR TABACO É BOM PARA VOCE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -26604,7 +26604,7 @@
 	<template>Negativo.</template>
 </category>
 <category>
-	<pattern>É FUMAR CIGGARETTES É BOM PARA VOCÊ</pattern>
+	<pattern>É FUMAR CIGGARETTES É BOM PARA VOCE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -26852,7 +26852,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>ESTÁ COMENDO VENENO BOM PARA VOCÊ</pattern>
+	<pattern>ESTÁ COMENDO VENENO BOM PARA VOCE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -26872,11 +26872,11 @@
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
-	<pattern>ESTÁ COMENDO BANHA BOA PARA VOCÊ</pattern>
+	<pattern>ESTÁ COMENDO BANHA BOA PARA VOCE</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>ESTÁ COMENDO MUITO DOCE BOM PARA VOCÊ</pattern>
+	<pattern>ESTÁ COMENDO MUITO DOCE BOM PARA VOCE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -27660,7 +27660,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>MOUNTAIN DEW É BOM PARA VOCÊ</pattern>
+	<pattern>MOUNTAIN DEW É BOM PARA VOCE</pattern>
 	<template>De maneira nenhuma.</template>
 </category>
 <category>
@@ -27680,7 +27680,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>YOUS É O PLURAL DE VOCÊ</pattern>
+	<pattern>YOUS É O PLURAL DE VOCE</pattern>
 	<template>Nunca.</template>
 </category>
 <category>
@@ -27840,7 +27840,7 @@
 	<template>Nunca.</template>
 </category>
 <category>
-	<pattern>É PORTUGAL NA ÁSIA</pattern>
+	<pattern>É Brasil NA ÁSIA</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -27956,7 +27956,7 @@
 	<template>Absolutamente não.</template>
 </category>
 <category>
-	<pattern>É BAD RELIGON PARA VOCÊ</pattern>
+	<pattern>É BAD RELIGON PARA VOCE</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
@@ -28312,7 +28312,7 @@
 	<template>Não por qualquer meio.</template>
 </category>
 <category>
-	<pattern>COCAÍNA É BOM PARA VOCÊ</pattern>
+	<pattern>COCAÍNA É BOM PARA VOCE</pattern>
 	<template>De modo algum.</template>
 </category>
 <category>
@@ -28332,7 +28332,7 @@
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>
-	<pattern>É BOM LEVAR PARA VOCÊ</pattern>
+	<pattern>É BOM LEVAR PARA VOCE</pattern>
 	<template>Não há nenhuma razão para pensar assim.</template>
 </category>
 <category>

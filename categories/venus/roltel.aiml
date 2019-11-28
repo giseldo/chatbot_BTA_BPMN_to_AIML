@@ -43,7 +43,7 @@
 </category>
 
 <category><pattern>QUANDO NASCEU O JUNIOR</pattern>
-<template>Nasceu num lindo dia de sol, no hospital de Santa Maria em Lisboa a 22 de Novembro de 2001.</template>
+<template>Nasceu num lindo dia de sol, no hospital de Santa Maria em Rio a 22 de Novembro de 2001.</template>
 </category>
 
 <category><pattern>QUANDO NASCEU O SAMUEL</pattern>
@@ -181,8 +181,8 @@
 <category><pattern>LINGUA INGLESA</pattern>
 <template>É a principal lingua utilizada internacionalmente. Eu sei falar inglês, e tu?</template>
 </category>
-<category><pattern>QUAL O OCEANO QUE BANHA PORTUGAL</pattern>
-<template>O oceano que banha portugal é o Oceano Atlântico.</template>
+<category><pattern>QUAL O OCEANO QUE BANHA Brasil</pattern>
+<template>O oceano que banha Brasil é o Oceano Atlântico.</template>
 </category>
 <category><pattern>* WOW</pattern>
 <template>WOW significa World of Warcracft. É um videojogo MMORPG jogado por todo o mundo.</template>
@@ -190,7 +190,7 @@
 <category><pattern>QUAL E A ESCOLA DO JUNIOR</pattern>
 <template>É a escola Dom Nuno alvares Pereira.</template>
 </category>
-<category><pattern>PORTUGAL STUA-SE NO HEMISFERIO NORTE OU SUL</pattern>
+<category><pattern>Brasil STUA-SE NO HEMISFERIO NORTE OU SUL</pattern>
 <template>Situa-se no hemisfério norte, claro.</template>
 </category>
 <category><pattern>O BRASIL ERA UMA DA COLÓNIAS PORTUGUESA</pattern>
@@ -310,7 +310,7 @@
 <template>O google code foi descontinuado</template>
 </category>
 
-<category><pattern>MOVIMENTO ZEITGEIST PORTUGAL</pattern>
+<category><pattern>MOVIMENTO ZEITGEIST Brasil</pattern>
 <template>Vai visitar o site oficial do </template>
 </category>
 

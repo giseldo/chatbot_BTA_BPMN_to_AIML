@@ -1,1 +1,4 @@
-" vc "," você "
+" vc "," voce "
+" você "," voce "
+" vc"," voce"
+" você"," voce"

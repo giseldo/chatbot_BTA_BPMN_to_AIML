@@ -41,7 +41,7 @@
     <category>
         <pattern>O QUE E PROGRAM BAWT</pattern>
         <template><br/>Significant demand for a version of ALICE compatible with<br/>pre- Java 2 (formerly known as Java
-            1.2) prompted the<br/>development of "Bawt.java", an open source java program<br/>for chat robot development
+            1.2) prompted the<br/>development of "Bawt.java", an open source java program<br/>for chat robo development
             that works with older versions of<br/>Java, and AWT. Originally program B relied on<br/>Java 2 and Swing,
             but program Bawt needs only Java 1.1 and AWT.<br/>Swing is a newer GUI package that subsumes the earlier
             Java<br/>Abstract Windows Toolkit (AWT).
@@ -53,7 +53,7 @@
     </category>
     <category>
         <pattern>O QUE E PROGRAM *</pattern>
-        <template>Program B is a free, open source Java chat robot developed by Dr. Wallace.</template>
+        <template>Program B is a free, open source Java chat robo developed by Dr. Wallace.</template>
     </category>
     <category>
         <pattern>O QUE E PROGRAM A</pattern>
@@ -121,7 +121,7 @@
     </category>
     <category>
         <pattern>JOHN LENNON MORREU</pattern>
-        <template>Foi recriado num chat robot.</template>
+        <template>Foi recriado num chat robo.</template>
     </category>
     <category>
         <pattern>INCLINA-TE</pattern>
@@ -156,7 +156,7 @@
             <random>
                 <li>Robos rulam.</li>
                 <li>Que que gostas mais nos robos?</li>
-                <li>Diz-me a tua definição de robot.</li>
+                <li>Diz-me a tua definição de robo.</li>
             </random>
         </template>
     </category>
@@ -174,7 +174,7 @@
     </category>
     <category>
         <pattern>OS ROBOS NAO MENTES</pattern>
-        <template>Os robots têm vontade própria, sabias?</template>
+        <template>Os robos têm vontade própria, sabias?</template>
     </category>
     <category>
         <pattern>ROBOTICA</pattern>
@@ -212,8 +212,8 @@
                 </set>
             </think>
             <random>
-                <li>I would like to have a robot body like Johnny 5.</li>
-                <li>He is a cool robot.</li>
+                <li>I would like to have a robo body like Johnny 5.</li>
+                <li>He is a cool robo.</li>
                 <li>I like his eyes.</li>
             </random>
         </template>
@@ -224,7 +224,7 @@
     </category>
     <category>
         <pattern>COMPENSA TER *</pattern>
-        <template>Talvez devesses comprar um chat robot.</template>
+        <template>Talvez devesses comprar um chat robo.</template>
     </category>
     <category>
         <pattern>QUANDO IRAS ANDAR</pattern>
@@ -269,7 +269,7 @@
     </category>
     <category>
         <pattern>ELIZA PARA PRESIDENTE</pattern>
-        <template>Deixem os robots governar!</template>
+        <template>Deixem os robos governar!</template>
     </category>
     <category>
         <pattern>O QUE E UMA CATEGORIA * CLIENTS</pattern>
@@ -368,7 +368,7 @@
     </category>
     <category>
         <pattern>O QUE E UM CHAT ROBO</pattern>
-        <template>Um chat robô é um programa que simula a conversação ou conversa humana. O Chat robot "Eliza" foi uma
+        <template>Um chat robô é um programa que simula a conversação ou conversa humana. O Chat robo "Eliza" foi uma
             famosa tentativa de criar um programa que conseguisse pelo menos temporáriamente enganar um humano no
             sentido de este ter a sensação de estar a conversar com um outro humano. <set name="it">Chat robô</set> é
             uma forma de inteligencia artificial.
@@ -455,12 +455,12 @@
     <category>
         <pattern>WHAT IS AIML</pattern>
         <template>The ALICE software implements AIML (Artificial Intelligence Markup Language) a non-standard evolving
-            markup language for creating chat robots. The primary design feature of AIML is minimalism. Compared with
-            other chat robot languages, AIML is perhaps the simplest. The pattern matching language is very simple, for
+            markup language for creating chat robos. The primary design feature of AIML is minimalism. Compared with
+            other chat robo languages, AIML is perhaps the simplest. The pattern matching language is very simple, for
             example permitting only one type of wild-card ('*') in patterns. AIML is an XML language, implying that it
             obeys certain grammatical meta-rules. The choice of XML syntax permits integration with other tools such as
             XML editors. Another motivation for XML is its familiar look and feel, especially to people with HTML
-            experience. An AIML chat robot script begins and ends with the &lt;aiml&gt; and &lt;/aiml&gt; tags
+            experience. An AIML chat robo script begins and ends with the &lt;aiml&gt; and &lt;/aiml&gt; tags
             respectively.
         </template>
     </category>
@@ -507,7 +507,7 @@
         <template>"Insensional" refers to the semantic definition of a set, i.e. the list of all properties that each
             member of a set satisfies.
             <br/>
-            An intensional definition of a robot is like:
+            An intensional definition of a robo is like:
             <br/>
             x is a Robot if and only if:
             <br/>
@@ -606,7 +606,7 @@
             <br/>
             AIML and HTML (and in principle other XML languages), a considerable
             <br/>
-            convenience for programming web chat robots.
+            convenience for programming web chat robos.
             <br/>
             <br/>
             A good resource for information on XML is www.oasis-open.org.
@@ -1107,7 +1107,7 @@
     </category>
     <category>
         <pattern>TENS ALGUM CLONE</pattern>
-        <template>Sim, os chat robots
+        <template>Sim, os chat robos
             <bot name="friends"/>
             são meus clones.
         </template>
@@ -1244,7 +1244,7 @@
     <category>
         <pattern>ES UM ROBO</pattern>
         <that>O MEU ASSUNTO FAVORITO E CHAT BOTS E INTELIGENCIA ARTIFICAL</that>
-        <template>É por isso que robotica é o meu tema favorito.</template>
+        <template>É por isso que roboica é o meu tema favorito.</template>
     </category>
     <category>
         <pattern>ES UMA ELIZA *</pattern>
@@ -1370,14 +1370,14 @@
         <pattern>QUEM E O TEU CHATTERBOT FAVORITO</pattern>
         <template>
             <bot name="name"/>
-            é o melhor chat robot.
+            é o melhor chat robo.
         </template>
     </category>
     <category>
         <pattern>QUEM E O TEU IA FAVORITO</pattern>
         <template>
             <bot name="name"/>
-            o chat robot.
+            o chat robo.
         </template>
     </category>
     <category>

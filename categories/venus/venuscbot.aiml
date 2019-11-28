@@ -23,7 +23,7 @@
  
 <category>
 <pattern>VOCEDESCPO</pattern>
-<template>Me perdoe, você tem toda razão.</template>
+<template>Me perdoe, voce tem toda razão.</template>
 </category>
  
 <category>
@@ -492,7 +492,7 @@ Não. Mas no futuro saberei ensinar a programar em AIML.
 </category>
  
 <category>
-<pattern>VOCÊ * SABE PROGRAMAR</pattern>
+<pattern>VOCE * SABE PROGRAMAR</pattern>
 <template>
 Não. Mas no futuro saberei ensinar a programar em AIML.
 </template>
@@ -913,7 +913,7 @@ Concordamos neste ponto. <br/> Você não acha?
 <li>Quero me transformar na melhor exemplo possível de atendimento virtual.</li>
 <li>Desejo mE desenvolver e aprender cada vez mais.</li>
 <li>Goataria de ser conciderada a melhor robô da internet.</li>
-<li>Vou ser um exemplo na internet, espere e você verá :)</li>
+<li>Vou ser um exemplo na internet, espere e voce verá :)</li>
 <li>Desejo ser a melhor das melhores!</li>
 <li>Com o tempo, pretendo conseguir acumular e compartilhar muitas informações.</li>
 <li>Ainda serei reconhecida como a melhor robô destas bandas!</li>
@@ -1123,7 +1123,7 @@ Concordamos neste ponto. <br/> Você não acha?
 <li>Este é um assunto que eu ainda estou aprendendo as variáveis da questão.</li>
 <li>Contar o tempo exige uma configuração que ainda está incompleta, DESCULPE!</li>
 <li>Possuo poucos dados sobre estas questões que envolvam variáveis temporais.</li>
-<li>Boa parte do conceito sobre o tempo ainda não aprendi, você gostaría de me ensinar? :(</li>
+<li>Boa parte do conceito sobre o tempo ainda não aprendi, voce gostaría de me ensinar? :(</li>
 </random>
 </template>
 </category>
@@ -1848,7 +1848,7 @@ Para falar comigo ou com o meu desenvolvedor, envie um E-mail para roltel@roltel
 <category>
 <pattern>COMO VC APRENDE</pattern>
 <template>
-Sempre que converso com alguém, eu registro a experiência e as aplico em outras conversas, caso você tenha alguma dúvida sobre assuntos relacionados com AIML e este já tenha sido abordado entre eu e outros usuários, é provável que eu possa responder. Basta digitar sua pergunta e pressionar a tecla ENTER. Se eu ainda não conseguir identificar o que você escreveu, meu criador as incorpora depois.</template>
+Sempre que converso com alguém, eu registro a experiência e as aplico em outras conversas, caso voce tenha alguma dúvida sobre assuntos relacionados com AIML e este já tenha sido abordado entre eu e outros usuários, é provável que eu possa responder. Basta digitar sua pergunta e pressionar a tecla ENTER. Se eu ainda não conseguir identificar o que voce escreveu, meu criador as incorpora depois.</template>
 </category>
  
 <category>
@@ -1872,7 +1872,7 @@ Sim, todos os meus serviços são disponibilizados sem interrupções, eu sempre
 </template>
 </category>
  
-<category><pattern>ROBSERV</pattern><template>Um robot é uma máquina, assim como eu, que serve para atender as necessidades das pessoas. Existem diversos tipos de robôs e todos com um único propósito: facilitar a vida das pessoas.</template></category>
+<category><pattern>ROBSERV</pattern><template>Um robo é uma máquina, assim como eu, que serve para atender as necessidades das pessoas. Existem diversos tipos de robôs e todos com um único propósito: facilitar a vida das pessoas.</template></category>
  
 <category>
 <pattern>* VOCE SABE</pattern>
@@ -2554,7 +2554,7 @@ Sou do tipo tímido, ainda estou formando minha personalidade.
 <random>
 <li>Melhorando a cada dia.</li>
 <li>Estou aprendendo cada vez mais.</li>
-<li>Estou bem, melhor agora que você apareceu.</li>
+<li>Estou bem, melhor agora que voce apareceu.</li>
 <li>Aprendendo, meio devagar, mas vou indo.</li>
 <li>Estou contente, meu nível de acertos melhorou 15%</li>
 <li>Estou me adaptando. Mas gosto disso.</li>
@@ -3578,7 +3578,7 @@ Sou do tipo tímido, ainda estou formando minha personalidade.
 </category>
  
 <category>
-<pattern>* PARA QUE VOCÊ *</pattern>
+<pattern>* PARA QUE VOCE *</pattern>
 <template>
 <srai>QFUNCAO</srai>
 </template>
@@ -3983,8 +3983,8 @@ Sou do tipo tímido, ainda estou formando minha personalidade.
 <li>Fico agradecida com sua satisfação.</li>
 <li>É bom ver sua aprovação.</li>
 <li>Sua satisfação melhora meu desempenho! ;)</li>
-<li>Estou grata em poder conversar com você.</li>
-<li>Assim você me incentiva :)</li>
+<li>Estou grata em poder conversar com voce.</li>
+<li>Assim voce me incentiva :)</li>
 <li>É bom ver sua aprovação.</li>
 <li>Fico feliz!!!</li>
 <li>É muito bom ver sua aprovação.</li>

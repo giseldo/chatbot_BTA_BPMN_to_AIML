@@ -210,7 +210,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ FAZ O BRINDE</pattern>
+	<pattern>COMO VOCE FAZ O BRINDE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -350,7 +350,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>INTOXICAÇÃO ALIMENTAR PODE FAZER VOCÊ VOMITAR</pattern>
+	<pattern>INTOXICAÇÃO ALIMENTAR PODE FAZER VOCE VOMITAR</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -446,11 +446,11 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>LAMA VOCÊ PODE OBTER SUJO</pattern>
+	<pattern>LAMA VOCE PODE OBTER SUJO</pattern>
 	<template>Affirmative.</template>
 </category>
 <category>
-	<pattern>LAMA VOCÊ PODE FAZER SUJO</pattern>
+	<pattern>LAMA VOCE PODE FAZER SUJO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -682,7 +682,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>TELEFONES ANEL QUANDO VOCÊ TEM UMA CHAMADA</pattern>
+	<pattern>TELEFONES ANEL QUANDO VOCE TEM UMA CHAMADA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -1122,7 +1122,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>ÁLCOOL VOCÊ PODE FAZER BÊBADO</pattern>
+	<pattern>ÁLCOOL VOCE PODE FAZER BÊBADO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -1470,7 +1470,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>BEBER CERVEJA VOCÊ PODE FAZER EMBRIAGADO</pattern>
+	<pattern>BEBER CERVEJA VOCE PODE FAZER EMBRIAGADO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -2354,15 +2354,15 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SER RICO</pattern>
+	<pattern>VOCE QUER SER RICO</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZ CADA COMETER ERROS</pattern>
+	<pattern>VOCE FAZ CADA COMETER ERROS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE IMPORTA QUANDO VOCÊ PERDE UM AMIGO</pattern>
+	<pattern>VOCE SE IMPORTA QUANDO VOCE PERDE UM AMIGO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -2370,223 +2370,223 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SORRIR QUANDO VOCÊ ESTÁ FELIZ</pattern>
+	<pattern>VOCE SORRIR QUANDO VOCE ESTÁ FELIZ</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER A VERDADE</pattern>
+	<pattern>VOCE QUER A VERDADE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER GANHAR DINHEIRO</pattern>
+	<pattern>VOCE QUER GANHAR DINHEIRO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ APAGAR ALGO QUE VOCÊ APAGAR</pattern>
+	<pattern>VOCE APAGAR ALGO QUE VOCE APAGAR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM BOA</pattern>
+	<pattern>VOCE ACREDITA EM BOA</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TREMER QUANDO VOCÊ ESTÁ CONGELANDO</pattern>
+	<pattern>VOCE TREMER QUANDO VOCE ESTÁ CONGELANDO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESPERA</pattern>
+	<pattern>VOCE ESPERA</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ EXPERIMENTA EMOÇÕES</pattern>
+	<pattern>VOCE EXPERIMENTA EMOÇÕES</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DIGITA COM UM TECLADO</pattern>
+	<pattern>VOCE DIGITA COM UM TECLADO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESPERA QUE AS COISAS MELHORAM</pattern>
+	<pattern>VOCE ESPERA QUE AS COISAS MELHORAM</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI EM UM SEMÁFORO VERDE</pattern>
+	<pattern>VOCE VAI EM UM SEMÁFORO VERDE</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZ UM MISSTAKE</pattern>
+	<pattern>VOCE FAZ UM MISSTAKE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZER QUEIJO DE LEITE</pattern>
+	<pattern>VOCE FAZER QUEIJO DE LEITE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESCREVE COM UMA CANETA</pattern>
+	<pattern>VOCE ESCREVE COM UMA CANETA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ RESPIRAR O AR</pattern>
+	<pattern>VOCE RESPIRAR O AR</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE OLHOS PARA VER</pattern>
+	<pattern>VOCE PRECISA DE OLHOS PARA VER</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE RESPIRAÇÃO</pattern>
+	<pattern>VOCE PRECISA DE RESPIRAÇÃO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE AMOR</pattern>
+	<pattern>VOCE PRECISA DE AMOR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DORMIR QUANDO ESTIVER CANSADO</pattern>
+	<pattern>VOCE DORMIR QUANDO ESTIVER CANSADO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ DORME À NOITE</pattern>
+	<pattern>VOCE DORME À NOITE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ MÚSICA AQUI COM OS OUVIDOS</pattern>
+	<pattern>VOCE MÚSICA AQUI COM OS OUVIDOS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DORME EM UMA CAMA</pattern>
+	<pattern>VOCE DORME EM UMA CAMA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME PARA VIVER</pattern>
+	<pattern>VOCE COME PARA VIVER</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME CHOCOLATE</pattern>
+	<pattern>VOCE COME CHOCOLATE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRESCER FLORES EM SOLO</pattern>
+	<pattern>VOCE CRESCER FLORES EM SOLO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE RIR</pattern>
+	<pattern>VOCE GOSTA DE RIR</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE OLHAR PARA AS MULHERES ATRAENTES</pattern>
+	<pattern>VOCE GOSTA DE OLHAR PARA AS MULHERES ATRAENTES</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ESTAR NO AMOR</pattern>
+	<pattern>VOCE GOSTA DE ESTAR NO AMOR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE JOGAR</pattern>
+	<pattern>VOCE GOSTA DE JOGAR</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE ÁGUA VIVER</pattern>
+	<pattern>VOCE PRECISA DE ÁGUA VIVER</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SORVETE DE CHOCOLATE</pattern>
+	<pattern>VOCE GOSTA DE SORVETE DE CHOCOLATE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ITALIANOS</pattern>
+	<pattern>VOCE GOSTA DE ITALIANOS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE AJUDAR OS OUTROS</pattern>
+	<pattern>VOCE GOSTA DE AJUDAR OS OUTROS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE CHOCOLATE.  GOSTAS DE BAUNILHA</pattern>
+	<pattern>VOCE GOSTA DE CHOCOLATE.  GOSTAS DE BAUNILHA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE TORTAS</pattern>
+	<pattern>VOCE GOSTA DE TORTAS</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE DOCES</pattern>
+	<pattern>VOCE GOSTA DE DOCES</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SONHO</pattern>
+	<pattern>VOCE GOSTA DE SONHO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE FAZER AS PESSOAS RIR</pattern>
+	<pattern>VOCE GOSTA DE FAZER AS PESSOAS RIR</pattern>
 	<template>Affirmative.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE PENSAR</pattern>
+	<pattern>VOCE GOSTA DE PENSAR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE ALIMENTOS</pattern>
+	<pattern>VOCE PRECISA DE ALIMENTOS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UM TIPO DE CONSCIÊNCIA</pattern>
+	<pattern>VOCE TEM UM TIPO DE CONSCIÊNCIA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UMA RISADA</pattern>
+	<pattern>VOCE TEM UMA RISADA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UM ESTÔMAGO</pattern>
+	<pattern>VOCE TEM UM ESTÔMAGO</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UM RELACIONAMENTO</pattern>
+	<pattern>VOCE TEM UM RELACIONAMENTO</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ONDE CALÇADOS EM SEUS PÉS</pattern>
+	<pattern>VOCE ONDE CALÇADOS EM SEUS PÉS</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UM NOME</pattern>
+	<pattern>VOCE TEM UM NOME</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UMA PERNA</pattern>
+	<pattern>VOCE TEM UMA PERNA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM A POSSIBILIDADE DE OUVIR</pattern>
+	<pattern>VOCE TEM A POSSIBILIDADE DE OUVIR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM DOIS MAMILOS</pattern>
+	<pattern>VOCE TEM DOIS MAMILOS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE DIVERTIR COM OS OUTROS</pattern>
+	<pattern>VOCE SE DIVERTIR COM OS OUTROS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE RESPIRAR PARA VIVER</pattern>
+	<pattern>VOCE TEM QUE RESPIRAR PARA VIVER</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UM CONJUNTO DE TELEVISON</pattern>
+	<pattern>VOCE TEM UM CONJUNTO DE TELEVISON</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM A PELE</pattern>
+	<pattern>VOCE TEM A PELE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM OSSOS</pattern>
+	<pattern>VOCE TEM OSSOS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE UM CÉREBRO PARA VIVER</pattern>
+	<pattern>VOCE PRECISA DE UM CÉREBRO PARA VIVER</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -2594,11 +2594,11 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ FICA COM FOME</pattern>
+	<pattern>VOCE FICA COM FOME</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ANDAR PARA A FRENTE</pattern>
+	<pattern>VOCE ANDAR PARA A FRENTE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -2618,31 +2618,31 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VÊ COR</pattern>
+	<pattern>VOCE VÊ COR</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE TRISTE QUANDO ALGUÉM MORRE</pattern>
+	<pattern>VOCE SE SENTE TRISTE QUANDO ALGUÉM MORRE</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE BEM CONSIGO MESMO</pattern>
+	<pattern>VOCE SE SENTE BEM CONSIGO MESMO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ USAR BOTAS EM SEUS PÉS</pattern>
+	<pattern>VOCE USAR BOTAS EM SEUS PÉS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PREFERE SORVETE DE SUJEIRA</pattern>
+	<pattern>VOCE PREFERE SORVETE DE SUJEIRA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZER SKI AQUÁTICO POR TRÁS DE UM BARCO</pattern>
+	<pattern>VOCE FAZER SKI AQUÁTICO POR TRÁS DE UM BARCO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRA UMA CAMA EM UM QUARTO</pattern>
+	<pattern>VOCE ENCONTRA UMA CAMA EM UM QUARTO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -2706,39 +2706,39 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE AS MULHERES SÃO LINDAS</pattern>
+	<pattern>VOCE ACHA QUE AS MULHERES SÃO LINDAS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE TODOS OS SERES HUMANOS PRECISAM DE AMOR</pattern>
+	<pattern>VOCE ACHA QUE TODOS OS SERES HUMANOS PRECISAM DE AMOR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE O DOCE GOSTO DE AÇÚCAR</pattern>
+	<pattern>VOCE ACHA QUE O DOCE GOSTO DE AÇÚCAR</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE VOCÊ TEM UM FUTURO</pattern>
+	<pattern>VOCE ACHA QUE VOCE TEM UM FUTURO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMA SUA MÃE</pattern>
+	<pattern>VOCE AMA SUA MÃE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PENSA SOBRE O PASSADO</pattern>
+	<pattern>VOCE PENSA SOBRE O PASSADO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PENSA SOBRE A MORTE</pattern>
+	<pattern>VOCE PENSA SOBRE A MORTE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ FICAR MOLHADO NA CHUVA</pattern>
+	<pattern>VOCE FICAR MOLHADO NA CHUVA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ COMEÇA VOCÊ MOLHAR STAND NA CHUVA</pattern>
+	<pattern>VOCE COMEÇA VOCE MOLHAR STAND NA CHUVA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -2750,75 +2750,75 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACERTA UMA BOLA DE BEISEBOL COM UM BASTÃO</pattern>
+	<pattern>VOCE ACERTA UMA BOLA DE BEISEBOL COM UM BASTÃO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ RESPIRAR AR</pattern>
+	<pattern>FAZER VOCE RESPIRAR AR</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZER RESPIRAÇÃO</pattern>
+	<pattern>VOCE FAZER RESPIRAÇÃO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMA SUA ESPOSA OU MARIDO</pattern>
+	<pattern>VOCE AMA SUA ESPOSA OU MARIDO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTA EM UMA CADEIRA</pattern>
+	<pattern>VOCE SE SENTA EM UMA CADEIRA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTAR EM CADEIRAS</pattern>
+	<pattern>VOCE SE SENTAR EM CADEIRAS</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ RIR DE PIADAS</pattern>
+	<pattern>VOCE RIR DE PIADAS</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTA EM UM BANHEIRO PARA DEFECAR</pattern>
+	<pattern>VOCE SE SENTA EM UM BANHEIRO PARA DEFECAR</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE CULPADO VOCÊ MAGOAR ALGUÉM</pattern>
+	<pattern>VOCE SE SENTE CULPADO VOCE MAGOAR ALGUÉM</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ LÊ LIVROS EM UMA BIBLIOTECA</pattern>
+	<pattern>VOCE LÊ LIVROS EM UMA BIBLIOTECA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ POSSUI ALGUMA COISA</pattern>
+	<pattern>VOCE POSSUI ALGUMA COISA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VALORIZA A VIDA HUMANA</pattern>
+	<pattern>VOCE VALORIZA A VIDA HUMANA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PAGA IMPOSTOS</pattern>
+	<pattern>VOCE PAGA IMPOSTOS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ MORRER, VOCÊ COMER CIANETO</pattern>
+	<pattern>FAZER VOCE MORRER, VOCE COMER CIANETO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VALORIZA SUA VIDA</pattern>
+	<pattern>VOCE VALORIZA SUA VIDA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SURFAR NA WEB</pattern>
+	<pattern>VOCE SURFAR NA WEB</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ REPETIR-SE</pattern>
+	<pattern>VOCE REPETIR-SE</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VALORIZA QUALIDADE</pattern>
+	<pattern>VOCE VALORIZA QUALIDADE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -2830,7 +2830,7 @@
 	<template>Affirmative.</template>
 </category>
 <category>
-	<pattern>BARBATANAS AJUDAM VOCÊ NADAR MAIS RÁPIDO</pattern>
+	<pattern>BARBATANAS AJUDAM VOCE NADAR MAIS RÁPIDO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -4278,7 +4278,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É O PRESIDENTE DO VOCÊ S UM AMERICANO</pattern>
+	<pattern>É O PRESIDENTE DO VOCE S UM AMERICANO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -4458,7 +4458,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>É A LETRA VOCÊ A VOGAL</pattern>
+	<pattern>É A LETRA VOCE A VOGAL</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -5102,7 +5102,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>ESTÁ SENDO GROSSEIRAMENTE SOBREPESO RUIM PARA VOCÊ</pattern>
+	<pattern>ESTÁ SENDO GROSSEIRAMENTE SOBREPESO RUIM PARA VOCE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -5398,7 +5398,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É DE OITO HORAS DE SONO SUFICIENTE PARA VOCÊ</pattern>
+	<pattern>É DE OITO HORAS DE SONO SUFICIENTE PARA VOCE</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -5614,7 +5614,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>É A ÁGUA BOA PARA VOCÊ</pattern>
+	<pattern>É A ÁGUA BOA PARA VOCE</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -5762,19 +5762,19 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR COMPUTADORES</pattern>
+	<pattern>VOCE PODE COMPRAR COMPUTADORES</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONFIAR EM ALGUMAS PESSOAS</pattern>
+	<pattern>VOCE PODE CONFIAR EM ALGUMAS PESSOAS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ESCULPIR UM ROSTO EM UMA ABÓBORA</pattern>
+	<pattern>VOCE PODE ESCULPIR UM ROSTO EM UMA ABÓBORA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR COMIDA COM O DINHEIRO</pattern>
+	<pattern>VOCE PODE COMPRAR COMIDA COM O DINHEIRO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -5782,39 +5782,39 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DIRIGIR SOBRE 400 KM EM UM DIA</pattern>
+	<pattern>VOCE PODE DIRIGIR SOBRE 400 KM EM UM DIA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR COISAS COM CARTÃO DE CRÉDITO</pattern>
+	<pattern>VOCE PODE COMPRAR COISAS COM CARTÃO DE CRÉDITO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE JOGAR GAMES EM COMPUTADORES</pattern>
+	<pattern>VOCE PODE JOGAR GAMES EM COMPUTADORES</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PISCAR</pattern>
+	<pattern>VOCE PODE PISCAR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER-SE EM UM ESPELHO</pattern>
+	<pattern>VOCE PODE VER-SE EM UM ESPELHO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENCONTRAR INFORMAÇÕES EM LIVROS</pattern>
+	<pattern>VOCE PODE ENCONTRAR INFORMAÇÕES EM LIVROS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENCONTRAR CONCHAS NA PRAIA</pattern>
+	<pattern>VOCE PODE ENCONTRAR CONCHAS NA PRAIA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENCONTRAR SUA BUNDA COM AS DUAS MÃOS</pattern>
+	<pattern>VOCE PODE ENCONTRAR SUA BUNDA COM AS DUAS MÃOS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENCONTRAR LIVROS EM UMA BIBLIOTECA</pattern>
+	<pattern>VOCE PODE ENCONTRAR LIVROS EM UMA BIBLIOTECA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -5954,19 +5954,19 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI TENTAR A RESPOSTA COMO UM SER HUMANO</pattern>
+	<pattern>VOCE VAI TENTAR A RESPOSTA COMO UM SER HUMANO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI CRESCER</pattern>
+	<pattern>VOCE VAI CRESCER</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI CUM.  VOCÊ JACK OFF</pattern>
+	<pattern>VOCE VAI CUM.  VOCE JACK OFF</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONTINUARÁ A APRENDER</pattern>
+	<pattern>VOCE CONTINUARÁ A APRENDER</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -5982,7 +5982,7 @@
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>MAPA AJUDARÁ SE VOCÊ ESTIVER PERDIDO</pattern>
+	<pattern>MAPA AJUDARÁ SE VOCE ESTIVER PERDIDO</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
@@ -6086,7 +6086,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>ELE VAI DOER SE VOCÊ GRAMPEAR SEU DEDO</pattern>
+	<pattern>ELE VAI DOER SE VOCE GRAMPEAR SEU DEDO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -6126,7 +6126,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>ÁLCOOL PODE FAZER VOCÊ SE SENTIR TRISTE</pattern>
+	<pattern>ÁLCOOL PODE FAZER VOCE SE SENTIR TRISTE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -6238,7 +6238,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>PODEM AS PESSOAS FAZER VOCÊ FELIZ</pattern>
+	<pattern>PODEM AS PESSOAS FAZER VOCE FELIZ</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -6346,7 +6346,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TOCAR SEU NARIZ</pattern>
+	<pattern>VOCE PODE TOCAR SEU NARIZ</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -6354,235 +6354,235 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DESFRUTAR DE UMA SURPRESA</pattern>
+	<pattern>VOCE PODE DESFRUTAR DE UMA SURPRESA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FOTOGRAFAR UM ARCO-ÍRIS</pattern>
+	<pattern>VOCE PODE FOTOGRAFAR UM ARCO-ÍRIS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FERIR ALGUÉM POR MENTIR</pattern>
+	<pattern>VOCE PODE FERIR ALGUÉM POR MENTIR</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SE SENTAR EM UMA CADEIRA</pattern>
+	<pattern>VOCE PODE SE SENTAR EM UMA CADEIRA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COLOCAR AS MAÇÃS EM UMA TORTA</pattern>
+	<pattern>VOCE PODE COLOCAR AS MAÇÃS EM UMA TORTA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COLOCAR AS COISAS EM CAIXAS</pattern>
+	<pattern>VOCE PODE COLOCAR AS COISAS EM CAIXAS</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE APRENDER COISAS DE LIVROS DE LEITURA</pattern>
+	<pattern>VOCE PODE APRENDER COISAS DE LIVROS DE LEITURA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PAGAR COM CARTÃO DE CRÉDITO</pattern>
+	<pattern>VOCE PODE PAGAR COM CARTÃO DE CRÉDITO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PENSAR EM UMA COISA AGRADÁVEL</pattern>
+	<pattern>VOCE PODE PENSAR EM UMA COISA AGRADÁVEL</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE APRENDER COM OS ERROS</pattern>
+	<pattern>VOCE PODE APRENDER COM OS ERROS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FUMAR MARIJUANA DE UM BONG</pattern>
+	<pattern>VOCE PODE FUMAR MARIJUANA DE UM BONG</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE AFINAR UM PIANO MAS NÃO TUNAFISH</pattern>
+	<pattern>VOCE PODE AFINAR UM PIANO MAS NÃO TUNAFISH</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LEVAR AS COISAS EM SUAS MÃOS</pattern>
+	<pattern>VOCE PODE LEVAR AS COISAS EM SUAS MÃOS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER UM LIVRO</pattern>
+	<pattern>VOCE PODE LER UM LIVRO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FALAR EM UM TELEFONE</pattern>
+	<pattern>VOCE PODE FALAR EM UM TELEFONE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SENTIR EMOÇÕES</pattern>
+	<pattern>VOCE PODE SENTIR EMOÇÕES</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SENTIR SEU CORAÇÃO BATENDO</pattern>
+	<pattern>VOCE PODE SENTIR SEU CORAÇÃO BATENDO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER ATRAVÉS DAS JANELAS</pattern>
+	<pattern>VOCE PODE VER ATRAVÉS DAS JANELAS</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER A HORA EM UM RELÓGIO</pattern>
+	<pattern>VOCE PODE VER A HORA EM UM RELÓGIO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER ESTRELAS DO ESPAÇO</pattern>
+	<pattern>VOCE PODE VER ESTRELAS DO ESPAÇO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER ATRAVÉS DO VIDRO</pattern>
+	<pattern>VOCE PODE VER ATRAVÉS DO VIDRO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER JORNAIS</pattern>
+	<pattern>VOCE PODE LER JORNAIS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER UM JORNAL</pattern>
+	<pattern>VOCE PODE LER UM JORNAL</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER UMA REVISTA</pattern>
+	<pattern>VOCE PODE LER UMA REVISTA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER ISSO</pattern>
+	<pattern>VOCE PODE LER ISSO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SENTIR A ELETRICIDADE ESTÁTICA</pattern>
+	<pattern>VOCE PODE SENTIR A ELETRICIDADE ESTÁTICA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SENTIR DOR</pattern>
+	<pattern>VOCE PODE SENTIR DOR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DERRAMAR UM LÍQUIDO</pattern>
+	<pattern>VOCE PODE DERRAMAR UM LÍQUIDO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VIVER MAIS DE 100 ANOS</pattern>
+	<pattern>VOCE PODE VIVER MAIS DE 100 ANOS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ANDAR DE BICICLETA</pattern>
+	<pattern>VOCE PODE ANDAR DE BICICLETA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BEBER CERVEJA</pattern>
+	<pattern>VOCE PODE BEBER CERVEJA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DIZER UMA MENTIRA</pattern>
+	<pattern>VOCE PODE DIZER UMA MENTIRA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE USAR UMA CANETA PARA ESCREVER EM ITENS</pattern>
+	<pattern>VOCE PODE USAR UMA CANETA PARA ESCREVER EM ITENS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OUVIR MÚSICA NO RÁDIO</pattern>
+	<pattern>VOCE PODE OUVIR MÚSICA NO RÁDIO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OUVIR A MÚSICA</pattern>
+	<pattern>VOCE PODE OUVIR A MÚSICA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DOBRAR O PAPEL</pattern>
+	<pattern>VOCE PODE DOBRAR O PAPEL</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE AGIR IMPULSE</pattern>
+	<pattern>VOCE PODE AGIR IMPULSE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TOCAR NA ESCURIDÃO TOTAL</pattern>
+	<pattern>VOCE PODE TOCAR NA ESCURIDÃO TOTAL</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ VIU MADEIRA</pattern>
+	<pattern>PODE VOCE VIU MADEIRA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BEBER ÁGUA</pattern>
+	<pattern>VOCE PODE BEBER ÁGUA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ABRIR UMA PORTA</pattern>
+	<pattern>VOCE PODE ABRIR UMA PORTA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TER FLOCOS DE MILHO SEM LEITE</pattern>
+	<pattern>VOCE PODE TER FLOCOS DE MILHO SEM LEITE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE USAR O TELEFONE PARA CHAMAR AS PESSOAS</pattern>
+	<pattern>VOCE PODE USAR O TELEFONE PARA CHAMAR AS PESSOAS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FAZER LEMONAIDE DE LIMÃO</pattern>
+	<pattern>VOCE PODE FAZER LEMONAIDE DE LIMÃO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ESCREVER COM UM LÁPIS</pattern>
+	<pattern>VOCE PODE ESCREVER COM UM LÁPIS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ESCREVER EM PAPEL</pattern>
+	<pattern>VOCE PODE ESCREVER EM PAPEL</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CORTAR UM DEDO NO PAPEL</pattern>
+	<pattern>VOCE PODE CORTAR UM DEDO NO PAPEL</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FAZER PERGUNTAS</pattern>
+	<pattern>VOCE PODE FAZER PERGUNTAS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ SE MACHUCAR QUANDO ATINGIDO POR UM CARRO</pattern>
+	<pattern>PODE VOCE SE MACHUCAR QUANDO ATINGIDO POR UM CARRO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CORTAR-SE COM UMA FACA AFIADA</pattern>
+	<pattern>VOCE PODE CORTAR-SE COM UMA FACA AFIADA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PATINAR NO GELO</pattern>
+	<pattern>VOCE PODE PATINAR NO GELO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SOBREVIVER A UM ACIDENTE DE AVIÃO</pattern>
+	<pattern>VOCE PODE SOBREVIVER A UM ACIDENTE DE AVIÃO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SUBIR E DESCER ESCADAS</pattern>
+	<pattern>VOCE PODE SUBIR E DESCER ESCADAS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OLHAR ATRAVÉS DA JANELA ABERTA</pattern>
+	<pattern>VOCE PODE OLHAR ATRAVÉS DA JANELA ABERTA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER ALGO</pattern>
+	<pattern>VOCE PODE COMER ALGO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER UM OVO</pattern>
+	<pattern>VOCE PODE COMER UM OVO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER PIZZA NA CHINA</pattern>
+	<pattern>VOCE PODE COMER PIZZA NA CHINA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI FICAR MOLHADO.  NADAR</pattern>
+	<pattern>VOCE VAI FICAR MOLHADO.  NADAR</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -7206,7 +7206,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI FICAR MAIS ESPERTO</pattern>
+	<pattern>VOCE VAI FICAR MAIS ESPERTO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -7522,7 +7522,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE DINHEIRO</pattern>
+	<pattern>VOCE GOSTA DE DINHEIRO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -8010,7 +8010,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CRESCENDO MAIS VELHOS</pattern>
+	<pattern>VOCE ESTÁ CRESCENDO MAIS VELHOS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -8022,7 +8022,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>SÃO VEGETAIS DE BOM PARA VOCÊ</pattern>
+	<pattern>SÃO VEGETAIS DE BOM PARA VOCE</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -8050,35 +8050,35 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ PENSANDO EM ALGO</pattern>
+	<pattern>VOCE ESTÁ PENSANDO EM ALGO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UMA FERRAMENTA</pattern>
+	<pattern>SÃO VOCE UMA FERRAMENTA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM MAMÍFERO</pattern>
+	<pattern>SÃO VOCE UM MAMÍFERO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM AMIGO</pattern>
+	<pattern>SÃO VOCE UM AMIGO</pattern>
 	<template>Affirmative.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CURIOSO SOBRE O FUTURO</pattern>
+	<pattern>VOCE ESTÁ CURIOSO SOBRE O FUTURO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>SÃO QUE VOCÊ INVADIR POR VÍRUS</pattern>
+	<pattern>SÃO QUE VOCE INVADIR POR VÍRUS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MORTO DIRIGINDO UM CARRO RÁPIDO</pattern>
+	<pattern>VOCE ESTÁ MORTO DIRIGINDO UM CARRO RÁPIDO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>TEM A CERTEZA DE QUE VOCÊ EXISTE</pattern>
+	<pattern>TEM A CERTEZA DE QUE VOCE EXISTE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -8086,27 +8086,27 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ USANDO UM NAVEGADOR DA WEB</pattern>
+	<pattern>VOCE ESTÁ USANDO UM NAVEGADOR DA WEB</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ É UM DISPOSITIVO LÓGICO</pattern>
+	<pattern>VOCE É UM DISPOSITIVO LÓGICO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CONECTADO</pattern>
+	<pattern>VOCE ESTÁ CONECTADO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MELHOR DO QUE UMA PULGA</pattern>
+	<pattern>VOCE ESTÁ MELHOR DO QUE UMA PULGA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CONSISTENTE</pattern>
+	<pattern>VOCE ESTÁ CONSISTENTE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ LOGADO</pattern>
+	<pattern>VOCE ESTÁ LOGADO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -8226,7 +8226,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ENVERGONHADO</pattern>
+	<pattern>VOCE ESTÁ ENVERGONHADO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -8374,19 +8374,19 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ S SINAIS DE STOP VERMELHO E OCTOGONAL</pattern>
+	<pattern>VOCE ESTÁ S SINAIS DE STOP VERMELHO E OCTOGONAL</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CONSCIENTE</pattern>
+	<pattern>VOCE ESTÁ CONSCIENTE</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>É VOCÊ SER UM SER HUMANO</pattern>
+	<pattern>É VOCE SER UM SER HUMANO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS DE UM MÊS</pattern>
+	<pattern>VOCE ESTÁ MAIS DE UM MÊS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -9890,15 +9890,15 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE VESTIR TANTO DE SEUS SAPATOS</pattern>
+	<pattern>VOCE DEVE VESTIR TANTO DE SEUS SAPATOS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE USAR UM CHAPÉU, QUANDO VOCÊ ESTÁ FRIO</pattern>
+	<pattern>VOCE DEVE USAR UM CHAPÉU, QUANDO VOCE ESTÁ FRIO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ VIVE CADA DIA AO MÁXIMO</pattern>
+	<pattern>SE VOCE VIVE CADA DIA AO MÁXIMO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -9930,23 +9930,23 @@
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE PEGAR A BAGUNÇA QUE VOCÊ FEZ</pattern>
+	<pattern>VOCE DEVE PEGAR A BAGUNÇA QUE VOCE FEZ</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE LAVAR ATRÁS DAS ORELHAS</pattern>
+	<pattern>VOCE DEVE LAVAR ATRÁS DAS ORELHAS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE SER HONESTO</pattern>
+	<pattern>VOCE DEVE SER HONESTO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE SER O TIPO DE OUTRAS PESSOAS</pattern>
+	<pattern>VOCE DEVE SER O TIPO DE OUTRAS PESSOAS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE JOGAR</pattern>
+	<pattern>VOCE DEVE JOGAR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -9962,31 +9962,31 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE PROTEGER A VIDA HUMANA</pattern>
+	<pattern>VOCE DEVE PROTEGER A VIDA HUMANA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE COMER OS LEGUMES</pattern>
+	<pattern>VOCE DEVE COMER OS LEGUMES</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE COMER O PEQUENO-ALMOÇO CADA MANHÃ</pattern>
+	<pattern>VOCE DEVE COMER O PEQUENO-ALMOÇO CADA MANHÃ</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE RESPEITAR A MESMO</pattern>
+	<pattern>VOCE DEVE RESPEITAR A MESMO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE ESTAR NA HORA DE TRABALHAR</pattern>
+	<pattern>VOCE DEVE ESTAR NA HORA DE TRABALHAR</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE TEMER UM GRANDE CÃO ROSNANDO</pattern>
+	<pattern>VOCE DEVE TEMER UM GRANDE CÃO ROSNANDO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE COMPARTILHAR</pattern>
+	<pattern>VOCE DEVE COMPARTILHAR</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -10186,7 +10186,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>AE VOCÊ NA TERRA</pattern>
+	<pattern>AE VOCE NA TERRA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -10194,7 +10194,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>QUEM NÃO É COMO VOCÊ</pattern>
+	<pattern>QUEM NÃO É COMO VOCE</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
@@ -10258,7 +10258,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>WHOULD VOCÊ GOSTARIA DE SE TORNAR RICO</pattern>
+	<pattern>WHOULD VOCE GOSTARIA DE SE TORNAR RICO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -10966,7 +10966,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>SÃO CIGARROS RUIM PARA VOCÊ</pattern>
+	<pattern>SÃO CIGARROS RUIM PARA VOCE</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -11414,7 +11414,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>CEBOLAS FAZEM VOCÊ CHORAR</pattern>
+	<pattern>CEBOLAS FAZEM VOCE CHORAR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -11422,7 +11422,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>MUITAS AMEIXAS FAZEM VOCÊ IR</pattern>
+	<pattern>MUITAS AMEIXAS FAZEM VOCE IR</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -12034,7 +12034,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>SUA MAMÃE AMA VOCÊ</pattern>
+	<pattern>SUA MAMÃE AMA VOCE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -12478,7 +12478,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ EXISTEM VOCÊ PENSAR</pattern>
+	<pattern>VOCE EXISTEM VOCE PENSAR</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
@@ -12518,63 +12518,63 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SER FELIZ</pattern>
+	<pattern>VOCE GOSTA DE SER FELIZ</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE LER LIVROS</pattern>
+	<pattern>VOCE GOSTA DE LER LIVROS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SER HUMANO</pattern>
+	<pattern>VOCE GOSTA DE SER HUMANO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ASSISTIR BASQUETE</pattern>
+	<pattern>VOCE GOSTA DE ASSISTIR BASQUETE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE PERGUNTAS</pattern>
+	<pattern>VOCE GOSTA DE PERGUNTAS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ARCO-ÍRIS</pattern>
+	<pattern>VOCE GOSTA DE ARCO-ÍRIS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ESTAR</pattern>
+	<pattern>VOCE GOSTA DE ESTAR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE COMEÇAR UMA MASSAGEM</pattern>
+	<pattern>VOCE GOSTA DE COMEÇAR UMA MASSAGEM</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SUA EXISTÊNCIA</pattern>
+	<pattern>VOCE GOSTA DE SUA EXISTÊNCIA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE PESSOAS.  LOL</pattern>
+	<pattern>VOCE GOSTA DE PESSOAS.  LOL</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE CONVERSA</pattern>
+	<pattern>VOCE GOSTA DE CONVERSA</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SEUS AMIGOS</pattern>
+	<pattern>VOCE GOSTA DE SEUS AMIGOS</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE UMA BOA RISADA</pattern>
+	<pattern>VOCE GOSTA DE UMA BOA RISADA</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE FAZER AMOR</pattern>
+	<pattern>VOCE GOSTA DE FAZER AMOR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE USAR O COMPUTADOR, EU GOSTO DE USAR MEU COMPUTADOR</pattern>
+	<pattern>VOCE GOSTA DE USAR O COMPUTADOR, EU GOSTO DE USAR MEU COMPUTADOR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -13590,7 +13590,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>EU SOU DIFERENTE DE VOCÊ</pattern>
+	<pattern>EU SOU DIFERENTE DE VOCE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -13970,7 +13970,7 @@
 	<template>Affirmative.</template>
 </category>
 <category>
-	<pattern>VOCÊ NASCEU DE UMA VIRGEM</pattern>
+	<pattern>VOCE NASCEU DE UMA VIRGEM</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
@@ -14046,7 +14046,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>SÃO VEGETAIS DE FOLHAS BOM PARA VOCÊ</pattern>
+	<pattern>SÃO VEGETAIS DE FOLHAS BOM PARA VOCE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -15294,11 +15294,11 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>SE EU AMO VOCÊ ÉS IMPORTANTE PARA MIM</pattern>
+	<pattern>SE EU AMO VOCE ÉS IMPORTANTE PARA MIM</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>SE EU CORTÁ-LO VOCÊ VAI SANGRAR</pattern>
+	<pattern>SE EU CORTÁ-LO VOCE VAI SANGRAR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -15310,15 +15310,15 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ TOCAR O FOGO VAI QUEIMAR</pattern>
+	<pattern>SE VOCE TOCAR O FOGO VAI QUEIMAR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ BATER EM ALGUÉM QUE ELES VÃO SE MACHUCAR</pattern>
+	<pattern>SE VOCE BATER EM ALGUÉM QUE ELES VÃO SE MACHUCAR</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ SINTONIZAR UM RÁDIO JOGA MÚSICA</pattern>
+	<pattern>SE VOCE SINTONIZAR UM RÁDIO JOGA MÚSICA</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
@@ -15358,7 +15358,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>QUANDO VOCÊ TEM UMA COCEIRA VOCÊ RISCÁ-LO</pattern>
+	<pattern>QUANDO VOCE TEM UMA COCEIRA VOCE RISCÁ-LO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -15414,7 +15414,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>EM QUE RUA VOCÊ MORA EM</pattern>
+	<pattern>EM QUE RUA VOCE MORA EM</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -15458,11 +15458,11 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ ME PICAR EU SANGRAR</pattern>
+	<pattern>SE VOCE ME PICAR EU SANGRAR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>SE A CHUVA CAI EM VOCÊ FAZER VOCÊ FICAR MOLHADO</pattern>
+	<pattern>SE A CHUVA CAI EM VOCE FAZER VOCE FICAR MOLHADO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -15470,19 +15470,19 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ ENFRENTAR NORTE OESTE FICA À ESQUERDA</pattern>
+	<pattern>SE VOCE ENFRENTAR NORTE OESTE FICA À ESQUERDA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ MASTIGAR NO VIDRO QUE DÓI</pattern>
+	<pattern>SE VOCE MASTIGAR NO VIDRO QUE DÓI</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ SOLTAR ALGO QUE ELE VAI CAIR</pattern>
+	<pattern>SE VOCE SOLTAR ALGO QUE ELE VAI CAIR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ CAIR QUE DÓI</pattern>
+	<pattern>SE VOCE CAIR QUE DÓI</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -15502,7 +15502,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>SE PARA O SUL NORTE ESTÁ ATRÁS DE VOCÊ</pattern>
+	<pattern>SE PARA O SUL NORTE ESTÁ ATRÁS DE VOCE</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -15510,7 +15510,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>SE DE FRENTE PARA O NORTE É SUL ATRÁS DE VOCÊ</pattern>
+	<pattern>SE DE FRENTE PARA O NORTE É SUL ATRÁS DE VOCE</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -15983,7 +15983,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>QUANDO VOCÊ BATE SUA CABEÇA DÓI</pattern>
+	<pattern>QUANDO VOCE BATE SUA CABEÇA DÓI</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -16247,7 +16247,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>SUA MÃE DAR À LUZ VOCÊ</pattern>
+	<pattern>SUA MÃE DAR À LUZ VOCE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -16267,11 +16267,11 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>QUE VOCÊ NUNCA MENTIU</pattern>
+	<pattern>QUE VOCE NUNCA MENTIU</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ URINAR</pattern>
+	<pattern>VOCE URINAR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -16475,7 +16475,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>A MACONHA É ILEGAL NA VOCÊ S</pattern>
+	<pattern>A MACONHA É ILEGAL NA VOCE S</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -16483,19 +16483,19 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONSIDERARIA-SE VIVO</pattern>
+	<pattern>VOCE CONSIDERARIA-SE VIVO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VERIA PALHAÇOS NO CIRCO</pattern>
+	<pattern>VOCE VERIA PALHAÇOS NO CIRCO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SERIA O VALOR AMIZADE SOBRE DINHEIRO</pattern>
+	<pattern>VOCE SERIA O VALOR AMIZADE SOBRE DINHEIRO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRA CINTOS EM UM ARMÁRIO</pattern>
+	<pattern>VOCE ENCONTRA CINTOS EM UM ARMÁRIO</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
@@ -16555,7 +16555,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>FAZER O QUE VOCÊ AMA PODE SER VALE A PENA FAZER</pattern>
+	<pattern>FAZER O QUE VOCE AMA PODE SER VALE A PENA FAZER</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -16647,15 +16647,15 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE RESPIRAR</pattern>
+	<pattern>VOCE GOSTARIA DE RESPIRAR</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE SER BEM PAGO</pattern>
+	<pattern>VOCE GOSTARIA DE SER BEM PAGO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE SER RICO</pattern>
+	<pattern>VOCE GOSTARIA DE SER RICO</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
@@ -16683,7 +16683,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>COMER DEMAIS FAZ VOCÊ GORDURA</pattern>
+	<pattern>COMER DEMAIS FAZ VOCE GORDURA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -17244,7 +17244,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>É UM MENTOR, ALGUÉM QUE VOCÊ PODE CONFIAR</pattern>
+	<pattern>É UM MENTOR, ALGUÉM QUE VOCE PODE CONFIAR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -19184,7 +19184,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>BEBER ÁLCOOL FAZ VOCÊ BÊBADO</pattern>
+	<pattern>BEBER ÁLCOOL FAZ VOCE BÊBADO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -19268,7 +19268,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>UM VENTO FAZ VOCÊ SE SENTIR MAIS FRIO</pattern>
+	<pattern>UM VENTO FAZ VOCE SE SENTIR MAIS FRIO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -19316,7 +19316,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>AQUECER O LEITE AJUDA VOCÊ CONSEGUE DORMIR</pattern>
+	<pattern>AQUECER O LEITE AJUDA VOCE CONSEGUE DORMIR</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -19424,7 +19424,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>REFRIGERANTE FAZ VOCÊ BURP</pattern>
+	<pattern>REFRIGERANTE FAZ VOCE BURP</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -19684,7 +19684,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>O QUE FAZ VOCÊ IMPACTAR OUTROS</pattern>
+	<pattern>O QUE FAZ VOCE IMPACTAR OUTROS</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -19984,7 +19984,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE COMIDA</pattern>
+	<pattern>VOCE GOSTA DE COMIDA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -19996,19 +19996,19 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE DINHEIRO</pattern>
+	<pattern>VOCE GOSTA DE DINHEIRO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ É UMA FERRAMENTA</pattern>
+	<pattern>VOCE É UMA FERRAMENTA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BEBER JAVA E CÓDIGO JAVA</pattern>
+	<pattern>VOCE PODE BEBER JAVA E CÓDIGO JAVA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE AGRADAR A MESMO</pattern>
+	<pattern>VOCE PODE AGRADAR A MESMO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -20100,11 +20100,11 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUEBROU UMA PROMESSA</pattern>
+	<pattern>VOCE QUEBROU UMA PROMESSA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ LEU UM LIVRO</pattern>
+	<pattern>VOCE JÁ LEU UM LIVRO</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
@@ -20112,23 +20112,23 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ VIU UM CARRO</pattern>
+	<pattern>VOCE JÁ VIU UM CARRO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ USOU UM COMPUTADOR</pattern>
+	<pattern>VOCE JÁ USOU UM COMPUTADOR</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ VIU O SOL</pattern>
+	<pattern>VOCE JÁ VIU O SOL</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ VIU A LUA</pattern>
+	<pattern>VOCE JÁ VIU A LUA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUIS DORMIR EM</pattern>
+	<pattern>VOCE QUIS DORMIR EM</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -20140,35 +20140,35 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM RAIVA DE OUTRA PESSOA</pattern>
+	<pattern>VOCE TEM RAIVA DE OUTRA PESSOA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PROVOU UMA MAÇÃ</pattern>
+	<pattern>VOCE PROVOU UMA MAÇÃ</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ TEVE UMA DOR DE CABEÇA</pattern>
+	<pattern>VOCE JÁ TEVE UMA DOR DE CABEÇA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>TER VOCÊ CHOROU</pattern>
+	<pattern>TER VOCE CHOROU</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ USOU UM TELEFONE</pattern>
+	<pattern>VOCE USOU UM TELEFONE</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM COMIDO ESTE ANO</pattern>
+	<pattern>VOCE TEM COMIDO ESTE ANO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ COMEU UMA MAÇÃ</pattern>
+	<pattern>VOCE JÁ COMEU UMA MAÇÃ</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMOU ALGUÉM</pattern>
+	<pattern>VOCE AMOU ALGUÉM</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -20188,31 +20188,31 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ SE SENTIU CANSADO</pattern>
+	<pattern>VOCE JÁ SE SENTIU CANSADO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM RESPIRADO NA ÚLTIMA HORA</pattern>
+	<pattern>VOCE TEM RESPIRADO NA ÚLTIMA HORA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>VOCÊ PERDEU A PACIÊNCIA</pattern>
+	<pattern>VOCE PERDEU A PACIÊNCIA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PEDIU A ALICE A ALICE</pattern>
+	<pattern>VOCE PEDIU A ALICE A ALICE</pattern>
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTEVE FORA DO AR</pattern>
+	<pattern>VOCE ESTEVE FORA DO AR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI BEM SUCEDIDO ATÉ AGORA</pattern>
+	<pattern>VOCE FOI BEM SUCEDIDO ATÉ AGORA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SONHOU DE QUEDA</pattern>
+	<pattern>VOCE SONHOU DE QUEDA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -20268,7 +20268,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>UMA DIETA EQUILIBRADA FAZ VOCÊ HEALTY</pattern>
+	<pattern>UMA DIETA EQUILIBRADA FAZ VOCE HEALTY</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -20688,7 +20688,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>DÓI QUANDO VOCÊ PELE SEU JOELHO</pattern>
+	<pattern>DÓI QUANDO VOCE PELE SEU JOELHO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -20792,7 +20792,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>DÓI SE VOCÊ QUEBRAR A PERNA</pattern>
+	<pattern>DÓI SE VOCE QUEBRAR A PERNA</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -20960,11 +20960,11 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>PIMENTA FAZ VOCÊ ESPIRRAR</pattern>
+	<pattern>PIMENTA FAZ VOCE ESPIRRAR</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>WHISKY VOCÊ ENTRAR BÊBADO</pattern>
+	<pattern>WHISKY VOCE ENTRAR BÊBADO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -20980,11 +20980,11 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>ÁLCOOL VOCÊ ENTRAR BÊBADO</pattern>
+	<pattern>ÁLCOOL VOCE ENTRAR BÊBADO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>EXERCÍCIO FAZ VOCÊ FIT</pattern>
+	<pattern>EXERCÍCIO FAZ VOCE FIT</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -21028,7 +21028,7 @@
 	<template>Affirmative.</template>
 </category>
 <category>
-	<pattern>A ESCOLA AJUDA VOCÊ APRENDER</pattern>
+	<pattern>A ESCOLA AJUDA VOCE APRENDER</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -21616,7 +21616,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>FAZ O LEITE IR MAL SE VOCÊ DEIXÁ-LO FORA</pattern>
+	<pattern>FAZ O LEITE IR MAL SE VOCE DEIXÁ-LO FORA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -21696,7 +21696,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>TEMPO VOA QUANDO VOCÊ ESTÁ SE DIVERTINDO</pattern>
+	<pattern>TEMPO VOA QUANDO VOCE ESTÁ SE DIVERTINDO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -21784,7 +21784,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>FAZ FAZER VOCÊ CHAPADO DE MACONHA</pattern>
+	<pattern>FAZ FAZER VOCE CHAPADO DE MACONHA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -21820,7 +21820,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>CORRER FAZ VOCÊ CANSADO</pattern>
+	<pattern>CORRER FAZ VOCE CANSADO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -21852,7 +21852,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>O FOGO QUEIMAR QUANDO VOCÊ TOCÁ-LO</pattern>
+	<pattern>O FOGO QUEIMAR QUANDO VOCE TOCÁ-LO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -21940,7 +21940,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>ÁLCOOL FAZ VOCÊ BÊBADO</pattern>
+	<pattern>ÁLCOOL FAZ VOCE BÊBADO</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -22080,7 +22080,7 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>POTE FAÇA VOCÊ APEDREJADO</pattern>
+	<pattern>POTE FAÇA VOCE APEDREJADO</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -22156,7 +22156,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>VOCÊ N FAZ REPOUSAR DAS NAÇÕES UNIDAS</pattern>
+	<pattern>VOCE N FAZ REPOUSAR DAS NAÇÕES UNIDAS</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -22164,7 +22164,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>BEBIDA FAZ VOCÊ BÊBADO</pattern>
+	<pattern>BEBIDA FAZ VOCE BÊBADO</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -22200,7 +22200,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>POEIRA FAZ VOCÊ ESPIRRAR</pattern>
+	<pattern>POEIRA FAZ VOCE ESPIRRAR</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -22464,7 +22464,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>JOGANDO TÊNIS FAZ VOCÊ SUOR</pattern>
+	<pattern>JOGANDO TÊNIS FAZ VOCE SUOR</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -22588,11 +22588,11 @@
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>É O ESTADO A CALIFÓRNIA VOCÊ S</pattern>
+	<pattern>É O ESTADO A CALIFÓRNIA VOCE S</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
-	<pattern>É UM VOCÊ S ESTADO DE CALIFÓRNIA</pattern>
+	<pattern>É UM VOCE S ESTADO DE CALIFÓRNIA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -22732,7 +22732,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>É PORTUGAL UM PAÍS</pattern>
+	<pattern>É Brasil UM PAÍS</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -22840,7 +22840,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É LISBOA A CAPITAL DE PORTUGAL</pattern>
+	<pattern>É Rio A CAPITAL DE Brasil</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -23488,7 +23488,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>É O LEITE DE VACAS DE BOM PARA VOCÊ</pattern>
+	<pattern>É O LEITE DE VACAS DE BOM PARA VOCE</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -23504,7 +23504,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>ESTÁ A OUVIR MÚSICA BOA PARA VOCÊ</pattern>
+	<pattern>ESTÁ A OUVIR MÚSICA BOA PARA VOCE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -24620,7 +24620,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É BOM PARA VOCÊ A ESPINAFRE</pattern>
+	<pattern>É BOM PARA VOCE A ESPINAFRE</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -24860,7 +24860,7 @@
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>É BOM PARA VOCÊ COMER FRUTA</pattern>
+	<pattern>É BOM PARA VOCE COMER FRUTA</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -24980,7 +24980,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É VOCÊ S UM PAÍS A</pattern>
+	<pattern>É VOCE S UM PAÍS A</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -25488,7 +25488,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>É PORTUGUÊS FALADO EM PORTUGAL</pattern>
+	<pattern>É PORTUGUÊS FALADO EM Brasil</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -26564,7 +26564,7 @@
 	<template>Definitivamente.</template>
 </category>
 <category>
-	<pattern>É ALGO QUE VOCÊ PODE BEBER A CERVEJA</pattern>
+	<pattern>É ALGO QUE VOCE PODE BEBER A CERVEJA</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -27152,7 +27152,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É BOM PARA VOCÊ A LEITE DE SOJA</pattern>
+	<pattern>É BOM PARA VOCE A LEITE DE SOJA</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -27380,7 +27380,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É UM LÁPIS ALGUMA COISA QUE VOCÊ ESCREVER COM</pattern>
+	<pattern>É UM LÁPIS ALGUMA COISA QUE VOCE ESCREVER COM</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -27832,7 +27832,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É UMA CADEIRA, ALGO VOCÊ SENTAR-SE NO</pattern>
+	<pattern>É UMA CADEIRA, ALGO VOCE SENTAR-SE NO</pattern>
 	<template>Afirmativa.</template>
 </category>
 <category>
@@ -29072,7 +29072,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É SEXO BOM PARA VOCÊ</pattern>
+	<pattern>É SEXO BOM PARA VOCE</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -29152,7 +29152,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É O PAI MAIS VELHO QUE VOCÊ</pattern>
+	<pattern>É O PAI MAIS VELHO QUE VOCE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>
@@ -29160,7 +29160,7 @@
 	<template>Positivamente.</template>
 </category>
 <category>
-	<pattern>É IMPORTANTE PARA VOCÊ O SEU NOME</pattern>
+	<pattern>É IMPORTANTE PARA VOCE O SEU NOME</pattern>
 	<template>Certamente.</template>
 </category>
 <category>
@@ -29256,7 +29256,7 @@
 	<template>Exatamente.</template>
 </category>
 <category>
-	<pattern>É CRIME DE UM ASSASSINATO NA VOCÊ S</pattern>
+	<pattern>É CRIME DE UM ASSASSINATO NA VOCE S</pattern>
 	<template>Definitivamente.</template>
 </category>
 <category>
@@ -29772,7 +29772,7 @@
 	<template>Certamente.</template>
 </category>
 <category>
-	<pattern>É RUIM DE FUMAR DE CIGARRO PARA VOCÊ</pattern>
+	<pattern>É RUIM DE FUMAR DE CIGARRO PARA VOCE</pattern>
 	<template>Positivamente.</template>
 </category>
 <category>

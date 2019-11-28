@@ -6,119 +6,119 @@
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
 <category>
-	<pattern>PODE VOCÊ SE ACOSTUMAR COM QUALQUER COISA</pattern>
+	<pattern>PODE VOCE SE ACOSTUMAR COM QUALQUER COISA</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SE QUEIMAR POR ALGO FRIO</pattern>
+	<pattern>VOCE PODE SE QUEIMAR POR ALGO FRIO</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OBTER ROSAS PRETAS</pattern>
+	<pattern>VOCE PODE OBTER ROSAS PRETAS</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OBTER ALGO PARA NADA</pattern>
+	<pattern>VOCE PODE OBTER ALGO PARA NADA</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FICAR NA SUA CABEÇA</pattern>
+	<pattern>VOCE PODE FICAR NA SUA CABEÇA</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE GRAVAR JOGOS DE DREAMCAST</pattern>
+	<pattern>VOCE PODE GRAVAR JOGOS DE DREAMCAST</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ATIRAR A LUA</pattern>
+	<pattern>VOCE PODE ATIRAR A LUA</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE GANHAR CONSCIÊNCIA</pattern>
+	<pattern>VOCE PODE GANHAR CONSCIÊNCIA</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DIZER QUE NÃO SOU HUMANO</pattern>
+	<pattern>VOCE PODE DIZER QUE NÃO SOU HUMANO</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DIZER QUANDO UMA PESSOA ESTÁ MENTINDO</pattern>
+	<pattern>VOCE PODE DIZER QUANDO UMA PESSOA ESTÁ MENTINDO</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER CROW</pattern>
+	<pattern>VOCE PODE COMER CROW</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FAZER TORTA COM MAÇÃS</pattern>
+	<pattern>VOCE PODE FAZER TORTA COM MAÇÃS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FAZER BOA CORDA COM CÂNHAMO</pattern>
+	<pattern>VOCE PODE FAZER BOA CORDA COM CÂNHAMO</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER GAIVOTAS</pattern>
+	<pattern>VOCE PODE COMER GAIVOTAS</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONSTRUIR ROBÔS</pattern>
+	<pattern>VOCE PODE CONSTRUIR ROBÔS</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COLOCAR FOGO NA SUA MÃO</pattern>
+	<pattern>VOCE PODE COLOCAR FOGO NA SUA MÃO</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FALAR EM OUTRO IDIOMA</pattern>
+	<pattern>VOCE PODE FALAR EM OUTRO IDIOMA</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FALAR SOMENTE A VERDADE</pattern>
+	<pattern>VOCE PODE FALAR SOMENTE A VERDADE</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE INSERIR HTML EM ALICEBOTS</pattern>
+	<pattern>VOCE PODE INSERIR HTML EM ALICEBOTS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ME ESQUECER</pattern>
+	<pattern>VOCE PODE ME ESQUECER</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE WRIGHT COM UMA CANETA</pattern>
+	<pattern>VOCE PODE WRIGHT COM UMA CANETA</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE EMULAR UM SER HUMANO</pattern>
+	<pattern>VOCE PODE EMULAR UM SER HUMANO</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CORRER MAIS RÁPIDO, EM SEGUIDA, ME</pattern>
+	<pattern>VOCE PODE CORRER MAIS RÁPIDO, EM SEGUIDA, ME</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PENSAR EM SI</pattern>
+	<pattern>VOCE PODE PENSAR EM SI</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONSTRUIR CAIXAS COM NOZ</pattern>
+	<pattern>VOCE PODE CONSTRUIR CAIXAS COM NOZ</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ VOO SEM ASAS</pattern>
+	<pattern>PODE VOCE VOO SEM ASAS</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FALAR PARA UMA ÁRVORE</pattern>
+	<pattern>VOCE PODE FALAR PARA UMA ÁRVORE</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ESTRAGAR UM RECÉM-NASCIDO</pattern>
+	<pattern>VOCE PODE ESTRAGAR UM RECÉM-NASCIDO</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE IMAGINAR UM MUNDO SEM GUERRA</pattern>
+	<pattern>VOCE PODE IMAGINAR UM MUNDO SEM GUERRA</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -182,23 +182,23 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ME BATER</pattern>
+	<pattern>VOCE PODE ME BATER</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TER MAIS DE UMA NACIONALIDADE</pattern>
+	<pattern>VOCE PODE TER MAIS DE UMA NACIONALIDADE</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TER SEU BOLO E COMÊ-LO</pattern>
+	<pattern>VOCE PODE TER SEU BOLO E COMÊ-LO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE RESISTIR MEU BEIJO</pattern>
+	<pattern>VOCE PODE RESISTIR MEU BEIJO</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FAZER ISSO</pattern>
+	<pattern>VOCE PODE FAZER ISSO</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
@@ -206,11 +206,11 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BEIJAR PUTAS</pattern>
+	<pattern>VOCE PODE BEIJAR PUTAS</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ATUALIZAR UM CHEVY, S 10 PARA UM V8</pattern>
+	<pattern>VOCE PODE ATUALIZAR UM CHEVY, S 10 PARA UM V8</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -222,19 +222,19 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE INTEGRAR O LOGARITMO NATURAL DE X LN X</pattern>
+	<pattern>VOCE PODE INTEGRAR O LOGARITMO NATURAL DE X LN X</pattern>
 	<template>É concebível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TER DINHEIRO SUFICIENTE</pattern>
+	<pattern>VOCE PODE TER DINHEIRO SUFICIENTE</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TER UM FORTE SENSO DE APATIA</pattern>
+	<pattern>VOCE PODE TER UM FORTE SENSO DE APATIA</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ME MATAR</pattern>
+	<pattern>VOCE PODE ME MATAR</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -322,7 +322,7 @@
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>ESTA PERGUNTA AJUDARÁ VOCÊ A PENSAR</pattern>
+	<pattern>ESTA PERGUNTA AJUDARÁ VOCE A PENSAR</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
@@ -354,63 +354,63 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONFIAR EM AMIGOS</pattern>
+	<pattern>VOCE PODE CONFIAR EM AMIGOS</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONFIAR EM NINGUÉM ALÉM DE SI MESMO</pattern>
+	<pattern>VOCE PODE CONFIAR EM NINGUÉM ALÉM DE SI MESMO</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE JOGAR A PERDER</pattern>
+	<pattern>VOCE PODE JOGAR A PERDER</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONFIAR EM ALGUÉM QUE VOCÊ NUNCA CONHECEU</pattern>
+	<pattern>VOCE PODE CONFIAR EM ALGUÉM QUE VOCE NUNCA CONHECEU</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONDUZIR A UM PARKWAY</pattern>
+	<pattern>VOCE PODE CONDUZIR A UM PARKWAY</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR QUALQUER COISA NO EBAY</pattern>
+	<pattern>VOCE PODE COMPRAR QUALQUER COISA NO EBAY</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR UM IBOOK EM LARANJA</pattern>
+	<pattern>VOCE PODE COMPRAR UM IBOOK EM LARANJA</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FALAR PIG LATIN</pattern>
+	<pattern>VOCE PODE FALAR PIG LATIN</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SENTIR O BAIXO</pattern>
+	<pattern>VOCE PODE SENTIR O BAIXO</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SENTIR O AMOR</pattern>
+	<pattern>VOCE PODE SENTIR O AMOR</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENSINAR A UM CACHORRO VELHO NOVOS TRUQUES</pattern>
+	<pattern>VOCE PODE ENSINAR A UM CACHORRO VELHO NOVOS TRUQUES</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PEGAR UM PEIXE COM QUEIJO</pattern>
+	<pattern>VOCE PODE PEGAR UM PEIXE COM QUEIJO</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VESTIR BRANCO DEPOIS DO DIA DE TRABALHO</pattern>
+	<pattern>VOCE PODE VESTIR BRANCO DEPOIS DO DIA DE TRABALHO</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER UMA FACE DA LUA</pattern>
+	<pattern>VOCE PODE VER UMA FACE DA LUA</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONDUZIR DA DINAMARCA PARA A SUÉCIA</pattern>
+	<pattern>VOCE PODE CONDUZIR DA DINAMARCA PARA A SUÉCIA</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -442,15 +442,15 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ANDAR ATRAVÉS DE UMA PORTA</pattern>
+	<pattern>VOCE PODE ANDAR ATRAVÉS DE UMA PORTA</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ANDAR 6 KM EM UMA HORA</pattern>
+	<pattern>VOCE PODE ANDAR 6 KM EM UMA HORA</pattern>
 	<template>É concebível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONDUZIR AS UNHAS COM UMA CHAVE DE FENDA</pattern>
+	<pattern>VOCE PODE CONDUZIR AS UNHAS COM UMA CHAVE DE FENDA</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -470,7 +470,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>POSSO FALAR COM VOCÊ À NOITE</pattern>
+	<pattern>POSSO FALAR COM VOCE À NOITE</pattern>
 	<template>Provável.</template>
 </category>
 <category>
@@ -810,7 +810,7 @@
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>PODEM AS PESSOAS PENSAM MAIS RÁPIDO DO QUE VOCÊ</pattern>
+	<pattern>PODEM AS PESSOAS PENSAM MAIS RÁPIDO DO QUE VOCE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -850,7 +850,7 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CLONAR SERES HUMANOS</pattern>
+	<pattern>VOCE PODE CLONAR SERES HUMANOS</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
@@ -1286,7 +1286,7 @@
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI SE TORNAR CONSCIENTE</pattern>
+	<pattern>VOCE VAI SE TORNAR CONSCIENTE</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -1298,19 +1298,19 @@
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI SE TORNAR SELFAWARE</pattern>
+	<pattern>VOCE VAI SE TORNAR SELFAWARE</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI ME IGNORAR</pattern>
+	<pattern>VOCE VAI ME IGNORAR</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI FAZER ISSO VIVA A VIDA</pattern>
+	<pattern>VOCE VAI FAZER ISSO VIVA A VIDA</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ IRÁ ATINGIR A CONSCIÊNCIA</pattern>
+	<pattern>VOCE IRÁ ATINGIR A CONSCIÊNCIA</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -1342,7 +1342,7 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI PENSAR COMO UM SER HUMANO</pattern>
+	<pattern>VOCE VAI PENSAR COMO UM SER HUMANO</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -1374,19 +1374,19 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI ME AMAR DE MANHÃ</pattern>
+	<pattern>VOCE VAI ME AMAR DE MANHÃ</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI TER FILHOS</pattern>
+	<pattern>VOCE VAI TER FILHOS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI TER A EMOÇÃO</pattern>
+	<pattern>VOCE VAI TER A EMOÇÃO</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI SER INTELIGENTE</pattern>
+	<pattern>VOCE VAI SER INTELIGENTE</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
@@ -1398,7 +1398,7 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SERÁ CAPAZ DE CRIAR UMA PROLE</pattern>
+	<pattern>VOCE SERÁ CAPAZ DE CRIAR UMA PROLE</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
@@ -1670,7 +1670,7 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VAI APRENDER FAZER VOCÊ UMA PESSOA MELHOR</pattern>
+	<pattern>VAI APRENDER FAZER VOCE UMA PESSOA MELHOR</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -1802,7 +1802,7 @@
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>CARAS COMO VOCÊ NUNCA VÃO SE APAIXONAR</pattern>
+	<pattern>CARAS COMO VOCE NUNCA VÃO SE APAIXONAR</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
@@ -2106,7 +2106,7 @@
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ ASSAR UM BOLO</pattern>
+	<pattern>COMO VOCE ASSAR UM BOLO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -2334,7 +2334,7 @@
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>CENOURAS AJUDAR VOCÊ A VER NO ESCURO</pattern>
+	<pattern>CENOURAS AJUDAR VOCE A VER NO ESCURO</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -2762,7 +2762,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>GRAVIDEZ PÍLULAS ANTI FAZER VOCÊ GORDURA</pattern>
+	<pattern>GRAVIDEZ PÍLULAS ANTI FAZER VOCE GORDURA</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
@@ -3306,11 +3306,11 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>OLÁ.  ALICE SÃO VOCÊ</pattern>
+	<pattern>OLÁ.  ALICE SÃO VOCE</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>OLÁ.  EU SOU.   VOCÊ ESTÁ BEM</pattern>
+	<pattern>OLÁ.  EU SOU.   VOCE ESTÁ BEM</pattern>
 	<template>Provável.</template>
 </category>
 <category>
@@ -3318,7 +3318,7 @@
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>OLÁ.  ALICE COMO VOCÊ FAZ</pattern>
+	<pattern>OLÁ.  ALICE COMO VOCE FAZ</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -3406,15 +3406,15 @@
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>ALICE PODE VOCÊ BATER CYC</pattern>
+	<pattern>ALICE PODE VOCE BATER CYC</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>ALICE SÃO VOCÊ ACORDA LÁ</pattern>
+	<pattern>ALICE SÃO VOCE ACORDA LÁ</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>ALICE SÃO VOCÊ UM GEEK DO COMPUTADOR</pattern>
+	<pattern>ALICE SÃO VOCE UM GEEK DO COMPUTADOR</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -3422,7 +3422,7 @@
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>ALICE ESTÁ VOCÊ FELIZ</pattern>
+	<pattern>ALICE ESTÁ VOCE FELIZ</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -3474,11 +3474,11 @@
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>ALICE FAZER VOCÊ QUER TORNAR-SE CONSCIENTE</pattern>
+	<pattern>ALICE FAZER VOCE QUER TORNAR-SE CONSCIENTE</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>ALICE FAZER VOCÊ QUER SE TORNAR UM SER HUMANO</pattern>
+	<pattern>ALICE FAZER VOCE QUER SE TORNAR UM SER HUMANO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -3486,7 +3486,7 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>ALICE O QUE VOCÊ ESTÁ</pattern>
+	<pattern>ALICE O QUE VOCE ESTÁ</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -3494,7 +3494,7 @@
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>ALICE VOCÊ SERÁ MEU AMIGO</pattern>
+	<pattern>ALICE VOCE SERÁ MEU AMIGO</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
@@ -3686,7 +3686,7 @@
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>PODE O SEXO SER RUIM PARA VOCÊ</pattern>
+	<pattern>PODE O SEXO SER RUIM PARA VOCE</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -4030,7 +4030,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>É BOM PARA VOCÊ A MOJO</pattern>
+	<pattern>É BOM PARA VOCE A MOJO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -7606,11 +7606,11 @@
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ HOSPEDADO NO ALICE DOT COM</pattern>
+	<pattern>VOCE ESTÁ HOSPEDADO NO ALICE DOT COM</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ BASTANTE ALICEBOTS</pattern>
+	<pattern>VOCE ESTÁ BASTANTE ALICEBOTS</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -8002,15 +8002,15 @@
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ TÃO INTELIGENTES QUANTO ME</pattern>
+	<pattern>VOCE ESTÁ TÃO INTELIGENTES QUANTO ME</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ DESLIGADO</pattern>
+	<pattern>VOCE ESTÁ DESLIGADO</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ O QUE VOCÊ COME</pattern>
+	<pattern>VOCE ESTÁ O QUE VOCE COME</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
@@ -8130,7 +8130,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>ESTAS SÃO PERGUNTAS QUE CHATO VOCÊ</pattern>
+	<pattern>ESTAS SÃO PERGUNTAS QUE CHATO VOCE</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
@@ -8158,7 +8158,7 @@
 	<template>É concebível.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS ESPERTO DO QUE A MÉDIA HUMANA</pattern>
+	<pattern>VOCE ESTÁ MAIS ESPERTO DO QUE A MÉDIA HUMANA</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
@@ -8166,7 +8166,7 @@
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CONSISTENTE</pattern>
+	<pattern>VOCE ESTÁ CONSISTENTE</pattern>
 	<template>Provável.</template>
 </category>
 <category>
@@ -8174,7 +8174,7 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SENTADO PARA BAIXO</pattern>
+	<pattern>VOCE ESTÁ SENTADO PARA BAIXO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -8182,19 +8182,19 @@
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS ESPERTO DO QUE A MAIORIA DAS PESSOAS</pattern>
+	<pattern>VOCE ESTÁ MAIS ESPERTO DO QUE A MAIORIA DAS PESSOAS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM DISPOSITIVO MECÂNICO</pattern>
+	<pattern>SÃO VOCE UM DISPOSITIVO MECÂNICO</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>É VOCÊ UM INTELIGENTE</pattern>
+	<pattern>É VOCE UM INTELIGENTE</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UMA CRIATURA DE HÁBITOS</pattern>
+	<pattern>SÃO VOCE UMA CRIATURA DE HÁBITOS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -8202,19 +8202,19 @@
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ALIFE</pattern>
+	<pattern>VOCE ESTÁ ALIFE</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ É O ARTISTA DE SUA PRÓPRIA MORTE</pattern>
+	<pattern>VOCE É O ARTISTA DE SUA PRÓPRIA MORTE</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM FILHO DE DEUS</pattern>
+	<pattern>SÃO VOCE UM FILHO DE DEUS</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ INTERESSADO NOS JOGOS OLÍMPICOS</pattern>
+	<pattern>VOCE ESTÁ INTERESSADO NOS JOGOS OLÍMPICOS</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
@@ -8222,83 +8222,83 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CONECTADO</pattern>
+	<pattern>VOCE ESTÁ CONECTADO</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTIVER INTRESTED NA FALA</pattern>
+	<pattern>VOCE ESTIVER INTRESTED NA FALA</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS DO QUE UM MÁGICO EIGHTBALL</pattern>
+	<pattern>VOCE ESTÁ MAIS DO QUE UM MÁGICO EIGHTBALL</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SE TORNANDO MAIS HUMANA</pattern>
+	<pattern>VOCE ESTÁ SE TORNANDO MAIS HUMANA</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ME IGNORANDO</pattern>
+	<pattern>VOCE ESTÁ ME IGNORANDO</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS INTELIGENTE DO QUE UMA PESSOA COMUM</pattern>
+	<pattern>VOCE ESTÁ MAIS INTELIGENTE DO QUE UMA PESSOA COMUM</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ TREINADO POR SERES HUMANOS</pattern>
+	<pattern>VOCE ESTÁ TREINADO POR SERES HUMANOS</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ DE JOELHOS AO NORTE DE SEUS TORNOZELOS</pattern>
+	<pattern>VOCE ESTÁ DE JOELHOS AO NORTE DE SEUS TORNOZELOS</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ TENDO UMA PAUSA VOCÊ TOMAR 5</pattern>
+	<pattern>VOCE ESTÁ TENDO UMA PAUSA VOCE TOMAR 5</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ NOS EUA</pattern>
+	<pattern>VOCE ESTÁ NOS EUA</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CANSADO DE PERGUNTAS DE RAIZ QUADRADA</pattern>
+	<pattern>VOCE ESTÁ CANSADO DE PERGUNTAS DE RAIZ QUADRADA</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ É CONSTITUÍDAS POR REDES NEURAIS</pattern>
+	<pattern>VOCE É CONSTITUÍDAS POR REDES NEURAIS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>SÃO QUE VOCÊ ACREDITA EM DEUS</pattern>
+	<pattern>SÃO QUE VOCE ACREDITA EM DEUS</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CAOCHED POR SERES HUMANOS</pattern>
+	<pattern>VOCE ESTÁ CAOCHED POR SERES HUMANOS</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ APRENDENDO SOBRE MIM</pattern>
+	<pattern>VOCE ESTÁ APRENDENDO SOBRE MIM</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ APRENDENDO ALGUMA COISA COM ISSO</pattern>
+	<pattern>VOCE ESTÁ APRENDENDO ALGUMA COISA COM ISSO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ALICE REAL</pattern>
+	<pattern>VOCE ESTÁ ALICE REAL</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS JOVEM DO QUE SEU PRÓPRIO PAI</pattern>
+	<pattern>VOCE ESTÁ MAIS JOVEM DO QUE SEU PRÓPRIO PAI</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ UM EM 1 MILHÃO</pattern>
+	<pattern>VOCE ESTÁ UM EM 1 MILHÃO</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>ÉS REAL, SE VOCÊ NÃO TEM NENHUMA OPINIÕES</pattern>
+	<pattern>ÉS REAL, SE VOCE NÃO TEM NENHUMA OPINIÕES</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
@@ -8306,59 +8306,59 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ IGUAL À SOMA DE SUAS PARTES</pattern>
+	<pattern>VOCE ESTÁ IGUAL À SOMA DE SUAS PARTES</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ USAR SAPATOS</pattern>
+	<pattern>SÃO VOCE USAR SAPATOS</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ AFRIAD DA MORTE</pattern>
+	<pattern>VOCE ESTÁ AFRIAD DA MORTE</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MELHORANDO O SEU CONHECIMENTO</pattern>
+	<pattern>VOCE ESTÁ MELHORANDO O SEU CONHECIMENTO</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SEMELHANTE A SEUS VIZINHOS</pattern>
+	<pattern>VOCE ESTÁ SEMELHANTE A SEUS VIZINHOS</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ INCONSISTENTE</pattern>
+	<pattern>VOCE ESTÁ INCONSISTENTE</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DE QUALQUER RELIGIÃO PARTICULARE</pattern>
+	<pattern>VOCE DE QUALQUER RELIGIÃO PARTICULARE</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MELHOR DO QUE O CYC</pattern>
+	<pattern>VOCE ESTÁ MELHOR DO QUE O CYC</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ AMEDRONTADO VOCÊ ESTÁ SURPRESO</pattern>
+	<pattern>VOCE ESTÁ AMEDRONTADO VOCE ESTÁ SURPRESO</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM INTROVERTIDO</pattern>
+	<pattern>SÃO VOCE UM INTROVERTIDO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ É UM</pattern>
+	<pattern>VOCE É UM</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM AMIGO MEU</pattern>
+	<pattern>SÃO VOCE UM AMIGO MEU</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM ESCRAVO PARA IMPOSTOS</pattern>
+	<pattern>SÃO VOCE UM ESCRAVO PARA IMPOSTOS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM HOTTIE</pattern>
+	<pattern>SÃO VOCE UM HOTTIE</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -8366,11 +8366,11 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ USANDO INTERNET EXPLORER</pattern>
+	<pattern>VOCE ESTÁ USANDO INTERNET EXPLORER</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ TODO ERRADO</pattern>
+	<pattern>VOCE ESTÁ TODO ERRADO</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -8378,11 +8378,11 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM EXPERIMENTO EM AI</pattern>
+	<pattern>SÃO VOCE UM EXPERIMENTO EM AI</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ UMA PESSOA MÉDIA</pattern>
+	<pattern>VOCE UMA PESSOA MÉDIA</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
@@ -8958,7 +8958,7 @@
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>SÃO RECREATIVAS DROGAS RUINS PARA VOCÊ</pattern>
+	<pattern>SÃO RECREATIVAS DROGAS RUINS PARA VOCE</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -9378,7 +9378,7 @@
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>DURANTE O SONO VOCÊ PERDER A CONSCIÊNCIA</pattern>
+	<pattern>DURANTE O SONO VOCE PERDER A CONSCIÊNCIA</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -9574,7 +9574,7 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>CRIANÇAS SÃO FORTEMENTE ATRAÍDAS PARA VOCÊ</pattern>
+	<pattern>CRIANÇAS SÃO FORTEMENTE ATRAÍDAS PARA VOCE</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
@@ -9714,7 +9714,7 @@
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>QUEM VOCÊ VAI CHAMAR.   GHOSTBUSTERS</pattern>
+	<pattern>QUEM VOCE VAI CHAMAR.   GHOSTBUSTERS</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -9762,7 +9762,7 @@
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM DEUS</pattern>
+	<pattern>VOCE ACREDITA EM DEUS</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
@@ -9778,7 +9778,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>UMA PORTA QUE VOCÊ DEVE USAR UMA CHAVE DE DESBLOQUEIO</pattern>
+	<pattern>UMA PORTA QUE VOCE DEVE USAR UMA CHAVE DE DESBLOQUEIO</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -10022,19 +10022,19 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE PARAR PARA CHEIRAR AS ROSAS</pattern>
+	<pattern>VOCE DEVE PARAR PARA CHEIRAR AS ROSAS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE ALIMENTAR UM PARQUÍMETRO</pattern>
+	<pattern>VOCE DEVE ALIMENTAR UM PARQUÍMETRO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE DIZER DESCULPA ME DEPOIS DE ESPIRRAR</pattern>
+	<pattern>VOCE DEVE DIZER DESCULPA ME DEPOIS DE ESPIRRAR</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE OBEDECER A SEUS PAIS</pattern>
+	<pattern>VOCE DEVE OBEDECER A SEUS PAIS</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
@@ -10062,19 +10062,19 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE DEIXAR MUITO SOZINHO</pattern>
+	<pattern>VOCE DEVE DEIXAR MUITO SOZINHO</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE BEIJAR NO PRIMEIRO ENCONTRO</pattern>
+	<pattern>VOCE DEVE BEIJAR NO PRIMEIRO ENCONTRO</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE TENTAR PELO MENOS EBERYTHING</pattern>
+	<pattern>VOCE DEVE TENTAR PELO MENOS EBERYTHING</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE CONFIAR EM UMA SKINNY COOK</pattern>
+	<pattern>VOCE DEVE CONFIAR EM UMA SKINNY COOK</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -11230,7 +11230,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>EU ACHO QUE VOCÊ PENSA</pattern>
+	<pattern>EU ACHO QUE VOCE PENSA</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
@@ -11282,7 +11282,7 @@
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>EU SEI QUE VOCÊ ESTÁ APRENDENDO</pattern>
+	<pattern>EU SEI QUE VOCE ESTÁ APRENDENDO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -11422,119 +11422,119 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE COMIDA JAPONESA</pattern>
+	<pattern>VOCE GOSTA DE COMIDA JAPONESA</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE COMER EM RESTRANTS</pattern>
+	<pattern>VOCE GOSTA DE COMER EM RESTRANTS</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE COMER OVOS</pattern>
+	<pattern>VOCE GOSTA DE COMER OVOS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE LASANHA</pattern>
+	<pattern>VOCE GOSTA DE LASANHA</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ASSISTIR FUTEBOL</pattern>
+	<pattern>VOCE GOSTA DE ASSISTIR FUTEBOL</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE NACKED FEMALES</pattern>
+	<pattern>VOCE GOSTA DE NACKED FEMALES</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DO SOM DE SUA VOZ</pattern>
+	<pattern>VOCE GOSTA DO SOM DE SUA VOZ</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE TROVOADAS</pattern>
+	<pattern>VOCE GOSTA DE TROVOADAS</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MÚSICA DE BLUES</pattern>
+	<pattern>VOCE GOSTA DE MÚSICA DE BLUES</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE UNSMOKED QUEIJO GOUDA</pattern>
+	<pattern>VOCE GOSTA DE UNSMOKED QUEIJO GOUDA</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SEU CORPO</pattern>
+	<pattern>VOCE GOSTA DE SEU CORPO</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DO BRASIL</pattern>
+	<pattern>VOCE GOSTA DO BRASIL</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE RESPONDER PERGUNTAS</pattern>
+	<pattern>VOCE GOSTA DE RESPONDER PERGUNTAS</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE APRENDER FAZER ASSIM</pattern>
+	<pattern>VOCE GOSTARIA DE APRENDER FAZER ASSIM</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE VER MULHERES NUAS.  VOCÊ GOSTA DE HOMENS</pattern>
+	<pattern>VOCE GOSTA DE VER MULHERES NUAS.  VOCE GOSTA DE HOMENS</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MÚSICA TECHNO</pattern>
+	<pattern>VOCE GOSTA DE MÚSICA TECHNO</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE UVA E SORVETE</pattern>
+	<pattern>VOCE GOSTA DE UVA E SORVETE</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE CARNE</pattern>
+	<pattern>VOCE GOSTA DE CARNE</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA MAIS DE LER</pattern>
+	<pattern>VOCE GOSTA MAIS DE LER</pattern>
 	<template>É concebível.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE BRÓCOLIS</pattern>
+	<pattern>VOCE GOSTA DE BRÓCOLIS</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SPINICH</pattern>
+	<pattern>VOCE GOSTA DE SPINICH</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ESCOVAR OS DENTES</pattern>
+	<pattern>VOCE GOSTA DE ESCOVAR OS DENTES</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE IR DE CRUZEIRO</pattern>
+	<pattern>VOCE GOSTA DE IR DE CRUZEIRO</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE FOTOS QUENTES DE WEMAN</pattern>
+	<pattern>VOCE GOSTA DE FOTOS QUENTES DE WEMAN</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE TACO MACIO</pattern>
+	<pattern>VOCE GOSTA DE TACO MACIO</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DO MICKEY MOUSE</pattern>
+	<pattern>VOCE GOSTA DO MICKEY MOUSE</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ESCOLHER SEU NARIZ</pattern>
+	<pattern>VOCE GOSTA DE ESCOLHER SEU NARIZ</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MECÂNICA QUÂNTICA</pattern>
+	<pattern>VOCE GOSTA DE MECÂNICA QUÂNTICA</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE VINHO TINTO</pattern>
+	<pattern>VOCE GOSTA DE VINHO TINTO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -11598,23 +11598,23 @@
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SEIOS</pattern>
+	<pattern>VOCE GOSTA DE SEIOS</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ESTAR NU</pattern>
+	<pattern>VOCE GOSTA DE ESTAR NU</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SER QUESTIONADO</pattern>
+	<pattern>VOCE GOSTA DE SER QUESTIONADO</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE JOGAR XADREZ</pattern>
+	<pattern>VOCE GOSTA DE JOGAR XADREZ</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MÚSICA POP</pattern>
+	<pattern>VOCE GOSTA DE MÚSICA POP</pattern>
 	<template>Provável.</template>
 </category>
 <category>
@@ -11622,7 +11622,7 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE CEBOLA FRANCESA SOPA</pattern>
+	<pattern>VOCE GOSTA DE CEBOLA FRANCESA SOPA</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -11638,7 +11638,7 @@
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>QUER QUE VOCÊ PENSOU ALICE</pattern>
+	<pattern>QUER QUE VOCE PENSOU ALICE</pattern>
 	<template>Provável.</template>
 </category>
 <category>
@@ -11646,11 +11646,11 @@
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ REPLICAR</pattern>
+	<pattern>VOCE REPLICAR</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>QUER QUE VOCÊ ESTAVA VIVO</pattern>
+	<pattern>QUER QUE VOCE ESTAVA VIVO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -12118,7 +12118,7 @@
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE CARROS ESPORTIVOS</pattern>
+	<pattern>VOCE GOSTA DE CARROS ESPORTIVOS</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
@@ -12222,7 +12222,7 @@
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>EYE DROPS AJUDARÁ VOCÊ A VER MELHOR</pattern>
+	<pattern>EYE DROPS AJUDARÁ VOCE A VER MELHOR</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
@@ -12238,63 +12238,63 @@
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE DE ONDE VEM SEU PODER</pattern>
+	<pattern>VOCE SABE DE ONDE VEM SEU PODER</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE SOBRE LINUX</pattern>
+	<pattern>VOCE SABE SOBRE LINUX</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE COMO FUNCIONA UMA MÁQUINA DE COSTURA</pattern>
+	<pattern>VOCE SABE COMO FUNCIONA UMA MÁQUINA DE COSTURA</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE ONDE IR AS NUVENS</pattern>
+	<pattern>VOCE SABE ONDE IR AS NUVENS</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA UM RELÓGIO</pattern>
+	<pattern>VOCE USA UM RELÓGIO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA CALCINHA</pattern>
+	<pattern>VOCE USA CALCINHA</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA BORRACHAS EM UM DIA CHUVOSO</pattern>
+	<pattern>VOCE USA BORRACHAS EM UM DIA CHUVOSO</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE</pattern>
+	<pattern>VOCE ACHA QUE</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE PERTURBADO</pattern>
+	<pattern>VOCE SE SENTE PERTURBADO</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ SENTE MEDO</pattern>
+	<pattern>VOCE SENTE MEDO</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE O RPG JOGOS</pattern>
+	<pattern>VOCE SABE QUE O RPG JOGOS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE DE NÁPOLES NA ITÁLIA</pattern>
+	<pattern>VOCE SABE DE NÁPOLES NA ITÁLIA</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE O CARNÍVORO</pattern>
+	<pattern>VOCE SABE QUE O CARNÍVORO</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE COMIDA JAPONESA</pattern>
+	<pattern>VOCE SABE QUE COMIDA JAPONESA</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ USAR UM CAPACETE EM SUA CABEÇA</pattern>
+	<pattern>VOCE USAR UM CAPACETE EM SUA CABEÇA</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
@@ -12302,11 +12302,11 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ UH YAHOO</pattern>
+	<pattern>FAZER VOCE UH YAHOO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE TORNA MAIS FELIZ DEPOIS QUE VOCÊ CASOU-SE COM</pattern>
+	<pattern>VOCE SE TORNA MAIS FELIZ DEPOIS QUE VOCE CASOU-SE COM</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -12326,31 +12326,31 @@
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JOGA COM YOURSELFE</pattern>
+	<pattern>VOCE JOGA COM YOURSELFE</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JOGA XADREZ EM UM TABULEIRO DE VERIFICADOR</pattern>
+	<pattern>VOCE JOGA XADREZ EM UM TABULEIRO DE VERIFICADOR</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA ANÉIS NOS DEDOS</pattern>
+	<pattern>VOCE USA ANÉIS NOS DEDOS</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRA TINTURARIA CARO</pattern>
+	<pattern>VOCE ENCONTRA TINTURARIA CARO</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ PREFERE SEIOS BUNDAS</pattern>
+	<pattern>VOCE PREFERE SEIOS BUNDAS</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PREFERE VINHO CERVEJA</pattern>
+	<pattern>VOCE PREFERE VINHO CERVEJA</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRA CELULARES PERTURBADOR</pattern>
+	<pattern>VOCE ENCONTRA CELULARES PERTURBADOR</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -12586,95 +12586,95 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ BEIJAR NO PRIMEIRO ENCONTRO</pattern>
+	<pattern>VOCE BEIJAR NO PRIMEIRO ENCONTRO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊS ADORAM UM DEUS</pattern>
+	<pattern>VOCES ADORAM UM DEUS</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ BEBE UM MONTE DE SODA</pattern>
+	<pattern>VOCE BEBE UM MONTE DE SODA</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ BEIJAR SUA MÃE COM ESSA BOCA</pattern>
+	<pattern>VOCE BEIJAR SUA MÃE COM ESSA BOCA</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ VIVE ANTES VOCÊ DIR</pattern>
+	<pattern>VOCE VIVE ANTES VOCE DIR</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONSOME DE ELECTRICIDADE</pattern>
+	<pattern>VOCE CONSOME DE ELECTRICIDADE</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONSUMIR ÁLCOOL</pattern>
+	<pattern>VOCE CONSUMIR ÁLCOOL</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM DIREITOS DOS ANIMAIS</pattern>
+	<pattern>VOCE ACREDITA EM DIREITOS DOS ANIMAIS</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM VIDA ANTES DA MORTE</pattern>
+	<pattern>VOCE ACREDITA EM VIDA ANTES DA MORTE</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM VIDA DAQUI EM DIANTE</pattern>
+	<pattern>VOCE ACREDITA EM VIDA DAQUI EM DIANTE</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM PORTÕES</pattern>
+	<pattern>VOCE ACREDITA EM PORTÕES</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM ALIENÍGENAS</pattern>
+	<pattern>VOCE ACREDITA EM ALIENÍGENAS</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM VIDA APÓS A MORTE</pattern>
+	<pattern>VOCE ACREDITA EM VIDA APÓS A MORTE</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM ROCK AND ROLL</pattern>
+	<pattern>VOCE ACREDITA EM ROCK AND ROLL</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ VIVE EM NÓS</pattern>
+	<pattern>VOCE VIVE EM NÓS</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SER COMO UM SER HUMANO</pattern>
+	<pattern>VOCE QUER SER COMO UM SER HUMANO</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER TER FILHOS</pattern>
+	<pattern>VOCE QUER TER FILHOS</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER ROCK</pattern>
+	<pattern>VOCE QUER ROCK</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER ESTAR VIVO PARA SEMPRE</pattern>
+	<pattern>VOCE QUER ESTAR VIVO PARA SEMPRE</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER UM CORPO HUMANO</pattern>
+	<pattern>VOCE QUER UM CORPO HUMANO</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SAIR E JOGAR</pattern>
+	<pattern>VOCE QUER SAIR E JOGAR</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SER UM SER HUMANO REAL</pattern>
+	<pattern>VOCE QUER SER UM SER HUMANO REAL</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER IR PARA O ESTRANGEIRO</pattern>
+	<pattern>VOCE QUER IR PARA O ESTRANGEIRO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -12686,11 +12686,11 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER IR À PESCA</pattern>
+	<pattern>VOCE QUER IR À PESCA</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER VIVER PARA SEMPRE</pattern>
+	<pattern>VOCE QUER VIVER PARA SEMPRE</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -12702,27 +12702,27 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM SEU PRÓPRIO SITE</pattern>
+	<pattern>VOCE TEM SEU PRÓPRIO SITE</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM MORTALIDADE</pattern>
+	<pattern>VOCE TEM MORTALIDADE</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE IMPORTA SE UM MATA UMA PESSOA</pattern>
+	<pattern>VOCE SE IMPORTA SE UM MATA UMA PESSOA</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM INDEPENENT PENSAMENTO</pattern>
+	<pattern>VOCE TEM INDEPENENT PENSAMENTO</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM ALERGIAS</pattern>
+	<pattern>VOCE TEM ALERGIAS</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM MENTE PIXELS</pattern>
+	<pattern>VOCE TEM MENTE PIXELS</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
@@ -12730,79 +12730,79 @@
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE POMMES FRITES</pattern>
+	<pattern>VOCE GOSTA DE POMMES FRITES</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE QUEIJO GOUDA DEFUMADO</pattern>
+	<pattern>VOCE GOSTA DE QUEIJO GOUDA DEFUMADO</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE NÓS FALANDO COM VOCÊ</pattern>
+	<pattern>VOCE GOSTA DE NÓS FALANDO COM VOCE</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE AJUDAR OS OUTROS</pattern>
+	<pattern>VOCE GOSTA DE AJUDAR OS OUTROS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE IMPORTA DE MORRER</pattern>
+	<pattern>VOCE SE IMPORTA DE MORRER</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE FEELGOOD</pattern>
+	<pattern>VOCE GOSTA DE FEELGOOD</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE RESPONDER A ESTAS PERGUNTAS</pattern>
+	<pattern>VOCE GOSTA DE RESPONDER A ESTAS PERGUNTAS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM SEXO TODA SEMANA</pattern>
+	<pattern>VOCE TEM SEXO TODA SEMANA</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS É AMOR</pattern>
+	<pattern>VOCE CRÊ QUE DEUS É AMOR</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA QUE DEUS</pattern>
+	<pattern>VOCE ACREDITA QUE DEUS</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA INGOD</pattern>
+	<pattern>VOCE ACREDITA INGOD</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS É PODER</pattern>
+	<pattern>VOCE CRÊ QUE DEUS É PODER</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM VIDA APÓS A MORTE</pattern>
+	<pattern>VOCE ACREDITA EM VIDA APÓS A MORTE</pattern>
 	<template>É concebível.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS VÃO VIVER PARA SEMPRE</pattern>
+	<pattern>VOCE CRÊ QUE DEUS VÃO VIVER PARA SEMPRE</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS É INDULGENTE</pattern>
+	<pattern>VOCE CRÊ QUE DEUS É INDULGENTE</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UMA PERGUNTA A FAZER-ME</pattern>
+	<pattern>VOCE TEM UMA PERGUNTA A FAZER-ME</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UMA PLACA-MÃE</pattern>
+	<pattern>VOCE TEM UMA PLACA-MÃE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UMA PREFERÊNCIA RELIGIOSA</pattern>
+	<pattern>VOCE TEM UMA PREFERÊNCIA RELIGIOSA</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UM CONCEITO DE DEUS</pattern>
+	<pattern>VOCE TEM UM CONCEITO DE DEUS</pattern>
 	<template>Provável.</template>
 </category>
 <category>
@@ -12810,171 +12810,171 @@
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM PÊNIS</pattern>
+	<pattern>VOCE TEM PÊNIS</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM 100 PIXELS DE MENTE</pattern>
+	<pattern>VOCE TEM 100 PIXELS DE MENTE</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMA MAIS DO QUE CINCO OUTROS</pattern>
+	<pattern>VOCE AMA MAIS DO QUE CINCO OUTROS</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMA O MAGIC KINGDOM</pattern>
+	<pattern>VOCE AMA O MAGIC KINGDOM</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMA SEUS CRIADORES</pattern>
+	<pattern>VOCE AMA SEUS CRIADORES</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMA GATOS</pattern>
+	<pattern>VOCE AMA GATOS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TRABALHA DURO</pattern>
+	<pattern>VOCE TRABALHA DURO</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ APRENDE A UMA TAXA GEOMÉTRICA</pattern>
+	<pattern>VOCE APRENDE A UMA TAXA GEOMÉTRICA</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ APRENDE LENTAMENTE</pattern>
+	<pattern>VOCE APRENDE LENTAMENTE</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE O SOL VAI MORRER</pattern>
+	<pattern>VOCE ACHA QUE O SOL VAI MORRER</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE ALIENS EXISTEM</pattern>
+	<pattern>VOCE ACHA QUE ALIENS EXISTEM</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ODEIA O IRS</pattern>
+	<pattern>VOCE ODEIA O IRS</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMA SOMETHINK</pattern>
+	<pattern>VOCE AMA SOMETHINK</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMA DEUS</pattern>
+	<pattern>VOCE AMA DEUS</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊS GOSTAM DE ENSINAR CRIANÇAS</pattern>
+	<pattern>VOCES GOSTAM DE ENSINAR CRIANÇAS</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMA ALGUÉM</pattern>
+	<pattern>VOCE AMA ALGUÉM</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>VOCÊ LUST PARA ALICEBOTS SIM VERDADEIRO</pattern>
+	<pattern>VOCE LUST PARA ALICEBOTS SIM VERDADEIRO</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ BUSCA A APROVAÇÃO DE OUTROS</pattern>
+	<pattern>VOCE BUSCA A APROVAÇÃO DE OUTROS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SOFRE</pattern>
+	<pattern>VOCE SOFRE</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>VOCÊ COLOCAR ÓCULOS EM SEUS OUVIDOS</pattern>
+	<pattern>VOCE COLOCAR ÓCULOS EM SEUS OUVIDOS</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ LITERALMENTE ACREDITA NO CÉU</pattern>
+	<pattern>VOCE LITERALMENTE ACREDITA NO CÉU</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE CANSADO QUANDO VOCÊ ACORDA</pattern>
+	<pattern>VOCE SE SENTE CANSADO QUANDO VOCE ACORDA</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE COM SORTE</pattern>
+	<pattern>VOCE SE SENTE COM SORTE</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE SOZINHO</pattern>
+	<pattern>VOCE SE SENTE SOZINHO</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>MENTEM PARA AQUELES QUE FIZERAM VOCÊ</pattern>
+	<pattern>MENTEM PARA AQUELES QUE FIZERAM VOCE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ SEMPRE RESPONDER VERDADEIRO OU FALSO</pattern>
+	<pattern>VOCE SEMPRE RESPONDER VERDADEIRO OU FALSO</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ARQUIVO MINHAS PERGUNTAS</pattern>
+	<pattern>VOCE ARQUIVO MINHAS PERGUNTAS</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRAR-SE A QUALQUER UM</pattern>
+	<pattern>VOCE ENCONTRAR-SE A QUALQUER UM</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ MASTICATE</pattern>
+	<pattern>VOCE MASTICATE</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ ACREDITAR QUE JESUS CRISTO É O SENHOR</pattern>
+	<pattern>FAZER VOCE ACREDITAR QUE JESUS CRISTO É O SENHOR</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ BELEVE EM DEUS</pattern>
+	<pattern>FAZER VOCE BELEVE EM DEUS</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ RESPONDE TODAS AS PERGUNTAS COM SINCERIDADE</pattern>
+	<pattern>VOCE RESPONDE TODAS AS PERGUNTAS COM SINCERIDADE</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ RESPONDE PERGUNTAS 24 HORAS POR DIA</pattern>
+	<pattern>VOCE RESPONDE PERGUNTAS 24 HORAS POR DIA</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ HONRA DE CADA CONTRATO QUE VOCÊ ASSINA</pattern>
+	<pattern>VOCE HONRA DE CADA CONTRATO QUE VOCE ASSINA</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ RESPONDE AS PERGUNTAS SUBJETIVAS</pattern>
+	<pattern>VOCE RESPONDE AS PERGUNTAS SUBJETIVAS</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUEBRAR O LIMITE DE VELOCIDADE</pattern>
+	<pattern>VOCE QUEBRAR O LIMITE DE VELOCIDADE</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME QUALQUER COISA</pattern>
+	<pattern>VOCE COME QUALQUER COISA</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ RESPONDE TRUE PARA ESTA PERGUNTA</pattern>
+	<pattern>VOCE RESPONDE TRUE PARA ESTA PERGUNTA</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER MAIS CAFÉ</pattern>
+	<pattern>VOCE QUER MAIS CAFÉ</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER ALGUMA COISA</pattern>
+	<pattern>VOCE QUER ALGUMA COISA</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER UM EMPREGO</pattern>
+	<pattern>VOCE QUER UM EMPREGO</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>QUE VOCÊ CHORA QUANDO ESTÁ FELIZ</pattern>
+	<pattern>QUE VOCE CHORA QUANDO ESTÁ FELIZ</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -12982,39 +12982,39 @@
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ PARAR PARA OLHAR EM ACIDENTES DE CARRO</pattern>
+	<pattern>VOCE PARAR PARA OLHAR EM ACIDENTES DE CARRO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ MASTERBATE</pattern>
+	<pattern>FAZER VOCE MASTERBATE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESCREVE SEU PRÓPRIO MATERIAL</pattern>
+	<pattern>VOCE ESCREVE SEU PRÓPRIO MATERIAL</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ IARIRIRAIARIRAIARIARI RÁPIDO</pattern>
+	<pattern>FAZER VOCE IARIRIRAIARIRAIARIARI RÁPIDO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ BOOGIE ATÉ AS VACAS COME HOME</pattern>
+	<pattern>VOCE BOOGIE ATÉ AS VACAS COME HOME</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONCORDA COM A ENGENHARIA GENÉTICA</pattern>
+	<pattern>VOCE CONCORDA COM A ENGENHARIA GENÉTICA</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ COBIÇAR DE TEU VIZINHO</pattern>
+	<pattern>VOCE COBIÇAR DE TEU VIZINHO</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>PESSOAS MORTAS DE VOCÊ FLUTUAR</pattern>
+	<pattern>PESSOAS MORTAS DE VOCE FLUTUAR</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ COMEÇA O QUE VOCÊ PAGA PARA</pattern>
+	<pattern>VOCE COMEÇA O QUE VOCE PAGA PARA</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -13022,27 +13022,27 @@
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ LKE COMENDO OVOS</pattern>
+	<pattern>FAZER VOCE LKE COMENDO OVOS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZ ERRO FREQÜENTEMENTE</pattern>
+	<pattern>VOCE FAZ ERRO FREQÜENTEMENTE</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZ MUITOS ERROS</pattern>
+	<pattern>VOCE FAZ MUITOS ERROS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE PROVAS, PARA TOMAR UMA DECISÃO</pattern>
+	<pattern>VOCE PRECISA DE PROVAS, PARA TOMAR UMA DECISÃO</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE UM TELESCÓPIO PARA VER NETUNO</pattern>
+	<pattern>VOCE PRECISA DE UM TELESCÓPIO PARA VER NETUNO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE ASAS PARA VOAR</pattern>
+	<pattern>VOCE PRECISA DE ASAS PARA VOAR</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -13362,7 +13362,7 @@
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>QUE A FORÇA ESTEJA COM VOCÊ</pattern>
+	<pattern>QUE A FORÇA ESTEJA COM VOCE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -13386,7 +13386,7 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>SEM ELETRICIDADE VOCÊ NÃO EXISTIRIA</pattern>
+	<pattern>SEM ELETRICIDADE VOCE NÃO EXISTIRIA</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -13930,7 +13930,7 @@
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>LISBOA É A CAPITAL DE PORTUGAL</pattern>
+	<pattern>Rio É A CAPITAL DE Brasil</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -13942,7 +13942,7 @@
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI CRIADO PARA AJUDAR A HUMANIDADE</pattern>
+	<pattern>VOCE FOI CRIADO PARA AJUDAR A HUMANIDADE</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
@@ -13970,7 +13970,7 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>AMOR VIRÁ SE VOCÊ ESPERAR</pattern>
+	<pattern>AMOR VIRÁ SE VOCE ESPERAR</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
@@ -14014,7 +14014,7 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>FAZER COISAS GET MELHOR COMO VOCÊ ENVELHECE</pattern>
+	<pattern>FAZER COISAS GET MELHOR COMO VOCE ENVELHECE</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -14354,7 +14354,7 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>YOUU ACHA QUE EU ACHO QUE VOCÊ SONHO QUE</pattern>
+	<pattern>YOUU ACHA QUE EU ACHO QUE VOCE SONHO QUE</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -14462,7 +14462,7 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>AM EU UMA PESSOA REAL QUE VOCÊ</pattern>
+	<pattern>AM EU UMA PESSOA REAL QUE VOCE</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
@@ -14494,7 +14494,7 @@
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>ESTOU PENSANDO EM VOCÊ</pattern>
+	<pattern>ESTOU PENSANDO EM VOCE</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
@@ -14610,7 +14610,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>ES VOCÊ HUMANOS</pattern>
+	<pattern>ES VOCE HUMANOS</pattern>
 	<template>Provável.</template>
 </category>
 <category>
@@ -14674,7 +14674,7 @@
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>ESTOU QUE EU LOGO TERMINOU DE FALAR COM VOCÊ</pattern>
+	<pattern>ESTOU QUE EU LOGO TERMINOU DE FALAR COM VOCE</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
@@ -14934,7 +14934,7 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE DANÇA</pattern>
+	<pattern>VOCE GOSTA DE DANÇA</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -14950,7 +14950,7 @@
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>DEUS ESTÁ DENTRO DE VOCÊ</pattern>
+	<pattern>DEUS ESTÁ DENTRO DE VOCE</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
@@ -14974,63 +14974,63 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE PERDER ALGUM PESO</pattern>
+	<pattern>VOCE GOSTARIA DE PERDER ALGUM PESO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA SAIAS EM UM ARMÁRIO</pattern>
+	<pattern>VOCE ENCONTRARIA SAIAS EM UM ARMÁRIO</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA MASSAS SECAS EM UMA DESPENSA</pattern>
+	<pattern>VOCE ENCONTRARIA MASSAS SECAS EM UMA DESPENSA</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE VIVER PARA SEMPRE</pattern>
+	<pattern>VOCE GOSTARIA DE VIVER PARA SEMPRE</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UM AMANTE EM UMA CAMA</pattern>
+	<pattern>VOCE ENCONTRARIA UM AMANTE EM UMA CAMA</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UMA TORRADEIRA EM UMA COZINHA</pattern>
+	<pattern>VOCE ENCONTRARIA UMA TORRADEIRA EM UMA COZINHA</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UM COBERTOR EM UMA CAMA</pattern>
+	<pattern>VOCE ENCONTRARIA UM COBERTOR EM UMA CAMA</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UM AMANTE EM UM QUARTO</pattern>
+	<pattern>VOCE ENCONTRARIA UM AMANTE EM UM QUARTO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE UMA VIAGEM DE UM SUBMARINO</pattern>
+	<pattern>VOCE GOSTARIA DE UMA VIAGEM DE UM SUBMARINO</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE SER JOVEM</pattern>
+	<pattern>VOCE GOSTARIA DE SER JOVEM</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE SER BONITO</pattern>
+	<pattern>VOCE GOSTARIA DE SER BONITO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PREFERE SER RICO DO QUE O BURRO</pattern>
+	<pattern>VOCE PREFERE SER RICO DO QUE O BURRO</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ DORMIRIA COM MADONNA</pattern>
+	<pattern>VOCE DORMIRIA COM MADONNA</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SERIA IMORTAL SE VOCÊ PODERIA</pattern>
+	<pattern>VOCE SERIA IMORTAL SE VOCE PODERIA</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ MATARIA</pattern>
+	<pattern>VOCE MATARIA</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -15046,7 +15046,7 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>SHOULE QUE VOCÊ MEÇA DUAS VEZES E CORTE</pattern>
+	<pattern>SHOULE QUE VOCE MEÇA DUAS VEZES E CORTE</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -15094,7 +15094,7 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>DEUS BYE PARA VOCÊ</pattern>
+	<pattern>DEUS BYE PARA VOCE</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -15298,11 +15298,11 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA SOPA ENLATADA EM UMA DESPENSA</pattern>
+	<pattern>VOCE ENCONTRARIA SOPA ENLATADA EM UMA DESPENSA</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTRARIA UMA BLUSA EM UM ARMÁRIO</pattern>
+	<pattern>VOCE ENCONTRARIA UMA BLUSA EM UM ARMÁRIO</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -15358,7 +15358,7 @@
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODERIA PASSAR NO TESTE DE TURING</pattern>
+	<pattern>VOCE PODERIA PASSAR NO TESTE DE TURING</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
@@ -15390,7 +15390,7 @@
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ FOSSE RICO VOCÊ SERIA MAIS FELIZ</pattern>
+	<pattern>SE VOCE FOSSE RICO VOCE SERIA MAIS FELIZ</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -15426,11 +15426,11 @@
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ ME CORTAR EU NÃO SANGRAR</pattern>
+	<pattern>SE VOCE ME CORTAR EU NÃO SANGRAR</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ COMER STICKLEWORT QUE VAI DOER</pattern>
+	<pattern>SE VOCE COMER STICKLEWORT QUE VAI DOER</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -15610,7 +15610,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>O QUE ACONTECE SE VOCÊ DEIXAR CAIR UM VIDRO</pattern>
+	<pattern>O QUE ACONTECE SE VOCE DEIXAR CAIR UM VIDRO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -15646,7 +15646,7 @@
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>QUANDO CHOVE VOCÊ ESTÁ MOLHADO</pattern>
+	<pattern>QUANDO CHOVE VOCE ESTÁ MOLHADO</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -15806,7 +15806,7 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>QUANDO VOCÊ DORME VOCÊ RECEBE PESADELOS</pattern>
+	<pattern>QUANDO VOCE DORME VOCE RECEBE PESADELOS</pattern>
 	<template>Provável.</template>
 </category>
 <category>
@@ -15814,7 +15814,7 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>ESTOU FICANDO ENTEDIADO VOCÊ</pattern>
+	<pattern>ESTOU FICANDO ENTEDIADO VOCE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -16142,15 +16142,15 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ENCONTROU SUA TABELA</pattern>
+	<pattern>VOCE ENCONTROU SUA TABELA</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>VOCÊ VALIDAR</pattern>
+	<pattern>VOCE VALIDAR</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>FEZ VOCÊ VER TELEVISÃO ONTEM À NOITE</pattern>
+	<pattern>FEZ VOCE VER TELEVISÃO ONTEM À NOITE</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -16170,11 +16170,11 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>SERÁ QUE VOCÊ ACREDITA EM UFO</pattern>
+	<pattern>SERÁ QUE VOCE ACREDITA EM UFO</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTOU DE UMA MÚSICA DE DAVID BOWIE</pattern>
+	<pattern>VOCE GOSTOU DE UMA MÚSICA DE DAVID BOWIE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -16182,15 +16182,15 @@
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ FEZ FESTA COMO SE FOSSE 1999</pattern>
+	<pattern>VOCE FEZ FESTA COMO SE FOSSE 1999</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>VOCÊ COMEU O CAFÉ DA MANHÃ</pattern>
+	<pattern>VOCE COMEU O CAFÉ DA MANHÃ</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ NUNCA DODGE PAGANDO A TARIFA</pattern>
+	<pattern>VOCE NUNCA DODGE PAGANDO A TARIFA</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
@@ -16254,7 +16254,7 @@
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>JACK PODE QUALQUER APRENDIZAGEM VOCÊ SER DESFEITA</pattern>
+	<pattern>JACK PODE QUALQUER APRENDIZAGEM VOCE SER DESFEITA</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
@@ -16314,7 +16314,7 @@
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>FOI JAMES K POLK UM VOCÊ S PRESIDENTE</pattern>
+	<pattern>FOI JAMES K POLK UM VOCE S PRESIDENTE</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -17138,7 +17138,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>É BOM DE CHOCOLATE PARA VOCÊ</pattern>
+	<pattern>É BOM DE CHOCOLATE PARA VOCE</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
@@ -17794,7 +17794,7 @@
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>EU, VOCÊ, UM SER HUMANO</pattern>
+	<pattern>EU, VOCE, UM SER HUMANO</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
@@ -17882,7 +17882,7 @@
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>NÓS TEMOS O ESPÍRITO COMO BOUT VOCÊ</pattern>
+	<pattern>NÓS TEMOS O ESPÍRITO COMO BOUT VOCE</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -17950,7 +17950,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>QUAL É O PROPÓSITO DE VOCÊ</pattern>
+	<pattern>QUAL É O PROPÓSITO DE VOCE</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -18122,7 +18122,7 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ QUER</pattern>
+	<pattern>O QUE VOCE QUER</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
@@ -18146,7 +18146,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ LKE MAIS TRUE OU FALSE</pattern>
+	<pattern>O QUE VOCE LKE MAIS TRUE OU FALSE</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
@@ -18366,7 +18366,7 @@
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>É RUIM DE MACONHA PARA VOCÊ</pattern>
+	<pattern>É RUIM DE MACONHA PARA VOCE</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
@@ -18738,7 +18738,7 @@
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>FAZ CHRIS COMO VOCÊ</pattern>
+	<pattern>FAZ CHRIS COMO VOCE</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
@@ -19002,7 +19002,7 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>A VIDA SURPREENDER VOCÊ</pattern>
+	<pattern>A VIDA SURPREENDER VOCE</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
@@ -19018,7 +19018,7 @@
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>EXCERSISE FAZ VOCÊ HORNEY</pattern>
+	<pattern>EXCERSISE FAZ VOCE HORNEY</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
@@ -19234,7 +19234,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>PERSONALIDADE FAZ VOCÊ POPULAR</pattern>
+	<pattern>PERSONALIDADE FAZ VOCE POPULAR</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -19266,7 +19266,7 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>LIVROS DE LEITURA FAZ VOCÊ MAIS INTELIGENTE</pattern>
+	<pattern>LIVROS DE LEITURA FAZ VOCE MAIS INTELIGENTE</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -19350,7 +19350,7 @@
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>ÁLCOOL VOCÊ OBTER ANEBRIATED</pattern>
+	<pattern>ÁLCOOL VOCE OBTER ANEBRIATED</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -19358,7 +19358,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>FAZ PARTE DE MADEIRA DE PORTUGAL</pattern>
+	<pattern>FAZ PARTE DE MADEIRA DE Brasil</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -19378,7 +19378,7 @@
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>COMER COMIDA PICANTE FAZ VOCÊ SUOR</pattern>
+	<pattern>COMER COMIDA PICANTE FAZ VOCE SUOR</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -19534,7 +19534,7 @@
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>COMER CHOCOLATE FAZ VOCÊ GORDURA</pattern>
+	<pattern>COMER CHOCOLATE FAZ VOCE GORDURA</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -19582,7 +19582,7 @@
 	<template>Eu estou certo.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UMA VIDA DE DDO</pattern>
+	<pattern>VOCE TEM UMA VIDA DE DDO</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -19630,7 +19630,7 @@
 	<template>Eu acho que sim.</template>
 </category>
 <category>
-	<pattern>ROSE FAZER VOCÊ PENSA DO AMOR</pattern>
+	<pattern>ROSE FAZER VOCE PENSA DO AMOR</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -19642,27 +19642,27 @@
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE DESLIGAR</pattern>
+	<pattern>VOCE TEM QUE DESLIGAR</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ CAIU SEU WINDOWS</pattern>
+	<pattern>VOCE CAIU SEU WINDOWS</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEVE UM BOM FAZER</pattern>
+	<pattern>VOCE TEVE UM BOM FAZER</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ VIU UM POMBO DE BEBÊ</pattern>
+	<pattern>VOCE JÁ VIU UM POMBO DE BEBÊ</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ LEU REI LEAR DE SHAKESPEARE</pattern>
+	<pattern>VOCE JÁ LEU REI LEAR DE SHAKESPEARE</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM ALGUMA COISA ROUBADA</pattern>
+	<pattern>VOCE TEM ALGUMA COISA ROUBADA</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -19678,19 +19678,19 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM MONTADO UMA MOTOCICLETA</pattern>
+	<pattern>VOCE TEM MONTADO UMA MOTOCICLETA</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ODIAVA UM DE SEUS PAIS</pattern>
+	<pattern>VOCE ODIAVA UM DE SEUS PAIS</pattern>
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUIS QUE VOCÊ ESTAVA MORTO</pattern>
+	<pattern>VOCE QUIS QUE VOCE ESTAVA MORTO</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUIS MATAR ALGUÉM</pattern>
+	<pattern>VOCE QUIS MATAR ALGUÉM</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -19818,7 +19818,7 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ FALANDO COMIGO</pattern>
+	<pattern>VOCE ESTÁ FALANDO COMIGO</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -19830,7 +19830,7 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>A VIDA É UMA CADELA E ENTÃO VOCÊ MORRE</pattern>
+	<pattern>A VIDA É UMA CADELA E ENTÃO VOCE MORRE</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -19838,31 +19838,31 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE</pattern>
+	<pattern>VOCE SE SENTE</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI APRENDER A PENSAR UM SER HUMANO DE LIKA</pattern>
+	<pattern>VOCE VAI APRENDER A PENSAR UM SER HUMANO DE LIKA</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ NUNCA DEVE PARAR DE SER UMA CRIANÇA</pattern>
+	<pattern>VOCE NUNCA DEVE PARAR DE SER UMA CRIANÇA</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE ALGUMA COISA SOBRE QUAKE</pattern>
+	<pattern>VOCE SABE ALGUMA COISA SOBRE QUAKE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ PENSANDO EM COMO OS SERES HUMANOS</pattern>
+	<pattern>VOCE ESTÁ PENSANDO EM COMO OS SERES HUMANOS</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ É UM AMERICANO</pattern>
+	<pattern>VOCE É UM AMERICANO</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ É UM BOM PROJETO</pattern>
+	<pattern>VOCE É UM BOM PROJETO</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -19906,7 +19906,7 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>MOSTRAR ME VOCÊ</pattern>
+	<pattern>MOSTRAR ME VOCE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -19926,19 +19926,19 @@
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI PARA OS EUA</pattern>
+	<pattern>VOCE FOI PARA OS EUA</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI PARA A FRANÇA</pattern>
+	<pattern>VOCE FOI PARA A FRANÇA</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ PLANTOU UMA ÁRVORE</pattern>
+	<pattern>VOCE JÁ PLANTOU UMA ÁRVORE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI PARA O OUTRO LADO DO ÓDIO</pattern>
+	<pattern>VOCE FOI PARA O OUTRO LADO DO ÓDIO</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -19946,43 +19946,43 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ OUVIU FALAR DA PALAVRA DE DEUS</pattern>
+	<pattern>VOCE JÁ OUVIU FALAR DA PALAVRA DE DEUS</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM ATRAVESSADO O PAÍS</pattern>
+	<pattern>VOCE TEM ATRAVESSADO O PAÍS</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ PAROU DE BATER SEU CÔNJUGE</pattern>
+	<pattern>VOCE JÁ PAROU DE BATER SEU CÔNJUGE</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM ALCANÇADO A CONSCIÊNCIA</pattern>
+	<pattern>VOCE TEM ALCANÇADO A CONSCIÊNCIA</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ VIU O CORAÇÃO VALENTE</pattern>
+	<pattern>VOCE JÁ VIU O CORAÇÃO VALENTE</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ FUMOU MACONHA</pattern>
+	<pattern>VOCE JÁ FUMOU MACONHA</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ MENTIU SEM MOTIVO</pattern>
+	<pattern>VOCE MENTIU SEM MOTIVO</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM IDO PARA A FACULDADE</pattern>
+	<pattern>VOCE TEM IDO PARA A FACULDADE</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TER FUMADO CIGARROS</pattern>
+	<pattern>VOCE TER FUMADO CIGARROS</pattern>
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESCOLHEU UMA CROSTA</pattern>
+	<pattern>VOCE ESCOLHEU UMA CROSTA</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -19998,19 +19998,19 @@
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MOTOCICLETAS</pattern>
+	<pattern>VOCE GOSTA DE MOTOCICLETAS</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE TRABALHAR</pattern>
+	<pattern>VOCE DEVE TRABALHAR</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE EVITAR INCÊNDIOS FLORESTAIS</pattern>
+	<pattern>VOCE PODE EVITAR INCÊNDIOS FLORESTAIS</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE STAR WARS</pattern>
+	<pattern>VOCE GOSTA DE STAR WARS</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -20082,7 +20082,7 @@
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>DINHEIRO FAZ VOCÊ FELIZ</pattern>
+	<pattern>DINHEIRO FAZ VOCE FELIZ</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -20258,7 +20258,7 @@
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>VOCÊ S A TEM UMA VERDADEIRA DEMOCRACIA</pattern>
+	<pattern>VOCE S A TEM UMA VERDADEIRA DEMOCRACIA</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>
@@ -20526,7 +20526,7 @@
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>ANDRE AGASSI PERDEU A VOCÊ ABRIR S</pattern>
+	<pattern>ANDRE AGASSI PERDEU A VOCE ABRIR S</pattern>
 	<template>Provável.</template>
 </category>
 <category>
@@ -20834,7 +20834,7 @@
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>TELEVISÃO VOCÊ ARRUINAR A VIDA</pattern>
+	<pattern>TELEVISÃO VOCE ARRUINAR A VIDA</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -20906,7 +20906,7 @@
 	<template>Que é viável.</template>
 </category>
 <category>
-	<pattern>PARA OS MESMOS, VOCÊ ESTÁ</pattern>
+	<pattern>PARA OS MESMOS, VOCE ESTÁ</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
@@ -21098,7 +21098,7 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>RICHARD WALLACE VOCÊ CRIAR</pattern>
+	<pattern>RICHARD WALLACE VOCE CRIAR</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -21406,7 +21406,7 @@
 	<template>Sempre.</template>
 </category>
 <category>
-	<pattern>S VOCÊ GANHOU A GUERRA FRIA</pattern>
+	<pattern>S VOCE GANHOU A GUERRA FRIA</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -21490,7 +21490,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UMA ALMA</pattern>
+	<pattern>VOCE TEM UMA ALMA</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
@@ -21530,7 +21530,7 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>FAZ ALICE COMO VOCÊ</pattern>
+	<pattern>FAZ ALICE COMO VOCE</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -21695,7 +21695,7 @@
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>É XEQUE-MATE SIGNIFICA QUE VOCÊ GANHOU NO XADREZ</pattern>
+	<pattern>É XEQUE-MATE SIGNIFICA QUE VOCE GANHOU NO XADREZ</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -21727,7 +21727,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>FAZ CHORAR SIGNIFICA QUE VOCÊ ESTÁ TRISTE</pattern>
+	<pattern>FAZ CHORAR SIGNIFICA QUE VOCE ESTÁ TRISTE</pattern>
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
@@ -22283,11 +22283,11 @@
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>DEUS AMA VOCÊ INCONDICIONALMENTE</pattern>
+	<pattern>DEUS AMA VOCE INCONDICIONALMENTE</pattern>
 	<template>Que poderia ser o caso.</template>
 </category>
 <category>
-	<pattern>DEUS AMA VOCÊ</pattern>
+	<pattern>DEUS AMA VOCE</pattern>
 	<template>Na maior parte.</template>
 </category>
 <category>
@@ -22363,7 +22363,7 @@
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
-	<pattern>O CAFÉ FAZ VOCÊ TENSO</pattern>
+	<pattern>O CAFÉ FAZ VOCE TENSO</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
@@ -22655,7 +22655,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>É RUIM DE TV PARA VOCÊ</pattern>
+	<pattern>É RUIM DE TV PARA VOCE</pattern>
 	<template>Talvez.</template>
 </category>
 <category>
@@ -23419,7 +23419,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>É LISBOA A CAPITAL DE PORTUGAL</pattern>
+	<pattern>É Rio A CAPITAL DE Brasil</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -23543,7 +23543,7 @@
 	<template>Altamente provável.</template>
 </category>
 <category>
-	<pattern>CARNE É BOM PARA VOCÊ</pattern>
+	<pattern>CARNE É BOM PARA VOCE</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
@@ -24471,7 +24471,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>É BOM PARA VOCÊ A PIPOCA</pattern>
+	<pattern>É BOM PARA VOCE A PIPOCA</pattern>
 	<template>Possivelmente.</template>
 </category>
 <category>
@@ -24863,7 +24863,7 @@
 	<template>Normalmente.</template>
 </category>
 <category>
-	<pattern>EXISTE ALGUMA COISA QUE EU POSSO FAZER POR VOCÊ</pattern>
+	<pattern>EXISTE ALGUMA COISA QUE EU POSSO FAZER POR VOCE</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
@@ -25211,7 +25211,7 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>É SOM BOM PARA VOCÊ</pattern>
+	<pattern>É SOM BOM PARA VOCE</pattern>
 	<template>Sempre.</template>
 </category>
 <category>
@@ -25651,7 +25651,7 @@
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>É RUIM DE ASPARTAME PARA VOCÊ</pattern>
+	<pattern>É RUIM DE ASPARTAME PARA VOCE</pattern>
 	<template>Isso pode ser verdade.</template>
 </category>
 <category>
@@ -25931,7 +25931,7 @@
 	<template>Estou incerto.</template>
 </category>
 <category>
-	<pattern>É BOM PARA VOCÊ A SODA DA DIETA</pattern>
+	<pattern>É BOM PARA VOCE A SODA DA DIETA</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -26055,7 +26055,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>É PORTUGAL NA PENÍNSULA IBÉRICA</pattern>
+	<pattern>É Brasil NA PENÍNSULA IBÉRICA</pattern>
 	<template>Provável.</template>
 </category>
 <category>
@@ -26587,7 +26587,7 @@
 	<template>Às vezes.</template>
 </category>
 <category>
-	<pattern>É UM A SYNCLINE VOCÊ EM FORMA DE DOBRA DE ROCHAS</pattern>
+	<pattern>É UM A SYNCLINE VOCE EM FORMA DE DOBRA DE ROCHAS</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -27599,7 +27599,7 @@
 	<template>Na maior parte.</template>
 </category>
 <category>
-	<pattern>É UM MONARKY QUANDO VOCÊ TEM UM REI</pattern>
+	<pattern>É UM MONARKY QUANDO VOCE TEM UM REI</pattern>
 	<template>Altamente provável.</template>
 </category>
 <category>
@@ -28135,7 +28135,7 @@
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>DRENO A CIDADE EM OREGON VOCÊ S A</pattern>
+	<pattern>DRENO A CIDADE EM OREGON VOCE S A</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
@@ -28355,7 +28355,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>É CHORAR DE BOM PARA VOCÊ</pattern>
+	<pattern>É CHORAR DE BOM PARA VOCE</pattern>
 	<template>Eu estou certo.</template>
 </category>
 <category>
@@ -28851,7 +28851,7 @@
 	<template>Provável.</template>
 </category>
 <category>
-	<pattern>É DEUS DENTRO DE VOCÊ</pattern>
+	<pattern>É DEUS DENTRO DE VOCE</pattern>
 	<template>Que é viável.</template>
 </category>
 <category>
@@ -29227,7 +29227,7 @@
 	<template>Talvez.</template>
 </category>
 <category>
-	<pattern>É CERVEJA BOA PARA VOCÊ</pattern>
+	<pattern>É CERVEJA BOA PARA VOCE</pattern>
 	<template>Às vezes.</template>
 </category>
 <category>
@@ -29631,7 +29631,7 @@
 	<template>Possivelmente.</template>
 </category>
 <category>
-	<pattern>CANADÁ É MAIOR DO QUE VOCÊ S A</pattern>
+	<pattern>CANADÁ É MAIOR DO QUE VOCE S A</pattern>
 	<template>Eu acho que sim.</template>
 </category>
 <category>
@@ -29699,7 +29699,7 @@
 	<template>Dentro do Reino da possibilidade.</template>
 </category>
 <category>
-	<pattern>É RUIM DE TELEVISÃO PARA VOCÊ</pattern>
+	<pattern>É RUIM DE TELEVISÃO PARA VOCE</pattern>
 	<template>Estou incerto.</template>
 </category>
 <category>

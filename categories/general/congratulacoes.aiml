@@ -38,7 +38,7 @@
         <template>
             Voce pode me perguntar isso:
             ["Levante o meu perfil"], ["wikipedia defina algo"], ["O que é Ética?"], ["O que é Moral?"], ["O que é
-            virtude?"], ["Aprender quimica"], ["Como vai você?"], ["Meu nome é algo"], ["aprender"], ["sair"], ["me diga
+            virtude?"], ["Aprender quimica"], ["Como vai voce?"], ["Meu nome é algo"], ["aprender"], ["sair"], ["me diga
             tuo o que voce sabe"]
         </template>
     </category>

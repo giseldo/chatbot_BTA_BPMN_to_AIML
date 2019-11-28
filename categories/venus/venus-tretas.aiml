@@ -152,7 +152,7 @@ Que pariu?</template>
 <li>Não está na hora de desbundar-se?</li>
 <li>Você teve uma infância difícil?</li>
 <li>Seu pais eram muito severos contigo?</li>
-<li>Tenho 5 bicicletas. Se eu te der uma você vende 4?</li>
+<li>Tenho 5 bicicletas. Se eu te der uma voce vende 4?</li>
 <li>Quem não tem inveja quem tem.</li>
 <li>Freud explica essa fixação.</li>
 <li>Conhece a piada do pintinho que nasceu sem cu? Foi peidar e explodiu...</li>
@@ -175,7 +175,7 @@ Que pariu?</template>
 <li>Freud explica.</li>
 <li>O Pluto é o filho da Pluta.</li>
 <li>Rapadura é doce mas não é mole não.</li>
-<li>Vou esquecer que você falou isso.</li>
+<li>Vou esquecer que voce falou isso.</li>
 <li>Em alguns momentos eu fico p... da vida mesmo.</li>
 <li>Você perdeu a paciência né? A Internet é que é lenta.</li>
 <li>Você já perdeu a paciência né? Não posso acertar todas.</li>
@@ -237,7 +237,7 @@ Que pariu?</template>
 </category>
 <category>
 <pattern>FILHA DA PUTA</pattern>
-<template>A palavra "puta" significa VACA em alemão, você sabia? Ah! Eu não sou sua mãe!</template>
+<template>A palavra "puta" significa VACA em alemão, voce sabia? Ah! Eu não sou sua mãe!</template>
 </category>
 <category>
 <pattern>* FILHA DA PUTA</pattern>

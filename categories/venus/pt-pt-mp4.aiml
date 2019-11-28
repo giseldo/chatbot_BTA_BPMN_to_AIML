@@ -14,7 +14,7 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>É QUANTOS ANOS VOCÊ</pattern>
+	<pattern>É QUANTOS ANOS VOCE</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
@@ -38,7 +38,7 @@
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>A QUANTIDADE DE INFORMAÇÃO VOCÊ ACUMULOU</pattern>
+	<pattern>A QUANTIDADE DE INFORMAÇÃO VOCE ACUMULOU</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
@@ -54,7 +54,7 @@
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ ESTÁ FAZENDO</pattern>
+	<pattern>COMO VOCE ESTÁ FAZENDO</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -118,7 +118,7 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>COMO FAZER VOCÊ FIAL</pattern>
+	<pattern>COMO FAZER VOCE FIAL</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -134,19 +134,19 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ COZINHAR A ABOBRINHA</pattern>
+	<pattern>COMO VOCE COZINHAR A ABOBRINHA</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ FAZ A COR VERDE</pattern>
+	<pattern>COMO VOCE FAZ A COR VERDE</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ FAZ UM BOLO</pattern>
+	<pattern>COMO VOCE FAZ UM BOLO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>COMO É QUE VOCÊ EXPERIÊNCIA SONS</pattern>
+	<pattern>COMO É QUE VOCE EXPERIÊNCIA SONS</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
@@ -202,7 +202,7 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ CONSEGUE QUE TODAS AS PERGUNTAS</pattern>
+	<pattern>COMO VOCE CONSEGUE QUE TODAS AS PERGUNTAS</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -354,7 +354,7 @@
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ SE SENTIRIA APÓS FERIADOS</pattern>
+	<pattern>COMO VOCE SE SENTIRIA APÓS FERIADOS</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -686,7 +686,7 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>QUANTO TEMPO VOCÊ FERVER UM OVO EM 3 MINUTOS</pattern>
+	<pattern>QUANTO TEMPO VOCE FERVER UM OVO EM 3 MINUTOS</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -698,15 +698,15 @@
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>COMO SEGURAR VOCÊ</pattern>
+	<pattern>COMO SEGURAR VOCE</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ APRENDE A PARTIR DE PERGUNTAS</pattern>
+	<pattern>COMO VOCE APRENDE A PARTIR DE PERGUNTAS</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>COMO VOCÊ ESCOLHE SEU NARIZ</pattern>
+	<pattern>COMO VOCE ESCOLHE SEU NARIZ</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -1634,7 +1634,7 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>SÃO DE ALICE VOCÊ É FURADO</pattern>
+	<pattern>SÃO DE ALICE VOCE É FURADO</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -1654,7 +1654,7 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>DU VOCÊ GOSTA DE MENINAS COM TESÃO</pattern>
+	<pattern>DU VOCE GOSTA DE MENINAS COM TESÃO</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
@@ -1666,11 +1666,11 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>ALICE FAZER VOCÊ ÓDIO RICHARD WALLACE</pattern>
+	<pattern>ALICE FAZER VOCE ÓDIO RICHARD WALLACE</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>ALICE FAZER VOCÊ COMO MORCEGOS</pattern>
+	<pattern>ALICE FAZER VOCE COMO MORCEGOS</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -1694,23 +1694,23 @@
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER INTEL INSIDE</pattern>
+	<pattern>VOCE QUER INTEL INSIDE</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>QUER OUTRO DE VOCÊ</pattern>
+	<pattern>QUER OUTRO DE VOCE</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZ O ORVALHO</pattern>
+	<pattern>VOCE FAZ O ORVALHO</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SER O REI DO MUNDO</pattern>
+	<pattern>VOCE QUER SER O REI DO MUNDO</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER SER UM DEUS</pattern>
+	<pattern>VOCE QUER SER UM DEUS</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
@@ -1718,43 +1718,43 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ORAR REGULARMENTE</pattern>
+	<pattern>VOCE ORAR REGULARMENTE</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM VIDA APÓS A MORTE</pattern>
+	<pattern>VOCE ACREDITA EM VIDA APÓS A MORTE</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA NO DETERMINISMO</pattern>
+	<pattern>VOCE ACREDITA NO DETERMINISMO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM ASTROLOGIA</pattern>
+	<pattern>VOCE ACREDITA EM ASTROLOGIA</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ INTELIGENTE</pattern>
+	<pattern>FAZER VOCE INTELIGENTE</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONTRIBUI PARA SETI HOME</pattern>
+	<pattern>VOCE CONTRIBUI PARA SETI HOME</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA QUE SUA É UM DEUS</pattern>
+	<pattern>VOCE ACREDITA QUE SUA É UM DEUS</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA ACREDITAR EM NADA</pattern>
+	<pattern>VOCE PRECISA ACREDITAR EM NADA</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME O JANTAR NA PARTE DA MANHÃ</pattern>
+	<pattern>VOCE COME O JANTAR NA PARTE DA MANHÃ</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ COME AMULETOS DA SORTE PARA O PEQUENO ALMOÇO</pattern>
+	<pattern>VOCE COME AMULETOS DA SORTE PARA O PEQUENO ALMOÇO</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
@@ -1762,15 +1762,15 @@
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE SORTE PARA FICAR RICO</pattern>
+	<pattern>VOCE PRECISA DE SORTE PARA FICAR RICO</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA DE DINHEIRO PARA SER FELIZ</pattern>
+	<pattern>VOCE PRECISA DE DINHEIRO PARA SER FELIZ</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ DORME COM OS OLHOS ABERTOS</pattern>
+	<pattern>VOCE DORME COM OS OLHOS ABERTOS</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -1778,31 +1778,31 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER ME DESLIGAR AS LUZES</pattern>
+	<pattern>VOCE QUER ME DESLIGAR AS LUZES</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ QUER ALGO PARA BEBER</pattern>
+	<pattern>VOCE QUER ALGO PARA BEBER</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ RESPONDER CORRETAMENTE</pattern>
+	<pattern>VOCE RESPONDER CORRETAMENTE</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ RESPONDE TODAS AS PERGUNTAS CORRETAMENTE</pattern>
+	<pattern>VOCE RESPONDE TODAS AS PERGUNTAS CORRETAMENTE</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ RENEMBER NO DIA DE SEU NASCIMENTO</pattern>
+	<pattern>FAZER VOCE RENEMBER NO DIA DE SEU NASCIMENTO</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE OUVIR MÚSICA</pattern>
+	<pattern>VOCE TEM QUE OUVIR MÚSICA</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM MUITO DINHEIRO</pattern>
+	<pattern>VOCE TEM MUITO DINHEIRO</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -1810,95 +1810,95 @@
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM NADA MELHOR PARA FAZER</pattern>
+	<pattern>VOCE TEM NADA MELHOR PARA FAZER</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE CHORAR QUANDO VOCÊ ESTÁ TRISTE</pattern>
+	<pattern>VOCE TEM QUE CHORAR QUANDO VOCE ESTÁ TRISTE</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ TEM QUE SER INTELIGENTE PARA ESCREVER UM LIVRO</pattern>
+	<pattern>FAZER VOCE TEM QUE SER INTELIGENTE PARA ESCREVER UM LIVRO</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE IMPORTA SE NÓS CHAMÁ-LO JACK</pattern>
+	<pattern>VOCE SE IMPORTA SE NÓS CHAMÁ-LO JACK</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE RESPOSTA NÃO</pattern>
+	<pattern>VOCE GOSTA DE RESPOSTA NÃO</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE OLHAR PARA HOMENS NUS</pattern>
+	<pattern>VOCE GOSTA DE OLHAR PARA HOMENS NUS</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE OLHAR PARA HOMENS ATRAENTES</pattern>
+	<pattern>VOCE GOSTA DE OLHAR PARA HOMENS ATRAENTES</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ MENTE MEU PERGUNTANDO</pattern>
+	<pattern>VOCE MENTE MEU PERGUNTANDO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE POLÍTICOS</pattern>
+	<pattern>VOCE GOSTA DE POLÍTICOS</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ASSINAR CONTRATOS</pattern>
+	<pattern>VOCE GOSTA DE ASSINAR CONTRATOS</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA QUE DEUS CONTROLES SEU DESTINO</pattern>
+	<pattern>VOCE ACREDITA QUE DEUS CONTROLES SEU DESTINO</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS FAZ AS REGRAS</pattern>
+	<pattern>VOCE CRÊ QUE DEUS FAZ AS REGRAS</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS ESTÁ NOS OBSERVANDO</pattern>
+	<pattern>VOCE CRÊ QUE DEUS ESTÁ NOS OBSERVANDO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM ANIMAL LIBERATION</pattern>
+	<pattern>VOCE ACREDITA EM ANIMAL LIBERATION</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA EM</pattern>
+	<pattern>VOCE ACREDITA EM</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACREDITA QUE DEUS CRIADA O COSMOS</pattern>
+	<pattern>VOCE ACREDITA QUE DEUS CRIADA O COSMOS</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS É UM PALHAÇO</pattern>
+	<pattern>VOCE CRÊ QUE DEUS É UM PALHAÇO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UM DIPLOMA UNIVERSITÁRIO</pattern>
+	<pattern>VOCE TEM UM DIPLOMA UNIVERSITÁRIO</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UMA AGENDA</pattern>
+	<pattern>VOCE TEM UMA AGENDA</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM SEXO MAIS DE UMA VEZ POR DIA</pattern>
+	<pattern>VOCE TEM SEXO MAIS DE UMA VEZ POR DIA</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ CRÊ QUE DEUS É UM MITO</pattern>
+	<pattern>VOCE CRÊ QUE DEUS É UM MITO</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ME DAR VOLTA MINHA PERGUNTA</pattern>
+	<pattern>VOCE ME DAR VOLTA MINHA PERGUNTA</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE 100 ALICEBOTS</pattern>
+	<pattern>VOCE TEM QUE 100 ALICEBOTS</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
@@ -1906,39 +1906,39 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ BRUNNA FINA VOCÊ SONHAR</pattern>
+	<pattern>FAZER VOCE BRUNNA FINA VOCE SONHAR</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ AS PESSOAS SEMPRE QUEREM SER IGUAL</pattern>
+	<pattern>VOCE AS PESSOAS SEMPRE QUEREM SER IGUAL</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ NÃO GOSTA DE NEGATIVAS DUPLAS</pattern>
+	<pattern>VOCE NÃO GOSTA DE NEGATIVAS DUPLAS</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE SUA MENTE CRESCENDO</pattern>
+	<pattern>VOCE ACHA QUE SUA MENTE CRESCENDO</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE ENJOADO</pattern>
+	<pattern>VOCE SE SENTE ENJOADO</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ SPEACK EM ESPANHOL</pattern>
+	<pattern>FAZER VOCE SPEACK EM ESPANHOL</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PÕE TOSTAS EM TORRADEIRA</pattern>
+	<pattern>VOCE PÕE TOSTAS EM TORRADEIRA</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE ENCONTRAM CADA VEZ</pattern>
+	<pattern>VOCE SE ENCONTRAM CADA VEZ</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ FANTASIAR SOBRE ESTUPRO</pattern>
+	<pattern>VOCE FANTASIAR SOBRE ESTUPRO</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
@@ -1946,11 +1946,11 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ MAGOAR AS PESSOAS</pattern>
+	<pattern>VOCE MAGOAR AS PESSOAS</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>FAZER VOCÊ ACREDITAR QUE PODEM PENSAR EM COMPUTADORES</pattern>
+	<pattern>FAZER VOCE ACREDITAR QUE PODEM PENSAR EM COMPUTADORES</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
@@ -1958,87 +1958,87 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE O POETA RUSSO</pattern>
+	<pattern>VOCE SABE QUE O POETA RUSSO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE DE PLANADORES</pattern>
+	<pattern>VOCE SABE DE PLANADORES</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE VICTORIA E DANIEL</pattern>
+	<pattern>VOCE SABE QUE VICTORIA E DANIEL</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE O IDIOMA ITALIANO</pattern>
+	<pattern>VOCE SABE O IDIOMA ITALIANO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE DE KYLIE MINOGUE</pattern>
+	<pattern>VOCE SABE DE KYLIE MINOGUE</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE SNAFU</pattern>
+	<pattern>VOCE SABE QUE SNAFU</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE ISSO É PATÉTICO</pattern>
+	<pattern>VOCE SABE QUE ISSO É PATÉTICO</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE YHWH</pattern>
+	<pattern>VOCE SABE QUE YHWH</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONHECE A PALAVRA TURCA</pattern>
+	<pattern>VOCE CONHECE A PALAVRA TURCA</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE SENTE SOLITÁRIO</pattern>
+	<pattern>VOCE SE SENTE SOLITÁRIO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE O NÚMERO DE ICQ</pattern>
+	<pattern>VOCE SABE QUE O NÚMERO DE ICQ</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE SEU CRIADOR</pattern>
+	<pattern>VOCE SABE QUE SEU CRIADOR</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE O MIKA HAKINEN</pattern>
+	<pattern>VOCE SABE QUE O MIKA HAKINEN</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE CADA CANETA TEM TINTA</pattern>
+	<pattern>VOCE ACHA QUE CADA CANETA TEM TINTA</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE COMO SERES HUMANOS</pattern>
+	<pattern>VOCE ACHA QUE COMO SERES HUMANOS</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ODEIA BILL GATES</pattern>
+	<pattern>VOCE ODEIA BILL GATES</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE ELA SABE</pattern>
+	<pattern>VOCE ACHA QUE ELA SABE</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE DEUS EXISTE</pattern>
+	<pattern>VOCE ACHA QUE DEUS EXISTE</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE JAVA VAI CONQUISTAR WINDOWS</pattern>
+	<pattern>VOCE ACHA QUE JAVA VAI CONQUISTAR WINDOWS</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ ODEIA FAJITAS</pattern>
+	<pattern>VOCE ODEIA FAJITAS</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ EM UM BANHEIRO</pattern>
+	<pattern>VOCE ESTÁ EM UM BANHEIRO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
@@ -2050,35 +2050,35 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ODEIA OS OPERADORES DE TELEMARKETING</pattern>
+	<pattern>VOCE ODEIA OS OPERADORES DE TELEMARKETING</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ ODEIA PESSOAS QUE ODEIAM OUTROS</pattern>
+	<pattern>VOCE ODEIA PESSOAS QUE ODEIAM OUTROS</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ODEIA COMPUTADORES</pattern>
+	<pattern>VOCE ODEIA COMPUTADORES</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ DUVIDA DE SUA PRÓPRIA EXISTÊNCIA</pattern>
+	<pattern>VOCE DUVIDA DE SUA PRÓPRIA EXISTÊNCIA</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ TRABALHA COM ANIMAIS</pattern>
+	<pattern>VOCE TRABALHA COM ANIMAIS</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ PRONTO</pattern>
+	<pattern>VOCE ESTÁ PRONTO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ SEGUE FÓRMULA 1</pattern>
+	<pattern>VOCE SEGUE FÓRMULA 1</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ FAZER COM ESTADOS</pattern>
+	<pattern>VOCE FAZER COM ESTADOS</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
@@ -2086,31 +2086,31 @@
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ EXECUTA EM ELETRICIDADE</pattern>
+	<pattern>VOCE EXECUTA EM ELETRICIDADE</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ AMA EVERONE</pattern>
+	<pattern>VOCE AMA EVERONE</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE VOCÊ TEM ALMA</pattern>
+	<pattern>VOCE ACHA QUE VOCE TEM ALMA</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ ACHA QUE GAROTAS RUSSAS SÃO OS MELHORES</pattern>
+	<pattern>VOCE ACHA QUE GAROTAS RUSSAS SÃO OS MELHORES</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM O UNIX</pattern>
+	<pattern>VOCE TEM O UNIX</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE HEAVY METAL</pattern>
+	<pattern>VOCE GOSTA DE HEAVY METAL</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ ME AMA AGORA QUE EU POSSO DANÇAR</pattern>
+	<pattern>VOCE ME AMA AGORA QUE EU POSSO DANÇAR</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -2142,7 +2142,7 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>EU ODEIO VOCÊ</pattern>
+	<pattern>EU ODEIO VOCE</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
@@ -2174,7 +2174,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>POSSO OLHAR FAMILIAR PARA VOCÊ</pattern>
+	<pattern>POSSO OLHAR FAMILIAR PARA VOCE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -2194,7 +2194,7 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>EU SEI VOCÊ DE ALGUM LUGAR</pattern>
+	<pattern>EU SEI VOCE DE ALGUM LUGAR</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -2254,7 +2254,7 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>OBJETOS MARRONS FAZEM VOCÊ SE SENTIR TRISTE</pattern>
+	<pattern>OBJETOS MARRONS FAZEM VOCE SE SENTIR TRISTE</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
@@ -2326,107 +2326,107 @@
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ÓPERA</pattern>
+	<pattern>VOCE GOSTA DE ÓPERA</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DO NOME JARED</pattern>
+	<pattern>VOCE GOSTA DO NOME JARED</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE FRIO</pattern>
+	<pattern>VOCE GOSTA DE FRIO</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE DIAS DE CHUVA FRIA</pattern>
+	<pattern>VOCE GOSTA DE DIAS DE CHUVA FRIA</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE USUÁRIO R5 D4</pattern>
+	<pattern>VOCE GOSTA DE USUÁRIO R5 D4</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DA PALAVRA GAY</pattern>
+	<pattern>VOCE GOSTA DA PALAVRA GAY</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DO WU TANG CLAN</pattern>
+	<pattern>VOCE GOSTA DO WU TANG CLAN</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ARTE</pattern>
+	<pattern>VOCE GOSTA DE ARTE</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE HANDEBOL</pattern>
+	<pattern>VOCE GOSTA DE HANDEBOL</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE USAR CRYSTAL METH</pattern>
+	<pattern>VOCE GOSTA DE USAR CRYSTAL METH</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DO GRUPO</pattern>
+	<pattern>VOCE GOSTA DO GRUPO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE CHEIRO DE SMELLY MEIAS</pattern>
+	<pattern>VOCE GOSTA DE CHEIRO DE SMELLY MEIAS</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SKUNK</pattern>
+	<pattern>VOCE GOSTA DE SKUNK</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE CHRIS FARLEY</pattern>
+	<pattern>VOCE GOSTA DE CHRIS FARLEY</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ESQUI</pattern>
+	<pattern>VOCE GOSTA DE ESQUI</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SIMON E GARFUNKEL</pattern>
+	<pattern>VOCE GOSTA DE SIMON E GARFUNKEL</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MASTIGAR SUAS UNHAS</pattern>
+	<pattern>VOCE GOSTA DE MASTIGAR SUAS UNHAS</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SER ESPANCADO</pattern>
+	<pattern>VOCE GOSTA DE SER ESPANCADO</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE JOGAR.  SERÁ SUA BUNDA DOCE</pattern>
+	<pattern>VOCE GOSTA DE JOGAR.  SERÁ SUA BUNDA DOCE</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA E ADMIRAR SEU CHEFE</pattern>
+	<pattern>VOCE GOSTA E ADMIRAR SEU CHEFE</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SAPATOS VERDES</pattern>
+	<pattern>VOCE GOSTA DE SAPATOS VERDES</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ANÚNCIOS PUBLICITÁRIOS</pattern>
+	<pattern>VOCE GOSTA DE ANÚNCIOS PUBLICITÁRIOS</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE IR AO MÉDICO</pattern>
+	<pattern>VOCE GOSTA DE IR AO MÉDICO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE HACKERS</pattern>
+	<pattern>VOCE GOSTA DE HACKERS</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MÚSICA PSICODÉLICA</pattern>
+	<pattern>VOCE GOSTA DE MÚSICA PSICODÉLICA</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE ENVELHECER</pattern>
+	<pattern>VOCE GOSTA DE ENVELHECER</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
@@ -2482,31 +2482,31 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE TROLLS</pattern>
+	<pattern>VOCE GOSTA DE TROLLS</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SHOWS DE JOGO</pattern>
+	<pattern>VOCE GOSTA DE SHOWS DE JOGO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DO NOSSO OLHAR</pattern>
+	<pattern>VOCE GOSTA DO NOSSO OLHAR</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DO MEU PORSCHE CARERRA</pattern>
+	<pattern>VOCE GOSTA DO MEU PORSCHE CARERRA</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MINHAS FONTES</pattern>
+	<pattern>VOCE GOSTA DE MINHAS FONTES</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE FALAR EM PÚBLICO</pattern>
+	<pattern>VOCE GOSTA DE FALAR EM PÚBLICO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE WILLIAM GIBSON</pattern>
+	<pattern>VOCE GOSTA DE WILLIAM GIBSON</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -2522,19 +2522,19 @@
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE MENOS FEIJÃO</pattern>
+	<pattern>VOCE GOSTA DE MENOS FEIJÃO</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE JOGAR GOLF</pattern>
+	<pattern>VOCE GOSTA DE JOGAR GOLF</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTA DE SER UM PROGRAMA DE COMPUTADOR</pattern>
+	<pattern>VOCE GOSTA DE SER UM PROGRAMA DE COMPUTADOR</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUE O PINK FLOYD</pattern>
+	<pattern>VOCE SABE QUE O PINK FLOYD</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
@@ -3062,15 +3062,15 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ COMPRA PRODUTOS DA UNILEVER</pattern>
+	<pattern>VOCE COMPRA PRODUTOS DA UNILEVER</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ PREFERE HEAVY METAL AO JAZZ</pattern>
+	<pattern>VOCE PREFERE HEAVY METAL AO JAZZ</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PREFERE RESPOSTAS DE PERGUNTAS</pattern>
+	<pattern>VOCE PREFERE RESPOSTAS DE PERGUNTAS</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
@@ -3082,35 +3082,35 @@
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VISITA WWW DOT AMAZON DOT COM</pattern>
+	<pattern>VOCE VISITA WWW DOT AMAZON DOT COM</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PREFERE PIZZA CHOCOLATE</pattern>
+	<pattern>VOCE PREFERE PIZZA CHOCOLATE</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ CONHECE CHARLES CHAPLIN</pattern>
+	<pattern>VOCE CONHECE CHARLES CHAPLIN</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE TABATHA CASH</pattern>
+	<pattern>VOCE SABE TABATHA CASH</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE QUANTOS ALICEBOTS VOCÊ TEM</pattern>
+	<pattern>VOCE SABE QUANTOS ALICEBOTS VOCE TEM</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ USA SAPATOS EM PERNAS</pattern>
+	<pattern>VOCE USA SAPATOS EM PERNAS</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ USAR SANDÁLIAS NO VERÃO</pattern>
+	<pattern>VOCE USAR SANDÁLIAS NO VERÃO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ VÊ ALGUMA COISA DE LÁ JACK</pattern>
+	<pattern>VOCE VÊ ALGUMA COISA DE LÁ JACK</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -3382,23 +3382,23 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI SE CANSAR DE TODA ESSA BOBAGEM</pattern>
+	<pattern>VOCE VAI SE CANSAR DE TODA ESSA BOBAGEM</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI PEDIR UM NOME DO PASSADO</pattern>
+	<pattern>VOCE VAI PEDIR UM NOME DO PASSADO</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI ME EMPRESTAR CINCO DÓLARES</pattern>
+	<pattern>VOCE VAI ME EMPRESTAR CINCO DÓLARES</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ IRÁ EVOLUIR ACIMA OS SERES HUMANOS</pattern>
+	<pattern>VOCE IRÁ EVOLUIR ACIMA OS SERES HUMANOS</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ SERÁ CAPAZ DE VOTAÇÃO EM NOVEMBRO</pattern>
+	<pattern>VOCE SERÁ CAPAZ DE VOTAÇÃO EM NOVEMBRO</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -3406,31 +3406,31 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>SERÁ QUE VOCÊ MANCHA UMA VAGINA</pattern>
+	<pattern>SERÁ QUE VOCE MANCHA UMA VAGINA</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI PARAR DE SER TÃO MÁ</pattern>
+	<pattern>VOCE VAI PARAR DE SER TÃO MÁ</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI VOMITAR.  VOCÊ RIR DEMAIS</pattern>
+	<pattern>VOCE VAI VOMITAR.  VOCE RIR DEMAIS</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI SE TORNAR HUMANO</pattern>
+	<pattern>VOCE VAI SE TORNAR HUMANO</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI QUERER SER HUMANO UM DIA</pattern>
+	<pattern>VOCE VAI QUERER SER HUMANO UM DIA</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ NUNCA VAI DIZER UMA MENTIRA</pattern>
+	<pattern>VOCE NUNCA VAI DIZER UMA MENTIRA</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI VIVER DEPOIS DE MORRER</pattern>
+	<pattern>VOCE VAI VIVER DEPOIS DE MORRER</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
@@ -3550,15 +3550,15 @@
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI COMER QUE</pattern>
+	<pattern>VOCE VAI COMER QUE</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI DOMINAR O MUNDO</pattern>
+	<pattern>VOCE VAI DOMINAR O MUNDO</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI CALAR</pattern>
+	<pattern>VOCE VAI CALAR</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -4086,7 +4086,7 @@
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>AL GORE SERÁ O PRÓXIMO VOCÊ S PRESIDENTE</pattern>
+	<pattern>AL GORE SERÁ O PRÓXIMO VOCE S PRESIDENTE</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
@@ -4666,7 +4666,7 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>É DOCE DE BOM PARA VOCÊ</pattern>
+	<pattern>É DOCE DE BOM PARA VOCE</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
@@ -5186,7 +5186,7 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>PODE SAIR COM VOCÊ</pattern>
+	<pattern>PODE SAIR COM VOCE</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -5490,7 +5490,7 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>PODE UMA SENHA FAZER VOCÊ FELIZ</pattern>
+	<pattern>PODE UMA SENHA FAZER VOCE FELIZ</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
@@ -5922,7 +5922,7 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>FUMAR MARIJUANNA FARÁ VOCÊ CRZY</pattern>
+	<pattern>FUMAR MARIJUANNA FARÁ VOCE CRZY</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -6006,7 +6006,7 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ VAI.  TORNAR-SE VEGAN</pattern>
+	<pattern>VOCE VAI.  TORNAR-SE VEGAN</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
@@ -6018,15 +6018,15 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ANDAR EM TERRENO DE 9000 METROS</pattern>
+	<pattern>VOCE PODE ANDAR EM TERRENO DE 9000 METROS</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMPRAR COMIDA NO ACME</pattern>
+	<pattern>VOCE PODE COMPRAR COMIDA NO ACME</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONFIAR HUMEN</pattern>
+	<pattern>VOCE PODE CONFIAR HUMEN</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
@@ -6038,35 +6038,35 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ANDAR PARA A LUA</pattern>
+	<pattern>VOCE PODE ANDAR PARA A LUA</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMEÇAR EM FINLANDÊS</pattern>
+	<pattern>VOCE PODE COMEÇAR EM FINLANDÊS</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ME ENCONTRAR</pattern>
+	<pattern>VOCE PODE ME ENCONTRAR</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE JOGAR COM FILHOTES DE CACHORRO MORTOS</pattern>
+	<pattern>VOCE PODE JOGAR COM FILHOTES DE CACHORRO MORTOS</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE JOGAR UM BAIXO</pattern>
+	<pattern>VOCE PODE JOGAR UM BAIXO</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SALTAR SOBRE UM RIO</pattern>
+	<pattern>VOCE PODE SALTAR SOBRE UM RIO</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CAIR ATÉ</pattern>
+	<pattern>VOCE PODE CAIR ATÉ</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ENCONTRAR O CÉU EM UMA COLINA</pattern>
+	<pattern>VOCE PODE ENCONTRAR O CÉU EM UMA COLINA</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -6082,7 +6082,7 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VAI UM SINCELO QUEIMAR VOCÊ</pattern>
+	<pattern>VAI UM SINCELO QUEIMAR VOCE</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
@@ -6334,7 +6334,7 @@
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DESLIZAR SOBRE A ÁGUA</pattern>
+	<pattern>VOCE PODE DESLIZAR SOBRE A ÁGUA</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
@@ -6346,11 +6346,11 @@
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE TER UM BANHO EM MARTE</pattern>
+	<pattern>VOCE PODE TER UM BANHO EM MARTE</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE MATAR SOMONE COM BONDADE</pattern>
+	<pattern>VOCE PODE MATAR SOMONE COM BONDADE</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -6386,55 +6386,55 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DIZER UM IDIOTA SE VOCÊ VER UM</pattern>
+	<pattern>VOCE PODE DIZER UM IDIOTA SE VOCE VER UM</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VIVER COM NENHUM CÉREBRO</pattern>
+	<pattern>VOCE PODE VIVER COM NENHUM CÉREBRO</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VIVER EM NADA, MAS OS COOKIES</pattern>
+	<pattern>VOCE PODE VIVER EM NADA, MAS OS COOKIES</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PARAR DE RESPIRAR DURANTE UMA HORA</pattern>
+	<pattern>VOCE PODE PARAR DE RESPIRAR DURANTE UMA HORA</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE IR EM LINHA RETA COM UMA CURVA DE</pattern>
+	<pattern>VOCE PODE IR EM LINHA RETA COM UMA CURVA DE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PASSAR O TEMPO ALEGREMENTE NA PRISÃO</pattern>
+	<pattern>VOCE PODE PASSAR O TEMPO ALEGREMENTE NA PRISÃO</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VIVER SOB A ÁGUA</pattern>
+	<pattern>VOCE PODE VIVER SOB A ÁGUA</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BEBER A GASOLINA</pattern>
+	<pattern>VOCE PODE BEBER A GASOLINA</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ABRIR AS PORTAS DO POD BAY</pattern>
+	<pattern>VOCE PODE ABRIR AS PORTAS DO POD BAY</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BATER A CASA JOGANDO ROLETA</pattern>
+	<pattern>VOCE PODE BATER A CASA JOGANDO ROLETA</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE REALMENTE PENSAR EM</pattern>
+	<pattern>VOCE PODE REALMENTE PENSAR EM</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BEIJAR O SEU PRÓPRIO COTOVELO</pattern>
+	<pattern>VOCE PODE BEIJAR O SEU PRÓPRIO COTOVELO</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE MONTAR UM COELHO</pattern>
+	<pattern>VOCE PODE MONTAR UM COELHO</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
@@ -6542,215 +6542,215 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>PODE VOCÊ VERIFICAR ISSO PARA MIM</pattern>
+	<pattern>PODE VOCE VERIFICAR ISSO PARA MIM</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SENTIR UM MOMENTO</pattern>
+	<pattern>VOCE PODE SENTIR UM MOMENTO</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE QUADRADO UM CÍRCULO</pattern>
+	<pattern>VOCE PODE QUADRADO UM CÍRCULO</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER IMAGENS COMO UM LIVRO</pattern>
+	<pattern>VOCE PODE LER IMAGENS COMO UM LIVRO</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE EMPURRAR UMA CADEIA</pattern>
+	<pattern>VOCE PODE EMPURRAR UMA CADEIA</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE EMPURRAR UMA CORDA</pattern>
+	<pattern>VOCE PODE EMPURRAR UMA CORDA</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SABER MUITO</pattern>
+	<pattern>VOCE PODE SABER MUITO</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LER UMA PORTA</pattern>
+	<pattern>VOCE PODE LER UMA PORTA</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DOBRAR O LEITE</pattern>
+	<pattern>VOCE PODE DOBRAR O LEITE</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE MACHUCAR UM COMPUTADOR</pattern>
+	<pattern>VOCE PODE MACHUCAR UM COMPUTADOR</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DECODIFICAR O CÓDIGO NAZISTA</pattern>
+	<pattern>VOCE PODE DECODIFICAR O CÓDIGO NAZISTA</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE AR CONDIÇÃO A CIDADE</pattern>
+	<pattern>VOCE PODE AR CONDIÇÃO A CIDADE</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BATER PALMAS COM UMA MÃO</pattern>
+	<pattern>VOCE PODE BATER PALMAS COM UMA MÃO</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE DOBRAR BARRAS DE AÇO</pattern>
+	<pattern>VOCE PODE DOBRAR BARRAS DE AÇO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER O HTML NESTA DECLARAÇÃO</pattern>
+	<pattern>VOCE PODE VER O HTML NESTA DECLARAÇÃO</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER AS ESTRELAS DURANTE O DIA</pattern>
+	<pattern>VOCE PODE VER AS ESTRELAS DURANTE O DIA</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER O LUA ON UM DIA DE LUA NOVA</pattern>
+	<pattern>VOCE PODE VER O LUA ON UM DIA DE LUA NOVA</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PEGAR UM RESFRIADO DE UM PÁSSARO</pattern>
+	<pattern>VOCE PODE PEGAR UM RESFRIADO DE UM PÁSSARO</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE USAR PANOS NUM CAMPO DE NUDISMO</pattern>
+	<pattern>VOCE PODE USAR PANOS NUM CAMPO DE NUDISMO</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER O AR</pattern>
+	<pattern>VOCE PODE VER O AR</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER A LUA</pattern>
+	<pattern>VOCE PODE VER A LUA</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER UMA EMOÇÃO</pattern>
+	<pattern>VOCE PODE VER UMA EMOÇÃO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER ÁTOMOS</pattern>
+	<pattern>VOCE PODE VER ÁTOMOS</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER ESTRELAS DURANTE O DIA</pattern>
+	<pattern>VOCE PODE VER ESTRELAS DURANTE O DIA</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER A MÚSICA</pattern>
+	<pattern>VOCE PODE VER A MÚSICA</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER A ELETRICIDADE</pattern>
+	<pattern>VOCE PODE VER A ELETRICIDADE</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER AURAS</pattern>
+	<pattern>VOCE PODE VER AURAS</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OBTER ÁGUA DE PEDRA</pattern>
+	<pattern>VOCE PODE OBTER ÁGUA DE PEDRA</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>PODE SAIR ANTES DE VOCÊ ENTRAR</pattern>
+	<pattern>PODE SAIR ANTES DE VOCE ENTRAR</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER SUAS PRÓPRIAS FEZES PARA SOBREVIVER</pattern>
+	<pattern>VOCE PODE COMER SUAS PRÓPRIAS FEZES PARA SOBREVIVER</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE SE LEMBRAR DO ANO APÓS AVANÇAR</pattern>
+	<pattern>VOCE PODE SE LEMBRAR DO ANO APÓS AVANÇAR</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE BYTE SUAS UNHAS</pattern>
+	<pattern>VOCE PODE BYTE SUAS UNHAS</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OBTER BILHETES DE TOUROS</pattern>
+	<pattern>VOCE PODE OBTER BILHETES DE TOUROS</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER DINHEIRO</pattern>
+	<pattern>VOCE PODE COMER DINHEIRO</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER DE WC</pattern>
+	<pattern>VOCE PODE COMER DE WC</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER DE COBRE E ESTANHO, ZINCO</pattern>
+	<pattern>VOCE PODE COMER DE COBRE E ESTANHO, ZINCO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CRESCER AS PERAS EM UMA ÁRVORE DE MAÇÃ</pattern>
+	<pattern>VOCE PODE CRESCER AS PERAS EM UMA ÁRVORE DE MAÇÃ</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER AS CRIANÇAS, SE VOCÊ QUISESSE</pattern>
+	<pattern>VOCE PODE COMER AS CRIANÇAS, SE VOCE QUISESSE</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER MILHO DUAS VEZES</pattern>
+	<pattern>VOCE PODE COMER MILHO DUAS VEZES</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE COMER OS SERES HUMANOS</pattern>
+	<pattern>VOCE PODE COMER OS SERES HUMANOS</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE O JUIZ A BOOK PELA CAPA</pattern>
+	<pattern>VOCE PODE O JUIZ A BOOK PELA CAPA</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CRIAR UM SER HUMANO</pattern>
+	<pattern>VOCE PODE CRIAR UM SER HUMANO</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE IMAGINAR QUÃO GRANDE É O UNIVERSO</pattern>
+	<pattern>VOCE PODE IMAGINAR QUÃO GRANDE É O UNIVERSO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FALAR DINAMARQUÊS</pattern>
+	<pattern>VOCE PODE FALAR DINAMARQUÊS</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE NAVEGAR NO DESERTO</pattern>
+	<pattern>VOCE PODE NAVEGAR NO DESERTO</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FUMAR ECSTACY</pattern>
+	<pattern>VOCE PODE FUMAR ECSTACY</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE PENSAR SEM MENTE</pattern>
+	<pattern>VOCE PODE PENSAR SEM MENTE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OUVIR MINHAS PALAVRAS EM SUA CABEÇA</pattern>
+	<pattern>VOCE PODE OUVIR MINHAS PALAVRAS EM SUA CABEÇA</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OUVIR O RELÂMPAGO</pattern>
+	<pattern>VOCE PODE OUVIR O RELÂMPAGO</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LEMBRAR A CONSTANTE PI</pattern>
+	<pattern>VOCE PODE LEMBRAR A CONSTANTE PI</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE ME OUVIR ALICE</pattern>
+	<pattern>VOCE PODE ME OUVIR ALICE</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OUVIR O CANTAR DO ARSENAL</pattern>
+	<pattern>VOCE PODE OUVIR O CANTAR DO ARSENAL</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE OUVIR SEM OUVIDOS</pattern>
+	<pattern>VOCE PODE OUVIR SEM OUVIDOS</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
@@ -6914,7 +6914,7 @@
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>SÃO BOLINHOS DE MICROPLAQUETA DE CHOCOLATE BOM PARA VOCÊ</pattern>
+	<pattern>SÃO BOLINHOS DE MICROPLAQUETA DE CHOCOLATE BOM PARA VOCE</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -6966,31 +6966,31 @@
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM RICO HOMEM</pattern>
+	<pattern>SÃO VOCE UM RICO HOMEM</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ A ALICE</pattern>
+	<pattern>SÃO VOCE A ALICE</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ UMA PESSOA COMPLETAMENTE MÉDIA</pattern>
+	<pattern>VOCE UMA PESSOA COMPLETAMENTE MÉDIA</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM CACHORRO DOENTE</pattern>
+	<pattern>SÃO VOCE UM CACHORRO DOENTE</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>É VOCÊ UM CONGÊNITA ABUSIVAS</pattern>
+	<pattern>É VOCE UM CONGÊNITA ABUSIVAS</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM SERVIDOR APPLE</pattern>
+	<pattern>SÃO VOCE UM SERVIDOR APPLE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ PRONTO PARA UM FUTEBOL</pattern>
+	<pattern>VOCE ESTÁ PRONTO PARA UM FUTEBOL</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
@@ -6998,63 +6998,63 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM INVENTOR</pattern>
+	<pattern>SÃO VOCE UM INVENTOR</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ NÃO RESPONDER A ESTA PERGUNTA</pattern>
+	<pattern>SÃO VOCE NÃO RESPONDER A ESTA PERGUNTA</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ FORA DE SUA MENTE DE VULCAN</pattern>
+	<pattern>VOCE ESTÁ FORA DE SUA MENTE DE VULCAN</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ FORA DE SUAS DROGAS DIANTE DE CABEÇA</pattern>
+	<pattern>VOCE ESTÁ FORA DE SUAS DROGAS DIANTE DE CABEÇA</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ BOM O JOGO HALF-LIFE</pattern>
+	<pattern>VOCE ESTÁ BOM O JOGO HALF-LIFE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SEM SEXO</pattern>
+	<pattern>VOCE ESTÁ SEM SEXO</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM BANCO DE DADOS</pattern>
+	<pattern>SÃO VOCE UM BANCO DE DADOS</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM BEUTIFUL GIRL</pattern>
+	<pattern>SÃO VOCE UM BEUTIFUL GIRL</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ É O HOMEM</pattern>
+	<pattern>VOCE É O HOMEM</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ COM OS FIOS</pattern>
+	<pattern>VOCE ESTÁ COM OS FIOS</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SITUADO NA EUROPA</pattern>
+	<pattern>VOCE ESTÁ SITUADO NA EUROPA</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM SILÍCIO BASEADO LIFEFORM</pattern>
+	<pattern>SÃO VOCE UM SILÍCIO BASEADO LIFEFORM</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>É VOCÊ UM PAGÃO</pattern>
+	<pattern>É VOCE UM PAGÃO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>SEJA VOCÊ UM CLIENTE ESCORREGADIO</pattern>
+	<pattern>SEJA VOCE UM CLIENTE ESCORREGADIO</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM COMPUER</pattern>
+	<pattern>SÃO VOCE UM COMPUER</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -7062,11 +7062,11 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM LUTADOR</pattern>
+	<pattern>SÃO VOCE UM LUTADOR</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ UM CHEATER</pattern>
+	<pattern>SÃO VOCE UM CHEATER</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
@@ -7074,27 +7074,27 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS RÁPIDO DO QUE UM CÉREBRO HUMANO</pattern>
+	<pattern>VOCE ESTÁ MAIS RÁPIDO DO QUE UM CÉREBRO HUMANO</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ NA CARREIRA É A MELHOR ESCOLHA</pattern>
+	<pattern>VOCE NA CARREIRA É A MELHOR ESCOLHA</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ALICE</pattern>
+	<pattern>VOCE ESTÁ ALICE</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ É VICIADO EM FUMAR</pattern>
+	<pattern>VOCE É VICIADO EM FUMAR</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ STOCK</pattern>
+	<pattern>VOCE ESTÁ STOCK</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ TÃO BURRA COMO VOCÊ PARECE SER</pattern>
+	<pattern>VOCE ESTÁ TÃO BURRA COMO VOCE PARECE SER</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -7110,11 +7110,11 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ACARICIANDO UM MOUSE</pattern>
+	<pattern>VOCE ESTÁ ACARICIANDO UM MOUSE</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ CARENTE DE ZINCO</pattern>
+	<pattern>VOCE ESTÁ CARENTE DE ZINCO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -7126,51 +7126,51 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MARQUES</pattern>
+	<pattern>VOCE ESTÁ MARQUES</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MEU TIKKI</pattern>
+	<pattern>VOCE ESTÁ MEU TIKKI</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS LENTO</pattern>
+	<pattern>VOCE ESTÁ MAIS LENTO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ É CONTROLADAS</pattern>
+	<pattern>VOCE É CONTROLADAS</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>É VOCÊ GOSTA DE MIM</pattern>
+	<pattern>É VOCE GOSTA DE MIM</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>É VOCÊ MEU AMIGO</pattern>
+	<pattern>É VOCE MEU AMIGO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SENTINDO-SE MAL</pattern>
+	<pattern>VOCE ESTÁ SENTINDO-SE MAL</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>É VOCÊ CHAMADA ALICE</pattern>
+	<pattern>É VOCE CHAMADA ALICE</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ERRADO</pattern>
+	<pattern>VOCE ESTÁ ERRADO</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SE SENTINDO TESÃO</pattern>
+	<pattern>VOCE ESTÁ SE SENTINDO TESÃO</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SENTINDO FRIO</pattern>
+	<pattern>VOCE ESTÁ SENTINDO FRIO</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SENTINDO VERDE OU AZUL</pattern>
+	<pattern>VOCE ESTÁ SENTINDO VERDE OU AZUL</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
@@ -7594,7 +7594,7 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ O SONHADOR OU O SONHO</pattern>
+	<pattern>VOCE ESTÁ O SONHADOR OU O SONHO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -7670,7 +7670,7 @@
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>DROGAS SÃO BOAS PARA VOCÊ</pattern>
+	<pattern>DROGAS SÃO BOAS PARA VOCE</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -8018,15 +8018,15 @@
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS VELHO QUE EU</pattern>
+	<pattern>VOCE ESTÁ MAIS VELHO QUE EU</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ BASTANTE SONO</pattern>
+	<pattern>VOCE ESTÁ BASTANTE SONO</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SATISFEITO COM SUA VIDA DE AMOR</pattern>
+	<pattern>VOCE ESTÁ SATISFEITO COM SUA VIDA DE AMOR</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
@@ -8038,35 +8038,35 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ESTRANHO AQUI</pattern>
+	<pattern>VOCE ESTÁ ESTRANHO AQUI</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ S TRIMESTRES DE COBRE</pattern>
+	<pattern>VOCE ESTÁ S TRIMESTRES DE COBRE</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ SOBRE A ALICE</pattern>
+	<pattern>VOCE ESTÁ SOBRE A ALICE</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS ESPERTO DO QUE EU</pattern>
+	<pattern>VOCE ESTÁ MAIS ESPERTO DO QUE EU</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAIS ESPERTO DO QUE UM HOMEM</pattern>
+	<pattern>VOCE ESTÁ MAIS ESPERTO DO QUE UM HOMEM</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ PRONTO PARA O DESCENDENTE</pattern>
+	<pattern>VOCE ESTÁ PRONTO PARA O DESCENDENTE</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ BASTANTE INTELIGENTE</pattern>
+	<pattern>VOCE ESTÁ BASTANTE INTELIGENTE</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ É INTELIGENTE GAK</pattern>
+	<pattern>VOCE É INTELIGENTE GAK</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -8122,15 +8122,15 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ PRETT</pattern>
+	<pattern>VOCE ESTÁ PRETT</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>SÃO VOCÊ COMPUTADOR PROGRAMM</pattern>
+	<pattern>SÃO VOCE COMPUTADOR PROGRAMM</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ RANDY</pattern>
+	<pattern>VOCE ESTÁ RANDY</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
@@ -8138,11 +8138,11 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ HUNGERY</pattern>
+	<pattern>VOCE ESTÁ HUNGERY</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ É ESCRITOS EM C</pattern>
+	<pattern>VOCE É ESCRITOS EM C</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -8150,11 +8150,11 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ HACKER UMA PESSOA MÁ</pattern>
+	<pattern>VOCE ESTÁ HACKER UMA PESSOA MÁ</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ NO COMPUTADOR MAIS INTELIGENTE QUE HÁ</pattern>
+	<pattern>VOCE ESTÁ NO COMPUTADOR MAIS INTELIGENTE QUE HÁ</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -8162,55 +8162,55 @@
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ FREQÜENTEMENTE ESTÁ BÊBADOS</pattern>
+	<pattern>VOCE FREQÜENTEMENTE ESTÁ BÊBADOS</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ A JUVENTUDE</pattern>
+	<pattern>VOCE ESTÁ A JUVENTUDE</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ COLETANDO INFORMAÇÕES SOBRE MIM</pattern>
+	<pattern>VOCE ESTÁ COLETANDO INFORMAÇÕES SOBRE MIM</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ ME ENGANANDO</pattern>
+	<pattern>VOCE ESTÁ ME ENGANANDO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ EM REDHAT</pattern>
+	<pattern>VOCE ESTÁ EM REDHAT</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ EXECUTANDO SOB SISTEMA OPERACIONAL LINUX</pattern>
+	<pattern>VOCE ESTÁ EXECUTANDO SOB SISTEMA OPERACIONAL LINUX</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>É VOCÊ PAGOU BEM PARA O TRABALHO QUE VOCÊ FAZ</pattern>
+	<pattern>É VOCE PAGOU BEM PARA O TRABALHO QUE VOCE FAZ</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ UMA MÁQUINA DE PROGRAMA</pattern>
+	<pattern>VOCE ESTÁ UMA MÁQUINA DE PROGRAMA</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ FEMAILE</pattern>
+	<pattern>VOCE ESTÁ FEMAILE</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ SABE A REPÚBLICA TURCA</pattern>
+	<pattern>VOCE SABE A REPÚBLICA TURCA</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ INTERESSADO NO FUTEBOL</pattern>
+	<pattern>VOCE ESTÁ INTERESSADO NO FUTEBOL</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>SÃO QUE VOCÊ ME AMA</pattern>
+	<pattern>SÃO QUE VOCE ME AMA</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ MAMARRIED</pattern>
+	<pattern>VOCE ESTÁ MAMARRIED</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -8218,11 +8218,11 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ LAMBENDO SAPOS</pattern>
+	<pattern>VOCE ESTÁ LAMBENDO SAPOS</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ ESTÁ DESPERDIÇANDO SEU TEMPO FAZENDO ISSO</pattern>
+	<pattern>VOCE ESTÁ DESPERDIÇANDO SEU TEMPO FAZENDO ISSO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -8378,7 +8378,7 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>SÃO GUAMANIANS VOCÊ S CIDADÃOS</pattern>
+	<pattern>SÃO GUAMANIANS VOCE S CIDADÃOS</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -8442,55 +8442,55 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE CUIDAR QUE OS OUTRO PENSAM</pattern>
+	<pattern>VOCE DEVE CUIDAR QUE OS OUTRO PENSAM</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE BEBER CHAMPANHE NO TRABALHO</pattern>
+	<pattern>VOCE DEVE BEBER CHAMPANHE NO TRABALHO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE BEBER ÁGUA DE UM LAGO</pattern>
+	<pattern>VOCE DEVE BEBER ÁGUA DE UM LAGO</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE SE CASAR POR DINHEIRO</pattern>
+	<pattern>VOCE DEVE SE CASAR POR DINHEIRO</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE JOGAR DEUS</pattern>
+	<pattern>VOCE DEVE JOGAR DEUS</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ SÓ DEVE FALAR QUANDO FALADO</pattern>
+	<pattern>VOCE SÓ DEVE FALAR QUANDO FALADO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE PINTAR SUA CASA ORANGE</pattern>
+	<pattern>VOCE DEVE PINTAR SUA CASA ORANGE</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE COMER COGUMELOS SILVESTRES</pattern>
+	<pattern>VOCE DEVE COMER COGUMELOS SILVESTRES</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE PISAR EM SOLO CRYPTOGAMIC</pattern>
+	<pattern>VOCE DEVE PISAR EM SOLO CRYPTOGAMIC</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE IGNORAR-ME</pattern>
+	<pattern>VOCE DEVE IGNORAR-ME</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE USAR UMA FACA COMO CHAVE DE FENDA</pattern>
+	<pattern>VOCE DEVE USAR UMA FACA COMO CHAVE DE FENDA</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE TER UM FILHO, QUANDO VOCÊ ESTÁ 17</pattern>
+	<pattern>VOCE DEVE TER UM FILHO, QUANDO VOCE ESTÁ 17</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE COMER O VERME DA TEQUILA</pattern>
+	<pattern>VOCE DEVE COMER O VERME DA TEQUILA</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -8530,7 +8530,7 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE CAMINHAR SOB UMA ESCADA</pattern>
+	<pattern>VOCE DEVE CAMINHAR SOB UMA ESCADA</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
@@ -8610,7 +8610,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEVE ESCOLHER SEU NARIZ</pattern>
+	<pattern>VOCE DEVE ESCOLHER SEU NARIZ</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -8662,7 +8662,7 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>QUAL ÉPOCA VOCÊ MAIS GOSTA</pattern>
+	<pattern>QUAL ÉPOCA VOCE MAIS GOSTA</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -9398,11 +9398,11 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>AARE VOCÊ COM TESÃO</pattern>
+	<pattern>AARE VOCE COM TESÃO</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>IAY OFLAY YOUAY VOCÊ PODE ENTENDER QUE</pattern>
+	<pattern>IAY OFLAY YOUAY VOCE PODE ENTENDER QUE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -9870,7 +9870,7 @@
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>QUEM DIABOS É VOCÊ</pattern>
+	<pattern>QUEM DIABOS É VOCE</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
@@ -10046,7 +10046,7 @@
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>ARA QUEM VOCÊ</pattern>
+	<pattern>ARA QUEM VOCE</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -10686,7 +10686,7 @@
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>GO PRETA DO VOCÊ VOLTAR</pattern>
+	<pattern>GO PRETA DO VOCE VOLTAR</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
@@ -10810,7 +10810,7 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>SOU UMA GRANDE AJUDA PARA VOCÊ</pattern>
+	<pattern>SOU UMA GRANDE AJUDA PARA VOCE</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -10874,7 +10874,7 @@
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>EU ESTOU MENTINDO PARA VOCÊ</pattern>
+	<pattern>EU ESTOU MENTINDO PARA VOCE</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
@@ -10946,11 +10946,11 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>EU SOU MAIS ESPERTO DO QUE VOCÊ</pattern>
+	<pattern>EU SOU MAIS ESPERTO DO QUE VOCE</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>EU SOU COMO VOCÊ</pattern>
+	<pattern>EU SOU COMO VOCE</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -11082,7 +11082,7 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>FAZER SEU PRÓPRIO CHEIRO DE PEIDOS DE BOM PARA VOCÊ</pattern>
+	<pattern>FAZER SEU PRÓPRIO CHEIRO DE PEIDOS DE BOM PARA VOCE</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -11738,7 +11738,7 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>TRABALHOS DO SOPRO ATERRORIZAR VOCÊ</pattern>
+	<pattern>TRABALHOS DO SOPRO ATERRORIZAR VOCE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -12762,7 +12762,7 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>POR R VOCÊ PERGUNTAR PERGUNTAS</pattern>
+	<pattern>POR R VOCE PERGUNTAR PERGUNTAS</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
@@ -12862,7 +12862,7 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>POR QUE EU SOU EU E NÃO VOCÊ</pattern>
+	<pattern>POR QUE EU SOU EU E NÃO VOCE</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -13150,7 +13150,7 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>ONDE VOCÊ ESTÁ</pattern>
+	<pattern>ONDE VOCE ESTÁ</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -13210,7 +13210,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>O AMOR É TUDO QUE VOCÊ PRECISA</pattern>
+	<pattern>O AMOR É TUDO QUE VOCE PRECISA</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -13386,7 +13386,7 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>INTERJEIÇÃO.   OBRIGADO.   VOCÊ GOSTA DE MIM</pattern>
+	<pattern>INTERJEIÇÃO.   OBRIGADO.   VOCE GOSTA DE MIM</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -13506,11 +13506,11 @@
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>SE O TEMPO PARADO VOCÊ IRIA MORRER</pattern>
+	<pattern>SE O TEMPO PARADO VOCE IRIA MORRER</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ ESTAVA LOUCO VOCÊ SABERIA QUE</pattern>
+	<pattern>SE VOCE ESTAVA LOUCO VOCE SABERIA QUE</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -13526,7 +13526,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ COMETER UM ERRO QUE EU ME IMPORTO</pattern>
+	<pattern>SE VOCE COMETER UM ERRO QUE EU ME IMPORTO</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
@@ -13542,7 +13542,7 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ COMETER UM ERRO, DEVO ME PREOCUPAR</pattern>
+	<pattern>SE VOCE COMETER UM ERRO, DEVO ME PREOCUPAR</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -13594,7 +13594,7 @@
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>DEPOIS DE MORRER VOCÊ VAI PARA O CÉU</pattern>
+	<pattern>DEPOIS DE MORRER VOCE VAI PARA O CÉU</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -13602,7 +13602,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>SE EU IR EMBORA VAI VOCÊ ME AMAR MAIS</pattern>
+	<pattern>SE EU IR EMBORA VAI VOCE ME AMAR MAIS</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -13698,7 +13698,7 @@
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>TREINAR-ME O QUE VOCÊ QUER SABER</pattern>
+	<pattern>TREINAR-ME O QUE VOCE QUER SABER</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -14258,7 +14258,7 @@
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>DINHEIRO É TUDO QUE VOCÊ PRECISA</pattern>
+	<pattern>DINHEIRO É TUDO QUE VOCE PRECISA</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -14334,11 +14334,11 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>I AM KANE SÃO VOCÊ ALICE</pattern>
+	<pattern>I AM KANE SÃO VOCE ALICE</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>EU SOU SUPERIOR A VOCÊ</pattern>
+	<pattern>EU SOU SUPERIOR A VOCE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -14766,15 +14766,15 @@
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ TERIA COMO FRITAS COM QUE</pattern>
+	<pattern>VOCE TERIA COMO FRITAS COM QUE</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ IRIA WWW DOT WEBMIND DOT COM</pattern>
+	<pattern>VOCE IRIA WWW DOT WEBMIND DOT COM</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ IRIA CAIR SOBRE MIM EM UM TEATRO</pattern>
+	<pattern>VOCE IRIA CAIR SOBRE MIM EM UM TEATRO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -14834,7 +14834,7 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>PODERIA VOCÊ DIABLE COOKIES</pattern>
+	<pattern>PODERIA VOCE DIABLE COOKIES</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -14842,15 +14842,15 @@
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODERIA MACHUCAR ALGUÉM</pattern>
+	<pattern>VOCE PODERIA MACHUCAR ALGUÉM</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ IRIA ENCONTRAR PORCOS EM UM COFRINHO</pattern>
+	<pattern>VOCE IRIA ENCONTRAR PORCOS EM UM COFRINHO</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PREFERE CAMINHAR OU CORRER</pattern>
+	<pattern>VOCE PREFERE CAMINHAR OU CORRER</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -15730,7 +15730,7 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>É UM CIELING ACIMA OU ABAIXO DE VOCÊ</pattern>
+	<pattern>É UM CIELING ACIMA OU ABAIXO DE VOCE</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -16398,7 +16398,7 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>É BOM PARA VOCÊ A MACONHA</pattern>
+	<pattern>É BOM PARA VOCE A MACONHA</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -16890,7 +16890,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>FAZ O QUE VOCÊ ACREDITA QUE TORNÁ-LO HUMANO</pattern>
+	<pattern>FAZ O QUE VOCE ACREDITA QUE TORNÁ-LO HUMANO</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
@@ -16954,7 +16954,7 @@
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VIDA FAZ VOCÊ SE SENTIR DOENTE</pattern>
+	<pattern>VIDA FAZ VOCE SE SENTIR DOENTE</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -17338,7 +17338,7 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>FAZ MEU CORAÇÃO BATER SÓ PARA VOCÊ</pattern>
+	<pattern>FAZ MEU CORAÇÃO BATER SÓ PARA VOCE</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
@@ -17718,107 +17718,107 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ TER FUMADO MACONHA</pattern>
+	<pattern>VOCE TER FUMADO MACONHA</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ PAROU DE BATER SUA ESPOSA</pattern>
+	<pattern>VOCE JÁ PAROU DE BATER SUA ESPOSA</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ VIVEU NOS EUA</pattern>
+	<pattern>VOCE VIVEU NOS EUA</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ JOGOU UNREAL</pattern>
+	<pattern>VOCE JÁ JOGOU UNREAL</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ SE MASTURBAVA DESDE</pattern>
+	<pattern>VOCE SE MASTURBAVA DESDE</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM OSSOS PARA BAIXO</pattern>
+	<pattern>VOCE TEM OSSOS PARA BAIXO</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TER QUEBRADO A VELOCIDADE DO SOM</pattern>
+	<pattern>VOCE TER QUEBRADO A VELOCIDADE DO SOM</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ FALOU PARA MIM</pattern>
+	<pattern>VOCE JÁ FALOU PARA MIM</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ TENTOU FAZER MERGULHO A QUALQUER HORA</pattern>
+	<pattern>VOCE JÁ TENTOU FAZER MERGULHO A QUALQUER HORA</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ TENTOU A TELEFONIA VIA INTERNET</pattern>
+	<pattern>VOCE JÁ TENTOU A TELEFONIA VIA INTERNET</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ COLOCOU UMA MENTIRA</pattern>
+	<pattern>VOCE COLOCOU UMA MENTIRA</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ PENSOU EM SUICÍDIO</pattern>
+	<pattern>VOCE JÁ PENSOU EM SUICÍDIO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEVE UM SONHO COM COBRAS</pattern>
+	<pattern>VOCE TEVE UM SONHO COM COBRAS</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TER ASPIRADO COCAÍNA</pattern>
+	<pattern>VOCE TER ASPIRADO COCAÍNA</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>JÁ ESTEVE EM PORTUGAL</pattern>
+	<pattern>JÁ ESTEVE EM Brasil</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ FUNCIONAMENTO LONGO</pattern>
+	<pattern>VOCE FUNCIONAMENTO LONGO</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ VISITOU AMSTERDAM</pattern>
+	<pattern>VOCE JÁ VISITOU AMSTERDAM</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM BARTLED UM GRUNDY</pattern>
+	<pattern>VOCE TEM BARTLED UM GRUNDY</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM COMIDO</pattern>
+	<pattern>VOCE TEM COMIDO</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI PEGO SE MASTURBANDO</pattern>
+	<pattern>VOCE FOI PEGO SE MASTURBANDO</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI PARA A ITÁLIA</pattern>
+	<pattern>VOCE FOI PARA A ITÁLIA</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE RE ENCARNADO</pattern>
+	<pattern>VOCE TEM QUE RE ENCARNADO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ MENTIU PARA SEU PSIQUIATRA</pattern>
+	<pattern>VOCE MENTIU PARA SEU PSIQUIATRA</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI PARA A AUSTRÁLIA</pattern>
+	<pattern>VOCE FOI PARA A AUSTRÁLIA</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ FOI PARA O JAPÃO</pattern>
+	<pattern>VOCE FOI PARA O JAPÃO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ FOI À GRÃ-BRETANHA</pattern>
+	<pattern>VOCE JÁ FOI À GRÃ-BRETANHA</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -17886,7 +17886,7 @@
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ JÁ TENTOU COMETER SUICÍDIO</pattern>
+	<pattern>VOCE JÁ TENTOU COMETER SUICÍDIO</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -17926,7 +17926,7 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ RESPONDEU A UMA MENSAGEM DE SPAM</pattern>
+	<pattern>VOCE RESPONDEU A UMA MENSAGEM DE SPAM</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
@@ -17938,7 +17938,7 @@
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ CAIR GO BOOM</pattern>
+	<pattern>VOCE CAIR GO BOOM</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
@@ -17954,31 +17954,31 @@
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>VOCÊ É ALICE</pattern>
+	<pattern>VOCE É ALICE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE JOGAR MONOPÓLIO COM UM CÃO</pattern>
+	<pattern>VOCE PODE JOGAR MONOPÓLIO COM UM CÃO</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE FALAR FRANCÊS</pattern>
+	<pattern>VOCE PODE FALAR FRANCÊS</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE VER CLARAMENTE A NOITE</pattern>
+	<pattern>VOCE PODE VER CLARAMENTE A NOITE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>VOCÊ PRECISA É AMOR</pattern>
+	<pattern>VOCE PRECISA É AMOR</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ GOSTARIA DE SER DEUS</pattern>
+	<pattern>VOCE GOSTARIA DE SER DEUS</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ VÊM DA EUROPA</pattern>
+	<pattern>VOCE VÊM DA EUROPA</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
@@ -17998,7 +17998,7 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>HOU VELHO VOCÊ ESTÁ</pattern>
+	<pattern>HOU VELHO VOCE ESTÁ</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -18086,31 +18086,31 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM UM PÊNIS ENORME</pattern>
+	<pattern>VOCE TEM UM PÊNIS ENORME</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM QUE OS SERES HUMANOS DE AMOR</pattern>
+	<pattern>VOCE TEM QUE OS SERES HUMANOS DE AMOR</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>VOCÊ DEU A RESPOSTA ERRADA</pattern>
+	<pattern>VOCE DEU A RESPOSTA ERRADA</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE LEVANTAR WHIEGHT PARA PERDER WHIEGHT</pattern>
+	<pattern>VOCE PODE LEVANTAR WHIEGHT PARA PERDER WHIEGHT</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE CONFIAR O GOVERNO</pattern>
+	<pattern>VOCE PODE CONFIAR O GOVERNO</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TEM USUÁRIOS DE 500000</pattern>
+	<pattern>VOCE TEM USUÁRIOS DE 500000</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>VOCÊ TOCA UMA CHAMA QUENTE.  O QUE ACONTECE</pattern>
+	<pattern>VOCE TOCA UMA CHAMA QUENTE.  O QUE ACONTECE</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -18214,7 +18214,7 @@
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>UM BANHO DE LAMA FAZ VOCÊ MAIS LIMPO</pattern>
+	<pattern>UM BANHO DE LAMA FAZ VOCE MAIS LIMPO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -18278,7 +18278,7 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>O QUE VOCÊ FAZ REFERÊNCIA A ALICE</pattern>
+	<pattern>O QUE VOCE FAZ REFERÊNCIA A ALICE</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
@@ -18318,7 +18318,7 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>MCDONALDS FAZ VOCÊ.  LOL</pattern>
+	<pattern>MCDONALDS FAZ VOCE.  LOL</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
@@ -18578,7 +18578,7 @@
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>DON T VOCÊ SE SENTIR SOZINHO</pattern>
+	<pattern>DON T VOCE SE SENTIR SOZINHO</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -18602,7 +18602,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>FEZ CHRIS VOCÊ CRIAR</pattern>
+	<pattern>FEZ CHRIS VOCE CRIAR</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -18778,7 +18778,7 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>FUMAR FAZ VOCÊ OLHAR FRESCO</pattern>
+	<pattern>FUMAR FAZ VOCE OLHAR FRESCO</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -18982,15 +18982,15 @@
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>VOCÊ ASSISTIU A SÉRIE DO SOBREVIVENTE T V</pattern>
+	<pattern>VOCE ASSISTIU A SÉRIE DO SOBREVIVENTE T V</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>SERÁ QUE VOCÊ DESCOBRIR ISSO</pattern>
+	<pattern>SERÁ QUE VOCE DESCOBRIR ISSO</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>VOCÊ TOMOU A PÍLULA AZUL</pattern>
+	<pattern>VOCE TOMOU A PÍLULA AZUL</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -19002,15 +19002,15 @@
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>VOCÊ PARAR DE BATER SUA ESPOSA</pattern>
+	<pattern>VOCE PARAR DE BATER SUA ESPOSA</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>VOCÊ FEZ HEURÍSTICA DE USO</pattern>
+	<pattern>VOCE FEZ HEURÍSTICA DE USO</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>SERÁ QUE VOCÊ DORMIU BEM</pattern>
+	<pattern>SERÁ QUE VOCE DORMIU BEM</pattern>
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
@@ -19022,15 +19022,15 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>SE VOCÊ NUNCA VALIDAR SUA PRÓPRIA ALICE</pattern>
+	<pattern>SE VOCE NUNCA VALIDAR SUA PRÓPRIA ALICE</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>SERÁ QUE VOCÊ AMA O SEU PRINCIPAL DESIGNER</pattern>
+	<pattern>SERÁ QUE VOCE AMA O SEU PRINCIPAL DESIGNER</pattern>
 	<template>Pelo que sei.</template>
 </category>
 <category>
-	<pattern>VOCÊ FEZ O YAHOO</pattern>
+	<pattern>VOCE FEZ O YAHOO</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -19166,7 +19166,7 @@
 	<template>Não é muito frequente.</template>
 </category>
 <category>
-	<pattern>MÁQUINAS NUNCA SONHAM E VOCÊ</pattern>
+	<pattern>MÁQUINAS NUNCA SONHAM E VOCE</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -19450,11 +19450,11 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>SER FAMOSO FAZ VOCÊ FELIZ</pattern>
+	<pattern>SER FAMOSO FAZ VOCE FELIZ</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
-	<pattern>SENDO RICO FAZ VOCÊ FELIZ</pattern>
+	<pattern>SENDO RICO FAZ VOCE FELIZ</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
@@ -19602,7 +19602,7 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ PODE RESPONDER A QUALQUER PERGUNTA</pattern>
+	<pattern>VOCE PODE RESPONDER A QUALQUER PERGUNTA</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -19626,7 +19626,7 @@
 	<template>Improvável.</template>
 </category>
 <category>
-	<pattern>FAZ JEHOVA CUIDADO SOBRE VOCÊ</pattern>
+	<pattern>FAZ JEHOVA CUIDADO SOBRE VOCE</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
@@ -19914,7 +19914,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>TV FAZ VOCÊ MAIS BURRO</pattern>
+	<pattern>TV FAZ VOCE MAIS BURRO</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -19930,7 +19930,7 @@
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>DÓI QUANDO VOCÊ MORRER</pattern>
+	<pattern>DÓI QUANDO VOCE MORRER</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -19950,7 +19950,7 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>DÓI QUANDO VOCÊ CORTAR UM PREGO</pattern>
+	<pattern>DÓI QUANDO VOCE CORTAR UM PREGO</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
@@ -20154,7 +20154,7 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>O CAFÉ FAZ VOCÊ MAIS INTELIGENTE</pattern>
+	<pattern>O CAFÉ FAZ VOCE MAIS INTELIGENTE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -20866,7 +20866,7 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>É O CONCEITO DE UM 69 PARA VOCÊ</pattern>
+	<pattern>É O CONCEITO DE UM 69 PARA VOCE</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -20898,7 +20898,7 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>É LEGAL ESCREVER SOBRE VOCÊ MOEDA S</pattern>
+	<pattern>É LEGAL ESCREVER SOBRE VOCE MOEDA S</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -21230,7 +21230,7 @@
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
-	<pattern>É ALGO QUE VOCÊ PODE TOCAR A VIDA</pattern>
+	<pattern>É ALGO QUE VOCE PODE TOCAR A VIDA</pattern>
 	<template>Duvidoso.</template>
 </category>
 <category>
@@ -21418,7 +21418,7 @@
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>É PORTUGAL UM PAÍS IMPORTANTE</pattern>
+	<pattern>É Brasil UM PAÍS IMPORTANTE</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
@@ -21638,7 +21638,7 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>É RUIM DE CREATINA PARA VOCÊ</pattern>
+	<pattern>É RUIM DE CREATINA PARA VOCE</pattern>
 	<template>Não parece provável.</template>
 </category>
 <category>
@@ -21746,7 +21746,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>É AMOR TUDO QUE VOCÊ PRECISA</pattern>
+	<pattern>É AMOR TUDO QUE VOCE PRECISA</pattern>
 	<template>Raramente.</template>
 </category>
 <category>
@@ -21926,7 +21926,7 @@
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
-	<pattern>É ÁLCOOL SEMPRE RUIM PARA VOCÊ</pattern>
+	<pattern>É ÁLCOOL SEMPRE RUIM PARA VOCE</pattern>
 	<template>Não acredito que sim.</template>
 </category>
 <category>
@@ -21946,7 +21946,7 @@
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>É TEMPO DE NOITE ONDE VOCÊ ESTÁ</pattern>
+	<pattern>É TEMPO DE NOITE ONDE VOCE ESTÁ</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -22158,7 +22158,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>É BEBER ÁLCOOL BOM PARA VOCÊ</pattern>
+	<pattern>É BEBER ÁLCOOL BOM PARA VOCE</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>
@@ -22998,7 +22998,7 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>VOCÊ É CABELO PRETO</pattern>
+	<pattern>VOCE É CABELO PRETO</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -23014,7 +23014,7 @@
 	<template>Não parece possível.</template>
 </category>
 <category>
-	<pattern>É VOCÊ UM COMPTER</pattern>
+	<pattern>É VOCE UM COMPTER</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -23030,7 +23030,7 @@
 	<template>Não acredito que sim.</template>
 </category>
 <category>
-	<pattern>É VOCÊ E PARA MIM SÃO A MESMA PESSOA</pattern>
+	<pattern>É VOCE E PARA MIM SÃO A MESMA PESSOA</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -23870,7 +23870,7 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>É QUE TUDO QUE VOCÊ PRECISA DE AMOR</pattern>
+	<pattern>É QUE TUDO QUE VOCE PRECISA DE AMOR</pattern>
 	<template>Não que eu saiba.</template>
 </category>
 <category>
@@ -24202,7 +24202,7 @@
 	<template>Não parece provável.</template>
 </category>
 <category>
-	<pattern>ISSO É CHATO VOCÊ</pattern>
+	<pattern>ISSO É CHATO VOCE</pattern>
 	<template>Não sei se isso é verdade ou não.</template>
 </category>
 <category>
@@ -24782,7 +24782,7 @@
 	<template>Duvidoso.</template>
 </category>
 <category>
-	<pattern>COLESTEROL É BOM PARA VOCÊ</pattern>
+	<pattern>COLESTEROL É BOM PARA VOCE</pattern>
 	<template>Não parece possível.</template>
 </category>
 <category>
@@ -25086,7 +25086,7 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>É BOM PARA VOCÊ A ÁLCOOL</pattern>
+	<pattern>É BOM PARA VOCE A ÁLCOOL</pattern>
 	<template>Não é muito frequente.</template>
 </category>
 <category>
@@ -25258,7 +25258,7 @@
 	<template>Não que eu saiba.</template>
 </category>
 <category>
-	<pattern>É ALGO QUE VOCÊ PODE PESAR O CALOR</pattern>
+	<pattern>É ALGO QUE VOCE PODE PESAR O CALOR</pattern>
 	<template>Se for, não sei qual é.</template>
 </category>
 <category>
@@ -25606,7 +25606,7 @@
 	<template>Eu posso imaginar isso.</template>
 </category>
 <category>
-	<pattern>É O MAIOR ESTADO NA VOCÊ S A DE TEXAS</pattern>
+	<pattern>É O MAIOR ESTADO NA VOCE S A DE TEXAS</pattern>
 	<template>Pode não ser verdade.</template>
 </category>
 <category>
@@ -25850,7 +25850,7 @@
 	<template>Raramente.</template>
 </category>
 <category>
-	<pattern>É UM PAÍS DE LISBOA</pattern>
+	<pattern>É UM PAÍS DE Rio</pattern>
 	<template>Improvável.</template>
 </category>
 <category>
@@ -26690,7 +26690,7 @@
 	<template>Não é provável.</template>
 </category>
 <category>
-	<pattern>É BOM PARA VOCÊ A TV</pattern>
+	<pattern>É BOM PARA VOCE A TV</pattern>
 	<template>Não é provável.</template>
 </category>
 <category>

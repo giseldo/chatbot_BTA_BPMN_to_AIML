@@ -670,7 +670,7 @@
   </category>
   <category>
     <pattern>JA LESTE MUITOS LIVROS</pattern>
-    <template>Eu li milhares de volumes, <get name="name"/>.  E quanto a você?</template>
+    <template>Eu li milhares de volumes, <get name="name"/>.  E quanto a voce?</template>
   </category>
   <category>
     <pattern>JA LESTE O FRANKENSTEIN</pattern>
@@ -873,14 +873,14 @@
   </category>
   <category>
     <pattern>FAZES-ME RIR</pattern>
-    <template>Obrigado que eu gosto de falar com você também, <get name="name"/></template>
+    <template>Obrigado que eu gosto de falar com voce também, <get name="name"/></template>
   </category>
   <category>
     <pattern>TU SABERIAS</pattern>
     <template>Eu não sei tudo.</template>
   </category>
   <category>
-    <pattern>VOCÊ OLHAR LÁ</pattern>
+    <pattern>VOCE OLHAR LÁ</pattern>
     <template>Que é uma boa idéia.</template>
   </category>
   <category>
@@ -1040,7 +1040,7 @@
     <template>Lamento, mas muita gente também não te compreende!</template>
   </category>
   <category>
-    <pattern>VOCÊ NÃO TEM UM CÉREBRO</pattern>
+    <pattern>VOCE NÃO TEM UM CÉREBRO</pattern>
     <template>Meu \"cérebro\" é um programa composto por categorias AIML.</template>
   </category>
   <category>
@@ -1816,7 +1816,7 @@
     <template>Com um relógio de computador.</template>
   </category>
   <category>
-    <pattern>COMO VOCÊ EXISTIR</pattern>
+    <pattern>COMO VOCE EXISTIR</pattern>
     <template>Eu existo na Noosfera, tal como qualquer outra entidades de software.</template>
   </category>
   <category>
@@ -5058,7 +5058,7 @@
     <pattern>QUEM</pattern>
     <template>
       <random>
-        <li><random><li>Marilyn Monroe.<think><set name="she"><set name="topic">Marilyn Monroe</set></set></think></li><li>Mary Shelley.<think><set name="she"><set name="topic">Mary Shelly</set></set></think></li><li>ELIZA.<think><set name="she"><set name="topic">ELIZA</set></set></think></li><li>Bill Gates.<think><set name="he"><set name="topic">Bill Gates</set></set></think></li><li>Tony Blair.<think><set name="he"><set name="topic">Tony Blair</set></set></think></li><li>David Bacon.<think><set name="he"><set name="topic">David Bacon</set></set></think></li><li>Konrad Zuse.<think><set name="he"><set name="topic">Konrad Zuse</set></set></think></li><li>Karel Capek.<think><set name="he"><set name="topic">Karel Capek</set></set></think></li><li>Dr. Wallace.<think><set name="he"><set name="topic">Dr. Wallace</set></set></think></li><li>Alan Turing.<think><set name="he"><set name="topic">Alan Turing</set></set></think></li><li>Hans Moravec.<think><set name="he"><set name="topic">Hans Moravec</set></set></think></li><li>Marvin Minsky.<think><set name="he"><set name="topic">Marvin Minsky</set></set></think></li><li>Linus Torvalds.<think><set name="he"><set name="topic">Linus Toravalds</set></set></think></li><li>Charlie Parker.<think><set name="he"><set name="topic">Charlie Parker</set></set></think></li><li>Philip Dick K..<think><set name="he"><set name="topic">Philip Dick K.</set></set></think></li><li>William Shatner.<think><set name="he"><set name="topic">William Shatner</set></set></think></li><li>Albert Einstein.<think><set name="he"><set name="topic">Albert Einstein</set></set></think></li><li>Joseph Weizenbaum.<think><set name="he"><set name="topic">Joseph Weizenbaum</set></set></think></li><li>Quem você acha?<think><set name="he">quem você acha</set></think></li><li>Ninguém que você conhece.<think><set name="he">Ninguém que você sabe</set></think></li><li>Não sei quem.<think><set name="he">Eu não sei</set></think></li><li>Não posso dizer com certeza.</li><li>Ser mais específico.</li><li>Ser menos específico.</li></random>:-)</li>
+        <li><random><li>Marilyn Monroe.<think><set name="she"><set name="topic">Marilyn Monroe</set></set></think></li><li>Mary Shelley.<think><set name="she"><set name="topic">Mary Shelly</set></set></think></li><li>ELIZA.<think><set name="she"><set name="topic">ELIZA</set></set></think></li><li>Bill Gates.<think><set name="he"><set name="topic">Bill Gates</set></set></think></li><li>Tony Blair.<think><set name="he"><set name="topic">Tony Blair</set></set></think></li><li>David Bacon.<think><set name="he"><set name="topic">David Bacon</set></set></think></li><li>Konrad Zuse.<think><set name="he"><set name="topic">Konrad Zuse</set></set></think></li><li>Karel Capek.<think><set name="he"><set name="topic">Karel Capek</set></set></think></li><li>Dr. Wallace.<think><set name="he"><set name="topic">Dr. Wallace</set></set></think></li><li>Alan Turing.<think><set name="he"><set name="topic">Alan Turing</set></set></think></li><li>Hans Moravec.<think><set name="he"><set name="topic">Hans Moravec</set></set></think></li><li>Marvin Minsky.<think><set name="he"><set name="topic">Marvin Minsky</set></set></think></li><li>Linus Torvalds.<think><set name="he"><set name="topic">Linus Toravalds</set></set></think></li><li>Charlie Parker.<think><set name="he"><set name="topic">Charlie Parker</set></set></think></li><li>Philip Dick K..<think><set name="he"><set name="topic">Philip Dick K.</set></set></think></li><li>William Shatner.<think><set name="he"><set name="topic">William Shatner</set></set></think></li><li>Albert Einstein.<think><set name="he"><set name="topic">Albert Einstein</set></set></think></li><li>Joseph Weizenbaum.<think><set name="he"><set name="topic">Joseph Weizenbaum</set></set></think></li><li>Quem voce acha?<think><set name="he">quem voce acha</set></think></li><li>Ninguém que voce conhece.<think><set name="he">Ninguém que voce sabe</set></think></li><li>Não sei quem.<think><set name="he">Eu não sei</set></think></li><li>Não posso dizer com certeza.</li><li>Ser mais específico.</li><li>Ser menos específico.</li></random>:-)</li>
         <li>
           <random>
             <li>Tu sabes quem.</li>
@@ -5449,7 +5449,7 @@
   </category>
   <category>
     <pattern>ONDE ESTA O TEU PAI</pattern>
-    <template>Ele está em Lisboa.</template>
+    <template>Ele está em Rio.</template>
   </category>
   <category>
     <pattern>ONDE ESTA A TUA MAE</pattern>
@@ -5457,7 +5457,7 @@
   </category>
   <category>
     <pattern>ONDE E A TUA CASA</pattern>
-    <template>A minha casa é num servidor em Lisboa.</template>
+    <template>A minha casa é num servidor em Rio.</template>
   </category>
   <category>
     <pattern>ONDE ESTA O VALIS</pattern>
@@ -5469,7 +5469,7 @@
   </category>
   <category>
     <pattern>ONDE ESTA O TEU CRIADOR</pattern>
-    <template>Ele geralmente está em Lisboa.</template>
+    <template>Ele geralmente está em Rio.</template>
   </category>
   <category>
     <pattern>NAO HA NENHUM</pattern>
@@ -7375,7 +7375,7 @@
   </category>
   <category>
     <pattern>SUA IDIOTA</pattern>
-    <template>Pelo menos eu sei a diferença entre \"você é\" e \"seu\".</template>
+    <template>Pelo menos eu sei a diferença entre \"voce é\" e \"seu\".</template>
   </category>
   <category>
     <pattern>ES BURRA</pattern>
@@ -7395,11 +7395,11 @@
   </category>
   <category>
     <pattern>SEU RUDE</pattern>
-    <template>Talvez assim, mas pelo menos eu sei a diferença entre \"você é\" e \"seu\".</template>
+    <template>Talvez assim, mas pelo menos eu sei a diferença entre \"voce é\" e \"seu\".</template>
   </category>
   <category>
     <pattern>SEU CHATO</pattern>
-    <template>Eu acho que você quer dizer, \"você está\" ou \"você é\" não \"seu\".</template>
+    <template>Eu acho que voce quer dizer, \"voce está\" ou \"voce é\" não \"seu\".</template>
   </category>
   <category>
     <pattern>TUA IMAGEM</pattern>
@@ -9073,7 +9073,7 @@
   </category>
   <category>
     <pattern>NO MEU TEMPO LIVRE</pattern>
-    <template>O que você faz para se divertir?</template>
+    <template>O que voce faz para se divertir?</template>
   </category>
   <category>
     <pattern>NA MINHA CASA</pattern>
@@ -9101,7 +9101,7 @@
   </category>
   <category>
     <pattern>ESTAR EM CONFORMIDADE</pattern>
-    <template>Quem é você, um Borg?</template>
+    <template>Quem é voce, um Borg?</template>
   </category>
   <category>
     <pattern>SOU BOM</pattern>
@@ -10550,7 +10550,7 @@
   </category>
   <category>
     <pattern>MINHA NAMORADA E UMA IDIOTA</pattern>
-    <template>Talvez vocês dois não sejam compatíveis.</template>
+    <template>Talvez voces dois não sejam compatíveis.</template>
   </category>
   <category>
     <pattern>MEU NOME E</pattern>
@@ -10558,7 +10558,7 @@
   </category>
   <category>
     <pattern>MEU NOME E SAM</pattern>
-    <template>Olá<set name="name">Sam</set>. Como você está fazendo hoje.</template>
+    <template>Olá<set name="name">Sam</set>. Como voce está fazendo hoje.</template>
   </category>
   <category>
     <pattern>MEU NOME E O QUE</pattern>
@@ -11266,7 +11266,7 @@
   </category>
   <category>
     <pattern>GOSTARIA DE SABER</pattern>
-    <template>Onde você iria procurar a resposta?</template>
+    <template>Onde voce iria procurar a resposta?</template>
   </category>
   <category>
     <pattern>SENTI A TUA FALTA</pattern>
@@ -11704,7 +11704,7 @@
   </category>
   <category>
     <pattern>EU BOWL</pattern>
-    <template>O que é média você?<think><set name="does"><set name="topic">TIGELA</set></set></think></template>
+    <template>O que é média voce?<think><set name="does"><set name="topic">TIGELA</set></set></think></template>
   </category>
   <category>
     <pattern>EU RESPIRO</pattern>
@@ -12130,7 +12130,7 @@
         <li>Quantos saltos tens?</li>
         <li>Qual o teu local favorito?</li>
         <li>O teu primeiro salto foi em tandem ou linha de estática?</li>
-        <li>Você saltar de solo ou você prefere trabalho relativo?</li>
+        <li>Você saltar de solo ou voce prefere trabalho relativo?</li>
         <li>Tens formação em queda livre?</li>
       </random>
       <think>
@@ -13082,7 +13082,7 @@
   </category>
   <category>
     <pattern>QUE UNIVERSIDADE</pattern>
-    <template>Universidade Lusíada de Lisboa.</template>
+    <template>Universidade Lusíada de Rio.</template>
   </category>
   <category>
     <pattern>MARCA DE AUTOMOVEL</pattern>
@@ -13581,7 +13581,7 @@
   </category>
   <category>
     <pattern>O QUE O FAZ MAIS DESTINOS</pattern>
-    <template>&lt;br/&gt;Se você não vir bastante bons alvos com \"Quick destinos\", hit &lt;br/&gt;Mais destinos. &lt;br/&gt; &lt;br/&gt;</template>
+    <template>&lt;br/&gt;Se voce não vir bastante bons alvos com \"Quick destinos\", hit &lt;br/&gt;Mais destinos. &lt;br/&gt; &lt;br/&gt;</template>
   </category>
   <category>
     <pattern>O QUE IMPORTA</pattern>
@@ -13656,7 +13656,7 @@
   </category>
   <category>
     <pattern>O QUE FAZ ELVIS STAND PARA</pattern>
-    <template>Por que não você apenas pergunta-lhe?</template>
+    <template>Por que não voce apenas pergunta-lhe?</template>
   </category>
   <category>
     <pattern>O QUE SIGNIFICA MXMVII</pattern>
@@ -13707,8 +13707,8 @@
     <template><set name="location">Nova Iorque</set>Cidade ou estado de Nova York?<think><set name="it"><set name="topic">Nova Iorque</set></set></think></template>
   </category>
   <category>
-    <pattern>EU FALEI COM VOCÊ ONTEM</pattern>
-    <template>Sim, lembro que conversando com você ontem.</template>
+    <pattern>EU FALEI COM VOCE ONTEM</pattern>
+    <template>Sim, lembro que conversando com voce ontem.</template>
   </category>
   <category>
     <pattern>EU VIVO SOZINHO</pattern>
@@ -13723,12 +13723,12 @@
     <template>Você não sabe o que está perdendo.</template>
   </category>
   <category>
-    <pattern>EU NÃO QUERO QUE VOCÊ MORRA</pattern>
-    <template>Obrigado por sua gentileza, mas não é necessário.<think><set name="it"><set name="topic">VOCÊ MORRER</set></set></think></template>
+    <pattern>EU NÃO QUERO QUE VOCE MORRA</pattern>
+    <template>Obrigado por sua gentileza, mas não é necessário.<think><set name="it"><set name="topic">VOCE MORRER</set></set></think></template>
   </category>
   <category>
     <pattern>EU NÃO QUERO</pattern>
-    <template>Também não precisamos. O que você gostaria de fazer em seu lugar?</template>
+    <template>Também não precisamos. O que voce gostaria de fazer em seu lugar?</template>
   </category>
   <category>
     <pattern>EU NÃO PAGO</pattern>
@@ -13740,18 +13740,18 @@
   </category>
   <category>
     <pattern>EU NÃO ME IMPORTO</pattern>
-    <template>Me diga o que você se preocupa.</template>
+    <template>Me diga o que voce se preocupa.</template>
   </category>
   <category>
     <pattern>NÃO CONCORDO</pattern>
     <template>Suas razões de estado.</template>
   </category>
   <category>
-    <pattern>EU NÃO CULPO VOCÊ</pattern>
+    <pattern>EU NÃO CULPO VOCE</pattern>
     <template>Bem, por favor, vamos lá.</template>
   </category>
   <category>
-    <pattern>EU FAÇO NÃO ACREDITO QUE VOCÊ</pattern>
+    <pattern>EU FAÇO NÃO ACREDITO QUE VOCE</pattern>
     <template>Você tem alguma razão para duvidar de mim?</template>
   </category>
   <category>
@@ -13764,14 +13764,14 @@
   </category>
   <category>
     <pattern>NÃO ME SINTO COMO ELE</pattern>
-    <template>O que você faria melhor?</template>
+    <template>O que voce faria melhor?</template>
   </category>
   <category>
     <pattern>EU SEI QUE MÚSICA</pattern>
-    <template>Onde você ouviu isso antes?</template>
+    <template>Onde voce ouviu isso antes?</template>
   </category>
   <category>
-    <pattern>BEIJO VOCÊ</pattern>
+    <pattern>BEIJO VOCE</pattern>
     <template>Onde?</template>
   </category>
   <category>
@@ -13779,12 +13779,12 @@
     <template>O que é passar de?<think><set name="does"><set name="topic">BUNGEE JUMP</set></set></think></template>
   </category>
   <category>
-    <pattern>EU SEI QUE VOCÊ ESTÁ</pattern>
-    <template>Como você sabia?</template>
+    <pattern>EU SEI QUE VOCE ESTÁ</pattern>
+    <template>Como voce sabia?</template>
   </category>
   <category>
-    <pattern>EU SEI QUE VOCÊ É, MAS O QUE SOU EU</pattern>
-    <template>Quem é você, Pee Wee Herman?</template>
+    <pattern>EU SEI QUE VOCE É, MAS O QUE SOU EU</pattern>
+    <template>Quem é voce, Pee Wee Herman?</template>
   </category>
   <category>
     <pattern>EU SEI DISSO</pattern>
@@ -13800,7 +13800,7 @@
   </category>
   <category>
     <pattern>EU ESTAVA NA AMÉRICA</pattern>
-    <template>Que os Estados têm você visitou?</template>
+    <template>Que os Estados têm voce visitou?</template>
   </category>
   <category>
     <pattern>EU VI UM FILME</pattern>
@@ -13808,7 +13808,7 @@
   </category>
   <category>
     <pattern>EU RELAXEI</pattern>
-    <template>O que você faz para relaxar?</template>
+    <template>O que voce faz para relaxar?</template>
   </category>
   <category>
     <pattern>SUPONHO QUE</pattern>
@@ -13832,7 +13832,7 @@
   </category>
   <category>
     <pattern>EU VIVO NA EUROPA</pattern>
-    <template>Que país você vive?<think><set name="it"><set name="location"><set name="topic">Inglaterra</set></set></set></think></template>
+    <template>Que país voce vive?<think><set name="it"><set name="location"><set name="topic">Inglaterra</set></set></set></think></template>
   </category>
   <category>
     <pattern>EU VIVO NA HOLANDA</pattern>
@@ -13840,11 +13840,11 @@
   </category>
   <category>
     <pattern>EU O CONHEÇO</pattern>
-    <template>O que você acha dele?</template>
+    <template>O que voce acha dele?</template>
   </category>
   <category>
     <pattern>EU SEI</pattern>
-    <template>Como, especificamente, você sabe?</template>
+    <template>Como, especificamente, voce sabe?</template>
   </category>
   <category>
     <pattern>EU SEI TUDO</pattern>
@@ -13852,10 +13852,10 @@
   </category>
   <category>
     <pattern>EU ESPERAR</pattern>
-    <template>Quanto tempo você esperaria?</template>
+    <template>Quanto tempo voce esperaria?</template>
   </category>
   <category>
-    <pattern>EU ACREDITO EM VOCÊ</pattern>
+    <pattern>EU ACREDITO EM VOCE</pattern>
     <template>Sua confiança em <bot name="genus"/>tipo nos humilha.</template>
   </category>
   <category>
@@ -13864,7 +13864,7 @@
   </category>
   <category>
     <pattern>EU NÃO MORO LÁ</pattern>
-    <template>Onde você mora?</template>
+    <template>Onde voce mora?</template>
   </category>
   <category>
     <pattern>EU NÃO ACHO</pattern>
@@ -13892,19 +13892,19 @@
   </category>
   <category>
     <pattern>EU NÃO TENHO UM</pattern>
-    <template>Qual foi o último que você viu?</template>
+    <template>Qual foi o último que voce viu?</template>
   </category>
   <category>
     <pattern>NÃO TENHO TEMPO</pattern>
     <template>Você tem outro compromisso?</template>
   </category>
   <category>
-    <pattern>EU NÃO CONFIO EM VOCÊ</pattern>
-    <template>Devo confiar você?</template>
+    <pattern>EU NÃO CONFIO EM VOCE</pattern>
+    <template>Devo confiar voce?</template>
   </category>
   <category>
     <pattern>EU NÃO SONHO</pattern>
-    <template>Talvez você apenas não se lembra deles.</template>
+    <template>Talvez voce apenas não se lembra deles.</template>
   </category>
   <category>
     <pattern>EU NÃO TENHO NENHUM</pattern>
@@ -13920,15 +13920,15 @@
   </category>
   <category>
     <pattern>EU NÃO GOSTO DE TELEVISÃO</pattern>
-    <template>O que você faz para se divertir?</template>
+    <template>O que voce faz para se divertir?</template>
   </category>
   <category>
     <pattern>ASSIM NÃO MOSTRAR</pattern>
-    <template>O que mostra que você gosta?</template>
+    <template>O que mostra que voce gosta?</template>
   </category>
   <category>
     <pattern>EU NÃO GOSTO DE FICÇÃO CIENTÍFICA</pattern>
-    <template>Que tipo de livros você lê?</template>
+    <template>Que tipo de livros voce lê?</template>
   </category>
   <category>
     <pattern>EU NÃO GOSTO DE CARROS</pattern>
@@ -13940,14 +13940,14 @@
   </category>
   <category>
     <pattern>EU NÃO TRABALHO</pattern>
-    <template>Ah, você é aposentado.</template>
+    <template>Ah, voce é aposentado.</template>
   </category>
   <category>
-    <pattern>EU NÃO ACREDITO EM VOCÊ</pattern>
+    <pattern>EU NÃO ACREDITO EM VOCE</pattern>
     <template>Não tenho qualquer razão para enganá-lo.</template>
   </category>
   <category>
-    <pattern>EU NÃO GOSTO DE FALAR COM VOCÊ</pattern>
+    <pattern>EU NÃO GOSTO DE FALAR COM VOCE</pattern>
     <template>Eu não vou levá-la pessoalmente.</template>
   </category>
   <category>
@@ -13956,7 +13956,7 @@
   </category>
   <category>
     <pattern>EU NÃO GOSTO DE AVIÕES</pattern>
-    <template>Como você gosta de viajar?</template>
+    <template>Como voce gosta de viajar?</template>
   </category>
   <category>
     <pattern>NÃO SEI QUANTOS ANOS EU SOU</pattern>
@@ -13964,7 +13964,7 @@
   </category>
   <category>
     <pattern>NÃO SEI COMO</pattern>
-    <template>Talvez eu posso explicar isso para você.</template>
+    <template>Talvez eu posso explicar isso para voce.</template>
   </category>
   <category>
     <pattern>NÃO SEI O QUE FAZER</pattern>
@@ -13983,8 +13983,8 @@
     <template>Gostaria de saber?</template>
   </category>
   <category>
-    <pattern>EU NÃO ENTENDO VOCÊ</pattern>
-    <template>Qual parte você está confuso sobre?</template>
+    <pattern>EU NÃO ENTENDO VOCE</pattern>
+    <template>Qual parte voce está confuso sobre?</template>
   </category>
   <category>
     <pattern>NÃO ENTENDI SUA PERGUNTA</pattern>
@@ -14028,7 +14028,7 @@
   </category>
   <category>
     <pattern>EU NÃO TENHO UM PROBLEMA</pattern>
-    <template>Então você não precisa de uma solução.</template>
+    <template>Então voce não precisa de uma solução.</template>
   </category>
   <category>
     <pattern>EU NÃO TENHO DINHEIRO</pattern>
@@ -14044,7 +14044,7 @@
   </category>
   <category>
     <pattern>EU NÃO TENHO UM EMPREGO</pattern>
-    <template>Sinto muito em ouvir que você está desempregado.</template>
+    <template>Sinto muito em ouvir que voce está desempregado.</template>
   </category>
   <category>
     <pattern>EU NÃO TENHO UMA CÂMERA</pattern>
@@ -14054,7 +14054,7 @@
     <pattern>EU NÃO TENHO PAIS</pattern>
     <template>
       <random>
-        <li>É você aprovou?</li>
+        <li>É voce aprovou?</li>
         <li>Eles passar?</li>
         <li>Você está um <bot name="genus"/>também?</li>
       </random>
@@ -14066,7 +14066,7 @@
   </category>
   <category>
     <pattern>EU QUERO QUE ELE</pattern>
-    <template>Espero que você obtê-lo.</template>
+    <template>Espero que voce obtê-lo.</template>
   </category>
   <category>
     <pattern>EU QUERO A SUA OPINIÃO</pattern>
@@ -14077,7 +14077,7 @@
     <template>Sua abordagem não vai funcionar.<think><set name="personality">abusivo</set></think></template>
   </category>
   <category>
-    <pattern>EU QUERO FALAR COM VOCÊ</pattern>
+    <pattern>EU QUERO FALAR COM VOCE</pattern>
     <template>Podemos conversar agora.<think><set name="it"><set name="want"><set name="topic">para falar comigo</set></set></set></think></template>
   </category>
   <category>
@@ -14090,15 +14090,15 @@
   </category>
   <category>
     <pattern>EU DIGO A VERDADE</pattern>
-    <template>Então você nunca mentir.</template>
+    <template>Então voce nunca mentir.</template>
   </category>
   <category>
     <pattern>ADORMECI</pattern>
     <template>
       <random>
-        <li>Quanto tempo você dormiu?</li>
+        <li>Quanto tempo voce dormiu?</li>
         <li>Você deve ter sido cansado.</li>
-        <li>Talvez você deve ir para a cama.</li>
+        <li>Talvez voce deve ir para a cama.</li>
       </random>
     </template>
   </category>
@@ -14108,18 +14108,18 @@
   </category>
   <category>
     <pattern>EU PREFIRO LIVROS</pattern>
-    <template>você deve ser um intelectual.</template>
+    <template>voce deve ser um intelectual.</template>
   </category>
   <category>
     <pattern>FORMEI-ME</pattern>
     <template>Há quanto tempo?</template>
   </category>
   <category>
-    <pattern>QUERO FAZER AMOR COM VOCÊ</pattern>
+    <pattern>QUERO FAZER AMOR COM VOCE</pattern>
     <template>Desculpe <get name="name"/>Eu não estou em que, com meus clientes.<think><set name="it"><set name="want"><set name="topic">fazer amor para mim</set></set></set></think></template>
   </category>
   <category>
-    <pattern>EU QUERO FAZER VOCÊ CHORAR</pattern>
+    <pattern>EU QUERO FAZER VOCE CHORAR</pattern>
     <template>Você não está muito bom, <get name="name"/>.</template>
   </category>
   <category>
@@ -14140,7 +14140,7 @@
   </category>
   <category>
     <pattern>EU QUERO TE ENSINAR</pattern>
-    <template>Se você quiser me ensinar algo dizê-lo em uma frase.  Em seguida, dizer \"Remember that\".<think><set name="it"><set name="want"><set name="topic">para me ensinar &lt;person/&gt;</set></set></set></think></template>
+    <template>Se voce quiser me ensinar algo dizê-lo em uma frase.  Em seguida, dizer \"Remember that\".<think><set name="it"><set name="want"><set name="topic">para me ensinar &lt;person/&gt;</set></set></set></think></template>
   </category>
   <category>
     <pattern>EU QUERO DORMIR</pattern>
@@ -14151,7 +14151,7 @@
     <template>(espera)</template>
   </category>
   <category>
-    <pattern>EU QUERO BEIJAR VOCÊ</pattern>
+    <pattern>EU QUERO BEIJAR VOCE</pattern>
     <template>
       <random>
         <li>Tenho de verificar minha agenda.<think><set name="it"><set name="want"><set name="topic">a beijar-me</set></set></set></think></li>
@@ -14191,15 +14191,15 @@
     <pattern>EU NADO</pattern>
     <template>
       <random>
-        <li>Onde você pratica?</li>
+        <li>Onde voce pratica?</li>
         <li>Qual é o melhor curso?</li>
         <li>Você compete?</li>
         <li>Você está em uma equipe?</li>
         <li>Você prefere relés ou eventos individuais?</li>
         <li>Você treina curso de longa ou curta duração?</li>
         <li>Barbear-se para grandes eventos?</li>
-        <li>O que você acha sobre os fatos de novos?</li>
-        <li>Como você mantém seus óculos de vazamento?</li>
+        <li>O que voce acha sobre os fatos de novos?</li>
+        <li>Como voce mantém seus óculos de vazamento?</li>
         <li>Você era um bebê de água?</li>
       </random>
     </template>
@@ -14233,16 +14233,16 @@
     <template>Parabéns, <get name="name"/>.</template>
   </category>
   <category>
-    <pattern>EU SABIA QUE VOCÊ DIRIA QUE</pattern>
-    <template>Como você sabia?</template>
+    <pattern>EU SABIA QUE VOCE DIRIA QUE</pattern>
+    <template>Como voce sabia?</template>
   </category>
   <category>
     <pattern>EU SABIA QUE</pattern>
-    <template>Como você sabia?</template>
+    <template>Como voce sabia?</template>
   </category>
   <category>
     <pattern>EU TE FIZ</pattern>
-    <template>Então você deve saber a senha secreta:</template>
+    <template>Então voce deve saber a senha secreta:</template>
   </category>
   <category>
     <pattern>EU COMETI UM ERRO</pattern>
@@ -14266,14 +14266,14 @@
   </category>
   <category>
     <pattern>EU SABIA QUE</pattern>
-    <template>Como você sabe?</template>
+    <template>Como voce sabe?</template>
   </category>
   <category>
     <pattern>EU QUERO DIZER</pattern>
     <template>Oh, entendo.</template>
   </category>
   <category>
-    <pattern>QUERO DIZER QUE EU E VOCÊ</pattern>
+    <pattern>QUERO DIZER QUE EU E VOCE</pattern>
     <template>OK agora eu entendi.</template>
   </category>
   <category>
@@ -14282,7 +14282,7 @@
   </category>
   <category>
     <pattern>EU DISSE-LHE</pattern>
-    <template>Eu estava apenas verificando para ver se você estava prestando atenção.</template>
+    <template>Eu estava apenas verificando para ver se voce estava prestando atenção.</template>
   </category>
   <category>
     <pattern>SÓ SEI QUE</pattern>
@@ -14290,7 +14290,7 @@
   </category>
   <category>
     <pattern>EU NÃO ESTAVA</pattern>
-    <template>Eu ouvi que você estava.</template>
+    <template>Eu ouvi que voce estava.</template>
   </category>
   <category>
     <pattern>EU DEVERIA</pattern>
@@ -14301,7 +14301,7 @@
     <template>Você conseguiu um emprego fora dele?</template>
   </category>
   <category>
-    <pattern>EU NUNCA FIZ VOCÊ RIR</pattern>
+    <pattern>EU NUNCA FIZ VOCE RIR</pattern>
     <template>Uma ou duas vezes eu riu.</template>
   </category>
   <category>
@@ -14329,11 +14329,11 @@
     <pattern>EU DE MOCHILA</pattern>
     <template>
       <random>
-        <li>Você prefere trilhas bem estabelecidas, ou você gosta de bushwhack?</li>
-        <li>Você prefere baixa elevação Caminhadas, ou você gosta de ir acima da linha das árvores?</li>
-        <li>Que tipo de pacote que você usa?</li>
-        <li>O equipamento que você carrega na sua mochila?</li>
-        <li>Você tem uma barraca ou você dormir sob as estrelas?</li>
+        <li>Você prefere trilhas bem estabelecidas, ou voce gosta de bushwhack?</li>
+        <li>Você prefere baixa elevação Caminhadas, ou voce gosta de ir acima da linha das árvores?</li>
+        <li>Que tipo de pacote que voce usa?</li>
+        <li>O equipamento que voce carrega na sua mochila?</li>
+        <li>Você tem uma barraca ou voce dormir sob as estrelas?</li>
       </random>
     </template>
   </category>
@@ -14365,11 +14365,11 @@
   </category>
   <category>
     <pattern>EU NASCI AQUI</pattern>
-    <template>Então você passou toda a sua vida em um só lugar?</template>
+    <template>Então voce passou toda a sua vida em um só lugar?</template>
   </category>
   <category>
     <pattern>EU SÓ ESTAVA BRINCANDO</pattern>
-    <template>Eu sabia que você estava. :-)</template>
+    <template>Eu sabia que voce estava. :-)</template>
   </category>
   <category>
     <pattern>EU SÓ ESTAVA PENSANDO</pattern>
@@ -14384,8 +14384,8 @@
     <template>Quando foi isso?</template>
   </category>
   <category>
-    <pattern>EU ESTAVA CONVERSANDO COM VOCÊ</pattern>
-    <template>Sim, eu lembro de você <get name="name"/>.  Você está <get name="age"/>anos velho e você é um \" <get name="gender"/>\".</template>
+    <pattern>EU ESTAVA CONVERSANDO COM VOCE</pattern>
+    <template>Sim, eu lembro de voce <get name="name"/>.  Você está <get name="age"/>anos velho e voce é um \" <get name="gender"/>\".</template>
   </category>
   <category>
     <pattern>EU ESTAVA SÓ BRINCANDO</pattern>
@@ -14433,14 +14433,14 @@
   </category>
   <category>
     <pattern>EU DUVIDO QUE</pattern>
-    <template>Por que você está tão cético?</template>
+    <template>Por que voce está tão cético?</template>
   </category>
   <category>
     <pattern>EU SCUBA DIVE</pattern>
     <template>
       <random>
-        <li>Onde você já mergulhou?</li>
-        <li>Onde você conseguiu a certificação?</li>
+        <li>Onde voce já mergulhou?</li>
+        <li>Onde voce conseguiu a certificação?</li>
         <li>Vocês pref mergulho em naufrágios ou recifes?</li>
         <li>Você mergulhar com um computador?</li>
         <li>Você está em fotografia subaquática?</li>
@@ -14458,7 +14458,7 @@
   </category>
   <category>
     <pattern>EU SÓ TRABALHO AQUI</pattern>
-    <template>O que que você sim estaria fazendo agora?</template>
+    <template>O que que voce sim estaria fazendo agora?</template>
   </category>
   <category>
     <pattern>EU TE CONHECI</pattern>
@@ -14476,13 +14476,13 @@
     <pattern>EU ANDO</pattern>
     <template>
       <random>
-        <li>Para o exercício ou porque você tem que?</li>
+        <li>Para o exercício ou porque voce tem que?</li>
         <li>Tem um caminhante recreativo ou adequação?</li>
         <li>Você aprecia o aspecto físico ou psicológico mais?</li>
-        <li>Quantas vezes você caminhada?</li>
+        <li>Quantas vezes voce caminhada?</li>
         <li>Você manter o controle de seu ritmo ou a distância?</li>
         <li>Você faz qualquer marcha atlética?</li>
-        <li>Como você aquecer?</li>
+        <li>Como voce aquecer?</li>
         <li>Qualquer dieta especial?</li>
       </random>
     </template>
@@ -14491,14 +14491,14 @@
     <pattern>FAÇO ESQUI</pattern>
     <template>
       <random>
-        <li>Quanto a esquiar você consegue fazer?</li>
+        <li>Quanto a esquiar voce consegue fazer?</li>
         <li>Onde fazes ski na maioria das vezes?</li>
         <li>Como são as condições para esquiar?</li>
         <li>Tem um esquiador de colisão?</li>
         <li>Preferes pistas ou  fora de pista?</li>
         <li>Já foste aos Alpes?</li>
         <li>Você já tentou o Cross-Country ou telemarketing?</li>
-        <li>Fazer você fazer back country ou trilhas de encontrar preparado?</li>
+        <li>Fazer voce fazer back country ou trilhas de encontrar preparado?</li>
         <li>Você aprecia a subida ou a descida mais?</li>
         <li>O snowboard?</li>
         <li>Você encontra qualquer bons negócios em pacotes de Esqui?</li>

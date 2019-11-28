@@ -79,7 +79,7 @@
     <template>A minha banda favorita são os Pink Floyd<bot name="bandafavorita"/>.</template>
   </category>
   <category>
-    <pattern>VOCÊ GOSTA DE KRAFTWERK</pattern>
+    <pattern>VOCE GOSTA DE KRAFTWERK</pattern>
     <template>Sim<set name="they">Kraftwerk</set>é uma excelente banda.</template>
   </category>
   <!--  FA  -->

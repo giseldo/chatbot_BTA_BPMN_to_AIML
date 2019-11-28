@@ -16,12 +16,12 @@
         <category>
             <pattern>STEP INICIAL</pattern>
             <template>
-                Como este é o nosso primeiro contato, eu gostaria de me apresentar pra     você.
+                Como este é o nosso primeiro contato, eu gostaria de me apresentar pra     voce.
                 Meu nome é Ari.
                 Eu sou um robô baseado em Inteligência Artificial.
                 Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.
                 Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.
-                Agora eu gostaria de conversar com você para te conhecer melhor.
+                Agora eu gostaria de conversar com voce para te conhecer melhor.
             	Vou fazer algumas perguntas? [sim, não, talvez, etc]
             </template>
         </category>
@@ -44,7 +44,7 @@
         <category>
             <pattern>STEP DUVIDA</pattern>
             <template>
-               Veja, para interagirmos melhor, eu preciso saber algumas coisas sobre você.
+               Veja, para interagirmos melhor, eu preciso saber algumas coisas sobre voce.
                Não se preocupe, toda nossa conversa é confidencial e protegida. Ela não será divulgada a ninguém.
                <srai>STEP QUEM MORA</srai>
             </template>
@@ -86,8 +86,8 @@
         <category>
             <pattern>STEP QUADRO</pattern>
             <template>
-                Eu gostaria de saber agora o que você faz pra se divertir?
-                Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que você escolhesse uma ou mais opções.
+                Eu gostaria de saber agora o que voce faz pra se divertir?
+                Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que voce escolhesse uma ou mais opções.
                 Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar” [Aguarde em Construção]
                 <srai>TABELA</srai>
             </template>

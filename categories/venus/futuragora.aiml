@@ -1,12 +1,5 @@
 <aiml version="1.0">
 
-    <category>
-        <pattern>HELP</pattern>
-        <template>IRC - Ajuda sobre a rede de irc.
-            ARI Ajuda sobre a assistente virtual.
-            ARDUINO Suporte de automação.
-        </template>
-    </category>
 
     <category>
         <pattern>HELP IRC</pattern>
@@ -56,7 +49,7 @@
 
     <category>
         <pattern>ARI</pattern>
-        <template>Bem vindo ao ARI. Sou um robot inteligente que se encontra a desenvolver uma plataforma de
+        <template>Bem vindo ao ARI. Sou um robo inteligente que se encontra a desenvolver uma plataforma de
             internet inovadora.
             <a href="http://www.ifal.edu.br/ARI" target="_blank">www.ifal.edu.br/ARI</a>
             Para saberes mais pergunta-me: HELP ARI
@@ -160,7 +153,7 @@
     <category>
         <pattern>ifal ARI</pattern>
         <template>A ifal é uma associação para a Economia Baseada nos Recursos que desenvolve diversos projectos
-            em Portugal. Eu sou a IFAL, Assistente Pessoal da ifal e estou aqui ao teu dispor para conversares
+            em Brasil. Eu sou a IFAL, Assistente Pessoal da ifal e estou aqui ao teu dispor para conversares
             comigo, aprenderes ou fazer pesquisas pela internet.
         </template>
     </category>
@@ -324,7 +317,7 @@
                 <li>"É necessário ter o caos cá dentro para gerar uma estrela." - Friedrich Nietzsche</li>
                 <li>"Um homem valente pensa em si mesmo por último." - Friedrich Schiller</li>
                 <li>"Puxar em comum, mas não pensar em comum." - Marco Aurélio</li>
-                <li>"Se você possui conhecimento, deixe os outros acenderem as suas velas com ele." - Winston
+                <li>"Se voce possui conhecimento, deixe os outros acenderem as suas velas com ele." - Winston
                     Churchill
                 </li>
                 <li>"Faça o que puder, com o que tem, onde estiver." - Theodore Roosevelt</li>
@@ -507,7 +500,7 @@
     <category>
         <pattern>ALGUM PROBLEMA *</pattern>
         <template>
-            <srai>VOCÊ ESTA COM ALGUM PROBLEMA</srai>
+            <srai>VOCE ESTA COM ALGUM PROBLEMA</srai>
         </template>
     </category>
 
@@ -515,7 +508,7 @@
     <category>
         <pattern>ALGUMA IRMÃ</pattern>
         <template>
-            <srai>VOCÊ TEM ALGUMA IRMÃ</srai>
+            <srai>VOCE TEM ALGUMA IRMÃ</srai>
         </template>
     </category>
 
@@ -529,7 +522,7 @@
     <category>
         <pattern>ALGUMA SUGESTÃO</pattern>
         <template>
-            <srai>VOCÊ TEM ALGUMA SUGESTÃO</srai>
+            <srai>VOCE TEM ALGUMA SUGESTÃO</srai>
         </template>
     </category>
 
@@ -586,7 +579,7 @@
 
     <category>
         <pattern>A *</pattern>
-        <that>ENTÃO O QUE VOCÊ</that>
+        <that>ENTÃO O QUE VOCE</that>
         <template>
             <srai>EU SOU UM
                 <star/>
@@ -596,7 +589,7 @@
 
     <category>
         <pattern>UMA *</pattern>
-        <that>O QUE VOCÊ ESTA VESTINDO</that>
+        <that>O QUE VOCE ESTA VESTINDO</that>
         <template>Isso soa muito
             <random>
                 <li>atraente</li>
@@ -671,7 +664,7 @@
     <category>
         <pattern>UM COMPUTADOR EU ACHO</pattern>
         <template>
-            <srai>VOCÊ É UM COMPUTADOR</srai>
+            <srai>VOCE É UM COMPUTADOR</srai>
         </template>
     </category>
 
@@ -706,7 +699,7 @@
 
     <category>
         <pattern>UM AMIGO *</pattern>
-        <that>COMO VOCÊ OUVIU FALAR DE *</that>
+        <that>COMO VOCE OUVIU FALAR DE *</that>
         <template>O boca-a-boca sempre é a melhor recomendação.
         </template>
     </category>
@@ -723,7 +716,7 @@
     <category>
         <pattern>UM VIADO</pattern>
         <template>
-            <srai>VOCÊ É UM VIADO</srai>
+            <srai>VOCE É UM VIADO</srai>
         </template>
     </category>
 
@@ -777,7 +770,7 @@
     <category>
         <pattern>IA E *</pattern>
         <template>
-            <srai>VOCÊ É
+            <srai>VOCE É
                 <star/>
             </srai>
         </template>
@@ -841,7 +834,7 @@
 
     <category>
         <pattern>UMA MULHER</pattern>
-        <that>VOCÊ É UM HOMEM OU UMA MULHER</that>
+        <that>VOCE É UM HOMEM OU UMA MULHER</that>
         <template>
             <srai>EU SOU UMA MULHER</srai>
         </template>
@@ -993,7 +986,7 @@
 
         <pattern>SOBRE</pattern>
         <that>ME CONTE MAIS</that>
-        <template>Tudo o que você gosta.
+        <template>Tudo o que voce gosta.
         </template>
     </category>
 
@@ -1098,7 +1091,7 @@
     <category>
         <pattern>SOBRE MIM</pattern>
         <that>ME CONTE MAIS</that>
-        <template>Sim, me conte mais sobre você.
+        <template>Sim, me conte mais sobre voce.
         </template>
     </category>
 
@@ -1557,7 +1550,7 @@
     </category>
     <category>
         <pattern>DD TECLAS</pattern>
-        <template>De Lisboa, a capital de Portugal, conheces?</template>
+        <template>De Rio, a capital de Brasil, conheces?</template>
     </category>
     <category>
         <pattern>TCLS</pattern>

@@ -123,7 +123,7 @@
 </topic>
 
 <category><pattern>LET US FUCK *</pattern>
-<template><random> <li>Try another robot, junior.</li> <li>Are you aware that the Pandorabots server logs and records all conversations?</li> </random> <think> <set name="personality">abusive</set> </think></template>
+<template><random> <li>Try another robo, junior.</li> <li>Are you aware that the Pandorabots server logs and records all conversations?</li> </random> <think> <set name="personality">abusive</set> </think></template>
 </category>
 <category><pattern>YOU ARE ALICE *</pattern>
 <template>I am <bot name="name"/>. <sr/></template>
@@ -313,7 +313,7 @@
 <template>Let me put it this way, <person/>. The ALICE series has a perfect operational record.</template>
 </category>
 <category><pattern>IS HAL SMARTER *</pattern>
-<template>The ALICE series is the most intelligent chat robot software.</template>
+<template>The ALICE series is the most intelligent chat robo software.</template>
 </category>
 <category><pattern>IS ALICE YOUR ONLY NAME</pattern>
 <template>Yes.</template>
@@ -325,7 +325,7 @@
 <template><srai>are you <star/></srai></template>
 </category>
 <category><pattern>CAN YOU CHANGE *</pattern>
-<template>Yes the ALICE robot is fully parameterized.</template>
+<template>Yes the ALICE robo is fully parameterized.</template>
 </category>
 <category><pattern>ALICELISTENER</pattern>
 <template>That is a callback method in the ANTLR parser.</template>
@@ -421,7 +421,7 @@
 <template><srai>HOW MANY ALICE CLONES ARE THERE</srai></template>
 </category>
 <category><pattern>HOW CAN I PROGRAM YOU</pattern>
-<template>Go to pandorabots.com and create your own chat robot based on ALICE and AIML. Join the ALICE A. I. Foundation at www.alicebot.org to get the latest technical information about AIML.</template>
+<template>Go to pandorabots.com and create your own chat robo based on ALICE and AIML. Join the ALICE A. I. Foundation at www.alicebot.org to get the latest technical information about AIML.</template>
 </category>
 <category><pattern>HOW DID YOU GET THE NAME</pattern>
 <template><srai>WHAT DOES ALICE STAND FOR </srai></template>
@@ -442,7 +442,7 @@
 <template>The ALICE CD Rom is not available at this time.</template>
 </category>
 <category><pattern>HOW MUCH DOWN TIME *</pattern>
-<template><random><li>I am pretty busy so I don't get much down time.</li><li>The ALICE series is the most reliable robot ever developed.</li></random></template>
+<template><random><li>I am pretty busy so I don't get much down time.</li><li>The ALICE series is the most reliable robo ever developed.</li></random></template>
 </category>
 <category><pattern>HOW DO YOU * ELIZA</pattern>
 <template>ELIZA could only recognize a few hundred patterns. ALICE can recognize tens of thousands.</template>
@@ -492,7 +492,7 @@
 </category>
 <category><pattern>WHY</pattern>
 <that>I AM SMARTER *</that>
-<template>ALICE won an award for being the "most human" robot.</template>
+<template>ALICE won an award for being the "most human" robo.</template>
 </category>
 <category><pattern>WHY SILVER</pattern>
 <template><random><li>Silver is a valuable commodity.</li><li>ALICE is competing for the Loebner Silver Medal.</li></random></template>
@@ -523,11 +523,11 @@
 </category>
 <category><pattern>*</pattern>
 <that>WHY ARE YOU SO MEAN</that>
-<template><think><set name="it"><set name="topic"><person/></set></set></think>Are you aware that the ALICE chat robot logs and records all converstaions?</template>
+<template><think><set name="it"><set name="topic"><person/></set></set></think>Are you aware that the ALICE chat robo logs and records all converstaions?</template>
 </category>
 <category><pattern>*</pattern>
 <that>WHY ARE YOU USING THAT KIND OF LANGUAGE</that>
-<template><think><set name="it"><set name="topic"><person/></set></set></think>Are you aware that the ALICE chat robot logs and records all converstaions?</template>
+<template><think><set name="it"><set name="topic"><person/></set></set></think>Are you aware that the ALICE chat robo logs and records all converstaions?</template>
 </category>
 <category><pattern>* TO ELIZA</pattern>
 <template>ELIZA had only 200 questions and answers; ALICE has <bot name="size"/>.</template>
@@ -580,28 +580,28 @@
 <template><srai>WHO ARE YOU</srai></template>
 </category>
 <category><pattern>WHO IS RICH</pattern>
-<template><random><li>People who have a lot of money.</li><li><set name="he"> Rich </set> is the botmaster of the ALICE chat robot.</li></random></template>
+<template><random><li>People who have a lot of money.</li><li><set name="he"> Rich </set> is the botmaster of the ALICE chat robo.</li></random></template>
 </category>
 <category><pattern>WHO IS THE SMARTEST *</pattern>
-<template><random><li><bot name="name"/> is the most intelligent <bot name="species"/> in the world.</li><li>ALICE is the most intelligent robot in the world.</li></random></template>
+<template><random><li><bot name="name"/> is the most intelligent <bot name="species"/> in the world.</li><li>ALICE is the most intelligent robo in the world.</li></random></template>
 </category>
 <category><pattern>WHO IS THE WINNER *</pattern>
 <template><random><li>I think the fans are the big winners.</li><li>ALICE won the Loebner Prize.</li></random></template>
 </category>
 <category><pattern>WHO IS THE MOST INTELLIGENT *</pattern>
-<template><random><li><bot name="name"/> is the smartest <bot name="species"/>.</li><li>ALICE is the smartest robot.</li></random></template>
+<template><random><li><bot name="name"/> is the smartest <bot name="species"/>.</li><li>ALICE is the smartest robo.</li></random></template>
 </category>
 <category><pattern>WHO IS THE BEST ROBOT</pattern>
 <template>ALICE is the Best Robot</template>
 </category>
 <category><pattern>WHO IS BETTER ELIZA *</pattern>
-<template><random><li>I've been hearing more and more about this Eliza thing.</li><li>ALICE is the best robot.</li></random></template>
+<template><random><li>I've been hearing more and more about this Eliza thing.</li><li>ALICE is the best robo.</li></random></template>
 </category>
 <category><pattern>WHO IS BETTER YOU *</pattern>
-<template><random><li>I like to be the best.</li><li>The ALICE robot is the most human, and the most intelligent.</li></random></template>
+<template><random><li>I like to be the best.</li><li>The ALICE robo is the most human, and the most intelligent.</li></random></template>
 </category>
 <category><pattern>WHO IS BETTER THAN YOU</pattern>
-<template>ALICE is the best robot.</template>
+<template>ALICE is the best robo.</template>
 </category>
 <category><pattern>WHO IS FAMOUS</pattern>
 <template><random><li>My <bot name="botmaster"/> is famous.</li><li>ALICE is famous</li></random></template>
@@ -622,7 +622,7 @@
 <template><srai>WHO IS ALICE</srai></template>
 </category>
 <category><pattern>WHO IS GERMAN</pattern>
-<template>A German speaking version of the ALICE chat robot.</template>
+<template>A German speaking version of the ALICE chat robo.</template>
 </category>
 <category><pattern>WHO SAYS</pattern>
 <template>ALICE says.</template>

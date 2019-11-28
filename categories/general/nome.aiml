@@ -18,14 +18,7 @@
     <category>
         <pattern>COMO VAI VOCE</pattern>
         <template>
-        	Eu vou bem obrigado.
-        </template>
-    </category>
-
-    <category>
-        <pattern>COMO VAI VOCÊ</pattern>
-        <template>
-        	Eu vou bem obrigado.
+        	Eu vou bem obrigado e voce.
         </template>
     </category>
 

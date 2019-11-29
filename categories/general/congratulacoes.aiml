@@ -34,8 +34,8 @@
         </template>
     </category>
 
-    <category>
-        <pattern>AJUDA</pattern>
+   <category>
+        <pattern>AJUDA23</pattern>
         <template>
             <srai>MENU</srai>
         </template>

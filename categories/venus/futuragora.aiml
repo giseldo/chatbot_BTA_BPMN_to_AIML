@@ -1,6 +1,5 @@
-<aiml version="1.0">
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
     <category>
         <pattern>HELP IRC</pattern>
         <template>IRC - Ajuda sobre a rede de irc.

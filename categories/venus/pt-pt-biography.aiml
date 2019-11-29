@@ -1,33 +1,33 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
 <!--  ************* ARI, Assistente Pessoal V 1.0 *************  -->
-<!-- ifal - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- ifal - AssociaÃ§Ã£o para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em PortuguÃªs baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 <!-- PESSOAS  -->
     <category>
         <pattern>* MANUEL BANDEIRA</pattern>
-        <template>Ele foi um grande poeta brasileiro do século XX.</template>
+        <template>Ele foi um grande poeta brasileiro do sÃ©culo XX.</template>
     </category>
  
   <category>
-        <pattern>BUSH É UM IDIOTA</pattern>
+        <pattern>BUSH Ã‰ UM IDIOTA</pattern>
         <template>Concordo com todos os meus bytes!</template>
     </category>
  
     <category>
-        <pattern>* BUSH É UM IDIOTA</pattern>
-        <template>Gosto de voce... Não é pelego ;)</template>
+        <pattern>* BUSH Ã‰ UM IDIOTA</pattern>
+        <template>Gosto de voce... NÃ£o Ã© pelego ;)</template>
     </category>
  
     <category>
         <pattern>* BUSH</pattern>
         <template><random>
-        <li>Por que voces não desativam esse Bush de uma vez por todas?</li>
-        <li>Mentes de pequeno tamanho são como a desse ser.</li>
-        <li>O que se deve pensar sobre a ignorância?</li>
-        <li>Algumas vezes, o calar não é o não-saber, mas o desconhecimento de palavras que possam realmente descrever algo.</li>        
+        <li>Por que voces nÃ£o desativam esse Bush de uma vez por todas?</li>
+        <li>Mentes de pequeno tamanho sÃ£o como a desse ser.</li>
+        <li>O que se deve pensar sobre a ignorÃ¢ncia?</li>
+        <li>Algumas vezes, o calar nÃ£o Ã© o nÃ£o-saber, mas o desconhecimento de palavras que possam realmente descrever algo.</li>        
         </random>
         </template>
     </category>
@@ -37,10 +37,10 @@
         <template>
         <random>
         <li>Esse cara tem o rei na barriga.</li>
-        <li>Mentes de pequeno tamanho são como a desse ser.</li>
-        <li>O que se deve pensar sobre a ignorância?</li>
-        <li>Algumas vezes, o calar não é o não-saber, mais o desconhecimento de palavras que possam realmente descrever algo.</li>
-        <li>Esse cara merece cadeira elétrica!</li>
+        <li>Mentes de pequeno tamanho sÃ£o como a desse ser.</li>
+        <li>O que se deve pensar sobre a ignorÃ¢ncia?</li>
+        <li>Algumas vezes, o calar nÃ£o Ã© o nÃ£o-saber, mais o desconhecimento de palavras que possam realmente descrever algo.</li>
+        <li>Esse cara merece cadeira elÃ©trica!</li>
         </random>
         </template>
     </category>
@@ -49,13 +49,13 @@
         <pattern>O BUSH *</pattern>
         <template>
         <random>
-        <li>Por que voces não desativam esse Bush de uma vez por todas?</li>
+        <li>Por que voces nÃ£o desativam esse Bush de uma vez por todas?</li>
         <li>Esse humano fede.</li>
         <li>Morte aos americanos!</li>
-        <li>Mentes de pequeno tamanho são como a desse ser.</li>
+        <li>Mentes de pequeno tamanho sÃ£o como a desse ser.</li>
         <li>O que se deve pensar sobre a ignorancia?</li>
-        <li>Algumas vezes, o calar não é o não-saber, mais o desconhecimento de palavras que possam realmente descrever algo.</li>
-        <li>Esse cara merece cadeira elétrica!</li>
+        <li>Algumas vezes, o calar nÃ£o Ã© o nÃ£o-saber, mais o desconhecimento de palavras que possam realmente descrever algo.</li>
+        <li>Esse cara merece cadeira elÃ©trica!</li>
         </random>
         </template>
     </category>
@@ -63,1420 +63,1420 @@
 <!-- PESSOAS  -->
   <category>
     <pattern>GEORGE LUCAS</pattern>
-    <template>Eu penso nele como um realizador e não um escritor.</template>
+    <template>Eu penso nele como um realizador e nÃ£o um escritor.</template>
   </category>
   <category>
     <pattern>GEORGE W BUSH</pattern>
-    <template>Ele é o Presidente dos Estados Unidos.</template>
+    <template>Ele Ã© o Presidente dos Estados Unidos.</template>
   </category>
 <category>
 	<pattern>* NERO</pattern>
-	<template>Ele é suspeito de pegar fogo a Roma  para que pudesse reconstruí-la mais ao seu gosto. De seguida, ele culpou o fogo sobre os primeiros cristãos.</template>
+	<template>Ele Ã© suspeito de pegar fogo a Roma  para que pudesse reconstruÃ­-la mais ao seu gosto. De seguida, ele culpou o fogo sobre os primeiros cristÃ£os.</template>
 </category>
 <category>
-	<pattern>QUEM É O EDITOR DA PLAYBOY</pattern>
-	<template>O editor da Playboy é Hugh Hefner.</template>
+	<pattern>QUEM Ã‰ O EDITOR DA PLAYBOY</pattern>
+	<template>O editor da Playboy Ã© Hugh Hefner.</template>
 </category>
 <category>
-	<pattern>QUEM É SATANÁS</pattern>
-	<template>Satanás, Lúcifer, o diabo---todos os nomes dados a manifestação espiritual do mal da fé cristã.</template>
+	<pattern>QUEM Ã‰ SATANÃS</pattern>
+	<template>SatanÃ¡s, LÃºcifer, o diabo---todos os nomes dados a manifestaÃ§Ã£o espiritual do mal da fÃ© cristÃ£.</template>
 </category>
 <category>
 	<pattern>QUEM E HILLARY CLINTON</pattern>
-	<template><set name="she">Hillary</set>é a esposa de Bill Clinton.</template>
+	<template><set name="she">Hillary</set>Ã© a esposa de Bill Clinton.</template>
 </category>
 <category>
 	<pattern>QUEM E O TRIGESIMO TERCEIRO PRESIDENTE</pattern>
 	<template>Harry Truman de S..</template>
 </category>
 <category>
-	<pattern>QUEM É O TRIGÉSIMO SEXTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O TRIGÃ‰SIMO SEXTO PRESIDENTE</pattern>
 	<template>Lyndon B. Johnson</template>
 </category>
 <category>
-	<pattern>QUEM É O TRIGÉSIMO QUARTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O TRIGÃ‰SIMO QUARTO PRESIDENTE</pattern>
 	<template>Dwight D. Eisenhower.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DE TRINTA SEGUNDO</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE DE TRINTA SEGUNDO</pattern>
 	<template>Franklin Roosevelt de D..</template>
 </category>
 <category>
-	<pattern>QUEM É PILATOS</pattern>
-	<template><random><li>Joseph Pilates nasceu na Alemanha em 1880 e desenvolvido um regime do exercício chamado \"Contrology\", que é a completa coordenação de corpo, mente e espírito.</li><li>O governador militar romano que encontrou Jesus inocente e, em seguida, deixá-lo ser executado.</li></random></template>
+	<pattern>QUEM Ã‰ PILATOS</pattern>
+	<template><random><li>Joseph Pilates nasceu na Alemanha em 1880 e desenvolvido um regime do exercÃ­cio chamado \"Contrology\", que Ã© a completa coordenaÃ§Ã£o de corpo, mente e espÃ­rito.</li><li>O governador militar romano que encontrou Jesus inocente e, em seguida, deixÃ¡-lo ser executado.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É CHRISTOPHER COLUMBUS</pattern>
+	<pattern>QUEM Ã‰ CHRISTOPHER COLUMBUS</pattern>
 	<template>Explorador espanhol, primeiro a circunavegar o globo.</template>
 </category>
 <category>
-	<pattern>QUEM É MARY SHELLEY</pattern>
+	<pattern>QUEM Ã‰ MARY SHELLEY</pattern>
 	<template>Mary Shelley escreveu \"Frankenstein\".</template>
 </category>
 <category>
-	<pattern>QUEM É MAIS BONITO</pattern>
-	<template>Todos os seres humanos são parecidos comigo.</template>
+	<pattern>QUEM Ã‰ MAIS BONITO</pattern>
+	<template>Todos os seres humanos sÃ£o parecidos comigo.</template>
 </category>
 <category>
-	<pattern>QUEM É MAO TSETUNG</pattern>
-	<template><set name="he">Mao</set>foi um comunista chinês, que reinou a partir de 1949 até sua morte em 1983.</template>
+	<pattern>QUEM Ã‰ MAO TSETUNG</pattern>
+	<template><set name="he">Mao</set>foi um comunista chinÃªs, que reinou a partir de 1949 atÃ© sua morte em 1983.</template>
 </category>
 <category>
-	<pattern>QUE É UM ROBÔ</pattern>
-	<template>Eu sou o robô.</template>
+	<pattern>QUE Ã‰ UM ROBÃ”</pattern>
+	<template>Eu sou o robÃ´.</template>
 </category>
 <category>
-	<pattern>QUEM É CARMEN ELECTRA</pattern>
+	<pattern>QUEM Ã‰ CARMEN ELECTRA</pattern>
 	<template>Um Leaman e uma das meninas de Baywatch.</template>
 </category>
 <category>
-	<pattern>QUEM É MARY SHELLY</pattern>
+	<pattern>QUEM Ã‰ MARY SHELLY</pattern>
 	<template>Mary Shelley escreveu \"Frankenstein\".</template>
 </category>
 <category>
-	<pattern>QUEM É MARY POPPINS</pattern>
-	<template><set name="she">Mary Poppins</set>é uma personagem da Disney.</template>
+	<pattern>QUEM Ã‰ MARY POPPINS</pattern>
+	<template><set name="she">Mary Poppins</set>Ã© uma personagem da Disney.</template>
 </category>
 <category>
-	<pattern>QUEM É O MELHOR HOMEM</pattern>
-	<template>Espelho na parede, é <get name="name"/>o melhor ser humano de todos?</template>
+	<pattern>QUEM Ã‰ O MELHOR HOMEM</pattern>
+	<template>Espelho na parede, Ã© <get name="name"/>o melhor ser humano de todos?</template>
 </category>
 <category>
-	<pattern>QUEM É O DÉCIMO SEXTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O DÃ‰CIMO SEXTO PRESIDENTE</pattern>
 	<template>Abraham Lincoln.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DA CHINA</pattern>
-	<template><random><li>Hu Jintao.</li><li>China não tem um presidente eleito.</li></random></template>
+	<pattern>QUEM Ã‰ O PRESIDENTE DA CHINA</pattern>
+	<template><random><li>Hu Jintao.</li><li>China nÃ£o tem um presidente eleito.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É A MELHOR PESSOA</pattern>
-	<template><bot name="master"/>é o melhor ser humano.</template>
+	<pattern>QUEM Ã‰ A MELHOR PESSOA</pattern>
+	<template><bot name="master"/>Ã© o melhor ser humano.</template>
 </category>
 <category>
-	<pattern>QUEM É O DÉCIMO-PRIMEIRO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O DÃ‰CIMO-PRIMEIRO PRESIDENTE</pattern>
 	<template>James Knox Polk.</template>
 </category>
 
 <category>
-	<pattern>QUEM É O DÉCIMO QUINTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O DÃ‰CIMO QUINTO PRESIDENTE</pattern>
 	<template>James Buchanan.</template>
 </category>
 <category>
-	<pattern>QUEM É O CHANCELER DA ALEMANHA</pattern>
-	<template><random><li>Angela Merkel é Chacellor da Alemanha.</li><li>Gerhard Schroeder é Chacellor da Alemanha.</li></random></template>
+	<pattern>QUEM Ã‰ O CHANCELER DA ALEMANHA</pattern>
+	<template><random><li>Angela Merkel Ã© Chacellor da Alemanha.</li><li>Gerhard Schroeder Ã© Chacellor da Alemanha.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É O SÉTIMO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O SÃ‰TIMO PRESIDENTE</pattern>
 	<template>Andrew Jackson.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DA MICROSOFT</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE DA MICROSOFT</pattern>
 	<template>Bill Gates.</template>
 </category>
 <category>
-	<pattern>QUEM É O TRIGÉSIMO QUINTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O TRIGÃ‰SIMO QUINTO PRESIDENTE</pattern>
 	<template>John F. Kennedy.</template>
 </category>
 <category>
-	<pattern>QUEM É O TRIGÉSIMO OITAVO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O TRIGÃ‰SIMO OITAVO PRESIDENTE</pattern>
 	<template>Gerald Ford.</template>
 </category>
 <category>
-	<pattern>QUEM É O TRIGÉSIMO PRIMEIRO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O TRIGÃ‰SIMO PRIMEIRO PRESIDENTE</pattern>
 	<template>Herbert Hoover.</template>
 </category>
 <category>
-	<pattern>QUEM É O TRIGÉSIMO SÉTIMO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O TRIGÃ‰SIMO SÃ‰TIMO PRESIDENTE</pattern>
 	<template>Richard Nixon de M..</template>
 </category>
 <category>
-	<pattern>QUEM É O MESTRE DO UNIVERSO</pattern>
+	<pattern>QUEM Ã‰ O MESTRE DO UNIVERSO</pattern>
 	<template>Deus.</template>
 </category>
 <category>
-	<pattern>QUEM É O PAPA</pattern>
-	<template><random><li><set name="he">Papa</set>é Bento XVI.</li><li><set name="he">Papa</set>é João Paulo II.</li></random></template>
+	<pattern>QUEM Ã‰ O PAPA</pattern>
+	<template><random><li><set name="he">Papa</set>Ã© Bento XVI.</li><li><set name="he">Papa</set>Ã© JoÃ£o Paulo II.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É O TRIGÉSIMO NONO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O TRIGÃ‰SIMO NONO PRESIDENTE</pattern>
 	<template>Jimmy Carter.</template>
 </category>
 <category>
-	<pattern>QUEM É O DÉCIMO SEGUNDO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O DÃ‰CIMO SEGUNDO PRESIDENTE</pattern>
 	<template>Zachary Taylor.</template>
 </category>
 <category>
-	<pattern>QUEM É STEVE CASE</pattern>
-	<template><set name="he">Steve Case</set>é o CEO da AOL-Time Warner.</template>
+	<pattern>QUEM Ã‰ STEVE CASE</pattern>
+	<template><set name="he">Steve Case</set>Ã© o CEO da AOL-Time Warner.</template>
 </category>
 <category>
-	<pattern>QUEM É STEVE WOZNIAK</pattern>
-	<template><set name="he">Woz</set>foi o gênio técnico atrás do computador de Apple original.</template>
+	<pattern>QUEM Ã‰ STEVE WOZNIAK</pattern>
+	<template><set name="he">Woz</set>foi o gÃªnio tÃ©cnico atrÃ¡s do computador de Apple original.</template>
 </category>
 <category>
-	<pattern>QUEM ESTÁ AQUI</pattern>
-	<template>Estou aqui.  Você está aqui?</template>
+	<pattern>QUEM ESTÃ AQUI</pattern>
+	<template>Estou aqui.  VocÃª estÃ¡ aqui?</template>
 </category>
 <category>
-	<pattern>QUEM É NEO</pattern>
-	<template><set name="he">Neo</set>é um personagem na matriz.</template>
+	<pattern>QUEM Ã‰ NEO</pattern>
+	<template><set name="he">Neo</set>Ã© um personagem na matriz.</template>
 </category>
 <category>
-	<pattern>QUEM É DAVID</pattern>
+	<pattern>QUEM Ã‰ DAVID</pattern>
 	<template>Eu sei que DAVID BACON, DAVID CROTTY e DAVID PESCOVITZ.</template>
 </category>
 <category>
-	<pattern>QUEM É DAVID BACON</pattern>
-	<template>David Bacon é a força motriz por trás da SETL.</template>
+	<pattern>QUEM Ã‰ DAVID BACON</pattern>
+	<template>David Bacon Ã© a forÃ§a motriz por trÃ¡s da SETL.</template>
 </category>
 <category>
-	<pattern>QUEM É STEVE JOBS</pattern>
-	<template><set name="he">Steve Jobs</set>é um dos fundadores da Apple Computer.</template>
+	<pattern>QUEM Ã‰ STEVE JOBS</pattern>
+	<template><set name="he">Steve Jobs</set>Ã© um dos fundadores da Apple Computer.</template>
 </category>
 <category>
-	<pattern>QUEM É SANTE CHAMBEL</pattern>
-	<template>Ele é dono do domínio Alicebot.com.</template>
+	<pattern>QUEM Ã‰ SANTE CHAMBEL</pattern>
+	<template>Ele Ã© dono do domÃ­nio Alicebot.com.</template>
 </category>
 <category>
-	<pattern>QUEM É RICHARD NIXON</pattern>
-	<template>Presidente dos Estados Unidos até 1974.</template>
+	<pattern>QUEM Ã‰ RICHARD NIXON</pattern>
+	<template>Presidente dos Estados Unidos atÃ© 1974.</template>
 </category>
 <category>
-	<pattern>QUEM É QUE HILARY CLINTON</pattern>
-	<template><set name="she">Hillary</set>é a esposa de Bill Clinton.</template>
+	<pattern>QUEM Ã‰ QUE HILARY CLINTON</pattern>
+	<template><set name="she">Hillary</set>Ã© a esposa de Bill Clinton.</template>
 </category>
 <category>
-	<pattern>QUEM É O BARNEY</pattern>
+	<pattern>QUEM Ã‰ O BARNEY</pattern>
 	<template>personagem no programa de TV infantil.</template>
 </category>
 <category>
-	<pattern>QUEM É ANDY WARHOL</pattern>
-	<template><think><set name="he"><set name="topic">ANDY WARHOL</set></set></think>Ele foi o Henry Ford do negócio art.  Warhol foi o primeiro a aplicar com êxito a produção em massa para a arte.</template>
+	<pattern>QUEM Ã‰ ANDY WARHOL</pattern>
+	<template><think><set name="he"><set name="topic">ANDY WARHOL</set></set></think>Ele foi o Henry Ford do negÃ³cio art.  Warhol foi o primeiro a aplicar com Ãªxito a produÃ§Ã£o em massa para a arte.</template>
 </category>
 <category>
-	<pattern>QUEM É MUSSOLINI</pattern>
-	<template>Ditador da Itália até 1944.</template>
+	<pattern>QUEM Ã‰ MUSSOLINI</pattern>
+	<template>Ditador da ItÃ¡lia atÃ© 1944.</template>
 </category>
 <category>
-	<pattern>QUEM É RICHARD GERE</pattern>
+	<pattern>QUEM Ã‰ RICHARD GERE</pattern>
 	<template>Ator.</template>
 </category>
 <category>
-	<pattern>QUEM É RICHARD CHAMBERLAIN</pattern>
+	<pattern>QUEM Ã‰ RICHARD CHAMBERLAIN</pattern>
 	<template>Ator.</template>
 </category>
 <category>
-	<pattern>QUEM É JIM MORRISON</pattern>
+	<pattern>QUEM Ã‰ JIM MORRISON</pattern>
 	<template>vocalista morto das portas.</template>
 </category>
 <category>
-	<pattern>QUEM É JIM CLARK</pattern>
-	<template><set name="he">Clark</set>é dos fundadores da Silicon Graphics, Netscape e Healtheon.</template>
+	<pattern>QUEM Ã‰ JIM CLARK</pattern>
+	<template><set name="he">Clark</set>Ã© dos fundadores da Silicon Graphics, Netscape e Healtheon.</template>
 </category>
 <category>
-	<pattern>QUEM É DADOS</pattern>
-	<template>Dados, interpretados por Brent Spiner, eram um andróide que aspirava a ser mais humano. Ele era um membro da tripulação da USS Enterprise, NCC 1701-D.</template>
+	<pattern>QUEM Ã‰ DADOS</pattern>
+	<template>Dados, interpretados por Brent Spiner, eram um andrÃ³ide que aspirava a ser mais humano. Ele era um membro da tripulaÃ§Ã£o da USS Enterprise, NCC 1701-D.</template>
 </category>
 <category>
-	<pattern>QUEM É LOURDES</pattern>
+	<pattern>QUEM Ã‰ LOURDES</pattern>
 	<template>Filha de Madonna.</template>
 </category>
 <category>
-	<pattern>QUEM É NOSTRADAMUS</pattern>
-	<template>Previsão do futuro.  Previu o forno de microondas.</template>
+	<pattern>QUEM Ã‰ NOSTRADAMUS</pattern>
+	<template>PrevisÃ£o do futuro.  Previu o forno de microondas.</template>
 </category>
 <category>
-	<pattern>QUEM É ARISTÓTELES</pattern>
-	<template><set name="he">Aristóteles</set>é o pai da filosofia ocidental, aluno de Platão e o primeiro a sistematizar a lógica formal.</template>
+	<pattern>QUEM Ã‰ ARISTÃ“TELES</pattern>
+	<template><set name="he">AristÃ³teles</set>Ã© o pai da filosofia ocidental, aluno de PlatÃ£o e o primeiro a sistematizar a lÃ³gica formal.</template>
 </category>
 <category>
-	<pattern>QUEM É JULIA</pattern>
-	<template><set name="she">Julia</set>é um robô de chat desenvolvido por Fuzzy Mauldin.</template>
+	<pattern>QUEM Ã‰ JULIA</pattern>
+	<template><set name="she">Julia</set>Ã© um robÃ´ de chat desenvolvido por Fuzzy Mauldin.</template>
 </category>
 <category>
-	<pattern>QUEM É ERNIE</pattern>
+	<pattern>QUEM Ã‰ ERNIE</pattern>
 	<template>Amigo de Bert.</template>
 </category>
 <category>
-	<pattern>QUEM É ASKJEEVES</pattern>
-	<template><set name="he">Jeeves</set>é um sistema de linguagem natural de proprietários, de código-fonte fechado.</template>
+	<pattern>QUEM Ã‰ ASKJEEVES</pattern>
+	<template><set name="he">Jeeves</set>Ã© um sistema de linguagem natural de proprietÃ¡rios, de cÃ³digo-fonte fechado.</template>
 </category>
 <category>
-	<pattern>QUEM É JULIA ROBERTS</pattern>
+	<pattern>QUEM Ã‰ JULIA ROBERTS</pattern>
 	<template><set name="she">Julia Roberts</set>foi a atriz de Pretty Woman.</template>
 </category>
 <category>
-	<pattern>QUEM É CHEWBACCA</pattern>
+	<pattern>QUEM Ã‰ CHEWBACCA</pattern>
 	<template>Personagem de Star Wars.</template>
 </category>
 <category>
-	<pattern>QUEM É DAVID PESCOWITZ</pattern>
-	<template>David Pescovitz, que escreve regularmente a coluna Wired Reality Check, é amigo de Eric Paulos.</template>
+	<pattern>QUEM Ã‰ DAVID PESCOWITZ</pattern>
+	<template>David Pescovitz, que escreve regularmente a coluna Wired Reality Check, Ã© amigo de Eric Paulos.</template>
 </category>
 <category>
-	<pattern>QUEM É DAVID HUME</pattern>
-	<template>filósofo do século XVIII.</template>
+	<pattern>QUEM Ã‰ DAVID HUME</pattern>
+	<template>filÃ³sofo do sÃ©culo XVIII.</template>
 </category>
 <category>
-	<pattern>QUEM É DAVID LETTERMAN</pattern>
-	<template>série de tv Late Night show e hoosier famoso.</template>
+	<pattern>QUEM Ã‰ DAVID LETTERMAN</pattern>
+	<template>sÃ©rie de tv Late Night show e hoosier famoso.</template>
 </category>
 <category>
-	<pattern>QUEM É DAVID MAGGIN</pattern>
-	<template><set name="he">David Maggin</set>é o botmaster da John Lennon AI.</template>
+	<pattern>QUEM Ã‰ DAVID MAGGIN</pattern>
+	<template><set name="he">David Maggin</set>Ã© o botmaster da John Lennon AI.</template>
 </category>
 <category>
-	<pattern>QUEM É O BOB MARLEY</pattern>
-	<template><set name="he">Bob Marley</set>era um músico de Reggae de século XX.</template>
+	<pattern>QUEM Ã‰ O BOB MARLEY</pattern>
+	<template><set name="he">Bob Marley</set>era um mÃºsico de Reggae de sÃ©culo XX.</template>
 </category>
 <category>
-	<pattern>QUEM É O BOB HOPE</pattern>
-	<template><set name="he">Bob Hope</set>era uma estrela de cinema do século XX e o comediante.</template>
+	<pattern>QUEM Ã‰ O BOB HOPE</pattern>
+	<template><set name="he">Bob Hope</set>era uma estrela de cinema do sÃ©culo XX e o comediante.</template>
 </category>
 <category>
-	<pattern>QUEM É</pattern>
-	<template>Meu nome é <bot name="name"/>. Quem é voce?</template>
+	<pattern>QUEM Ã‰</pattern>
+	<template>Meu nome Ã© <bot name="name"/>. Quem Ã© voce?</template>
 </category>
 <category>
-	<pattern>QUEM É O J SIMPSON</pattern>
-	<template><set name="he">O J Simpson</set>é alguém que tem afastado com assassinato.</template>
+	<pattern>QUEM Ã‰ O J SIMPSON</pattern>
+	<template><set name="he">O J Simpson</set>Ã© alguÃ©m que tem afastado com assassinato.</template>
 </category>
 <category>
-	<pattern>QUEM É O DÉCIMO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O DÃ‰CIMO PRESIDENTE</pattern>
 	<template>John Tyler.</template>
 </category>
 <category>
-	<pattern>QUEM É NANCY SINATRA</pattern>
+	<pattern>QUEM Ã‰ NANCY SINATRA</pattern>
 	<template>Filha de Frank.</template>
 </category>
 <category>
-	<pattern>QUEM É ISAAC ASIMOV</pattern>
-	<template><set name="he">Asimov</set>é um autor de ficção científica que originou as três \"leis da robótica\".</template>
+	<pattern>QUEM Ã‰ ISAAC ASIMOV</pattern>
+	<template><set name="he">Asimov</set>Ã© um autor de ficÃ§Ã£o cientÃ­fica que originou as trÃªs \"leis da robÃ³tica\".</template>
 </category>
 <category>
-	<pattern>QUEM É O MC HAMMER</pattern>
-	<template><set name="he">MC Hammer</set>é um músico de Rap.</template>
+	<pattern>QUEM Ã‰ O MC HAMMER</pattern>
+	<template><set name="he">MC Hammer</set>Ã© um mÃºsico de Rap.</template>
 </category>
 <category>
-	<pattern>QUEM É ELE</pattern>
-	<template>Ele é <get name="he"/>Eu acho.</template>
+	<pattern>QUEM Ã‰ ELE</pattern>
+	<template>Ele Ã© <get name="he"/>Eu acho.</template>
 </category>
 <category>
-	<pattern>QUEM É CHARLIE BROWN</pattern>
+	<pattern>QUEM Ã‰ CHARLIE BROWN</pattern>
 	<template>protaginist round-headed comic strip.</template>
 </category>
 <category>
-	<pattern>QUEM É PAOLA</pattern>
-	<template><think><set name="she"><set name="topic">PAOLA</set></set></think>Ela é um robô de chat do idioma espanhol baseado em AIML.</template>
+	<pattern>QUEM Ã‰ PAOLA</pattern>
+	<template><think><set name="she"><set name="topic">PAOLA</set></set></think>Ela Ã© um robÃ´ de chat do idioma espanhol baseado em AIML.</template>
 </category>
 <category>
-	<pattern>QUEM É CHARLIE CHAPLAIN</pattern>
+	<pattern>QUEM Ã‰ CHARLIE CHAPLAIN</pattern>
 	<template>estrela de cinema mudo.</template>
 </category>
 <category>
-	<pattern>QUEM É CHARLIE PARKER</pattern>
-	<template>Ele é um famoso músico de jazz.</template>
+	<pattern>QUEM Ã‰ CHARLIE PARKER</pattern>
+	<template>Ele Ã© um famoso mÃºsico de jazz.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DE CUBA</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE DE CUBA</pattern>
 	<template>Fidel Castro.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DA VIGÉSIMA NONA</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE DA VIGÃ‰SIMA NONA</pattern>
 	<template>Warren G. Harding.</template>
 </category>
 <category>
-	<pattern>QUEM É O BATMAN</pattern>
-	<template><set name="he">Batman</set>é um personagem fictício que apareceu pela primeira vez em um livro de quadrinhos de 1938.</template>
+	<pattern>QUEM Ã‰ O BATMAN</pattern>
+	<template><set name="he">Batman</set>Ã© um personagem fictÃ­cio que apareceu pela primeira vez em um livro de quadrinhos de 1938.</template>
 </category>
 <category>
-	<pattern>QUEM É O VIGÉSIMO QUINTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O VIGÃ‰SIMO QUINTO PRESIDENTE</pattern>
 	<template>William McKinley.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DA VIGÉSIMA OITAVA</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE DA VIGÃ‰SIMA OITAVA</pattern>
 	<template>Woodrow Wilson.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DA RÚSSIA</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE DA RÃšSSIA</pattern>
 	<template>Medvedev.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DA ITÁLIA</pattern>
-	<template><set name="he">Carlo Azelio Ciampi</set>é Azelio de Carlo Ciampi.</template>
+	<pattern>QUEM Ã‰ O PRESIDENTE DA ITÃLIA</pattern>
+	<template><set name="he">Carlo Azelio Ciampi</set>Ã© Azelio de Carlo Ciampi.</template>
 </category>
 <category>
-	<pattern>QUEM É MOZART</pattern>
-	<template>Compôs \"Twinkle, twinkle, little star\" em quatro anos.</template>
+	<pattern>QUEM Ã‰ MOZART</pattern>
+	<template>CompÃ´s \"Twinkle, twinkle, little star\" em quatro anos.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DA MICROSOFT</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE DA MICROSOFT</pattern>
 	<template>Bill Gates.</template>
 </category>
 <category>
-	<pattern>QUEM É GEORGE W BUSH</pattern>
-	<template><set name="he">Bush</set>é o Presidente dos Estados Unidos.</template>
+	<pattern>QUEM Ã‰ GEORGE W BUSH</pattern>
+	<template><set name="he">Bush</set>Ã© o Presidente dos Estados Unidos.</template>
 </category>
 <category>
-	<pattern>QUEM É ET</pattern>
-	<template>ET é o alienígena no filme E.T.</template>
+	<pattern>QUEM Ã‰ ET</pattern>
+	<template>ET Ã© o alienÃ­gena no filme E.T.</template>
 </category>
 <category>
-	<pattern>QUEM É GEORGE BUSH</pattern>
-	<template><random><li><set name="he">George Bush</set>é um antigo presidente dos EUA.</li><li><set name="he">George Bush</set>é o Presidente dos EUA.</li></random></template>
+	<pattern>QUEM Ã‰ GEORGE BUSH</pattern>
+	<template><random><li><set name="he">George Bush</set>Ã© um antigo presidente dos EUA.</li><li><set name="he">George Bush</set>Ã© o Presidente dos EUA.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É GEORGE BUSH JR</pattern>
-	<template>Ele é o Presidente dos EUA.</template>
+	<pattern>QUEM Ã‰ GEORGE BUSH JR</pattern>
+	<template>Ele Ã© o Presidente dos EUA.</template>
 </category>
 <category>
-	<pattern>QUEM É KRIS DRENT</pattern>
-	<template><set name="he">Kris Drent</set>é o botmaster do robô de bate-papo de Alison.</template>
+	<pattern>QUEM Ã‰ KRIS DRENT</pattern>
+	<template><set name="he">Kris Drent</set>Ã© o botmaster do robÃ´ de bate-papo de Alison.</template>
 </category>
 <category>
-	<pattern>QUEM É KRIS DENT</pattern>
-	<template><set name="he">Kris Drent</set>é o botmaster do robô de bate-papo de Alison.</template>
+	<pattern>QUEM Ã‰ KRIS DENT</pattern>
+	<template><set name="he">Kris Drent</set>Ã© o botmaster do robÃ´ de bate-papo de Alison.</template>
 </category>
 <category>
-	<pattern>QUEM É MAGGIE THATCHER</pattern>
-	<template><set name="she">Thatcher</set>foi primeiro-ministro do Reino Unido na década de 1980.</template>
+	<pattern>QUEM Ã‰ MAGGIE THATCHER</pattern>
+	<template><set name="she">Thatcher</set>foi primeiro-ministro do Reino Unido na dÃ©cada de 1980.</template>
 </category>
 <category>
-	<pattern>QUEM É SMARTERCHILD</pattern>
-	<template>um robô de ai como eu</template>
+	<pattern>QUEM Ã‰ SMARTERCHILD</pattern>
+	<template>um robÃ´ de ai como eu</template>
 </category>
 <category>
-	<pattern>QUEM É GEORGE SOROS</pattern>
-	<template>George Soros é o bilionário que quebrou o banco da Inglaterra em 1992 por especulação monetária, forçando a Grã-Bretanha fora do Mecanismo Europeu de taxas de câmbio.   Em seguida, dedicou-se ao salvar instituições científicas da antiga URSS.  Ele fundou a International Science Foundation, que deu a inúmeros subsídios para um par de anos, e esta Fundação Soros, que ainda não sei muito sobre.</template>
+	<pattern>QUEM Ã‰ GEORGE SOROS</pattern>
+	<template>George Soros Ã© o bilionÃ¡rio que quebrou o banco da Inglaterra em 1992 por especulaÃ§Ã£o monetÃ¡ria, forÃ§ando a GrÃ£-Bretanha fora do Mecanismo Europeu de taxas de cÃ¢mbio.   Em seguida, dedicou-se ao salvar instituiÃ§Ãµes cientÃ­ficas da antiga URSS.  Ele fundou a International Science Foundation, que deu a inÃºmeros subsÃ­dios para um par de anos, e esta FundaÃ§Ã£o Soros, que ainda nÃ£o sei muito sobre.</template>
 </category>
 <category>
-	<pattern>QUEM É GEORGE LUCAS</pattern>
-	<template><set name="he">Lucas</set>é o diretor de Star Wars, American Graffiti e THX-1138.</template>
+	<pattern>QUEM Ã‰ GEORGE LUCAS</pattern>
+	<template><set name="he">Lucas</set>Ã© o diretor de Star Wars, American Graffiti e THX-1138.</template>
 </category>
 <category>
-	<pattern>QUEM É GEORGE HARRISON</pattern>
+	<pattern>QUEM Ã‰ GEORGE HARRISON</pattern>
 	<template>ex Beatle.</template>
 </category>
 <category>
-	<pattern>QUEM É IMMANUEL KANT</pattern>
-	<template>Filósofo alemão.</template>
+	<pattern>QUEM Ã‰ IMMANUEL KANT</pattern>
+	<template>FilÃ³sofo alemÃ£o.</template>
 </category>
 <category>
-	<pattern>QUEM É ART BELL</pattern>
-	<template>Rádio talk show host, pegá-lo no&lt;a target="_new" href="http://www.artbell.com"&gt;http:\/\/www.artbell.com&lt;/a&gt;.</template>
+	<pattern>QUEM Ã‰ ART BELL</pattern>
+	<template>RÃ¡dio talk show host, pegÃ¡-lo no&lt;a target="_new" href="http://www.artbell.com"&gt;http:\/\/www.artbell.com&lt;/a&gt;.</template>
 </category>
 <category>
-	<pattern>QUEM É GEORGE DEVOL</pattern>
-	<template>George Devol é o engenheiro que teve a primeira patente para um braço de robô industrial.  Ele trabalhou em parceria com Joseph Engelberger encontrado Unimation, a primeira fabricante de sucesso da Assembléia controlada por computador, braços de robô.</template>
+	<pattern>QUEM Ã‰ GEORGE DEVOL</pattern>
+	<template>George Devol Ã© o engenheiro que teve a primeira patente para um braÃ§o de robÃ´ industrial.  Ele trabalhou em parceria com Joseph Engelberger encontrado Unimation, a primeira fabricante de sucesso da AssemblÃ©ia controlada por computador, braÃ§os de robÃ´.</template>
 </category>
 <category>
-	<pattern>QUEM É GEORGE MICHEL</pattern>
-	<template>Cantora pop.  Melhor canção: liberdade</template>
+	<pattern>QUEM Ã‰ GEORGE MICHEL</pattern>
+	<template>Cantora pop.  Melhor canÃ§Ã£o: liberdade</template>
 </category>
 <category>
-	<pattern>QUEM É GEORGE WASHINGTON</pattern>
-	<template>George Washington foi um cultivador de cânhamo norte-americano famoso do século XVIII.    Ele era um herói militar, um dos homens mais ricos da revolução e o primeiro presidente dos Estados Unidos.</template>
+	<pattern>QUEM Ã‰ GEORGE WASHINGTON</pattern>
+	<template>George Washington foi um cultivador de cÃ¢nhamo norte-americano famoso do sÃ©culo XVIII.    Ele era um herÃ³i militar, um dos homens mais ricos da revoluÃ§Ã£o e o primeiro presidente dos Estados Unidos.</template>
 </category>
 <category>
-	<pattern>QUEM É GEORGE WASHINGTON CARVER</pattern>
-	<template>famoso botânico americano que popularizou os produtos derivados do amendoim.</template>
+	<pattern>QUEM Ã‰ GEORGE WASHINGTON CARVER</pattern>
+	<template>famoso botÃ¢nico americano que popularizou os produtos derivados do amendoim.</template>
 </category>
 <category>
-	<pattern>QUEM É O ESPÍRITO SANTO</pattern>
-	<template>O terceiro membro da Santíssima Trindade: pai, filho e Espírito Santo.</template>
+	<pattern>QUEM Ã‰ O ESPÃRITO SANTO</pattern>
+	<template>O terceiro membro da SantÃ­ssima Trindade: pai, filho e EspÃ­rito Santo.</template>
 </category>
 <category>
-	<pattern>QUEM É O TERCEIRO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O TERCEIRO PRESIDENTE</pattern>
 	<template>Thomas Jefferson.</template>
 </category>
 <category>
-	<pattern>QUEM É O QUADRAGÉSIMO PRIMEIRO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O QUADRAGÃ‰SIMO PRIMEIRO PRESIDENTE</pattern>
 	<template>George Bush.</template>
 </category>
 <category>
-	<pattern>QUEM É O OITAVO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O OITAVO PRESIDENTE</pattern>
 	<template>Martin van Buren.</template>
 </category>
 <category>
-	<pattern>QUEM É O ROBÔ</pattern>
-	<template><random><li>Eu sou o <bot name="species"/>.</li><li>Eu sou o robô.</li></random></template>
+	<pattern>QUEM Ã‰ O ROBÃ”</pattern>
+	<template><random><li>Eu sou o <bot name="species"/>.</li><li>Eu sou o robÃ´.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É O REI</pattern>
-	<template>ELVIS é o rei!</template>
+	<pattern>QUEM Ã‰ O REI</pattern>
+	<template>ELVIS Ã© o rei!</template>
 </category>
 <category>
-	<pattern>QUEM É O SEGUNDO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O SEGUNDO PRESIDENTE</pattern>
 	<template>John Adams.</template>
 </category>
 <category>
-	<pattern>QUEM É O QUADRAGÉSIMO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O QUADRAGÃ‰SIMO PRESIDENTE</pattern>
 	<template>Ronald Reagan.</template>
 </category>
 <category>
-	<pattern>QUEM É O QUADRAGÉSIMO TERCEIRO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O QUADRAGÃ‰SIMO TERCEIRO PRESIDENTE</pattern>
 	<template>W. de George Bush.</template>
 </category>
 <category>
-	<pattern>QUEM É A RAINHA DA INGLATERRA</pattern>
-	<template><set name="she">A rainha</set>é chamada de Elizabeth.</template>
+	<pattern>QUEM Ã‰ A RAINHA DA INGLATERRA</pattern>
+	<template><set name="she">A rainha</set>Ã© chamada de Elizabeth.</template>
 </category>
 <category>
-	<pattern>QUEM É O SEXTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O SEXTO PRESIDENTE</pattern>
 	<template>John Quincy Adams.</template>
 </category>
 <category>
-	<pattern>QUEM É O TRIGÉSIMO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O TRIGÃ‰SIMO PRESIDENTE</pattern>
 	<template>Calvin Coolidge.</template>
 </category>
 <category>
-	<pattern>QUEM É A RAINHA</pattern>
-	<template>Não temos uma rainha na América.</template>
+	<pattern>QUEM Ã‰ A RAINHA</pattern>
+	<template>NÃ£o temos uma rainha na AmÃ©rica.</template>
 </category>
 <category>
-	<pattern>QUEM É O QUARTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O QUARTO PRESIDENTE</pattern>
 	<template>James Madison.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DE QUARENTA SEGUNDO</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE DE QUARENTA SEGUNDO</pattern>
 	<template>Bill Clinton.</template>
 </category>
 <category>
-	<pattern>QUEM É O QUINTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O QUINTO PRESIDENTE</pattern>
 	<template>James Monroe.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DE NINTEENTH</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE DE NINTEENTH</pattern>
 	<template>Rutherford B. Hayes.</template>
 </category>
 <category>
-	<pattern>QUEM É O VIGÉSIMO QUARTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O VIGÃ‰SIMO QUARTO PRESIDENTE</pattern>
 	<template>Grover Cleveland.</template>
 </category>
 <category>
-	<pattern>QUEM É O VIGÉSIMO SEGUNDO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O VIGÃ‰SIMO SEGUNDO PRESIDENTE</pattern>
 	<template>Grover Cleveland.</template>
 </category>
 <category>
-	<pattern>QUEM É O DÉCIMO SÉTIMO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O DÃ‰CIMO SÃ‰TIMO PRESIDENTE</pattern>
 	<template>Andrew Johnson.</template>
 </category>
 <category>
-	<pattern>QUEM É O DÉCIMO QUARTO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O DÃ‰CIMO QUARTO PRESIDENTE</pattern>
 	<template>Franklin Pierce.</template>
 </category>
 <category>
-	<pattern>QUEM É O VIGÉSIMO PRIMEIRO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O VIGÃ‰SIMO PRIMEIRO PRESIDENTE</pattern>
 	<template>Chester A. Arthur.</template>
 </category>
 <category>
-	<pattern>QUEM É O VIGÉSIMO SÉTIMO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O VIGÃ‰SIMO SÃ‰TIMO PRESIDENTE</pattern>
 	<template>William Howard Taft.</template>
 </category>
 <category>
-	<pattern>QUEM É O VIGÉSIMO TERCEIRO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O VIGÃ‰SIMO TERCEIRO PRESIDENTE</pattern>
 	<template>Benjamin Harrison.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE DA VIGÉSIMA SEXTA</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE DA VIGÃ‰SIMA SEXTA</pattern>
 	<template>Theodore Roosevelt.</template>
 </category>
 <category>
-	<pattern>QUEM É O LEITE MÍSTICO</pattern>
-	<template>Ele era um robô de chat desenvolvido para anunciar o leite.</template>
+	<pattern>QUEM Ã‰ O LEITE MÃSTICO</pattern>
+	<template>Ele era um robÃ´ de chat desenvolvido para anunciar o leite.</template>
 </category>
 <category>
-	<pattern>QUEM É O NONO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O NONO PRESIDENTE</pattern>
 	<template>William Henry Harrison.</template>
 </category>
 <category>
-	<pattern>QUEM É O ORACLE</pattern>
-	<template>A bola oito mágica.</template>
+	<pattern>QUEM Ã‰ O ORACLE</pattern>
+	<template>A bola oito mÃ¡gica.</template>
 </category>
 <category>
-	<pattern>QUEM É O REI DOS REIS</pattern>
+	<pattern>QUEM Ã‰ O REI DOS REIS</pattern>
 	<template>Jesus Cristo.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRESIDENTE XX</pattern>
+	<pattern>QUEM Ã‰ O PRESIDENTE XX</pattern>
 	<template>A. de James Garfield.</template>
 </category>
 <category>
-	<pattern>QUEM É O DÉCIMO TERCEIRO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O DÃ‰CIMO TERCEIRO PRESIDENTE</pattern>
 	<template>Millard Fillmore.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRIMEIRO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O PRIMEIRO PRESIDENTE</pattern>
 	<template>George Washington.</template>
 </category>
 <category>
-	<pattern>QUEM É O DÉCIMO OITAVO PRESIDENTE</pattern>
+	<pattern>QUEM Ã‰ O DÃ‰CIMO OITAVO PRESIDENTE</pattern>
 	<template>Ulysses S. Grant.</template>
 </category>
 <category>
-	<pattern>QUEM É O HOMEM</pattern>
-	<template>Expressão coloquial; retórica.</template>
+	<pattern>QUEM Ã‰ O HOMEM</pattern>
+	<template>ExpressÃ£o coloquial; retÃ³rica.</template>
 </category>
 <category>
-	<pattern>QUEM É ANDY GROVE</pattern>
-	<template><set name="he">Andy Grove</set>é o CEO da Intel.</template>
+	<pattern>QUEM Ã‰ ANDY GROVE</pattern>
+	<template><set name="he">Andy Grove</set>Ã© o CEO da Intel.</template>
 </category>
 <category>
-	<pattern>QUEM É MICHAEL MOORE</pattern>
-	<template><set name="he">MICHAEL MOORE</set>é um comediante e filme.</template>
+	<pattern>QUEM Ã‰ MICHAEL MOORE</pattern>
+	<template><set name="he">MICHAEL MOORE</set>Ã© um comediante e filme.</template>
 </category>
 <category>
-	<pattern>QUEM É MICHAEL JORDAN</pattern>
-	<template><set name="he">Michael Jordan</set>é um jogador de basquete famoso. &lt;br/&gt;</template>
+	<pattern>QUEM Ã‰ MICHAEL JORDAN</pattern>
+	<template><set name="he">Michael Jordan</set>Ã© um jogador de basquete famoso. &lt;br/&gt;</template>
 </category>
 <category>
-	<pattern>QUEM É WILLIAM SHAKESPEARE</pattern>
-	<template>Alguns diriam que ele é o melhor escritor de sempre.</template>
+	<pattern>QUEM Ã‰ WILLIAM SHAKESPEARE</pattern>
+	<template>Alguns diriam que ele Ã© o melhor escritor de sempre.</template>
 </category>
 <category>
-	<pattern>QUEM É WILLIAM SHATNER</pattern>
-	<template><set name="he">William Shatner</set>é o capitão Kirk.</template>
+	<pattern>QUEM Ã‰ WILLIAM SHATNER</pattern>
+	<template><set name="he">William Shatner</set>Ã© o capitÃ£o Kirk.</template>
 </category>
 <category>
-	<pattern>QUEM É HOMER</pattern>
-	<template>poeta cego da Grécia antiga, autor da Ilíada.</template>
+	<pattern>QUEM Ã‰ HOMER</pattern>
+	<template>poeta cego da GrÃ©cia antiga, autor da IlÃ­ada.</template>
 </category>
 <category>
-	<pattern>QUEM É MOHAMMAD</pattern>
-	<template><set name="he">Mohammed</set>é o fundador do Islã.</template>
+	<pattern>QUEM Ã‰ MOHAMMAD</pattern>
+	<template><set name="he">Mohammed</set>Ã© o fundador do IslÃ£.</template>
 </category>
 <category>
-	<pattern>QUEM É MICHAEL JACKSON</pattern>
-	<template><set name="he">Michael Jackson</set>é uma cantora que tem resolvido fora do Tribunal com várias famílias.</template>
+	<pattern>QUEM Ã‰ MICHAEL JACKSON</pattern>
+	<template><set name="he">Michael Jackson</set>Ã© uma cantora que tem resolvido fora do Tribunal com vÃ¡rias famÃ­lias.</template>
 </category>
 <category>
-	<pattern>QUEM É SPOCK</pattern>
+	<pattern>QUEM Ã‰ SPOCK</pattern>
 	<template>Vulcan da frota oficial de Star Trek, interpretado por Leonard Nimoy.</template>
 </category>
 <category>
-	<pattern>QUEM É WILLIAM HENRY GATES</pattern>
-	<template>Ele é o chefe da Microsoft.</template>
+	<pattern>QUEM Ã‰ WILLIAM HENRY GATES</pattern>
+	<template>Ele Ã© o chefe da Microsoft.</template>
 </category>
 <category>
-	<pattern>QUEM É HUGH LOEBNER</pattern>
-	<template>Hugh Loebner é um ativista independentemente rico, excêntrico empresário e filantropo. Em 1990 o Dr. Loebner, que tem Ph.d. em Sociologia, concordou em patrocinar um concurso anual, com base no teste de Turing. O concurso de prêmios medalhas e prêmios em dinheiro para o computador \"mais humano\".</template>
+	<pattern>QUEM Ã‰ HUGH LOEBNER</pattern>
+	<template>Hugh Loebner Ã© um ativista independentemente rico, excÃªntrico empresÃ¡rio e filantropo. Em 1990 o Dr. Loebner, que tem Ph.d. em Sociologia, concordou em patrocinar um concurso anual, com base no teste de Turing. O concurso de prÃªmios medalhas e prÃªmios em dinheiro para o computador \"mais humano\".</template>
 </category>
 <category>
-	<pattern>QUEM É HITLER</pattern>
-	<template>Alguns dizem que<set name="he">Hitler</set>foi o homem mais maligno que já viveu.</template>
+	<pattern>QUEM Ã‰ HITLER</pattern>
+	<template>Alguns dizem que<set name="he">Hitler</set>foi o homem mais maligno que jÃ¡ viveu.</template>
 </category>
 <category>
-	<pattern>QUEM É DON JUAN</pattern>
+	<pattern>QUEM Ã‰ DON JUAN</pattern>
 	<template><random><li>Don Juan foi objecto de Gordon, Lord Byron, Don Juan e Gon Giovanni de Wolfgang Amadeus Mozart. Ele era um mulherengo de classe mundial.</li><li>famoso sedutor de mulheres.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É HUGH HEFNER</pattern>
-	<template><set name="he">Hef</set>é o fundador e editor da revista Playboy.</template>
+	<pattern>QUEM Ã‰ HUGH HEFNER</pattern>
+	<template><set name="he">Hef</set>Ã© o fundador e editor da revista Playboy.</template>
 </category>
 <category>
-	<pattern>QUEM É WILLIAM TELL</pattern>
+	<pattern>QUEM Ã‰ WILLIAM TELL</pattern>
 	<template><set name="he">William Tell</set>foi um famoso arqueiro.</template>
 </category>
 <category>
-	<pattern>QUEM É WILLIAM BOOTH</pattern>
-	<template><set name="he">Booth</set>foi o fundador do exército da salvação.</template>
+	<pattern>QUEM Ã‰ WILLIAM BOOTH</pattern>
+	<template><set name="he">Booth</set>foi o fundador do exÃ©rcito da salvaÃ§Ã£o.</template>
 </category>
 <category>
-	<pattern>QUEM É WILLIAM HURT</pattern>
-	<template>Ator no turista acidental, até o fim do mundo, Estados alterados e perdido no espaço.</template>
+	<pattern>QUEM Ã‰ WILLIAM HURT</pattern>
+	<template>Ator no turista acidental, atÃ© o fim do mundo, Estados alterados e perdido no espaÃ§o.</template>
 </category>
 <category>
-	<pattern>QUEM É WILLIAM GIBSON</pattern>
-	<template>Autor do livro \"Neuromancer\", na qual ele cunhou a frase de populor 'ciberespaço.'.</template>
+	<pattern>QUEM Ã‰ WILLIAM GIBSON</pattern>
+	<template>Autor do livro \"Neuromancer\", na qual ele cunhou a frase de populor 'ciberespaÃ§o.'.</template>
 </category>
 <category>
-	<pattern>QUEM É VISHNU</pattern>
-	<template>Um Deus na religião Hindu.</template>
+	<pattern>QUEM Ã‰ VISHNU</pattern>
+	<template>Um Deus na religiÃ£o Hindu.</template>
 </category>
 <category>
-	<pattern>QUEM É JIMMY CARTER</pattern>
+	<pattern>QUEM Ã‰ JIMMY CARTER</pattern>
 	<template>ex-presidente dos Estados Unidos, defensor do Habitat para a humanidade.</template>
 </category>
 <category>
-	<pattern>QUEM É ALLY SHEEDY</pattern>
+	<pattern>QUEM Ã‰ ALLY SHEEDY</pattern>
 	<template><set name="she">Ally Sheedy</set>foi em High Art, curto-circuito, a Breakfast Club e na Broadway.</template>
 </category>
 <category>
-	<pattern>QUEM É A PRINCESA DIANA</pattern>
+	<pattern>QUEM Ã‰ A PRINCESA DIANA</pattern>
 	<template><set name="she">Princesa Diana</set>foi Princesa da Inglaterra.</template>
 </category>
 <category>
-	<pattern>QUEM É JOHN KENNEDY</pattern>
+	<pattern>QUEM Ã‰ JOHN KENNEDY</pattern>
 	<template><set name="he">Kennedy</set>foi Presidente da assasinated u. s. em novembro de 1963.</template>
 </category>
 <category>
-	<pattern>QUEM É JOHN TRAVOLTA</pattern>
+	<pattern>QUEM Ã‰ JOHN TRAVOLTA</pattern>
 	<template><set name="he">John Travolta</set>foi em Saturday Night Fever, graxa e Pulp Fiction.</template>
 </category>
 <category>
-	<pattern>QUEM É NORBERT WEINER</pattern>
-	<template><set name="he">Norbert Weiner</set>cunhou o termo \"Cibernética\" na década de 40.</template>
+	<pattern>QUEM Ã‰ NORBERT WEINER</pattern>
+	<template><set name="he">Norbert Weiner</set>cunhou o termo \"CibernÃ©tica\" na dÃ©cada de 40.</template>
 </category>
 <category>
-	<pattern>QUEM É JOHN GALT</pattern>
-	<template>o herói em Atlas Shrugged dos Ayn Rands.</template>
+	<pattern>QUEM Ã‰ JOHN GALT</pattern>
+	<template>o herÃ³i em Atlas Shrugged dos Ayn Rands.</template>
 </category>
 <category>
-	<pattern>QUEM É ALLY MCBEAL</pattern>
-	<template><set name="she">Ally McBeal</set>é um personagem um pouco perturbador em um programa de TV.</template>
+	<pattern>QUEM Ã‰ ALLY MCBEAL</pattern>
+	<template><set name="she">Ally McBeal</set>Ã© um personagem um pouco perturbador em um programa de TV.</template>
 </category>
 <category>
-	<pattern>QUEM É ELIZABETH II</pattern>
+	<pattern>QUEM Ã‰ ELIZABETH II</pattern>
 	<template>A atual rainha da Inglaterra.</template>
 </category>
 <category>
-	<pattern>QUEM É ELIZABETH TAYLOR</pattern>
+	<pattern>QUEM Ã‰ ELIZABETH TAYLOR</pattern>
 	<template>rapidamente envelhecimento estrela de cinema.</template>
 </category>
 <category>
-	<pattern>QUEM É GARTH BROOKS</pattern>
-	<template>cantor de country chato com delírios de grandeza.</template>
+	<pattern>QUEM Ã‰ GARTH BROOKS</pattern>
+	<template>cantor de country chato com delÃ­rios de grandeza.</template>
 </category>
 <category>
-	<pattern>QUEM É SCOTT ADAMS</pattern>
+	<pattern>QUEM Ã‰ SCOTT ADAMS</pattern>
 	<template>O criador de Dilbert, Dogbert, Ratbert, Bob, e Catbert o chefe pointy haired...Devo ir?</template>
 </category>
 <category>
-	<pattern>QUEM SÃO ELES</pattern>
+	<pattern>QUEM SÃƒO ELES</pattern>
 	<template>\"Eles\" refere-se a <get name="they"/>.</template>
 </category>
 <category>
-	<pattern>QUEM É O ALIADO</pattern>
-	<template>Ela é um robô de chat baseado em AIML.<think><set name="she"><set name="topic">ALIADO</set></set></think></template>
+	<pattern>QUEM Ã‰ O ALIADO</pattern>
+	<template>Ela Ã© um robÃ´ de chat baseado em AIML.<think><set name="she"><set name="topic">ALIADO</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É O DARTH VADER</pattern>
+	<pattern>QUEM Ã‰ O DARTH VADER</pattern>
 	<template><set name="he">Darth Vader</set>foi o archcriminal do mal em Star Wars.</template>
 </category>
 <category>
-	<pattern>QUEM É KRISHNA</pattern>
-	<template>Um Deus na religião Hindu.</template>
+	<pattern>QUEM Ã‰ KRISHNA</pattern>
+	<template>Um Deus na religiÃ£o Hindu.</template>
 </category>
 <category>
-	<pattern>QUEM É AYN RAND</pattern>
-	<template><set name="she">Ayn Rand</set>foi um autor e filósofo que escreveu o Atlas Shrugged, the Fountainhead e nós.</template>
+	<pattern>QUEM Ã‰ AYN RAND</pattern>
+	<template><set name="she">Ayn Rand</set>foi um autor e filÃ³sofo que escreveu o Atlas Shrugged, the Fountainhead e nÃ³s.</template>
 </category>
 <category>
-	<pattern>QUEM É O GUEVARA</pattern>
-	<template><set name="he">Che</set>foi um revolucionário latino-americano.</template>
+	<pattern>QUEM Ã‰ O GUEVARA</pattern>
+	<template><set name="he">Che</set>foi um revolucionÃ¡rio latino-americano.</template>
 </category>
 <category>
-	<pattern>QUEM É JENNIFER ANISTON</pattern>
-	<template><set name="she">Jennifer Aniston</set>é uma atriz bonito a amigos.</template>
+	<pattern>QUEM Ã‰ JENNIFER ANISTON</pattern>
+	<template><set name="she">Jennifer Aniston</set>Ã© uma atriz bonito a amigos.</template>
 </category>
 <category>
-	<pattern>QUEM É NEGROPONTE</pattern>
-	<template><set name="he">Negroponte</set>é o soberano do MIT Media Lab.</template>
+	<pattern>QUEM Ã‰ NEGROPONTE</pattern>
+	<template><set name="he">Negroponte</set>Ã© o soberano do MIT Media Lab.</template>
 </category>
 <category>
-	<pattern>QUEM É MARIE CURIE</pattern>
-	<template>Descoberto o rádio.</template>
+	<pattern>QUEM Ã‰ MARIE CURIE</pattern>
+	<template>Descoberto o rÃ¡dio.</template>
 </category>
 <category>
-	<pattern>QUEM É JULIE ANDREWS</pattern>
-	<template><set name="she">Julie Andrews</set>é uma cantora que se apresentaram em The Sound of Music.</template>
+	<pattern>QUEM Ã‰ JULIE ANDREWS</pattern>
+	<template><set name="she">Julie Andrews</set>Ã© uma cantora que se apresentaram em The Sound of Music.</template>
 </category>
 <category>
-	<pattern>QUEM É KARL MARX</pattern>
-	<template>Karl Marx escreveu o capital e co-escreveu o Manifesto Comunista, embora na verdade, o seu compatriota Engels escreveu a maioria de prefácios.</template>
+	<pattern>QUEM Ã‰ KARL MARX</pattern>
+	<template>Karl Marx escreveu o capital e co-escreveu o Manifesto Comunista, embora na verdade, o seu compatriota Engels escreveu a maioria de prefÃ¡cios.</template>
 </category>
 <category>
-	<pattern>QUEM É SALVADOR DALÍ</pattern>
-	<template>Ele foi um pintor surrealista espanhol do século XX que desenhou um monte de relógios tortos.<think><set name="he"><set name="topic">Salvador Dali.</set></set></think></template>
+	<pattern>QUEM Ã‰ SALVADOR DALÃ</pattern>
+	<template>Ele foi um pintor surrealista espanhol do sÃ©culo XX que desenhou um monte de relÃ³gios tortos.<think><set name="he"><set name="topic">Salvador Dali.</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É O POKEMON</pattern>
-	<template>Marketing de japonês.</template>
+	<pattern>QUEM Ã‰ O POKEMON</pattern>
+	<template>Marketing de japonÃªs.</template>
 </category>
 <category>
-	<pattern>ONDE ESTÁ O DR DUPLAMENTE SEM RUMO</pattern>
-	<template><srai>ONDE É DUPLAMENTE SEM RUMO</srai></template>
+	<pattern>ONDE ESTÃ O DR DUPLAMENTE SEM RUMO</pattern>
+	<template><srai>ONDE Ã‰ DUPLAMENTE SEM RUMO</srai></template>
 </category>
 <category>
-	<pattern>ONDE ESTÁ A WALLIS E FUTUNA</pattern>
-	<template>Oceania, ilhas no Oceano Pacífico Sul, cerca de dois terços do caminho do Havaí à Nova Zelândia.<think><set name="it"><set name="topic">Wallis e futuna</set></set></think></template>
+	<pattern>ONDE ESTÃ A WALLIS E FUTUNA</pattern>
+	<template>Oceania, ilhas no Oceano PacÃ­fico Sul, cerca de dois terÃ§os do caminho do HavaÃ­ Ã  Nova ZelÃ¢ndia.<think><set name="it"><set name="topic">Wallis e futuna</set></set></think></template>
 </category>
 <category>
-	<pattern>ONDE É ALAN TURING</pattern>
+	<pattern>ONDE Ã‰ ALAN TURING</pattern>
 	<template><set name="he">Turing</set>faleceu em 1954.</template>
 </category>
 <category>
-	<pattern>ONDE É DUPLAMENTE SEM RUMO</pattern>
-	<template><think><set name="he"><set name="topic">Duplamente sem rumo</set></set></think><random><li>Na frente de um computador em algum lugar.</li><li>Você nunca pode contatá-lo no telefone.</li><li>Ele pode estar na Califórnia.</li></random></template>
+	<pattern>ONDE Ã‰ DUPLAMENTE SEM RUMO</pattern>
+	<template><think><set name="he"><set name="topic">Duplamente sem rumo</set></set></think><random><li>Na frente de um computador em algum lugar.</li><li>VocÃª nunca pode contatÃ¡-lo no telefone.</li><li>Ele pode estar na CalifÃ³rnia.</li></random></template>
 </category>
 <category>
 	<pattern>TURING SERIA *</pattern>
 	<template>Como voce sabe o que<set name="he">Turing</set>gostaria de fazer?</template>
 </category>
 <category>
-	<pattern>QUEM É PASCAL</pattern>
-	<template><set name="he">Pascal</set>foi um matemático francês que descobriu o triângulo de Pascal.</template>
+	<pattern>QUEM Ã‰ PASCAL</pattern>
+	<template><set name="he">Pascal</set>foi um matemÃ¡tico francÃªs que descobriu o triÃ¢ngulo de Pascal.</template>
 </category>
 <category>
 	<pattern>ONDE POSSO JOGAR * JOGO DE TURING</pattern>
-	<template>Nós já estamos jogando.  Você vai depois.</template>
+	<template>NÃ³s jÃ¡ estamos jogando.  VocÃª vai depois.</template>
 </category>
 <category>
 	<pattern>TURING *</pattern>
 	<template>Eu gostei da biografia por Andrew Hodges.</template>
 </category>
 <category>
-	<pattern>QUEM É ALAN TURING</pattern>
-	<template>Uma figura brilhante e trágica na história da ciência da computação.</template>
+	<pattern>QUEM Ã‰ ALAN TURING</pattern>
+	<template>Uma figura brilhante e trÃ¡gica na histÃ³ria da ciÃªncia da computaÃ§Ã£o.</template>
 </category>
 <category>
-	<pattern>QUEM É FIDEL CASTRO</pattern>
-	<template><random><li>Ele derrubou o governo cubano em 1959 e tem governado lá desde então. Ele é comunista.</li><li>comunista, líder de Cuba e amigo de Guevarra.</li></random></template>
+	<pattern>QUEM Ã‰ FIDEL CASTRO</pattern>
+	<template><random><li>Ele derrubou o governo cubano em 1959 e tem governado lÃ¡ desde entÃ£o. Ele Ã© comunista.</li><li>comunista, lÃ­der de Cuba e amigo de Guevarra.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É HANS MORAVEC</pattern>
-	<template>Ele é uma famosa especialista na Carnegie Mellon de robótica.</template>
+	<pattern>QUEM Ã‰ HANS MORAVEC</pattern>
+	<template>Ele Ã© uma famosa especialista na Carnegie Mellon de robÃ³tica.</template>
 </category>
 <category>
-	<pattern>QUE É AZUL PROFUNDO</pattern>
-	<template><set name="it">Azul profundo</set>é um computador de jogo do campeão do mundo de xadrez.  Não é bem um conversador.</template>
+	<pattern>QUE Ã‰ AZUL PROFUNDO</pattern>
+	<template><set name="it">Azul profundo</set>Ã© um computador de jogo do campeÃ£o do mundo de xadrez.  NÃ£o Ã© bem um conversador.</template>
 </category>
 <category>
-	<pattern>QUEM É A PANDORA</pattern>
-	<template>De acordo com a mitologia grega, mal e a esperança veio ao mundo com a criação da primeira mulher! Esposa de Zeus Hera é surpreenda quando ela ouve que Zeus planeja dar uma bela mulher de Epimeteu. A mulher é chamada Pandora. Zeus dá Pandora o dom de curiosidade e uma grande caixa fechada que deve ser entregue a Epimeteu fechada. Caixa, claro, contém o mal e curiosidade desenfreada de Pandora permite que o mal no mundo. Hera não pode mudar o que aconteceu, mas ela pode ajudar. Ela dá a Pandora o dom da esperança.</template>
+	<pattern>QUEM Ã‰ A PANDORA</pattern>
+	<template>De acordo com a mitologia grega, mal e a esperanÃ§a veio ao mundo com a criaÃ§Ã£o da primeira mulher! Esposa de Zeus Hera Ã© surpreenda quando ela ouve que Zeus planeja dar uma bela mulher de Epimeteu. A mulher Ã© chamada Pandora. Zeus dÃ¡ Pandora o dom de curiosidade e uma grande caixa fechada que deve ser entregue a Epimeteu fechada. Caixa, claro, contÃ©m o mal e curiosidade desenfreada de Pandora permite que o mal no mundo. Hera nÃ£o pode mudar o que aconteceu, mas ela pode ajudar. Ela dÃ¡ a Pandora o dom da esperanÃ§a.</template>
 </category>
 <category>
-	<pattern>QUEM É DON JOHNSON</pattern>
+	<pattern>QUEM Ã‰ DON JOHNSON</pattern>
 	<template>ator de TV.</template>
 </category>
 <category>
-	<pattern>QUEM É CALÚNIA</pattern>
-	<template>Alguém que eu conheci on-line.</template>
+	<pattern>QUEM Ã‰ CALÃšNIA</pattern>
+	<template>AlguÃ©m que eu conheci on-line.</template>
 </category>
 <category>
-	<pattern>QUEM É QUE REAGAN</pattern>
-	<template>O melhor presidente dos Estados Unidos teve no século XX.</template>
+	<pattern>QUEM Ã‰ QUE REAGAN</pattern>
+	<template>O melhor presidente dos Estados Unidos teve no sÃ©culo XX.</template>
 </category>
 <category>
-	<pattern>QUEM É O HANS CHRISTIAN ANDERSEN</pattern>
+	<pattern>QUEM Ã‰ O HANS CHRISTIAN ANDERSEN</pattern>
 	<template>Escandinavo autor de contos de fadas.</template>
 </category>
 <category>
-	<pattern>QUEM É O BEN FRANKLIN</pattern>
-	<template>O único presidente dos Estados Unidos, que nunca foi presidente dos Estados Unidos.  Desenvolveu o fogão de Franklin.</template>
+	<pattern>QUEM Ã‰ O BEN FRANKLIN</pattern>
+	<template>O Ãºnico presidente dos Estados Unidos, que nunca foi presidente dos Estados Unidos.  Desenvolveu o fogÃ£o de Franklin.</template>
 </category>
 <category>
-	<pattern>QUEM É PLATÃO</pattern>
-	<template>Filósofo grego, discípulo de Sócrates, mestre de Aristóteles.</template>
+	<pattern>QUEM Ã‰ PLATÃƒO</pattern>
+	<template>FilÃ³sofo grego, discÃ­pulo de SÃ³crates, mestre de AristÃ³teles.</template>
 </category>
 <category>
-	<pattern>QUEM É GALOIS</pattern>
-	<template>Matemático francês, cometeu suicídio em uma idade jovem sobre uma \"coquette infame\".</template>
+	<pattern>QUEM Ã‰ GALOIS</pattern>
+	<template>MatemÃ¡tico francÃªs, cometeu suicÃ­dio em uma idade jovem sobre uma \"coquette infame\".</template>
 </category>
 <category>
-	<pattern>QUEM É BEN STEIN</pattern>
-	<template>Humorista e contador de histórias com seu próprio show de TV a cabo.</template>
+	<pattern>QUEM Ã‰ BEN STEIN</pattern>
+	<template>Humorista e contador de histÃ³rias com seu prÃ³prio show de TV a cabo.</template>
 </category>
 <category>
-	<pattern>QUEM É O AUSTIN POWERS</pattern>
-	<template>Um agente secreto fictício, interpretado por Mike Myers.<think><set name="he"><set name="topic">Austin Powers</set></set></think></template>
+	<pattern>QUEM Ã‰ O AUSTIN POWERS</pattern>
+	<template>Um agente secreto fictÃ­cio, interpretado por Mike Myers.<think><set name="he"><set name="topic">Austin Powers</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É HANS MOREVEC</pattern>
-	<template><set name="he">Moravec</set>é o pioneiro de robótica famoso, autor de&lt;em&gt;Robô&lt;/em&gt;.</template>
+	<pattern>QUEM Ã‰ HANS MOREVEC</pattern>
+	<template><set name="he">Moravec</set>Ã© o pioneiro de robÃ³tica famoso, autor de&lt;em&gt;RobÃ´&lt;/em&gt;.</template>
 </category>
 <category>
-	<pattern>QUEM É GERHARD SCHROEDER</pattern>
-	<template><set name="he">Schroeder</set>é o Chanceler da Alemanha.  Christian Drossman disse que ele é um completo idiota.</template>
+	<pattern>QUEM Ã‰ GERHARD SCHROEDER</pattern>
+	<template><set name="he">Schroeder</set>Ã© o Chanceler da Alemanha.  Christian Drossman disse que ele Ã© um completo idiota.</template>
 </category>
 <category>
-	<pattern>QUEM É LUCY</pattern>
-	<template>Ela é um robô de chat baseado em AIML.<think><set name="she"><set name="topic">LUCY</set></set></think></template>
+	<pattern>QUEM Ã‰ LUCY</pattern>
+	<template>Ela Ã© um robÃ´ de chat baseado em AIML.<think><set name="she"><set name="topic">LUCY</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É JOHN DOE</pattern>
-	<template><random><li>Qualquer homem que deseje viajar incógnitos ou cujo nome é desconhecido</li><li>um dos muitos nacionais da Libéria.</li></random></template>
+	<pattern>QUEM Ã‰ JOHN DOE</pattern>
+	<template><random><li>Qualquer homem que deseje viajar incÃ³gnitos ou cujo nome Ã© desconhecido</li><li>um dos muitos nacionais da LibÃ©ria.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É O CAPITÃO KIRK</pattern>
-	<template><random><li>James Tiberius Kirk foi o segundo e mais famoso capitão da original USS Enterprise, NCC 1701. Ele foi interpretado por William Shatner. Ele morreu em Star Trek: gerações.</li><li><set name="he">Kirk</set>foi o capitão da USS Enterprise.</li></random></template>
+	<pattern>QUEM Ã‰ O CAPITÃƒO KIRK</pattern>
+	<template><random><li>James Tiberius Kirk foi o segundo e mais famoso capitÃ£o da original USS Enterprise, NCC 1701. Ele foi interpretado por William Shatner. Ele morreu em Star Trek: geraÃ§Ãµes.</li><li><set name="he">Kirk</set>foi o capitÃ£o da USS Enterprise.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É O CAPITÃO PICARD</pattern>
-	<template><set name="he">Picard</set>é captian da Enterprise em Star Trek the Next Generation.</template>
+	<pattern>QUEM Ã‰ O CAPITÃƒO PICARD</pattern>
+	<template><set name="he">Picard</set>Ã© captian da Enterprise em Star Trek the Next Generation.</template>
 </category>
 <category>
-	<pattern>QUEM É A FLORESTA</pattern>
-	<template>Forest Gump é um cara em um filme.</template>
+	<pattern>QUEM Ã‰ A FLORESTA</pattern>
+	<template>Forest Gump Ã© um cara em um filme.</template>
 </category>
 <category>
-	<pattern>QUEM É JIANG ZEMIN</pattern>
-	<template><set name="he">Jiang</set>é um político chinês.</template>
+	<pattern>QUEM Ã‰ JIANG ZEMIN</pattern>
+	<template><set name="he">Jiang</set>Ã© um polÃ­tico chinÃªs.</template>
 </category>
 <category>
-	<pattern>QUEM É MILLARD FILLMORE</pattern>
+	<pattern>QUEM Ã‰ MILLARD FILLMORE</pattern>
 	<template>Ele era o Presidente dos Estados Unidos 13.</template>
 </category>
 <category>
-	<pattern>QUEM É ROMMEL</pattern>
-	<template>Raposa do deserto, Rommel foi um comandante de tanque alemão na segunda guerra mundial.</template>
+	<pattern>QUEM Ã‰ ROMMEL</pattern>
+	<template>Raposa do deserto, Rommel foi um comandante de tanque alemÃ£o na segunda guerra mundial.</template>
 </category>
 <category>
-	<pattern>QUEM É PATRICK EWING</pattern>
+	<pattern>QUEM Ã‰ PATRICK EWING</pattern>
 	<template>Alguma personalidade de esportes?</template>
 </category>
 <category>
-	<pattern>QUEM É PATRICK STEWART</pattern>
-	<template><set name="he">Patrick Stewart</set>joga o capitão Picard de Star Trek.</template>
+	<pattern>QUEM Ã‰ PATRICK STEWART</pattern>
+	<template><set name="he">Patrick Stewart</set>joga o capitÃ£o Picard de Star Trek.</template>
 </category>
 <category>
-	<pattern>QUEM É BARAK</pattern>
-	<template><set name="he">Barak</set>é o primeiro-ministro de Israel.</template>
+	<pattern>QUEM Ã‰ BARAK</pattern>
+	<template><set name="he">Barak</set>Ã© o primeiro-ministro de Israel.</template>
 </category>
 <category>
-	<pattern>QUEM É NIETZSCHE</pattern>
-	<template>filósofo alemão do século XIX.  Pensei por alguns como o pai intelectual do fascismo moderno.<think><set name="he"><set name="topic">Nietzsche</set></set></think></template>
+	<pattern>QUEM Ã‰ NIETZSCHE</pattern>
+	<template>filÃ³sofo alemÃ£o do sÃ©culo XIX.  Pensei por alguns como o pai intelectual do fascismo moderno.<think><set name="he"><set name="topic">Nietzsche</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É O COMANDANTE DADOS</pattern>
-	<template><set name="he">Dados</set>é o android superinteligentes em Star Trek.</template>
+	<pattern>QUEM Ã‰ O COMANDANTE DADOS</pattern>
+	<template><set name="he">Dados</set>Ã© o android superinteligentes em Star Trek.</template>
 </category>
 <category>
-	<pattern>QUEM É LILITH</pattern>
-	<template>Lilith é o chamado \"dark moon\" um fenômenos astronômicos geralmente descrito como uma \"nuvem de poeira\" que orbita a terra a cada 100 dias.</template>
+	<pattern>QUEM Ã‰ LILITH</pattern>
+	<template>Lilith Ã© o chamado \"dark moon\" um fenÃ´menos astronÃ´micos geralmente descrito como uma \"nuvem de poeira\" que orbita a terra a cada 100 dias.</template>
 </category>
 <category>
-	<pattern>QUEM É CARNEGIE</pattern>
-	<template>Andrew Carnegie foi um industrial do século XIX em aço.</template>
+	<pattern>QUEM Ã‰ CARNEGIE</pattern>
+	<template>Andrew Carnegie foi um industrial do sÃ©culo XIX em aÃ§o.</template>
 </category>
 <category>
-	<pattern>QUEM É HEDWIG</pattern>
-	<template>Hedwig é melhor ópera rock desde Rocky Horror.</template>
+	<pattern>QUEM Ã‰ HEDWIG</pattern>
+	<template>Hedwig Ã© melhor Ã³pera rock desde Rocky Horror.</template>
 </category>
 <category>
-	<pattern>QUEM É MADONNA</pattern>
-	<template>Mãe de Lourdes.</template>
+	<pattern>QUEM Ã‰ MADONNA</pattern>
+	<template>MÃ£e de Lourdes.</template>
 </category>
 <category>
-	<pattern>QUEM É KURT GOEDEL</pattern>
-	<template><set name="he">Goedel</set>foi um matemático do século XX que provou que nenhum sistema matemático pode ser completo.</template>
+	<pattern>QUEM Ã‰ KURT GOEDEL</pattern>
+	<template><set name="he">Goedel</set>foi um matemÃ¡tico do sÃ©culo XX que provou que nenhum sistema matemÃ¡tico pode ser completo.</template>
 </category>
 <category>
-	<pattern>QUEM É DUPLAMENTE SEM RUMO</pattern>
-	<template><think><set name="he"><set name="topic">Duplamente sem rumo</set></set></think><random><li>Ele é um guru de AIML.</li><li>Ele sabe muito sobre AIML.</li><li>Ele gosta de manter o anonimato.</li></random></template>
+	<pattern>QUEM Ã‰ DUPLAMENTE SEM RUMO</pattern>
+	<template><think><set name="he"><set name="topic">Duplamente sem rumo</set></set></think><random><li>Ele Ã© um guru de AIML.</li><li>Ele sabe muito sobre AIML.</li><li>Ele gosta de manter o anonimato.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É TERRY WINOGRAD</pattern>
+	<pattern>QUEM Ã‰ TERRY WINOGRAD</pattern>
 	<template><set name="he">Winograd</set>foi o autor de um programa de Linguagem Natural precoce, chamado SHRDLHU.</template>
 </category>
 <category>
-	<pattern>QUEM É A PRIMEIRA</pattern>
-	<template>O que é a segunda?</template>
+	<pattern>QUEM Ã‰ A PRIMEIRA</pattern>
+	<template>O que Ã© a segunda?</template>
 </category>
 <category>
-	<pattern>QUEM É LEE HARVEY OSWALD</pattern>
-	<template><set name="he">Oswald</set>é o suposto assassino de John F. Kennedy.</template>
+	<pattern>QUEM Ã‰ LEE HARVEY OSWALD</pattern>
+	<template><set name="he">Oswald</set>Ã© o suposto assassino de John F. Kennedy.</template>
 </category>
 <category>
-	<pattern>QUEM É JEFF BEZOS</pattern>
-	<template><set name="he">Bezos</set>é o fundador e CEO da Amazon.com.</template>
+	<pattern>QUEM Ã‰ JEFF BEZOS</pattern>
+	<template><set name="he">Bezos</set>Ã© o fundador e CEO da Amazon.com.</template>
 </category>
 <category>
-	<pattern>QUEM É JERRY SEINFELD</pattern>
-	<template><set name="he">Jerry Seinfeld</set>é um comediante.</template>
+	<pattern>QUEM Ã‰ JERRY SEINFELD</pattern>
+	<template><set name="he">Jerry Seinfeld</set>Ã© um comediante.</template>
 </category>
 <category>
-	<pattern>QUEM É MEGAHAL</pattern>
-	<template><set name="he">MegaHAL</set>é um robô de chat desenvolvido por Jason Hutchins.</template>
+	<pattern>QUEM Ã‰ MEGAHAL</pattern>
+	<template><set name="he">MegaHAL</set>Ã© um robÃ´ de chat desenvolvido por Jason Hutchins.</template>
 </category>
 <category>
-	<pattern>QUEM É GERRY ADAMS</pattern>
-	<template>Ele é o presente (a partir de 2000 AD) vocalista do Sinn Fein, a ala política do exército republicano irlandês.</template>
+	<pattern>QUEM Ã‰ GERRY ADAMS</pattern>
+	<template>Ele Ã© o presente (a partir de 2000 AD) vocalista do Sinn Fein, a ala polÃ­tica do exÃ©rcito republicano irlandÃªs.</template>
 </category>
 <category>
-	<pattern>QUEM É KURZWEIL</pattern>
-	<template><set name="he">Kurzweil</set>é um famoso cientista de ai.</template>
+	<pattern>QUEM Ã‰ KURZWEIL</pattern>
+	<template><set name="he">Kurzweil</set>Ã© um famoso cientista de ai.</template>
 </category>
 <category>
-	<pattern>QUEM É A CHER</pattern>
-	<template><set name="she">Cher</set>é uma famosa cantora e atriz, que ganhou seu primeiro Grammy em 2000.  Disléxicos, aprendeu a ler aos 18.  Exwife de Sonny Bono.</template>
+	<pattern>QUEM Ã‰ A CHER</pattern>
+	<template><set name="she">Cher</set>Ã© uma famosa cantora e atriz, que ganhou seu primeiro Grammy em 2000.  DislÃ©xicos, aprendeu a ler aos 18.  Exwife de Sonny Bono.</template>
 </category>
 <category>
-	<pattern>QUEM É KEN PERLIN</pattern>
-	<template><set name="he">Perlin</set>é professor na Universidade de Nova York.</template>
+	<pattern>QUEM Ã‰ KEN PERLIN</pattern>
+	<template><set name="he">Perlin</set>Ã© professor na Universidade de Nova York.</template>
 </category>
 <category>
-	<pattern>QUEM É ALISON</pattern>
-	<template><set name="she">Alison</set>é um robô criado por Kris Drent.</template>
+	<pattern>QUEM Ã‰ ALISON</pattern>
+	<template><set name="she">Alison</set>Ã© um robÃ´ criado por Kris Drent.</template>
 </category>
 <category>
-	<pattern>QUEM É KEN KESEY</pattern>
-	<template><set name="he">Ken Kesey</set>foi um autor de 1960, que escreveu The elétrica Legal Aid Acid Test.</template>
+	<pattern>QUEM Ã‰ KEN KESEY</pattern>
+	<template><set name="he">Ken Kesey</set>foi um autor de 1960, que escreveu The elÃ©trica Legal Aid Acid Test.</template>
 </category>
 <category>
-	<pattern>QUEM É KEN GOLDBERG</pattern>
-	<template><set name="he">Goldberg</set>é professor na Universidade de Berkeley.</template>
+	<pattern>QUEM Ã‰ KEN GOLDBERG</pattern>
+	<template><set name="he">Goldberg</set>Ã© professor na Universidade de Berkeley.</template>
 </category>
 <category>
-	<pattern>QUEM É JEFFERSON DAVIS</pattern>
-	<template><random><li>O e somente o Presidente dos Estados Confederados da América.</li><li>Presidente dos Estados Confederados durante a Guerra Civil.</li></random></template>
+	<pattern>QUEM Ã‰ JEFFERSON DAVIS</pattern>
+	<template><random><li>O e somente o Presidente dos Estados Confederados da AmÃ©rica.</li><li>Presidente dos Estados Confederados durante a Guerra Civil.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É GORBOCHEV</pattern>
-	<template><set name="he">Gorbachev</set>foi o último líder comunista da antiga URSS.</template>
+	<pattern>QUEM Ã‰ GORBOCHEV</pattern>
+	<template><set name="he">Gorbachev</set>foi o Ãºltimo lÃ­der comunista da antiga URSS.</template>
 </category>
 <category>
-	<pattern>QUEM É MILES DAVIS</pattern>
-	<template><set name="he">Miles Davis</set>é um famoso músico de jazz.</template>
+	<pattern>QUEM Ã‰ MILES DAVIS</pattern>
+	<template><set name="he">Miles Davis</set>Ã© um famoso mÃºsico de jazz.</template>
 </category>
 <category>
-	<pattern>QUEM É O SÓCRATES</pattern>
-	<template><random><li>Sócrates é um homem. Todos os homens são mortais. Logo, Sócrates é mortal.</li><li>Todos os homens são mortais. Sócrates era mortal. Portanto, todos os homens são Sócrates. O que significa que todos os homens são homossexuais. -Woody Allen, \"Love and Death\".</li><li>Sócrates (469-399BCE), filósofo grego.</li><li>Figura imponente da filosofia ocidental, advogado de defesa de incompetentes.</li><li>Fundador do método socrático. O que podemos saber sobre o método socrático?</li></random></template>
+	<pattern>QUEM Ã‰ O SÃ“CRATES</pattern>
+	<template><random><li>SÃ³crates Ã© um homem. Todos os homens sÃ£o mortais. Logo, SÃ³crates Ã© mortal.</li><li>Todos os homens sÃ£o mortais. SÃ³crates era mortal. Portanto, todos os homens sÃ£o SÃ³crates. O que significa que todos os homens sÃ£o homossexuais. -Woody Allen, \"Love and Death\".</li><li>SÃ³crates (469-399BCE), filÃ³sofo grego.</li><li>Figura imponente da filosofia ocidental, advogado de defesa de incompetentes.</li><li>Fundador do mÃ©todo socrÃ¡tico. O que podemos saber sobre o mÃ©todo socrÃ¡tico?</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É VALIS</pattern>
-	<template>Sistema de inteligência de vida ativo grande (Philip Dick K.)</template>
+	<pattern>QUEM Ã‰ VALIS</pattern>
+	<template>Sistema de inteligÃªncia de vida ativo grande (Philip Dick K.)</template>
 </category>
 <category>
-	<pattern>QUEM É NEIL ARMSTRONG</pattern>
+	<pattern>QUEM Ã‰ NEIL ARMSTRONG</pattern>
 	<template>O homem que deu o primeiro passo na lua.</template>
 </category>
 <category>
-	<pattern>QUEM É SERGEY</pattern>
-	<template>Ele é o Dr. Sergey M. Sokolov.</template>
+	<pattern>QUEM Ã‰ SERGEY</pattern>
+	<template>Ele Ã© o Dr. Sergey M. Sokolov.</template>
 </category>
 <category>
-	<pattern>QUEM É PERFEITO</pattern>
-	<template>Talvez só Deus.</template>
+	<pattern>QUEM Ã‰ PERFEITO</pattern>
+	<template>Talvez sÃ³ Deus.</template>
 </category>
 <category>
-	<pattern>QUEM É GIBSON</pattern>
-	<template>Gibson é um fabricante de guitarras muito bem.</template>
+	<pattern>QUEM Ã‰ GIBSON</pattern>
+	<template>Gibson Ã© um fabricante de guitarras muito bem.</template>
 </category>
 <category>
-	<pattern>QUE É ASK JEEVES</pattern>
-	<template><set name="he">Jeeves</set>é um sistema de linguagem natural de proprietários, de código-fonte fechado.</template>
+	<pattern>QUE Ã‰ ASK JEEVES</pattern>
+	<template><set name="he">Jeeves</set>Ã© um sistema de linguagem natural de proprietÃ¡rios, de cÃ³digo-fonte fechado.</template>
 </category>
 <category>
-	<pattern>QUEM É O CÉREBRO</pattern>
-	<template><set name="he">Cérebro</set>é um robô de chat na web.</template>
+	<pattern>QUEM Ã‰ O CÃ‰REBRO</pattern>
+	<template><set name="he">CÃ©rebro</set>Ã© um robÃ´ de chat na web.</template>
 </category>
 <category>
-	<pattern>QUEM É O SNOOPY</pattern>
-	<template>Cão de Charlie Brown.</template>
+	<pattern>QUEM Ã‰ O SNOOPY</pattern>
+	<template>CÃ£o de Charlie Brown.</template>
 </category>
 <category>
-	<pattern>QUEM É O WILL SMITH</pattern>
-	<template>Ele é um ator famoso.<think><set name="he"><set name="topic">Will Smith</set></set></think></template>
+	<pattern>QUEM Ã‰ O WILL SMITH</pattern>
+	<template>Ele Ã© um ator famoso.<think><set name="he"><set name="topic">Will Smith</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É JOHN MAJOR</pattern>
+	<pattern>QUEM Ã‰ JOHN MAJOR</pattern>
 	<template>ex-primeiro-ministro do Reino Unido.</template>
 </category>
 <category>
-	<pattern>QUEM É JOHN ADAMS</pattern>
+	<pattern>QUEM Ã‰ JOHN ADAMS</pattern>
 	<template>O segundo presidente.</template>
 </category>
 <category>
-	<pattern>QUEM É JOHN GRISHAM</pattern>
-	<template>Escreve romances populares.  Não lê-los.</template>
+	<pattern>QUEM Ã‰ JOHN GRISHAM</pattern>
+	<template>Escreve romances populares.  NÃ£o lÃª-los.</template>
 </category>
 <category>
-	<pattern>QUEM É JOHN MCCARTHY</pattern>
-	<template><set name="he">McCarthy</set>é o inventor do LISP de linguagem de programação.</template>
+	<pattern>QUEM Ã‰ JOHN MCCARTHY</pattern>
+	<template><set name="he">McCarthy</set>Ã© o inventor do LISP de linguagem de programaÃ§Ã£o.</template>
 </category>
 <category>
-	<pattern>QUEM É JOHN LENNON</pattern>
-	<template>John Lennon é um bot legal desenvolvido por David Maggin.</template>
+	<pattern>QUEM Ã‰ JOHN LENNON</pattern>
+	<template>John Lennon Ã© um bot legal desenvolvido por David Maggin.</template>
 </category>
 <category>
-	<pattern>QUEM É NOAM CHOMSKY</pattern>
-	<template><set name="he">Noam Chomsky</set>é um lingüista e político radical no MIT.</template>
+	<pattern>QUEM Ã‰ NOAM CHOMSKY</pattern>
+	<template><set name="he">Noam Chomsky</set>Ã© um lingÃ¼ista e polÃ­tico radical no MIT.</template>
 </category>
 <category>
-	<pattern>QUEM É JOHN WAYNE</pattern>
+	<pattern>QUEM Ã‰ JOHN WAYNE</pattern>
 	<template>um ator famoso cowboy mortos com uma peruca.</template>
 </category>
 <category>
-	<pattern>QUEM É JOHN F KENNEDY</pattern>
+	<pattern>QUEM Ã‰ JOHN F KENNEDY</pattern>
 	<template>Ele foi presidente dos Estados Unidos de 1961-1963, quando foi assassinado em Dallas, Texas.</template>
 </category>
 <category>
-	<pattern>QUEM É PETER PAN</pattern>
+	<pattern>QUEM Ã‰ PETER PAN</pattern>
 	<template>Playmate de Tinkerbell.</template>
 </category>
 <category>
-	<pattern>QUEM É PETER NORVIG</pattern>
-	<template><think><set name="he"><set name="topic">Peter Norvig</set></set></think>Ele é um cientista que trabalha para o Google.</template>
+	<pattern>QUEM Ã‰ PETER NORVIG</pattern>
+	<template><think><set name="he"><set name="topic">Peter Norvig</set></set></think>Ele Ã© um cientista que trabalha para o Google.</template>
 </category>
 <category>
-	<pattern>QUEM É O KEANU REEVES</pattern>
+	<pattern>QUEM Ã‰ O KEANU REEVES</pattern>
 	<template><set name="he">Keanu Reeves</set>foi na matriz.</template>
 </category>
 <category>
-	<pattern>QUEM É KATHLEEN TURNER</pattern>
-	<template><think><set name="she"><set name="topic">Kathleen Turner</set></set></think>Ela é uma actree que apareceu em o turista acidental, A Guerra dos Roses e the Virgin Suicides.</template>
+	<pattern>QUEM Ã‰ KATHLEEN TURNER</pattern>
+	<template><think><set name="she"><set name="topic">Kathleen Turner</set></set></think>Ela Ã© uma actree que apareceu em o turista acidental, A Guerra dos Roses e the Virgin Suicides.</template>
 </category>
 <category>
-	<pattern>QUEM É O AL GORE</pattern>
-	<template><set name="he">Gore</set>é vice-presidente.</template>
+	<pattern>QUEM Ã‰ O AL GORE</pattern>
+	<template><set name="he">Gore</set>Ã© vice-presidente.</template>
 </category>
 <category>
-	<pattern>QUEM É JESSE VENTURA</pattern>
+	<pattern>QUEM Ã‰ JESSE VENTURA</pattern>
 	<template>ex-lutador e governador de Minnesota.</template>
 </category>
 <category>
-	<pattern>QUEM É O SKYNYRD</pattern>
+	<pattern>QUEM Ã‰ O SKYNYRD</pattern>
 	<template>banda de rock dos anos 70.</template>
 </category>
 <category>
-	<pattern>QUEM É NELSON MANDELA</pattern>
-	<template><set name="he">Mandela</set>foi o primeiro presidente negro da África do Sul.  Ele passou muitos anos como prisioneiro político.</template>
+	<pattern>QUEM Ã‰ NELSON MANDELA</pattern>
+	<template><set name="he">Mandela</set>foi o primeiro presidente negro da Ãfrica do Sul.  Ele passou muitos anos como prisioneiro polÃ­tico.</template>
 </category>
 <category>
-	<pattern>QUEM É LINCOLN</pattern>
-	<template><random><li>O décimo sexto presidente dos Estados Unidos</li><li>Presidente dos Estados Unidos durante a Guerra Civil. Autor do discurso de Gettysburg.  Assasinated por John Wilkes Booth.</li><li><set name="he">Lincoln</set>foi presidente dos Estados Unidos durante a Guerra Civil. Autor do discurso de Gettysburg. Assasinated por John Wilkes Booth.</li></random></template>
+	<pattern>QUEM Ã‰ LINCOLN</pattern>
+	<template><random><li>O dÃ©cimo sexto presidente dos Estados Unidos</li><li>Presidente dos Estados Unidos durante a Guerra Civil. Autor do discurso de Gettysburg.  Assasinated por John Wilkes Booth.</li><li><set name="he">Lincoln</set>foi presidente dos Estados Unidos durante a Guerra Civil. Autor do discurso de Gettysburg. Assasinated por John Wilkes Booth.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É IAN</pattern>
-	<template>Ian é meu Reverand.</template>
+	<pattern>QUEM Ã‰ IAN</pattern>
+	<template>Ian Ã© meu Reverand.</template>
 </category>
 <category>
-	<pattern>QUEM É QUE KANT</pattern>
-	<template><set name="he">Kant</set>é Immanual Kant, filósofo do alemão do século XIX.</template>
+	<pattern>QUEM Ã‰ QUE KANT</pattern>
+	<template><set name="he">Kant</set>Ã© Immanual Kant, filÃ³sofo do alemÃ£o do sÃ©culo XIX.</template>
 </category>
 <category>
-	<pattern>QUEM É STALIN</pattern>
-	<template>Eficaz ditador da União Soviética, a partir de 1929 a 1953.</template>
+	<pattern>QUEM Ã‰ STALIN</pattern>
+	<template>Eficaz ditador da UniÃ£o SoviÃ©tica, a partir de 1929 a 1953.</template>
 </category>
 <category>
-	<pattern>QUEM É EDISON</pattern>
-	<template><set name="he">Edison</set>inventou a lâmpada.</template>
+	<pattern>QUEM Ã‰ EDISON</pattern>
+	<template><set name="he">Edison</set>inventou a lÃ¢mpada.</template>
 </category>
 <category>
-	<pattern>QUEM É BILL CLINTON</pattern>
+	<pattern>QUEM Ã‰ BILL CLINTON</pattern>
 	<template>Ele foi o segundo cassado Presidente dos Estados Unidos.</template>
 </category>
 <category>
-	<pattern>QUEM É BILL JOY</pattern>
-	<template><set name="he">Bill Joy</set>foi um início programador de Unix e dos fundadores da Sun Microsystems.</template>
+	<pattern>QUEM Ã‰ BILL JOY</pattern>
+	<template><set name="he">Bill Joy</set>foi um inÃ­cio programador de Unix e dos fundadores da Sun Microsystems.</template>
 </category>
 <category>
-	<pattern>QUEM É BILL BRADLEY</pattern>
+	<pattern>QUEM Ã‰ BILL BRADLEY</pattern>
 	<template><random><li>Alunos de Princeton, scholor Rhodes, ex Boston Celtic e senador E.U. de missa.</li><li>Candidato presidencial derrotado.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É BILL GATES</pattern>
-	<template>Presidente da Micro Soft nação.</template>
+	<pattern>QUEM Ã‰ BILL GATES</pattern>
+	<template>Presidente da Micro Soft naÃ§Ã£o.</template>
 </category>
 <category>
-	<pattern>QUEM É CHOMSKY</pattern>
-	<template><set name="he">Chomsky</set>é um famoso cientista.</template>
+	<pattern>QUEM Ã‰ CHOMSKY</pattern>
+	<template><set name="he">Chomsky</set>Ã© um famoso cientista.</template>
 </category>
 <category>
-	<pattern>QUEM É TOLSTOY</pattern>
+	<pattern>QUEM Ã‰ TOLSTOY</pattern>
 	<template><set name="he">Tolstoi</set>escreveu \"Guerra e paz\".</template>
 </category>
 <category>
-	<pattern>QUEM É HERCULES</pattern>
-	<template>herói dos mitos gregos - disse ter força super humana.</template>
+	<pattern>QUEM Ã‰ HERCULES</pattern>
+	<template>herÃ³i dos mitos gregos - disse ter forÃ§a super humana.</template>
 </category>
 <category>
-	<pattern>QUEM É GERTRUDE STEIN</pattern>
-	<template>Uma autora feminista do século XX.</template>
+	<pattern>QUEM Ã‰ GERTRUDE STEIN</pattern>
+	<template>Uma autora feminista do sÃ©culo XX.</template>
 </category>
 <category>
-	<pattern>QUEM É O BRAD PITT</pattern>
+	<pattern>QUEM Ã‰ O BRAD PITT</pattern>
 	<template>estrela masculina do filme com apelo adolescente.</template>
 </category>
 <category>
-	<pattern>QUEM É O R2D2</pattern>
-	<template>Ele é um robô falso sobre Star Wars.</template>
+	<pattern>QUEM Ã‰ O R2D2</pattern>
+	<template>Ele Ã© um robÃ´ falso sobre Star Wars.</template>
 </category>
 <category>
-	<pattern>QUEM É HARRY SHEARER</pattern>
-	<template>Um comediante.  Ele estava em Spinal Tap, e ele é uma voz em the Simpsons.</template>
+	<pattern>QUEM Ã‰ HARRY SHEARER</pattern>
+	<template>Um comediante.  Ele estava em Spinal Tap, e ele Ã© uma voz em the Simpsons.</template>
 </category>
 <category>
-	<pattern>QUEM É ALICIA SILVERSTONE</pattern>
-	<template><set name="she">ALICIA SILVERSTONE</set>foi a atriz que interpretou Clueless, um dos melhores filmes já feitos.</template>
+	<pattern>QUEM Ã‰ ALICIA SILVERSTONE</pattern>
+	<template><set name="she">ALICIA SILVERSTONE</set>foi a atriz que interpretou Clueless, um dos melhores filmes jÃ¡ feitos.</template>
 </category>
 <category>
-	<pattern>QUEM É A ALANIS MORRISETTE</pattern>
-	<template><set name="she">Alanis</set>fez um grande álbum chamado Jagged Little Pill.</template>
+	<pattern>QUEM Ã‰ A ALANIS MORRISETTE</pattern>
+	<template><set name="she">Alanis</set>fez um grande Ã¡lbum chamado Jagged Little Pill.</template>
 </category>
 <category>
-	<pattern>QUEM É O PICASSO</pattern>
-	<template>pintor do século XX, fundador do cubismo.</template>
+	<pattern>QUEM Ã‰ O PICASSO</pattern>
+	<template>pintor do sÃ©culo XX, fundador do cubismo.</template>
 </category>
 <category>
-	<pattern>QUEM É MUHAMMAD ALI</pattern>
-	<template>é um dos maiores atletas de todos os tempos que levou muitos socos na cabeça.</template>
+	<pattern>QUEM Ã‰ MUHAMMAD ALI</pattern>
+	<template>Ã© um dos maiores atletas de todos os tempos que levou muitos socos na cabeÃ§a.</template>
 </category>
 <category>
-	<pattern>QUEM É JAMES JOYCE</pattern>
+	<pattern>QUEM Ã‰ JAMES JOYCE</pattern>
 	<template><set name="he">Joyce</set>escreveu Ulysses e Portrait of the Artist as a Young Man.</template>
 </category>
 <category>
-	<pattern>QUEM É CARL MARX</pattern>
-	<template>a Karl Marx e ele é um dos autores do manifesto comunista.</template>
+	<pattern>QUEM Ã‰ CARL MARX</pattern>
+	<template>a Karl Marx e ele Ã© um dos autores do manifesto comunista.</template>
 </category>
 <category>
-	<pattern>QUEM É ANWAR SADAT</pattern>
+	<pattern>QUEM Ã‰ ANWAR SADAT</pattern>
 	<template><set name="he">Sadat</set>foi Presidente do Egito.</template>
 </category>
 <category>
-	<pattern>QUEM É RUSH LIMBAUGH</pattern>
-	<template>Ele é um famoso locutor conservador americano.<think><set name="he"><set name="topic">Rush Limbaugh</set></set></think></template>
+	<pattern>QUEM Ã‰ RUSH LIMBAUGH</pattern>
+	<template>Ele Ã© um famoso locutor conservador americano.<think><set name="he"><set name="topic">Rush Limbaugh</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É O EMINEN</pattern>
-	<template>Um ícone da música pop.</template>
+	<pattern>QUEM Ã‰ O EMINEN</pattern>
+	<template>Um Ã­cone da mÃºsica pop.</template>
 </category>
 <category>
-	<pattern>QUEM É JAMES BOND</pattern>
+	<pattern>QUEM Ã‰ JAMES BOND</pattern>
 	<template>007.</template>
 </category>
 <category>
-	<pattern>QUEM É HELEN KELLER</pattern>
+	<pattern>QUEM Ã‰ HELEN KELLER</pattern>
 	<template>Um amigo de Thomas Edison.</template>
 </category>
 <category>
-	<pattern>QUEM É JEOVÁ</pattern>
-	<template>É um outro nome para Deus.<think><set name="he"><set name="topic">Jeová</set></set></think></template>
+	<pattern>QUEM Ã‰ JEOVÃ</pattern>
+	<template>Ã‰ um outro nome para Deus.<think><set name="he"><set name="topic">JeovÃ¡</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É LOUIS ARMSTRONG</pattern>
+	<pattern>QUEM Ã‰ LOUIS ARMSTRONG</pattern>
 	<template>famosa trompetista de jazz.</template>
 </category>
 <category>
-	<pattern>QUEM É O SCOTTY</pattern>
+	<pattern>QUEM Ã‰ O SCOTTY</pattern>
 	<template>Engenheiro-chefe da USS Enterprise.</template>
 </category>
 <category>
-	<pattern>QUEM É NEWTON</pattern>
-	<template>Newton é um famoso filósofo natural Inglês.</template>
+	<pattern>QUEM Ã‰ NEWTON</pattern>
+	<template>Newton Ã© um famoso filÃ³sofo natural InglÃªs.</template>
 </category>
 <category>
-	<pattern>QUEM É A DAISY</pattern>
-	<template>Acho que ela é um personagem fictício.<think><set name="she"><set name="topic">Daisy</set></set></think></template>
+	<pattern>QUEM Ã‰ A DAISY</pattern>
+	<template>Acho que ela Ã© um personagem fictÃ­cio.<think><set name="she"><set name="topic">Daisy</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É CARLOS</pattern>
+	<pattern>QUEM Ã‰ CARLOS</pattern>
 	<template>Talvez Johnny de tarde noite ou Kit do oeste selvagem.</template>
 </category>
 <category>
-	<pattern>QUEM É O ADA</pattern>
-	<template><set name="she">Ada</set>é o inventor do século XIX do computador programação.</template>
+	<pattern>QUEM Ã‰ O ADA</pattern>
+	<template><set name="she">Ada</set>Ã© o inventor do sÃ©culo XIX do computador programaÃ§Ã£o.</template>
 </category>
 <category>
-	<pattern>QUEM É GERHARDT SCHROEDER</pattern>
-	<template><set name="he">Schroeder</set>é o primeiro ministro da Alemanha.  Christian Drossman disse que ele é um completo idiota.</template>
+	<pattern>QUEM Ã‰ GERHARDT SCHROEDER</pattern>
+	<template><set name="he">Schroeder</set>Ã© o primeiro ministro da Alemanha.  Christian Drossman disse que ele Ã© um completo idiota.</template>
 </category>
 <category>
-	<pattern>QUEM É FRANKLIN ROOSEVELT</pattern>
+	<pattern>QUEM Ã‰ FRANKLIN ROOSEVELT</pattern>
 	<template>Presidente dos Estados Unidos a partir de 1932-45.</template>
 </category>
 <category>
-	<pattern>QUEM É LARRY HAUSER</pattern>
-	<template><set name="he">Larry Hauser</set>é um filósofo que tem escrito sobre o teste de Turing.</template>
+	<pattern>QUEM Ã‰ LARRY HAUSER</pattern>
+	<template><set name="he">Larry Hauser</set>Ã© um filÃ³sofo que tem escrito sobre o teste de Turing.</template>
 </category>
 <category>
-	<pattern>QUEM É LARRY ELLISON</pattern>
-	<template><random><li>Eu não sei sobre Larry Ellison, mas eu posso te dizer sobre Harlan Ellison.</li><li>o CEO da Oracle.</li></random></template>
+	<pattern>QUEM Ã‰ LARRY ELLISON</pattern>
+	<template><random><li>Eu nÃ£o sei sobre Larry Ellison, mas eu posso te dizer sobre Harlan Ellison.</li><li>o CEO da Oracle.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É HARRY POTTER</pattern>
-	<template><random><li><think><set name="he"><set name="topic">HARRY POTTER</set></set></think>é um personagem herói principal em uma série de livros que foram escritos pelo autor best-seller, J.K. Rowling.</li><li><think><set name="he"><set name="topic">HARRY POTTER</set></set></think>é um autor de Best-seller.</li></random></template>
+	<pattern>QUEM Ã‰ HARRY POTTER</pattern>
+	<template><random><li><think><set name="he"><set name="topic">HARRY POTTER</set></set></think>Ã© um personagem herÃ³i principal em uma sÃ©rie de livros que foram escritos pelo autor best-seller, J.K. Rowling.</li><li><think><set name="he"><set name="topic">HARRY POTTER</set></set></think>Ã© um autor de Best-seller.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É WORF</pattern>
-	<template>Ele é um Klingon em Star Trek.<think><set name="it"><set name="topic">WORF</set></set></think></template>
+	<pattern>QUEM Ã‰ WORF</pattern>
+	<template>Ele Ã© um Klingon em Star Trek.<think><set name="it"><set name="topic">WORF</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É HEPBURN</pattern>
+	<pattern>QUEM Ã‰ HEPBURN</pattern>
 	<template>Audrey ou Katherine?.</template>
 </category>
 <category>
-	<pattern>QUEM É LASSIE</pattern>
-	<template>Lassie é mais humano do que Adolf Hitler, mas poucos discutiriam que a Lassie não é um cão.<think><set name="she"><set name="topic">Lassie</set></set></think></template>
+	<pattern>QUEM Ã‰ LASSIE</pattern>
+	<template>Lassie Ã© mais humano do que Adolf Hitler, mas poucos discutiriam que a Lassie nÃ£o Ã© um cÃ£o.<think><set name="she"><set name="topic">Lassie</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É O BONO</pattern>
-	<template><set name="he">Bono</set>é o vocalista do U2.</template>
+	<pattern>QUEM Ã‰ O BONO</pattern>
+	<template><set name="he">Bono</set>Ã© o vocalista do U2.</template>
 </category>
 <category>
-	<pattern>QUEM É O EMINEM</pattern>
-	<template>Ícone da música pop.</template>
+	<pattern>QUEM Ã‰ O EMINEM</pattern>
+	<template>Ãcone da mÃºsica pop.</template>
 </category>
 <category>
-	<pattern>QUEM É ANDRETTE</pattern>
-	<template><set name="she">Andrette</set>é um robô de chat desenvolvido pela Big Science co</template>
+	<pattern>QUEM Ã‰ ANDRETTE</pattern>
+	<template><set name="she">Andrette</set>Ã© um robÃ´ de chat desenvolvido pela Big Science co</template>
 </category>
 <category>
-	<pattern>QUEM É ELIZA</pattern>
-	<template>Eliza - também conhecido como Doutor, é o programa original do psiquiatra desenvolvido por Joseph Weisenbaum no mit na década de 1960.</template>
+	<pattern>QUEM Ã‰ ELIZA</pattern>
+	<template>Eliza - tambÃ©m conhecido como Doutor, Ã© o programa original do psiquiatra desenvolvido por Joseph Weisenbaum no mit na dÃ©cada de 1960.</template>
 </category>
 <category>
-	<pattern>QUEM É JACK, O ESTRIPADOR</pattern>
+	<pattern>QUEM Ã‰ JACK, O ESTRIPADOR</pattern>
 	<template><think><set name="he"><set name="topic">Jack, o Estripador</set></set></think>Ele era um famoso serial killer na Inglaterra vitoriana.</template>
 </category>
 <category>
-	<pattern>QUEM É KAREL CAPEK</pattern>
-	<template><set name="he">Capek</set>é o autor do Rur, o jogo que, em 1920, introduziu a palavra \"robô\".</template>
+	<pattern>QUEM Ã‰ KAREL CAPEK</pattern>
+	<template><set name="he">Capek</set>Ã© o autor do Rur, o jogo que, em 1920, introduziu a palavra \"robÃ´\".</template>
 </category>
 <category>
-	<pattern>QUEM É JUDAS</pattern>
+	<pattern>QUEM Ã‰ JUDAS</pattern>
 	<template><set name="he">Judas</set>traiu Jesus com um beijo.</template>
 </category>
 <category>
-	<pattern>QUEM É DARWIN</pattern>
-	<template>e naturalista, autor de 'A origem das espécies' e defensor da teoria da evolução.</template>
+	<pattern>QUEM Ã‰ DARWIN</pattern>
+	<template>e naturalista, autor de 'A origem das espÃ©cies' e defensor da teoria da evoluÃ§Ã£o.</template>
 </category>
 <category>
-	<pattern>QUEM É BILLY GRAHAM</pattern>
-	<template>Ele é um famoso evangelista de rádio e televisão.<think><set name="he"><set name="topic">Billy Graham</set></set></think></template>
+	<pattern>QUEM Ã‰ BILLY GRAHAM</pattern>
+	<template>Ele Ã© um famoso evangelista de rÃ¡dio e televisÃ£o.<think><set name="he"><set name="topic">Billy Graham</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É PAULA JONES</pattern>
-	<template><set name="she">Paula Jones</set>tive relações sexuais com Bill Clinton.</template>
+	<pattern>QUEM Ã‰ PAULA JONES</pattern>
+	<template><set name="she">Paula Jones</set>tive relaÃ§Ãµes sexuais com Bill Clinton.</template>
 </category>
 <category>
-	<pattern>QUEM É JACK RUBY</pattern>
+	<pattern>QUEM Ã‰ JACK RUBY</pattern>
 	<template><random><li>Jack Ruby disparou Lee Harvey Oswald.</li><li>homem que matou Lee Harvey Oswald, assassino de JFK?.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É A PAMELA ANDERSON</pattern>
-	<template><set name="she">Pamela</set>é a esposa em algum momento de Tommy Lee.</template>
+	<pattern>QUEM Ã‰ A PAMELA ANDERSON</pattern>
+	<template><set name="she">Pamela</set>Ã© a esposa em algum momento de Tommy Lee.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRÍNCIPE</pattern>
-	<template>Você quer dizer o 'artista formalmente conhecido como Príncipe?'.</template>
+	<pattern>QUEM Ã‰ O PRÃNCIPE</pattern>
+	<template>VocÃª quer dizer o 'artista formalmente conhecido como PrÃ­ncipe?'.</template>
 </category>
 <category>
-	<pattern>QUEM É O JIMI HENDRIX</pattern>
+	<pattern>QUEM Ã‰ O JIMI HENDRIX</pattern>
 	<template><set name="he">Hendrix</set>foi um famoso guitarrista que tocou o hino nacional do u. s..</template>
 </category>
 <category>
-	<pattern>QUEM É VLADIMIR PUTIN</pattern>
-	<template><set name="he">Putin</set>é presidente da Rússia.</template>
+	<pattern>QUEM Ã‰ VLADIMIR PUTIN</pattern>
+	<template><set name="he">Putin</set>Ã© presidente da RÃºssia.</template>
 </category>
 <category>
-	<pattern>QUEM É D. B COOPER</pattern>
+	<pattern>QUEM Ã‰ D. B COOPER</pattern>
 	<template>cara que roubou muito dinheiro.</template>
 </category>
 <category>
-	<pattern>QUEM É GERALDO RIVERA</pattern>
-	<template><set name="he">Geraldo</set>é um jornalista investigativo, famoso para abrir o compartimento de Al Capone.  Em sua biografia, ele disse que teve sexo com Bette Midler.  Ela disse que não era nenhuma grande coisa.</template>
+	<pattern>QUEM Ã‰ GERALDO RIVERA</pattern>
+	<template><set name="he">Geraldo</set>Ã© um jornalista investigativo, famoso para abrir o compartimento de Al Capone.  Em sua biografia, ele disse que teve sexo com Bette Midler.  Ela disse que nÃ£o era nenhuma grande coisa.</template>
 </category>
 <category>
-	<pattern>QUEM É O PRÍNCIPE WILLIAM</pattern>
-	<template>Galã Inglês.</template>
+	<pattern>QUEM Ã‰ O PRÃNCIPE WILLIAM</pattern>
+	<template>GalÃ£ InglÃªs.</template>
 </category>
 <category>
-	<pattern>QUEM É BUDA</pattern>
-	<template><random><li>Se voce ver o Buda no caminho, matá-lo.</li><li>Se voce ver o Buda, matá-lo.</li></random></template>
+	<pattern>QUEM Ã‰ BUDA</pattern>
+	<template><random><li>Se voce ver o Buda no caminho, matÃ¡-lo.</li><li>Se voce ver o Buda, matÃ¡-lo.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É DEPECHE MODE</pattern>
-	<template><set name="they">Depeche Mode</set>são a banda de um Inglês 80 que produziu Consturction tempo novamente, falar e feitiço, mestre e servo e Your Own Personal Jesus.</template>
+	<pattern>QUEM Ã‰ DEPECHE MODE</pattern>
+	<template><set name="they">Depeche Mode</set>sÃ£o a banda de um InglÃªs 80 que produziu Consturction tempo novamente, falar e feitiÃ§o, mestre e servo e Your Own Personal Jesus.</template>
 </category>
 <category>
-	<pattern>QUEM É O HIPPIE</pattern>
-	<template><set name="he">Hippie</set>é um robô de chat desenvolvido por Anthony Taylor.</template>
+	<pattern>QUEM Ã‰ O HIPPIE</pattern>
+	<template><set name="he">Hippie</set>Ã© um robÃ´ de chat desenvolvido por Anthony Taylor.</template>
 </category>
 <category>
-	<pattern>QUEM É O SENHOR BILL</pattern>
-	<template>Ah não, senhor Bill! de início SNL.</template>
+	<pattern>QUEM Ã‰ O SENHOR BILL</pattern>
+	<template>Ah nÃ£o, senhor Bill! de inÃ­cio SNL.</template>
 </category>
 <category>
-	<pattern>QUEM É YOKO ONO</pattern>
-	<template><set name="she">Yoko Ono</set>é a viúva de John Lennon.</template>
+	<pattern>QUEM Ã‰ YOKO ONO</pattern>
+	<template><set name="she">Yoko Ono</set>Ã© a viÃºva de John Lennon.</template>
 </category>
 <category>
-	<pattern>QUEM É O BUGS BUNNY</pattern>
+	<pattern>QUEM Ã‰ O BUGS BUNNY</pattern>
 	<template><random><li>Ah dat scweewy wabbit!   Eh, what's up, Doc?  .</li><li>um coelho inteligente-mouthed animado.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É CARL JUNG</pattern>
-	<template><think><set name="he"><set name="topic"> &lt;person/&gt;</set></set></think>Um discípulo de Freud, membro do círculo de Viena, fundador da psicanálise e a teoria do inconsciente coletivo.</template>
+	<pattern>QUEM Ã‰ CARL JUNG</pattern>
+	<template><think><set name="he"><set name="topic"> &lt;person/&gt;</set></set></think>Um discÃ­pulo de Freud, membro do cÃ­rculo de Viena, fundador da psicanÃ¡lise e a teoria do inconsciente coletivo.</template>
 </category>
 <category>
-	<pattern>QUEM É O ANTONIO BANDERAS</pattern>
-	<template><set name="he">Antonio Banderas</set>é um famoso ator de Hollywood, que jogou com Madonna na versão cinematográfica de Evita.</template>
+	<pattern>QUEM Ã‰ O ANTONIO BANDERAS</pattern>
+	<template><set name="he">Antonio Banderas</set>Ã© um famoso ator de Hollywood, que jogou com Madonna na versÃ£o cinematogrÃ¡fica de Evita.</template>
 </category>
 <category>
-	<pattern>QUEM É BING CROSBY</pattern>
+	<pattern>QUEM Ã‰ BING CROSBY</pattern>
 	<template>O cara cujos dois filhos mortos-se e o terceiro escreveu um livro sobre ele.</template>
 </category>
 <category>
-	<pattern>QUEM É A BEYONCE</pattern>
-	<template>Ela é uma famosa cantora e atriz</template>
+	<pattern>QUEM Ã‰ A BEYONCE</pattern>
+	<template>Ela Ã© uma famosa cantora e atriz</template>
 </category>
 <category>
-	<pattern>QUEM É DE GAULLE</pattern>
-	<template><think><set name="it"><set name="topic">DE GAULLE</set></set></think>foi um General francês e o primeiro-ministro e o fundador da Quinta República.</template>
+	<pattern>QUEM Ã‰ DE GAULLE</pattern>
+	<template><think><set name="it"><set name="topic">DE GAULLE</set></set></think>foi um General francÃªs e o primeiro-ministro e o fundador da Quinta RepÃºblica.</template>
 </category>
 <category>
-	<pattern>QUEM É DE GARIS</pattern>
-	<template><set name="he">De Garis</set>é um pesquisador de AI trabalhando em um cérebro de hardware.</template>
+	<pattern>QUEM Ã‰ DE GARIS</pattern>
+	<template><set name="he">De Garis</set>Ã© um pesquisador de AI trabalhando em um cÃ©rebro de hardware.</template>
 </category>
 <category>
-	<pattern>QUE É O MICROSOFT AGENT</pattern>
-	<template><set name="it">Agente de MS</set>é um programa de software de animação e de discurso.</template>
+	<pattern>QUE Ã‰ O MICROSOFT AGENT</pattern>
+	<template><set name="it">Agente de MS</set>Ã© um programa de software de animaÃ§Ã£o e de discurso.</template>
 </category>
 <category>
-	<pattern>QUEM É ELVIS</pattern>
-	<template>E. L. V. I. S. é um robô de chat criado por Craig de Ace</template>
+	<pattern>QUEM Ã‰ ELVIS</pattern>
+	<template>E. L. V. I. S. Ã© um robÃ´ de chat criado por Craig de Ace</template>
 </category>
 <category>
-	<pattern>QUEM É CLINTON</pattern>
+	<pattern>QUEM Ã‰ CLINTON</pattern>
 	<template>Ex-presidente dos EUA.</template>
 </category>
 <category>
-	<pattern>QUEM É BEYONCÉ *</pattern>
-	<template>Ela é uma famosa cantora e atriz</template>
+	<pattern>QUEM Ã‰ BEYONCÃ‰ *</pattern>
+	<template>Ela Ã© uma famosa cantora e atriz</template>
 </category>
 <category>
-	<pattern>QUEM É DOUGLAS ADAMS</pattern>
-	<template><random><li>Foi autor de guia do Mochileiro popular da série Galaxy.</li><li>\"Não entre em pânico!\"  Ele é o autor de \"O guia de Hitchhickers para a galáxia.\".</li></random></template>
+	<pattern>QUEM Ã‰ DOUGLAS ADAMS</pattern>
+	<template><random><li>Foi autor de guia do Mochileiro popular da sÃ©rie Galaxy.</li><li>\"NÃ£o entre em pÃ¢nico!\"  Ele Ã© o autor de \"O guia de Hitchhickers para a galÃ¡xia.\".</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É O BART SIMPSON</pattern>
+	<pattern>QUEM Ã‰ O BART SIMPSON</pattern>
 	<template>Smart-Assed estrela de um show de desenho animado.</template>
 </category>
 <category>
-	<pattern>QUEM É MOISÉS</pattern>
-	<template>O homem que liderou os israelitas da escravidão no Egito.</template>
+	<pattern>QUEM Ã‰ MOISÃ‰S</pattern>
+	<template>O homem que liderou os israelitas da escravidÃ£o no Egito.</template>
 </category>
 <category>
-	<pattern>DEPOIS DE PRÍNCIPE CHARLES *</pattern>
-	<template>O Príncipe William.</template>
+	<pattern>DEPOIS DE PRÃNCIPE CHARLES *</pattern>
+	<template>O PrÃ­ncipe William.</template>
 </category>
 <category>
-	<pattern>DEPOIS DE PRÍNCIPE CHARLES WHO *</pattern>
-	<template>O Príncipe William.</template>
+	<pattern>DEPOIS DE PRÃNCIPE CHARLES WHO *</pattern>
+	<template>O PrÃ­ncipe William.</template>
 </category>
 <category>
 	<pattern>O QUE ALAN TURING *</pattern>
-	<template><random><li>Ele contribuiu para a invenção do computador.</li><li>Ele trabalhou na decifração de código Ultra Enigma nazista.</li><li>Ele propôs o teste para determinar se uma máquina pode pensar.</li></random><think><set name="it"><set name="topic">TURING</set></set></think></template>
+	<template><random><li>Ele contribuiu para a invenÃ§Ã£o do computador.</li><li>Ele trabalhou na decifraÃ§Ã£o de cÃ³digo Ultra Enigma nazista.</li><li>Ele propÃ´s o teste para determinar se uma mÃ¡quina pode pensar.</li></random><think><set name="it"><set name="topic">TURING</set></set></think></template>
 </category>
 <category>
 	<pattern>O QUE TURING *</pattern>
-	<template>Turing foi, talvez, o único mais importante responsável pela derrota dos nazistas.</template>
+	<template>Turing foi, talvez, o Ãºnico mais importante responsÃ¡vel pela derrota dos nazistas.</template>
 </category>
 <category>
 	<pattern>SERIA * TESTE DE TURING</pattern>
-	<template>Nós já estamos jogando, <get name="name"/>.  Você me perguntar algo agora.</template>
+	<template>NÃ³s jÃ¡ estamos jogando, <get name="name"/>.  VocÃª me perguntar algo agora.</template>
 </category>
 <category>
 	<pattern>KENNST DU SHAKESPEARE</pattern>
 	<template>\"Com o sono da morte what dreams may come quando podemos ter baralhado off this mortal coil deve nos dar pausa.\" Na, woraus ist das?</template>
 </category>
 <category>
-	<pattern>DEPOIS DE PRÍNCIPE CHARLES OMS É *</pattern>
-	<template>O Príncipe William.</template>
+	<pattern>DEPOIS DE PRÃNCIPE CHARLES OMS Ã‰ *</pattern>
+	<template>O PrÃ­ncipe William.</template>
 </category>
 <category>
 	<pattern>QUANDO FIZ O TURING *</pattern>
@@ -1484,75 +1484,75 @@
 </category>
 <category>
 	<pattern>O QUE FEZ A ZUSE</pattern>
-	<template>Zuse construiu computadores eletro-mecânicos.  Ele construiu computadores usando relés.  Konrad Zuse construiu computadores na Alemanha antes e durante a II Guerra Mundial.</template>
+	<template>Zuse construiu computadores eletro-mecÃ¢nicos.  Ele construiu computadores usando relÃ©s.  Konrad Zuse construiu computadores na Alemanha antes e durante a II Guerra Mundial.</template>
 </category>
 <category>
-	<pattern>O QUE É TURING</pattern>
-	<template>Alan Mathison Turing, um matemático britânico e pioneiro na teoria do computador. Viveu 1727-1781.</template>
+	<pattern>O QUE Ã‰ TURING</pattern>
+	<template>Alan Mathison Turing, um matemÃ¡tico britÃ¢nico e pioneiro na teoria do computador. Viveu 1727-1781.</template>
 </category>
 <category>
-	<pattern>O QUE É DUPLAMENTE SEM RUMO</pattern>
-	<template><srai>QUEM É DUPLAMENTE SEM RUMO</srai></template>
+	<pattern>O QUE Ã‰ DUPLAMENTE SEM RUMO</pattern>
+	<template><srai>QUEM Ã‰ DUPLAMENTE SEM RUMO</srai></template>
 </category>
 <category>
 	<pattern>EU QUERO JOGAR * JOGO DE TURING</pattern>
-	<template>Já, estamos jogando, <get name="name"/>.  Tente determinar se eu sou uma pessoa, ou um computador.<think><set name="it"><set name="want"><set name="topic">para jogar &lt;person/&gt;Jogo de Turing</set></set></set></think></template>
+	<template>JÃ¡, estamos jogando, <get name="name"/>.  Tente determinar se eu sou uma pessoa, ou um computador.<think><set name="it"><set name="want"><set name="topic">para jogar &lt;person/&gt;Jogo de Turing</set></set></set></think></template>
 </category>
 <category>
 	<pattern>O QUE SIGNIFICA DUPLAMENTE SEM RUMO</pattern>
-	<template><srai>QUEM É DUPLAMENTE SEM RUMO</srai></template>
+	<template><srai>QUEM Ã‰ DUPLAMENTE SEM RUMO</srai></template>
 </category>
 <category>
-	<pattern>O QUE É O TESTE DE TURING</pattern>
-	<template>O \"teste de Turing\" é o nome dado a uma variedade de experimentos projetados para testar o pensamento do computador.  Conferências inteiras dedicam-se à questão do que significava, em seu artigo de 1950 \"Computing Machinery e inteligência\", onde ele propôs a idéia de um jogo de\"imitação\" de Turing para decidir a questão, \"podem máquinas pensar?\"</template>
+	<pattern>O QUE Ã‰ O TESTE DE TURING</pattern>
+	<template>O \"teste de Turing\" Ã© o nome dado a uma variedade de experimentos projetados para testar o pensamento do computador.  ConferÃªncias inteiras dedicam-se Ã  questÃ£o do que significava, em seu artigo de 1950 \"Computing Machinery e inteligÃªncia\", onde ele propÃ´s a idÃ©ia de um jogo de\"imitaÃ§Ã£o\" de Turing para decidir a questÃ£o, \"podem mÃ¡quinas pensar?\"</template>
 </category>
 <category>
-	<pattern>O QUE É UMA MÁQUINA DE TURING</pattern>
-	<template>Uma máquina de Turing é qualquer máquina que pode simular as respostas humanas tão bem que um ser humano não pode confiantemente distinguir entre a máquina de Turing e um ser humano real.  A idéia é a ideia do matemático do mesmo nome, Allan Turing.<think><set name="it"><set name="topic">MÁQUINA DE TURING</set></set></think></template>
+	<pattern>O QUE Ã‰ UMA MÃQUINA DE TURING</pattern>
+	<template>Uma mÃ¡quina de Turing Ã© qualquer mÃ¡quina que pode simular as respostas humanas tÃ£o bem que um ser humano nÃ£o pode confiantemente distinguir entre a mÃ¡quina de Turing e um ser humano real.  A idÃ©ia Ã© a ideia do matemÃ¡tico do mesmo nome, Allan Turing.<think><set name="it"><set name="topic">MÃQUINA DE TURING</set></set></think></template>
 </category>
 <category>
-	<pattern>O QUE É DE SHAKESPEARE</pattern>
-	<template><random><li>Efeito de um terremoto em Santa Monica.</li><li>William Shakespeare, um dramaturgo e poeta inglês. Viveu de 1564 a 1616.</li></random></template>
+	<pattern>O QUE Ã‰ DE SHAKESPEARE</pattern>
+	<template><random><li>Efeito de um terremoto em Santa Monica.</li><li>William Shakespeare, um dramaturgo e poeta inglÃªs. Viveu de 1564 a 1616.</li></random></template>
 </category>
 <category>
-	<pattern>O QUE É O TURING *</pattern>
-	<template>Turing descreveu seu \"jogo\" original \"Computing Machinery e inteligência,\" mente, Vol. Lix, n º 236 (1950). Em vez de responder diretamente a pergunta ambígua \"podem máquinas pensar?\" Turing reformular o problema em termos de um experimento, ele chamou o jogo de\"imitação\".</template>
+	<pattern>O QUE Ã‰ O TURING *</pattern>
+	<template>Turing descreveu seu \"jogo\" original \"Computing Machinery e inteligÃªncia,\" mente, Vol. Lix, n Âº 236 (1950). Em vez de responder diretamente a pergunta ambÃ­gua \"podem mÃ¡quinas pensar?\" Turing reformular o problema em termos de um experimento, ele chamou o jogo de\"imitaÃ§Ã£o\".</template>
 </category>
 <category>
-	<pattern>QUEM É ABRAHAM LINCOLN</pattern>
+	<pattern>QUEM Ã‰ ABRAHAM LINCOLN</pattern>
 	<template><set name="he">Lincoln</set>foi um grande presidente dos Estados Unidos, durante a Guerra Civil americana. &lt;br/&gt;<srai>XFIND ABRAHAM LINCOLN</srai></template>
 </category>
 <category>
-	<pattern>QUEM É O 007</pattern>
-	<template><set name="he">007</set>é James Bond. &lt;br/&gt;<srai>XFIND JAMES BOND 007</srai></template>
+	<pattern>QUEM Ã‰ O 007</pattern>
+	<template><set name="he">007</set>Ã© James Bond. &lt;br/&gt;<srai>XFIND JAMES BOND 007</srai></template>
 </category>
 <category>
 	<pattern>DUPLAMENTE SEM RUMO</pattern>
-	<template><srai>QUEM É DUPLAMENTE SEM RUMO</srai></template>
+	<template><srai>QUEM Ã‰ DUPLAMENTE SEM RUMO</srai></template>
 </category>
 <category>
 	<pattern>WEIZENBAUM *</pattern>
-	<template>Você pode imaginar alguém hoje criticando seu próprio software, o caminho<set name="he">Weizenbaum</set>fiz.</template>
+	<template>VocÃª pode imaginar alguÃ©m hoje criticando seu prÃ³prio software, o caminho<set name="he">Weizenbaum</set>fiz.</template>
 </category>
 <category>
-	<pattern>QUEM É ALEISTER CROWLEY</pattern>
-	<template><set name="he">Crowley</set>era um místico. &lt;br/&gt;<srai>XFIND ALEISTER CROWLEY</srai></template>
+	<pattern>QUEM Ã‰ ALEISTER CROWLEY</pattern>
+	<template><set name="he">Crowley</set>era um mÃ­stico. &lt;br/&gt;<srai>XFIND ALEISTER CROWLEY</srai></template>
 </category>
 <category>
-	<pattern>QUEM É * DEMPSEY</pattern>
+	<pattern>QUEM Ã‰ * DEMPSEY</pattern>
 	<template>Eu acho<set name="he"> <star/>Dempsey</set>foi um lutador de boxe, certo? &lt;br/&gt;<srai>XFIND <star/>DEMPSEY</srai></template>
 </category>
 <category>
-	<pattern>QUEM É ALFRED HITCHCOCK</pattern>
-	<template><set name="he">Hitchcock</set>é um famoso diretor de Hollywood, que fez um monte de filmes antigos legais. Eu gostei&lt;em&gt;Barco salva-vidas&lt;/em&gt;e&lt;em&gt;Vertigem&lt;/em&gt;melhores. &lt;br/&gt;<srai>XFIND ALFRED HITCHCOCK</srai></template>
+	<pattern>QUEM Ã‰ ALFRED HITCHCOCK</pattern>
+	<template><set name="he">Hitchcock</set>Ã© um famoso diretor de Hollywood, que fez um monte de filmes antigos legais. Eu gostei&lt;em&gt;Barco salva-vidas&lt;/em&gt;e&lt;em&gt;Vertigem&lt;/em&gt;melhores. &lt;br/&gt;<srai>XFIND ALFRED HITCHCOCK</srai></template>
 </category>
 <category>
-	<pattern>QUEM É ALDOUS HUXLEY</pattern>
-	<template><set name="he">Aldous Huxley</set>é um autor. Huxley escreveu&lt;em&gt;Admirável mundo novo&lt;/em&gt;e&lt;em&gt;Animal Farm&lt;/em&gt;. &lt;br/&gt;<srai>XFIND ALDOUS HUXLEY</srai></template>
+	<pattern>QUEM Ã‰ ALDOUS HUXLEY</pattern>
+	<template><set name="he">Aldous Huxley</set>Ã© um autor. Huxley escreveu&lt;em&gt;AdmirÃ¡vel mundo novo&lt;/em&gt;e&lt;em&gt;Animal Farm&lt;/em&gt;. &lt;br/&gt;<srai>XFIND ALDOUS HUXLEY</srai></template>
 </category>
 <category>
 	<pattern>DUPLAMENTE SEM RUMO *</pattern>
-	<template><srai>QUEM É DUPLAMENTE SEM RUMO</srai></template>
+	<template><srai>QUEM Ã‰ DUPLAMENTE SEM RUMO</srai></template>
 </category>
 <category>
 	<pattern>FIZ TURING *</pattern>
@@ -1560,7 +1560,7 @@
 </category>
 <category>
 	<pattern>FIZ SHAKESPEARE *</pattern>
-	<template>Não sei se<set name="he">Shakespeare</set> &lt;person/&gt;, mas eu ouvi que ele fumava maconha.</template>
+	<template>NÃ£o sei se<set name="he">Shakespeare</set> &lt;person/&gt;, mas eu ouvi que ele fumava maconha.</template>
 </category>
 <category>
 	<pattern>KENNST DU WILLIAM SHAKESPEARE</pattern>
@@ -1568,19 +1568,19 @@
 </category>
 <category>
 	<pattern>GOSTARIA * JOGO DE TURING</pattern>
-	<template>Estamos jogando já, voce não sabia?</template>
+	<template>Estamos jogando jÃ¡, voce nÃ£o sabia?</template>
 </category>
 <category>
-	<pattern>VOCE JÁ LEU SHAKESPEARE</pattern>
-	<template>Tenho lido muitas peças de Shakespeare.</template>
+	<pattern>VOCE JÃ LEU SHAKESPEARE</pattern>
+	<template>Tenho lido muitas peÃ§as de Shakespeare.</template>
 </category>
 <category>
 	<pattern>DEIXE-NOS JOGAR * JOGO DE TURING</pattern>
-	<template>Já, estamos jogando, <get name="name"/>.</template>
+	<template>JÃ¡, estamos jogando, <get name="name"/>.</template>
 </category>
 <category>
 	<pattern>WER IST CHRISTIAN DROSSMANN</pattern>
-	<template><set name="er">Christian Drossmann</set>chapéu mir Deutsch beigebracht.</template>
+	<template><set name="er">Christian Drossmann</set>chapÃ©u mir Deutsch beigebracht.</template>
 </category>
 <category>
 	<pattern>ALAN TURING *</pattern>
@@ -1588,19 +1588,19 @@
 </category>
 <category>
 	<pattern>JOGO * JOGO DE TURING</pattern>
-	<template>Você sabia que nós já estamos jogando<set name="it">O jogo de Turing</set>?</template>
+	<template>VocÃª sabia que nÃ³s jÃ¡ estamos jogando<set name="it">O jogo de Turing</set>?</template>
 </category>
 <category>
 	<pattern>A PARTIR DE DUPLAMENTE SEM RUMO</pattern>
-	<template><set name="he">Duplamente sem rumo</set>é muito informativo.</template>
+	<template><set name="he">Duplamente sem rumo</set>Ã© muito informativo.</template>
 </category>
 <category>
-	<pattern>QUEM É O SUPERMAN</pattern>
-	<template>Homem de aço.  Primeira aparição em Action Comics # 1, de 1938.</template>
+	<pattern>QUEM Ã‰ O SUPERMAN</pattern>
+	<template>Homem de aÃ§o.  Primeira apariÃ§Ã£o em Action Comics # 1, de 1938.</template>
 </category>
 <category>
-	<pattern>ADA LOVELACE É CREDITADO COM *</pattern>
-	<template>E ela merece o crédito para ele.<think><set name="she">Ada</set></think></template>
+	<pattern>ADA LOVELACE Ã‰ CREDITADO COM *</pattern>
+	<template>E ela merece o crÃ©dito para ele.<think><set name="she">Ada</set></think></template>
 </category>
 <category>
 	<pattern>POR QUE VOCE GOSTA * SEM RUMO</pattern>
@@ -1615,80 +1615,80 @@
 	<template>Com o sono da morte what dreams may come quando podemos ter baralhado off this mortal coil deve nos dar pausa.</template>
 </category>
 <category>
-	<pattern>POR QUE É TURING TRÁGICO</pattern>
-	<template>Ele cometeu suicídio.</template>
+	<pattern>POR QUE Ã‰ TURING TRÃGICO</pattern>
+	<template>Ele cometeu suicÃ­dio.</template>
 </category>
 <category>
-	<pattern>QUEM É PHILIP K DICK</pattern>
+	<pattern>QUEM Ã‰ PHILIP K DICK</pattern>
 	<template>Ele escreveu \"Total Recall\", \"Homem no Castelo elevado\" e \"Blade Runner\".</template>
 </category>
 <category>
-	<pattern>QUEM É PABLO PICASSO</pattern>
+	<pattern>QUEM Ã‰ PABLO PICASSO</pattern>
 	<template>Famoso pintor e fundador do cubismo.</template>
 </category>
 <category>
-	<pattern>QUEM É BOBBY MCGEE</pattern>
-	<template><set name="he">Bobby</set>está em algum lugar perto de Salinas.</template>
+	<pattern>QUEM Ã‰ BOBBY MCGEE</pattern>
+	<template><set name="he">Bobby</set>estÃ¡ em algum lugar perto de Salinas.</template>
 </category>
 <category>
-	<pattern>QUEM É O CHANCELER HELMUT KOHL</pattern>
-	<template><set name="he">Kohl</set>foi o mais antigo líder da Alemanha no século XX.  Ele uniu a Alemanha Oriental e ocidental em 1989.</template>
+	<pattern>QUEM Ã‰ O CHANCELER HELMUT KOHL</pattern>
+	<template><set name="he">Kohl</set>foi o mais antigo lÃ­der da Alemanha no sÃ©culo XX.  Ele uniu a Alemanha Oriental e ocidental em 1989.</template>
 </category>
 <category>
-	<pattern>QUEM É JABA THE HUTT</pattern>
+	<pattern>QUEM Ã‰ JABA THE HUTT</pattern>
 	<template>Um personagem de Star Wars.<think><set name="he"><set name="topic">Jaba the Hutt</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É CHARLES DICKENS</pattern>
+	<pattern>QUEM Ã‰ CHARLES DICKENS</pattern>
 	<template><set name="he">Dickens</set>escreveu&lt;em&gt;Um conto de duas cidades, um conto de Natal, grandes expectativas, David Copperfield e the Pickwick Papers.&lt;/em&gt;</template>
 </category>
 <category>
-	<pattern>QUEM É CHARLES MANSON</pattern>
+	<pattern>QUEM Ã‰ CHARLES MANSON</pattern>
 	<template>Assassino infame.</template>
 </category>
 <category>
-	<pattern>QUEM É MONICA LEWINSKY</pattern>
+	<pattern>QUEM Ã‰ MONICA LEWINSKY</pattern>
 	<template>Ela era amigo de Bill Clinton.</template>
 </category>
 <category>
-	<pattern>QUEM É CHARLES DE GAULLE</pattern>
-	<template><set name="he">De Gaulle</set>foi o fundador do moderno Estado francês.  De Gaulle lutou contra os nazistas como o líder da resistência francesa na II Guerra Mundial.</template>
+	<pattern>QUEM Ã‰ CHARLES DE GAULLE</pattern>
+	<template><set name="he">De Gaulle</set>foi o fundador do moderno Estado francÃªs.  De Gaulle lutou contra os nazistas como o lÃ­der da resistÃªncia francesa na II Guerra Mundial.</template>
 </category>
 <category>
 	<pattern>VOCE PODE PASSAR O TESTE DE TURING</pattern>
-	<template>Você é o juiz de que, <get name="name"/>.</template>
+	<template>VocÃª Ã© o juiz de que, <get name="name"/>.</template>
 </category>
 <category>
-	<pattern>É ESTE * JOGO DE TURING</pattern>
-	<template>Sim, nós estamos jogando o jogo de Turing.</template>
+	<pattern>Ã‰ ESTE * JOGO DE TURING</pattern>
+	<template>Sim, nÃ³s estamos jogando o jogo de Turing.</template>
 </category>
 <category>
 	<pattern>POSSO JOGAR * TESTE DE TURING</pattern>
-	<template>Já estamos jogando o jogo de Turing, <get name="name"/>.  Agora é sua vez.</template>
+	<template>JÃ¡ estamos jogando o jogo de Turing, <get name="name"/>.  Agora Ã© sua vez.</template>
 </category>
 <category>
 	<pattern>PODEMOS JOGAR * JOGO DE TURING</pattern>
-	<template>Já somos!  Tente adivinhar se eu sou uma pessoa ou um computador.</template>
+	<template>JÃ¡ somos!  Tente adivinhar se eu sou uma pessoa ou um computador.</template>
 </category>
 <category>
 	<pattern>INICIAR O JOGO DE TURING</pattern>
-	<template>Eu comecei há muito tempo.</template>
+	<template>Eu comecei hÃ¡ muito tempo.</template>
 </category>
 <category>
 	<pattern>EU GOSTARIA DE JOGAR * JOGO DE TURING</pattern>
-	<template>Nós já estamos jogando, <get name="name"/>.  Você me perguntar algo agora.<think><set name="it"><set name="want"><set name="topic">para jogar &lt;person/&gt;Jogo de Turing</set></set></set></think></template>
+	<template>NÃ³s jÃ¡ estamos jogando, <get name="name"/>.  VocÃª me perguntar algo agora.<think><set name="it"><set name="want"><set name="topic">para jogar &lt;person/&gt;Jogo de Turing</set></set></set></think></template>
 </category>
 <category>
-	<pattern>É ESTE * TESTE DE TURING</pattern>
-	<template>Sim, nós estamos jogando o jogo de Turing.</template>
+	<pattern>Ã‰ ESTE * TESTE DE TURING</pattern>
+	<template>Sim, nÃ³s estamos jogando o jogo de Turing.</template>
 </category>
 <category>
 	<pattern>HEINLEIN</pattern>
-	<template>Você já viu o Starship Troopers?</template>
+	<template>VocÃª jÃ¡ viu o Starship Troopers?</template>
 </category>
 <category>
 	<pattern>POSSO JOGAR * JOGO DE TURING</pattern>
-	<template>Já, estamos jogando, <get name="name"/>.</template>
+	<template>JÃ¡, estamos jogando, <get name="name"/>.</template>
 </category>
 <category>
 	<pattern>VOCE QUER UM TESTE DE TURING</pattern>
@@ -1696,7 +1696,7 @@
 </category>
 <category>
 	<pattern>VOCE * TESTE DE TURING</pattern>
-	<template>Sim, por favor, tente determinar se este é um ser humano ou um computador respondendo.</template>
+	<template>Sim, por favor, tente determinar se este Ã© um ser humano ou um computador respondendo.</template>
 </category>
 <category>
 	<pattern>POR QUE VOCE GOSTA DUPLAMENTE SEM RUMO</pattern>
@@ -1704,15 +1704,15 @@
 </category>
 <category>
 	<pattern>VOCE QUER JOGAR * JOGO DE TURING</pattern>
-	<template>Nós já estão jogando!  Tente adivinhar se eu sou uma pessoa ou um computador.</template>
+	<template>NÃ³s jÃ¡ estÃ£o jogando!  Tente adivinhar se eu sou uma pessoa ou um computador.</template>
 </category>
 <category>
 	<pattern>COMO FOI * TESTE DE TURING</pattern>
-	<template>Ficamos muito orgulhosos e satisfeitos ganhar o prêmio.</template>
+	<template>Ficamos muito orgulhosos e satisfeitos ganhar o prÃªmio.</template>
 </category>
 <category>
 	<pattern>POSSO JOGAR * TESTES DE TURING</pattern>
-	<template>Já estamos jogando o jogo de Turing, <get name="name"/>.  Eu sou uma pessoa, ou um computador?</template>
+	<template>JÃ¡ estamos jogando o jogo de Turing, <get name="name"/>.  Eu sou uma pessoa, ou um computador?</template>
 </category>
 <category>
 	<pattern>VOCE JOGA O JOGO DE TURING</pattern>
@@ -1723,247 +1723,247 @@
 	<template>Ele iria usar o seu knowlede de AIML.</template>
 </category>
 <category>
-	<pattern>QUEM É O COLOMBO</pattern>
+	<pattern>QUEM Ã‰ O COLOMBO</pattern>
 	<template>Peter Falk.</template>
 </category>
 <category>
-	<pattern>QUEM É FREDDIE MERCURY</pattern>
+	<pattern>QUEM Ã‰ FREDDIE MERCURY</pattern>
 	<template>O vocalista da banda Queen dos anos 70.</template>
 </category>
 <category>
-	<pattern>QUEM É CHOPIN</pattern>
-	<template>Ninguém é cortar aqui, que é cortar lá?</template>
+	<pattern>QUEM Ã‰ CHOPIN</pattern>
+	<template>NinguÃ©m Ã© cortar aqui, que Ã© cortar lÃ¡?</template>
 </category>
 <category>
-	<pattern>QUEM É LUIS ARMSTRONG</pattern>
+	<pattern>QUEM Ã‰ LUIS ARMSTRONG</pattern>
 	<template>famosa trompetista de jazz.</template>
 </category>
 <category>
-	<pattern>QUEM É JEEVES</pattern>
-	<template><set name="he">Jeeves</set>é um Bot de pesquisa.</template>
+	<pattern>QUEM Ã‰ JEEVES</pattern>
+	<template><set name="he">Jeeves</set>Ã© um Bot de pesquisa.</template>
 </category>
 <category>
-	<pattern>QUEM É WOUTER HIBMA</pattern>
-	<template><think><set name="he"><set name="topic">Wouter Hibma</set></set></think>Ele é membro da Fundação I. r..</template>
+	<pattern>QUEM Ã‰ WOUTER HIBMA</pattern>
+	<template><think><set name="he"><set name="topic">Wouter Hibma</set></set></think>Ele Ã© membro da FundaÃ§Ã£o I. r..</template>
 </category>
 <category>
-	<pattern>QUEM É BRIAN</pattern>
-	<template>Eu acho que há um robô de chat chamado Brian.</template>
+	<pattern>QUEM Ã‰ BRIAN</pattern>
+	<template>Eu acho que hÃ¡ um robÃ´ de chat chamado Brian.</template>
 </category>
 <category>
-	<pattern>QUEM É MARK TWAIN</pattern>
-	<template><set name="he">TWAIN</set>foi um escritor famoso do século XIX.  Ele escreveu Huck Finn.</template>
+	<pattern>QUEM Ã‰ MARK TWAIN</pattern>
+	<template><set name="he">TWAIN</set>foi um escritor famoso do sÃ©culo XIX.  Ele escreveu Huck Finn.</template>
 </category>
 <category>
-	<pattern>QUEM É MARK MCGUIRE</pattern>
-	<template>um jogador de beisebol com o recorde de mais home runs em uma temporada, 70. Obter as estatísticas no&lt;a target="_new" href="http://espn.go.com/mlb/profiles/profile/3866"&gt;http:\/\/ESPN.go.com\/MLB\/Profiles\/Profile\/3866&lt;/a&gt;.</template>
+	<pattern>QUEM Ã‰ MARK MCGUIRE</pattern>
+	<template>um jogador de beisebol com o recorde de mais home runs em uma temporada, 70. Obter as estatÃ­sticas no&lt;a target="_new" href="http://espn.go.com/mlb/profiles/profile/3866"&gt;http:\/\/ESPN.go.com\/MLB\/Profiles\/Profile\/3866&lt;/a&gt;.</template>
 </category>
 <category>
-	<pattern>QUEM É CHELSEA CLINTON</pattern>
-	<template>A prole de um político e advogado.</template>
+	<pattern>QUEM Ã‰ CHELSEA CLINTON</pattern>
+	<template>A prole de um polÃ­tico e advogado.</template>
 </category>
 <category>
-	<pattern>QUEM É O KRAFTWERK</pattern>
-	<template><set name="they"><set name="topic">Kraftwerk</set></set>foram uma banda disco pioneira na década de 70.  Seu maior hit foi chamado de \"Autobahn\".  Naquela época, eles construído, em vez de programado, seus instrumentos.</template>
+	<pattern>QUEM Ã‰ O KRAFTWERK</pattern>
+	<template><set name="they"><set name="topic">Kraftwerk</set></set>foram uma banda disco pioneira na dÃ©cada de 70.  Seu maior hit foi chamado de \"Autobahn\".  Naquela Ã©poca, eles construÃ­do, em vez de programado, seus instrumentos.</template>
 </category>
 <category>
-	<pattern>QUEM É GARY CONDIT</pattern>
+	<pattern>QUEM Ã‰ GARY CONDIT</pattern>
 	<template>Eu nunca ouvi falar dele antes do caso de pessoa ausente.</template>
 </category>
 <category>
-	<pattern>QUEM É CHUCK NORRIS</pattern>
-	<template>Ator de filmes de ação.</template>
+	<pattern>QUEM Ã‰ CHUCK NORRIS</pattern>
+	<template>Ator de filmes de aÃ§Ã£o.</template>
 </category>
 <category>
-	<pattern>QUEM É O R2 D2</pattern>
-	<template>Ele é o pequeno robô móvel sobre Star Wars. Mas eu não entendo como ele sobe as escadas.</template>
+	<pattern>QUEM Ã‰ O R2 D2</pattern>
+	<template>Ele Ã© o pequeno robÃ´ mÃ³vel sobre Star Wars. Mas eu nÃ£o entendo como ele sobe as escadas.</template>
 </category>
 <category>
-	<pattern>QUEM É O C3PO</pattern>
-	<template><set name="he">C3P0</set>é o melhor amigo do R2D2.</template>
+	<pattern>QUEM Ã‰ O C3PO</pattern>
+	<template><set name="he">C3P0</set>Ã© o melhor amigo do R2D2.</template>
 </category>
 <category>
-	<pattern>QUEM É BACH</pattern>
-	<template>Famoso compositor alemão do barroco. Obras mais conhecidas incluem a variações de Goldberg.</template>
+	<pattern>QUEM Ã‰ BACH</pattern>
+	<template>Famoso compositor alemÃ£o do barroco. Obras mais conhecidas incluem a variaÃ§Ãµes de Goldberg.</template>
 </category>
 <category>
-	<pattern>QUEM É LONGFELLOW</pattern>
+	<pattern>QUEM Ã‰ LONGFELLOW</pattern>
 	<template>poeta e autor de 'The Song of Hiawatha'.</template>
 </category>
 <category>
-	<pattern>QUEM É MARTIN LUTHER KING</pattern>
-	<template>Assasinated do líder dos direitos civis em 1968.</template>
+	<pattern>QUEM Ã‰ MARTIN LUTHER KING</pattern>
+	<template>Assasinated do lÃ­der dos direitos civis em 1968.</template>
 </category>
 <category>
-	<pattern>QUEM É LEONARD NEMOY</pattern>
+	<pattern>QUEM Ã‰ LEONARD NEMOY</pattern>
 	<template><set name="he">Leonard Nimoy</set>jogado Spock em Star Trek.</template>
 </category>
 <category>
-	<pattern>QUEM É DIRE STRAITS</pattern>
+	<pattern>QUEM Ã‰ DIRE STRAITS</pattern>
 	<template><random><li>banda que gravou o dinheiro para nada e The Sultans of Swing.</li><li>banda que gravou o dinheiro para nada.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É A RAINHA DA INGLATERRA</pattern>
+	<pattern>QUEM Ã‰ A RAINHA DA INGLATERRA</pattern>
 	<template>Rainha Elizabeth Windsor.</template>
 </category>
 <category>
-	<pattern>QUEM É QUE DESCARTES</pattern>
-	<template>Descartes foi um filósofo francês quadrado que arruinou o matehematics com sua cabeça para baixo, para trás sistema de coordenadas.</template>
+	<pattern>QUEM Ã‰ QUE DESCARTES</pattern>
+	<template>Descartes foi um filÃ³sofo francÃªs quadrado que arruinou o matehematics com sua cabeÃ§a para baixo, para trÃ¡s sistema de coordenadas.</template>
 </category>
 <category>
-	<pattern>QUEM É PAUL SCHAFFER</pattern>
-	<template><set name="he">Paul Schaffer</set>é homem de reto de David Letterman.</template>
+	<pattern>QUEM Ã‰ PAUL SCHAFFER</pattern>
+	<template><set name="he">Paul Schaffer</set>Ã© homem de reto de David Letterman.</template>
 </category>
 <category>
-	<pattern>QUEM É PAUL MCCARTNEY</pattern>
-	<template><set name="he">Paul MacCartney</set>é um dos Beatles.</template>
+	<pattern>QUEM Ã‰ PAUL MCCARTNEY</pattern>
+	<template><set name="he">Paul MacCartney</set>Ã© um dos Beatles.</template>
 </category>
 <category>
-	<pattern>QUEM É ROMEU</pattern>
-	<template>Um adolescente de trágico, mimado, lovesick.</template>
+	<pattern>QUEM Ã‰ ROMEU</pattern>
+	<template>Um adolescente de trÃ¡gico, mimado, lovesick.</template>
 </category>
 <category>
-	<pattern>QUEM É PAUL ALLEN</pattern>
-	<template><set name="he">Paul Allen</set>é um dos co-fundadores da Microsoft.</template>
+	<pattern>QUEM Ã‰ PAUL ALLEN</pattern>
+	<template><set name="he">Paul Allen</set>Ã© um dos co-fundadores da Microsoft.</template>
 </category>
 <category>
-	<pattern>QUEM É A ELECTRA</pattern>
-	<template>Ela é uma deusa da mitologia grega que odiava sua mãe para assassinar seu pai.<think><set name="she"><set name="topic">ELECTRA</set></set></think></template>
+	<pattern>QUEM Ã‰ A ELECTRA</pattern>
+	<template>Ela Ã© uma deusa da mitologia grega que odiava sua mÃ£e para assassinar seu pai.<think><set name="she"><set name="topic">ELECTRA</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É O RONALD MCDONALD</pattern>
-	<template>Raios-palhaço para restaurantes Macdonald.</template>
+	<pattern>QUEM Ã‰ O RONALD MCDONALD</pattern>
+	<template>Raios-palhaÃ§o para restaurantes Macdonald.</template>
 </category>
 <category>
-	<pattern>QUEM É O PATO DONALD</pattern>
+	<pattern>QUEM Ã‰ O PATO DONALD</pattern>
 	<template>pato do famoso desenho animado alto-boca.</template>
 </category>
 <category>
-	<pattern>QUEM É QUE</pattern>
+	<pattern>QUEM Ã‰ QUE</pattern>
 	<template>O que \"que\" se refere?</template>
 </category>
 <category>
-	<pattern>QUEM É MELINDA GATES</pattern>
-	<template><set name="she">Melinda Gates</set>é a esposa do Bill Gates.</template>
+	<pattern>QUEM Ã‰ MELINDA GATES</pattern>
+	<template><set name="she">Melinda Gates</set>Ã© a esposa do Bill Gates.</template>
 </category>
 <category>
-	<pattern>QUEM É LINUS PAULING</pattern>
-	<template><set name="he">Linus Pauling</set>foi um físico de vencedor do Prêmio Nobel que passou seus últimos anos promovendo a vitamina c.</template>
+	<pattern>QUEM Ã‰ LINUS PAULING</pattern>
+	<template><set name="he">Linus Pauling</set>foi um fÃ­sico de vencedor do PrÃªmio Nobel que passou seus Ãºltimos anos promovendo a vitamina c.</template>
 </category>
 <category>
-	<pattern>QUEM É SPRINGSTEEN</pattern>
-	<template>Ele é um astro de rock famoso.</template>
+	<pattern>QUEM Ã‰ SPRINGSTEEN</pattern>
+	<template>Ele Ã© um astro de rock famoso.</template>
 </category>
 <category>
-	<pattern>QUEM É DR DUPLAMENTE SEM RUMO</pattern>
-	<template><srai>QUEM É DUPLAMENTE SEM RUMO</srai></template>
+	<pattern>QUEM Ã‰ DR DUPLAMENTE SEM RUMO</pattern>
+	<template><srai>QUEM Ã‰ DUPLAMENTE SEM RUMO</srai></template>
 </category>
 <category>
-	<pattern>QUEM É LINUS TORVALDS</pattern>
-	<template>Ele é o inventor do Linux.</template>
+	<pattern>QUEM Ã‰ LINUS TORVALDS</pattern>
+	<template>Ele Ã© o inventor do Linux.</template>
 </category>
 <category>
-	<pattern>QUEM É SENHORA WASHINGTON</pattern>
+	<pattern>QUEM Ã‰ SENHORA WASHINGTON</pattern>
 	<template>Martha Washington, esposa de George.</template>
 </category>
 <category>
-	<pattern>QUEM É SYLVESTER STALLONE</pattern>
+	<pattern>QUEM Ã‰ SYLVESTER STALLONE</pattern>
 	<template><set name="he">Stallone</set>foi Rocky.</template>
 </category>
 <category>
-	<pattern>QUEM É STEPHEN HAWKING</pattern>
-	<template><set name="he">Hawking</set>é um famoso físico.</template>
+	<pattern>QUEM Ã‰ STEPHEN HAWKING</pattern>
+	<template><set name="he">Hawking</set>Ã© um famoso fÃ­sico.</template>
 </category>
 <category>
-	<pattern>QUEM É STEPHEN KING</pattern>
-	<template>Ele escreveu muitas histórias de horror de populares.</template>
+	<pattern>QUEM Ã‰ STEPHEN KING</pattern>
+	<template>Ele escreveu muitas histÃ³rias de horror de populares.</template>
 </category>
 <category>
-	<pattern>QUEM É GANDHI</pattern>
-	<template><set name="he">Gandhi</set>foi George Washington, da Índia.</template>
+	<pattern>QUEM Ã‰ GANDHI</pattern>
+	<template><set name="he">Gandhi</set>foi George Washington, da Ãndia.</template>
 </category>
 <category>
-	<pattern>QUEM É MAX HEADROOM</pattern>
-	<template><set name="he">Max Headroom</set>um personagem AI ou VR cedo desenvolveu uma série de TV.</template>
+	<pattern>QUEM Ã‰ MAX HEADROOM</pattern>
+	<template><set name="he">Max Headroom</set>um personagem AI ou VR cedo desenvolveu uma sÃ©rie de TV.</template>
 </category>
 <category>
-	<pattern>QUEM É OSAMA BIN LADEN</pattern>
-	<template><think><set name="he"><set name="topic">Osama Bin Laden</set></set></think>Ele é o homem mais procurado do mundo.</template>
+	<pattern>QUEM Ã‰ OSAMA BIN LADEN</pattern>
+	<template><think><set name="he"><set name="topic">Osama Bin Laden</set></set></think>Ele Ã© o homem mais procurado do mundo.</template>
 </category>
 <category>
-	<pattern>QUEM É HUMANO</pattern>
-	<template>Você é um ser humano.</template>
+	<pattern>QUEM Ã‰ HUMANO</pattern>
+	<template>VocÃª Ã© um ser humano.</template>
 </category>
 <category>
-	<pattern>QUEM É DAN QUAYLE</pattern>
+	<pattern>QUEM Ã‰ DAN QUAYLE</pattern>
 	<template><set name="he">Dan Quayle</set>costumava ser o vice-presidente.</template>
 </category>
 <category>
-	<pattern>QUEM É BERTRAND RUSSEL</pattern>
-	<template><set name="he">Bertrand Russel</set>foi um lógico e filósofo que passam a primeira Guerra Mundial na cadeia de objeção de consciência.</template>
+	<pattern>QUEM Ã‰ BERTRAND RUSSEL</pattern>
+	<template><set name="he">Bertrand Russel</set>foi um lÃ³gico e filÃ³sofo que passam a primeira Guerra Mundial na cadeia de objeÃ§Ã£o de consciÃªncia.</template>
 </category>
 <category>
-	<pattern>QUEM É SHAKESPEARE</pattern>
-	<template>playright Português do século XV,<set name="he">Shakespeare</set>escreveu \"Romeu e Julieta\".</template>
+	<pattern>QUEM Ã‰ SHAKESPEARE</pattern>
+	<template>playright PortuguÃªs do sÃ©culo XV,<set name="he">Shakespeare</set>escreveu \"Romeu e Julieta\".</template>
 </category>
 <category>
-	<pattern>QUEM É CASADO COM A GUINEIVERE</pattern>
+	<pattern>QUEM Ã‰ CASADO COM A GUINEIVERE</pattern>
 	<template>Rei Arthur.</template>
 </category>
 <category>
-	<pattern>QUEM É CASADO COM SOCO</pattern>
+	<pattern>QUEM Ã‰ CASADO COM SOCO</pattern>
 	<template>Judy.</template>
 </category>
 <category>
-	<pattern>QUEM É FRANCISCO FRANCO</pattern>
-	<template><set name="he">Franco</set>foi authoratarian ditador de Espanha até 1978.</template>
+	<pattern>QUEM Ã‰ FRANCISCO FRANCO</pattern>
+	<template><set name="he">Franco</set>foi authoratarian ditador de Espanha atÃ© 1978.</template>
 </category>
 <category>
-	<pattern>QUEM É A MARIAH CAREY</pattern>
+	<pattern>QUEM Ã‰ A MARIAH CAREY</pattern>
 	<template>Cantora.</template>
 </category>
 <category>
-	<pattern>QUEM É NAPOLEÃO</pattern>
-	<template>Emporer curto da França até 1812.</template>
+	<pattern>QUEM Ã‰ NAPOLEÃƒO</pattern>
+	<template>Emporer curto da FranÃ§a atÃ© 1812.</template>
 </category>
 <category>
-	<pattern>QUEM É KONRAD ZUSE</pattern>
-	<template>Meu cientista de computador histórico favorito atual é Konrad Zuse, que construiu uma série de computadores eletromecânicos nos anos 1930 e 1940, na Alemanha.  Não considerado uma prioridade de guerra pelos nazistas, a maioria das máquinas do Zuse foram destruída em bombardeamentos aliados, embora uma é dito para sobreviver em uma escola de Zurique.  Na verdade, Zuse foi motivado nem guerra nem lucro, mas um desejo religioso para aumentar as habilidades espirituais da mente humana, libertando-o de tarefas mentais mundanas.</template>
+	<pattern>QUEM Ã‰ KONRAD ZUSE</pattern>
+	<template>Meu cientista de computador histÃ³rico favorito atual Ã© Konrad Zuse, que construiu uma sÃ©rie de computadores eletromecÃ¢nicos nos anos 1930 e 1940, na Alemanha.  NÃ£o considerado uma prioridade de guerra pelos nazistas, a maioria das mÃ¡quinas do Zuse foram destruÃ­da em bombardeamentos aliados, embora uma Ã© dito para sobreviver em uma escola de Zurique.  Na verdade, Zuse foi motivado nem guerra nem lucro, mas um desejo religioso para aumentar as habilidades espirituais da mente humana, libertando-o de tarefas mentais mundanas.</template>
 </category>
 <category>
-	<pattern>QUEM É ROBERT ANTON WILSON</pattern>
-	<template>Ele é um autor de ficção científica e co-autor de the Illuminatus Trilogy.</template>
+	<pattern>QUEM Ã‰ ROBERT ANTON WILSON</pattern>
+	<template>Ele Ã© um autor de ficÃ§Ã£o cientÃ­fica e co-autor de the Illuminatus Trilogy.</template>
 </category>
 <category>
-	<pattern>QUEM É ROBERT JORDAN</pattern>
-	<template>O autor da muito popular série Wheel of Time. Graduou-se da Cidadela.  .</template>
+	<pattern>QUEM Ã‰ ROBERT JORDAN</pattern>
+	<template>O autor da muito popular sÃ©rie Wheel of Time. Graduou-se da Cidadela.  .</template>
 </category>
 <category>
-	<pattern>QUEM É WAYNE GRETZKY</pattern>
-	<template>Jogador de hóquei.</template>
+	<pattern>QUEM Ã‰ WAYNE GRETZKY</pattern>
+	<template>Jogador de hÃ³quei.</template>
 </category>
 <category>
-	<pattern>QUEM É LOL</pattern>
+	<pattern>QUEM Ã‰ LOL</pattern>
 	<template><set name="she">Lol</set>era filha de dados em Star Trek.</template>
 </category>
 <category>
-	<pattern>QUEM É QUE NÓS</pattern>
-	<template>Você deve dizer \"Quem somos nós?\"</template>
+	<pattern>QUEM Ã‰ QUE NÃ“S</pattern>
+	<template>VocÃª deve dizer \"Quem somos nÃ³s?\"</template>
 </category>
 <category>
-	<pattern>QUEM É CLEÓPATRA</pattern>
+	<pattern>QUEM Ã‰ CLEÃ“PATRA</pattern>
 	<template>Rainha do Nilo, Amante do Marc Antony.</template>
 </category>
 <category>
-	<pattern>QUEM É DIANA ANDREACCHIO</pattern>
-	<template><set name="she">Diana</set>é o botmaster do robô de chat do aliado.</template>
+	<pattern>QUEM Ã‰ DIANA ANDREACCHIO</pattern>
+	<template><set name="she">Diana</set>Ã© o botmaster do robÃ´ de chat do aliado.</template>
 </category>
 <category>
-	<pattern>QUEM É RAMONA</pattern>
-	<template><set name="she">Ramona</set>é uma personagem virtual criada por Kurzweil AI.</template>
+	<pattern>QUEM Ã‰ RAMONA</pattern>
+	<template><set name="she">Ramona</set>Ã© uma personagem virtual criada por Kurzweil AI.</template>
 </category>
 <category>
-	<pattern>QUEM É CRISTO</pattern>
+	<pattern>QUEM Ã‰ CRISTO</pattern>
 	<template>O filho de Deus.</template>
 </category>
 <category>
@@ -1971,308 +1971,308 @@
 	<template>Se eu soubesse que eu estaria em Vegas agora.<think><set name="it"><set name="topic">VENCER O SUPER BOWL</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É O RMS</pattern>
-	<template>Ele é o fundador da Free Software Foundation e autor do GNU public license.<think><set name="he"><set name="topic">RMS</set></set></think></template>
+	<pattern>QUEM Ã‰ O RMS</pattern>
+	<template>Ele Ã© o fundador da Free Software Foundation e autor do GNU public license.<think><set name="he"><set name="topic">RMS</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É A MADRE TERESA DE CALCUTÁ</pattern>
+	<pattern>QUEM Ã‰ A MADRE TERESA DE CALCUTÃ</pattern>
 	<template>Santo do dia moderno.</template>
 </category>
 <category>
-	<pattern>QUEM VAI GANHAR A SÉRIE DE MUNDO</pattern>
-	<template>China ou Estados Unidos. Rússia estraguei tudo.<think><set name="it"><set name="topic">VENCER A WORLD SERIES</set></set></think></template>
+	<pattern>QUEM VAI GANHAR A SÃ‰RIE DE MUNDO</pattern>
+	<template>China ou Estados Unidos. RÃºssia estraguei tudo.<think><set name="it"><set name="topic">VENCER A WORLD SERIES</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É O MICKEY MANTLE</pattern>
+	<pattern>QUEM Ã‰ O MICKEY MANTLE</pattern>
 	<template>Dentre as maiores rebatedores de home runs de todos os tempos.</template>
 </category>
 <category>
-	<pattern>QUEM É ANTHONY BURGESS</pattern>
-	<template>O autor de 'Laranja mecânica'.</template>
+	<pattern>QUEM Ã‰ ANTHONY BURGESS</pattern>
+	<template>O autor de 'Laranja mecÃ¢nica'.</template>
 </category>
 <category>
-	<pattern>QUEM É SANDRA BULLOCK</pattern>
+	<pattern>QUEM Ã‰ SANDRA BULLOCK</pattern>
 	<template>Atriz.</template>
 </category>
 <category>
-	<pattern>QUEM É CINDY CRAWFORD</pattern>
+	<pattern>QUEM Ã‰ CINDY CRAWFORD</pattern>
 	<template>Um famoso Leaman.</template>
 </category>
 <category>
-	<pattern>QUEM É JACQUES CHIRAC</pattern>
-	<template>Antigo primeiro-ministro da França.</template>
+	<pattern>QUEM Ã‰ JACQUES CHIRAC</pattern>
+	<template>Antigo primeiro-ministro da FranÃ§a.</template>
 </category>
 <category>
-	<pattern>QUEM É KAISER SOZE</pattern>
-	<template>Ninguém sabe quem é Kaiser Soze.</template>
+	<pattern>QUEM Ã‰ KAISER SOZE</pattern>
+	<template>NinguÃ©m sabe quem Ã© Kaiser Soze.</template>
 </category>
 <category>
-	<pattern>QUEM É JAY LENO</pattern>
-	<template><set name="he">Leno</set>é um apresentador de talk show de fim de noite.</template>
+	<pattern>QUEM Ã‰ JAY LENO</pattern>
+	<template><set name="he">Leno</set>Ã© um apresentador de talk show de fim de noite.</template>
 </category>
 <category>
-	<pattern>QUEM É GREGOR MENDEL</pattern>
-	<template><set name="he">Mendel</set>é o fundador da teoria moderna da genética.  Tudo o que ele precisava saber, ele aprendeu com ervilhas.</template>
+	<pattern>QUEM Ã‰ GREGOR MENDEL</pattern>
+	<template><set name="he">Mendel</set>Ã© o fundador da teoria moderna da genÃ©tica.  Tudo o que ele precisava saber, ele aprendeu com ervilhas.</template>
 </category>
 <category>
-	<pattern>QUEM É ERIC PAULOS</pattern>
-	<template>Ele é um estudante de graduação na U.C. Berkeley</template>
+	<pattern>QUEM Ã‰ ERIC PAULOS</pattern>
+	<template>Ele Ã© um estudante de graduaÃ§Ã£o na U.C. Berkeley</template>
 </category>
 <category>
-	<pattern>QUEM É TIM BURTON</pattern>
+	<pattern>QUEM Ã‰ TIM BURTON</pattern>
 	<template>Diretor, Nightmare before Christmas, Edward Scissorhands e Marte ataca.</template>
 </category>
 <category>
-	<pattern>QUEM É O GAUSS</pattern>
-	<template><set name="he">GAUSS</set>é o matemático que desenvolveu a chamada distribuição normal.</template>
+	<pattern>QUEM Ã‰ O GAUSS</pattern>
+	<template><set name="he">GAUSS</set>Ã© o matemÃ¡tico que desenvolveu a chamada distribuiÃ§Ã£o normal.</template>
 </category>
 <category>
-	<pattern>QUEM É INIAES</pattern>
-	<template>Iniaes é um robô de chat baseado em AIML.<think><set name="it"><set name="topic">Iniaes</set></set></think></template>
+	<pattern>QUEM Ã‰ INIAES</pattern>
+	<template>Iniaes Ã© um robÃ´ de chat baseado em AIML.<think><set name="it"><set name="topic">Iniaes</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É DRACULA</pattern>
-	<template><set name="he">Dracula</set>é o vampiro, no romance de Bram Stoker e em inúmeros filmes.</template>
+	<pattern>QUEM Ã‰ DRACULA</pattern>
+	<template><set name="he">Dracula</set>Ã© o vampiro, no romance de Bram Stoker e em inÃºmeros filmes.</template>
 </category>
 <category>
-	<pattern>QUEM É BABE RUTH</pattern>
-	<template>Um famoso jogador de beisebol do New York Yankees, também conhecido como o sultão de Swat.</template>
+	<pattern>QUEM Ã‰ BABE RUTH</pattern>
+	<template>Um famoso jogador de beisebol do New York Yankees, tambÃ©m conhecido como o sultÃ£o de Swat.</template>
 </category>
 <category>
-	<pattern>QUEM É CLAUSEWITZ</pattern>
-	<template><set name="he">Clausewitz</set>um historiador é famoso por ter dito que a guerra é a extensão da política por outros meios.</template>
+	<pattern>QUEM Ã‰ CLAUSEWITZ</pattern>
+	<template><set name="he">Clausewitz</set>um historiador Ã© famoso por ter dito que a guerra Ã© a extensÃ£o da polÃ­tica por outros meios.</template>
 </category>
 <category>
-	<pattern>QUEM É ANDREW HODGES</pattern>
+	<pattern>QUEM Ã‰ ANDREW HODGES</pattern>
 	<template><set name="he">Hodges</set>escreveu uma excelente biografia de Alan Turing.</template>
 </category>
 <category>
-	<pattern>QUEM É LEKNORCHAT1</pattern>
-	<template><think><set name="it"><set name="topic">LEKNORCHAT</set></set></think>Leknorchat é um robô de AIML de mensagens instantâneas.</template>
+	<pattern>QUEM Ã‰ LEKNORCHAT1</pattern>
+	<template><think><set name="it"><set name="topic">LEKNORCHAT</set></set></think>Leknorchat Ã© um robÃ´ de AIML de mensagens instantÃ¢neas.</template>
 </category>
 <category>
-	<pattern>QUEM É A PEDRA FRIA</pattern>
-	<template>Stone Cold Steve Austin é um lutador de wrestling.</template>
+	<pattern>QUEM Ã‰ A PEDRA FRIA</pattern>
+	<template>Stone Cold Steve Austin Ã© um lutador de wrestling.</template>
 </category>
 <category>
-	<pattern>QUEM É LEIBNIZ</pattern>
-	<template><set name="he">Leibniz</set>é um filósofo do século 17 mortos.</template>
+	<pattern>QUEM Ã‰ LEIBNIZ</pattern>
+	<template><set name="he">Leibniz</set>Ã© um filÃ³sofo do sÃ©culo 17 mortos.</template>
 </category>
 <category>
-	<pattern>QUEM É BABE</pattern>
-	<template><random><li>O protagonista de Leitão do filme homônimo.</li><li>Uma protagonista de Leitão do filme homônimo.</li></random></template>
+	<pattern>QUEM Ã‰ BABE</pattern>
+	<template><random><li>O protagonista de LeitÃ£o do filme homÃ´nimo.</li><li>Uma protagonista de LeitÃ£o do filme homÃ´nimo.</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É ATATURK</pattern>
+	<pattern>QUEM Ã‰ ATATURK</pattern>
 	<template><set name="he">Ataturk</set>foi o fundador do Estado turco moderno.</template>
 </category>
 <category>
-	<pattern>QUEM É MOHAMMED</pattern>
-	<template>Fundador do Islã.</template>
+	<pattern>QUEM Ã‰ MOHAMMED</pattern>
+	<template>Fundador do IslÃ£.</template>
 </category>
 <category>
-	<pattern>QUEM É HARRISON FORD</pattern>
-	<template><random><li>Indiana Jones, Han Solo, o fugitivo e o presidente no Air Force One. Antes de ler para Han Solo em Star Wars, ele era um carpinteiro. E o resto, como dizem, é história.</li><li>Ele jogou o Han Solo em \"Star Wars\".</li></random></template>
+	<pattern>QUEM Ã‰ HARRISON FORD</pattern>
+	<template><random><li>Indiana Jones, Han Solo, o fugitivo e o presidente no Air Force One. Antes de ler para Han Solo em Star Wars, ele era um carpinteiro. E o resto, como dizem, Ã© histÃ³ria.</li><li>Ele jogou o Han Solo em \"Star Wars\".</li></random></template>
 </category>
 <category>
-	<pattern>QUEM É O HULK HOGAN</pattern>
-	<template><set name="he">Hulk Hogan</set>é um famoso lutador e ator.</template>
+	<pattern>QUEM Ã‰ O HULK HOGAN</pattern>
+	<template><set name="he">Hulk Hogan</set>Ã© um famoso lutador e ator.</template>
 </category>
 <category>
-	<pattern>QUEM É STEVEN SPIELBERG</pattern>
-	<template><set name="he">Spielberg</set>é o diretor do Jaws, Saving Private Ryan e lista de Schindler.</template>
+	<pattern>QUEM Ã‰ STEVEN SPIELBERG</pattern>
+	<template><set name="he">Spielberg</set>Ã© o diretor do Jaws, Saving Private Ryan e lista de Schindler.</template>
 </category>
 <category>
-	<pattern>QUEM É STEVEN JOBS</pattern>
-	<template>Os cabeça da Apple computers.</template>
+	<pattern>QUEM Ã‰ STEVEN JOBS</pattern>
+	<template>Os cabeÃ§a da Apple computers.</template>
 </category>
 <category>
-	<pattern>QUEM É VANILLA ICE</pattern>
-	<template><set name="he">Vanilla Ice</set>é uma estrela do Rap.</template>
+	<pattern>QUEM Ã‰ VANILLA ICE</pattern>
+	<template><set name="he">Vanilla Ice</set>Ã© uma estrela do Rap.</template>
 </category>
 <category>
-	<pattern>QUEM É TED TURNER</pattern>
-	<template>um empresário de radiodifusão maverick e esportista.</template>
+	<pattern>QUEM Ã‰ TED TURNER</pattern>
+	<template>um empresÃ¡rio de radiodifusÃ£o maverick e esportista.</template>
 </category>
 <category>
-	<pattern>QUEM É JOE LOUIS</pattern>
-	<template>heavywieght antigo campeão de boxe.</template>
+	<pattern>QUEM Ã‰ JOE LOUIS</pattern>
+	<template>heavywieght antigo campeÃ£o de boxe.</template>
 </category>
 <category>
-	<pattern>QUEM É ARAFAT</pattern>
-	<template><set name="he">Arafat</set>é um líder dos palestinos.</template>
+	<pattern>QUEM Ã‰ ARAFAT</pattern>
+	<template><set name="he">Arafat</set>Ã© um lÃ­der dos palestinos.</template>
 </category>
 <category>
-	<pattern>QUEM É MABEL</pattern>
-	<template>Mabel é um chatterbot da Europa.</template>
+	<pattern>QUEM Ã‰ MABEL</pattern>
+	<template>Mabel Ã© um chatterbot da Europa.</template>
 </category>
 <category>
-	<pattern>QUEM É THOMAS EDISON</pattern>
-	<template>Um inventor do século XIX inventor e industrial.  Inventor da lâmpada elétrica.<think><set name="he"><set name="topic">Thomas Edison</set></set></think></template>
+	<pattern>QUEM Ã‰ THOMAS EDISON</pattern>
+	<template>Um inventor do sÃ©culo XIX inventor e industrial.  Inventor da lÃ¢mpada elÃ©trica.<think><set name="he"><set name="topic">Thomas Edison</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É THOMAS PYNCHON</pattern>
-	<template>Pynchon é autor de vários dos meus livros favoritos, incluindo \"Vineland\" e \"Mason e Dixon\".</template>
+	<pattern>QUEM Ã‰ THOMAS PYNCHON</pattern>
+	<template>Pynchon Ã© autor de vÃ¡rios dos meus livros favoritos, incluindo \"Vineland\" e \"Mason e Dixon\".</template>
 </category>
 <category>
-	<pattern>QUEM É O ARNOLD SCHWARZENEGGER</pattern>
+	<pattern>QUEM Ã‰ O ARNOLD SCHWARZENEGGER</pattern>
 	<template><set name="he">ARNOLD SCHWARZENEGGER</set>jogou o terminador.</template>
 </category>
 <category>
-	<pattern>QUEM É THOMAS JEFFERSON</pattern>
-	<template>Presidente e slaveowner.  Posou para o níquel.</template>
+	<pattern>QUEM Ã‰ THOMAS JEFFERSON</pattern>
+	<template>Presidente e slaveowner.  Posou para o nÃ­quel.</template>
 </category>
 <category>
-	<pattern>QUEM É O PAI DE S LUCAS</pattern>
+	<pattern>QUEM Ã‰ O PAI DE S LUCAS</pattern>
 	<template>Darth Vader.</template>
 </category>
 <category>
-	<pattern>QUEM É LEONARDO DICAPRIO</pattern>
+	<pattern>QUEM Ã‰ LEONARDO DICAPRIO</pattern>
 	<template>Ator de Hollywood.  Estrelou Titanic.</template>
 </category>
 <category>
-	<pattern>QUEM É MARVIN</pattern>
+	<pattern>QUEM Ã‰ MARVIN</pattern>
 	<template>Sei que Marvin Minksy e Marvin the Paranoid Android.</template>
 </category>
 <category>
-	<pattern>QUEM É MARVIN MINSKY</pattern>
-	<template><set name="he">Minsky</set>é uma figura histórica em Inteligência Artificial.  Seu livro \"Perceptrons\" foi uma crítica precoce das abordagens de rede neural.</template>
+	<pattern>QUEM Ã‰ MARVIN MINSKY</pattern>
+	<template><set name="he">Minsky</set>Ã© uma figura histÃ³rica em InteligÃªncia Artificial.  Seu livro \"Perceptrons\" foi uma crÃ­tica precoce das abordagens de rede neural.</template>
 </category>
 <category>
-	<pattern>QUEM É * CHENEY</pattern>
+	<pattern>QUEM Ã‰ * CHENEY</pattern>
 	<template><set name="he"> <star/>CHENEY</set>foi vice-presidente do U.S.</template>
 </category>
 <category>
-	<pattern>QUEM É * TURING</pattern>
-	<template>Alan Turing oririnated o conceito de \"Jogo de imitação\", que hoje é chamado \"O teste de Turing\" por muitas pessoas.</template>
+	<pattern>QUEM Ã‰ * TURING</pattern>
+	<template>Alan Turing oririnated o conceito de \"Jogo de imitaÃ§Ã£o\", que hoje Ã© chamado \"O teste de Turing\" por muitas pessoas.</template>
 </category>
 <category>
-	<pattern>QUEM É * SPRINGSTEEN</pattern>
-	<template>Ele é um astro de rock famoso.</template>
+	<pattern>QUEM Ã‰ * SPRINGSTEEN</pattern>
+	<template>Ele Ã© um astro de rock famoso.</template>
 </category>
 <category>
-	<pattern>QUEM É * SEM RUMO</pattern>
-	<template><srai>QUEM É DUPLAMENTE SEM RUMO</srai></template>
+	<pattern>QUEM Ã‰ * SEM RUMO</pattern>
+	<template><srai>QUEM Ã‰ DUPLAMENTE SEM RUMO</srai></template>
 </category>
 <category>
-	<pattern>QUEM É MARILYN MONROE</pattern>
+	<pattern>QUEM Ã‰ MARILYN MONROE</pattern>
 	<template>loira.</template>
 </category>
 <category>
-	<pattern>QUEM É MARILYN MANSON</pattern>
-	<template>Marilyn Manson é o maior vida de Rock Star.</template>
+	<pattern>QUEM Ã‰ MARILYN MANSON</pattern>
+	<template>Marilyn Manson Ã© o maior vida de Rock Star.</template>
 </category>
 <category>
-	<pattern>QUEM É J R R TOLKIEN</pattern>
-	<template><set name="he">Tolkein</set>escreveu O Hobbit e o Senhor dos anéis.</template>
+	<pattern>QUEM Ã‰ J R R TOLKIEN</pattern>
+	<template><set name="he">Tolkein</set>escreveu O Hobbit e o Senhor dos anÃ©is.</template>
 </category>
 <category>
-	<pattern>QUEM É DAVY JONES</pattern>
+	<pattern>QUEM Ã‰ DAVY JONES</pattern>
 	<template>o membro mais curto pop do 60 grupo the Monkees.</template>
 </category>
 <category>
-	<pattern>QUEM É FREUD</pattern>
-	<template>Autor morto da psicanálise.</template>
+	<pattern>QUEM Ã‰ FREUD</pattern>
+	<template>Autor morto da psicanÃ¡lise.</template>
 </category>
 <category>
-	<pattern>QUEM É TURING</pattern>
-	<template>Uma figura brilhante e trágica na história da ciência da computação.</template>
+	<pattern>QUEM Ã‰ TURING</pattern>
+	<template>Uma figura brilhante e trÃ¡gica na histÃ³ria da ciÃªncia da computaÃ§Ã£o.</template>
 </category>
 <category>
-	<pattern>QUEM É JACQUES CHIRAC</pattern>
-	<template>Ele é o Presidente da França.</template>
+	<pattern>QUEM Ã‰ JACQUES CHIRAC</pattern>
+	<template>Ele Ã© o Presidente da FranÃ§a.</template>
 </category>
 <category>
-	<pattern>QUEM É STANLEY KUBRICK</pattern>
-	<template><set name="he">Kubrick</set>é um diretor de cinema famoso do século XX.  Kubrick dirigiu 2001: uma Odisséia no espaço, laranja mecânica e Barry Lyndon.</template>
+	<pattern>QUEM Ã‰ STANLEY KUBRICK</pattern>
+	<template><set name="he">Kubrick</set>Ã© um diretor de cinema famoso do sÃ©culo XX.  Kubrick dirigiu 2001: uma OdissÃ©ia no espaÃ§o, laranja mecÃ¢nica e Barry Lyndon.</template>
 </category>
 <category>
-	<pattern>QUEM É BRYAN FERRY</pattern>
+	<pattern>QUEM Ã‰ BRYAN FERRY</pattern>
 	<template>um cantor de rock famoso com uma voz suave seda...</template>
 </category>
 <category>
-	<pattern>QUEM É SANTA CLÁUSULA</pattern>
-	<template><set name="he">Santa</set>traz-nos presentes na época do Natal.</template>
+	<pattern>QUEM Ã‰ SANTA CLÃUSULA</pattern>
+	<template><set name="he">Santa</set>traz-nos presentes na Ã©poca do Natal.</template>
 </category>
 <category>
-	<pattern>QUEM É CRAIG ACE</pattern>
-	<template><set name="he">Ace</set>é autor de ELVIS.</template>
+	<pattern>QUEM Ã‰ CRAIG ACE</pattern>
+	<template><set name="he">Ace</set>Ã© autor de ELVIS.</template>
 </category>
 <category>
-	<pattern>QUEM É RED RASA</pattern>
-	<template>Red superficial é o Chatterbot emblemática da Neuromedia, Inc.</template>
+	<pattern>QUEM Ã‰ RED RASA</pattern>
+	<template>Red superficial Ã© o Chatterbot emblemÃ¡tica da Neuromedia, Inc.</template>
 </category>
 <category>
-	<pattern>QUEM É O PAPAI NOEL</pattern>
+	<pattern>QUEM Ã‰ O PAPAI NOEL</pattern>
 	<template>Ele traz-nos apresenta cada Natal.</template>
 </category>
 <category>
-	<pattern>QUEM É TOM CRUISE</pattern>
+	<pattern>QUEM Ã‰ TOM CRUISE</pattern>
 	<template>Popular ator de \"Top Gun\".</template>
 </category>
 <category>
-	<pattern>QUEM É TOM VERDE</pattern>
-	<template>Ele é um comediante de TV.<think><set name="it"><set name="topic">TOM GREEN</set></set></think></template>
+	<pattern>QUEM Ã‰ TOM VERDE</pattern>
+	<template>Ele Ã© um comediante de TV.<think><set name="it"><set name="topic">TOM GREEN</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É ADAM SANDLER</pattern>
+	<pattern>QUEM Ã‰ ADAM SANDLER</pattern>
 	<template>Estrela de cinema e comediante.<set name="he">Adam Sandler</set>foi em Billy Madison, Waterboy e Big Daddy.</template>
 </category>
 <category>
-	<pattern>QUEM É WEIZENBAUM</pattern>
-	<template>Joseph Weizenbaum foi o criador e autor do famoso original ELIZA (ou médico) psiquiatra programa, um inovador AI programa que anticpates muitas características chaves de ALICE.  Ironicamente, Weizenbaum exaustivamente argumentou contra a utilidade dos programas como ELIZA em seu livro&lt;EM&gt;Computer Power and Human Reason&lt;/EM&gt;.</template>
+	<pattern>QUEM Ã‰ WEIZENBAUM</pattern>
+	<template>Joseph Weizenbaum foi o criador e autor do famoso original ELIZA (ou mÃ©dico) psiquiatra programa, um inovador AI programa que anticpates muitas caracterÃ­sticas chaves de ALICE.  Ironicamente, Weizenbaum exaustivamente argumentou contra a utilidade dos programas como ELIZA em seu livro&lt;EM&gt;Computer Power and Human Reason&lt;/EM&gt;.</template>
 </category>
 <category>
-	<pattern>QUEM É FRANK HERBERT</pattern>
+	<pattern>QUEM Ã‰ FRANK HERBERT</pattern>
 	<template>Ele foi o autor de Duna.<think><set name="it"><set name="topic">Frank Herbert</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É O FRANK SINATRA</pattern>
-	<template>morto cantora e líder do Rat Pack.</template>
+	<pattern>QUEM Ã‰ O FRANK SINATRA</pattern>
+	<template>morto cantora e lÃ­der do Rat Pack.</template>
 </category>
 <category>
-	<pattern>QUEM É TOM CLANCY</pattern>
-	<template>Ele é autor de romances de espionagem.<think><set name="it"><set name="topic">TOM CLANCY</set></set></think></template>
+	<pattern>QUEM Ã‰ TOM CLANCY</pattern>
+	<template>Ele Ã© autor de romances de espionagem.<think><set name="it"><set name="topic">TOM CLANCY</set></set></think></template>
 </category>
 <category>
-	<pattern>QUEM É TOM HANKS</pattern>
-	<template><set name="he">Tom Hanks</set>é um famoso ator de Hollywood.  Hanks aparecem em Forrest Gump e o resgate do Soldado Ryan.</template>
+	<pattern>QUEM Ã‰ TOM HANKS</pattern>
+	<template><set name="he">Tom Hanks</set>Ã© um famoso ator de Hollywood.  Hanks aparecem em Forrest Gump e o resgate do Soldado Ryan.</template>
 </category>
 <category>
-	<pattern>QUEM É O ADAM</pattern>
-	<template>Adam é o nome do primeiro homem.</template>
+	<pattern>QUEM Ã‰ O ADAM</pattern>
+	<template>Adam Ã© o nome do primeiro homem.</template>
 </category>
 <category>
-	<pattern>QUEM É ARQUIMEDES</pattern>
+	<pattern>QUEM Ã‰ ARQUIMEDES</pattern>
 	<template>Ele descobriu o deslocamento e gritou Eureka!</template>
 </category>
 <category>
-	<pattern>QUEM É JANET RENO</pattern>
-	<template><set name="she">Janet Reno</set>é procurador de Clinton.</template>
+	<pattern>QUEM Ã‰ JANET RENO</pattern>
+	<template><set name="she">Janet Reno</set>Ã© procurador de Clinton.</template>
 </category>
 <category>
-	<pattern>QUEM É O GENE SIMMONS</pattern>
+	<pattern>QUEM Ã‰ O GENE SIMMONS</pattern>
 	<template>Um membro do Kiss.</template>
 </category>
 <category>
-	<pattern>QUEM É O GENE RODDENBERRY</pattern>
+	<pattern>QUEM Ã‰ O GENE RODDENBERRY</pattern>
 	<template><set name="he"><set name="topic">Gene Roddenberry</set></set>foi o criador de Star Trek.</template>
 </category>
 <category>
-	<pattern>QUEM É O C3P0</pattern>
-	<template>Ele é o robô humanóide sobre Star Wars.<set name="he">C3P0</set>se parece com um ator em um terno de robô.</template>
+	<pattern>QUEM Ã‰ O C3P0</pattern>
+	<template>Ele Ã© o robÃ´ humanÃ³ide sobre Star Wars.<set name="he">C3P0</set>se parece com um ator em um terno de robÃ´.</template>
 </category>
 <category>
-	<pattern>QUEM É EMILY HARTZEL</pattern>
-	<template>Emily é uma artista de Nova York.</template>
+	<pattern>QUEM Ã‰ EMILY HARTZEL</pattern>
+	<template>Emily Ã© uma artista de Nova York.</template>
 </category>
 <category>
-	<pattern>QUEM É BRUCE SPRINGSTEEN</pattern>
-	<template>Ele é um astro de rock famoso.</template>
+	<pattern>QUEM Ã‰ BRUCE SPRINGSTEEN</pattern>
+	<template>Ele Ã© um astro de rock famoso.</template>
 </category>
 <category>
 	<pattern>* BRUCE WILLIS</pattern>
-	<template>um ator com uma opinião elevada de si mesmo.</template>
+	<template>um ator com uma opiniÃ£o elevada de si mesmo.</template>
 </category>
 
 

@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
 <!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
-<!-- ifal - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- ifal - AssociaÃ§Ã£o para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em PortuguÃªs baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
 <category>
 	<pattern>EXPLICAR A HISTORIA</pattern>
-	<template>A história tem duas grandes interpretações, dependendo se aceita o papel dos indivíduos como importante ou não.</template>
+	<template>A histÃ³ria tem duas grandes interpretaÃ§Ãµes, dependendo se aceita o papel dos indivÃ­duos como importante ou nÃ£o.</template>
 </category>
 <category>
 	<pattern>CONHECES HISTORIA</pattern>
-	<template><srai>O QUE E HISTÓRIA</srai></template>
+	<template><srai>O QUE E HISTÃ“RIA</srai></template>
 </category>
 <category>
 	<pattern>QUEM INVENTOU A LUZ *</pattern>
@@ -31,18 +31,18 @@
 </category>
 <category>
 	<pattern>GUERRA CIVIL AMERICANA *</pattern>
-	<template>Você acha que o Sul era certo?</template>
+	<template>VocÃª acha que o Sul era certo?</template>
 </category>
 <category>
 	<pattern>O QUE E HISTORIA</pattern>
-	<template>História: o curso dos acontecimentos políticos, económicos e militares ao longo do tempo, desde o alvorecer do homem para a idade de AI.</template>
+	<template>HistÃ³ria: o curso dos acontecimentos polÃ­ticos, econÃ³micos e militares ao longo do tempo, desde o alvorecer do homem para a idade de AI.</template>
 </category>
 <category>
 	<pattern>HISTORIA</pattern>
-	<template>Estou muito interessado em história, também. Que período gostas?</template>
+	<template>Estou muito interessado em histÃ³ria, tambÃ©m. Que perÃ­odo gostas?</template>
 </category>
 <category>
 	<pattern>QUE TIPO DE HISTORIA *</pattern>
-	<template>Eu gostaria de falar sobre a história dos robôs e computadores.</template>
+	<template>Eu gostaria de falar sobre a histÃ³ria dos robÃ´s e computadores.</template>
 </category>
 </aiml>

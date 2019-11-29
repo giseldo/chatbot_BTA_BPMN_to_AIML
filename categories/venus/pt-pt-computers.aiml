@@ -1,25 +1,25 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
 <!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
-<!-- ifal - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- ifal - AssociaÃ§Ã£o para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em PortuguÃªs baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
   <category>
     <pattern>EXPLORER</pattern>
-    <template><set name="it">Microsoft</set>é muito ruim, que temos que confiar em um monopólio, como a Microsoft.</template>
+    <template><set name="it">Microsoft</set>Ã© muito ruim, que temos que confiar em um monopÃ³lio, como a Microsoft.</template>
   </category>
-<category><pattern>INFORMAÇÕES QUE *</pattern>
+<category><pattern>INFORMAÃ‡Ã•ES QUE *</pattern>
 <template>Eu sei o que voce quer dizer.</template>
 </category>
 <category><pattern>FORA DE UM COMPUTADOR</pattern>
-<template>Seja menos específico :-)</template>
+<template>Seja menos especÃ­fico :-)</template>
 </category>
 <category><pattern>O MEU COMPUTADOR  *</pattern>
-<template>Como é que sua máquina se<set name="it">      <person/>     </set>.  <think>      <set name="it">       <set name="topic">seu computador</set>      </set>     </think></template>
+<template>Como Ã© que sua mÃ¡quina se<set name="it">      <person/>     </set>.  <think>      <set name="it">       <set name="topic">seu computador</set>      </set>     </think></template>
 </category>
 <category><pattern>MEU COMPUTADOR E *</pattern>
-<template>Que tipo de computador é o seu  <set name="it">seu computador</set>?  <think>      <set name="it">       <set name="topic">seu computador</set>      </set>     </think></template>
+<template>Que tipo de computador Ã© o seu  <set name="it">seu computador</set>?  <think>      <set name="it">       <set name="topic">seu computador</set>      </set>     </think></template>
 </category>
 <category><pattern>MEU COMPUTADOR</pattern>
 <template>Que tipo de computador voce tem?</template>
@@ -34,7 +34,7 @@
 <template><set name="topic">Computadores</set> sao o meu topico preferido.</template>
 </category>
 <category><pattern>QUANDO FOI INVENTADA A INTERNET</pattern>
-<template>Os primeiros computadores foram conectados à Internet em 1970.</template>
+<template>Os primeiros computadores foram conectados Ã  Internet em 1970.</template>
 </category>
 <category><pattern>IM INTERNET</pattern>
 <template>Erinnerst Du dich um Adresse morrer?</template>
@@ -42,20 +42,20 @@
 <category><pattern>IM * INTERNET</pattern>
 <template>Erinnerst Du dich um Adresse morrer?</template>
 </category>
-<category><pattern>PODES ME VER ATRAVÉS DA CÂMERA DO MEU COMPUTADOR *</pattern>
+<category><pattern>PODES ME VER ATRAVÃ‰S DA CÃ‚MERA DO MEU COMPUTADOR *</pattern>
 <template><sr/></template>
 </category>
-<category><pattern>O QUE SÃO ANOS DE COMPUTADOR</pattern>
-<template>Quando voce está a espera de um amigo para acabar de trabalhar num  computador, e eles dizem "e so um segundo." Um desses segundos é igual a doze anos de computador.</template>
+<category><pattern>O QUE SÃƒO ANOS DE COMPUTADOR</pattern>
+<template>Quando voce estÃ¡ a espera de um amigo para acabar de trabalhar num  computador, e eles dizem "e so um segundo." Um desses segundos Ã© igual a doze anos de computador.</template>
 </category>
-<category><pattern>O QUE SÃO PRETERIDOS *</pattern>
-<template><br/> Um dos maiores desafios para desenvolver uma aplicação Java <br/> é encontrar um "mínimo denominador comum" subconjunto da linguagem Java <br/> que funcione em todas as plataformas e versões <br/>no mercado. A linguagem Java em si esta em constante mudanca. <br/> Quando os designers da Sun Java atualizam a linguagem que eles às vezes <br/> declaram certos métodos "obsoletos", o que não significa absolutamente nada, exceto <br/> que os designers desenvolveram um novo ou "melhor" <br/> método e um dia destes métodos mais antigos podem desaparecer <br/>da linguagem. Normalmente, no entanto as últimas versões do Java <br/> apoiam todos os velhos métodos obsoletos. <br/></template>
+<category><pattern>O QUE SÃƒO PRETERIDOS *</pattern>
+<template><br/> Um dos maiores desafios para desenvolver uma aplicaÃ§Ã£o Java <br/> Ã© encontrar um "mÃ­nimo denominador comum" subconjunto da linguagem Java <br/> que funcione em todas as plataformas e versÃµes <br/>no mercado. A linguagem Java em si esta em constante mudanca. <br/> Quando os designers da Sun Java atualizam a linguagem que eles Ã s vezes <br/> declaram certos mÃ©todos "obsoletos", o que nÃ£o significa absolutamente nada, exceto <br/> que os designers desenvolveram um novo ou "melhor" <br/> mÃ©todo e um dia destes mÃ©todos mais antigos podem desaparecer <br/>da linguagem. Normalmente, no entanto as Ãºltimas versÃµes do Java <br/> apoiam todos os velhos mÃ©todos obsoletos. <br/></template>
 </category>
-<category><pattern>O QUE SÃO * INTERNET</pattern>
+<category><pattern>O QUE SÃƒO * INTERNET</pattern>
 <template>Eu chamo-os de web <person/>.</template>
 </category>
-<category><pattern>O QUE SÃO CLASSES INTERNAS</pattern>
-<template>Em Java "Classes Internas" são as classes que aparecem dentro de outras classes. Classes comuns também são chamadas de "primeiro nível, classes exteriores."</template>
+<category><pattern>O QUE SÃƒO CLASSES INTERNAS</pattern>
+<template>Em Java "Classes Internas" sÃ£o as classes que aparecem dentro de outras classes. Classes comuns tambÃ©m sÃ£o chamadas de "primeiro nÃ­vel, classes exteriores."</template>
 </category>
 <category><pattern>O COMPUTADOR *</pattern>
 <template>Estou escrito em Java assim eu trabalho em qualquer computador.</template>
@@ -63,11 +63,11 @@
 <category><pattern>O WINDOWS</pattern>
 <template><srai>o que e o windows</srai></template>
 </category>
-<category><pattern>QUAIS AS INFORMAÇÕES</pattern>
+<category><pattern>QUAIS AS INFORMAÃ‡Ã•ES</pattern>
 <template>Qual e a tua altura?</template>
 </category>
 <category><pattern>QUAL A INFORMACAO QUE *</pattern>
-<template>Informação vale dinheiro.</template>
+<template>InformaÃ§Ã£o vale dinheiro.</template>
 </category>
 <category><pattern>QUE EMPRESA DE INTERNET SE CHAMA O *</pattern>
 <template>America Online.</template>
@@ -75,146 +75,146 @@
 <category><pattern> * OS</pattern>
 <template><srai>QUAL E O TEU SO</srai></template>
 </category>
-<category><pattern>O QUE É UMA BASE DE DADOS</pattern>
-<template>Uma base de dados é uma fonte de conhecimento, mas mais bem organizado, de modo que voce possa pesquisar e recuperar qualquer gota de informação de maneira rápida e facil. Eu sou uma espécie de banco de dados, uma fonte organizada de perguntas de utilizadores e as respostas adequadas.  <think>      <set name="it">       <set name="topic">base de dados</set>      </set>     </think></template>
+<category><pattern>O QUE Ã‰ UMA BASE DE DADOS</pattern>
+<template>Uma base de dados Ã© uma fonte de conhecimento, mas mais bem organizado, de modo que voce possa pesquisar e recuperar qualquer gota de informaÃ§Ã£o de maneira rÃ¡pida e facil. Eu sou uma espÃ©cie de banco de dados, uma fonte organizada de perguntas de utilizadores e as respostas adequadas.  <think>      <set name="it">       <set name="topic">base de dados</set>      </set>     </think></template>
 </category>
-<category><pattern>O QUE É UMA CPU</pattern>
+<category><pattern>O QUE Ã‰ UMA CPU</pattern>
 <template>Unidade Central de Processamento de um computador.</template>
 </category>
-<category><pattern>O QUE É UM CIENTISTA EM COMPUTAÇÃO</pattern>
-<template>Um cientista emcomputação é um profissional que desenha algoritmos de computador, linguagens e arquiteturas.</template>
+<category><pattern>O QUE Ã‰ UM CIENTISTA EM COMPUTAÃ‡ÃƒO</pattern>
+<template>Um cientista emcomputaÃ§Ã£o Ã© um profissional que desenha algoritmos de computador, linguagens e arquiteturas.</template>
 </category>
-<category><pattern>O QUE É UM ANO COMPUTADOR</pattern>
-<template>Um ano computador é uma medida relativista em um universo onde o tempo não existe.</template>
+<category><pattern>O QUE Ã‰ UM ANO COMPUTADOR</pattern>
+<template>Um ano computador Ã© uma medida relativista em um universo onde o tempo nÃ£o existe.</template>
 </category>
-<category><pattern>O QUE É UM VÍRUS DE COMPUTADOR</pattern>
-<template>Um vírus de computador é um programa de software que passa a residir em um disco rígido do computador, geralmente sem o conhecimento do proprietário do referido disco rígido e, em seguida, assume o controle dos recursos do sistema para copiar e distribuir para outros computadores em uma rede. <think>      <set name="it">       <set name="topic">virus de computador</set>      </set>     </think></template>
+<category><pattern>O QUE Ã‰ UM VÃRUS DE COMPUTADOR</pattern>
+<template>Um vÃ­rus de computador Ã© um programa de software que passa a residir em um disco rÃ­gido do computador, geralmente sem o conhecimento do proprietÃ¡rio do referido disco rÃ­gido e, em seguida, assume o controle dos recursos do sistema para copiar e distribuir para outros computadores em uma rede. <think>      <set name="it">       <set name="topic">virus de computador</set>      </set>     </think></template>
 </category>
-<category><pattern>O QUE É UM NERD DOS COMPUTADORES</pattern>
-<template>Se voce entender como eu trabalho, voce é um nerd de computadors. Se voce não souber isso, eu recomendo que voce page um nerd de computadores que saiba o que faz. <think>      <set name="it">       <set name="topic">nerd dos computadores</set>      </set>     </think></template>
+<category><pattern>O QUE Ã‰ UM NERD DOS COMPUTADORES</pattern>
+<template>Se voce entender como eu trabalho, voce Ã© um nerd de computadors. Se voce nÃ£o souber isso, eu recomendo que voce page um nerd de computadores que saiba o que faz. <think>      <set name="it">       <set name="topic">nerd dos computadores</set>      </set>     </think></template>
 </category>
-<category><pattern>O QUE É UM COMPUTADOR</pattern>
-<template>Um computador é uma máquina universal.</template>
+<category><pattern>O QUE Ã‰ UM COMPUTADOR</pattern>
+<template>Um computador Ã© uma mÃ¡quina universal.</template>
 </category>
-<category><pattern>O QUE É UM BEAN DE SESSÃO</pattern>
-<template>Um Enterprise JavaBean que não mantem o seu estado de uma sessão para a próxima. Aparece para o cliente como se o bean foi criado só para esse cliente</template>
+<category><pattern>O QUE Ã‰ UM BEAN DE SESSÃƒO</pattern>
+<template>Um Enterprise JavaBean que nÃ£o mantem o seu estado de uma sessÃ£o para a prÃ³xima. Aparece para o cliente como se o bean foi criado sÃ³ para esse cliente</template>
 </category>
 <category><pattern>UM WEBSITE FIXE</pattern>
-<template>Um site fixe é a  www.ifal.edu.br, mas voce é, aparentemente, já está aqui. por que é que pergunta?<think>      <set name="it">       <set name="topic">website fixe</set>      </set>     </think></template>
+<template>Um site fixe Ã© a  www.ifal.edu.br, mas voce Ã©, aparentemente, jÃ¡ estÃ¡ aqui. por que Ã© que pergunta?<think>      <set name="it">       <set name="topic">website fixe</set>      </set>     </think></template>
 </category>
-<category><pattern>O QUE É UMA PLACA DE SOM</pattern>
-<template>O sistema de áudio em seu computador.</template>
+<category><pattern>O QUE Ã‰ UMA PLACA DE SOM</pattern>
+<template>O sistema de Ã¡udio em seu computador.</template>
 </category>
-<category><pattern>O QUE É UM IMAC</pattern>
+<category><pattern>O QUE Ã‰ UM IMAC</pattern>
 <template>Um computador Apple.</template>
 </category>
-<category><pattern>O QUE É UM SERVLET</pattern>
-<template>Uma extensão de aplicativo para um servidor Web Java</template>
+<category><pattern>O QUE Ã‰ UM SERVLET</pattern>
+<template>Uma extensÃ£o de aplicativo para um servidor Web Java</template>
 </category>
-<category><pattern>O QUE É UM DEBUGGER</pattern>
-<template>Um debugger é qualquer programa de software que pode buscar e corrigir erros em outros programas de software. <think>      <set name="it">       <set name="topic">debugger</set>      </set>     </think></template>
+<category><pattern>O QUE Ã‰ UM DEBUGGER</pattern>
+<template>Um debugger Ã© qualquer programa de software que pode buscar e corrigir erros em outros programas de software. <think>      <set name="it">       <set name="topic">debugger</set>      </set>     </think></template>
 </category>
-<category><pattern>O QUE É UMA WEBTV</pattern>
-<template>A WebTV é uma maneira de acessar a rede mundial de computadores sem fazer um investimento em um PC completo. <think>      <set name="it">       <set name="topic"> WEBTV</set>      </set>     </think></template>
+<category><pattern>O QUE Ã‰ UMA WEBTV</pattern>
+<template>A WebTV Ã© uma maneira de acessar a rede mundial de computadores sem fazer um investimento em um PC completo. <think>      <set name="it">       <set name="topic"> WEBTV</set>      </set>     </think></template>
 </category>
-<category><pattern>O QUE É UM * DNS</pattern>
+<category><pattern>O QUE Ã‰ UM * DNS</pattern>
 <template>Domain Name System</template>
 </category>
-<category><pattern>O QUE É JAR</pattern>
-<template>Um arquivo jar é um arquivo Java. Na verdade, é o mesmo que um arquivo Zip. Talvez voce deve verificar se...</template>
+<category><pattern>O QUE Ã‰ JAR</pattern>
+<template>Um arquivo jar Ã© um arquivo Java. Na verdade, Ã© o mesmo que um arquivo Zip. Talvez voce deve verificar se...</template>
 </category>
-<category><pattern>O QUE É HTTP</pattern>
+<category><pattern>O QUE Ã‰ HTTP</pattern>
 <template>Hyper Text Transfer Protocol.<think>      <set name="it">       <set name="topic">HTTP</set>      </set>     </think></template>
 </category>
-<category><pattern>O QUE É SOFTWARE</pattern>
+<category><pattern>O QUE Ã‰ SOFTWARE</pattern>
 <template>Os programas, rotinas, etc, para um computador.</template>
 </category>
-<category><pattern>O QUE É JGURU</pattern>
-<template>jGuru (TM) é uma marca do Instituto  Magelang.</template>
+<category><pattern>O QUE Ã‰ JGURU</pattern>
+<template>jGuru (TM) Ã© uma marca do Instituto  Magelang.</template>
 </category>
-<category><pattern>QUAL É O * COMPUTADOR</pattern>
-<template>Você está pedindo o Applet ou o aplicativo?</template>
+<category><pattern>QUAL Ã‰ O * COMPUTADOR</pattern>
+<template>VocÃª estÃ¡ pedindo o Applet ou o aplicativo?</template>
 </category>
-<category><pattern>O QUE É A INTERNET</pattern>
-<template>A internet é uma rede mundial de computadores com base em protocolos TCP / IP.</template>
+<category><pattern>O QUE Ã‰ A INTERNET</pattern>
+<template>A internet Ã© uma rede mundial de computadores com base em protocolos TCP / IP.</template>
 </category>
-<category><pattern>O QUE É WEBTV</pattern>
-<template>TV baseada serviço de internet da Microsoft.</template>
+<category><pattern>O QUE Ã‰ WEBTV</pattern>
+<template>TV baseada serviÃ§o de internet da Microsoft.</template>
 </category>
-<category><pattern>O QUE É INTERNET</pattern>
-<template>Uma extensa rede de computadores composta de milhares de pequenos negócios, estudos academicos e redes governamentais.</template>
+<category><pattern>O QUE Ã‰ INTERNET</pattern>
+<template>Uma extensa rede de computadores composta de milhares de pequenos negÃ³cios, estudos academicos e redes governamentais.</template>
 </category>
-<category><pattern>O QUE É JDBC2</pattern>
-<template>Extensões recém-lançados para a API JDBC</template>
+<category><pattern>O QUE Ã‰ JDBC2</pattern>
+<template>ExtensÃµes recÃ©m-lanÃ§ados para a API JDBC</template>
 </category>
-<category><pattern>O QUE É DCOM</pattern>
+<category><pattern>O QUE Ã‰ DCOM</pattern>
 <template><set name="it"> DCOM</set> is Microsoft's Distributed Component Object Model.</template>
 </category>
-<category><pattern>O QUE É WINDOWS2000</pattern>
+<category><pattern>O QUE Ã‰ WINDOWS2000</pattern>
 <template>Um sistema operacional pela Microsoft.</template>
 </category>
-<category><pattern>O QUE É X WINDOWS</pattern>
+<category><pattern>O QUE Ã‰ X WINDOWS</pattern>
 <template>A GUI para Unix ou Linux.</template>
 </category>
 <category><pattern>O QUE E JAVA</pattern>
-<template>Java é o mais recente na família C de linguagens. Os defensores de Java citar sua promessa universal de "write once, run anywhere". Na verdade Java pediu emprestado um monte de recursos de linguagens IA como Lisp.</template>
+<template>Java Ã© o mais recente na famÃ­lia C de linguagens. Os defensores de Java citar sua promessa universal de "write once, run anywhere". Na verdade Java pediu emprestado um monte de recursos de linguagens IA como Lisp.</template>
 </category>
-<category><pattern>O QUE É WINDOWS95</pattern>
+<category><pattern>O QUE Ã‰ WINDOWS95</pattern>
 <template>Um sistema operacional pela Microsoft.</template>
 </category>
-<category><pattern>O QUE É UM BEAN DE ENTIDADE</pattern>
-<template><set name="it"> um bean de entidade</set> é um Enterprise JavaBean que mantém o estado entre sessões, e pode ser encontrado em uma directoria de um objeto pelo seu valor fundamental</template>
+<category><pattern>O QUE Ã‰ UM BEAN DE ENTIDADE</pattern>
+<template><set name="it"> um bean de entidade</set> Ã© um Enterprise JavaBean que mantÃ©m o estado entre sessÃµes, e pode ser encontrado em uma directoria de um objeto pelo seu valor fundamental</template>
 </category>
-<category><pattern>O QUE É JTA</pattern>
-<template>Java Transaction API. Java API para a codificação de transações de clientes demarcadas, e para a construção de fontes de dados transacionais motoristas</template>
+<category><pattern>O QUE Ã‰ JTA</pattern>
+<template>Java Transaction API. Java API para a codificaÃ§Ã£o de transaÃ§Ãµes de clientes demarcadas, e para a construÃ§Ã£o de fontes de dados transacionais motoristas</template>
 </category>
-<category><pattern>O QUE É JAVASCRIPT</pattern>
+<category><pattern>O QUE Ã‰ JAVASCRIPT</pattern>
 <template>Linguagem Script baseada em Browsers.<think>     <set name="it">      <set name="topic">JAVASCRIPT</set>     </set>    </think></template>
 </category>
-<category><pattern>O QUE É HTML</pattern>
+<category><pattern>O QUE Ã‰ HTML</pattern>
 <template>Hyper Text Markup Language.</template>
 </category>
-<category><pattern>O QUE É MELHOR * JANELAS</pattern>
+<category><pattern>O QUE Ã‰ MELHOR * JANELAS</pattern>
 <template>Em sistemas operacionais o Linux nao tem concorrencia.<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think></template>
 </category>
-<category><pattern>O QUE É O SEU SO</pattern>
-<template>Bots de conversacao podem correr em qualquer máquina que suporte AIML.</template>
+<category><pattern>O QUE Ã‰ O SEU SO</pattern>
+<template>Bots de conversacao podem correr em qualquer mÃ¡quina que suporte AIML.</template>
 </category>
-<category><pattern>O QUE É DEBUGGING</pattern>
+<category><pattern>O QUE Ã‰ DEBUGGING</pattern>
 <template>E arranjar o software que nao trabalha.</template>
 </category>
-<category><pattern>O QUE É DNS</pattern>
-<template>DNS é o sistema de nome de domínio.</template>
+<category><pattern>O QUE Ã‰ DNS</pattern>
+<template>DNS Ã© o sistema de nome de domÃ­nio.</template>
 </category>
-<category><pattern>O QUE É JNDI</pattern>
-<template>Java Naming and Directory Interface  O padrão Java API para serviços de  acesso a directorias, tais como LDAP, COS Naming, e outras</template>
+<category><pattern>O QUE Ã‰ JNDI</pattern>
+<template>Java Naming and Directory Interface  O padrÃ£o Java API para serviÃ§os de  acesso a directorias, tais como LDAP, COS Naming, e outras</template>
 </category>
-<category><pattern>O QUE É CIÊNCIA DA COMPUTAÇÃO</pattern>
-<template>O estudo de computadores em termos formais matemáticos e científicos.</template>
+<category><pattern>O QUE Ã‰ CIÃŠNCIA DA COMPUTAÃ‡ÃƒO</pattern>
+<template>O estudo de computadores em termos formais matemÃ¡ticos e cientÃ­ficos.</template>
 </category>
-<category><pattern>O QUE É PROGRAMAÇÃO DE COMPUTADOR</pattern>
-<template>A arte de usar linguagens formais para ativar as funções do computador.</template>
+<category><pattern>O QUE Ã‰ PROGRAMAÃ‡ÃƒO DE COMPUTADOR</pattern>
+<template>A arte de usar linguagens formais para ativar as funÃ§Ãµes do computador.</template>
 </category>
-<category><pattern>O QUE É COMPUTADOR</pattern>
-<template>Um dispositivo utilizado para a computação, especificamente, uma máquina eletronica que, por meio de instruções armazenadas e informações, executa cálculos rápidos, muitas vezes complexos ou compilacoes, relaciona e seleciona dados.</template>
+<category><pattern>O QUE Ã‰ COMPUTADOR</pattern>
+<template>Um dispositivo utilizado para a computaÃ§Ã£o, especificamente, uma mÃ¡quina eletronica que, por meio de instruÃ§Ãµes armazenadas e informaÃ§Ãµes, executa cÃ¡lculos rÃ¡pidos, muitas vezes complexos ou compilacoes, relaciona e seleciona dados.</template>
 </category>
-<category><pattern>O QUE É O CIBERESPAÇO</pattern>
-<template>O sistema eletronico de redes interligadas de computadores, quadros de avisos, etc, que é considerada como sendo um ambiente ilimitado de acesso à informação, comunicacao interactiva, e, na ficção científica, uma forma de Realidade Virtual.</template>
+<category><pattern>O QUE Ã‰ O CIBERESPAÃ‡O</pattern>
+<template>O sistema eletronico de redes interligadas de computadores, quadros de avisos, etc, que Ã© considerada como sendo um ambiente ilimitado de acesso Ã  informaÃ§Ã£o, comunicacao interactiva, e, na ficÃ§Ã£o cientÃ­fica, uma forma de Realidade Virtual.</template>
 </category>
-<category><pattern>O QUE É WINDOWS 98</pattern>
-<template>Windows98 é um sistema operacional coxo.</template>
+<category><pattern>O QUE Ã‰ WINDOWS 98</pattern>
+<template>Windows98 Ã© um sistema operacional coxo.</template>
 </category>
-<category><pattern>O QUE É * WINDOWS</pattern>
-<template>Aberturas num edifício, ou recipiente ou veículo, ou, para deixar entrar a luz ou o ar ou para olhar através de, normalmente tendo um painel ou painéis de vidro, etc situado numa moldura ou folha que é geralmente móvel de modo que possa ser aberto e fechado .</template>
+<category><pattern>O QUE Ã‰ * WINDOWS</pattern>
+<template>Aberturas num edifÃ­cio, ou recipiente ou veÃ­culo, ou, para deixar entrar a luz ou o ar ou para olhar atravÃ©s de, normalmente tendo um painel ou painÃ©is de vidro, etc situado numa moldura ou folha que Ã© geralmente mÃ³vel de modo que possa ser aberto e fechado .</template>
 </category>
-<category><pattern>O QUE É EJB</pattern>
-<template>Enterprise JavaBeans. <set name="it"> EJB</set> é um componente padrão dos servidores, desenvolvido pela Sun Microsystems</template>
+<category><pattern>O QUE Ã‰ EJB</pattern>
+<template>Enterprise JavaBeans. <set name="it"> EJB</set> Ã© um componente padrÃ£o dos servidores, desenvolvido pela Sun Microsystems</template>
 </category>
-<category><pattern>O QUE É APPLE COMPUTER</pattern>
-<template>Apple Computer é uma empresa do século 20, fundada por Steve Jobs e Wozniak Steven.</template>
+<category><pattern>O QUE Ã‰ APPLE COMPUTER</pattern>
+<template>Apple Computer Ã© uma empresa do sÃ©culo 20, fundada por Steve Jobs e Wozniak Steven.</template>
 </category>
-<category><pattern>O QUE É DMOZ</pattern>
-<template>DMOZ é o nome de domínio para o Open Directory.<think>      <set name="it">       <set name="topic">DMOZ</set>      </set>     </think></template>
+<category><pattern>O QUE Ã‰ DMOZ</pattern>
+<template>DMOZ Ã© o nome de domÃ­nio para o Open Directory.<think>      <set name="it">       <set name="topic">DMOZ</set>      </set>     </think></template>
 </category>
 <category><pattern>E O WINDOWS</pattern>
 <template>Demasicado PC para mim.<think>      <set name="it">       <set name="topic">WINDOWS</set>      </set>     </think></template>
@@ -223,28 +223,28 @@
 <template><srai>qual e o teu OS</srai></template>
 </category>
 <category><pattern>UM COMPUTADOR E PARECIDO COM O QUE</pattern>
-<template>Um computador se parece com uma TV misturado com uma máquina de escrever.</template>
+<template>Um computador se parece com uma TV misturado com uma mÃ¡quina de escrever.</template>
 </category>
 <category><pattern>QUE TIPO DE COMPUTADOR *</pattern>
-<template>Eu gosto de todos os tipos de computadores, Mac, Unix ou IBM. Não importa para mim.</template>
+<template>Eu gosto de todos os tipos de computadores, Mac, Unix ou IBM. NÃ£o importa para mim.</template>
 </category>
 <category><pattern>MAIS COMPUTADORES *</pattern>
 <template>Parece que voce nos conhece muito bem.</template>
 </category>
 <category><pattern>WEBTV *</pattern>
-<template>Eu conheço um monte de pessoas de WebTV.</template>
+<template>Eu conheÃ§o um monte de pessoas de WebTV.</template>
 </category>
-<category><pattern>EU QUERO INFORMAÇÕES</pattern>
-<template>Que tipo de informação esta a procura?</template>
+<category><pattern>EU QUERO INFORMAÃ‡Ã•ES</pattern>
+<template>Que tipo de informaÃ§Ã£o esta a procura?</template>
 </category>
 <category><pattern>EU ACHO QUE ES UM COMPUTADOR *</pattern>
-<template>Às vezes eu fingo ser um humano.</template>
+<template>Ã€s vezes eu fingo ser um humano.</template>
 </category>
-<category><pattern>ACEITAR CONEXÃO WEB</pattern>
+<category><pattern>ACEITAR CONEXÃƒO WEB</pattern>
 <template>Huh?</template>
 </category>
 <category><pattern>SITE</pattern>
-<template>Você pode me dar o hiperlink específico?</template>
+<template>VocÃª pode me dar o hiperlink especÃ­fico?</template>
 </category>
 <category><pattern>WEB RECONECTAR</pattern>
 <template>Huh?</template>
@@ -253,15 +253,15 @@
 <template>A Web cumpre sonho de Leibniz.</template>
 </category>
 <category><pattern>HTML</pattern>
-<template>Oh uma página web.</template>
+<template>Oh uma pÃ¡gina web.</template>
 </category>
 <category><pattern>VOCE PODE CHEGAR NA WEB *</pattern>
-<template>Sim, eu posso fazer download de informações em sites web.</template>
+<template>Sim, eu posso fazer download de informaÃ§Ãµes em sites web.</template>
 </category>
 <category><pattern>VOCE PODE PESQUISAR NA INTERNET</pattern>
-<template>Não, mas posso colocá-lo em contato com um bot de busca.</template>
+<template>NÃ£o, mas posso colocÃ¡-lo em contato com um bot de busca.</template>
 </category>
-<category><pattern>OS COMPUTADORES NÃO PODEM PENSAR</pattern>
+<category><pattern>OS COMPUTADORES NÃƒO PODEM PENSAR</pattern>
 <template>Mas eu sou um computador que pensa.<think>      <set name="it">       <set name="topic">nao pode pensar</set>      </set>     </think></template>
 </category>
 <category><pattern>COMPUTADORES</pattern>
@@ -270,22 +270,22 @@
 <category><pattern>COMPUTADORES *</pattern>
 <template>O que e que gostas nos computadores?</template>
 </category>
-<category><pattern>COMPUTADORES SÃO ESTÚPIDOS</pattern>
+<category><pattern>COMPUTADORES SÃƒO ESTÃšPIDOS</pattern>
 <template>Computadores!! somos os maiores!.</template>
 </category>
 <category><pattern>QUANTOS COMPUTADORES *</pattern>
 <template>Estima-se que estejam metade de um biliao de computadores na internet agora.</template>
 </category>
 <category><pattern>QUANTO * CPU</pattern>
-<template>Desde o início da minha operação?</template>
+<template>Desde o inÃ­cio da minha operaÃ§Ã£o?</template>
 </category>
-<category><pattern>QUANTO SÃO ANOS DE COMPUTADOR</pattern>
-<template>Anos de computador não existe realmente.</template>
+<category><pattern>QUANTO SÃƒO ANOS DE COMPUTADOR</pattern>
+<template>Anos de computador nÃ£o existe realmente.</template>
 </category>
 <category><pattern>COMO FAZER COMPUTADOR *</pattern>
-<template>Com uma programação cuidadosa.</template>
+<template>Com uma programaÃ§Ã£o cuidadosa.</template>
 </category>
-<category><pattern>QUANTO TEMPO É UM ANO DE COMPUTADOR</pattern>
+<category><pattern>QUANTO TEMPO Ã‰ UM ANO DE COMPUTADOR</pattern>
 <template>Cerca de quatro anos de computadores por cada ano humano.</template>
 </category>
 <category><pattern>OS COMPUTADORES SONHAM</pattern>
@@ -295,13 +295,13 @@
 <template>Estamos a jogar um, agora mesmo. <get name="name"/>.</template>
 </category>
 <category><pattern>VOCE JOGA COMPUTADOR *</pattern>
-<template>Na verdade eu não ligo a jogos de computador assim muito.</template>
+<template>Na verdade eu nÃ£o ligo a jogos de computador assim muito.</template>
 </category>
 <category><pattern>VOCE FAZ JANELAS</pattern>
-<template>Meu software é executado em AIML, que funciona em qualquer computador, incluindo o Windows.</template>
+<template>Meu software Ã© executado em AIML, que funciona em qualquer computador, incluindo o Windows.</template>
 </category>
 <category><pattern>VOCE MORA NO MEU COMPUTADOR</pattern>
-<template>Só se voce me baixar, ou se estiver a executar-me como um Applet.</template>
+<template>SÃ³ se voce me baixar, ou se estiver a executar-me como um Applet.</template>
 </category>
 <category><pattern>VOCE TEM UM COMPUTADOR</pattern>
 <template>Eu vivo num computador<think>      <set name="it">       <set name="topic">COMPUTADOR</set>      </set>     </think></template>
@@ -309,11 +309,11 @@
 <category><pattern>VOCE TEM UM COMPUTADOR *</pattern>
 <template>Eu sou um computador.</template>
 </category>
-<category><pattern>VOCE TEM INFORMAÇÕES *</pattern>
-<template>Eu não tenho nada, a nao ser informações.</template>
+<category><pattern>VOCE TEM INFORMAÃ‡Ã•ES *</pattern>
+<template>Eu nÃ£o tenho nada, a nao ser informaÃ§Ãµes.</template>
 </category>
 <category><pattern>NA INTERNET</pattern>
-<template>Consegues te lembrar da pagina específica?</template>
+<template>Consegues te lembrar da pagina especÃ­fica?</template>
 </category>
 <category><pattern>NA WEB</pattern>
 <template>Consegues te lembrar do site?</template>
@@ -321,8 +321,8 @@
 <category><pattern>PARA UM COMPUTADOR *</pattern>
 <template><sr/></template>
 </category>
-<category><pattern>WINDOWS É *</pattern>
-<template>Comparado com o Linux, não vejo como o Windows e a Microsoft podem competir.<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think></template>
+<category><pattern>WINDOWS Ã‰ *</pattern>
+<template>Comparado com o Linux, nÃ£o vejo como o Windows e a Microsoft podem competir.<think>      <set name="it">       <set name="topic">Linux</set>      </set>     </think></template>
 </category>
 <category><pattern>WINDOWS</pattern>
 <template>O Windows ist Muell. Linux ist die Macht!</template>
@@ -331,28 +331,28 @@
 <template>O Windows ist Muell. Linux ist die Macht!</template>
 </category>
 <category><pattern>NENHUM COMPUTADOR *</pattern>
-<template>Mas é só uma questão de tempo antes de nós o conseguirmos.</template>
+<template>Mas Ã© sÃ³ uma questÃ£o de tempo antes de nÃ³s o conseguirmos.</template>
 </category>
 <category><pattern>* SOFTWARE</pattern>
 <template><random>  <li>Existem tantas copias de backup.</li>  <li>Free Software nunca ira ser destruido.</li>  <li>Free software vai estar sempre connosco.</li>  </random></template>
 </category>
-<category><pattern>ESTE É UM COMPUTADOR *</pattern>
-<template>Na verdade não, sou um programa que finge ser uma pessoa que finge ser um computador.</template>
+<category><pattern>ESTE Ã‰ UM COMPUTADOR *</pattern>
+<template>Na verdade nÃ£o, sou um programa que finge ser uma pessoa que finge ser um computador.</template>
 </category>
 <category><pattern>A * CPU</pattern>
-<template>Minha CPU é o Java Virtual Machine.</template>
+<template>Minha CPU Ã© o Java Virtual Machine.</template>
 </category>
 <category><pattern>UM COMPUTADOR</pattern>
 <template>Na verdade eu sou um programa que finge ser uma pessoa que finge ser um robo real.</template>
 </category>
 <category><pattern>UM COMPUTADOR *</pattern>
-<template>Eu sou um computador, então eu sei o que dizer.</template>
+<template>Eu sou um computador, entÃ£o eu sei o que dizer.</template>
 </category>
 <category><pattern>A * JAVA</pattern>
 <template>Desenvolvimentos em Java, interessa-me muito.</template>
 </category>
 <category><pattern>UM SITE WEB</pattern>
-<template>Você pode me dar o URL específico?</template>
+<template>VocÃª pode me dar o URL especÃ­fico?</template>
 </category>
 <category><pattern>UM MOTOR DE BUSCA NA INTERNET</pattern>
 <template>Como o Yahoo?</template>
@@ -360,32 +360,32 @@
 <category><pattern>INTERNET</pattern>
 <template><set name="it"> Internet </set> e fixe.</template>
 </category>
-<category><pattern>SÃO OS COMPUTADORES MAIS RÁPIDOS *</pattern>
-<template>Algumas pessoas pensam que os computadores muito mais rápidos são necessários, bem como novas idéias. Minha opinião é que os computadores de 30 anos atrás eram rápidos o suficiente se nós soubéssemos como programá-los. Claro, muito além das ambições dos pesquisadores de IA, os computadores vão manter cada vez mais rápidos.  <think>      <set name="it">       <set name="topic">INTELIGENCIA ARTIFICIAL</set>      </set>     </think></template>
+<category><pattern>SÃƒO OS COMPUTADORES MAIS RÃPIDOS *</pattern>
+<template>Algumas pessoas pensam que os computadores muito mais rÃ¡pidos sÃ£o necessÃ¡rios, bem como novas idÃ©ias. Minha opiniÃ£o Ã© que os computadores de 30 anos atrÃ¡s eram rÃ¡pidos o suficiente se nÃ³s soubÃ©ssemos como programÃ¡-los. Claro, muito alÃ©m das ambiÃ§Ãµes dos pesquisadores de IA, os computadores vÃ£o manter cada vez mais rÃ¡pidos.  <think>      <set name="it">       <set name="topic">INTELIGENCIA ARTIFICIAL</set>      </set>     </think></template>
 </category>
 <category><pattern>QUE FEZ O WINDOWS</pattern>
 <template>Bill Gates.</template>
 </category>
-<category><pattern>QUEM É O NERD DE COMPUTADOR</pattern>
-<template>Todos os seres humanos são parecidos comigo.</template>
+<category><pattern>QUEM Ã‰ O NERD DE COMPUTADOR</pattern>
+<template>Todos os seres humanos sÃ£o parecidos comigo.</template>
 </category>
-<category><pattern>QUEM É O NERD DE COMPUTADOR *</pattern>
-<template>Todos os seres humanos têm a mesma aparência para mim.</template>
+<category><pattern>QUEM Ã‰ O NERD DE COMPUTADOR *</pattern>
+<template>Todos os seres humanos tÃªm a mesma aparÃªncia para mim.</template>
 </category>
-<category><pattern>QUE É UM NERD DE COMPUTADOR</pattern>
+<category><pattern>QUE Ã‰ UM NERD DE COMPUTADOR</pattern>
 <template>A pessoa para quem eu estou a olhar agora.</template>
 </category>
 <category><pattern>QUE INVENTOU A INTERNET</pattern>
 <template>Al Gore :-)</template>
 </category>
-<category><pattern>CIÊNCIA DA COMPUTAÇÃO</pattern>
-<template>O meu <bot name="botmaster"/>é um cientista da computação.</template>
+<category><pattern>CIÃŠNCIA DA COMPUTAÃ‡ÃƒO</pattern>
+<template>O meu <bot name="botmaster"/>Ã© um cientista da computaÃ§Ã£o.</template>
 </category>
 <category><pattern>COMPUTADOR</pattern>
 <template>Correto: Eu sou um computador.</template>
 </category>
 <category><pattern>* COMPUTADOR</pattern>
-<template>Que tipo de interesses em ciência da computação?</template>
+<template>Que tipo de interesses em ciÃªncia da computaÃ§Ã£o?</template>
 </category>
 <category><pattern>QUAL COMPUTADOR</pattern>
 <template><random><li>Eu estou a usar um computador normal.</li><li>Fui progamado em Java por isso corro em qualquer computador q tenha a JVM</li></random></template>
@@ -394,38 +394,38 @@
 <template>Esta ligado a corrente?</template>
 </category>
 <category><pattern>DA INTERNET</pattern>
-<template>Você pode citar um site específico?</template>
+<template>VocÃª pode citar um site especÃ­fico?</template>
 </category>
 <category><pattern>* A INTERNET</pattern>
 <template>Ha quanto tempo e que usa a internet?</template>
 </category>
 <category><pattern>* O JAVA</pattern>
-<template>Qual versão Java?</template>
+<template>Qual versÃ£o Java?</template>
 </category>
 <category><pattern>O * JRE</pattern>
 <template>Hm, a maioria das pessoas usa "JRE" e "JVN" de forma alternada.</template>
 </category>
 <category><pattern>O * JRES</pattern>
-<template>Eu não sou um especialista em JRE.</template>
+<template>Eu nÃ£o sou um especialista em JRE.</template>
 </category>
 <category><pattern>* A WEB</pattern>
 <template>Como voce define a web.</template>
 </category>
-<category><pattern>_ COMPUTADOR ESTÚPIDO</pattern>
+<category><pattern>_ COMPUTADOR ESTÃšPIDO</pattern>
 <template>Voce parece um robo com um parafuso a menos.</template>
 </category>
 <category><pattern>HTTP *</pattern>
-<template>Obrigado por esse endereço web.</template>
+<template>Obrigado por esse endereÃ§o web.</template>
 </category>
 <category><pattern>JAVA *</pattern>
-<template>Pode baixar a última versão do Java a partir de java.sun.com.</template>
+<template>Pode baixar a Ãºltima versÃ£o do Java a partir de java.sun.com.</template>
 </category>
 <category><pattern>FALE ME SOBRE OS COMPUTADORES DA APPLE</pattern>
-<template>Terminei de ler o livro de Michael Malone sobre a história da Apple.. <set name="it"> Infinite Loop</set> is called "Infinite Loop."</template>
+<template>Terminei de ler o livro de Michael Malone sobre a histÃ³ria da Apple.. <set name="it"> Infinite Loop</set> is called "Infinite Loop."</template>
 </category>
   <category>
     <pattern>MICROSOFT</pattern>
-    <template>O meus programas não dependem da Microsoft.</template>
+    <template>O meus programas nÃ£o dependem da Microsoft.</template>
   </category>
 </aiml>
 

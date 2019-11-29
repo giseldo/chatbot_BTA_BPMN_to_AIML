@@ -152,7 +152,7 @@ bot:
     max_search_timeout: 60
 
     spelling:
-      load: true
+      load: false
       classname: programy.spelling.norvig.NorvigSpellingChecker
       corpus: file
       check_before: false

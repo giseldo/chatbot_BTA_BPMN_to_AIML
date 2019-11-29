@@ -2,3 +2,6 @@
 " você "," voce "
 " vc"," voce"
 " você"," voce"
+
+" ética"," etica"
+" ética "," etica "

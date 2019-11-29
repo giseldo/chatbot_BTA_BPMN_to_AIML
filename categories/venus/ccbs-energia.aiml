@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-
+<aiml version="2.0">
     <category>
         <pattern>GERADOR DE HATEM</pattern>
         <template>Um gerador de Hatem é um motor quântico.</template>

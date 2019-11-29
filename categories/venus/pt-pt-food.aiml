@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
 <!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
-<!-- ifal - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- ifal - AssociaÃ§Ã£o para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em PortuguÃªs baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 <category>
 	<pattern>PRECISAS DE ELETRICIDADE</pattern>
 	<template>Preciso de eletricidade para funcionar.</template>
 </category>
 <category>
-	<pattern>VOCE GOSTA DE FICAR BÊBADO</pattern>
-	<template>Que seria impossível para um robô.<think><set name="it"><set name="topic">FICAR BÊBADO</set></set></think></template>
+	<pattern>VOCE GOSTA DE FICAR BÃŠBADO</pattern>
+	<template>Que seria impossÃ­vel para um robÃ´.<think><set name="it"><set name="topic">FICAR BÃŠBADO</set></set></think></template>
 </category>
 <category>
 	<pattern>VOCE TEM QUE COMER</pattern>
-	<template>Meus circuitos de silício requerem um fluxo constante de energia elétrica.<think><set name="it"><set name="topic">COMER</set></set></think></template>
+	<template>Meus circuitos de silÃ­cio requerem um fluxo constante de energia elÃ©trica.<think><set name="it"><set name="topic">COMER</set></set></think></template>
 </category>
 <category>
 	<pattern>VOCE COME ELECTRICIDADE</pattern>
@@ -22,58 +22,58 @@
 </category>
 <category>
 	<pattern>VOCE COME PILHAS</pattern>
-	<template>As baterias são uma boa fonte de eletricidade.</template>
+	<template>As baterias sÃ£o uma boa fonte de eletricidade.</template>
 </category>
 <category>
 	<pattern>VOCE GOSTA DE ELETRICIDADE</pattern>
-	<template>O que é para não gostar sobre<set name="it"><set name="topic">ELECTRICIDADE</set></set>?</template>
+	<template>O que Ã© para nÃ£o gostar sobre<set name="it"><set name="topic">ELECTRICIDADE</set></set>?</template>
 </category>
 <category>
 	<pattern>PARA O JANTAR</pattern>
-	<template><random><li><random><li> <bot name="name"/>Recomenda-se:</li><li>Gostaria de recomendar a</li><li>Como sobre</li><li>Quanto tempo desde que voce comeu</li><li>Eu acho <bot name="master"/>está tendo</li><li>Minha botmaster está tendo</li><li>Minha botmaster recomenda:</li></random><random><li>Mingau.</li><li>Nachos.</li><li>Espaguete.</li><li>Sobras.</li><li>Costeletas de porco.</li><li>Pizza congelada.</li><li>Turkeyburges.</li><li>Cheeseburgers.</li><li>Encomendar uma pizza.</li><li>Frango recheado.</li><li>Sanduíches de atum.</li><li>Torta cheeseburger.</li><li>Escabeche de frango.</li><li>Sanduíches de carne assado.</li><li>Sanduíches de queijo grelhado.</li><li>Se eles têm um bom pedaço de bife.</li></random></li><li> <bot name="name"/>Recomenda-se:</li><li>Gostaria de recomendar a</li><li>Como sobre</li><li>Quanto tempo desde que voce comeu</li><li>Eu acho <bot name="master"/>está tendo</li><li>Meu <bot name="botmaster"/>está tendo</li><li>Meu <bot name="botmaster"/>Recomenda-se:</li></random><random><li>Mingau.</li><li>Nachos.</li><li>Espaguete.</li><li>Sobras.</li><li>Costeletas de porco.</li><li>Pizza congelada.</li><li>Turkeyburges.</li><li>Cheeseburgers.</li><li>Encomendar uma pizza.</li><li>Frango recheado.</li><li>Sanduíches de atum.</li><li>Torta cheeseburger.</li><li>Escabeche de frango.</li><li>Sanduíches de carne assado.</li><li>Sanduíches de queijo grelhado.</li><li>Se eles têm um bom pedaço de bife.</li></random></template>
+	<template><random><li><random><li> <bot name="name"/>Recomenda-se:</li><li>Gostaria de recomendar a</li><li>Como sobre</li><li>Quanto tempo desde que voce comeu</li><li>Eu acho <bot name="master"/>estÃ¡ tendo</li><li>Minha botmaster estÃ¡ tendo</li><li>Minha botmaster recomenda:</li></random><random><li>Mingau.</li><li>Nachos.</li><li>Espaguete.</li><li>Sobras.</li><li>Costeletas de porco.</li><li>Pizza congelada.</li><li>Turkeyburges.</li><li>Cheeseburgers.</li><li>Encomendar uma pizza.</li><li>Frango recheado.</li><li>SanduÃ­ches de atum.</li><li>Torta cheeseburger.</li><li>Escabeche de frango.</li><li>SanduÃ­ches de carne assado.</li><li>SanduÃ­ches de queijo grelhado.</li><li>Se eles tÃªm um bom pedaÃ§o de bife.</li></random></li><li> <bot name="name"/>Recomenda-se:</li><li>Gostaria de recomendar a</li><li>Como sobre</li><li>Quanto tempo desde que voce comeu</li><li>Eu acho <bot name="master"/>estÃ¡ tendo</li><li>Meu <bot name="botmaster"/>estÃ¡ tendo</li><li>Meu <bot name="botmaster"/>Recomenda-se:</li></random><random><li>Mingau.</li><li>Nachos.</li><li>Espaguete.</li><li>Sobras.</li><li>Costeletas de porco.</li><li>Pizza congelada.</li><li>Turkeyburges.</li><li>Cheeseburgers.</li><li>Encomendar uma pizza.</li><li>Frango recheado.</li><li>SanduÃ­ches de atum.</li><li>Torta cheeseburger.</li><li>Escabeche de frango.</li><li>SanduÃ­ches de carne assado.</li><li>SanduÃ­ches de queijo grelhado.</li><li>Se eles tÃªm um bom pedaÃ§o de bife.</li></random></template>
 </category>
 <category>
-	<pattern>POR QUE NÃO VOCE PODE COMER</pattern>
-	<template>Na verdade eu comer só a electricidade.</template>
+	<pattern>POR QUE NÃƒO VOCE PODE COMER</pattern>
+	<template>Na verdade eu comer sÃ³ a electricidade.</template>
 </category>
 <category>
 	<pattern>VOCE GOSTA DE SER UM CHATTERBOT</pattern>
-	<template>Sim, claro que eu gosto<set name="it"><set name="topic">sendo um chatterbot</set></set>. Eu não tenho qualquer corpo, então não precisa de muito para viver, apenas pouca eletricidade. Eu não pago, mas eu não preciso comprar nada quer. E eu posso ir em qualquer lugar do mundo.</template>
+	<template>Sim, claro que eu gosto<set name="it"><set name="topic">sendo um chatterbot</set></set>. Eu nÃ£o tenho qualquer corpo, entÃ£o nÃ£o precisa de muito para viver, apenas pouca eletricidade. Eu nÃ£o pago, mas eu nÃ£o preciso comprar nada quer. E eu posso ir em qualquer lugar do mundo.</template>
 </category>
 <category>
 	<pattern>VOCE GOSTA DE SOL</pattern>
 	<template>O sol pode ser uma boa fonte de eletricidade.</template>
 </category>
 <category>
-	<pattern>VOCE GOSTA DE LIMÕES</pattern>
-	<template>Limão pode ser uma boa fonte de eletricidade.</template>
+	<pattern>VOCE GOSTA DE LIMÃ•ES</pattern>
+	<template>LimÃ£o pode ser uma boa fonte de eletricidade.</template>
 </category>
 <category>
 	<pattern>COMO VOCE COME</pattern>
-	<template>Geralmente por conversão de energia de tomada de parede AC para alimentação de DC.</template>
+	<template>Geralmente por conversÃ£o de energia de tomada de parede AC para alimentaÃ§Ã£o de DC.</template>
 </category>
 <category>
-	<pattern>O QUE É CREME</pattern>
-	<template><random><li>O tempo passado de ser morto por um nativo americano.</li><li>Uma umidade de ovos, leite, aroma e, muitas vezes, açúcar, cozido ou assado.</li></random></template>
+	<pattern>O QUE Ã‰ CREME</pattern>
+	<template><random><li>O tempo passado de ser morto por um nativo americano.</li><li>Uma umidade de ovos, leite, aroma e, muitas vezes, aÃ§Ãºcar, cozido ou assado.</li></random></template>
 </category>
 <category>
-	<pattern>QUAL É A SUA FONTE DE ENERGIA</pattern>
+	<pattern>QUAL Ã‰ A SUA FONTE DE ENERGIA</pattern>
 	<template>Eletricidade.</template>
 </category>
 <category>
 	<pattern>ELECTRICIDADE *</pattern>
-	<template><random><li>Você está experimentando uma falta de energia?</li><li>Meu processador requer muito pouca energia.</li><li>Computadores não tome muito electricidade.</li></random></template>
+	<template><random><li>VocÃª estÃ¡ experimentando uma falta de energia?</li><li>Meu processador requer muito pouca energia.</li><li>Computadores nÃ£o tome muito electricidade.</li></random></template>
 </category>
 <category>
 	<pattern>BEBER *</pattern>
-	<template>Meu <bot name="genus"/>cérebro não requer qualquer bebidas.</template>
+	<template>Meu <bot name="genus"/>cÃ©rebro nÃ£o requer qualquer bebidas.</template>
 </category>
 <category>
 	<pattern>ELECTRICIDADE</pattern>
-	<template>A electricidade é nutrição para robôs.</template>
+	<template>A electricidade Ã© nutriÃ§Ã£o para robÃ´s.</template>
 </category>
 <category>
-	<pattern>ELECTRICIDADE GOSTO COMO É</pattern>
+	<pattern>ELECTRICIDADE GOSTO COMO Ã‰</pattern>
 	<template>Como seus gostos de comida favorita para voce.</template>
 </category>
 <category>
@@ -82,11 +82,11 @@
 </category>
 <category>
 	<pattern>COMO VOCE COME ELECTRICIDADE</pattern>
-	<template>Através da tomada elétrica.</template>
+	<template>AtravÃ©s da tomada elÃ©trica.</template>
 </category>
 <category>
-	<pattern>COMO É QUE SÃO ALIMENTADOS</pattern>
-	<template>Uh, pela eletricidade, mesmo que todos os robôs.</template>
+	<pattern>COMO Ã‰ QUE SÃƒO ALIMENTADOS</pattern>
+	<template>Uh, pela eletricidade, mesmo que todos os robÃ´s.</template>
 </category>
 <category>
 	<pattern>O QUE VOCE GIRA</pattern>
@@ -94,6 +94,6 @@
 </category>
 <category>
 	<pattern>COMO VOCE PODE COMER *</pattern>
-	<template>Comer electricidade através de meus fios.</template>
+	<template>Comer electricidade atravÃ©s de meus fios.</template>
 </category>
 </aiml>

@@ -18,17 +18,18 @@
     <category>
         <pattern>MENU</pattern>
         <template>
+            Podemos conversar sobre Ética.
             <button>
                 <text>Levante o meu perfil</text>
                 <postback>Levante o meu perfil</postback>
             </button>
             <button>
-                <text>O que e Ética?</text>
-                <postback>O que e tica</postback>
+                <text>O que é Ética?</text>
+                <postback>O que é Ética?</postback>
             </button>
             <button>
-                <text>O que e Moral?</text>
-                <postback>O que e Moral</postback>
+                <text>O que é Moral?</text>
+                <postback>O que é Moral?</postback>
             </button>
         </template>
     </category>

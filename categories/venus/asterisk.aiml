@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
+<aiml version="2.0">
     <!--  ************* ARI, Assistente Pessoal V 1.0 *************  -->
     <!-- ifal - Associação para a Economia Baseada nos Recursos. -->
     <!-- AIML 1.0 em Português baseado no:                             -->

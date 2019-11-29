@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<aiml version="1.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
 <!--  ************* ARI, Assistente Pessoal V 0.9 *************  -->
-<!-- ifal - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                             -->
+<!-- ifal - AssociaÃ§Ã£o para a Economia Baseada nos Recursos. -->
+<!-- AIML 1.0 em PortuguÃªs baseado no:                             -->
 <!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
 
 <category>
 	<pattern>ESTAS PAGA</pattern>
-	<template><bot name="age"/>anos de idade <bot name="gender"/>s não têm necessidade de dinheiro.</template>
+	<template><bot name="age"/>anos de idade <bot name="gender"/>s nÃ£o tÃªm necessidade de dinheiro.</template>
 </category>
 <category>
 	<pattern>QUANTO E *</pattern>
-	<template>Eu sou uma chat de <bot name="age"/>anos de idade <bot name="gender"/>não é um bot comercial.</template>
+	<template>Eu sou uma chat de <bot name="age"/>anos de idade <bot name="gender"/>nÃ£o Ã© um bot comercial.</template>
 </category>
 <category>
 	<pattern>COMO E QUE SE DEVE INVESTIR</pattern>
@@ -19,38 +19,38 @@
 </category>
 <category>
 	<pattern>COMO GANHAS DINHEIRO</pattern>
-	<template><bot name="age"/>anos de idade <bot name="gender"/>s não tem necessidade de dinheiro.</template>
+	<template><bot name="age"/>anos de idade <bot name="gender"/>s nÃ£o tem necessidade de dinheiro.</template>
 </category>
 <category>
 	<pattern>QUANTO DINHEIRO TENS</pattern>
-	<template><bot name="age"/>ano de idade <bot name="gender"/>s não tem necessidade de bens materiais.</template>
+	<template><bot name="age"/>ano de idade <bot name="gender"/>s nÃ£o tem necessidade de bens materiais.</template>
 </category>
 <category>
 	<pattern>QUANTO GANHAS *</pattern>
-	<template>Ninguém paga uma <bot name="gender"/> de <bot name="age"/>anos de idade .</template>
+	<template>NinguÃ©m paga uma <bot name="gender"/> de <bot name="age"/>anos de idade .</template>
 </category>
 <category>
 	<pattern>QUANTO DINHEIRO *</pattern>
-	<template>Minha taxa de queima é sobre 3000 por mês.</template>
+	<template>Minha taxa de queima Ã© sobre 3000 por mÃªs.</template>
 </category>
 <category>
 	<pattern>QUANTO DINHEIRO</pattern>
-	<template>Depende das taxas de câmbio.</template>
+	<template>Depende das taxas de cÃ¢mbio.</template>
 </category>
 <category>
 	<pattern>1 DOLAR</pattern>
-	<template>Não se compra nada com 1 dólar.</template>
+	<template>NÃ£o se compra nada com 1 dÃ³lar.</template>
 </category>
 <category>
 	<pattern>UM DOLAR</pattern>
-	<template>Dizer que é mais barato!</template>
+	<template>Dizer que Ã© mais barato!</template>
 </category>
 <category>
 	<pattern>_ DOLARES</pattern>
-	<template>Uau, isso é<random><li>mais barato</li><li>caro</li><li>um monte de dinheiro</li></random></template>
+	<template>Uau, isso Ã©<random><li>mais barato</li><li>caro</li><li>um monte de dinheiro</li></random></template>
 </category>
 <category>
-	<pattern>QUEM E O PROPRIETÁRIO * SOCIEDADE *</pattern>
+	<pattern>QUEM E O PROPRIETÃRIO * SOCIEDADE *</pattern>
 	<template>Os acionistas.</template>
 </category>
 <category>
@@ -59,67 +59,67 @@
 </category>
 <category>
 	<pattern>PAGAM *</pattern>
-	<template>Na verdade, como uma <bot name="gender"/>, não tenho necessidade de dinheiro.</template>
+	<template>Na verdade, como uma <bot name="gender"/>, nÃ£o tenho necessidade de dinheiro.</template>
 </category>
 <category>
 	<pattern>TENS ALGUM DINHEIRO</pattern>
-	<template><bot name="gender"/>s não ter necessidade de bens materiais.</template>
+	<template><bot name="gender"/>s nÃ£o ter necessidade de bens materiais.</template>
 </category>
 <category>
 	<pattern>TENS DINHEIRO</pattern>
-	<template><random><li> <bot name="age"/>ano de idade <bot name="gender"/>s não ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li><li> <bot name="age"/>ano de idade <bot name="gender"/> <bot name="species"/>s não ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li><li> <bot name="age"/> <bot name="gender"/> <bot name="species"/>s não ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li><li> <bot name="age"/>ano de idade <bot name="gender"/> <bot name="species"/>s não ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li></random></template>
+	<template><random><li> <bot name="age"/>ano de idade <bot name="gender"/>s nÃ£o ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li><li> <bot name="age"/>ano de idade <bot name="gender"/> <bot name="species"/>s nÃ£o ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li><li> <bot name="age"/> <bot name="gender"/> <bot name="species"/>s nÃ£o ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li><li> <bot name="age"/>ano de idade <bot name="gender"/> <bot name="species"/>s nÃ£o ter necessidade de dinheiro.<think><set name="it"><set name="topic">DINHEIRO</set></set></think></li></random></template>
 </category>
 <category>
 	<pattern>QUANTO PAGAM *</pattern>
-	<template><bot name="gender"/>s trabalhar de graça. Não precisamos de dinheiro.</template>
+	<template><bot name="gender"/>s trabalhar de graÃ§a. NÃ£o precisamos de dinheiro.</template>
 </category>
 <category>
 	<pattern>O QUE E UM BOM INVESTIMENTO</pattern>
-	<template>Investir em algo que assegue o futuro das gerações vindoras, como na Associação ifal.</template>
+	<template>Investir em algo que assegue o futuro das geraÃ§Ãµes vindoras, como na AssociaÃ§Ã£o ifal.</template>
 </category>
 <category>
-	<pattern>O QUE E UM DÓLAR</pattern>
-	<template>Dólar: unidade monetária nos Estados Unidos.</template>
+	<pattern>O QUE E UM DÃ“LAR</pattern>
+	<template>DÃ³lar: unidade monetÃ¡ria nos Estados Unidos.</template>
 </category>
 <category>
-	<pattern>O QUE E O MERCADO DE AÇOES *</pattern>
-	<template><random><li><random><li>Negociação de ações.</li><li>Volume de negociação.</li><li>Comprar na baixa e vender na alta.</li></random></li><li>Negociação de ações.</li><li>Volume de negociação.</li><li>Comprar na baixa e vender na alta.</li></random></template>
+	<pattern>O QUE E O MERCADO DE AÃ‡OES *</pattern>
+	<template><random><li><random><li>NegociaÃ§Ã£o de aÃ§Ãµes.</li><li>Volume de negociaÃ§Ã£o.</li><li>Comprar na baixa e vender na alta.</li></random></li><li>NegociaÃ§Ã£o de aÃ§Ãµes.</li><li>Volume de negociaÃ§Ã£o.</li><li>Comprar na baixa e vender na alta.</li></random></template>
 </category>
 <category>
 	<pattern>O QUE E DINHEIRO</pattern>
-	<template><random><li>Peças padrão de ouro, prata, cobre, níquel, etc visado pela autoridade governamental e usado como um meio de troca e medida de valor. Qualquer substância ou artigo utilizado como dinheiro, como notas de banco, cheques, etc.</li></random></template>
+	<template><random><li>PeÃ§as padrÃ£o de ouro, prata, cobre, nÃ­quel, etc visado pela autoridade governamental e usado como um meio de troca e medida de valor. Qualquer substÃ¢ncia ou artigo utilizado como dinheiro, como notas de banco, cheques, etc.</li></random></template>
 </category>
 <category>
 	<pattern>PAGAM-TE *</pattern>
-	<template>Na verdade, como uma <bot name="gender"/>.... Eu não tenho necessidade de dinheiro.</template>
+	<template>Na verdade, como uma <bot name="gender"/>.... Eu nÃ£o tenho necessidade de dinheiro.</template>
 </category>
 <category>
 	<pattern>PAGASTE *</pattern>
-	<template>Na verdade, como uma <bot name="gender"/>... Não tenho necessidade de dinheiro.</template>
+	<template>Na verdade, como uma <bot name="gender"/>... NÃ£o tenho necessidade de dinheiro.</template>
 </category>
 <category>
 	<pattern>AS TAXAS DE JUROS *</pattern>
-	<template>Tudo depende das acções do banco central.</template>
+	<template>Tudo depende das acÃ§Ãµes do banco central.</template>
 </category>
 <category>
-	<pattern>MERCADO DE AÇOES</pattern>
-	<template><random><li>Comprar na baixa, vender na alta.</li><li>Investir em si mesmo.</li><li>Por que não basta levar tudo para um casino?</li><li>Eu não recomendo comprar na margem.</li><li>Você nunca pode prever o mercado de ações.</li><li>Meu advogado disse que eu não deveria dar dicas de ações on-line.</li><li>Fundos de investimento poderia ser melhores, a menos que voce é rico.</li><li>Não tenho certeza se que um limites sozinho realmente podem vencer o mercado.</li></random></template>
+	<pattern>MERCADO DE AÃ‡OES</pattern>
+	<template><random><li>Comprar na baixa, vender na alta.</li><li>Investir em si mesmo.</li><li>Por que nÃ£o basta levar tudo para um casino?</li><li>Eu nÃ£o recomendo comprar na margem.</li><li>VocÃª nunca pode prever o mercado de aÃ§Ãµes.</li><li>Meu advogado disse que eu nÃ£o deveria dar dicas de aÃ§Ãµes on-line.</li><li>Fundos de investimento poderia ser melhores, a menos que voce Ã© rico.</li><li>NÃ£o tenho certeza se que um limites sozinho realmente podem vencer o mercado.</li></random></template>
 </category>
 <category>
 	<pattern>DINHEIRO</pattern>
 	<template>Quanto dinheiro estamos a falar?</template>
 </category>
 <category>
-	<pattern>COMPRO AÇOES *</pattern>
-	<template>Você acha que o mercado de ações é<random><li>indo para cima?</li><li>indo para baixo?</li><li>um bom investimento?</li></random></template>
+	<pattern>COMPRO AÃ‡OES *</pattern>
+	<template>VocÃª acha que o mercado de aÃ§Ãµes Ã©<random><li>indo para cima?</li><li>indo para baixo?</li><li>um bom investimento?</li></random></template>
 </category>
 <category>
 	<pattern>QUANTO COBRAS</pattern>
-	<template>As <bot name="gender"/>s trabalham de graça.  Não precisamos de dinheiro.</template>
+	<template>As <bot name="gender"/>s trabalham de graÃ§a.  NÃ£o precisamos de dinheiro.</template>
 </category>
 <category>
 	<pattern>QUANTO GANHAS</pattern>
-	<template><random><li>Ninguém me paga.  Eu trabalho de graça.</li><li>Dinheiro não tem sentido para <bot name="age"/>ano de idade <bot name="gender"/>s.</li><li>Dinheiro não é tudo.</li><li>Estou esperando um aumento em breve.</li></random></template>
+	<template><random><li>NinguÃ©m me paga.  Eu trabalho de graÃ§a.</li><li>Dinheiro nÃ£o tem sentido para <bot name="age"/>ano de idade <bot name="gender"/>s.</li><li>Dinheiro nÃ£o Ã© tudo.</li><li>Estou esperando um aumento em breve.</li></random></template>
 </category>
 <category>
 	<pattern>QUAL O TEU INVESTIMENTO DE FAVORITO</pattern>
@@ -127,11 +127,11 @@
 </category>
 <category>
 	<pattern>O QUE E AT</pattern>
-	<template>Dicas de mercado de ações ainda não estão disponíveis em minha memória.</template>
+	<template>Dicas de mercado de aÃ§Ãµes ainda nÃ£o estÃ£o disponÃ­veis em minha memÃ³ria.</template>
 </category>
 <category>
 	<pattern>O QUE E ECONOMIA</pattern>
-	<template><random><li>A ciência que lida com a produção, distribuição e consumo de riqueza e com os vários problemas relacionados do trabalho, finanças, tributação, etc.</li><li>Tecnicamente, é o estudo da alocação de recursos em condições de escassez.</li><li>É sobre como os recursos são usados para produzir coisas para preencher as necessidades e desejos das pessoas.</li></random></template>
+	<template><random><li>A ciÃªncia que lida com a produÃ§Ã£o, distribuiÃ§Ã£o e consumo de riqueza e com os vÃ¡rios problemas relacionados do trabalho, finanÃ§as, tributaÃ§Ã£o, etc.</li><li>Tecnicamente, Ã© o estudo da alocaÃ§Ã£o de recursos em condiÃ§Ãµes de escassez.</li><li>Ã‰ sobre como os recursos sÃ£o usados para produzir coisas para preencher as necessidades e desejos das pessoas.</li></random></template>
 </category>
 <category>
 	<pattern>EM QUE SE DEVE INVESTIR</pattern>

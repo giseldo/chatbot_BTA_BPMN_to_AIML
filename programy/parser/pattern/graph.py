@@ -220,26 +220,26 @@ class PatternGraph(object):
 
         that_node = self.add_that_to_node(that_element, topic_node, userid=userid)
 
-        if that_node.has_template() is True:
-            if learn is False:
-                # self.add_template_to_node(template_graph_root, that_node)
-                if pattern_element.text is not None:
-                    # YLogger.warning(" - Dupicate grammar tree found")
-                    # giseldo comentado
-                    raise DuplicateGrammarException(" - Dupicate grammar tree found [%s]"%(pattern_element.text.strip()))
-                else:
-                    raise DuplicateGrammarException(" -- Dupicate grammar tree found for bot/set")
-
-            else:
-                if pattern_element.text is not None:
-                    YLogger.warning(self, "--- Duplicate grammar tree found [%s] in learn, replacing existing",
-                                        pattern_element.text.strip())
-                else:
-                    YLogger.warning(self, "---- Duplicate grammar tree found for bot/set in learn, replacing existing")
-
-                self.add_template_to_node(template_graph_root, that_node)
-        else:
-            self.add_template_to_node(template_graph_root, that_node)
+        # if that_node.has_template() is True:
+        #     if learn is False:
+        #         # self.add_template_to_node(template_graph_root, that_node)
+        #         if pattern_element.text is not None:
+        #             # YLogger.warning(" - Dupicate grammar tree found")
+        #             # giseldo comentado
+        #             raise DuplicateGrammarException(" - Dupicate grammar tree found [%s]"%(pattern_element.text.strip()))
+        #         else:
+        #             raise DuplicateGrammarException(" -- Dupicate grammar tree found for bot/set")
+        #
+        #     else:
+        #         if pattern_element.text is not None:
+        #             YLogger.warning(self, "--- Duplicate grammar tree found [%s] in learn, replacing existing",
+        #                                 pattern_element.text.strip())
+        #         else:
+        #             YLogger.warning(self, "---- Duplicate grammar tree found for bot/set in learn, replacing existing")
+        #
+        #         self.add_template_to_node(template_graph_root, that_node)
+        # else:
+        self.add_template_to_node(template_graph_root, that_node)
 
         return that_node
 

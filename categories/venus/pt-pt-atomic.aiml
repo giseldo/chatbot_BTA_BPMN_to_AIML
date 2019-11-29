@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0">
-<!--  ************* ARI, Assistente Pessoal V 1.0 *************  -->
-<!-- ifal - Associação para a Economia Baseada nos Recursos. -->
-<!-- AIML 1.0 em Português baseado no:                                                -->
-<!-- Free software (c) 2011 ALICE A.I. Foundation de 01/12         -->
-<!--  revisto até 2886 19%  -->
-<!--  revisto até 3548 19%  -->
-<!--  revisto até 4507 25%  -->
-<!--  revisto até 5322 35%  -->
-<!--  revisto até 6000 35%  -->
-<!--  revisto até 7500 45%  -->
-<!--  revisto até 9500 55%  -->
-<!--  revisto até 10306 56%  -->
-<!--  revisto até 11192 56%  -->
-<!--  revisto até 12483 56%  -->
-<!--  revisto até 13628 80%  -->
 
-<!--  linha 1441 ver ip  -->
 
   <category>
     <pattern>PODES FAZER MELHOR</pattern>

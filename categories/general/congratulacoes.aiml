@@ -42,10 +42,12 @@
                 <text>Levante o meu perfil</text>
                 <postback></postback>
             </button>
+            Podemos conversar sobre mais coisas
             <button>
                 <text>O que é Ética?</text>
                 <postback></postback>
             </button>
+            Podemos conversar sobre um monte mais coisas
             <button>
                 <text>O que é Moral?</text>
                 <postback></postback>
@@ -141,7 +143,7 @@
 
 
       <category>
-        <pattern>MENU10</pattern>
+        <pattern>MENU11</pattern>
         <template>
             Podemos conversar sobre Ética
 
@@ -153,6 +155,31 @@
         </template>
     </category>
 
+     <category>
+        <pattern>MENU12</pattern>
+        <template>
+            Podemos conversar sobre Ética.
+            <button></button>
+            Podemos conversar sobre mais coisas
+            <button></button>
+            Podemos conversar sobre um monte mais coisas
+            <button></button>
+            Vamos lá
+        </template>
+    </category>
+
+    <category>
+        <pattern>MENU13</pattern>
+        <template>
+            Podemos conversar sobre Ética.
+            <button><text></text></button>
+            Podemos conversar sobre mais coisas
+            <button><text></text></button>
+            Podemos conversar sobre um monte mais coisas
+            <button><text></text></button>
+            Vamos lá
+        </template>
+    </category>
 
     <category>
 		<pattern>TEST VOCABULARY</pattern>

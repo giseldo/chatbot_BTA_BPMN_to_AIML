@@ -5,3 +5,6 @@
 
 " ética"," etica"
 " ética "," etica "
+
+" está"," esta"
+" está "," esta "

@@ -18,6 +18,22 @@
         </template>
     </category>
 
+      <category>
+        <pattern>pensamentos</pattern>
+        <template>
+            Como já falei, os pensamentos têm impacto direto na forma como nos sentimos e nos
+            comportamos.
+            Todo mundo tem pensamentos ruins às vezes.
+            Mas esses pensamentos ruins podem se tornar um problema se eles ocorrerem
+            frequentemente, porque eles nos fazem sentir para baixo, tristes.
+            Os pensamentos ruins também são conhecidos como “pensamentos automáticos
+            negativos”.
+            Veja o quadro ao lado. Neste quadro temos o exemplo dos pensamentos automáticos
+            negativos de três personagens: a Maria, o João e a Joana.
+            voce esta bem
+        </template>
+    </category>
+
     <category>
         <pattern>voce se lembra *</pattern>
         <template>como eu poderia esquecer <star /> </template>

@@ -4,14 +4,14 @@
     <category>
         <pattern>OLA</pattern>
         <template>
-            Ola tudo bem
+            Ola tudo bem.
         </template>
     </category>
 
     <category>
         <pattern>OI</pattern>
         <template>
-            Oi tudo bem
+            Oi tudo bem.
         </template>
     </category>
 
@@ -34,18 +34,61 @@
         </template>
     </category>
 
-   <category>
-        <pattern>AJUDA23</pattern>
+    <category>
+        <pattern>MENU2</pattern>
         <template>
-            <srai>MENU</srai>
+            Podemos conversar sobre Ética.
+            <button>
+                <text>Levante o meu perfil</text>
+            </button>
+            <button>
+                <text>O que é Ética?</text>
+            </button>
+            <button>
+                <text>O que é Moral?</text>
+            </button>
         </template>
     </category>
 
     <category>
-        <pattern>HELP</pattern>
+        <pattern>MENU4</pattern>
         <template>
-            <srai>MENU</srai>
+            Podemos conversar sobre Ética.
+            <button>
+                Levante o meu perfil
+            </button>
+            <button>
+                O que é Ética?
+            </button>
+            <button>
+                O que é Moral?
+            </button>
         </template>
     </category>
 
+     <category>
+        <pattern>MENU3</pattern>
+        <template>
+            <br>Podemos conversar sobre Ética.</br>
+            <br>Levante o meu perfil</br>
+            <br>O que é Ética?</br>
+            <br>O que é Moral?</br>
+        </template>
+    </category>
+
+    <category>
+		<pattern>TEST VOCABULARY</pattern>
+		<template>
+			My vocabulary is <vocabulary /> words
+		</template>
+	</category>
+
+	<category>
+		<pattern>TEST SIZE</pattern>
+		<template>
+		    I can answer <size /> questions
+		</template>
+	</category>
+
 </aiml>
+

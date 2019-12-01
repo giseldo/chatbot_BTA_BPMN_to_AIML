@@ -43,8 +43,11 @@
                 <button>
                     <text></text>
                 </button>
-                Vou fazer algumas perguntas? <button><text>sim</text><postback>sim</postback></button>, <button><text>não</text><postback>não</postback></button>,
-                <button><text>talvez</text><postback>talvez</postback></button>,<button><text>etc</text><postback>etc</postback></button>
+                Vou fazer algumas perguntas?
+                <button><text>sim</text><postback>sim</postback></button>
+                <button><text>não</text><postback>não</postback></button>
+                <button><text>talvez</text><postback>talvez</postback></button>
+                <button><text>etc</text><postback>etc</postback></button>
             </template>
         </category>
 
@@ -100,11 +103,11 @@
         <category>
             <pattern>STEP_QUEM_MORA</pattern>
             <template>
-                Com quem voce mora ? <button><text>pai</text><postback>pai</postback></button>,
-                <button><text>mãe</text><postback>mãe</postback></button>,
-                <button><text>sozinho</text><postback>sozinho</postback></button>,
-                <button><text>amigo</text><postback>amigo</postback></button>,
-                <button><text>ninguém</text><postback>ninguém</postback></button>,
+                Com quem voce mora ? <button><text>pai</text><postback>pai</postback></button>
+                <button><text>mãe</text><postback>mãe</postback></button>
+                <button><text>sozinho</text><postback>sozinho</postback></button>
+                <button><text>amigo</text><postback>amigo</postback></button>
+                <button><text>ninguém</text><postback>ninguém</postback></button>
                 <button><text>etc</text><postback>etc</postback></button>
             </template>
         </category>

@@ -50,6 +50,16 @@
         </template>
     </category>
 
+     <category>
+        <pattern>MENU3</pattern>
+        <template>
+            <li>Podemos conversar sobre Ética.</li>
+            <li>Levante o meu perfil</li>
+            <li>O que é Ética?</li>
+            <li>O que é Moral?</li>
+        </template>
+    </category>
+
     <category>
         <pattern>MENU4</pattern>
         <template>
@@ -67,12 +77,42 @@
     </category>
 
      <category>
-        <pattern>MENU3</pattern>
+        <pattern>MENU5</pattern>
         <template>
             <br>Podemos conversar sobre Ética.</br>
             <br>Levante o meu perfil</br>
             <br>O que é Ética?</br>
             <br>O que é Moral?</br>
+        </template>
+    </category>
+
+     <category>
+        <pattern>MENU6</pattern>
+        <template>
+            Podemos conversar sobre Ética.<br/>
+            Levante o meu perfil<br/>
+            O que é Ética?<br/>
+            O que é Moral?<br/>
+        </template>
+    </category>
+
+     <category>
+        <pattern>MENU7</pattern>
+        <template>
+            Podemos conversar sobre Ética.<p/>
+            Levante o meu perfil<p/>
+            O que é Ética?<p/>
+            O que é Moral?<p/>
+        </template>
+    </category>
+
+    <category>
+        <pattern>MENU8</pattern>
+        <template>
+            Podemos conversar sobre Ética. \n
+            Levante o meu perfil \n
+            O que é Ética? \n
+            O que é Moral? \n
         </template>
     </category>
 

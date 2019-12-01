@@ -40,12 +40,15 @@
             Podemos conversar sobre Ética.
             <button>
                 <text>Levante o meu perfil</text>
+                <postback></postback>
             </button>
             <button>
                 <text>O que é Ética?</text>
+                <postback></postback>
             </button>
             <button>
                 <text>O que é Moral?</text>
+                <postback></postback>
             </button>
         </template>
     </category>
@@ -115,6 +118,41 @@
             O que é Moral? \n
         </template>
     </category>
+
+    <category>
+        <pattern>MENU9</pattern>
+        <template>
+            <b>Podemos conversar sobre Ética</b>
+            <b>Levante o meu perfil</b>
+            <b>O que é Ética?</b>
+            <b>O que é Moral?></b>
+        </template>
+    </category>
+
+      <category>
+        <pattern>MENU10</pattern>
+        <template>
+            <h1>Podemos conversar sobre Ética</h1>
+            <h1>Levante o meu perfil</h1>
+            <h1>O que é Ética?</h1>
+            <h1>O que é Moral?></h1>
+        </template>
+    </category>
+
+
+      <category>
+        <pattern>MENU10</pattern>
+        <template>
+            Podemos conversar sobre Ética
+
+            Levante o meu perfil
+
+            O que é Ética?
+
+            O que é Moral?>
+        </template>
+    </category>
+
 
     <category>
 		<pattern>TEST VOCABULARY</pattern>

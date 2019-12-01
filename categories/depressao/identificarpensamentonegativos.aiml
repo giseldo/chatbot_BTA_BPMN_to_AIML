@@ -3,43 +3,48 @@
 
 
     <category>
-        <pattern>identificar * pensamentos *</pattern>
+        <pattern>PENSAMENTOS_NEGATIVOS</pattern>
         <template>
             Como já falei, os pensamentos têm impacto direto na forma como nos sentimos e nos
             comportamos.
+            <button>
+                <text></text>
+            </button>
             Todo mundo tem pensamentos ruins às vezes.
+            <button>
+                <text></text>
+            </button>
             Mas esses pensamentos ruins podem se tornar um problema se eles ocorrerem
             frequentemente, porque eles nos fazem sentir para baixo, tristes.
+            <button>
+                <text></text>
+            </button>
             Os pensamentos ruins também são conhecidos como “pensamentos automáticos
             negativos”.
+            <button>
+                <text></text>
+            </button>
             Veja o quadro ao lado. Neste quadro temos o exemplo dos pensamentos automáticos
             negativos de três personagens: a Maria, o João e a Joana.
-            voce esta bem
-        </template>
-    </category>
-
-      <category>
-        <pattern>pensamentos</pattern>
-        <template>
-            Como já falei, os pensamentos têm impacto direto na forma como nos sentimos e nos
-            comportamos.
-            Todo mundo tem pensamentos ruins às vezes.
-            Mas esses pensamentos ruins podem se tornar um problema se eles ocorrerem
-            frequentemente, porque eles nos fazem sentir para baixo, tristes.
-            Os pensamentos ruins também são conhecidos como “pensamentos automáticos
-            negativos”.
-            Veja o quadro ao lado. Neste quadro temos o exemplo dos pensamentos automáticos
-            negativos de três personagens: a Maria, o João e a Joana.
+            <button>
+                <text></text>
+            </button>
             voce esta bem
         </template>
     </category>
 
     <category>
-        <pattern>voce se lembra *</pattern>
-        <template>como eu poderia esquecer <star /> </template>
+        <pattern>identificar * pensamentos *</pattern>
+        <template>
+            <srai>PENSAMENTOS_NEGATIVOS</srai>
+        </template>
     </category>
 
-
-
+    <category>
+        <pattern>pensamentos</pattern>
+        <template>
+            <srai>PENSAMENTOS_NEGATIVOS</srai>
+        </template>
+    </category>
 
 </aiml>

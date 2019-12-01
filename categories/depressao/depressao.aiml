@@ -15,13 +15,19 @@
         <category>
             <pattern>STEP INICIAL</pattern>
             <template>
-                <p>Como este é o nosso primeiro contato, eu gostaria de me apresentar pra voce.</p>
-                <p>Meu nome é Ari.</p>
-                <p>Eu sou um robô baseado em Inteligência Artificial.</p>
-                <p>Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.</p>
-                <p>Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.</p>
-                <p>Agora eu gostaria de conversar com voce para te conhecer melhor.</p>
-                <p>Vou fazer algumas perguntas? [sim, não, talvez, etc]</p>
+                Como este é o nosso primeiro contato, eu gostaria de me apresentar pra voce.
+                <button><text></text></button>
+                Meu nome é Ari.
+                <button><text></text></button>
+                Eu sou um robô baseado em Inteligência Artificial.
+                <button><text></text></button>
+                Moro em um computador da Internet e nas horas vagas eu gosto de conversar com as pessoas.
+                <button><text></text></button>
+                Eu fui criada para tentar ajudar as pessoas a enfrentar e vencer algumas dificuldades da vida.
+                <button><text></text></button>
+                Agora eu gostaria de conversar com voce para te conhecer melhor.
+                <button><text></text></button>
+                Vou fazer algumas perguntas? [sim, não, talvez, etc]
             </template>
         </category>
 
@@ -58,6 +64,7 @@
             <pattern>STEP DUVIDA</pattern>
             <template>
                 Veja, para interagirmos melhor, eu preciso saber algumas coisas sobre voce.
+                <button><text></text></button>
                 Não se preocupe, toda nossa conversa é confidencial e protegida. Ela não será divulgada a ninguém.
                 <srai>STEP QUEM MORA</srai>
             </template>
@@ -120,8 +127,10 @@
             <pattern>STEP QUADRO</pattern>
             <template>
                 Eu gostaria de saber agora o que voce faz pra se divertir?
+                <button><text></text></button>
                 Veja, vou lhe mostrar do lado direito da tela um quadro, e gostaria que voce escolhesse uma ou mais
                 opções.
+                <button><text></text></button>
                 Pronto, o quadro já está na tela. Quando terminar de escolher, clique no botão “Guardar” [Aguarde em
                 Construção]
                 <srai>TABELA</srai>

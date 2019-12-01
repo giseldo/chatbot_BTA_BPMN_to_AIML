@@ -11861,12 +11861,7 @@ OK.
 </category>
 
 
-<category>
-<pattern>SIM</pattern>
-<template>
-<srai>SIMCONC</srai>
-</template>
-</category>
+
 
 
 <category>
@@ -12117,12 +12112,7 @@ Humm.. Não sei não.
 </category>
 
 
-<category>
-<pattern>NAO</pattern>
-<template>
-<random>  <li>Tá certo!</li>  <li>Ok</li>  <li>Se voce diz</li>  <li>Tudo pode acontecer neste mundo, mas voce não sei não.. </li></random>
-</template>
-</category>
+
 
 
 <category>

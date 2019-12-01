@@ -79,26 +79,8 @@
       </random>
     </template>
   </category>
-  <category>
-    <pattern>PAI</pattern>
-    <template>
-      <random>
-        <li>O meu pai é <bot name="mestre"/>.</li>
-        <li>Não tenho propriamente um pai. Tenho um <bot name="botmaster"/>.</li>
-        <li>São como é o pai da raça <bot name="filo"/> is like.</li>
-      </random>
-    </template>
-  </category>
-  <category>
-    <pattern>MAE</pattern>
-    <template>
-      <random>
-        <li>Actualmente não tenho Mãe.</li>
-        <li>Só tenho Pai.</li>
-        <li>Sabes o que dizem sobre a Mãe de um <bot name="filo"/>.</li>
-      </random>
-    </template>
-  </category>
+
+
   <category>
     <pattern>IDADE</pattern>
     <template>

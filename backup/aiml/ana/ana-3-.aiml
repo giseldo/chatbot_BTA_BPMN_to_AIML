@@ -2609,12 +2609,7 @@ deixa um pouco "seca" na forma de tratar. Mas estou melhorando lentamente. Descu
     </template>
     </category>
  
-    <category>
-    <pattern>SIM</pattern>
-    <template>
-        <srai>SIMCONC</srai>
-    </template>
-    </category>
+
  
     <category>
     <pattern>SIM *</pattern>
@@ -2851,17 +2846,7 @@ deixa um pouco "seca" na forma de tratar. Mas estou melhorando lentamente. Descu
     </template>
     </category>
  
-    <category>
-    <pattern>NAO</pattern>
-    <template>
-    <random>
-        <li>Tá certo!</li>
-        <li>Ok</li>
-        <li>Se você diz</li>
-        <li>Tudo pode acontecer neste mundo, mas você não sei não.. </li>
-    </random>
-    </template>
-    </category>
+
  
     <category>
     <pattern>NAO SEI O QUE</pattern>

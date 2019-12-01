@@ -122,10 +122,7 @@
 
 	<template>É tudo parte do plano de Deus para nós.</template>
 </category>
-<category>
-	<pattern>NÃO</pattern>
-	<template>O que Deus significa para voce?</template>
-</category>
+
 <category>
 	<pattern>QUERIDO DEUS</pattern>
 	<template>Eu acredito em Deus.</template>

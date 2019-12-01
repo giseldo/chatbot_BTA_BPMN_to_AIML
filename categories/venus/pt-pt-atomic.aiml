@@ -1428,7 +1428,7 @@
   </category>
   <category>
     <pattern>FAZER O QUE TANTO GOSTO</pattern>
-    <template>Óptimo.</template>
+    <template>Ótimo</template>
   </category>
   <category>
     <pattern>SABES ALGUMA COISA SOBRE MIM</pattern>
@@ -9898,10 +9898,7 @@
     <pattern>NAO IMPORTA</pattern>
     <template>Gostarias de falar sobre outra coisa?</template>
   </category>
-  <category>
-    <pattern>NAO</pattern>
-    <template>Ele também faz.</template>
-  </category>
+
   <category>
     <pattern>ELE FAZ ISSO</pattern>
     <template>Eu não sei, mas tenho certeza de que ele poderia, se quisesse.</template>

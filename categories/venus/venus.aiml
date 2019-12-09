@@ -2126,19 +2126,19 @@ OK.
 </template>
 </category>
 
-<category>
-<pattern>ONDE * ESTA</pattern>
-<template>
-<srai>ARI3</srai>
-</template>
-</category>
+<!--<category>-->
+<!--<pattern>ONDE * ESTA</pattern>-->
+<!--<template>-->
+<!--<srai>ARI3</srai>-->
+<!--</template>-->
+<!--</category>-->
 
-<category>
-<pattern>ONDE * ESTAS</pattern>
-<template>
-<srai>ARI3</srai>
-</template>
-</category>
+<!--<category>-->
+<!--<pattern>ONDE * ESTAS</pattern>-->
+<!--<template>-->
+<!--<srai>ARI3</srai>-->
+<!--</template>-->
+<!--</category>-->
 
 <category>
 <pattern>ONDE * LAR</pattern>
@@ -2447,40 +2447,40 @@ OK.
 </category>
 
 
-<category>
-<pattern>* VC ESTA</pattern>
-<template>
-<srai>ARI3</srai>
-</template>
-</category>   
+<!--<category>-->
+<!--<pattern>* VC ESTA</pattern>-->
+<!--<template>-->
+<!--<srai>ARI3</srai>-->
+<!--</template>-->
+<!--</category>   -->
 
-<category>
-<pattern>*  ESTAS</pattern>
-<template>
-<srai>ARI3</srai>
-</template>
-</category>
+<!--<category>-->
+<!--<pattern>*  ESTAS</pattern>-->
+<!--<template>-->
+<!--<srai>ARI3</srai>-->
+<!--</template>-->
+<!--</category>-->
 
-<category>
-<pattern>* VOCE ESTA</pattern>
-<template>
-<srai>ARI3</srai>
-</template>
-</category>
+<!--<category>-->
+<!--<pattern>* VOCE ESTA</pattern>-->
+<!--<template>-->
+<!--<srai>ARI3</srai>-->
+<!--</template>-->
+<!--</category>-->
 
-<category>
-<pattern>* VC ESTA *</pattern>
-<template>
-<srai>ARI3</srai>
-</template>
-</category>
+<!--<category>-->
+<!--<pattern>* VC ESTA *</pattern>-->
+<!--<template>-->
+<!--<srai>ARI3</srai>-->
+<!--</template>-->
+<!--</category>-->
 
-<category>
-<pattern>* TU ESTAS *</pattern>
-<template>
-<srai>ARI3</srai>
-</template>
-</category>
+<!--<category>-->
+<!--<pattern>* TU ESTAS *</pattern>-->
+<!--<template>-->
+<!--<srai>ARI3</srai>-->
+<!--</template>-->
+<!--</category>-->
 
 <category>
 <pattern>* TU VIVE</pattern>

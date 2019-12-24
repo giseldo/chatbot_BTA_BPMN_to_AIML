@@ -1,43 +1,21 @@
 // jQuery Document
 $(document).ready(function(){
 
-    var synth = window.speechSynthesis;
-
-    var msg = new SpeechSynthesisUtterance();
-    var voices = synth.getVoices();
-    msg.voice = voices[0];
-    msg.rate = 1;
-    msg.pitch = 1;
-
     ask_question = function(question, show_question) {
 
         var xhttp = new XMLHttpRequest();
         xhttp.onload = function () {
             if (this.status == 200 && this.responseText != null) {
                 var response = JSON.parse(this.responseText);
-                var vid = document.getElementById("myvid");
-                vid.play();
-                msg.text = response.response.answer;
-                //speechSynthesis.speak(msg);
+
                 if (show_question == true) {
-                    $("#chatbox").append ("<p><b>Você:</b> "+response.response.question.toUpperCase()+"</p>" );
+                    $("#chatbox").append ("<p><b>You:</b> "+response.response.question+"</p>" );
                 }
+                $("#chatbox").append ("<p><b>Bot:</b> "+response.response.answer+"</p>" );
+                $("#chatbox").append ("<p><hr /></p>" );
 
-                saidas = response.response.answer.toUpperCase();
-                lista_saidas = saidas.split("-");
-
-                len_lista_saida = lista_saidas.length;
-
-                for (i=0 ; i<len_lista_saida; i++) {
-                    saida = lista_saidas[i];
-                    if (saida != '.') {
-                        // delay
-
-                        $("#chatbox").append ("<p><b>Ari:</b> "+saida+"</p>" );
-                        $("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;
-                    }
-                }
-             }
+                $("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;
+            }
         }
 
         xhttp.open("GET", "/api/web/v1.0/ask?question="+question);

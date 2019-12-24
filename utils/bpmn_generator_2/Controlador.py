@@ -33,7 +33,7 @@ class ControladorNovo:
 if __name__ == '__main__':
     # Integration between BPMN and AIML
     controladorNovo = ControladorNovo()
-    rootAIML = controladorNovo.generateAIML('input/pizza.bpmn')
+    rootAIML = controladorNovo.generateAIML('input/estudo.bpmn')
     # Generate AIML file
-    controladorNovo.outputBPMNFile('output/pizza.aiml', rootAIML)
+    controladorNovo.outputBPMNFile('output/estudo.aiml', rootAIML)
     # controladorNovo.outputBPMNFile('../../storagedepressao/categories/pizza.aiml', rootAIML)

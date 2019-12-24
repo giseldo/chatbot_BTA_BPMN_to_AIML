@@ -1,0 +1,138 @@
+<aiml>
+    <category>
+        <pattern>COMPRAR * PIZZA</pattern>
+        <template>QUE BOM QUE VOC&#202; QUER COMPRAR UMA PIZZA-
+            <srai>TASK10P8EKZ</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK10P8EKZ</pattern>
+        <template>VOU FAZER ALGUMAS PERGUNTAS-
+            <srai>TASK1UGH2H4</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>PAN</pattern>
+        <that>* QUAL A MASSA DA PIZZA PAN OU FINA</that>
+        <template>VOC&#202; ESCOLHEU MASSA PAN-
+            <srai>TASK0V49I5P</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>FINA</pattern>
+        <that>* QUAL A MASSA DA PIZZA PAN OU FINA</that>
+        <template>VOC&#202; ESCOLHEU MASSA FINA-
+            <srai>TASK13TQKQ4</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK0V49I5P</pattern>
+        <template>COMO VOC&#202; ESCOLHEU ESTA MASSA E POSS&#205;VEL ADICIONAR BORDAS-
+            <srai>TASK0G2I217</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK0G2I217</pattern>
+        <template>VOCE QUER BORDA COM RECHEIO OU SEM RECHEIO? (COM OU SEM)-</template>
+    </category>
+    <category>
+        <pattern>COM</pattern>
+        <that>* VOCE QUER BORDA COM RECHEIO OU SEM RECHEIO COM OU SEM</that>
+        <template>ESCOLHEU BORDA COM RECHEIO QUE DELICIA-
+            <srai>TASK0MVWJ7G</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>SEM</pattern>
+        <that>* VOCE QUER BORDA COM RECHEIO OU SEM RECHEIO COM OU SEM</that>
+        <template>BORDA SEM RECHEIO E CROCANTE-
+            <srai>TASK0CSAIDD</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK0CSAIDD</pattern>
+        <template>J&#193; ESTAMOS TERMINANDO-
+            <srai>TASK049XPW4</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK0MVWJ7G</pattern>
+        <template>J&#193; ESTAMOS TERMINANDO-
+            <srai>TASK049XPW4</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK13TQKQ4</pattern>
+        <template>MASSA FINA BEM ASSADA OU MAL ASSADA? (BEM OU MAL)-</template>
+    </category>
+    <category>
+        <pattern>BEM</pattern>
+        <that>* MASSA FINA BEM ASSADA OU MAL ASSADA BEM OU MAL</that>
+        <template>VOCE ESCOLHEU BEM ASSADINHA-
+            <srai>TASK0BFDZCT</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>MAL</pattern>
+        <that>* MASSA FINA BEM ASSADA OU MAL ASSADA BEM OU MAL</that>
+        <template>AO PONTO ELA FICA MAIS MACIA-
+            <srai>TASK0D997M4</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK0BFDZCT</pattern>
+        <template>J&#193; ESTAMOS TERMINANDO-
+            <srai>TASK049XPW4</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK0D997M4</pattern>
+        <template>J&#193; ESTAMOS TERMINANDO-
+            <srai>TASK049XPW4</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK049XPW4</pattern>
+        <template>VOCE PEDIU UMA PIZZA COM MASSA TIPO_MASSA-
+            <srai>TASK1B4FVNA</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK1B4FVNA</pattern>
+        <template>SEU PEDIDO FOI ENCERRADO-</template>
+    </category>
+    <category>
+        <pattern>TASK1UGH2H4</pattern>
+        <template>POSSO INICIAR? (SIM OU N&#195;O)-</template>
+    </category>
+    <category>
+        <pattern>SIM</pattern>
+        <that>* POSSO INICIAR SIM OU N&#195;O</that>
+        <template>VAMOS LA ENTAO-
+            <srai>TASK1GNR1GI</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>NAO</pattern>
+        <that>* POSSO INICIAR SIM OU N&#195;O</that>
+        <template>ENT&#195;O N&#195;O POSSO INICIAR VAMOS RECOMECAR-
+            <srai>TASK1SVEC6F</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK1GNR1GI</pattern>
+        <template>CONTINUANDO-
+            <srai>TASK19H0W0P</srai>
+        </template>
+    </category>
+    <category>
+        <pattern>TASK19H0W0P</pattern>
+        <template>QUAL A MASSA DA PIZZA? (PAN OU FINA)-</template>
+    </category>
+    <category>
+        <pattern>TASK1SVEC6F</pattern>
+        <template>QUE BOM QUE VOC&#202; QUER COMPRAR UMA PIZZA-
+            <srai>TASK10P8EKZ</srai>
+        </template>
+    </category>
+</aiml>

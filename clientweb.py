@@ -31,6 +31,13 @@ from programy.clients.restful.flask.webchat.config import WebChatConfiguration
 from programy.clients.render.html import HtmlRenderer
 from programy.clients.restful.auth import RestAuthorizationHandler
 
+from controller import converter_bpmn_aiml
+
+import os
+import urllib.request
+from flask import flash, request, redirect, render_template
+from werkzeug.utils import secure_filename
+
 class MockArgumentsGiseldo(object):
 
     def __init__(self,
@@ -155,12 +162,14 @@ class WebChatBotClient(FlaskRestBotClient):
 
 app = Flask(__name__)
 
+
 WEB_CLIENT = WebChatBotClient()
 
 
 @app.route('/')
 def index():
     return current_app.send_static_file('webchat.html')
+
 
 
 @app.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
@@ -171,6 +180,21 @@ def receive_message():
         print("Error receiving webchat message", e)
         YLogger.exception(None, "Web client error", e)
         return "500"
+
+
+app.config['UPLOAD_FOLDER'] = 'bpmn_files'
+
+
+@app.route('/uploader', methods = ['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        f = request.files['file']
+        filename = secure_filename(f.filename)
+        f.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        # Convert BPMN em AIML
+        converter_bpmn_aiml(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+
+        return 'Arquivo BPMN carregado com sucesso. Volte e digite LOAD.'
 
 
 if __name__ == '__main__':

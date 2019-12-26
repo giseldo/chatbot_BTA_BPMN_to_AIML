@@ -212,7 +212,7 @@
     </category>
 
     <category>
-        <pattern>YADMIN RELOAD ALL AIML</pattern>
+        <pattern>RELOAD</pattern>
         <template>
             <srai>
                 <extension path="programy.extensions.admin.hotreload.HotReloadAdminExtension">

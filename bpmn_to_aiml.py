@@ -75,6 +75,24 @@ def get_template_text_with_variable(phrase):
     return phrase
 
 
+# existe somente uma variavel
+def transform_condition_if_exists(phrase):
+    match = re.search(r"[$]\w*\w", phrase)
+    # if exists match ($variable)
+    if match:
+        variavel = match[0].replace('_', '').replace('(', '').replace(')', '').replace('$', '')
+        # 1 pegar a lista de opções
+        # 2 reencaminhar
+        INICIO = '''<condition name="{}">'''.format(variavel)
+        # loop no meio pegando os gateway
+        MEIO = '''<li value="A"><srai>nex_gateway_A</srai></li>'''
+        FIM = '''</condition>'''
+        phrase = INICIO + MEIO + FIM
+        return phrase
+
+    return phrase
+
+
 def convert_bpmn_to_aiml(root_bpmn, root_aiml):
     for child in root_bpmn:
         srai_text = None
@@ -103,7 +121,7 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
                 template_text = pos.attrib['nome']
             if ant.tag == 'task' and pos.tag == 'exclusive_gateway':
                 pattern_text = ant.attrib['id'].replace('_', '').replace('(', '').replace(')', '')
-                template_text = pos.attrib['nome']
+                template_text = transform_condition_if_exists(pos.attrib['nome'])
             if ant.tag == 'exclusive_gateway' and pos.tag == 'task':
                 pattern_text = child.attrib['nome']
                 that_text = '* ' + ant.attrib['nome']

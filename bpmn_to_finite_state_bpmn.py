@@ -87,7 +87,7 @@ def is_aresta_juncao(bpmn, aresta):
 
 
 def transform_bpmn_to_finite_state_bpmn(input_file_name):
-    bpmn = ET.parse(input_file_name)
+    bpmn = ET.parse(input_file_name, ET.XMLParser(encoding='utf-8'))
 
     new_bpmn = convert_bpmn_to_finite_state_bpmn(bpmn)
     # get output file name

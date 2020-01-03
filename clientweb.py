@@ -191,10 +191,21 @@ def upload_file():
         f = request.files['file']
         filename = secure_filename(f.filename)
         f.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+        # f.save(encoding="utf-8")
         # Convert BPMN em AIML
         converter_bpmn_aiml(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
-        return 'Arquivo BPMN carregado com sucesso. Volte e digite LOAD.'
+        return '''
+                Arquivo BPMN carregado com sucesso. Volte e digite <b>RELOAD</b> no chatbot.
+                <p> 
+                    <a title="Voltar" onclick="voltar()">VOLTAR</a>
+                </p>
+                <script>
+                    function voltar() {
+                        window.history.back();
+                    }
+                </script>
+               '''
 
 
 if __name__ == '__main__':

@@ -38,16 +38,17 @@ import urllib.request
 from flask import flash, request, redirect, render_template
 from werkzeug.utils import secure_filename
 
+
 class MockArgumentsGiseldo(object):
 
     def __init__(self,
-                    bot_root = ".",
-                    logging = None,
-                    config  = 'config/config.webchat.yaml',
-                    cformat = "yaml",
-                    noloop = False,
-                    substitutions=None
-                ):
+                 bot_root=".",
+                 logging=None,
+                 config='config/config.webchat.yaml',
+                 cformat="yaml",
+                 noloop=False,
+                 substitutions=None
+                 ):
         self.bot_root = bot_root
         self.logging = logging
         self.config = config
@@ -143,7 +144,8 @@ class WebChatBotClient(FlaskRestBotClient):
 
         userid = self.get_userid(request)
 
-        userid_expire_date = self.get_userid_cookie_expirary_date(self.configuration.client_configuration.cookie_expires)
+        userid_expire_date = self.get_userid_cookie_expirary_date(
+            self.configuration.client_configuration.cookie_expires)
 
         client_context = self.create_client_context(userid)
         try:
@@ -162,14 +164,12 @@ class WebChatBotClient(FlaskRestBotClient):
 
 app = Flask(__name__)
 
-
 WEB_CLIENT = WebChatBotClient()
 
 
 @app.route('/')
 def index():
     return current_app.send_static_file('webchat.html')
-
 
 
 @app.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
@@ -183,9 +183,13 @@ def receive_message():
 
 
 app.config['UPLOAD_FOLDER'] = 'bpmn_files'
+app.config['CATEGORIES_FOLDER'] = 'categories'
+app.config['BPMN_FILES'] = 'bpmn_files'
+app.config['BPMN_FINITE_STATE'] = 'bpmn_finite_state'
+app.config['BPMN_SIMPLIFIED'] = 'bpmn_simplified'
 
 
-@app.route('/uploader', methods = ['GET', 'POST'])
+@app.route('/uploader', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         f = request.files['file']
@@ -198,7 +202,7 @@ def upload_file():
         return '''
                 Arquivo BPMN carregado com sucesso. Volte e digite <b>RELOAD</b> no chatbot.
                 <p> 
-                    <a title="Voltar" onclick="voltar()">VOLTAR</a>
+                    <input type="button" value="voltar" onclick="voltar()" >
                 </p>
                 <script>
                     function voltar() {
@@ -207,17 +211,36 @@ def upload_file():
                 </script>
                '''
 
-@app.route('/uploader', methods = ['GET', 'POST'])
+
+@app.route('/apagar', methods=['GET', 'POST'])
 def delete_files():
     if request.method == 'POST':
-        path = "categories"
-        dir = os.listdir(path)
-        for file in dir:
-            os.remove(file)
-        return '''
-                Base de conhecimento do Bot Zerada.
+        path = os.path.join(app.config['CATEGORIES_FOLDER'])
+        caminhoAbsoluto = os.path.abspath(path)
+        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+            if pastaAtual == caminhoAbsoluto:
+                for arquivo in arquivos:
+                    os.remove(os.path.join(app.config['CATEGORIES_FOLDER'], arquivo))
+
+    path = os.path.join(app.config['BPMN_FILES'])
+    dir = os.listdir(path)
+    for file in dir:
+        os.remove(os.path.join(app.config['BPMN_FILES'], file))
+
+    path = os.path.join(app.config['BPMN_SIMPLIFIED'])
+    dir = os.listdir(path)
+    for file in dir:
+        os.remove(os.path.join(app.config['BPMN_SIMPLIFIED'], file))
+
+    path = os.path.join(app.config['BPMN_FINITE_STATE'])
+    dir = os.listdir(path)
+    for file in dir:
+        os.remove(os.path.join(app.config['BPMN_FINITE_STATE'], file))
+
+    return '''
+                A base de conhecimento do chatbot foi apagada.
                 <p> 
-                    <a title="Voltar" onclick="voltar()">VOLTAR</a>
+                    <input type="button" value="voltar" onclick="voltar()" >
                 </p>
                 <script>
                     function voltar() {

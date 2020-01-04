@@ -77,8 +77,9 @@ def transform_condition_if_exists(root_bpmn, pos):
         condition_begin = '''<condition name="{}">'''.format(variavel)
         condition_li_values = ""
         for aresta in arestas:
-            condition_li_values = condition_li_values + '<li value="{}"><srai>{}</srai></li>'.format(
-                aresta.attrib["nome"], aresta.attrib["pos"])
+            srai_name_task = aresta.attrib["nome"].replace('_', '').replace('(', '').replace(')', '').replace('$', '')
+            srai_redirect = aresta.attrib["pos"].replace('_', '').replace('(', '').replace(')', '').replace('$', '')
+            condition_li_values = condition_li_values + '<li value="{}"><srai>{}</srai></li>'.format(srai_name_task, srai_redirect)
         condition_end = '''</condition>'''
         phrase = condition_begin + condition_li_values + condition_end
     return phrase
@@ -167,7 +168,7 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
 
 def lower_case_some_tags(input_file_name, output_file_name):
     file = open(input_file_name, 'r', encoding="utf-8")
-    regexp = re.compile(r'(NAME|SET|GET|CONDITION|LI VALUE|SRAI|THINK|&lt;|&gt;|&lt;LI|LI&gt;)')
+    regexp = re.compile(r'(NAME|SET|GET|CONDITION|LI VALUE|SRAI|THINK|TOPIC|&lt;|&gt;|&lt;LI|LI&gt;)')
     replacement_map = {
                         'NAME': 'name',
                         'SET':'set',
@@ -176,6 +177,7 @@ def lower_case_some_tags(input_file_name, output_file_name):
                         'LI VALUE': 'li value',
                         'SRAI': 'srai',
                         'THINK': 'think',
+                        'TOPIC': 'topic',
                         '&lt;LI': '<li',
                         'LI&gt;': 'li>',
                         '&lt;': '<',

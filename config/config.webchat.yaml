@@ -138,7 +138,7 @@ webchat:
 bot:
     brain: brain
 
-    initial_question: Olá Meu nome é Ari. Eu converso sobre ética, gestão de projetos e depressão. Digite 'menu' para saber mais.
+    initial_question: Olá Meu nome é Ari. Sou um chatbot.
     initial_question_srai: YINITIALQUESTION
     default_response: Desculpe, Não entendi!
     default_response_srai: YEMPTY

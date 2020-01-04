@@ -23,7 +23,7 @@
 
 <div class="d-none d-md-block">
     <!-- <header><h4>Ari, um chatbot que conversa sobre ética e depressão. </h4></header> -->
-    <header><h4>Chatbot Ari.</h4></header>
+    <header><h4>Chatbot Ari</h4></header>
 </div>
 
 <div class="columnsContainer">
@@ -31,7 +31,7 @@
     <div class="leftColumn">
         <div id="formwrapper">
             <div id="menu">
-                <p class="welcome">Tips Chatbot<b></b></p>
+                <p class="welcome"><h5>&nbsp;&nbsp;Tela de conversação</h5><b></b></p>
             </div>
 
             <div id="chatbox"></div>
@@ -39,7 +39,7 @@
             <form name="message" action="">
                 <div class="container-fluid">
                     <input name="usermsg" type="text" id="usermsg"/>
-                    <input name="submitmsg" type="submit" id="submitmsg" value="enviar"/>
+                    <input name="submitmsg" type="submit" id="submitmsg" value="enviar mensagem"/>
                 </div>
             </form>
         </div>
@@ -54,75 +54,32 @@
             </center>
         </div>
 
-        <div id="questionswrapper">
-            <!--<p class="welcome">Perguntas mais comuns sobre ética e depressão<b></b></p>>-->
-            <p class="welcome">Perguntas mais comuns que podem ser feitas ao chatbot<b></b></p>
-            <ul>
-                <li class="question"><a href="#"><b>Levante o meu perfil</b></a></li>
-                <li class="question"><a href="#">wikipedia busque | defina <b>algo</b></a></li>
-                <li class="question"><a href="#">wordnet <b>algo</b></a></li>
-                <li class="question"><a href="#">O que é Ética?</a></li>
-                <li class="question"><a href="#">O que é Moral?</a></li>
-                <li class="question"><a href="#">O que é virtude?</a></li>
-                <li class="question"><a href="#">Como vai você?</a></li>
-                <li class="question"><a href="#">RELOAD</a></li>
-                <!--<li class="question">Meu nome é <b>algo</b></li>-->
-            </ul>
-            <!--
-            <p class="welcome">Aprendizado<b></b></p>
-            <ul>
-                <li class="question"><a href="#">Me diga tudo o que voce sabe</a></li>
-                <b>suj</b> eh um | eh uma <b>obj</b></br>
-                O que voce sabe sobre <b>suj | obj</b></br>
-                quem sao os <b>obj</b></br>
-                ***Modo Aprendizado</br>
-                aprender (entra no modo aprendizado)</br>
-                <b>suj</b> <b>pred</b> <b>obj</b></br>
-                quem <b>suj</b> <b>pred</b></br>
-                O que <b>suj</b> <b>pred</b></br>
-                sair (sai do modo aprendizado)</br>
-            </ul>
-
-            <p class="welcome">Perguntas mais comuns sobre outros temas<b></b></p>
-            <ul>
-                <li class="question"><a href="#">O que é uma base de dados?</a></li>
-                <li class="question"><a href="#">Quem inventou o linux?</a></li>
-                <li class="question"><a href="#">Que ano estamos?</a></li>
-                <li class="question"><a href="#">Quem é aristóteles?</a></li>
-                <li class="question"><a href="#">Estou sendo negativo</a></li>
-                <li class="question"><a href="#">toc toc</a></li>
-                <li class="question"><a href="#">Inicie uma piada toc toc</a></li>
-            </ul>
-
-        </div>
-        <p>Casos de uso Depressão<b></b></p>
-        <ul>
-            <li><a href="static/bpm/index.html" target="_blank">Levantar Perfil</a></li>
-            <li>Desenvolvimento</li>
-            <li>Explorando Sentimentos</li>
-            <li>Estimulando Atividades</li>
-            <li>Identificando Pensamentos automaticos Negativos</li>
-            <li>Identificando o sentimento face ao pensamento automático negativo</li>
-            <li>Quando o pensamento automático negativo acontece</li>
-            <li>Identificando o comportamento decorrente do pensamento automático negativo</li>
-            <li>Mudando os pensamentos automáticos negativos</li>
-            <li>Aprendendo como mudar</li>
+        <!--        <div id="questionswrapper">-->
+        <p>&nbsp;</p>
+        <ul style="list-style-type: none;">
+            <li class="question"><a href="#">RELOAD</a></li>
         </ul>
-        -->
-        </div>
+        <!--        </div>-->
 
-        <div id="upload">
+    </div>
 
-            <form action="http://localhost:5000/uploader" method="POST"
-                  enctype="multipart/form-data">
-                <p>Carregue o seu diagrama BPMN</p>
-                <input type="file" name="file" maxlength="14" size="14"/>
-                <p></p>
-                <input type="submit" value="carregar" />
-            </form>
+    <div id="upload">
+        <form action="http://localhost:5000/uploader" method="POST"
+              enctype="multipart/form-data">
+            <p><h5>Carregue o seu diagrama BPMN (lembre-se do reload depois)</h5></p>
+            <input type="file" name="file" maxlength="14" size="14"/>
+            <p></p>
+            <input type="submit" value="carregar"/>
+        </form>
+    </div>
 
-        </div>
-
+    <div id="apagar">
+        <hr/>
+        <form action="http://localhost:5000/apagar" method="POST"
+              enctype="multipart/form-data">
+            <p><h5>Apaga toda a base de conhecimento do BOT</h5></p>
+            <input type="submit" value="apagar"/>
+        </form>
     </div>
 
 </div>

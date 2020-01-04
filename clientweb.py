@@ -207,6 +207,25 @@ def upload_file():
                 </script>
                '''
 
+@app.route('/uploader', methods = ['GET', 'POST'])
+def delete_files():
+    if request.method == 'POST':
+        path = "categories"
+        dir = os.listdir(path)
+        for file in dir:
+            os.remove(file)
+        return '''
+                Base de conhecimento do Bot Zerada.
+                <p> 
+                    <a title="Voltar" onclick="voltar()">VOLTAR</a>
+                </p>
+                <script>
+                    function voltar() {
+                        window.history.back();
+                    }
+                </script>
+               '''
+
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1')

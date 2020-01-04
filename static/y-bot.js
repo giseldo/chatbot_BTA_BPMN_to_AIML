@@ -16,7 +16,7 @@ $(document).ready(function(){
             if (this.status == 200 && this.responseText != null) {
                 var response = JSON.parse(this.responseText);
                 var vid = document.getElementById("myvid");
-                vid.play();
+                //vid.play();
                 msg.text = response.response.answer;
                 //speechSynthesis.speak(msg);
                 if (show_question == true) {
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
                 for (i=0 ; i<len_lista_saida; i++) {
                     saida = lista_saidas[i];
-                    if (saida != '.') {
+                    if (saida != '.' && saida.trim() != '') {
                         // delay
 
                         $("#chatbox").append ("<p><b>Ari:</b> "+saida+"</p>" );

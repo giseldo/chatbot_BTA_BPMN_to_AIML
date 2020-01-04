@@ -1,0 +1,128 @@
+<aiml>
+    <topic name="STARTEVENT0GQVY6E">
+        <category>
+            <pattern>TASK1JT3FWK</pattern>
+            <template>QUAL A MASSA? PAN OU FINA?-</template>
+        </category>
+        <category>
+            <pattern>PAN</pattern>
+            <that>* QUAL A MASSA PAN OU FINA</that>
+            <template>QUE BOM-
+                <think>
+                    <set name="TIPO">PAN</set>
+                </think>
+                <srai>TASK03IBULT</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>FINA</pattern>
+            <that>* QUAL A MASSA PAN OU FINA</that>
+            <template>QUE OTIMO-
+                <think>
+                    <set name="TIPO">FINA</set>
+                </think>
+                <srai>TASK16LKPOK</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK16LKPOK</pattern>
+            <template>AGORA VAMOS A MAIS UMA COISA-
+                <srai>TASK05E48DC</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK03IBULT</pattern>
+            <template>AGORA VAMOS A MAIS UMA COISA-
+                <srai>TASK05E48DC</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK05E48DC</pattern>
+            <template>
+                <condition name="TIPO">
+                    <li value="PAN">
+                        <srai>TASK_0M7NJD0</srai>
+                    </li>
+                    <li value="FINA">
+                        <srai>TASK_0V5SP2E</srai>
+                    </li>
+                </condition>
+                -
+            </template>
+        </category>
+        <category>
+            <pattern>TASK0M7NJD0</pattern>
+            <template>VOCE ESCOLHEU PAN-
+                <srai>TASK0M7NJD0</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK0V5SP2E</pattern>
+            <template>VOCE ESCOLHEU FINA-
+                <srai>TASK0V5SP2E</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK0M7NJD0</pattern>
+            <template>ESTAMOS ACABANDO-
+                <srai>TASK1JBEY5Z</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK0V5SP2E</pattern>
+            <template>ESTAMOS ACABANDO-
+                <srai>TASK1JBEY5Z</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK1JBEY5Z</pattern>
+            <template>VOCÊ QUER REINICIAR O PROCESSO?-</template>
+        </category>
+        <category>
+            <pattern>NAO</pattern>
+            <that>* VOCÊ QUER REINICIAR O PROCESSO</that>
+            <template>VOCE ESCOLHEU NAO-
+                <srai>TASK1AUULB8</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>SIM</pattern>
+            <that>* VOCÊ QUER REINICIAR O PROCESSO</that>
+            <template>VOCE ESCOLHEU SIM-
+                <srai>TASK12M9UN8</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK0JAHWCF</pattern>
+            <template>
+                <think>
+                    <set name="TOPIC"></set>
+                </think>
+                FLUXO FINALIZADO-
+            </template>
+        </category>
+        <category>
+            <pattern>TASK1AUULB8</pattern>
+            <template>ACABOU VOCE ESCOLHEU RELAMENTE<get name="TIPO"/>-
+                <srai>TASK0JAHWCF</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK12M9UN8</pattern>
+            <template>QUE BOM QUE VOCÊ ESCOLHEU O NOSSO PRODUTO. RESPONDA AS PERGUNTAS-
+                <srai>TASK1JT3FWK</srai>
+            </template>
+        </category>
+    </topic>
+    <topic name="STARTEVENT0GQVY6E"/>
+    <category>
+        <pattern>QUERO * RANGO</pattern>
+        <template>
+            <think>
+                <set name="TOPIC">STARTEVENT0GQVY6E</set>
+            </think>
+            QUE BOM QUE VOCÊ ESCOLHEU O NOSSO PRODUTO. RESPONDA AS PERGUNTAS-
+            <srai>TASK1JT3FWK</srai>
+        </template>
+    </category>
+</aiml>

@@ -222,32 +222,38 @@ def delete_files():
                 for arquivo in arquivos:
                     os.remove(os.path.join(app.config['CATEGORIES_FOLDER'], arquivo))
 
-    path = os.path.join(app.config['BPMN_FILES'])
-    dir = os.listdir(path)
-    for file in dir:
-        os.remove(os.path.join(app.config['BPMN_FILES'], file))
+        path = os.path.join(app.config['BPMN_FILES'])
+        caminhoAbsoluto = os.path.abspath(path)
+        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+            if pastaAtual == caminhoAbsoluto:
+                for arquivo in arquivos:
+                    os.remove(os.path.join(app.config['BPMN_FILES'], arquivo))
 
-    path = os.path.join(app.config['BPMN_SIMPLIFIED'])
-    dir = os.listdir(path)
-    for file in dir:
-        os.remove(os.path.join(app.config['BPMN_SIMPLIFIED'], file))
+        path = os.path.join(app.config['BPMN_SIMPLIFIED'])
+        caminhoAbsoluto = os.path.abspath(path)
+        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+            if pastaAtual == caminhoAbsoluto:
+                for arquivo in arquivos:
+                    os.remove(os.path.join(app.config['BPMN_SIMPLIFIED'], arquivo))
 
-    path = os.path.join(app.config['BPMN_FINITE_STATE'])
-    dir = os.listdir(path)
-    for file in dir:
-        os.remove(os.path.join(app.config['BPMN_FINITE_STATE'], file))
+        path = os.path.join(app.config['BPMN_FINITE_STATE'])
+        caminhoAbsoluto = os.path.abspath(path)
+        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+            if pastaAtual == caminhoAbsoluto:
+                for arquivo in arquivos:
+                    os.remove(os.path.join(app.config['BPMN_FINITE_STATE'], arquivo))
 
-    return '''
-                A base de conhecimento do chatbot foi apagada.
-                <p> 
-                    <input type="button" value="voltar" onclick="voltar()" >
-                </p>
-                <script>
-                    function voltar() {
-                        window.history.back();
-                    }
-                </script>
-               '''
+        return '''
+                    A base de conhecimento do chatbot foi apagada.
+                    <p> 
+                        <input type="button" value="voltar" onclick="voltar()" >
+                    </p>
+                    <script>
+                        function voltar() {
+                            window.history.back();
+                        }
+                    </script>
+                   '''
 
 
 if __name__ == '__main__':

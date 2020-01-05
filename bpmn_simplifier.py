@@ -1,13 +1,13 @@
 import lxml.etree as ET
 import os
 
+
 def transform_bpmn_to_simple_bpmn(file_name_input):
 
-    # old = open(file_name_input, 'r', encoding="utf-8")
-    # new = open(file_name_input + '.new', 'w', encoding="utf8")
-    # new.write(old.read())
+    path = os.path.join(file_name_input)
+    caminho_absoluto = os.path.abspath(path)
 
-    dom = ET.parse(file_name_input, ET.XMLParser(encoding='utf-8'))
+    dom = ET.parse(caminho_absoluto, ET.XMLParser(encoding='utf-8'))
     xslt = ET.parse("xslt/xslt_bpmn_io.xsl")
     transform = ET.XSLT(xslt)
     new_dom = transform(dom)

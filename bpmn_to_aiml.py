@@ -189,7 +189,10 @@ def lower_case_some_tags(input_file_name, output_file_name):
 
 
 def transform_bpmn_to_aiml(input_file_name):
-    tree_bpmn = ET.parse(input_file_name, ET.XMLParser(encoding='utf-8'))
+    path = os.path.join(input_file_name)
+    caminho_absoluto = os.path.abspath(path)
+
+    tree_bpmn = ET.parse(caminho_absoluto, ET.XMLParser(encoding='utf-8'))
     root_bpmn = tree_bpmn.getroot()
 
     element_aiml = ET.Element('aiml')

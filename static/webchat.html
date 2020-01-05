@@ -64,7 +64,7 @@
     </div>
 
     <div id="upload">
-        <form action="http://localhost:5000/uploader" method="POST"
+        <form action="uploader" method="POST"
               enctype="multipart/form-data">
             <p><h5>Carregue o seu diagrama BPMN (lembre-se do reload depois)</h5></p>
             <input type="file" name="file" maxlength="14" size="14"/>
@@ -75,7 +75,7 @@
 
     <div id="apagar">
         <hr/>
-        <form action="http://localhost:5000/apagar" method="POST"
+        <form action="apagar" method="POST"
               enctype="multipart/form-data">
             <p><h5>Apaga toda a base de conhecimento do BOT</h5></p>
             <input type="submit" value="apagar"/>

@@ -17,9 +17,10 @@ def transform_bpmn_to_simple_bpmn(file_name_input):
     only_last_name = list_file_name[-1]
     output_file_name = os.path.join("bpmn_simplified/" + only_last_name)
 
+    print("output_file_name: {}".format(output_file_name))
     path_saida = os.path.join(output_file_name)
     caminho_absoluto_saida = os.path.abspath(path_saida)
-
+    print("caminho_absoluto_saida: {}".format(caminho_absoluto_saida))
     new_dom.write(caminho_absoluto_saida)
 
     return output_file_name

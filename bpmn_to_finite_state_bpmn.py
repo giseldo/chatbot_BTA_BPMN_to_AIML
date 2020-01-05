@@ -93,9 +93,8 @@ def transform_bpmn_to_finite_state_bpmn(input_file_name):
     bpmn = ET.parse(caminho_absoluto, ET.XMLParser(encoding='utf-8'))
 
     new_bpmn = convert_bpmn_to_finite_state_bpmn(bpmn)
-    # get output file name
-    list_file_name = input_file_name.split('/')
-    only_last_name = list_file_name[-1]
+
+    only_last_name = os.path.basename(caminho_absoluto)
     output_file_name = os.path.join("bpmn_finite_state/" + only_last_name)
 
     tree_finite_state = ET.ElementTree(new_bpmn)

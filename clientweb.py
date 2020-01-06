@@ -39,6 +39,7 @@ from flask import flash, request, redirect, render_template
 from werkzeug.utils import secure_filename
 
 
+
 class MockArgumentsGiseldo(object):
 
     def __init__(self,
@@ -153,8 +154,6 @@ class WebChatBotClient(FlaskRestBotClient):
             answer = answer.replace('\n', '').strip()
             rendered = self._renderer.render(client_context, answer)
             response_data = self.create_success_response_data(question, rendered)
-            # response_data = {'question': 'YINITIALQUESTION',
-            #                  'answer': ['Olá, meu nome é Tips, em que posso ajudá-lo?', 'foi agora']}
         except Exception as excep:
             YLogger.exception(self, "Failed receving message", excep)
             response_data = self.create_error_response_data(client_context, question, str(excep))
@@ -188,6 +187,8 @@ app.config['BPMN_FILES'] = 'bpmn_files'
 app.config['BPMN_FINITE_STATE'] = 'bpmn_finite_state'
 app.config['BPMN_SIMPLIFIED'] = 'bpmn_simplified'
 
+from programy.extensions.admin.hotreload import HotReloadAdminExtension
+
 
 @app.route('/uploader', methods=['GET', 'POST'])
 def upload_file():
@@ -199,8 +200,12 @@ def upload_file():
         # Convert BPMN em AIML
         converter_bpmn_aiml(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
+        userid = WEB_CLIENT.get_userid(request)
+        client_context = WEB_CLIENT.create_client_context(userid)
+        HotReloadAdminExtension.reload_all(client_context)
+
         return '''
-                Arquivo BPMN carregado com sucesso. Volte e digite <b>RELOAD</b> no chatbot.
+                <h5>Arquivo BPMN carregado com sucesso. Volte e digite <b>RELOAD</b> no chatbot.</h5>
                 <p> 
                     <input type="button" value="voltar" onclick="voltar()" >
                 </p>
@@ -243,8 +248,12 @@ def delete_files():
                 for arquivo in arquivos:
                     os.remove(os.path.join(app.config['BPMN_FINITE_STATE'], arquivo))
 
+        userid = WEB_CLIENT.get_userid(request)
+        client_context = WEB_CLIENT.create_client_context(userid)
+        HotReloadAdminExtension.reload_all(client_context)
+
         return '''
-                    A base de conhecimento do chatbot foi apagada.
+                   <h5>A base de conhecimento do chatbot foi apagada.</h5>
                     <p> 
                         <input type="button" value="voltar" onclick="voltar()" >
                     </p>

@@ -50,15 +50,15 @@
 
         <div class="d-none d-md-block">
             <center>
-                <video id="myvid" src="static/video/talk.webm" autoplay></video>
+                <video id="myvid" src="static/video/talk.webm" autoplay ></video>
             </center>
         </div>
 
         <!--        <div id="questionswrapper">-->
-        <p>&nbsp;</p>
-        <ul style="list-style-type: none;">
-            <li class="question"><a href="#">RELOAD</a></li>
-        </ul>
+<!--        <p>&nbsp;</p>-->
+<!--        <ul style="list-style-type: none;">-->
+<!--            <li class="question"><a href="#">RELOAD</a></li>-->
+<!--        </ul>-->
         <!--        </div>-->
 
     </div>
@@ -66,7 +66,7 @@
     <div id="upload">
         <form action="uploader" method="POST"
               enctype="multipart/form-data">
-            <p><h5>Carregue o seu diagrama BPMN (lembre-se do reload depois)</h5></p>
+            <p><h5>Carregar o diagrama BPMN na base de conhecimento</h5></p>
             <input type="file" name="file" maxlength="14" size="14"/>
             <p></p>
             <input type="submit" value="carregar"/>
@@ -77,7 +77,7 @@
         <hr/>
         <form action="apagar" method="POST"
               enctype="multipart/form-data">
-            <p><h5>Apaga toda a base de conhecimento do BOT</h5></p>
+            <p><h5>Apagar toda a base de conhecimento</h5></p>
             <input type="submit" value="apagar"/>
         </form>
     </div>

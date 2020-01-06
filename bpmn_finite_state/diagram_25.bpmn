@@ -1,1 +1,0 @@
-<bpmn><edge ant="StartEvent_1sesndx" id="SequenceFlow_160ngtz" nome="" pos="Task_1x6smyy" /><edge ant="Task_1x6smyy" id="SequenceFlow_1cfvszt" nome="" pos="EndEvent_0wnr4cl" /><task id="Task_1x6smyy" nome="que bom que voce quer uma roupa" /><start_event id="StartEvent_1sesndx" nome="quero * roupa" /><end_event id="EndEvent_0wnr4cl" nome="fim do fluxo" /></bpmn>

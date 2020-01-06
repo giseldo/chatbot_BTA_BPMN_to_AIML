@@ -16,9 +16,9 @@ $(document).ready(function(){
             if (this.status == 200 && this.responseText != null) {
                 var response = JSON.parse(this.responseText);
                 var vid = document.getElementById("myvid");
-                //vid.play();
+//                vid.play();
                 msg.text = response.response.answer;
-                //speechSynthesis.speak(msg);
+//                speechSynthesis.speak(msg);
                 if (show_question == true) {
                     $("#chatbox").append ("<p><b>Você:</b> "+response.response.question.toUpperCase()+"</p>" );
                 }
@@ -27,16 +27,22 @@ $(document).ready(function(){
                 lista_saidas = saidas.split("-");
 
                 len_lista_saida = lista_saidas.length;
-
+                msg.text = ''
                 for (i=0 ; i<len_lista_saida; i++) {
                     saida = lista_saidas[i];
                     if (saida != '.' && saida.trim() != '') {
                         // delay
-
+                        msg.text = msg.text + saida
                         $("#chatbox").append ("<p><b>Ari:</b> "+saida+"</p>" );
                         $("#chatbox")[0].scrollTop = $("#chatbox")[0].scrollHeight;
                     }
+
                 }
+
+                vid.play();
+                msg.lang = 'pt-BR'
+                speechSynthesis.speak(msg);
+
              }
         }
 

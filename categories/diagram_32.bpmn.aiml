@@ -1,0 +1,60 @@
+<aiml>
+    <topic name="STARTEVENT0IEJ8C4">
+        <category>
+            <pattern>TASK1C7WA5C</pattern>
+            <template>VOCE QUER DE QUE SABOR PAN OU FINA-</template>
+        </category>
+        <category>
+            <pattern>PAN</pattern>
+            <that>* VOCE QUER DE QUE SABOR PAN OU FINA</that>
+            <template>CERTO PAN-
+                <srai>TASK0X4D1AF</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>FINA</pattern>
+            <that>* VOCE QUER DE QUE SABOR PAN OU FINA</that>
+            <template>CERTO FINA-
+                <srai>TASK1YBBDI6</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK0X4D1AF</pattern>
+            <template>CHEGAMOS NO FINAL-
+                <srai>TASK0DOBJ8X</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK1YBBDI6</pattern>
+            <template>CHEGAMOS NO FINAL-
+                <srai>TASK0DOBJ8X</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK0DOBJ8X</pattern>
+            <template>
+                <think>
+                    <set name="topic"></set>
+                </think>
+                FIM DO FLUXO-
+            </template>
+        </category>
+        <topic name="STARTEVENT0IEJ8C4"/>
+        <category>
+            <pattern>QUERO UMA PIZZA</pattern>
+            <template>
+                <think>
+                    <set name="topic">STARTEVENT0IEJ8C4</set>
+                </think>
+                E AI CARA-
+                <srai>TASK05R0TOO</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>TASK05R0TOO</pattern>
+            <template>QUE BOM QUE VOCE ESCOLHEU NOSSO PRODUTO-
+                <srai>TASK1C7WA5C</srai>
+            </template>
+        </category>
+    </topic>
+</aiml>

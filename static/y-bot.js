@@ -16,9 +16,7 @@ $(document).ready(function(){
             if (this.status == 200 && this.responseText != null) {
                 var response = JSON.parse(this.responseText);
                 var vid = document.getElementById("myvid");
-//                vid.play();
                 msg.text = response.response.answer;
-//                speechSynthesis.speak(msg);
                 if (show_question == true) {
                     $("#chatbox").append ("<p><b>Você:</b> "+response.response.question.toUpperCase()+"</p>" );
                 }
@@ -39,9 +37,9 @@ $(document).ready(function(){
 
                 }
 
-                vid.play();
-                msg.lang = 'pt-BR'
-                speechSynthesis.speak(msg);
+//                vid.play();
+//                msg.lang = 'pt-BR'
+//                speechSynthesis.speak(msg);
 
              }
         }

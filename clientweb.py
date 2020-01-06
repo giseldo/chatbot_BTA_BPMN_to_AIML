@@ -205,7 +205,10 @@ def upload_file():
         HotReloadAdminExtension.reload_all(client_context)
 
         return '''
-                <h5>Arquivo BPMN carregado com sucesso. Volte e digite <b>RELOAD</b> no chatbot.</h5>
+                <html>
+                <body>
+                
+                <h2>Arquivo BPMN carregado com sucesso.</h2>
                 <p> 
                     <input type="button" value="voltar" onclick="voltar()" >
                 </p>
@@ -214,6 +217,8 @@ def upload_file():
                         window.history.back();
                     }
                 </script>
+                </body>
+                </html>
                '''
 
 
@@ -252,8 +257,11 @@ def delete_files():
         client_context = WEB_CLIENT.create_client_context(userid)
         HotReloadAdminExtension.reload_all(client_context)
 
-        return '''
-                   <h5>A base de conhecimento do chatbot foi apagada.</h5>
+        return '''  
+                    <html>
+                    <body>
+                    
+                    <h2>A base de conhecimento do chatbot foi apagada.</h2>
                     <p> 
                         <input type="button" value="voltar" onclick="voltar()" >
                     </p>
@@ -262,6 +270,8 @@ def delete_files():
                             window.history.back();
                         }
                     </script>
+                    </body>
+                    </html>
                    '''
 
 

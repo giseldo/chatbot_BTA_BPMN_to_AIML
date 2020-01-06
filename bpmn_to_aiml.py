@@ -118,15 +118,9 @@ def get_topic_id(root_bpmn):
 def convert_bpmn_to_aiml(root_bpmn, root_aiml):
     topic = ET.SubElement(root_aiml, 'topic')
     topic.set("name",get_topic_id(root_bpmn))
-
-    srai_text = None
     that_text = None
-    topic_name = None
-    pattern_text = None
-    template_text = None
     set_name = None
     set_value = None
-
     # identifica primeiro o start_event
     for aresta_inicial in root_bpmn.findall("edge"):
         ant = get_ant_vertice(root_bpmn, aresta_inicial)
@@ -135,12 +129,11 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
             pattern_text = ant.attrib['nome']
             topic_name = ant.attrib['id'].upper().replace('_', '').replace('(', '').replace(')', '')
             template_text = '<think><set name="topic">{}</set></think>{}'.format(topic_name, pos.attrib["nome"])
-            if pos.tag == 'task':
-                srai_text = pos.attrib['id']
+            srai_text = pos.attrib['id']
             create_category(root_aiml, topic_name, pattern_text, template_text, that_text, srai_text, set_name, set_value)
             break
 
-    for aresta in root_bpmn.findall("edge"): # refatorar utiliznado findall("edge")
+    for aresta in root_bpmn.findall("edge"):
         srai_text = None
         that_text = None
         pattern_text = None
@@ -149,18 +142,18 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
         set_value = None
         ant = get_ant_vertice(root_bpmn, aresta)
         pos = get_pos_vertice(root_bpmn, aresta)
-        if ant.tag == 'task' and pos.tag == 'task':
-            pattern_text = ant.attrib['id']
-            template_text = get_template_text_with_variable(pos.attrib['nome'])
-            srai_text = pos.attrib['id']
+        if ant.tag == 'start_event':
+            continue
         elif pos.tag == 'end_event':
             pattern_text = ant.attrib['id']
             template_text = '<think><set name="topic"></set></think>{}'.format(pos.attrib['nome'])
-            root_aiml = topic
+        elif ant.tag == 'task' and pos.tag == 'task':
+            pattern_text = ant.attrib['id']
+            template_text = get_template_text_with_variable(pos.attrib['nome'])
+            srai_text = pos.attrib['id']
         elif ant.tag == 'task' and pos.tag == 'exclusive_gateway':
             pattern_text = ant.attrib['id']
             template_text = transform_condition_if_exists(root_bpmn, pos)
-            root_aiml = topic
         elif ant.tag == 'exclusive_gateway' and pos.tag == 'task':
             match_variable_gateway = is_phase_with_variable(ant.attrib["nome"])
             if match_variable_gateway:
@@ -176,10 +169,8 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
                 text_association_node = get_node(root_bpmn, association_node.attrib['pos'])
                 set_name = text_association_node.attrib['nome']
                 set_value = aresta.attrib['nome']
-            root_aiml = topic
-        # a tag startevent ja foi carregada
-        if ant.tag != 'start_event':
-            create_category(root_aiml, topic_name, pattern_text, template_text, that_text, srai_text, set_name, set_value)
+        root_aiml = topic
+        create_category(root_aiml, topic_name, pattern_text, template_text, that_text, srai_text, set_name, set_value)
 
 
 def lower_case_some_tags(input_file_name, output_file_name):

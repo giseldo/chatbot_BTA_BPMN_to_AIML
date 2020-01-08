@@ -44,11 +44,10 @@ def get_association_node(root_bpmn, gateway):
 
 
 def get_template_text_with_variable(phrase):
-    match = re.search(r"[$]\w*\w", phrase)
-    if match:
-        variavel = match[0].replace('_', '').replace('(', '').replace(')', '').replace('$', '')
-        phrase = phrase.replace(match[0], '<get name="' + variavel + '" />')
-        return phrase
+    matches = re.findall(r"[$]\w*\w", phrase)
+    for match in matches:
+         variavel = match.replace('_', '').replace('(', '').replace(')', '').replace('$', '')
+         phrase = phrase.replace(match, '<get name="' + variavel + '" />')
     return phrase
 
 
@@ -60,7 +59,7 @@ def get_arestas_from_gateway(root_bpmn, gateway):
     return arestas
 
 
-def is_phase_with_variable(phrase):
+def is_phrase_only_with_variable(phrase):
     match = re.search(r"[$]\w*\w", phrase)
     return match
 
@@ -68,21 +67,19 @@ def get_end_out_topic(phrase):
     saida = '<think><set name="topic"></set></think>{}'.format(phrase)
     return saida
 
-def transform_condition_if_exists(root_bpmn, pos):
+def get_condition(root_bpmn, pos):
     phrase = pos.attrib['nome']
-    match = is_phase_with_variable(phrase)
-    if match:
-        variavel = match[0].replace('_', '').replace('(', '').replace(')', '').replace('$', '')
-        arestas = get_arestas_from_gateway(root_bpmn, pos)
-        condition_begin = '''<condition name="{}">'''.format(variavel)
-        condition_li_values = ""
-        for aresta in arestas:
-            srai_name_task = aresta.attrib["nome"].replace('_', '').replace('(', '').replace(')', '').replace('$', '')
-            srai_redirect = aresta.attrib["pos"].replace('_', '').replace('(', '').replace(')', '').replace('$', '')
-            condition_li_values = condition_li_values + '<li value="{}"><srai>{}</srai></li>'.format(srai_name_task, srai_redirect)
-        condition_end = '''</condition>'''
-        phrase = condition_begin + condition_li_values + condition_end
-    return phrase
+    variavel = phrase.replace('_', '').replace('(', '').replace(')', '').replace('$', '')
+    arestas = get_arestas_from_gateway(root_bpmn, pos)
+    condition_begin = '''<condition name="{}">'''.format(variavel)
+    condition_li_values = ""
+    for aresta in arestas:
+        srai_name_task = aresta.attrib["nome"].replace('_', '').replace('(', '').replace(')', '').replace('$', '')
+        srai_redirect = aresta.attrib["id"].replace('_', '').replace('(', '').replace(')', '').replace('$', '')
+        condition_li_values = condition_li_values + '<li value="{}"><srai>{}</srai></li>'.format(srai_name_task, srai_redirect)
+    condition_end = '''</condition>'''
+    new_phrase = condition_begin + condition_li_values + condition_end
+    return new_phrase
 
 
 def create_category(root_aiml, topic_name, pattern_text, template_text, that_text, srai_text, set_name, set_value):
@@ -94,7 +91,7 @@ def create_category(root_aiml, topic_name, pattern_text, template_text, that_tex
     pattern.text = pattern_text.upper().replace('_', '').replace('(', '').replace(')', '')
     if that_text is not None:
         that = ET.SubElement(category, 'that')
-        that.text = that_text.upper().replace('?', '').replace('(', '').replace(')', '')
+        that.text = re.sub('[^a-zA-Z0-9* \n\.]', '', that_text.upper())
     template = ET.SubElement(category, 'template')
     template.text = template_text.upper() + '-'
     if set_name is not None:
@@ -153,17 +150,20 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
             srai_text = pos.attrib['id']
         elif ant.tag == 'task' and pos.tag == 'exclusive_gateway':
             pattern_text = ant.attrib['id']
-            template_text = transform_condition_if_exists(root_bpmn, pos)
-        elif ant.tag == 'exclusive_gateway' and pos.tag == 'task':
-            match_variable_gateway = is_phase_with_variable(ant.attrib["nome"])
-            if match_variable_gateway:
-                pattern_text = pos.attrib['id']
+            gateway_has_only_variable_in_name = is_phrase_only_with_variable(pos.attrib['nome']) # é um gateway que não para
+            if gateway_has_only_variable_in_name:
+                template_text = get_condition(root_bpmn, pos)
+            else:
                 template_text = pos.attrib['nome']
+        elif ant.tag == 'exclusive_gateway' and pos.tag == 'task':
+            gateway_has_only_variable_in_name = is_phrase_only_with_variable(ant.attrib["nome"])
+            if gateway_has_only_variable_in_name:
+                pattern_text = aresta.attrib['id']
             else:
                 pattern_text = aresta.attrib['nome']
                 that_text = '* ' + ant.attrib['nome']
-                template_text = pos.attrib['nome']
             srai_text = pos.attrib['id']
+            template_text = pos.attrib['nome']
             association_node = get_association_node(root_bpmn, ant)
             if association_node is not None:
                 text_association_node = get_node(root_bpmn, association_node.attrib['pos'])

@@ -88,12 +88,19 @@ def create_category(root_aiml, topic_name, pattern_text, template_text, that_tex
     #     topic.set("name", topic_name)
     category = ET.SubElement(root_aiml, 'category')
     pattern = ET.SubElement(category, 'pattern')
-    pattern.text = pattern_text.upper().replace('_', '').replace('(', '').replace(')', '')
+    if pattern_text is not None:
+        pattern.text = pattern_text.upper().replace('_', '').replace('(', '').replace(')', '')
+    else:
+        pattern.text = ''
     if that_text is not None:
         that = ET.SubElement(category, 'that')
-        that.text = re.sub('[^a-zA-Z0-9* \n\.]', '', that_text.upper())
+        that.text = that_text.upper().replace('_', '').replace('(', '').replace(')', '').replace('-', '').replace('?', '').replace('!', '').replace('.', '')
+        # that.text = re.sub('[^a-zA-Z0-9*\^ \n\.]', '', that_text.upper())
     template = ET.SubElement(category, 'template')
-    template.text = template_text.upper() + '-'
+    if template_text is not None:
+        template.text = template_text.upper() + '-'
+    else:
+        template.text = ''
     if set_name is not None:
         think_tag = ET.SubElement(template, 'think')
         set_tag = ET.SubElement(think_tag, 'set')
@@ -118,6 +125,7 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
     that_text = None
     set_name = None
     set_value = None
+    srai_text = None
     # identifica primeiro o start_event
     for aresta_inicial in root_bpmn.findall("edge"):
         ant = get_ant_vertice(root_bpmn, aresta_inicial)
@@ -126,7 +134,8 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
             pattern_text = ant.attrib['nome']
             topic_name = ant.attrib['id'].upper().replace('_', '').replace('(', '').replace(')', '')
             template_text = '<think><set name="topic">{}</set></think>{}'.format(topic_name, pos.attrib["nome"])
-            srai_text = pos.attrib['id']
+            if pos.tag == 'task':
+                srai_text = pos.attrib['id']
             create_category(root_aiml, topic_name, pattern_text, template_text, that_text, srai_text, set_name, set_value)
             break
 
@@ -161,7 +170,7 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
                 pattern_text = aresta.attrib['id']
             else:
                 pattern_text = aresta.attrib['nome']
-                that_text = '* ' + ant.attrib['nome']
+                that_text = '^ ' + ant.attrib['nome']
             srai_text = pos.attrib['id']
             template_text = pos.attrib['nome']
             association_node = get_association_node(root_bpmn, ant)

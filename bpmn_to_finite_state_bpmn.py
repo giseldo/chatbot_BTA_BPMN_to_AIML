@@ -3,7 +3,8 @@ import os
 
 def convert_bpmn_to_finite_state_bpmn(bpmn):
 
-    # identificar os edges com gateway de junção e colocar em um vetor mudar os dest para a proxima destes edges task
+    # identificar as arestas com gateway de junção e colocar em um vetor
+    # mudar os pos para a proximo 'node' destes edges task
     # cria um lista com as arestas que tem gateway de juncao
     lista_arestas_juncao = getListaArestasComGatewayJuncao(bpmn)
 

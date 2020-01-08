@@ -16,11 +16,11 @@ def convert_bpmn_to_finite_state_bpmn(bpmn):
     for aresta, vertice in dicionario_aresta_juncao_e_prox_vertice.items():
         next_aresta = get_next_aresta(bpmn, vertice)
         next_node = get_node(bpmn, next_aresta.attrib['pos'])
-        while next_node.tag == "exclusive_gateway":
-            next_aresta = get_next_aresta(bpmn, next_node)
-            next_node = get_node(bpmn, next_aresta.attrib['pos'])
-        else:
-            aresta.attrib['pos'] = next_aresta.attrib['pos']
+        # while next_node.tag == "exclusive_gateway":
+        #     next_aresta = get_next_aresta(bpmn, next_node)
+        #     next_node = get_node(bpmn, next_aresta.attrib['pos'])
+        # else:
+        aresta.attrib['pos'] = next_aresta.attrib['pos']
 
     # apaga o gateway que estava apontando para a aresta
     # apaga o vertice que ligava o gateway ao proximo vertice

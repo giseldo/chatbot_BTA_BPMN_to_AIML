@@ -10,12 +10,12 @@
       <bpmn:outgoing>SequenceFlow_0nzmekr</bpmn:outgoing>
     </bpmn:exclusiveGateway>
     <bpmn:sequenceFlow id="SequenceFlow_02aywfc" sourceRef="StartEvent_0yd8x9c" targetRef="ExclusiveGateway_05iw8n8" />
-    <bpmn:task id="Task_1w0uh4b" name="A">
+    <bpmn:task id="Task_1w0uh4b">
       <bpmn:incoming>SequenceFlow_0r8w41j</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_039lzko</bpmn:outgoing>
     </bpmn:task>
     <bpmn:sequenceFlow id="SequenceFlow_0r8w41j" name="camisa" sourceRef="ExclusiveGateway_05iw8n8" targetRef="Task_1w0uh4b" />
-    <bpmn:task id="Task_1dhacb1" name="B">
+    <bpmn:task id="Task_1dhacb1">
       <bpmn:incoming>SequenceFlow_0nzmekr</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0k7rab2</bpmn:outgoing>
     </bpmn:task>
@@ -27,7 +27,7 @@
     </bpmn:exclusiveGateway>
     <bpmn:sequenceFlow id="SequenceFlow_039lzko" sourceRef="Task_1w0uh4b" targetRef="ExclusiveGateway_046lf4p" />
     <bpmn:sequenceFlow id="SequenceFlow_0k7rab2" sourceRef="Task_1dhacb1" targetRef="ExclusiveGateway_046lf4p" />
-    <bpmn:endEvent id="EndEvent_1x8z1k8" name="fim">
+    <bpmn:endEvent id="EndEvent_1x8z1k8">
       <bpmn:incoming>SequenceFlow_1j9ntos</bpmn:incoming>
     </bpmn:endEvent>
     <bpmn:sequenceFlow id="SequenceFlow_1oob6by" sourceRef="ExclusiveGateway_046lf4p" targetRef="ExclusiveGateway_0gnyifb" />
@@ -36,12 +36,12 @@
       <bpmn:outgoing>SequenceFlow_0gfulkg</bpmn:outgoing>
       <bpmn:outgoing>SequenceFlow_03veyx7</bpmn:outgoing>
     </bpmn:exclusiveGateway>
-    <bpmn:task id="Task_0bqkoev" name="C">
+    <bpmn:task id="Task_0bqkoev">
       <bpmn:incoming>SequenceFlow_0gfulkg</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0yzfv1k</bpmn:outgoing>
     </bpmn:task>
     <bpmn:sequenceFlow id="SequenceFlow_0gfulkg" name="azul" sourceRef="ExclusiveGateway_0gnyifb" targetRef="Task_0bqkoev" />
-    <bpmn:task id="Task_0nsaamq" name="D">
+    <bpmn:task id="Task_0nsaamq">
       <bpmn:incoming>SequenceFlow_03veyx7</bpmn:incoming>
       <bpmn:outgoing>SequenceFlow_0b9od6g</bpmn:outgoing>
     </bpmn:task>

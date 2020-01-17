@@ -63,6 +63,7 @@ ALICE
 
 - Faça um diagrama bpmn no site http://bpmn.io
  
-- Veja alguns exemplos de diagrama em ....
+- Veja alguns exemplos de diagrama em https://github.com/giseldo/chatdepressao/tree/master/exemplos/inicio
 
 - Carrege o diagrama no chatbot.
+

@@ -19,7 +19,6 @@ fala sobre depressão e um que ensina ética. O resultado esperado
 é que apos a construção do diagrama em BPMN a conversão para o fluxo
 aconteceu em alguns segundos. Logo é possível construir vários fluxos.
 
-
 ## Introdução
 
 Chatbots são programas de computador 
@@ -29,10 +28,12 @@ BPMN é uma linguagem de mapeamento de processos
 O problema é que construir diagramas em AIML é dificil
 
 ### Objetivo Principal
+
 Desenhar fluxos de dialogo em AIML a partir do BPMN para que a construção de chatbots
 seja mais intuitiva 
 
 ### Objetivo Secundário
+
 Desenvolver uma ferramenta visual para construção de fluxo de 
 diálogos
 
@@ -56,3 +57,12 @@ ELIZA
 
 ALICE
 
+## Instalação
+
+- Execute o arquivo cliente_web.py
+
+- Faça um diagrama bpmn no site http://bpmn.io
+ 
+- Veja alguns exemplos de diagrama em ....
+
+- Carrege o diagrama no chatbot.

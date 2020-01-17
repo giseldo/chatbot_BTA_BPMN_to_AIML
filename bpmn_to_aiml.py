@@ -63,9 +63,11 @@ def is_phrase_only_with_variable(phrase):
     match = re.search(r"[$]\w*\w", phrase)
     return match
 
+
 def get_end_out_topic(phrase):
     saida = '<think><set name="topic"></set></think>{}'.format(phrase)
     return saida
+
 
 def get_condition(root_bpmn, pos):
     phrase = pos.attrib['nome']

@@ -36,8 +36,6 @@ seja mais intuitiva
 Desenvolver uma ferramenta visual para construção de fluxo de 
 diálogos
 
-## Referencial teorico
-
 ## Estudo de caso
 
 Foram desenvolvido um estudo de caso sobre depressao
@@ -48,7 +46,7 @@ Foi utilizado Python.
 
 ## Resultados
 
-O chatbot foi apresentado a turma e todos gostaram
+O chatbot foi apresentado a turma de alunos que testaram o aplicativo.
 
 ## Referências
 

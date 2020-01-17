@@ -1,7 +1,7 @@
-## titulo
+## Título
 Ari: um chatbot em AIML com fluxo de dialogo escrito em BPMN
 
-## resumo
+## Resumo
 Chatbot são programas de computador onde um ser humano conversa 
 com o programa utilizando linguagem natural.
 Existem diversas tecnologias associadas a construção de 
@@ -20,7 +20,7 @@ fala sobre depressão e um que ensina ética. O resultado esperado
 aconteceu em alguns segundos. Logo é possível construir vários fluxos.
 
 
-## introdução
+## Introdução
 
 Chatbots são programas de computador 
 
@@ -38,7 +38,7 @@ diálogos
 
 ## Referencial teorico
 
-## estudo de caso
+## Estudo de caso
 
 Foram desenvolvido um estudo de caso sobre depressao
 

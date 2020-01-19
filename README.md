@@ -62,7 +62,7 @@ $pip install -r requirements
 $python.exe client_web.py  (recomendo o pycharm)
 
 - Veja alguns exemplos de diagrama em [Exemplos](https://github.com/giseldo/chatdepressao/tree/master/exemplos)
-- Faça um diagrama bpmn no site http://bpmn.io
+- Faça um diagrama bpmn no site http://bpmn.io ou no [Bizagi Modeler](https://www.bizagi.com/pt)
 - Carregue o diagrama no seu chatbot.
 
 ## Contato 

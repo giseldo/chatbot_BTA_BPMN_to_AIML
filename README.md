@@ -57,13 +57,15 @@ O chatbot foi apresentado a turma de alunos que testaram o aplicativo.
 
 ## Instalação
 
-- 1. Baixe o projeto e instale as depedências
-git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
-pip install -r requirements
-- 2. Execute o arquivo cliente_web.py
-- 3. Veja alguns exemplos de diagrama em https://github.com/giseldo/chatdepressao/tree/master/exemplos/inicio
-- 4. Faça um diagrama bpmn no site http://bpmn.io
-- 5. Carrege o diagrama no chatbot.
+- Baixe o projeto e instale as depedências
+
+$git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
+
+$pip install -r requirements
+- Execute o arquivo cliente_web.py
+- Veja alguns exemplos de diagrama em https://github.com/giseldo/chatdepressao/tree/master/exemplos/inicio
+- Faça um diagrama bpmn no site http://bpmn.io
+- Carrege o diagrama no chatbot.
 
 ## Contato 
 

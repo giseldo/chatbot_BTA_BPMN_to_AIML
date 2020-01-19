@@ -67,7 +67,7 @@ $python.exe client_web.py  (recomendo o pycharm)
 
 ## Contato 
 
-Está com dúvidas ou quer participar do projeto entre em contato comigo, respondo rapidamente.
+Se está com dúvidas ou quer participar do projeto entre em contato. Respondo rapidamente.
 
 giseldo@gmail.com
 

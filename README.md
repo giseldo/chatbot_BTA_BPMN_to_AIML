@@ -8,7 +8,7 @@ Existem diversas tecnologias associadas a construção de
 chatterbots  uma que se destaca é o AIML.
 Desenhar fluxos em AIML é trabalhoso e por vezes 
 não intuitivo devido a características intrínsecas do XML e do AIML.
-Contruir fluxos utilizando uma linguagem visual é intuitivo. 
+Construir fluxos utilizando uma linguagem visual é intuitivo. 
 Existe uma linguagem que define os componentes visuais e
  a sua especificação em XML é utilizada para mapeamento de processos de negócio.
 É possível mapear a notação BPMN em AIML e aproveitar todos os recursos
@@ -53,7 +53,7 @@ O chatbot foi apresentado a turma de alunos que testaram o aplicativo.
 
 ## Instalação
 
-- Baixe o projeto, instale as depedências e execute:
+- Baixe o projeto, instale as dependências e execute:
 
 $git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
 
@@ -63,11 +63,11 @@ $python.exe client_web.py  (recomendo o pycharm)
 
 - Veja alguns exemplos de diagrama em https://github.com/giseldo/chatdepressao/tree/master/exemplos/inicio
 - Faça um diagrama bpmn no site http://bpmn.io
-- Carrege o diagrama no chatbot.
+- Carregue o diagrama no chatbot.
 
 ## Contato 
 
-Está com dúvidas ou quer participar do projeto entre em contato comigo, responderei todas as mensagens.
+Está com dúvidas ou quer participar do projeto entre em contato comigo, respondo rapidamente.
 
 giseldo@gmail.com
 

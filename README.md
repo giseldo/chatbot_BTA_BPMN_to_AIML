@@ -73,6 +73,6 @@ giseldo@gmail.com
 
 Skype: giseldo
 
-[![tela](./tela_chatbot.png)]
+![tela](./tela_chatbot.png)
 
 

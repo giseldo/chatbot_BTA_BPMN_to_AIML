@@ -1,7 +1,7 @@
 
 Diretório com exemplos de diagrama BPMN que podem ser convertidos em AIML
 
-TODO: SÍMBOLOS UTILIZADOS, LEVANTAR PERFIL BECK, COMPRAR ROUPA (LIVRO), DIALOGOS
+TODO: SÍMBOLOS UTILIZADOS, LEVANTAR PERFIL BECK, COMPRAR ROUPA (LIVRO), DIALOGOS, ARQUITETURA
 
 [INÍCIO](https://github.com/giseldo/chatbot_ari_bpmn_to_aiml/tree/master/exemplos/inicio)
 

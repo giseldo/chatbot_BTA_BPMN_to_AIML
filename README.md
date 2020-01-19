@@ -49,11 +49,7 @@ O chatbot foi apresentado a turma de alunos que testaram o aplicativo.
 
 ## Referências
 
-- TURING
-- ELIZA
-- ALICE
-- AIML
-- PROGRAM-Y
+- TURING, ELIZA, ALICE, AIML, PROGRAM-Y
 
 ## Instalação
 

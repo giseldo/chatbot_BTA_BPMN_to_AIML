@@ -19,25 +19,25 @@ fala sobre depressão e um que ensina ética. A conversão do fluxo de BPMN para
 
 ## Introdução
 
-Chatbots são programas de computador.
+Chatbots são programas de computador que conversam em linguagem natural com um ser humano.
 
-BPMN é uma linguagem de mapeamento de processos.
+BPMN é uma linguagem para mapeamento de processos de negócio.
 
 O problema é que construir diagramas em AIML é difícil.
 
 ### Objetivo Principal
 
-Desenhar fluxos de diálogo em AIML a partir do BPMN para que a construção de chatbots
+Desenhar fluxos de diálogo em AIML a partir de diagramas BPMN para que a construção de chatbots
 seja mais intuitiva. 
 
 ### Objetivo Secundário
 
-Desenvolver uma ferramenta visual para construção de fluxo de 
-diálogos.
+Desenvolver uma ferramenta para converter os fluxos diálogos.
+Desenvolver um chatbot como prova de conceito.
 
 ## Estudo de caso
 
-Foi desenvolvido um estudo de caso sobre depressão baseado no trabalho de BECK.
+Foi desenvolvido um estudo de caso sobre depressão baseado no trabalho de BECK onde todos os diálogos foram mapeados em BPMN.
 
 ## Arquitetura
 

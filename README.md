@@ -7,7 +7,7 @@ com o programa utilizando linguagem natural.
 Existem diversas tecnologias associadas a construção de 
 chatterbots  uma que se destaca é o AIML.
 Desenhar fluxos em AIML é trabalhoso e por vezes 
-não intuitivo devido a caracteristicas intrísicas do XML e do AIML.
+não intuitivo devido a características intrínsecas do XML e do AIML.
 Contruir fluxos utilizando uma linguagem visual é intuitivo. 
 Existe uma linguagem que define os componentes visuais e
  a sua especificação em XML é utilizada para mapeamento de processos de negócio.

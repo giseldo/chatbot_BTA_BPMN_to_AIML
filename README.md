@@ -25,12 +25,13 @@ BPMN é uma linguagem para mapeamento de processos de negócio.
 
 O problema é que construir diagramas em AIML é difícil.
 
-### Objetivo Principal
+## Objetivo 
 
+### Principal
 Desenhar fluxos de diálogo em AIML a partir de diagramas BPMN para que a construção de chatbots
 seja mais intuitiva. 
 
-### Objetivo Secundário
+### Secundário
 
 Desenvolver uma ferramenta para converter os fluxos diálogos.
 Desenvolver um chatbot como prova de conceito.

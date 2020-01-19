@@ -1,5 +1,5 @@
 ## Título
-Ari: um chatbot em AIML com fluxo de dialogo escrito em BPMN
+Ari: um chatbot em AIML com fluxo de dialogo escrito em BPMN.
 
 ## Resumo
 Chatbot são programas de computador onde um ser humano conversa 
@@ -19,25 +19,25 @@ fala sobre depressão e um que ensina ética. A conversão do fluxo de BPMN para
 
 ## Introdução
 
-Chatbots são programas de computador 
+Chatbots são programas de computador.
 
-BPMN é uma linguagem de mapeamento de processos
+BPMN é uma linguagem de mapeamento de processos.
 
-O problema é que construir diagramas em AIML é difícil
+O problema é que construir diagramas em AIML é difícil.
 
 ### Objetivo Principal
 
-Desenhar fluxos de dialogo em AIML a partir do BPMN para que a construção de chatbots
-seja mais intuitiva 
+Desenhar fluxos de diálogo em AIML a partir do BPMN para que a construção de chatbots
+seja mais intuitiva. 
 
 ### Objetivo Secundário
 
 Desenvolver uma ferramenta visual para construção de fluxo de 
-diálogos
+diálogos.
 
 ## Estudo de caso
 
-Foram desenvolvido um estudo de caso sobre depressao
+Foi desenvolvido um estudo de caso sobre depressão baseado no trabalho de BECK.
 
 ## Arquitetura
 

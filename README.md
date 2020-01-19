@@ -2,7 +2,7 @@
 Ari: um chatbot em AIML com fluxo de dialogo escrito em BPMN.
 
 ## Resumo
-Chatbot são programas de computador onde um ser humano conversa 
+Chatbots são programas de computador onde um ser humano conversa 
 com o programa utilizando linguagem natural.
 Existem diversas tecnologias associadas a construção de 
 chatterbots  uma que se destaca é o AIML.

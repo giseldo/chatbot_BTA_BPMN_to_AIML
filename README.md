@@ -23,7 +23,7 @@ Chatbots são programas de computador
 
 BPMN é uma linguagem de mapeamento de processos
 
-O problema é que construir diagramas em AIML é dificil
+O problema é que construir diagramas em AIML é difícil
 
 ### Objetivo Principal
 

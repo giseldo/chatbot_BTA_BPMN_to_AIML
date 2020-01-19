@@ -7,17 +7,15 @@ com o programa utilizando linguagem natural.
 Existem diversas tecnologias associadas a construção de 
 chatterbots  uma que se destaca é o AIML.
 Desenhar fluxos em AIML é trabalhoso e por vezes 
-não intuitivo devido a caracteristicas intrisicas do XML.
+não intuitivo devido a caracteristicas intrísicas do XML e do AIML.
 Contruir fluxos utilizando uma linguagem visual é intuitivo. 
 Existe uma linguagem que define os componentes visuais e
- a sua especificação em XML utilizada para mapeamento de processos de negócio.
+ a sua especificação em XML é utilizada para mapeamento de processos de negócio.
 É possível mapear a notação BPMN em AIML e aproveitar todos os recursos
 visuais oferecidos por uma linguagem de notação visual como o BPMN. 
 Foi desenvolvido um módulo em python que converte um diagrama 
 BPMN em AIML. Dois estudos de caso foram implementados, um que 
-fala sobre depressão e um que ensina ética. O resultado esperado
-é que apos a construção do diagrama em BPMN a conversão para o fluxo
-aconteceu em alguns segundos. Logo é possível construir vários fluxos.
+fala sobre depressão e um que ensina ética. A conversão do fluxo de BPMN para AIML dura alguns segundos. Logo é possível construir vários fluxos. O resultado esperado é disseminar o uso de AIML por uma quantidade cada vez maior de pessoas.
 
 ## Introdução
 

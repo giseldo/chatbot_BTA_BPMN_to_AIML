@@ -1,5 +1,5 @@
 # bpmn-js starter
-https://cdn.statically.io/gh/giseldo/chatbot_ari_bpmn_to_aiml/4c9973d7/exemplos/inicio/diagram.bpmn
+
 Try out our toolkit by downloading the [viewer](https://cdn.statically.io/gh/giseldo/chatbot_ari_bpmn_to_aiml/4c9973d7/exemplos/inicio/viewer.html) or [modeler](https://cdn.statically.io/gh/giseldo/chatbot_ari_bpmn_to_aiml/4c9973d7/exemplos/inicio/modeler.html) example.
 
 

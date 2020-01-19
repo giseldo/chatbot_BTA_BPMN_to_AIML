@@ -70,9 +70,9 @@ pip install -r requirements
 Está com dúvidas ou quer participar do projeto entre em contato comigo, responderei todas as mensagens.
 
 giseldo@gmail.com
+
 Skype: giseldo
 
-
-(./tela_chatbot.png)
+[![tela](./tela_chatbot.png)]
 
 

@@ -41,7 +41,7 @@ Foi desenvolvido um estudo de caso sobre depressão baseado no trabalho de BECK.
 
 ## Arquitetura
 
-Foi utilizado Python.
+Python 3.7, program-y, xml.etree.elementtree, aiml 2.0
 
 ## Resultados
 

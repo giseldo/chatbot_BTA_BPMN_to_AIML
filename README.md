@@ -46,7 +46,7 @@ Python 3.7, program-y, xml.etree.elementtree, aiml 2.0
 
 ## Resultados
 
-O chatbot foi apresentado a turma de alunos que testaram o aplicativo.
+Usuários que conheciam e não conheciam AIML construiram fluxos de diálogo e os carregaram em um chatbot.
 
 ## Referências
 

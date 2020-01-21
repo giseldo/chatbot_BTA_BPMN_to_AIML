@@ -12,4 +12,4 @@ def converter_bpmn_aiml(filename):
     transform_bpmn_to_aiml(finite_state_bpmn_file_name)
 
 
-# converter_bpmn_aiml("bpmn_files\diagram_25.bpmn")
+# converter_bpmn_aiml("bpmn_files\modelo.bpmn")

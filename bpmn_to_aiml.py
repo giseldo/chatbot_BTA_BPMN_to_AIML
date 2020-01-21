@@ -94,11 +94,11 @@ def create_category(root_aiml, topic_name, pattern_text, template_text, that_tex
         pattern.text = ''
     if that_text is not None:
         that = ET.SubElement(category, 'that')
-        that.text = that_text.upper().replace('_', '').replace('(', '').replace(')', '').replace('-', '').replace('?', '').replace('!', '').replace('.', '')
+        that.text = that_text.upper().replace('_', '').replace('(', '').replace(')', '').replace('-', '').replace('?', '').replace('!', '').replace('.', '').replace(',', '')
         # that.text = re.sub('[^a-zA-Z0-9*\^ \n\.]', '', that_text.upper())
     template = ET.SubElement(category, 'template')
     if template_text is not None:
-        template.text = template_text.upper() + '-'
+        template.text = template_text.upper().replace('.', ',') + '-'
     else:
         template.text = ''
     if set_name is not None:
@@ -164,20 +164,25 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
                 template_text = get_condition(root_bpmn, pos)
             else:
                 template_text = pos.attrib['nome']
-        elif ant.tag == 'exclusive_gateway' and pos.tag == 'task':
-            gateway_has_only_variable_in_name = is_phrase_only_with_variable(ant.attrib["nome"])
-            if gateway_has_only_variable_in_name:
-                pattern_text = aresta.attrib['id']
-            else:
-                pattern_text = aresta.attrib['nome']
-                that_text = '^ ' + ant.attrib['nome']
-            srai_text = pos.attrib['id']
-            template_text = pos.attrib['nome']
-            association_node = get_association_node(root_bpmn, ant)
-            if association_node is not None:
-                text_association_node = get_node(root_bpmn, association_node.attrib['pos'])
-                set_name = text_association_node.attrib['nome']
-                set_value = aresta.attrib['nome']
+        elif ant.tag == 'exclusive_gateway' and (pos.tag == 'task' or pos.tag == 'exclusive_gateway'):
+            for aresta_atrib_nome in aresta.attrib['nome'].split(','):
+                gateway_has_only_variable_in_name = is_phrase_only_with_variable(ant.attrib["nome"])
+                if gateway_has_only_variable_in_name:
+                    pattern_text = aresta.attrib['id']
+                else:
+                    pattern_text = aresta_atrib_nome
+                    that_text = '^ ' + ant.attrib['nome']
+                if pos.tag != 'exclusive_gateway':
+                    srai_text = pos.attrib['id']
+                template_text = pos.attrib['nome']
+                association_node = get_association_node(root_bpmn, ant)
+                if association_node is not None:
+                    text_association_node = get_node(root_bpmn, association_node.attrib['pos'])
+                    set_name = text_association_node.attrib['nome']
+                    set_value = aresta_atrib_nome
+                root_aiml = topic
+                create_category(root_aiml, topic_name, pattern_text, template_text, that_text, srai_text, set_name, set_value)
+            continue
         root_aiml = topic
         create_category(root_aiml, topic_name, pattern_text, template_text, that_text, srai_text, set_name, set_value)
 

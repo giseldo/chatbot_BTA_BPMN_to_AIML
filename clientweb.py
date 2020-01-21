@@ -193,6 +193,45 @@ from programy.extensions.admin.hotreload import HotReloadAdminExtension
 @app.route('/uploader', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
+
+
+        # INICIO DELETE FILES
+
+        path = os.path.join(app.config['CATEGORIES_FOLDER'])
+        caminhoAbsoluto = os.path.abspath(path)
+        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+            if pastaAtual == caminhoAbsoluto:
+                for arquivo in arquivos:
+                    os.remove(os.path.join(app.config['CATEGORIES_FOLDER'], arquivo))
+
+        path = os.path.join(app.config['BPMN_FILES'])
+        caminhoAbsoluto = os.path.abspath(path)
+        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+            if pastaAtual == caminhoAbsoluto:
+                for arquivo in arquivos:
+                    os.remove(os.path.join(app.config['BPMN_FILES'], arquivo))
+
+        path = os.path.join(app.config['BPMN_SIMPLIFIED'])
+        caminhoAbsoluto = os.path.abspath(path)
+        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+            if pastaAtual == caminhoAbsoluto:
+                for arquivo in arquivos:
+                    os.remove(os.path.join(app.config['BPMN_SIMPLIFIED'], arquivo))
+
+        path = os.path.join(app.config['BPMN_FINITE_STATE'])
+        caminhoAbsoluto = os.path.abspath(path)
+        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+            if pastaAtual == caminhoAbsoluto:
+                for arquivo in arquivos:
+                    os.remove(os.path.join(app.config['BPMN_FINITE_STATE'], arquivo))
+
+        userid = WEB_CLIENT.get_userid(request)
+        client_context = WEB_CLIENT.create_client_context(userid)
+        HotReloadAdminExtension.reload_all(client_context)
+
+
+        # FIM DELETE FILES
+
         f = request.files['file']
         filename = secure_filename(f.filename)
         f.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))

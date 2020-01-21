@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import os
 
+
 def convert_bpmn_to_finite_state_bpmn(bpmn):
 
     # identificar as arestas com gateway de junção e colocar em um vetor

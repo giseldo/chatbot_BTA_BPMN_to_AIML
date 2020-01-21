@@ -12,6 +12,15 @@
 - falar e exibir falando pelo tempo 
 - incluir configuracao de voz
 
+- obrigatorio ter uma task antes do exclusive gateway com um texto.
+- no nome das variaveis utilize letras normais e caracter $
+
+bom material para a dissertação
+https://www.pandorabots.com/botmaster/pt/tutorial
+http://www.aiml.foundation/doc.html
+
+- falta a documentação
+
 
 
 

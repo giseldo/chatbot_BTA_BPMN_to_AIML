@@ -1,0 +1,23 @@
+<bpmn xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL"
+      xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC"
+      xmlns:di="http://www.omg.org/spec/DD/20100524/DI">
+    <edge id="SequenceFlow_18f6k1o" ant="StartEvent_1obckwn" pos="Task_16e5nfu" nome=""/>
+    <edge id="SequenceFlow_14rot49" ant="Task_16e5nfu" pos="Task_0l09ugk" nome=""/>
+    <edge id="SequenceFlow_1yn3ru5" ant="Task_0l09ugk" pos="ExclusiveGateway_1gzhciv" nome=""/>
+    <edge id="SequenceFlow_1uu0kf8" ant="ExclusiveGateway_1gzhciv" pos="Task_1okur4n" nome="azul"/>
+    <edge id="SequenceFlow_108odlb" ant="ExclusiveGateway_1gzhciv" pos="Task_13f9qxk" nome="verde"/>
+    <edge id="SequenceFlow_0zb5mxd" ant="ExclusiveGateway_1gzhciv" pos="Task_1b73rq3" nome="*"/>
+    <edge id="SequenceFlow_00482xs" ant="Task_1okur4n" pos="ExclusiveGateway_03yhd37" nome=""/>
+    <edge id="SequenceFlow_0cn26r6" ant="Task_13f9qxk" pos="ExclusiveGateway_03yhd37" nome=""/>
+    <edge id="SequenceFlow_0nsclb4" ant="Task_1b73rq3" pos="ExclusiveGateway_03yhd37" nome=""/>
+    <edge id="SequenceFlow_19caf8m" ant="ExclusiveGateway_03yhd37" pos="EndEvent_0jyussl" nome=""/>
+    <task id="Task_16e5nfu" nome="ok vamos la"/>
+    <task id="Task_0l09ugk" nome="vou fazer algumas perguntas"/>
+    <task id="Task_1okur4n" nome="voce escolheu azul"/>
+    <task id="Task_13f9qxk" nome="verde que legal"/>
+    <task id="Task_1b73rq3" nome="nao foi verde nem azul"/>
+    <start_event id="StartEvent_1obckwn" nome="quero * cor"/>
+    <exclusive_gateway id="ExclusiveGateway_1gzhciv" nome="qual a sua cor preferida?"/>
+    <exclusive_gateway id="ExclusiveGateway_03yhd37" nome=""/>
+    <end_event id="EndEvent_0jyussl" nome="obrigado"/>
+</bpmn>

@@ -74,7 +74,7 @@ giseldo@gmail.com
 
 Skype: giseldo
 
-![tela](./tela_chatbot.png)
+![tela do chatbot](./tela_chatbot.png)
 
-![tela](./viewer.png)
+![Diagrama BPM](./viewer.png)
 

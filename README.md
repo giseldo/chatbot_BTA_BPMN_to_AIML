@@ -29,7 +29,7 @@ One result found was a faster speed to draw the dialog flows of a chatbot in BPM
 Another result was to allow people who don't know AIML to write the dialogue flows for their chatbots.
 Indirectly it is expected to spread the use of chatbots in AIML to an increasing number of people.
 
-## Instalação | Instalation
+## Instalação | Installation
 
 $ git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
 

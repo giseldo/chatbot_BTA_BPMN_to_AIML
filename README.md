@@ -62,6 +62,8 @@ $pip install -r requirements
 
 $python.exe client_web.py  (recomendo o pycharm)
 
+## Próximos passos
+- Acesse a wiki do projeto [Wiki](https://github.com/giseldo/chatbot_ari_bpmn_to_aiml/wiki)
 - Veja alguns exemplos de diagrama em [Exemplos](https://github.com/giseldo/chatdepressao/tree/master/exemplos)
 - Faça um diagrama bpmn no site http://bpmn.io ou no [Bizagi Modeler](https://www.bizagi.com/pt)
 - Carregue o diagrama no seu chatbot.

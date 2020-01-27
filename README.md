@@ -1,21 +1,30 @@
 ## Título
-Ari: um chatbot em AIML com fluxo de dialogo escrito em BPMN.
+
+Arichatbot: Um chatbot em AIML com sua base de conhecimento escrito em BPMN para uso em fluxo de dialogo.
+Arichatbot: An AIML chatbot with its knowledge base written in BPMN for use in a dialogue flow.
 
 ## Resumo
-Chatbots são programas de computador onde um ser humano conversa 
-com o programa utilizando linguagem natural.
-Existem diversas tecnologias associadas a construção de 
-chatterbots  uma que se destaca é o AIML.
-Desenhar fluxos em AIML é trabalhoso e por vezes 
-não intuitivo devido a características intrínsecas do XML e do AIML.
-Construir fluxos utilizando uma linguagem visual é intuitivo. 
-Existe uma linguagem que define os componentes visuais e
- a sua especificação em XML é utilizada para mapeamento de processos de negócio.
-É possível mapear a notação BPMN em AIML e aproveitar todos os recursos
-visuais oferecidos por uma linguagem de notação visual como o BPMN. 
-Foi desenvolvido um módulo em python que converte um diagrama 
-BPMN em AIML. Dois estudos de caso foram implementados, um que 
-fala sobre depressão e um que ensina ética. A conversão do fluxo de BPMN para AIML dura alguns segundos. Logo é possível construir vários fluxos. O resultado esperado é disseminar o uso de AIML por uma quantidade cada vez maior de pessoas.
+Chatbots são programas de computador onde um ser humano conversa com o programa utilizando linguagem natural.
+
+Chatbots are computer programs where a human being talks to the program using natural language.
+
+Existem diversas tecnologias associadas a construção de chatterbots  uma que se destaca é o AIML.
+
+There are several technologies associated with the construction of chatterbots, one that stands out is AIML.
+
+Desenhar fluxos em AIML é trabalhoso e por vezes não intuitivo devido a características intrínsecas do XML e do AIML.
+
+Designing flows in AIML is laborious and sometimes not intuitive due to the intrinsic characteristics of XML and AIML.
+
+Mas construir fluxos de diálogos utilizando uma linguagem visual é bem mais intuitivo. 
+
+But building dialog flows using a visual language is much more intuitive.
+
+Existe uma linguagem que define os componentes visuais e  a sua especificação em XML é utilizada para mapeamento de processos de negócio.
+É possível mapear a notação BPMN em AIML e aproveitar todos os recursos visuais oferecidos por uma linguagem de notação visual como o BPMN. 
+Foi desenvolvido um módulo em python que converte um diagrama BPMN em AIML. 
+Dois estudos de caso foram implementados, um que fala sobre depressão e um que ensina ética. 
+A conversão do fluxo de BPMN para AIML dura alguns segundos. Logo é possível construir vários fluxos. O resultado esperado é disseminar o uso de AIML por uma quantidade cada vez maior de pessoas.
 
 ## Introdução
 

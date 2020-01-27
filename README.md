@@ -37,59 +37,31 @@ $ pip install -r requirements
 
 $ python.exe client_web.py  (pycharm recomended)
 
-
-
-## Introdução | Introduction
-
-Chatbots são programas de computador que conversam em linguagem natural com um ser humano.
-
-BPMN é uma linguagem para mapeamento de processos de negócio.
-
-O problema é que construir diagramas em AIML é difícil.
-
-## Objetivo 
-
-### Principal
-
-Desenhar fluxos de diálogo em AIML a partir de diagramas BPMN para que a construção de chatbots
-seja mais intuitiva. 
-
-### Secundário
-
-Desenvolver uma ferramenta para converter os fluxos diálogos.
-Desenvolver um chatbot como prova de conceito.
-
-## Estudo de caso
-
-Foi desenvolvido um estudo de caso sobre depressão baseado no trabalho de BECK onde todos os diálogos foram mapeados em BPMN.
-
-## Arquitetura
+## Arquitetura | Arquitecture
 
 Python 3.7, program-y, xml.etree.elementtree, aiml 2.0, BPMN 2.0
 
-## Resultados
+## Próximos passos | Usage
 
-Usuários que conheciam e não conheciam AIML construiram fluxos de diálogo e os carregaram em um chatbot.
+- Make a diagram following the restrictions and premises below. You can use [http://bpmn.io](https://www.bizagi.com/pt) or [Bizagi Modeler](https://www.bizagi.com/pt)
 
-## Referências
+- See some [Examples](https://github.com/giseldo/chatdepressao/tree/master/exemplos)
 
-- TURING, ELIZA, ALICE, AIML, PROGRAM-Y
+- Load the BPMN diagram in a chatbot that supports AIML. This project come with a bundle chatbot namede ARI that use program-y. 
+
+- You can acess the [Wiki](https://github.com/giseldo/chatbot_ari_bpmn_to_aiml/wiki) of the project for more informations.
 
 
-## Próximos passos
+## Restriction and premisse
 
-- Acesse a wiki do projeto [Wiki](https://github.com/giseldo/chatbot_ari_bpmn_to_aiml/wiki)
-- Veja alguns exemplos de diagrama em [Exemplos](https://github.com/giseldo/chatdepressao/tree/master/exemplos)
-- Faça um diagrama bpmn no site http://bpmn.io ou no [Bizagi Modeler](https://www.bizagi.com/pt)
-- Carregue o diagrama no seu chatbot.
+in progress
 
-## Contato 
+## Contato | contact
 
-Se está com dúvidas ou quer participar do projeto entre em contato. Respondo rapidamente.
-
-giseldo@gmail.com
-
-Skype: giseldo
+If you are in doubt, want to participate in the project, found a bug or even found the idea interesting contact us or open an issue, this will help the project a lot.
+ 
+e-mail: giseldo@gmail.com
+skype: giseldo
 
 ![tela do chatbot](./tela_chatbot.png)
 

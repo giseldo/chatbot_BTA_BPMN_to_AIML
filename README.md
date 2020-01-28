@@ -1,4 +1,4 @@
-## BPMN to AIML. Draw a dialogue flow in BPMN for use in AIML chatbots.
+## BPMN to AIML. Draw a dialogue flow using BPMN for use in AIML chatbots.
 
 Chatbots are computer programs where a human being talks to the program using natural language.
 There are several technologies associated with the construction of chatterbots, one that stands out is AIML.

@@ -49,7 +49,7 @@ $ python.exe client_web.py  (pycharm recomended, use virtualenv also)
 
 ### Chatbot 
 
-![chatbot screen](./tela_chatbot.png)
+![chatbot screen](screen_chatbot.png)
 
 ### BPMN Diagram
 

@@ -18,9 +18,9 @@ Indirectly it is expected to spread the use of chatbots in AIML to an increasing
 
 - See some [Examples](https://github.com/giseldo/chatdepressao/tree/master/exemplos) if necessary.
 
-- Load the BPMN diagram in a chatbot that supports AIML. This project come with a bundle converter and chatbot that suport AIML 2 based in a fork of [program-y](https://github.com/keiffster/program-y). 
+- Load the BPMN diagram in a chatbot that supports AIML. This project come with a bundle BPMN to AIML converter and a chatbot that suport AIML 2.0 based in a fork of [program-y](https://github.com/keiffster/program-y). 
 
-- You can acess the [Wiki](https://github.com/giseldo/chatbot_ari_bpmn_to_aiml/wiki) of the project for more informations.
+- You can acess the [Wiki](https://github.com/giseldo/chatbot_ari_bpmn_to_aiml/wiki) of the project for more information.
 
 ## Restriction and premisse
 
@@ -39,7 +39,7 @@ $ python.exe client_web.py  (pycharm recomended)
 
 ## contact
 
-If you are in doubt, want to participate in the project, found a bug or even found the idea interesting contact us or open an issue, this will help the project a lot.
+If you are in doubt, want to participate in the project, found a bug or even found the idea interesting contact me or open an issue, this will help the project a lot.
  
 e-mail: giseldo@gmail.com
 

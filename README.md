@@ -24,6 +24,8 @@ Indirectly it is expected to spread the use of chatbots in AIML to an increasing
 
 ## Restriction and premisse
 
+The BPMN Elements that can be used are: Start Event, End Event, Task and Gateway.
+
 Start_Event and Gateway are elements that wait for the user do a input. Task and End_event are the output of the bot.
 
 Also you can save the response of the user for later. For this use a comment in the gateway with the character $ in the start of the variable name. example: $varname). 
@@ -35,7 +37,7 @@ $ git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git
 
 $ pip install -r requirements
 
-$ python.exe client_web.py  (pycharm recomended)
+$ python.exe client_web.py  (pycharm recomended, use virtualenv also)
 
 ## contact
 

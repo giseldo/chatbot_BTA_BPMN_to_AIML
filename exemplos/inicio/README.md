@@ -4,7 +4,7 @@
 
 [![viewer example screenshot](./viewer.png)](https://cdn.statically.io/gh/giseldo/chatbot_ari_bpmn_to_aiml/f98a0965/exemplos/inicio/viewer.html)
 
-Exemplo de diálogo
+## Exemplo de diálogo após carregar o diagrama no chatbot
 
 user: quero comprar uma pizza
 

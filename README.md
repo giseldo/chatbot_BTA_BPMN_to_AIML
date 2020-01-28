@@ -1,11 +1,11 @@
 ## BPMN to AIML. Draw a dialogue flow using BPMN for use in AIML chatbots.
 
 Chatbots are computer programs where a human being talks to the program using natural language.
-There are several technologies associated with the construction of chatterbots, one that stands out is AIML.
+There are several technologies associated with the construction of chatterbots, one that stands out is AIML, AIML is a XML based language.
 Designing flows in AIML is laborious and sometimes not intuitive due to the intrinsic characteristics of XML and AIML.
 But building dialog flows using a visual language is much more intuitive.
 There is a language used for mapping business processes called BPMN that defines visual components.
-It is possible to convert BPMN notation to AIML and take advantage of all the visual features offered by a visual notation language such as BPMN.
+It is possible to convert BPMN notation to AIML and take advantage of all the visual features offered by this visual notation.
 To validate this hypothesis, a python application was developed that converts a BPMN diagram to AIML.
 A case study was implemented where all the dialogues of a chatbot that talks about depression were mapped in BPMN.
 One result found was a faster speed to draw the dialog flows of a chatbot in BPMN than to write in AIML.

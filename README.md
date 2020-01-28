@@ -52,7 +52,24 @@ e-mail: giseldo@gmail.com
 
 skype: giseldo
 
-![tela do chatbot](./tela_chatbot.png)
+![chatbot screen](./tela_chatbot.png)
 
-![Diagrama BPM](./viewer.png)
+![BPMN DIAGRAM](./first.png)
+
+USER: I WANT A PIZZA
+
+BOT: HI. I AM THE PIZZA BOT.
+
+BOT: CAN I CONFIRM THIS DELIVERY TO YOUR HOUSE?
+
+USER: YES
+
+BOT: IT'S ON THE WAY
+
+BOT: THANK YOU FOR CHOOSE OUR PRODUCT
+
+
+ 
+
+ 
 

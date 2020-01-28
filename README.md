@@ -24,7 +24,10 @@ Indirectly it is expected to spread the use of chatbots in AIML to an increasing
 
 ## Restriction and premisse
 
-in progress
+Start_Event and Gateway are elements that wait for the user do a input. Task and End_event are the output of the bot.
+
+Also you can save the response of the user for later. For this use a comment in the gateway with the character $ in the start of the variable name. example: $varname). 
+Later you can use the $varname in task example: "you selected $varname" (don't use wildcards in the variable name).
 
 ## Installation
 

@@ -7,7 +7,7 @@ But building dialog flows using a visual language is much more intuitive.
 There is a language used for mapping business processes called [BPMN](http://www.bpmn.org/) that defines visual components.
 It is possible to convert BPMN notation to AIML and take advantage of all the visual features offered by this visual notation.
 To validate this hypothesis, a python application was developed that converts a BPMN diagram to AIML.
-A case study was implemented where all the dialogues of a chatbot that talks about depression were mapped in BPMN and then converted in AIML, the AIML was loaded into a AIML chatbot and is ready to used.
+A case study was implemented where all the dialogues of a chatbot that talks about depression were mapped in BPMN and then converted in AIML, the AIML was loaded into a AIML chatbot and was ready to used.
 One result found was a faster speed to draw the dialog flows of a chatbot in BPMN than to write in AIML.
 Another result was to allow people who don't know AIML to write the dialogue flows for their chatbots.
 Indirectly it is expected to spread the use of chatbots that are AIML based to an increasing number of people.

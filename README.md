@@ -46,9 +46,16 @@ $ python.exe client_web.py  (pycharm recomended, use virtualenv also)
 
 ## Screens
 
+
+### Chatbot 
+
 ![chatbot screen](./tela_chatbot.png)
 
+### BPMN Diagram
+
 ![BPMN DIAGRAM](./first.png)
+
+### Dialog
 
 USER: I WANT A PIZZA
 

@@ -1,4 +1,4 @@
-## Arichatbot: An AIML chatbot with its knowledge base written in BPMN for use in a dialogue flow.
+## BPMN to AIML. Draw a dialogue flow in BPMN for use in AIML chatbots.
 
 Chatbots are computer programs where a human being talks to the program using natural language.
 There are several technologies associated with the construction of chatterbots, one that stands out is AIML.
@@ -14,9 +14,9 @@ Indirectly it is expected to spread the use of chatbots in AIML to an increasing
 
 ## Usage
 
-- Make a diagram following the restrictions and premises below. You can use [http://bpmn.io](https://www.bizagi.com/pt) or [Bizagi Modeler](https://www.bizagi.com/pt)
+- Make a BPMN diagram following the restrictions and premises below. For this you can use [http://bpmn.io](https://www.bizagi.com/pt) or [Bizagi Modeler](https://www.bizagi.com/pt)
 
-- See some [Examples](https://github.com/giseldo/chatdepressao/tree/master/exemplos)
+- See some [Examples](https://github.com/giseldo/chatdepressao/tree/master/exemplos) if necessary.
 
 - Load the BPMN diagram in a chatbot that supports AIML. This project come with a bundle chatbot that use program-y. 
 

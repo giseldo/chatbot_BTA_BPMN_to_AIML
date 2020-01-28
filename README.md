@@ -44,13 +44,7 @@ $ pip install -r requirements
 
 $ python.exe client_web.py  (pycharm recomended, use virtualenv also)
 
-## contact
-
-If you are in doubt, want to participate in the project, found a bug or even found the idea interesting contact me or open an issue, this will help the project a lot.
- 
-e-mail: giseldo@gmail.com
-
-skype: giseldo
+## Screens
 
 ![chatbot screen](./tela_chatbot.png)
 
@@ -68,7 +62,13 @@ BOT: IT IS ON THE WAY
 
 BOT: THANK YOU FOR CHOOSE OUR PRODUCT
 
+## Contact
 
+If you are whit problems, want to participate (code or documentation), found a bug or even think this idea is cool contact me or open an issue, this will help the project a lot.
+ 
+e-mail: giseldo@gmail.com
+
+skype: giseldo
  
 
  

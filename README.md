@@ -15,8 +15,9 @@ Indirectly it is expected to spread the use of chatbots that are AIML based to a
 ## Usage
 
 - Make a BPMN diagram following the restrictions and premises below. 
-For this purpose you can use [http://bpmn.io](https://www.bizagi.com/pt) or [Bizagi Modeler](https://www.bizagi.com/pt). This project don't have a BPMN Modeler bundled.
-Download the BPMN file in a folder in your computer.
+For this purpose you can use [bpmn.io](http://bpmn.io) or [Bizagi Modeler](https://www.bizagi.com/pt). This project don't have a BPMN Modeler bundled.
+
+- Download (or save) the BPMN file that you have created in a folder in your computer.
 
 - See some [Examples](https://github.com/giseldo/chatdepressao/tree/master/exemplos) if necessary.
 

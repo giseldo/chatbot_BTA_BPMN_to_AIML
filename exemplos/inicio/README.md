@@ -7,9 +7,14 @@
 Exemplo de diálogo
 
 user: quero comprar uma pizza
+
 bot: que bom que você escolheu o nosso produto. responda as perguntas
+
 bot: qual a massa? pan ou fina?
+
 user: pan
+
 bot: que bom que você escolheu massa pan
+
 bot: fluxo finalizado
 

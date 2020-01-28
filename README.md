@@ -23,7 +23,7 @@ Download the BPMN file in a folder in your computer.
 - Load the BPMN file downloaded and convert it into a AIML File.  
 For this purpose this project come with a brand new BPMN to AIML converter and a AIML 2.0 chatbot (both are in the same project). 
 There is a button in this chatbot that load the BPMN diagram in memory, convert it into a AIML file, and load the AIML file in the chatbot Knowledge base. 
-The chatbot is based in a fork of the excelent chatbot framework [program-y](https://github.com/keiffster/program-y). 
+This chatbot is based in a old code base of the excelent chatbot framework [program-y](https://github.com/keiffster/program-y). 
 
 - You can acess the [Wiki](https://github.com/giseldo/chatbot_ari_bpmn_to_aiml/wiki) of this project for more information.
 

@@ -286,6 +286,6 @@ if __name__ == "__main__":
     # pip install pyOpenSSL
     print("giseldo")
     print(FACEBOOK_CLIENT.configuration.client_configuration.api)
-    app.run(ssl_context='adhoc', host='0.0.0.0')
-    # app.run(host='127.0.0.1')
+    # app.run(ssl_context='adhoc', host='0.0.0.0')
+    app.run(host='127.0.0.1')
     # app.run()

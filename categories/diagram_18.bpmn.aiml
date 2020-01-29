@@ -1,1 +1,41 @@
-<aiml><topic name="SID-D7F237E8-56D0-4283-A3CE-4F0EFE446138"><category><pattern>SID-52EB1772-F36E-433E-8F5B-D5DFD26E6F26</pattern><template>CAN I CONFIRM THIS DELIVERY TO YOUIR HOUSE?-</template></category><category><pattern>SID-E49425CF-8287-4798-B622-D2A7D78EF00B</pattern><template><think><set name="topic"></set></think>THANK YOU FOR CHOOSE OUR PRODUCT-</template></category><category><pattern>YES</pattern><that>^ CAN I CONFIRM THIS DELIVERY TO YOUIR HOUSE</that><template>IT IS ON THE WAY-<srai>SID-E49425CF-8287-4798-B622-D2A7D78EF00B</srai></template></category><category><pattern>NO</pattern><that>^ CAN I CONFIRM THIS DELIVERY TO YOUIR HOUSE</that><template>HI I AM THE PIZZA BOT-<srai>SID-52EB1772-F36E-433E-8F5B-D5DFD26E6F26</srai></template></category></topic><category><pattern>I WANT PIZZA</pattern><template><think><set name="topic">SID-D7F237E8-56D0-4283-A3CE-4F0EFE446138</set></think>HI I AM THE PIZZA BOT-<srai>SID-52EB1772-F36E-433E-8F5B-D5DFD26E6F26</srai></template></category></aiml>
+<aiml>
+    <topic name="SID-D7F237E8-56D0-4283-A3CE-4F0EFE446138">
+        <category>
+            <pattern>SID-52EB1772-F36E-433E-8F5B-D5DFD26E6F26</pattern>
+            <template>CAN I CONFIRM THIS DELIVERY TO YOUIR HOUSE?-</template>
+        </category>
+        <category>
+            <pattern>SID-E49425CF-8287-4798-B622-D2A7D78EF00B</pattern>
+            <template>
+                <think>
+                    <set name="topic"></set>
+                </think>
+                THANK YOU FOR CHOOSE OUR PRODUCT-
+            </template>
+        </category>
+        <category>
+            <pattern>YES</pattern>
+            <that>^ CAN I CONFIRM THIS DELIVERY TO YOUIR HOUSE</that>
+            <template>IT IS ON THE WAY-
+                <srai>SID-E49425CF-8287-4798-B622-D2A7D78EF00B</srai>
+            </template>
+        </category>
+        <category>
+            <pattern>NO</pattern>
+            <that>^ CAN I CONFIRM THIS DELIVERY TO YOUIR HOUSE</that>
+            <template>HI I AM THE PIZZA BOT-
+                <srai>SID-52EB1772-F36E-433E-8F5B-D5DFD26E6F26</srai>
+            </template>
+        </category>
+    </topic>
+    <category>
+        <pattern>I WANT PIZZA</pattern>
+        <template>
+            <think>
+                <set name="topic">SID-D7F237E8-56D0-4283-A3CE-4F0EFE446138</set>
+            </think>
+            HI I AM THE PIZZA BOT-
+            <srai>SID-52EB1772-F36E-433E-8F5B-D5DFD26E6F26</srai>
+        </template>
+    </category>
+</aiml>

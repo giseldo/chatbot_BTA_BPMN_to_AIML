@@ -19,7 +19,7 @@ For this purpose you can use [bpmn.io](http://bpmn.io) or [Bizagi Modeler](https
 
 - Download (or save) the BPMN file that you have created in a folder in your computer.
 
-- See some [Examples](https://github.com/giseldo/chatdepressao/tree/master/exemplos) if necessary.
+- See some [Examples](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples) if necessary.
 
 - Load the BPMN file downloaded and convert it into a AIML File.  
 For this purpose this project come with a brand new BPMN to AIML converter and a AIML 2.0 chatbot (both are in the same project). 

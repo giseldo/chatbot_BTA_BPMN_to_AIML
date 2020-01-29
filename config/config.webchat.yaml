@@ -137,7 +137,7 @@ webchat:
 
 bot:
     brain: brain
-    initial_question: OlÁ. Meu nome é BTA. Eu sou um chatbot. Por favor carregue no meu cérebro um diagrama bpmn para que eu possa sEr útil, sem isso eu não sei muita coisa, mas posso tentar responder algumas coisas.
+    initial_question: OlÁ. Meu nome é BTA. Eu sou um chatbot. Por favor carregue no meu cérebro um diagrama bpmn para que eu possa ser útil, sem isso eu não sei muita coisa, mas posso tentar responder algumas coisas.
     initial_question_srai: YINITIALQUESTION
     default_response: Desculpe, Não entendi!
     default_response_srai: YEMPTY

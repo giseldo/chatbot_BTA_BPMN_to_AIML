@@ -17,7 +17,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 from programy.utils.logging.ylogger import YLogger
 
 from pymessenger.bot import Bot
-from flask import Flask, request
+from flask import Flask, request,  render_template
 
 from programy.clients.restful.flask.client import FlaskRestBotClient
 from programy.clients.restful.flask.facebook.config import FacebookConfiguration
@@ -277,8 +277,15 @@ def receive_message():
     except Exception as e:
         YLogger.exception(None, "Facebook Error", e)
 
+@app.route('/')
+def index():
+    return render_template('webchatrest.html')
+
 
 if __name__ == "__main__":
     # pip install pyOpenSSL
+    print("giseldo")
+    print(FACEBOOK_CLIENT.configuration.client_configuration.api)
     app.run(ssl_context='adhoc', host='0.0.0.0')
+    # app.run(host='127.0.0.1')
     # app.run()

@@ -1437,10 +1437,10 @@ Eu fui desenvolvido com muitas linhas de código com o propósito de garantir mi
 <pattern>QUEM FALA</pattern>
 <template>
 <random>
-<li>Sou o 41R2, um sistema de banco de dados desenvolvido para suporte técnico.</li>
-<li>Chamam-me de 41R2, sou um assistente virtual desenvolvido pela ifal.</li>
-<li>41R2, algoritmo digital desenvolvida como suporte técnico.</li>
-<li>Meu nome é 41R2. Sou um programa de computador desenvolvido em AIML.</li>
+<li>Sou o BTA, um sistema de banco de dados desenvolvido para suporte técnico.</li>
+<li>Chamam-me de BTA, sou um assistente virtual desenvolvido pela ifal.</li>
+<li>BTA, um chatbot.</li>
+<li>Meu nome é BTA. Sou um programa de computador desenvolvido em AIML.</li>
 </random>
 </template>
 </category>

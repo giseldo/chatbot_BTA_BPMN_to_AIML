@@ -137,9 +137,7 @@ webchat:
 
 bot:
     brain: brain
-
-    initial_question: Hello. It's me Ari. I am a chatbot. Please load a BPMN file into my brain.  otherwise, I will know nothing.
-    Ola. Meu nome é BTA. Eu sou um chatbot. Por favor carregue no meu cerebro um diagrama bpmn para que eu possa sr útil, sem isso eu não sei muita coisa, mas posso tentar responder algumas coisas.
+    initial_question: OlÁ. Meu nome é BTA. Eu sou um chatbot. Por favor carregue no meu cérebro um diagrama bpmn para que eu possa sEr útil, sem isso eu não sei muita coisa, mas posso tentar responder algumas coisas.
     initial_question_srai: YINITIALQUESTION
     default_response: Desculpe, Não entendi!
     default_response_srai: YEMPTY

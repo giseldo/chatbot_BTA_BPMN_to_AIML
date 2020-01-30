@@ -19,6 +19,8 @@ For this purpose you can use [bpmn.io](http://bpmn.io) or [Bizagi Modeler](https
 
 - Download (or save) the BPMN file that you have created in a folder in your computer.
 
+- Install in your enviroment or use the on-line [BTA chatbot](https://chatbotari.herokuapp.com/).
+
 - Load the BPMN file downloaded and convert it into a AIML File.  
 For this purpose this project come with a brand new BPMN to AIML converter and a AIML 2.0 chatbot (both are in the same project). 
 There is a button in this chatbot that load the BPMN diagram in memory, convert it into a AIML file, and load the AIML file in the chatbot Knowledge base. 
@@ -45,9 +47,9 @@ $ pip install -r requirements
 
 $ python.exe client_web.py  (pycharm recomended, use virtualenv also)
 
-## Run as service (not a production for tests purpose only)
+## Try on-line
 
-There are a instance of the chatbot already configurated for tests available at the adress https://chatbotari.herokuapp.com/
+There are a instance of the chatbot, with the converter, already configurated for tests available at the adress https://chatbotari.herokuapp.com/
 
 ## Screens
 

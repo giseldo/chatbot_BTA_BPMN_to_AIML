@@ -14,7 +14,7 @@ Indirectly it is expected to spread the use of chatbots that are AIML based to a
 
 ## Usage
 
-- Make a BPMN diagram following the restrictions and premises below. 
+- Make a BPMN diagram following this examples with this simbols. 
 For this purpose you can use [bpmn.io](http://bpmn.io) or [Bizagi Modeler](https://www.bizagi.com/pt). This project don't have a BPMN Modeler bundled.
 
 - Download (or save) the BPMN file that you have created in a folder in your computer.
@@ -37,13 +37,17 @@ Start_Event and Gateway are elements that wait for the user do a input. Task and
 Also you can save the response of the user for later. For this use a comment in the gateway with the character $ in the start of the variable name. example: $varname). 
 Later you can use the $varname in task example: "you selected $varname" (don't use wildcards in the variable name).
 
-## Installation
+## Installation in yout enviroment
 
 $ git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
 
 $ pip install -r requirements
 
 $ python.exe client_web.py  (pycharm recomended, use virtualenv also)
+
+## Run as service (not a production for tests purpose only)
+
+There are a instance of the chatbot already configurated for tests available at the adress https://chatbotari.herokuapp.com/
 
 ## Screens
 

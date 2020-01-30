@@ -19,7 +19,7 @@ For this purpose you can use [bpmn.io](http://bpmn.io) or [Bizagi Modeler](https
 
 - Download (or save) the BPMN file that you have created in a folder in your computer.
 
-- Install in your enviroment or use the on-line [BTA chatbot](https://chatbotari.herokuapp.com/).
+- Install in your enviroment or try the on-line version available at [BTA chatbot](https://chatbotari.herokuapp.com/).
 
 - Load the BPMN file downloaded and convert it into a AIML File.  
 For this purpose this project come with a brand new BPMN to AIML converter and a AIML 2.0 chatbot (both are in the same project). 

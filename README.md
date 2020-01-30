@@ -37,7 +37,7 @@ Later you can use the $varname in task example: "you selected $varname" (don't u
 
 You can see more at [simbols](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples). 
 
-## Installation in yout enviroment
+## Installation in your enviroment
 
 $ git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
 

@@ -26,6 +26,8 @@ For this purpose this project come with a brand new BPMN to AIML converter and a
 There is a button in this chatbot that load the BPMN diagram in memory, convert it into a AIML file, and load the AIML file in the chatbot Knowledge base. 
 This chatbot is based in a old code base of the excelent chatbot framework [program-y](https://github.com/keiffster/program-y). 
 
+## Wiki
+
 - You can acess the [Wiki](https://github.com/giseldo/chatbot_ari_bpmn_to_aiml/wiki) of this project for more information.
 
 ## Restriction and premisse

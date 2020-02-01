@@ -14,7 +14,7 @@ Indirectly it is expected to spread the use of chatbots that are AIML based to a
 
 ## Usage
 
-- Make a BPMN diagram following this [examples](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples) with this [simbols](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples). 
+- Make a BPMN diagram following this [examples](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples) with this [symbols](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples). 
 For this purpose you can use [bpmn.io](http://bpmn.io) or [Bizagi Modeler](https://www.bizagi.com/pt). This project don't have a BPMN Modeler bundled.
 
 - Download (or save) the BPMN file that you have created in a folder in your computer.
@@ -37,7 +37,7 @@ Start_Event and Gateway are elements that wait for the user do a input. Task and
 Also you can save the response of the user for later. For this use a comment in the gateway with the character $ in the start of the variable name. example: $varname). 
 Later you can use the $varname in task example: "you selected $varname" (don't use wildcards in the variable name).
 
-You can see more at [simbols](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples). 
+You can see more at [symbols](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples). 
 
 ## Installation in your enviroment
 

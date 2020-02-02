@@ -39,7 +39,7 @@ $(document).ready(function(){
 
                vid.play();
                msg.lang = 'pt-BR'
-               speechSynthesis.speak(msg);
+               //speechSynthesis.speak(msg);
 
              }
         }

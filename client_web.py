@@ -31,7 +31,7 @@ from programy.clients.restful.flask.webchat.config import WebChatConfiguration
 from programy.clients.render.html import HtmlRenderer
 from programy.clients.restful.auth import RestAuthorizationHandler
 
-from controller import converter_bpmn_aiml
+from bta.controller import converter_bpmn_aiml
 
 import os
 import urllib.request
@@ -181,11 +181,11 @@ def receive_message():
         return "500"
 
 
-app.config['UPLOAD_FOLDER'] = 'bpmn_files'
+app.config['UPLOAD_FOLDER'] = 'tmp_dir/bpmn_files'
 app.config['CATEGORIES_FOLDER'] = 'categories'
-app.config['BPMN_FILES'] = 'bpmn_files'
-app.config['BPMN_FINITE_STATE'] = 'bpmn_finite_state'
-app.config['BPMN_SIMPLIFIED'] = 'bpmn_simplified'
+app.config['BPMN_FILES'] = 'tmp_dir/bpmn_files'
+app.config['BPMN_FINITE_STATE'] = 'tmp_dir/bpmn_finite_state'
+app.config['BPMN_SIMPLIFIED'] = 'tmp_dir/bpmn_simplified'
 
 from programy.extensions.admin.hotreload import HotReloadAdminExtension
 
@@ -247,9 +247,9 @@ def upload_file():
                 <html>
                 <body>
                 
-                <h2>Arquivo BPMN carregado com sucesso.</h2>
+                <h2>BPMN file loaded sucessfully.</h2>
                 <p> 
-                    <input type="button" value="voltar" onclick="voltar()" >
+                    <input type="button" value="back" onclick="voltar()" >
                 </p>
                 <script>
                     function voltar() {
@@ -300,9 +300,9 @@ def delete_files():
                     <html>
                     <body>
                     
-                    <h2>A base de conhecimento do chatbot foi apagada.</h2>
+                    <h2>knowledge base deleted.</h2>
                     <p> 
-                        <input type="button" value="voltar" onclick="voltar()" >
+                        <input type="button" value="back" onclick="voltar()" >
                     </p>
                     <script>
                         function voltar() {

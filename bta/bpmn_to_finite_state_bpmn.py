@@ -97,7 +97,7 @@ def transform_bpmn_to_finite_state_bpmn(input_file_name):
     new_bpmn = convert_bpmn_to_finite_state_bpmn(bpmn)
 
     only_last_name = os.path.basename(caminho_absoluto)
-    output_file_name = os.path.join("bpmn_finite_state/" + only_last_name)
+    output_file_name = os.path.join("tmp_dir/bpmn_finite_state/" + only_last_name)
 
     tree_finite_state = ET.ElementTree(new_bpmn)
 

@@ -58,11 +58,11 @@ There are a instance of the chatbot, with the converter, already configurated fo
 
 ### Chatbot 
 
-![chatbot screen](screen_chatbot.png)
+![chatbot screen](./images/screen_chatbot.png)
 
 ### BPMN Diagram
 
-![BPMN DIAGRAM](./first.png)
+![BPMN DIAGRAM](./images/first.png)
 
 ### Dialog
 

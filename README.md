@@ -1,4 +1,4 @@
-## BPMN to AIML. Draw a dialogue flow using BPMN for use in AIML chatbots.
+## BPA - **BPMN** to **AIML**. Draw a dialogue flow using BPMN for use in AIML chatbots.
 
 Chatbot (or [chatterbot](http://www.simonlaven.com/)) is a computer program where a human being talks to the program using natural language. 
 There are several technologies associated with the construction of chatterbots, one that stands out is [AIML](http://www.aiml.foundation/). AIML is a XML based language.
@@ -14,17 +14,19 @@ Indirectly it is expected to spread the use of chatbots that are AIML based to a
 
 ## Usage
 
-- Make a BPMN diagram following the restrictions and premises below. 
+- Make a BPMN diagram following this [examples](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples) with this [symbols](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples). 
 For this purpose you can use [bpmn.io](http://bpmn.io) or [Bizagi Modeler](https://www.bizagi.com/pt). This project don't have a BPMN Modeler bundled.
 
 - Download (or save) the BPMN file that you have created in a folder in your computer.
 
-- See some [Examples](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples) if necessary.
+- Install in your enviroment or try the on-line version available at [BTA chatbot](https://chatbotari.herokuapp.com/).
 
 - Load the BPMN file downloaded and convert it into a AIML File.  
 For this purpose this project come with a brand new BPMN to AIML converter and a AIML 2.0 chatbot (both are in the same project). 
 There is a button in this chatbot that load the BPMN diagram in memory, convert it into a AIML file, and load the AIML file in the chatbot Knowledge base. 
 This chatbot is based in a old code base of the excelent chatbot framework [program-y](https://github.com/keiffster/program-y). 
+
+## Wiki
 
 - You can acess the [Wiki](https://github.com/giseldo/chatbot_ari_bpmn_to_aiml/wiki) of this project for more information.
 
@@ -37,13 +39,19 @@ Start_Event and Gateway are elements that wait for the user do a input. Task and
 Also you can save the response of the user for later. For this use a comment in the gateway with the character $ in the start of the variable name. example: $varname). 
 Later you can use the $varname in task example: "you selected $varname" (don't use wildcards in the variable name).
 
-## Installation
+You can see more at [symbols](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples). 
+
+## Installation in your enviroment
 
 $ git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
 
 $ pip install -r requirements
 
 $ python.exe client_web.py  (pycharm recomended, use virtualenv also)
+
+## Try on-line
+
+There are a instance of the chatbot, with the converter, already configurated for tests available at the adress https://chatbotari.herokuapp.com/
 
 ## Screens
 

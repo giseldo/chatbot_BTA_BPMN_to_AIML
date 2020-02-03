@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_0n2edyj" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="6.1.1">
+  <bpmn:process id="Process_0ql1yur" isExecutable="false">
+    <bpmn:startEvent id="StartEvent_1hl9nox" name="aprender etica">
+      <bpmn:outgoing>SequenceFlow_0wo8ygd</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_0n8q0qn" name="sim. vamos aprender">
+      <bpmn:incoming>SequenceFlow_0wo8ygd</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0ykqvyu</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_0wo8ygd" sourceRef="StartEvent_1hl9nox" targetRef="Task_0n8q0qn" />
+    <bpmn:exclusiveGateway id="ExclusiveGateway_0mhf9y3" name="qual tipo de ética, antiga ou moderna">
+      <bpmn:incoming>SequenceFlow_0ykqvyu</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0fckel1</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_0vj6ngr</bpmn:outgoing>
+    </bpmn:exclusiveGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_0ykqvyu" sourceRef="Task_0n8q0qn" targetRef="ExclusiveGateway_0mhf9y3" />
+    <bpmn:task id="Task_0c6x4c5" name="a ética antiga iniciar em 1000 antes de cristo">
+      <bpmn:incoming>SequenceFlow_0fckel1</bpmn:incoming>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_0fckel1" name="antiga" sourceRef="ExclusiveGateway_0mhf9y3" targetRef="Task_0c6x4c5" />
+    <bpmn:task id="Task_0ov5xnh" name="vamos de kant">
+      <bpmn:incoming>SequenceFlow_0vj6ngr</bpmn:incoming>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_0vj6ngr" name="moderna" sourceRef="ExclusiveGateway_0mhf9y3" targetRef="Task_0ov5xnh" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0ql1yur">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1hl9nox">
+        <dc:Bounds x="172" y="262" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="155" y="305" width="71" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_0n8q0qn_di" bpmnElement="Task_0n8q0qn">
+        <dc:Bounds x="400" y="240" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0wo8ygd_di" bpmnElement="SequenceFlow_0wo8ygd">
+        <di:waypoint x="208" y="280" />
+        <di:waypoint x="400" y="280" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ExclusiveGateway_0mhf9y3_di" bpmnElement="ExclusiveGateway_0mhf9y3" isMarkerVisible="true">
+        <dc:Bounds x="695" y="255" width="50" height="50" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="755" y="260" width="78" height="40" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0ykqvyu_di" bpmnElement="SequenceFlow_0ykqvyu">
+        <di:waypoint x="500" y="280" />
+        <di:waypoint x="695" y="280" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Task_0c6x4c5_di" bpmnElement="Task_0c6x4c5">
+        <dc:Bounds x="970" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0fckel1_di" bpmnElement="SequenceFlow_0fckel1">
+        <di:waypoint x="720" y="255" />
+        <di:waypoint x="720" y="120" />
+        <di:waypoint x="970" y="120" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="720" y="185" width="30" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="Task_0ov5xnh_di" bpmnElement="Task_0ov5xnh">
+        <dc:Bounds x="940" y="350" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0vj6ngr_di" bpmnElement="SequenceFlow_0vj6ngr">
+        <di:waypoint x="720" y="305" />
+        <di:waypoint x="720" y="390" />
+        <di:waypoint x="940" y="390" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="713" y="345" width="44" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

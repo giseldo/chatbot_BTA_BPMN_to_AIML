@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_10fqcli" targetNamespace="http://bpmn.io/schema/bpmn" exporter="bpmn-js (https://demo.bpmn.io)" exporterVersion="6.1.1">
+  <bpmn:process id="Process_0n4i8q2" isExecutable="false">
+    <bpmn:startEvent id="StartEvent_0dsagnd" name="quero * pizza">
+      <bpmn:outgoing>SequenceFlow_0wxu0wh</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:task id="Task_06m9rvy" name="que bom que voce quer uma pizza">
+      <bpmn:incoming>SequenceFlow_0wxu0wh</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1506m23</bpmn:outgoing>
+    </bpmn:task>
+    <bpmn:sequenceFlow id="SequenceFlow_0wxu0wh" sourceRef="StartEvent_0dsagnd" targetRef="Task_06m9rvy" />
+    <bpmn:endEvent id="EndEvent_12hn13c" name="fim do fluxo">
+      <bpmn:incoming>SequenceFlow_1506m23</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_1506m23" sourceRef="Task_06m9rvy" targetRef="EndEvent_12hn13c" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0n4i8q2">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_0dsagnd">
+        <dc:Bounds x="172" y="102" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="158" y="145" width="65" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_06m9rvy_di" bpmnElement="Task_06m9rvy">
+        <dc:Bounds x="260" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0wxu0wh_di" bpmnElement="SequenceFlow_0wxu0wh">
+        <di:waypoint x="208" y="120" />
+        <di:waypoint x="260" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="EndEvent_12hn13c_di" bpmnElement="EndEvent_12hn13c">
+        <dc:Bounds x="412" y="102" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="402" y="145" width="56" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1506m23_di" bpmnElement="SequenceFlow_1506m23">
+        <di:waypoint x="360" y="120" />
+        <di:waypoint x="412" y="120" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

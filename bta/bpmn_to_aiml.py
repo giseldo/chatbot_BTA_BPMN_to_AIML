@@ -107,10 +107,12 @@ def create_category(root_aiml, topic_name, pattern_text, template_text, that_tex
         think_tag = ET.SubElement(template, 'think')
         set_tag = ET.SubElement(think_tag, 'set')
         set_tag.set('name', set_name.upper().replace('_', '').replace('(', '').replace(')', '').replace('$', ''))
-        set_tag.text = set_value.upper()
+        set_tag.text = set_value.upper().replace('*', '<star />')
     if srai_text is not None:
         srai = ET.SubElement(template, 'srai')
         srai.text = srai_text.upper().replace('_', '').replace('(', '').replace(')', '')
+
+
 
 def get_topic_id(root_bpmn):
     for child in root_bpmn:
@@ -191,15 +193,16 @@ def convert_bpmn_to_aiml(root_bpmn, root_aiml):
 
 def lower_case_some_tags(input_file_name, output_file_name):
     file = open(input_file_name, 'r', encoding="utf-8")
-    regexp = re.compile(r'(NAME|SET|GET|CONDITION|LI VALUE|SRAI|THINK|TOPIC|&lt;|&gt;|&lt;LI|LI&gt;)')
+    regexp = re.compile(r'(NAME|SET|GET|CONDITION|LI VALUE|SRAI|THINK|STAR|TOPIC|&lt;|&gt;|&lt;LI|LI&gt;)')
     replacement_map = {
                         'NAME': 'name',
-                        'SET':'set',
+                        'SET': 'set',
                         'GET': 'get',
                         'CONDITION': 'condition',
                         'LI VALUE': 'li value',
                         'SRAI': 'srai',
                         'THINK': 'think',
+                        'STAR': 'star',
                         'TOPIC': 'topic',
                         '&lt;LI': '<li',
                         'LI&gt;': 'li>',
@@ -231,10 +234,14 @@ def transform_bpmn_to_aiml(input_file_name):
     output_file_name_xml = os.path.join("categories/" + only_last_name + '.xml')
     output_file_name_aiml = os.path.join("categories/" + only_last_name + '.aiml')
 
+    output_file_static_name_aiml = os.path.join("static/" + only_last_name + '.aiml')
+
     path_saida = os.path.join(output_file_name_xml)
     caminho_absoluto_saida = os.path.abspath(path_saida)
 
     tree_aiml.write(caminho_absoluto_saida, encoding="UTF-8")
+    # faz uma copia para a pasta static
+    tree_aiml.write(output_file_static_name_aiml, encoding="UTF-8")
 
     # coloca algumas tags em minusculos
     lower_case_some_tags(output_file_name_xml, output_file_name_aiml)

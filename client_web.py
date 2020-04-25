@@ -17,6 +17,8 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 import uuid
 import datetime
 
+import shutil
+
 from programy.utils.logging.ylogger import YLogger
 
 from flask import Flask
@@ -25,6 +27,7 @@ from flask import request
 from flask import make_response
 from flask import abort
 from flask import current_app
+from flask import url_for
 
 from programy.clients.restful.flask.client import FlaskRestBotClient
 from programy.clients.restful.flask.webchat.config import WebChatConfiguration
@@ -180,9 +183,8 @@ def index():
 def aiml():
     filename = request.args.get("filename")
     filename = filename + ".aiml"
-    print("giseldo: {}".format(filename))
 
-    return current_app.send_static_file('../categories/{}'.format(filename))
+    return current_app.send_static_file(filename)
 
 
 @app.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
@@ -200,6 +202,8 @@ app.config['CATEGORIES_FOLDER'] = 'categories'
 app.config['BPMN_FILES'] = 'tmp_dir/bpmn_files'
 app.config['BPMN_FINITE_STATE'] = 'tmp_dir/bpmn_finite_state'
 app.config['BPMN_SIMPLIFIED'] = 'tmp_dir/bpmn_simplified'
+app.config['CATEGORY_FOLDER'] = 'categories'
+app.config['STATIC_FOLDER'] = 'static'
 
 from programy.extensions.admin.hotreload import HotReloadAdminExtension
 
@@ -255,11 +259,9 @@ def upload_file():
         client_context = WEB_CLIENT.create_client_context(userid)
         HotReloadAdminExtension.reload_all(client_context)
 
-        print("giseldo: {}".format(filename))
-
         return '''<html><body><h2>BPMN file loaded sucessfully.</h2>
-                <p><input type="button" value="back" onclick="voltar()"></p>
-                <a href="/aiml?filename=''' + filename + ''' ">Arquivo AIML Gerado</a>
+                <p><input type="button" value="voltar para o chatbot" onclick="voltar()"></p>
+                <a href="/aiml?filename=''' + filename + '''" target="_blank">Abrir o Arquivo AIML Gerado em outra Janela</a>
                 <script>
                     function voltar() {
                         window.history.back();
@@ -308,7 +310,7 @@ def delete_files():
                     
                     <h2>knowledge base deleted.</h2>
                     <p> 
-                        <input type="button" value="back" onclick="voltar()" >
+                        <input type="voltar para o chatbot" value="back" onclick="voltar()" >
                     </p>
                     <script>
                         function voltar() {

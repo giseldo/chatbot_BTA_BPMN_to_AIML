@@ -238,3 +238,4 @@ def transform_bpmn_to_aiml(input_file_name):
 
     # coloca algumas tags em minusculos
     lower_case_some_tags(output_file_name_xml, output_file_name_aiml)
+

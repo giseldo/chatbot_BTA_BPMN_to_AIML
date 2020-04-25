@@ -88,6 +88,12 @@ class WebChatBotClient(FlaskRestBotClient):
             return request.args['question']
         return None
 
+
+    def get_filename(self, request):
+        if 'fname' in request.args:
+            return request.args['fname']
+        return None
+
     def get_userid(self, request):
         userid = request.cookies.get(self.configuration.client_configuration.cookie_id)
         if userid is None:
@@ -165,10 +171,18 @@ app = Flask(__name__)
 
 WEB_CLIENT = WebChatBotClient()
 
-
 @app.route('/')
 def index():
     return current_app.send_static_file('webchat.html')
+
+
+@app.route('/aiml', methods=['GET', 'POST'])
+def aiml():
+    filename = request.args.get("filename")
+    filename = filename + ".aiml"
+    print("giseldo: {}".format(filename))
+
+    return current_app.send_static_file('../categories/{}'.format(filename))
 
 
 @app.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
@@ -193,7 +207,6 @@ from programy.extensions.admin.hotreload import HotReloadAdminExtension
 @app.route('/uploader', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
-
 
         # INICIO DELETE FILES
 
@@ -229,7 +242,6 @@ def upload_file():
         client_context = WEB_CLIENT.create_client_context(userid)
         HotReloadAdminExtension.reload_all(client_context)
 
-
         # FIM DELETE FILES
 
         f = request.files['file']
@@ -243,22 +255,16 @@ def upload_file():
         client_context = WEB_CLIENT.create_client_context(userid)
         HotReloadAdminExtension.reload_all(client_context)
 
-        return '''
-                <html>
-                <body>
-                
-                <h2>BPMN file loaded sucessfully.</h2>
-                <p> 
-                    <input type="button" value="back" onclick="voltar()" >
-                </p>
+        print("giseldo: {}".format(filename))
+
+        return '''<html><body><h2>BPMN file loaded sucessfully.</h2>
+                <p><input type="button" value="back" onclick="voltar()"></p>
+                <a href="/aiml?filename=''' + filename + ''' ">Arquivo AIML Gerado</a>
                 <script>
                     function voltar() {
                         window.history.back();
                     }
-                </script>
-                </body>
-                </html>
-               '''
+                </script></body></html>'''
 
 
 @app.route('/apagar', methods=['GET', 'POST'])

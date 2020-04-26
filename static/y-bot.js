@@ -2,15 +2,14 @@
 $(document).ready(function(){
 
     var synth = window.speechSynthesis;
-
     var msg = new SpeechSynthesisUtterance();
     var voices = synth.getVoices();
+
     msg.voice = voices[0];
     msg.rate = 1;
     msg.pitch = 1;
 
     ask_question = function(question, show_question) {
-
         var xhttp = new XMLHttpRequest();
         xhttp.onload = function () {
             if (this.status == 200 && this.responseText != null) {
@@ -37,9 +36,10 @@ $(document).ready(function(){
 
                 }
 
-               vid.play();
+               // vid.play();
                msg.lang = 'pt-BR'
-               //speechSynthesis.speak(msg);
+               if (document.getElementById("checkcomvoz").checked)
+                   speechSynthesis.speak(msg);
 
              }
         }

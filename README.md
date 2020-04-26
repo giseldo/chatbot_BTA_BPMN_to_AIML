@@ -36,22 +36,25 @@ The BPMN Elements that can be used are: Start Event, End Event, Task and Gateway
 
 Start_Event and Gateway are elements that wait for the user do a input. Task and End_event are the output of the bot.
 
-Also you can save the response of the user for later. For this use a comment in the gateway with the character $ in the start of the variable name. example: $varname). 
+Also you can save the response of the user for later. For this use a comment in the gateway with the character $ in the start of the variable name. example: $varname. 
+
 Later you can use the $varname in task example: "you selected $varname" (don't use wildcards in the variable name).
 
 You can see more at [symbols](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/wiki/Examples). 
 
 ## Installation in your enviroment
-
 $ git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
 
 $ pip install -r requirements
 
-$ python.exe client_web.py  (pycharm recomended, use virtualenv also)
+run client_web.py 
+
+access in your browser http://localhost:5000/
 
 ## Try on-line
 
-There are a instance of the chatbot, with the converter, already configurated for tests available at the adress https://chatbotari.herokuapp.com/
+There are a instance of this chatbot, with the converter, already configurated for tests available at https://chatbotari.herokuapp.com/
+
 
 ## Screens
 
@@ -86,6 +89,15 @@ e-mail: giseldo@gmail.com
 
 skype: giseldo
  
+## Install
 
+pip install -r requirements.txt 
+
+run cliente_web.py
+
+
+
+
+ 
  
 

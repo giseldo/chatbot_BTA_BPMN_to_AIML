@@ -36,12 +36,16 @@ $(document).ready(function(){
 
                 }
 
-               // vid.play();
                msg.lang = 'pt-BR'
+
+               if (document.getElementById("checkcomavatar").checked) {
+                    vid.play();
+               }
+
                if (document.getElementById("checkcomvoz").checked)
                    speechSynthesis.speak(msg);
+               }
 
-             }
         }
 
         xhttp.open("GET", "/api/web/v1.0/ask?question="+question);

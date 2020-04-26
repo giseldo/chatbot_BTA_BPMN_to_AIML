@@ -35,6 +35,7 @@
 
             <div id="chatbox"></div>
 
+
             <form name="message" action="">
                 <div class="container-fluid">
                     <input name="usermsg" type="text" id="usermsg"/>
@@ -45,41 +46,40 @@
 
     </div>
 
-    <div class="rightColumn">
+    <div class="d-none d-md-block">
 
         <div class="d-none d-md-block">
             <center>
-                <video id="myvid" src="static/video/talk.webm" autoplay ></video>
+                <video id="myvid" src="static/video/talk.webm" autoplay></video>
             </center>
-
         </div>
 
         <div class="d-none d-md-block">
-           <input type="checkbox" id="checkcomvoz" name="checkcomvoz" value="voz ativa"/>
+            <input type="checkbox" id="checkcomvoz" name="checkcomvoz" value="voz ativa"/>
             <label for="vehicle1">voz ativa</label>
         </div>
 
+        <div id="upload" class="d-none d-md-block">
+            <form action="uploader" method="POST"
+                  enctype="multipart/form-data">
+                <p><h5>LOAD BPMN FILE</h5></p>
+                <input type="file" name="file" maxlength="14" size="14"/>
+                <p></p>
+                <input type="submit" value="load"/>
+            </form>
+        </div>
+
+        <div id="apagar" class="d-none d-md-block">
+            <hr/>
+            <form action="apagar" method="POST"
+                  enctype="multipart/form-data">
+                <p><h5>DELETE ALL THE BOT KNOWLEDGE BASE</h5></p>
+                <input type="submit" value="delete"/>
+            </form>
+        </div>
 
     </div>
 
-    <div id="upload">
-        <form action="uploader" method="POST"
-              enctype="multipart/form-data">
-            <p><h5>LOAD BPMN FILE</h5></p>
-            <input type="file" name="file" maxlength="14" size="14"/>
-            <p></p>
-            <input type="submit" value="load"/>
-        </form>
-    </div>
-
-    <div id="apagar">
-        <hr/>
-        <form action="apagar" method="POST"
-              enctype="multipart/form-data">
-            <p><h5>DELETE ALL THE BOT KNOWLEDGE BASE</h5></p>
-            <input type="submit" value="delete"/>
-        </form>
-    </div>
 
 </div>
 

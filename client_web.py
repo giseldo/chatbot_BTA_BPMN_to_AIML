@@ -179,12 +179,13 @@ def index():
     return current_app.send_static_file('webchat.html')
 
 
-@app.route('/aiml', methods=['GET', 'POST'])
-def aiml():
-    filename = request.args.get("filename")
-    filename = filename + ".aiml"
+@app.route('/downloadaiml', methods=['GET', 'POST'])
+def downloadaiml():
+    return current_app.send_static_file("diagrama.aiml")
 
-    return current_app.send_static_file(filename)
+@app.route('/downloadbpmn', methods=['GET', 'POST'])
+def downloadbpmn():
+    return current_app.send_static_file("diagrama.bpmn")
 
 
 @app.route(WEB_CLIENT.configuration.client_configuration.api, methods=['GET'])
@@ -242,17 +243,12 @@ def upload_file():
                 for arquivo in arquivos:
                     os.remove(os.path.join(app.config['BPMN_FINITE_STATE'], arquivo))
 
-        userid = WEB_CLIENT.get_userid(request)
-        client_context = WEB_CLIENT.create_client_context(userid)
-        HotReloadAdminExtension.reload_all(client_context)
-
-        # FIM DELETE FILES
+         # FIM DELETE FILES
 
         f = request.files['file']
         filename = secure_filename(f.filename)
         f.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-        # f.save(encoding="utf-8")
-        # Convert BPMN em AIML
+
         converter_bpmn_aiml(os.path.join(app.config['UPLOAD_FOLDER'], filename))
 
         userid = WEB_CLIENT.get_userid(request)
@@ -261,7 +257,6 @@ def upload_file():
 
         return '''<html><body><h2>BPMN file loaded sucessfully.</h2>
                 <p><input type="button" value="voltar para o chatbot" onclick="voltar()"></p>
-                <a href="/aiml?filename=''' + filename + '''" target="_blank">Abrir o Arquivo AIML Gerado em outra Janela</a>
                 <script>
                     function voltar() {
                         window.history.back();
@@ -310,7 +305,7 @@ def delete_files():
                     
                     <h2>knowledge base deleted.</h2>
                     <p> 
-                        <input type="voltar para o chatbot" value="back" onclick="voltar()" >
+                        <input value="voltar para o chatbot" type="button" onclick="voltar()" >
                     </p>
                     <script>
                         function voltar() {

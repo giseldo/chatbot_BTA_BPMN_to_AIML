@@ -22,7 +22,7 @@
 <body>
 
 <div class="d-none d-md-block">
-    <header><h4>COVID TIPS (verão 0.1)</h4></header>
+    <header><h4>CHATBOT COVID TIPS </h4></header>
 </div>
 
 <div class="columnsContainer">
@@ -30,16 +30,15 @@
     <div class="leftColumn">
         <div id="formwrapper">
             <div id="menu">
-                <p class="welcome"><h5>CHAT SCREEN</h5><b></b></p>
+                <p class="welcome"><h5>COVID TIPS (versão 0.3)</h5><b></b></p>
             </div>
 
             <div id="chatbox"></div>
 
-
             <form name="message" action="">
                 <div class="container-fluid">
                     <input name="usermsg" type="text" id="usermsg"/>
-                    <input name="submitmsg" type="submit" id="submitmsg" value="send"/>
+                    <input name="submitmsg" type="submit" id="submitmsg" value=">"/>
                 </div>
             </form>
         </div>
@@ -53,7 +52,7 @@
                 <video id="myvid" src="static/video/talk.webm" autoplay></video>
             </center>
         </div>
-
+<hr/>
         <div class="d-none d-md-block">
             <input type="checkbox" id="checkcomvoz" name="checkcomvoz" value="voz ativa"/>
             <label for="checkcomvoz">voz ativa</label>
@@ -63,28 +62,34 @@
             <input type="checkbox" id="checkcomavatar" name="checkcomavatar" value="voz ativa"/>
             <label for="checkcomvoz">avatar ativo</label>
         </div>
-
+<hr/>
         <div id="upload" class="d-none d-md-block">
             <form action="uploader" method="POST"
                   enctype="multipart/form-data">
-                <p><h5>LOAD BPMN FILE</h5></p>
-                <input type="file" name="file" maxlength="14" size="14"/>
+                <input type="file" name="file" value="load .bpmn"/>
                 <p></p>
-                <input type="submit" value="load"/>
+                <input type="submit" value="upload"/>
             </form>
         </div>
-
+<hr/>
+        <form action="downloadaiml" method="POST"
+                  enctype="multipart/form-data">
+                <input type="submit" value="download .aiml"/>
+        </form>
+<hr/>
+        <form action="downloadbpmn" method="POST"
+                  enctype="multipart/form-data">
+                <input type="submit" value="download .bpmn"/>
+        </form>
+<hr/>
         <div id="apagar" class="d-none d-md-block">
-            <hr/>
             <form action="apagar" method="POST"
                   enctype="multipart/form-data">
-                <p><h5>DELETE ALL THE BOT KNOWLEDGE BASE</h5></p>
-                <input type="submit" value="delete"/>
+                <input type="submit" value="delete files"/>
             </form>
         </div>
 
     </div>
-
 
 </div>
 

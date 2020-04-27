@@ -234,15 +234,16 @@ def transform_bpmn_to_aiml(input_file_name):
     output_file_name_xml = os.path.join("categories/" + only_last_name + '.xml')
     output_file_name_aiml = os.path.join("categories/" + only_last_name + '.aiml')
 
-    output_file_static_name_aiml = os.path.join("static/" + only_last_name + '.aiml')
-
     path_saida = os.path.join(output_file_name_xml)
     caminho_absoluto_saida = os.path.abspath(path_saida)
 
     tree_aiml.write(caminho_absoluto_saida, encoding="UTF-8")
-    # faz uma copia para a pasta static
-    tree_aiml.write(output_file_static_name_aiml, encoding="UTF-8")
-
-    # coloca algumas tags em minusculos
     lower_case_some_tags(output_file_name_xml, output_file_name_aiml)
+
+    # faz uma copia para a pasta static
+    output_file_static_name_aiml = os.path.join("static/diagrama.aiml")
+    tree_aiml.write(output_file_static_name_aiml, encoding="UTF-8")
+    lower_case_some_tags(output_file_static_name_aiml, output_file_name_aiml)
+
+
 

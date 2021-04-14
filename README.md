@@ -89,13 +89,6 @@ e-mail: giseldo@gmail.com
 
 skype: giseldo
  
-## Install
-
-pip install -r requirements.txt 
-
-run cliente_web.py
-
-
 
 
  

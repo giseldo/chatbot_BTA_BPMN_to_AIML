@@ -88,8 +88,6 @@ BOT: THANK YOU FOR CHOOSE OUR PRODUCT
 If you are with problems, want to participate (code or documentation), found a bug or even think this idea is cool contact me or open an issue, this will help the project a lot.
  
 e-mail: giseldo@gmail.com
-
-skype: giseldo
  
 
 

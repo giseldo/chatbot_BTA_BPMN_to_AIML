@@ -45,7 +45,7 @@ You can see more at [symbols](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIM
 ## Installation in your enviroment
 $ git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
 
-$ pip install -r requirements
+$ pip install -r requirements.txt
 
 run client_web.py 
 

@@ -51,6 +51,8 @@ run client_web.py
 
 access in your browser http://localhost:5000/
 
+Tip: Use Pycharm
+
 ## Try on-line
 
 There are a instance of this chatbot, with the converter, already configurated for tests available at https://chatbotari.herokuapp.com/

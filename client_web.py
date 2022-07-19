@@ -215,33 +215,33 @@ def upload_file():
 
         # INICIO DELETE FILES
 
-        path = os.path.join(app.config['CATEGORIES_FOLDER'])
-        caminhoAbsoluto = os.path.abspath(path)
-        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
-            if pastaAtual == caminhoAbsoluto:
-                for arquivo in arquivos:
-                    os.remove(os.path.join(app.config['CATEGORIES_FOLDER'], arquivo))
+        # path = os.path.join(app.config['CATEGORIES_FOLDER'])
+        # caminhoAbsoluto = os.path.abspath(path)
+        # for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+        #    if pastaAtual == caminhoAbsoluto:
+        #        for arquivo in arquivos:
+        #            os.remove(os.path.join(app.config['CATEGORIES_FOLDER'], arquivo))
 
-        path = os.path.join(app.config['BPMN_FILES'])
-        caminhoAbsoluto = os.path.abspath(path)
-        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
-            if pastaAtual == caminhoAbsoluto:
-                for arquivo in arquivos:
-                    os.remove(os.path.join(app.config['BPMN_FILES'], arquivo))
+        # path = os.path.join(app.config['BPMN_FILES'])
+        # caminhoAbsoluto = os.path.abspath(path)
+        # for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+        #    if pastaAtual == caminhoAbsoluto:
+        #        for arquivo in arquivos:
+        #            os.remove(os.path.join(app.config['BPMN_FILES'], arquivo))
 
-        path = os.path.join(app.config['BPMN_SIMPLIFIED'])
-        caminhoAbsoluto = os.path.abspath(path)
-        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
-            if pastaAtual == caminhoAbsoluto:
-                for arquivo in arquivos:
-                    os.remove(os.path.join(app.config['BPMN_SIMPLIFIED'], arquivo))
+        # path = os.path.join(app.config['BPMN_SIMPLIFIED'])
+        # caminhoAbsoluto = os.path.abspath(path)
+        # for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+        #    if pastaAtual == caminhoAbsoluto:
+        #        for arquivo in arquivos:
+        #            os.remove(os.path.join(app.config['BPMN_SIMPLIFIED'], arquivo))
 
-        path = os.path.join(app.config['BPMN_FINITE_STATE'])
-        caminhoAbsoluto = os.path.abspath(path)
-        for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
-            if pastaAtual == caminhoAbsoluto:
-                for arquivo in arquivos:
-                    os.remove(os.path.join(app.config['BPMN_FINITE_STATE'], arquivo))
+        # path = os.path.join(app.config['BPMN_FINITE_STATE'])
+        # caminhoAbsoluto = os.path.abspath(path)
+        # for pastaAtual, subPastas, arquivos in os.walk(caminhoAbsoluto):
+        #    if pastaAtual == caminhoAbsoluto:
+        #        for arquivo in arquivos:
+        #            os.remove(os.path.join(app.config['BPMN_FINITE_STATE'], arquivo))
 
          # FIM DELETE FILES
 

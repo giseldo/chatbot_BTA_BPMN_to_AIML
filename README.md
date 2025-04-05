@@ -43,7 +43,6 @@ You can see more at [symbols](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIM
 
 ## Installation in your enviroment
 
-
 $ git clone https://github.com/giseldo/chatbot_ari_bpmn_to_aiml.git 
 
 $ pip install -r requirements.txt
@@ -52,11 +51,7 @@ run client_web.py (python.exe client_web.py)
 
 access in your browser http://localhost:5000/
 
-Tip: Use Pycharm
-Tip: Microsoft Visual C++ 14.0 or greater is required. Get it with "Microsoft C++ Build Tools": https://visualstudio.microsoft.com/visual-cpp-build-tools/
-
 ## Screens
-
 
 ### Chatbot 
 
@@ -85,3 +80,6 @@ BOT: THANK YOU FOR CHOOSE OUR PRODUCT
 If you are with problems, want to participate (code or documentation), found a bug or even think this idea is cool contact me or open an issue, this will help the project a lot.
  
 e-mail: giseldo@gmail.com
+
+[![Star](https://img.shields.io/github/stars/USUARIO/REPOSITORIO?style=social)](https://github.com/USUARIO/REPOSITORIO/stargazers)
+

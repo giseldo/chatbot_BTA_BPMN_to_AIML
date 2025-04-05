@@ -81,5 +81,5 @@ If you are with problems, want to participate (code or documentation), found a b
  
 e-mail: giseldo@gmail.com
 
-[![Star](https://img.shields.io/github/stars/USUARIO/REPOSITORIO?style=social)](https://github.com/USUARIO/REPOSITORIO/stargazers)
+[![Star](https://img.shields.io/github/stars/USUARIO/REPOSITORIO?style=social)](https://github.com/giseldo/chatbot_BTA_BPMN_to_AIML/stargazers)
 
